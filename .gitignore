@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Rotating logs
+logs/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Only these documentation folders are versioned. Ticket folders and generated pages stay local.
+docs/*
+!docs/specs/
+!docs/functional/
+!docs/technical/

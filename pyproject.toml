@@ -1,0 +1,73 @@
+[project]
+name = "simple-erp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Guillaume PAUPARD", email = "gpaupard@scaleway.com" }
+]
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "colorlog>=6.9.0",
+]
+
+[project.scripts]
+simple-erp = "api.cli.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = "src"
+module-name = ["api", "service", "storage", "models"]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.0",
+    "pytest>=8.4.0",
+    "pytest-asyncio>=1.2.0",
+    "pytest-timeout>=2.4.0",
+    "pytest-xdist>=3.8.0",
+    "ruff>=0.13.0",
+    "types-pyyaml>=6.0.12",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "N", "D", "UP", "B", "SIM", "G", "PT", "RUF"]
+# `Dict`/`List`/`Optional` are the house typing style.
+# `*Exception` is the house exception suffix, and a one-class-per-file package needs no module docstrings.
+# `RUF100`: the `# noqa: E501` on a multi-sentence message stops `ruff format` from joining its lines back into one.
+ignore = ["UP006", "UP007", "UP035", "UP045", "RUF012", "RUF100", "D100", "D104", "N818"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+
+[tool.ruff.lint.pep8-naming]
+classmethod-decorators = ["pydantic.field_validator"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+known-first-party = ["api", "service", "storage", "models", "tests"]
+
+[tool.mypy]
+python_version = "3.13"
+mypy_path = "src"
+explicit_package_bases = true
+namespace_packages = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "--strict-markers --import-mode=importlib -n 2 --timeout=120"
