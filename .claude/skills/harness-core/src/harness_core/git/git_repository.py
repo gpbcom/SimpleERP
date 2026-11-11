@@ -329,6 +329,41 @@ class GitRepository:
         """
         return self._git("merge-base", first, second)
 
+    def last_commit(self, path: str, refs: List[str]) -> Optional[str]:
+        """Give the newest commit, on some refs, that adds or changes a path.
+
+        Args:
+            path (str): The file or folder, relative to the repository root.
+            refs (List[str]): The refs to search, such as ``origin/develop``, or ``--remotes`` for every
+                remote-tracking branch.
+
+        Returns:
+            Optional[str]: The full hash, ``None`` when no commit of those refs adds or changes the path.
+
+        Notes:
+            - A commit that only deletes the path is skipped, so the path exists at the commit returned.
+            - The history is read in topological order, so a child comes before its parent even when both were
+              made in the same second.
+        """
+        found = self._git("log", "-1", "--topo-order", "--format=%H", "--diff-filter=ACMRT", *refs, "--", path)
+        self.logger.debug("The last commit of %s on %s is %s.", path, " ".join(refs), found or "none")
+        return found or None
+
+    def path_exists(self, commit: str, path: str) -> bool:
+        """Tell whether a file or folder exists at a commit.
+
+        Args:
+            commit (str): The commit hash.
+            path (str): The file or folder, relative to the repository root.
+
+        Returns:
+            bool: ``True`` when the commit holds the path. ``False`` too when the commit is unknown.
+        """
+        result = subprocess.run(
+            ["git", "-C", str(self.root), "cat-file", "-e", f"{commit}:{path}"], capture_output=True, check=False
+        )
+        return result.returncode == 0
+
     def main_root(self) -> Path:
         """Give the top-level folder of the main checkout, the same as ``root`` unless this is a linked worktree.
 
