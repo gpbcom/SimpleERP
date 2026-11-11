@@ -1,0 +1,194 @@
+# What `ticket-docs check` requires of a ticket folder, from the ticket-docs skill and its templates/.
+# Read by FolderRules. Created on 2026-11-10.
+
+# Files and folders every ticket folder holds from its creation.
+required_files:
+  - EXPLAIN.md
+  - IMPLEMENTATION.md
+  - PLAN.md
+  - PROGRESS.md
+  - README.md
+  - TESTS-CATALOG.md
+  - TESTS-NOTICE.md
+  - TICKET.md
+  - attachments
+  - tests-evidences/README.md
+
+# Files written at the hand-over: required, and linkable, only once the hand-over row of PROGRESS.md is done.
+handover_files:
+  - RELEASE-NOTE.md
+
+# Headings each file keeps from its template (a line starting with the text).
+headings:
+  TICKET.md:
+    - "## Acceptance criteria"
+  PLAN.md:
+    - "## Acceptance criteria → unit tests → validation"
+    - "## Development rules enforced"
+    - "## Files modified"
+  IMPLEMENTATION.md:
+    - "## 0. Files modified"
+    - "## 1. Implementation choices"
+  PROGRESS.md:
+    - "**Legend:**"
+    - "## Status"
+    - "## Stage validation"
+    - "## Documentation"
+    - "## Release note"
+    - "## Pull request"
+    - "## Acceptance criteria — final verification"
+  EXPLAIN.md:
+    - "### 6.1"
+    - "### 6.2"
+    - "### 6.3"
+  STATUS.md:
+    - "**Legend:**"
+    - "### How to resume"
+  tests-evidences/README.md:
+    - "## Index"
+
+# Template placeholders replaced when a file is copied: never left in any file.
+placeholders:
+  - "<KEY>"
+  - "<TITLE>"
+  - "<DATE>"
+
+# Files that keep no template slot (<…>) once the ticket is handed over.
+finished_files:
+  - EXPLAIN.md
+  - IMPLEMENTATION.md
+  - PLAN.md
+  - README.md
+  - RELEASE-NOTE.md
+  - TESTS-CATALOG.md
+  - TESTS-NOTICE.md
+  - TICKET.md
+
+# The status icons a status cell or a STATUS.md entry starts with.
+status_icons: ["✅", "🔄", "⬜", "⏳", "⏸️", "▶️", "❌", "⚠️", "🚫"]
+
+# The rows of PROGRESS.md's Stage validation table, by their first icon: local, dev stage, QA stage.
+stage_icons: ["💻", "🟦", "🟪"]
+
+# Sections whose ✅ cells are test results, so each needs its evidence link (TEST-8).
+result_sections:
+  - "Stage validation"
+  - "Acceptance criteria — final verification"
+  - "4.4 Last results"
+  - "5. Acceptance criteria"
+
+# Words that make a Status step a test run, whose ✅ needs its evidence link (TEST-8).
+run_steps: ["TDD", "check", "stage", "audit", "acceptance", "run"]
+
+# Production code (TEST-7). A pattern ending with / is a folder, matched from the repository root.
+production_paths:
+  - "src/"
+  - "services/*/src/"
+  - "frontends/*/src/"
+  - "packages/"
+  - ".claude/skills/*/src/"
+
+# File names that are never production code. AGENT.md keeps package markers to imports and __all__, and a
+# tests-only commit (TEST-7) needs them for its tests to be collected. Decided on 2026-11-10 (GH-1).
+marker_files:
+  - "__init__.py"
+
+# Test files. A pattern ending with / is a folder; any other pattern is matched against the file name.
+test_paths:
+  - "tests/"
+  - "*/tests/"
+  - "e2e/"
+  - "*/e2e/"
+  - "test_*.py"
+  - "*_test.py"
+  - "*.spec.ts"
+  - "*.test.ts"
+
+# The folders of the guards' own state: the squash permits (GIT-4) and the AI test ledgers (TEST-5). git-gate refuses
+# a Bash command that names one, and file-gate a Write or Edit inside one. Added on 2026-11-11.
+guard_state_folders:
+  - "~/.local/state/claude-harness/squash-permits"
+  - "~/.local/state/ai-test-cost"
+
+# How long a squash permit of `ticket-docs allow-squash` counts, in minutes (GIT-4, TEST-7). Added on 2026-11-11.
+squash_permit_minutes: 30
+
+# The long options of `git commit` (git 2.39, `git commit --git-completion-helper-all`), without dashes. A value-taking
+# option ends with =. git-gate reads an abbreviated option against this list, and treats an ambiguous or unknown
+# one as taking more than the index (TEST-7). Added on 2026-11-10.
+commit_options:
+  - "quiet"
+  - "verbose"
+  - "file="
+  - "author="
+  - "date="
+  - "message="
+  - "reedit-message="
+  - "reuse-message="
+  - "fixup="
+  - "squash="
+  - "reset-author"
+  - "trailer="
+  - "signoff"
+  - "template="
+  - "edit"
+  - "cleanup="
+  - "status"
+  - "gpg-sign"
+  - "all"
+  - "include"
+  - "interactive"
+  - "patch"
+  - "only"
+  - "no-verify"
+  - "dry-run"
+  - "short"
+  - "branch"
+  - "ahead-behind"
+  - "porcelain"
+  - "long"
+  - "null"
+  - "amend"
+  - "no-post-rewrite"
+  - "untracked-files"
+  - "pathspec-from-file="
+  - "pathspec-file-nul"
+  - "allow-empty"
+  - "allow-empty-message"
+  - "verify"
+  - "post-rewrite"
+  - "no-quiet"
+  - "no-verbose"
+  - "no-file"
+  - "no-author"
+  - "no-date"
+  - "no-message"
+  - "no-reedit-message"
+  - "no-reuse-message"
+  - "no-fixup"
+  - "no-squash"
+  - "no-reset-author"
+  - "no-signoff"
+  - "no-template"
+  - "no-edit"
+  - "no-cleanup"
+  - "no-status"
+  - "no-gpg-sign"
+  - "no-all"
+  - "no-include"
+  - "no-interactive"
+  - "no-patch"
+  - "no-only"
+  - "no-dry-run"
+  - "no-short"
+  - "no-branch"
+  - "no-ahead-behind"
+  - "no-porcelain"
+  - "no-long"
+  - "no-null"
+  - "no-amend"
+  - "no-untracked-files"
+  - "no-pathspec-from-file"
+  - "no-pathspec-file-nul"
+  - "no-allow-empty"
+  - "no-allow-empty-message"

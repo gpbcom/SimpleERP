@@ -1,0 +1,30 @@
+[project]
+name = "release-notes"
+version = "0.1.0"
+description = "Checks the changelog fragments and release notes, suggests the next version, builds CHANGELOG.md and the GitHub Release body (DOC-3)."
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "harness-core",
+    "httpx>=0.28.0",
+    "pydantic>=2.11.0",
+    "pydantic-settings>=2.10.0",
+    "pyyaml>=6.0.2",
+]
+
+[project.scripts]
+release-notes = "release_notes.api.cli.main:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "release_notes"
+
+[tool.uv.sources]
+harness-core = { workspace = true }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "--strict-markers --import-mode=importlib --timeout=120"

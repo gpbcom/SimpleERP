@@ -1,0 +1,7 @@
+from __future__ import annotations
+
+from pr_watch.models.pull_requests.exceptions.se_invalid_pr_review_exception import SEInvalidPrReviewException
+
+
+class SEPrReviewInvalidBody(SEInvalidPrReviewException):
+    """Exception raised when an invalid ``body`` is provided."""

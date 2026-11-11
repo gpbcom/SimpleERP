@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the Claude PR watcher every 10 minutes on working days, 08:00-19:50
+
+[Timer]
+OnCalendar=Mon..Fri *-*-* 08..19:00/10:00
+Persistent=false
+Unit=claude-pr-watch.service
+
+[Install]
+WantedBy=timers.target

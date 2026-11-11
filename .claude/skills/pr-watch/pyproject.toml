@@ -1,0 +1,30 @@
+[project]
+name = "pr-watch"
+version = "0.1.0"
+description = "Watch a ticket's open pull request on GitHub and bring its problems to the ticket's own Claude Code session."
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "harness-core",
+    "httpx>=0.28.0",
+    "pydantic>=2.11.0",
+    "pydantic-settings>=2.10.0",
+]
+
+[project.scripts]
+pr-watch = "pr_watch.api.cli.main:main"
+pr-watch-hook = "pr_watch.api.cli.hook_main:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "pr_watch"
+
+[tool.uv.sources]
+harness-core = { workspace = true }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "--strict-markers --import-mode=importlib --timeout=120"

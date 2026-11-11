@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Runs the AI test cost guard from the harness's uv workspace. The caller's folder is passed on, so that a guarded
+# command runs where it was called and its COST.md lands in the caller's repository.
+set -euo pipefail
+skills="$(cd "$(dirname "$(readlink -f "$0")")/../.." && pwd)"
+export AI_COST_CALLER_CWD="$PWD"
+exec env -u VIRTUAL_ENV uv run --project "$skills" --frozen -q ai-cost "$@"

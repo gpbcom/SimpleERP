@@ -1,0 +1,28 @@
+version: 2
+updates:
+  - package-ecosystem: uv
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "deps"
+  - package-ecosystem: uv
+    directory: /.claude/skills
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "deps(harness)"
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "ci"
+  - package-ecosystem: docker
+    directories: ["/services/*", "/frontends/*"]
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directories: ["/frontends/*"]
+    schedule:
+      interval: weekly

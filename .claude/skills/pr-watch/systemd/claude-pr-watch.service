@@ -1,0 +1,12 @@
+[Unit]
+Description=Claude PR watcher: check the open pull requests and reopen the ticket's own Claude Code session
+Documentation=file://${skill_dir}/SKILL.md
+
+[Service]
+Type=oneshot
+# The desktop variables (DISPLAY, WAYLAND_DISPLAY, DBUS_SESSION_BUS_ADDRESS) come from
+# `systemctl --user import-environment`, run once per login (see the pr-watch skill).
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
+WorkingDirectory=${repository_root}
+ExecStart=${skill_dir}/bin/pr-watch once
+TimeoutStartSec=15min

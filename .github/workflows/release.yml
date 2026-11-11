@@ -1,0 +1,88 @@
+name: Release
+
+# A v<x.y.z> tag on master (GIT-8): publish the images under the version, and the GitHub Release with the changelog
+# section, the issues' release notes (DOC-3) and the QA reports of the released commit (TEST-9).
+on:
+  push:
+    tags: ['v*.*.*']
+
+permissions:
+  contents: read
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      services: ${{ steps.detect.outputs.services }}
+      frontends: ${{ steps.detect.outputs.frontends }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - id: detect
+        run: .github/scripts/detect-components.sh
+
+  images:
+    needs: detect
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9 # v3.7.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Tag the commit's images with the version
+        env:
+          NAMES: ${{ join(fromJSON(needs.detect.outputs.services), ' ') }} ${{ join(fromJSON(needs.detect.outputs.frontends), ' ') }}
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          for name in $NAMES; do
+            image="ghcr.io/${{ github.repository_owner }}/simple-erp-$name"
+            docker buildx imagetools create -t "$image:$version" -t "$image:latest" "$image:${{ github.sha }}"
+          done
+
+  release:
+    needs: images
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+      issues: read
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86 # v5.4.2
+        with:
+          enable-cache: true
+          python-version-file: .python-version
+      - run: uv sync --frozen
+        working-directory: .claude/skills
+      - name: Release body (DOC-3)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: .claude/skills/release-notes/bin/release-notes release-body "${GITHUB_REF_NAME#v}" > release-body.md
+      - name: QA reports of the released commit (TEST-9)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p qa-reports
+          # The QA run of the tagged commit, or of the release branch it merged (the merge commit's parents).
+          run_id=$(git log --format=%H -n 20 "${{ github.sha }}" | while read -r sha; do
+            gh run list --workflow stage.yml --commit "$sha" --status success --json databaseId,displayTitle \
+              --jq '[.[] | select(.displayTitle | startswith("Stage qa"))][0].databaseId // empty'
+          done | head -1)
+          if [ -n "$run_id" ]; then
+            gh run download "$run_id" --dir qa-reports
+            (cd qa-reports && zip -qr "../qa-reports-${GITHUB_REF_NAME}.zip" .)
+            echo "QA run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/$run_id" >> release-body.md
+          else
+            echo "No successful QA stage run found for this commit." | tee -a release-body.md
+          fi
+      - name: GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          assets=$(ls qa-reports-*.zip 2>/dev/null || true)
+          gh release create "$GITHUB_REF_NAME" --title "simple-erp ${GITHUB_REF_NAME#v}" --notes-file release-body.md --verify-tag $assets

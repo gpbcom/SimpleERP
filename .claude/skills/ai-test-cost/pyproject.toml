@@ -1,0 +1,30 @@
+[project]
+name = "ai-test-cost"
+version = "0.1.0"
+description = "Caps what the paid AI tests of a ticket cost, measures each run and refuses unguarded paid commands."
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "harness-core",
+    "httpx>=0.28.0",
+    "pydantic>=2.11.0",
+    "pydantic-settings>=2.10.0",
+    "pyyaml>=6.0.2",
+]
+
+[project.scripts]
+ai-cost = "ai_cost.api.cli.main:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "ai_cost"
+
+[tool.uv.sources]
+harness-core = { workspace = true }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "--strict-markers --import-mode=importlib --timeout=120"

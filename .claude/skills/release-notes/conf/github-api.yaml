@@ -1,0 +1,5 @@
+# How `release-notes release-body` reads GitHub's REST API (the issues' release-note comments).
+# The token is never configured: it comes from GITHUB_TOKEN, or else from `gh auth token`.
+# The repository's owner and name come from .claude/skills/ticket-docs/conf/github.yaml.
+api_url: https://api.github.com
+api_version: "2022-11-28"
