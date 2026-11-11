@@ -173,3 +173,33 @@ class TestGitRepository:
         alone = commit_file(sandbox, "a.txt")
         with pytest.raises(SEGitCommandFailedError):
             GitRepository(sandbox).merge_base("develop", alone)
+
+    def test_the_last_commit_of_a_path_is_read_on_the_refs_given(self, sandbox: Path) -> None:
+        first = commit_file(sandbox, "docs/specs/f01.md")
+        second = commit_file(sandbox, "docs/specs/f01.md", "changed\n")
+        git(sandbox, "update-ref", "refs/remotes/origin/develop", first)
+        git(sandbox, "update-ref", "refs/remotes/origin/feature/GH-2-specs", second)
+        repository = GitRepository(sandbox)
+        assert repository.last_commit("docs/specs/f01.md", ["origin/develop"]) == first
+        assert repository.last_commit("docs/specs/f01.md", ["--remotes"]) == second
+        assert repository.last_commit("docs/specs", ["origin/develop"]) == first
+
+    def test_a_path_never_committed_on_the_refs_has_no_last_commit(self, sandbox: Path) -> None:
+        commit_file(sandbox, "local.md")
+        git(sandbox, "update-ref", "refs/remotes/origin/develop", git(sandbox, "rev-parse", "HEAD~1"))
+        assert GitRepository(sandbox).last_commit("local.md", ["origin/develop"]) is None
+
+    def test_the_commit_that_deletes_a_path_is_not_its_last_commit(self, sandbox: Path) -> None:
+        added = commit_file(sandbox, "gone.md")
+        git(sandbox, "rm", "-q", "gone.md")
+        git(sandbox, "commit", "-q", "-m", "remove gone.md")
+        assert GitRepository(sandbox).last_commit("gone.md", ["develop"]) == added
+
+    def test_a_path_exists_at_a_commit_or_not(self, sandbox: Path) -> None:
+        before = git(sandbox, "rev-parse", "HEAD")
+        after = commit_file(sandbox, "docs/specs/f01.md")
+        repository = GitRepository(sandbox)
+        assert repository.path_exists(after, "docs/specs/f01.md")
+        assert repository.path_exists(after, "docs/specs")
+        assert not repository.path_exists(before, "docs/specs/f01.md")
+        assert not repository.path_exists("0" * 40, "README.md")

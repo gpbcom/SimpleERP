@@ -5,6 +5,10 @@ harness's own documentation is in [.claude/harness-docs/](../../.claude/harness-
 
 ## Tracking
 
+- Work is planned as **features made of tickets** (GIT-10): a feature is a parent issue labelled `feature` and one
+  family (`HARNESS`, `SPECS`, `PRODUCT`); its tickets are sub-issues with exactly one component label (`HARNESS`,
+  `SPECS`, `INFRA`, `BACKEND`, `FRONTEND`), titled `[LABEL] Verb phrase`, with the sections Description,
+  Implementation, Acceptance criteria, Tests, References and Attachments, every reference pinned to a commit.
 - A ticket is a GitHub issue `#<n>`, written `GH-<n>`. The project board "simple-erp" holds its status: Backlog,
   Ready, In progress, In review, QA, Done.
 - Its working folder `docs/tickets/GH-<n>/` is local: plan, progress and times, decisions, evidence. It is archived
@@ -47,4 +51,4 @@ Every squash and every push waits for the owner's explicit yes (GIT-1).
 | PreToolUse (Bash) | `ticket-docs git-gate` | Refuses production code committed before its red tests |
 | PostToolUse (Bash) | `ticket-docs time-reminder` | Asks to update PROGRESS.md's times after a commit |
 
-Last reviewed: 2026-11-10 (GH-1)
+Last reviewed: 2026-11-11 (GH-18)

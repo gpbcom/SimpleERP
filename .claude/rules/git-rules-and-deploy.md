@@ -20,6 +20,8 @@ These rules apply to simple-erp. They apply to anyone who commits, pushes, opens
 | [GIT-6](#git-6--the-qa-run-starts-only-once-every-previous-step-has-passed) | The QA stage run of a pull request starts only once every previous step has passed, and is announced on the pull request | 2026-11-10 |
 | [GIT-7](#git-7--a-pull-request-is-fixed-only-in-its-tickets-own-claude-session) | A pull request is fixed, rebased or pushed only in its ticket's own Claude session | 2026-11-10 |
 | [GIT-8](#git-8--branches-follow-gitflow) | Branches follow GitFlow: names, bases, targets, releases, hotfixes and version tags | 2026-11-10 |
+| GIT-9 | Reserved: every piece of work is an issue on the board, its Status following the work ([issue #4](https://github.com/gpbcom/simple-erp/issues/4), not written yet) | — |
+| [GIT-10](#git-10--a-feature-is-a-parent-issue-made-of-labelled-tickets) | A feature is a parent issue made of tickets (sub-issues); each ticket has exactly one component label, allowed by the feature's family, and follows the ticket format | 2026-11-11 |
 | [DEP-1](#dep-1--every-dependency-file-resolves-and-installs-before-a-push-or-a-stage-run) | Every dependency file resolves and installs, on each runtime and platform the pipeline uses, before a push or a stage run | 2026-11-10 |
 | [DEP-2](#dep-2--a-version-change-keeps-the-file-and-its-copies-consistent) | A version change regenerates lock files with their own command, and moves every copy of the pin | 2026-11-10 |
 | [DEP-3](#dep-3--a-dependency-error-in-a-workflow-log-is-a-failure) | A dependency error in a GitHub Actions log is a failure, even when the job ends green | 2026-11-10 |
@@ -168,6 +170,72 @@ gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=<the pull request's 
 
 ```bash
 git branch --show-current | grep -vxE 'master|develop|feature/GH-[0-9]+-[a-z0-9]+(-[a-z0-9]+)*|bugfix/GH-[0-9]+-[a-z0-9]+(-[a-z0-9]+)*|release/[0-9]+\.[0-9]+\.[0-9]+|hotfix/[0-9]+\.[0-9]+\.[0-9]+-GH-[0-9]+-[a-z0-9]+(-[a-z0-9]+)*'
+```
+
+
+### GIT-10 — A feature is a parent issue made of labelled tickets
+
+**Rule:** work is planned on GitHub as features made of tickets, like epics and stories.
+
+1. **A feature** is an issue labelled `feature` and exactly one **family** label: `HARNESS`, `SPECS` or `PRODUCT`. Its tickets are its GitHub **sub-issues**. **A feature is never empty**: it has at least one ticket.
+2. **A ticket** is a sub-issue of exactly one feature, with **exactly one component label**: `HARNESS`, `SPECS`, `INFRA`, `BACKEND` or `FRONTEND`. The secondary labels `type:*` and `priority:*` stay; there is no `area:*` label.
+3. **The family decides the components:**
+
+   | Feature family | Its tickets may be |
+   |---|---|
+   | `HARNESS` | `HARNESS` only |
+   | `SPECS` | `SPECS` only |
+   | `PRODUCT` | `INFRA`, `BACKEND`, `FRONTEND`, alone or mixed, at the developer's will |
+
+4. **One ticket, one delivery:** each ticket has its own branch (`feature|bugfix/GH-<n>-<slug>`, GIT-8), pull request, ticket folder and board card. A feature is closed when all its tickets are.
+5. **A ticket's title** is `[LABEL] Verb phrase`, the label being its component, under 80 characters: `[BACKEND] Store a customer with its VAT number`.
+6. **A ticket's body** has these sections, in this order:
+
+   | Section | Holds |
+   |---|---|
+   | `## Description` | A user story (`As a <persona>, I want … so that …`, personas from `docs/specs/01-users`) and/or the problems and goals |
+   | `## Implementation` | Bullets **Approach**, **Where** (services, front ends, packages, files), **Contracts** (API, entity, configuration, event), **Open questions** |
+   | `## Acceptance criteria` | A task list of numbered criteria, `- [ ] **AC1** Given …, when …, then … (<reference>)`, each naming the spec rule or decision it proves, plus non-regression criteria |
+   | `## Tests` | A table `ID \| Level \| Proves \| AC`: the tests planned per criterion and level (unit, GUI Playwright, E2E stage, Bruno API); every criterion has at least one |
+   | `## References` | A table `ID \| What \| Link`, **at least one**: product tickets reference the specifications (`fNN`, `tNN`, `dNNN` decisions, `br-fNN-NN` business rules, `e-fNN-NN` entities, UX screens, non-functional pages, country rules); `HARNESS` tickets reference harness rules (`CS-n`, `GIT-n`, `DEP-n`, `TEST-n`, `DOC-n`) |
+   | `## Attachments` | The relevant spec files: images shown inline, Markdown files linked |
+
+7. **Every reference and attachment is a permalink pinned to a commit**: `https://github.com/gpbcom/simple-erp/blob/<40-character commit>/<path>`, so the ticket never changes meaning when the specifications move on.
+8. **A feature's body** has the sections `## Goal`, `## Specifications delivered`, `## Out of scope`, `## Tickets`.
+
+The machine-readable version of this rule is `.claude/skills/ticket-docs/conf/issue-rules.yaml` (families, components, matrix, title pattern, sections, reference patterns).
+
+**Source:** the owner, 2026-11-11, after an interview on the ticket format; the existing issues were backfilled the same day (features #15 harness, #16 specifications, #17 CI/CD).
+
+**Why:**
+- A feature groups the tickets that deliver one goal, and the board shows its progress through its sub-issues.
+- One label per ticket says which part of the system it changes; the family matrix keeps harness and specification work apart from product work.
+- One format, with references pinned to the specifications, lets anyone check that a ticket implements what was decided, and lets the ticket folder (`ticket-docs create`) take its acceptance criteria unchanged.
+
+**How to apply:**
+1. Before any work, find or create the feature, then create the ticket under it from `.claude/skills/ticket-docs/templates/` (until `ticket-docs new-feature` and `new-ticket` exist, issue #18: `gh issue create`, then `gh api -X POST repos/gpbcom/simple-erp/issues/<feature>/sub_issues -F sub_issue_id=<ticket id>`).
+2. Write the body in the format above; pin every `docs/specs/…` and `.claude/…` link to the commit it was read at.
+3. Put the ticket on the board with its Status (GIT-9, issue #4).
+4. Never give a ticket a second component label: split it into two tickets instead.
+
+**Check (until `ticket-docs check-issues` exists, issue #18):** this must print nothing:
+
+```bash
+gh api graphql -f query='query{ repository(owner:"gpbcom", name:"simple-erp"){ issues(first:100, states:[OPEN,CLOSED]){ nodes{ number title labels(first:10){ nodes{ name } } parent{ number labels(first:10){ nodes{ name } } } subIssues(first:50){ totalCount } } } } }' --jq '
+  .data.repository.issues.nodes[] | ([.labels.nodes[].name]) as $l
+  | if ($l | index("feature")) then
+      ([$l[] | select(. == "HARNESS" or . == "SPECS" or . == "PRODUCT")] | length) as $f
+      | if $f != 1 then "#\(.number): a feature needs exactly one family label"
+        elif .subIssues.totalCount == 0 then "#\(.number): empty feature" else empty end
+    else
+      ([$l[] | select(. == "HARNESS" or . == "SPECS" or . == "INFRA" or . == "BACKEND" or . == "FRONTEND")]) as $c
+      | if ($c | length) != 1 then "#\(.number): a ticket needs exactly one component label"
+        elif .parent == null then "#\(.number): a ticket needs a parent feature"
+        else ([.parent.labels.nodes[].name | select(. == "HARNESS" or . == "SPECS" or . == "PRODUCT")][0]) as $fam
+          | if ($fam == "HARNESS" or $fam == "SPECS") and $c[0] != $fam then "#\(.number): a \($fam) feature holds only \($fam) tickets"
+            elif $fam == "PRODUCT" and ($c[0] == "HARNESS" or $c[0] == "SPECS") then "#\(.number): a PRODUCT feature holds only INFRA, BACKEND or FRONTEND tickets"
+            elif (.title | test("^\\[[A-Z]+\\] ") | not) or (.title | startswith("[" + $c[0] + "] ") | not) then "#\(.number): title must start with [\($c[0])]"
+            else empty end end end'
 ```
 
 ## Deploy

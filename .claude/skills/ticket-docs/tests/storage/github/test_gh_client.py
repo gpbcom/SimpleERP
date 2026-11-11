@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import json
 import logging
 from datetime import UTC, datetime
@@ -9,6 +10,7 @@ import pytest
 
 from tests.builders.fake_gh import FakeGh
 from ticket_docs.models.enums import RunConclusion
+from ticket_docs.models.issues.enums import IssueState
 from ticket_docs.storage.github.exceptions import SEGhAnswerUnreadableError, SEGhCommandFailedError
 from ticket_docs.storage.github.gh_client import GhClient
 
@@ -113,4 +115,99 @@ class TestGhClient:
             f"gh release view evidence-GH-1 --repo {self.REPO} --json tagName,assets",
             f"gh issue comment 1 --repo {self.REPO} --body 'Ticket folder archived.'",
             f"gh release view evidence-GH-1 --repo {self.REPO} --json tagName,assets",
+        ]
+
+    ISSUE = {
+        "number": 13,
+        "id": 6328695016,
+        "title": "[INFRA] Accept a short SHA as ref in stage.yml",
+        "body": "## Description\n",
+        "state": "open",
+        "labels": ["INFRA"],
+        "parent": 17,
+        "sub_issues": 0,
+    }
+    SHA = "b2507e41547ef8017f964d4ee7a6283e6a19e3ef"
+
+    def test_every_issue_is_listed_without_the_pull_requests(self, gh: FakeGh, logger: logging.Logger) -> None:
+        feature = {**self.ISSUE, "number": 17, "title": "CI/CD pipeline", "parent": None, "sub_issues": 1}
+        gh.answer(["api", "--paginate"], stdout=f"{json.dumps(self.ISSUE)}\n{json.dumps(feature)}\n")
+        issues = GhClient(self.REPO, logger=logger).issues()
+        assert [(issue.number, issue.state, issue.parent) for issue in issues] == [
+            (13, IssueState.OPEN, 17),
+            (17, IssueState.OPEN, None),
+        ]
+        call = gh.calls()[0]
+        assert call[:3] == ["api", "--paginate", f"repos/{self.REPO}/issues?state=all&per_page=100"]
+        assert call[3] == "--jq"
+        assert "select(.pull_request == null)" in call[4]
+        assert "parent_issue_url" in call[4]
+
+    def test_one_issue_is_read(self, gh: FakeGh, logger: logging.Logger) -> None:
+        gh.answer(["api", f"repos/{self.REPO}/issues/13"], stdout=json.dumps(self.ISSUE))
+        assert GhClient(self.REPO, logger=logger).issue(13).title.startswith("[INFRA]")
+
+    def test_an_issue_is_created_labelled_then_linked(self, gh: FakeGh, logger: logging.Logger) -> None:
+        gh.answer(["api", "-X", "POST", f"repos/{self.REPO}/issues", "-f"], stdout=json.dumps(self.ISSUE))
+        client = GhClient(self.REPO, logger=logger)
+        created = client.issue_create("[INFRA] Accept a short SHA", "## Description\n", ["INFRA", "type:bug"])
+        client.sub_issue_add(17, created.id)
+        client.issue_label(13, ["priority:high"])
+        client.issue_update(13, "[INFRA] Accept a SHA", "## Description\nNew.\n")
+        calls = gh.calls()
+        assert calls[0][:4] == ["api", "-X", "POST", f"repos/{self.REPO}/issues"]
+        assert calls[0][4:12] == [
+            "-f", "title=[INFRA] Accept a short SHA", "-f", "body=## Description\n",
+            "-f", "labels[]=INFRA", "-f", "labels[]=type:bug",
+        ]  # fmt: skip
+        assert calls[1] == [
+            "api",
+            "-X",
+            "POST",
+            f"repos/{self.REPO}/issues/17/sub_issues",
+            "-F",
+            "sub_issue_id=6328695016",
+        ]
+        assert calls[2] == ["api", "-X", "POST", f"repos/{self.REPO}/issues/13/labels", "-f", "labels[]=priority:high"]
+        assert calls[3] == [
+            "api", "-X", "PATCH", f"repos/{self.REPO}/issues/13",
+            "-f", "title=[INFRA] Accept a SHA", "-f", "body=## Description\nNew.\n",
+        ]  # fmt: skip
+
+    def test_a_file_is_read_at_a_commit(self, gh: FakeGh, logger: logging.Logger) -> None:
+        content = base64.b64encode("# GIT-6 \u00e9 the QA run\n".encode()).decode()
+        gh.answer(
+            ["api", f"repos/{self.REPO}/contents/.claude/rules/git%20rules.md?ref={self.SHA}"],
+            stdout=json.dumps({"type": "file", "encoding": "base64", "content": content}),
+        )
+        text = GhClient(self.REPO, logger=logger).content_at(".claude/rules/git rules.md", self.SHA)
+        assert text == "# GIT-6 \u00e9 the QA run\n"
+
+    def test_a_folder_read_at_a_commit_gives_its_entries(self, gh: FakeGh, logger: logging.Logger) -> None:
+        entries = [{"name": "README.md", "type": "file"}, {"name": "t09-install.md", "type": "file"}]
+        gh.answer(
+            ["api", f"repos/{self.REPO}/contents/docs/specs/03-technical?ref={self.SHA}"], stdout=json.dumps(entries)
+        )
+        text = GhClient(self.REPO, logger=logger).content_at("docs/specs/03-technical", self.SHA)
+        assert text == "README.md\nt09-install.md"
+
+    def test_a_path_missing_at_a_commit_has_no_content(self, gh: FakeGh, logger: logging.Logger) -> None:
+        gh.answer(["api"], exit_code=1, stderr="gh: Not Found (HTTP 404)")
+        assert GhClient(self.REPO, logger=logger).content_at("docs/specs/nothing.md", self.SHA) is None
+
+    def test_another_failure_while_reading_a_file_is_raised(self, gh: FakeGh, logger: logging.Logger) -> None:
+        gh.answer(["api"], exit_code=1, stderr="gh: Bad credentials (HTTP 401)")
+        with pytest.raises(SEGhCommandFailedError, match="401"):
+            GhClient(self.REPO, logger=logger).content_at("docs/specs/README.md", self.SHA)
+
+    def test_the_comments_of_an_issue_are_read_written_and_deleted(self, gh: FakeGh, logger: logging.Logger) -> None:
+        lines = [json.dumps({"id": 5, "body": "<!-- issue-check -->\nold"}), json.dumps({"id": 6, "body": "Hi"})]
+        gh.answer(["api", "--paginate", f"repos/{self.REPO}/issues/13/comments"], stdout="\n".join(lines) + "\n")
+        client = GhClient(self.REPO, logger=logger)
+        assert client.comments(13) == {5: "<!-- issue-check -->\nold", 6: "Hi"}
+        client.comment_update(5, "<!-- issue-check -->\nnew")
+        client.comment_delete(5)
+        assert gh.calls()[1:] == [
+            ["api", "-X", "PATCH", f"repos/{self.REPO}/issues/comments/5", "-f", "body=<!-- issue-check -->\nnew"],
+            ["api", "-X", "DELETE", f"repos/{self.REPO}/issues/comments/5"],
         ]

@@ -20,7 +20,16 @@ project:
         Done: 436b8e2a
     priority:
       id: PVTSSF_lAHOBZDE-c4Bq9-tzhpSuRg
+      options:
+        High: 219eb46f
+        Medium: 37a07ea6
+        Low: 28e9d59b
     kind:
       id: PVTSSF_lAHOBZDE-c4Bq9-tzhpSuYk
+      options:
+        Feature: eda66ddf
+        Bug: a2f30e0e
+        Chore: 84723a78
+        Release: beb1e760
 environments: [dev, qa]
 evidence_release_prefix: evidence-
