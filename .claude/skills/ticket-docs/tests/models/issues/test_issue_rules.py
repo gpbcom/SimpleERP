@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 from typing import Dict
 
@@ -67,9 +68,19 @@ class TestIssueRules:
         assert rules.families == {
             "HARNESS": ["HARNESS"],
             "SPECS": ["SPECS"],
-            "PRODUCT": ["INFRA", "BACKEND", "FRONTEND"],
+            "PRODUCT": ["INFRA", "BACKEND", "FRONTEND", "E2E-TESTS", "LOAD-TESTS", "UNIT-TESTS"],
+            "TESTS": ["E2E-TESTS", "LOAD-TESTS", "UNIT-TESTS"],
         }
-        assert rules.components == ["HARNESS", "SPECS", "INFRA", "BACKEND", "FRONTEND"]
+        assert rules.components == [
+            "HARNESS",
+            "SPECS",
+            "INFRA",
+            "BACKEND",
+            "FRONTEND",
+            "E2E-TESTS",
+            "LOAD-TESTS",
+            "UNIT-TESTS",
+        ]
         assert rules.ticket_sections == [
             "Description",
             "Implementation",
@@ -82,6 +93,9 @@ class TestIssueRules:
         assert rules.reference_kinds["spec"].matches("br-f01-07")
         assert rules.reference_kinds["harness"].matches("GIT-10")
         assert rules.required_reference_kinds["INFRA"] == "spec"
+        assert rules.required_reference_kinds["E2E-TESTS"] == "spec"
+        assert rules.required_reference_kinds["LOAD-TESTS"] == "spec"
+        assert rules.required_reference_kinds["UNIT-TESTS"] == "spec"
         assert rules.new_issue_statuses == ["Backlog", "Ready"]
 
     def test_labels_are_read_as_families_and_components(self) -> None:
@@ -91,6 +105,32 @@ class TestIssueRules:
         assert rules.allows("PRODUCT", "FRONTEND")
         assert not rules.allows("HARNESS", "INFRA")
         assert not rules.allows("UNKNOWN", "INFRA")
+
+    def test_test_tickets_belong_to_product_and_tests_features_only(self) -> None:
+        rules = IssueRules.load(self.CONF)
+        assert rules.families_of(["feature", "TESTS"]) == ["TESTS"]
+        assert rules.components_of(["E2E-TESTS", "priority:low"]) == ["E2E-TESTS"]
+        for component in ("E2E-TESTS", "LOAD-TESTS", "UNIT-TESTS"):
+            assert rules.allows("PRODUCT", component)
+            assert rules.allows("TESTS", component)
+            assert not rules.allows("HARNESS", component)
+            assert not rules.allows("SPECS", component)
+        assert not rules.allows("TESTS", "BACKEND")
+
+    @pytest.mark.parametrize(
+        ("title", "label"),
+        [
+            ("[E2E-TESTS] Cover the checkout journey", "E2E-TESTS"),
+            ("[LOAD-TESTS] Hold 200 invoices per minute", "LOAD-TESTS"),
+            ("[UNIT-TESTS] Cover the VAT rounding rules", "UNIT-TESTS"),
+            ("[BACKEND] Store a customer with its VAT number", "BACKEND"),
+        ],
+    )
+    def test_a_title_starts_with_its_component_label(self, title: str, label: str) -> None:
+        rules = IssueRules.load(self.CONF)
+        match = re.match(rules.title_pattern, title)
+        assert match is not None
+        assert match.group("label") == label
 
     def test_the_kind_of_a_path_comes_from_its_prefix(self) -> None:
         rules = IssueRules.load(self.CONF)
