@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Runs the progress updates tool from the skills' uv project (.claude/skills), whatever the caller's folder.
+# The caller's folder is passed on, so that the tool reads the repository the command was typed in.
+set -euo pipefail
+skills="$(cd "$(dirname "$(readlink -f "$0")")/../.." && pwd)"
+export PROGRESS_UPDATES_CALLER_CWD="$PWD"
+exec env -u VIRTUAL_ENV uv run --project "$skills" --frozen -q progress-updates "$@"

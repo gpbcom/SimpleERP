@@ -11,3 +11,4 @@ What happens, when, and what you have to do.
 | [5. Documentation and release notes](05-documentation-and-release-notes.md) | What is written at the end of every ticket |
 | [6. PR watcher](06-pr-watcher.md) | How a broken pull request comes back to its ticket's session |
 | [7. Cost guard](07-cost-guard.md) | The $20 cap on paid AI tests |
+| [8. Progress updates](08-progress-updates.md) | An update every 2 minutes while long work runs, colourised, with icons |

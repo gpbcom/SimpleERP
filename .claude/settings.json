@@ -48,6 +48,15 @@
             "timeout": 10
           }
         ]
+      },
+      {
+        "matcher": "Bash|Agent|Workflow",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/skills/.venv/bin/progress-updates hook 2>/dev/null || true"
+          }
+        ]
       }
     ]
   }

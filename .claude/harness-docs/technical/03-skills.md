@@ -18,6 +18,7 @@ Claude Code shows every skill's name and description in each session and loads t
 | **ai-test-cost** | Before any paid AI test; a gate refusal | `conf/`, `templates/COST.md`, tool `ai-cost` | `~/.local/state/ai-test-cost/`, `COST.md` |
 | **cve-scan** | Scan for CVEs, secrets, misconfigurations; Dependabot alerts | tool `cve-scan` | `~/.cache/cve-scan/…/CVE-REPORT.md` |
 | **exception-and-log-messages** | Any `raise`, log call or field validator | | |
+| **progress-updates** | A command, subagent or workflow in the background; work expected to last over 2 minutes; "is something running?" | `conf/progress-updates.yaml`, tool `progress-updates` | Nothing: the updates are Claude's messages |
 
 ## The rule-skill pattern
 

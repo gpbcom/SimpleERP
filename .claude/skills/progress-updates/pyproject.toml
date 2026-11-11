@@ -1,0 +1,28 @@
+[project]
+name = "progress-updates"
+version = "0.1.0"
+description = "Reports the progress of long-running tasks every 2 minutes, colourised, exhaustive, with icons."
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "harness-core",
+    "pydantic>=2.11.0",
+    "pyyaml>=6.0.2",
+]
+
+[project.scripts]
+progress-updates = "progress_updates.api.cli.main:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "progress_updates"
+
+[tool.uv.sources]
+harness-core = { workspace = true }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "--strict-markers --import-mode=importlib --timeout=120"

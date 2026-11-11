@@ -1,0 +1,21 @@
+# How progress updates are paced and drawn (progress-updates skill, GH-14). Read by ProgressCatalog.
+# The owner asked for an update every 2 minutes: 120 seconds is also the shortest interval accepted.
+interval_s: 120
+# Characters kept of a task's last output line.
+line_max_chars: 160
+# How many of the ticket's newest evidence folders an update shows.
+evidence_max: 5
+# The icon of each task state: the legend of the harness (ticket-docs).
+state_icons:
+  done: "✅"
+  running: "🔄"
+  waiting: "⏳"
+  failed: "❌"
+  warning: "⚠️"
+# The coloured health dot of each task state.
+health_icons:
+  done: "🟢"
+  running: "🟢"
+  waiting: "🟡"
+  failed: "🔴"
+  warning: "🟡"

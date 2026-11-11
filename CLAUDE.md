@@ -21,5 +21,7 @@ This repository carries its own Claude Code harness, versioned with the code. It
 - **Branches follow GitFlow** (GIT-8). Every squash and every push waits for an explicit yes (GIT-1).
 - **At the end of a ticket:** `project-docs` updates `README.md`, `docs/functional/` and `docs/technical/` (DOC-2);
   `release-notes` writes the release note and the changelog fragment (DOC-3).
-- **Hooks** (`.claude/settings.json`): the PR watcher's inbox, the paid-AI cost gate, the TDD gate and the time
-  reminder.
+- **Long-running work is reported every 2 minutes**, colourised, with icons, until it ends (`progress-updates`
+  skill): run it in the background and start `progress-updates watch --every 120` with the Monitor tool.
+- **Hooks** (`.claude/settings.json`): the PR watcher's inbox, the paid-AI cost gate, the TDD gate, the time
+  reminder and the progress reminder.

@@ -14,6 +14,7 @@ file-only logging) and was written tests first. Each tool has a `bin/<tool>` wra
 | `pr-watch` | `pr-watch`, `pr-watch-hook` | `once`, `register`, `backfill`, `show`, `ack`, `log`, `status`, `render`, `install-units`, `hook-inbox` |
 | `ai-test-cost` | `ai-cost` | `run`, `status`, `remaining`, `charge`, `raise-cap`, `gate` |
 | `cve-scan` | `cve-scan` | One scan: OSV-Scanner and Trivy when installed, merged findings |
+| `progress-updates` | `progress-updates` | `status` (one update from task outputs, processes, evidence, Actions runs, declared tasks), `watch --every 120` (one line per interval for the Monitor tool), `hook` |
 
 ## ticket-docs
 
