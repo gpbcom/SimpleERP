@@ -1,0 +1,26 @@
+# Where simple-erp lives on GitHub, read by the harness tools (ticket-docs, pr-watch, release-notes).
+# Created on 2026-11-10. IDs are GraphQL node IDs; they never change once created.
+owner: gpbcom
+repository: simple-erp
+default_branch: develop
+production_branch: master
+project:
+  number: 6
+  url: https://github.com/users/gpbcom/projects/6
+  id: PVT_kwHOBZDE-c4Bq9-t
+  fields:
+    status:
+      id: PVTSSF_lAHOBZDE-c4Bq9-tzhpSuG0
+      options:
+        Backlog: 3c995e05
+        Ready: f4a541a2
+        In progress: "63440315"
+        In review: f5693b1f
+        QA: 1b6c73df
+        Done: 436b8e2a
+    priority:
+      id: PVTSSF_lAHOBZDE-c4Bq9-tzhpSuRg
+    kind:
+      id: PVTSSF_lAHOBZDE-c4Bq9-tzhpSuYk
+environments: [dev, qa]
+evidence_release_prefix: evidence-

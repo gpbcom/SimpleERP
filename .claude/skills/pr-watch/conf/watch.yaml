@@ -1,0 +1,27 @@
+# The pull request watcher's configuration. Every value is written out.
+timing:
+  # Minutes between two runs of the systemd timer (systemd/claude-pr-watch.timer).
+  interval_minutes: 10
+  # Minutes before a ticket whose delivered events still wait is notified again.
+  renotify_minutes: 60
+  # Minutes a qa deployment may wait for its approval before it becomes a qa_waiting event.
+  qa_wait_minutes: 30
+  # Operations listed on the summary page.
+  operations_shown: 60
+github:
+  api_url: https://api.github.com
+  api_version: "2022-11-28"
+  # The workflow that deploys a stage (gh workflow run stage.yml -f stage=<dev|qa> -f ref=<sha>).
+  stage_workflow: stage.yml
+  # The deployment environments whose latest status is read for the head commit.
+  environments:
+    - dev
+    - qa
+  # The environment whose pending approval can become a qa_waiting event.
+  qa_environment: qa
+commands:
+  claude: claude
+  vscode: code
+  opener: xdg-open
+  notifier: notify-send
+  terminal: gnome-terminal

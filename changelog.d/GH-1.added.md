@@ -1,0 +1,1 @@
+A development harness for Claude Code, versioned with the code: GitFlow branches, tests written before the code with every test report kept, dev and QA stages on GitHub Actions, and documentation, release notes and a changelog kept current at the end of every ticket.

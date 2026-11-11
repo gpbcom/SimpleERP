@@ -85,7 +85,7 @@ Each step must pass before the next one starts:
 2. Run `ruff check`, `ruff format --check`, `mypy` and `pytest` for each changed service.
 3. Build each changed image.
 4. Run Playwright against those images, and upload the HTML report if a test fails.
-5. Publish the images tagged with the commit SHA, from `develop` or `main` only.
+5. Publish the images tagged with the commit SHA, from `develop` or `master` only.
 
 ## Rules a test enforces
 

@@ -1,0 +1,21 @@
+name: Feature
+description: Something users should be able to do or see.
+labels: ["type:feature"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Need
+      description: Who needs what, and why. The ticket's topics are numbered T1, T2… from this text.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: One per line, testable (AC1, AC2…). ticket-docs derives them when this is empty.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Screenshots, specifications in docs/specs/, constraints.

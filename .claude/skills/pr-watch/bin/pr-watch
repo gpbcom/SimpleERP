@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Runs the pull request watcher from the skills' uv project (.claude/skills), whatever the caller's folder.
+# The caller's folder is passed on, so that `register` finds the repository and the ticket folders.
+set -euo pipefail
+skills="$(cd "$(dirname "$(readlink -f "$0")")/../.." && pwd)"
+export PR_WATCH_CALLER_CWD="$PWD"
+# The prompt hook runs before every prompt and must answer within half a second: it skips uv's start-up and
+# environment check when the environment is installed, and runs the light entry point that skips the GitHub client.
+if [[ "${1:-}" == "hook-inbox" && -x "$skills/.venv/bin/pr-watch-hook" ]]; then
+  exec env -u VIRTUAL_ENV "$skills/.venv/bin/pr-watch-hook"
+fi
+exec env -u VIRTUAL_ENV uv run --project "$skills" --frozen -q pr-watch "$@"

@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: ['**']
+    branches: [master, develop, 'feature/**', 'bugfix/**', 'release/**', 'hotfix/**']
   pull_request:
 
 concurrency:
@@ -13,12 +13,26 @@ permissions:
   contents: read
 
 jobs:
+  detect:
+    name: changed components
+    runs-on: ubuntu-latest
+    outputs:
+      services: ${{ steps.detect.outputs.services }}
+      frontends: ${{ steps.detect.outputs.frontends }}
+      any: ${{ steps.detect.outputs.any }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          fetch-depth: 0
+      - id: detect
+        run: .github/scripts/detect-components.sh "${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || '' }}"
+
   lint:
     name: ruff
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86 # v5.4.2
         with:
           enable-cache: true
           python-version-file: .python-version
@@ -30,8 +44,8 @@ jobs:
     name: mypy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86 # v5.4.2
         with:
           enable-cache: true
           python-version-file: .python-version
@@ -42,10 +56,82 @@ jobs:
     name: pytest
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86 # v5.4.2
         with:
           enable-cache: true
           python-version-file: .python-version
       - run: uv sync --frozen
-      - run: uv run pytest
+      - run: mkdir -p reports && uv run pytest --junitxml=reports/pytest.xml
+      - name: Keep the reports (TEST-9)
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: unit-reports-${{ github.sha }}
+          path: reports/
+          retention-days: 90
+
+  harness:
+    name: harness tools
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86 # v5.4.2
+        with:
+          enable-cache: true
+          python-version-file: .python-version
+      - run: uv sync --frozen
+        working-directory: .claude/skills
+      - run: .venv/bin/ruff check . && .venv/bin/ruff format --check .
+        working-directory: .claude/skills
+      - name: mypy and pytest per tool
+        working-directory: .claude/skills
+        run: |
+          mkdir -p ../../reports
+          status=0
+          for tool in */pyproject.toml; do
+            dir=$(dirname "$tool")
+            (cd "$dir" && ../.venv/bin/mypy src tests) || status=1
+            (cd "$dir" && ../.venv/bin/pytest -q --junitxml="../../../reports/harness-$dir.xml") || status=1
+          done
+          exit $status
+      - name: Keep the reports (TEST-9)
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: harness-reports-${{ github.sha }}
+          path: reports/
+          retention-days: 90
+
+  docs:
+    name: documentation and changelog
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86 # v5.4.2
+        with:
+          enable-cache: true
+          python-version-file: .python-version
+      - run: uv sync --frozen
+        working-directory: .claude/skills
+      - name: project documentation (DOC-2)
+        run: .claude/skills/project-docs/bin/project-docs check
+      - name: changelog fragment (DOC-3)
+        env:
+          BRANCH: ${{ github.head_ref || github.ref_name }}
+        run: .claude/skills/release-notes/bin/release-notes check --branch "$BRANCH"
+
+  images:
+    name: images
+    permissions:
+      contents: read
+      packages: write
+    needs: [detect, lint, types, tests]
+    if: needs.detect.outputs.any == 'true'
+    uses: ./.github/workflows/images.yml
+    with:
+      services: ${{ needs.detect.outputs.services }}
+      frontends: ${{ needs.detect.outputs.frontends }}
+      push: ${{ github.event_name == 'push' && (github.ref_name == 'develop' || github.ref_name == 'master') }}

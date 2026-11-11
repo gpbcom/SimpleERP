@@ -1,0 +1,23 @@
+# The settings that enforce the cap of the paid AI tests. They are read from this versioned file only, never from the
+# environment, so that no command can loosen the guard: changing one is a reviewed code change.
+# A relative path is read from the skill's folder (.claude/skills/ai-test-cost/).
+
+# Folder of the ledgers, one JSON file per ticket, and of the log file.
+state_dir: ~/.local/state/ai-test-cost
+# The price of each model, and the commands that call a paid AI.
+prices_file: conf/prices.yaml
+paid_commands_file: conf/paid-commands.yaml
+# The layout of a ticket's COST.md.
+cost_template_file: templates/COST.md
+# The most the paid AI tests of one ticket may cost, all runs together, in USD.
+default_cap_usd: "20"
+# The share of the cap at which a running test is killed: below 1, because the usage report arrives a few minutes late.
+kill_ratio: "0.9"
+# Seconds between two measures of a running test.
+poll_interval_s: 60
+# Seconds after a run ends before its measured cost is final.
+settle_s: 300
+# Measures in a row that may fail before a running test is stopped: the cap cannot be enforced blind.
+max_unmeasured: 3
+# How a run's cost is measured: anthropic (the Admin API usage report) or estimate (each run is charged its estimate).
+usage_source: anthropic

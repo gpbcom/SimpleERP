@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Runs ticket-docs from the harness's uv workspace. The caller's folder is passed on, so that a recorded command runs
+# where it was called and the evidence lands in the caller's repository.
+set -euo pipefail
+skills="$(cd "$(dirname "$(readlink -f "$0")")/../.." && pwd)"
+export TICKET_DOCS_CALLER_CWD="$PWD"
+exec env -u VIRTUAL_ENV uv run --project "$skills" --frozen -q ticket-docs "$@"

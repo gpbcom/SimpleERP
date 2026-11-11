@@ -1,0 +1,22 @@
+# The changelog fragment types (Keep a Changelog 1.1.0), in the order CHANGELOG.md lists them, and the
+# semantic-version part each one bumps. A fragment whose text starts with "**Breaking:**" bumps major.
+types:
+  - name: added
+    heading: Added
+    bump: minor
+  - name: changed
+    heading: Changed
+    bump: minor
+  - name: deprecated
+    heading: Deprecated
+    bump: minor
+  - name: removed
+    heading: Removed
+    bump: major
+  - name: fixed
+    heading: Fixed
+    bump: patch
+  - name: security
+    heading: Security
+    bump: patch
+breaking_marker: "**Breaking:**"

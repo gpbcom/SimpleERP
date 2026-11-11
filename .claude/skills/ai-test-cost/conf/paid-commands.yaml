@@ -1,0 +1,10 @@
+# Shell commands that call a paid AI. A Claude session may run one only through
+# `ai-cost run --ticket <KEY> --estimate-usd <n> --label "<what>" -- <command>`: the PreToolUse hook (`ai-cost gate`)
+# refuses it otherwise. Each pattern is a Python regular expression, searched in the whole command once the gate has
+# dropped its quoted strings and the here-documents fed to programs that are not shells.
+# pytest is not listed here: the gate reads each pytest command word by word, its `-m` / `--markexpr` expressions,
+# `--llm` and PYTEST_ADDOPTS, so that quoting cannot hide the `llm` marker.
+# simple-erp calls no other paid AI yet. A new paid command is added like this example:
+#   - name: front-end AI judge of the screenshots
+#     pattern: '\bnpm\s+run\s+judge\b'
+paid_commands: []

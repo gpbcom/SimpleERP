@@ -1,0 +1,28 @@
+[project]
+name = "ticket-docs"
+version = "0.1.0"
+description = "Records test evidence, checks and archives a ticket's documentation folder, and answers the git hooks."
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "harness-core",
+    "pydantic>=2.11.0",
+    "pyyaml>=6.0.2",
+]
+
+[project.scripts]
+ticket-docs = "ticket_docs.api.cli.main:main"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "ticket_docs"
+
+[tool.uv.sources]
+harness-core = { workspace = true }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "--strict-markers --import-mode=importlib --timeout=120"

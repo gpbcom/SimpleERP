@@ -1,0 +1,149 @@
+name: Stage
+run-name: "Stage ${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }} on ${{ inputs.ref || github.ref_name }}"
+
+# An ephemeral stage: the commit's images started on a runner with the seeded data set, the tests run against
+# them, every report kept (TEST-9), and a GitHub Deployment recorded on the dev or qa environment.
+#   dev: every push to develop, and on demand for a feature branch (ticket-docs, "Stages").
+#   qa:  every push to release/** and hotfix/**, and on demand for a pull request (GIT-6). The qa environment
+#        is started only on the owner's yes (GIT-6): the plan allows no required reviewer here.
+on:
+  push:
+    branches: [develop, 'release/**', 'hotfix/**']
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: Which stage
+        type: choice
+        options: [dev, qa]
+        required: true
+      ref:
+        description: The commit (or branch) to run
+        type: string
+        required: true
+
+concurrency:
+  group: stage-${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }}-${{ inputs.ref || github.sha }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: read
+  deployments: write
+
+jobs:
+  stage:
+    name: ${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }} stage
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: ${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }}
+    env:
+      STAGE: ${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }}
+      REPORTS: ${{ github.workspace }}/stage-reports
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+          fetch-depth: 0
+      - name: Record what runs
+        run: |
+          mkdir -p "$REPORTS"
+          {
+            echo "stage=$STAGE"
+            echo "commit=$(git rev-parse HEAD)"
+            echo "ref=${{ inputs.ref || github.ref_name }}"
+            echo "run=${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } | tee "$REPORTS/stage.txt"
+      - id: detect
+        run: .github/scripts/detect-components.sh
+      - uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86 # v5.4.2
+        with:
+          enable-cache: true
+          python-version-file: .python-version
+      - run: uv sync --frozen
+
+      - name: Start the images (compose.e2e.yaml)
+        if: steps.detect.outputs.compose == 'true'
+        run: |
+          docker compose -f compose.e2e.yaml build
+          docker compose -f compose.e2e.yaml up -d --wait
+          docker compose -f compose.e2e.yaml ps | tee "$REPORTS/compose-ps.txt"
+
+      - name: Smoke test
+        run: |
+          set -o pipefail
+          uv run simple-erp --help 2>&1 | tee "$REPORTS/smoke.txt"
+          if [ "${{ steps.detect.outputs.compose }}" = "true" ] && [ -x scripts/stage/smoke.sh ]; then
+            scripts/stage/smoke.sh 2>&1 | tee -a "$REPORTS/smoke.txt"
+          fi
+
+      - name: Unit tests on the stage's commit
+        run: uv run pytest --junitxml="$REPORTS/pytest.xml"
+
+      - name: Bruno collection (TEST-1)
+        if: hashFiles('bruno/**') != ''
+        run: |
+          for collection in bruno/*/; do
+            name=$(basename "$collection")
+            (cd "$collection" && npx --yes @usebruno/cli@4.2.1 run --env stage \
+              --reporter-json "$REPORTS/bruno-$name.json" --reporter-junit "$REPORTS/bruno-$name.xml" \
+              --reporter-skip-all-headers --reporter-skip-body)
+          done
+
+      - name: Playwright (TEST-6)
+        if: steps.detect.outputs.compose == 'true' && hashFiles('frontends/*/e2e/**') != ''
+        run: |
+          for e2e in frontends/*/e2e; do
+            front=$(basename "$(dirname "$e2e")")
+            (cd "frontends/$front" && npm ci && npx playwright install --with-deps chromium && \
+              npx playwright test ${{ env.STAGE == 'dev' && '--grep @smoke' || '' }} \
+                --reporter=html,json,junit) || status=1
+            mkdir -p "$REPORTS/playwright-$front"
+            cp -r "frontends/$front/playwright-report" "frontends/$front/test-results" "$REPORTS/playwright-$front/" 2>/dev/null || true
+          done
+          exit ${status:-0}
+        env:
+          PLAYWRIGHT_JSON_OUTPUT_NAME: test-results/results.json
+          PLAYWRIGHT_JUNIT_OUTPUT_NAME: test-results/junit.xml
+
+      - name: Upgrade test from the previous release (QA)
+        if: env.STAGE == 'qa' && steps.detect.outputs.compose == 'true'
+        run: |
+          previous=$(git describe --tags --abbrev=0 --match 'v*' HEAD^ 2>/dev/null || true)
+          if [ -z "$previous" ]; then
+            echo "No previous release: upgrade test skipped." | tee "$REPORTS/upgrade.txt"
+          elif [ -x scripts/stage/upgrade-test.sh ]; then
+            scripts/stage/upgrade-test.sh "$previous" 2>&1 | tee "$REPORTS/upgrade.txt"
+          else
+            echo "scripts/stage/upgrade-test.sh does not exist yet: upgrade test skipped." | tee "$REPORTS/upgrade.txt"
+          fi
+
+      - name: Dependency resolution (DEP-1, QA)
+        if: env.STAGE == 'qa'
+        run: |
+          uv lock --check 2>&1 | tee "$REPORTS/dep-1.txt"
+          (cd .claude/skills && uv lock --check) 2>&1 | tee -a "$REPORTS/dep-1.txt"
+
+      - name: Service logs
+        if: always() && steps.detect.outputs.compose == 'true'
+        run: |
+          docker compose -f compose.e2e.yaml logs --no-color > "$REPORTS/compose-logs.txt" 2>&1 || true
+          docker compose -f compose.e2e.yaml down -v || true
+
+      - name: Keep the reports (TEST-9)
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: stage-${{ env.STAGE }}-reports-${{ github.run_id }}
+          path: stage-reports/
+          retention-days: 90
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### ${STAGE} stage on \`$(git rev-parse --short HEAD)\`"
+            echo
+            echo "Reports: artifact \`stage-${STAGE}-reports-${{ github.run_id }}\`. Keep them with:"
+            echo '`ticket-docs record-run --ticket GH-<n> --kind e2e --where '"$STAGE"' --check stage --what "…" --run-id ${{ github.run_id }}`'
+          } >> "$GITHUB_STEP_SUMMARY"

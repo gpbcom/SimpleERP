@@ -1,0 +1,39 @@
+# Which project documentation chapters a changed path concerns (DOC-2).
+# Read by `project-docs map` and `project-docs check`. The first matching rule of each path applies, then
+# the `always` chapters when the path matches nothing. Patterns are fnmatch globs on paths relative to the
+# repository root; `{service}` and `{frontend}` capture the folder name and fill the chapter path.
+rules:
+  - paths: ["services/{service}/src/*/api/*"]
+    chapters: ["docs/technical/services/{service}.md", "docs/technical/api.md"]
+  - paths: ["services/{service}/src/*/models/*", "services/{service}/src/*/storage/*"]
+    chapters: ["docs/technical/services/{service}.md", "docs/technical/data-model.md"]
+  - paths: ["services/{service}/*"]
+    chapters: ["docs/technical/services/{service}.md"]
+  - paths: ["frontends/{frontend}/*"]
+    chapters: ["docs/technical/frontends/{frontend}.md", "docs/functional/README.md"]
+  - paths: ["packages/*"]
+    chapters: ["docs/technical/architecture.md"]
+  - paths: ["src/api/*"]
+    chapters: ["docs/technical/api.md", "README.md"]
+  - paths: ["src/models/*", "src/storage/*"]
+    chapters: ["docs/technical/data-model.md"]
+  - paths: ["src/service/*"]
+    chapters: ["docs/technical/architecture.md"]
+  - paths: ["conf/*"]
+    chapters: ["docs/technical/configuration.md"]
+  - paths: [".github/workflows/*", "compose*.yaml", "*/Dockerfile", "Dockerfile"]
+    chapters: ["docs/technical/ci-cd-and-stages.md"]
+  - paths: ["tests/*", "*/e2e/*", "bruno/*"]
+    chapters: ["docs/technical/tests-and-traceability.md"]
+  - paths: ["pyproject.toml", "uv.lock", ".python-version"]
+    chapters: ["README.md", "docs/technical/architecture.md"]
+  - paths: ["docs/specs/*"]
+    chapters: ["docs/functional/README.md"]
+  - paths: [".claude/*", "CLAUDE.md", "AGENT.md"]
+    chapters: ["docs/technical/development-process.md"]
+  - paths: ["README.md", "CHANGELOG.md", "changelog.d/*", "docs/functional/*", "docs/technical/*", ".gitignore"]
+    chapters: []
+always: ["README.md"]
+# Chapters every service and front end must have (checked by `project-docs check`).
+per_service: "docs/technical/services/{service}.md"
+per_frontend: "docs/technical/frontends/{frontend}.md"

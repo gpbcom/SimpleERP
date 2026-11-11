@@ -10,7 +10,7 @@ wheels/
 .venv
 
 # Rotating logs
-logs/
+/logs/
 .ruff_cache/
 .mypy_cache/
 .pytest_cache/
@@ -20,3 +20,6 @@ docs/*
 !docs/specs/
 !docs/functional/
 !docs/technical/
+
+# Claude Code agent worktrees
+.claude/worktrees/
