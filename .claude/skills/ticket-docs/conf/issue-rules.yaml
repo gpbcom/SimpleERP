@@ -10,9 +10,16 @@ families:
   SPECS: [SPECS]
   PRODUCT: [INFRA, BACKEND, FRONTEND, E2E-TESTS, LOAD-TESTS, UNIT-TESTS]
   TESTS: [E2E-TESTS, LOAD-TESTS, UNIT-TESTS]
+  USER: [USER-FEATURE-REQUEST, USER-REPORTED-BUG]
+
+# The most tickets a feature of a family holds, closed ones included; a family not listed has no limit. A customer's
+# feature request or bug report is one USER feature holding one ticket.
+family_ticket_limits:
+  USER: 1
 
 # The component labels: a ticket carries exactly one.
-components: [HARNESS, SPECS, INFRA, BACKEND, FRONTEND, E2E-TESTS, LOAD-TESTS, UNIT-TESTS]
+components: [HARNESS, SPECS, INFRA, BACKEND, FRONTEND, E2E-TESTS, LOAD-TESTS, UNIT-TESTS, USER-FEATURE-REQUEST,
+  USER-REPORTED-BUG]
 
 # A ticket's title: `[LABEL] Verb phrase`, the label being the ticket's component, under 80 characters.
 title_pattern: '^\[(?P<label>[A-Z0-9][A-Z0-9-]*)\] [A-Z][^\n]*$'
@@ -69,6 +76,8 @@ required_reference_kinds:
   E2E-TESTS: spec
   LOAD-TESTS: spec
   UNIT-TESTS: spec
+  USER-FEATURE-REQUEST: spec
+  USER-REPORTED-BUG: spec
 
 # A permalink: a file of the repository pinned to a 40-character commit. `{repository}` is `owner/name`.
 permalink: 'https://github.com/{repository}/blob/{sha}/{path}'
@@ -106,6 +115,11 @@ feature_kind: Feature
 
 # The board statuses a new issue may start in, the first one by default.
 new_issue_statuses: [Backlog, Ready]
+
+# The label of a feature or ticket created by an agent: only a maintainer removes it, which approves the issue.
+approval_label: needs-maintainer-approval
+# The board statuses an issue may have while it carries the approval label; any other Status is refused.
+approval_statuses: [Backlog]
 
 # The first line of the comment the issues workflow keeps on a non-compliant issue.
 comment_marker: '<!-- issue-check -->'

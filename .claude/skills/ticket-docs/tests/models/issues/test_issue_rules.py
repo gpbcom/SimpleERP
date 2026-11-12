@@ -57,11 +57,14 @@ class TestIssueRules:
             "new_issue_statuses": ["Backlog", "Ready"],
             "comment_marker": "<!-- issue-check -->",
             "empty_form_answer": "_No response_",
+            "approval_label": "needs-maintainer-approval",
+            "approval_statuses": ["Backlog"],
         }
 
     def test_defaults(self) -> None:
         rules = IssueRules.model_validate(self.valid())
         assert rules.title_max_length == 79
+        assert rules.family_ticket_limits == {}
 
     def test_full_valid_construction(self) -> None:
         rules = IssueRules.load(self.CONF)
@@ -70,6 +73,7 @@ class TestIssueRules:
             "SPECS": ["SPECS"],
             "PRODUCT": ["INFRA", "BACKEND", "FRONTEND", "E2E-TESTS", "LOAD-TESTS", "UNIT-TESTS"],
             "TESTS": ["E2E-TESTS", "LOAD-TESTS", "UNIT-TESTS"],
+            "USER": ["USER-FEATURE-REQUEST", "USER-REPORTED-BUG"],
         }
         assert rules.components == [
             "HARNESS",
@@ -80,6 +84,8 @@ class TestIssueRules:
             "E2E-TESTS",
             "LOAD-TESTS",
             "UNIT-TESTS",
+            "USER-FEATURE-REQUEST",
+            "USER-REPORTED-BUG",
         ]
         assert rules.ticket_sections == [
             "Description",
@@ -117,6 +123,20 @@ class TestIssueRules:
             assert not rules.allows("SPECS", component)
         assert not rules.allows("TESTS", "BACKEND")
 
+    def test_customer_requests_are_user_features_of_one_ticket_waiting_for_approval(self) -> None:
+        rules = IssueRules.load(self.CONF)
+        assert rules.families_of(["feature", "USER", "needs-maintainer-approval"]) == ["USER"]
+        assert rules.components_of(["USER-REPORTED-BUG", "needs-maintainer-approval"]) == ["USER-REPORTED-BUG"]
+        assert rules.family_ticket_limits == {"USER": 1}
+        assert rules.approval_label == "needs-maintainer-approval"
+        assert rules.approval_statuses == ["Backlog"]
+        for component in ("USER-FEATURE-REQUEST", "USER-REPORTED-BUG"):
+            assert rules.required_reference_kinds[component] == "spec"
+            assert rules.allows("USER", component)
+            for family in ("HARNESS", "SPECS", "PRODUCT", "TESTS"):
+                assert not rules.allows(family, component)
+        assert not rules.allows("USER", "BACKEND")
+
     @pytest.mark.parametrize(
         ("title", "label"),
         [
@@ -124,6 +144,8 @@ class TestIssueRules:
             ("[LOAD-TESTS] Hold 200 invoices per minute", "LOAD-TESTS"),
             ("[UNIT-TESTS] Cover the VAT rounding rules", "UNIT-TESTS"),
             ("[BACKEND] Store a customer with its VAT number", "BACKEND"),
+            ("[USER-FEATURE-REQUEST] Export the invoices to CSV", "USER-FEATURE-REQUEST"),
+            ("[USER-REPORTED-BUG] Fix the VAT total on credit notes", "USER-REPORTED-BUG"),
         ],
     )
     def test_a_title_starts_with_its_component_label(self, title: str, label: str) -> None:
@@ -131,6 +153,7 @@ class TestIssueRules:
         match = re.match(rules.title_pattern, title)
         assert match is not None
         assert match.group("label") == label
+        assert len(title) <= rules.title_max_length
 
     def test_the_kind_of_a_path_comes_from_its_prefix(self) -> None:
         rules = IssueRules.load(self.CONF)
@@ -151,9 +174,15 @@ class TestIssueRules:
             "https://github.com/gpbcom/simple-erp/blob/develop/AGENT.md"
         )
 
-    @pytest.mark.parametrize("name", ["title_max_length"])
-    def test_none_becomes_the_default(self, name: str) -> None:
-        assert getattr(IssueRules.model_validate({**self.valid(), name: None}), name) == 79
+    @pytest.mark.parametrize(("name", "default"), [("title_max_length", 79), ("family_ticket_limits", {})])
+    def test_none_becomes_the_default(self, name: str, default: JsonValue) -> None:
+        assert getattr(IssueRules.model_validate({**self.valid(), name: None}), name) == default
+
+    def test_the_approval_label_is_required(self) -> None:
+        values = self.valid()
+        del values["approval_label"]
+        with pytest.raises(ValidationError):
+            IssueRules.model_validate(values)
 
     @pytest.mark.parametrize(
         ("name", "value", "error"),
@@ -177,6 +206,16 @@ class TestIssueRules:
             ("priority_options", {"high": ""}, SEIssueRulesInvalidMapping),
             ("reference_kinds", {}, SEIssueRulesInvalidReferenceKinds),
             ("reference_kinds", ["spec"], SEIssueRulesInvalidReferenceKinds),
+            ("family_ticket_limits", {"USER": 0}, SEIssueRulesInvalidFamilies),
+            ("family_ticket_limits", {"USER": True}, SEIssueRulesInvalidFamilies),
+            ("family_ticket_limits", {"USER": "1"}, SEIssueRulesInvalidFamilies),
+            ("family_ticket_limits", {"": 1}, SEIssueRulesInvalidFamilies),
+            ("family_ticket_limits", ["USER"], SEIssueRulesInvalidFamilies),
+            ("approval_label", " ", SEIssueRulesInvalidText),
+            ("approval_label", 3, SEIssueRulesInvalidText),
+            ("approval_statuses", [], SEIssueRulesInvalidList),
+            ("approval_statuses", "Backlog", SEIssueRulesInvalidList),
+            ("approval_statuses", ["Backlog", ""], SEIssueRulesInvalidList),
         ],
     )
     def test_rejects_bad_values(self, name: str, value: JsonValue, error: type[Exception]) -> None:
@@ -193,6 +232,10 @@ class TestIssueRules:
             ("priority_options", {"low": "Low"}),
             ("default_type", "chore"),
             ("default_priority", "low"),
+            ("family_ticket_limits", {"UNKNOWN": 1}),
+            ("approval_label", "HARNESS"),
+            ("approval_label", "BACKEND"),
+            ("approval_statuses", ["Done"]),
         ],
     )
     def test_rejects_rules_that_contradict_each_other(self, name: str, value: JsonValue) -> None:

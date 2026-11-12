@@ -6,9 +6,16 @@ harness's own documentation is in [.claude/harness-docs/](../../.claude/harness-
 ## Tracking
 
 - Work is planned as **features made of tickets** (GIT-10): a feature is a parent issue labelled `feature` and one
-  family (`HARNESS`, `SPECS`, `PRODUCT`, `TESTS`); its tickets are sub-issues with exactly one component label
-  (`HARNESS`, `SPECS`, `INFRA`, `BACKEND`, `FRONTEND`, `E2E-TESTS`, `LOAD-TESTS`, `UNIT-TESTS`), titled `[LABEL] Verb phrase`, with the sections Description,
+  family (`HARNESS`, `SPECS`, `PRODUCT`, `TESTS`, `USER`); its tickets are sub-issues with exactly one component label
+  allowed by the family (`HARNESS`, `SPECS`, `INFRA`, `BACKEND`, `FRONTEND`, `E2E-TESTS`, `LOAD-TESTS`, `UNIT-TESTS`,
+  `USER-FEATURE-REQUEST`, `USER-REPORTED-BUG`), titled `[LABEL] Verb phrase`, with the sections Description,
   Implementation, Acceptance criteria, Tests, References and Attachments, every reference pinned to a commit.
+- A customer's feature request or bug report, brought by the DevOps agents, is a `USER` feature holding exactly one
+  ticket, labelled `USER-FEATURE-REQUEST` or `USER-REPORTED-BUG`.
+- A feature or ticket created by an agent carries the label `needs-maintainer-approval` and stays in Backlog until a
+  maintainer removes the label, which approves it. GIT-10's check reports such an issue in any other Status.
+- The catalogue `.claude/skills/ticket-docs/conf/issue-rules.yaml` holds these rules for the tools: the families and
+  their components, the ticket limit per family, the approval label and the statuses it allows.
 - A ticket is a GitHub issue `#<n>`, written `GH-<n>`. The project board "simple-erp" holds its status: Backlog,
   Ready, In progress, In review, QA, Done.
 - Its working folder `docs/tickets/GH-<n>/` is local: plan, progress and times, decisions, evidence. It is archived
@@ -51,4 +58,4 @@ Every squash and every push waits for the owner's explicit yes (GIT-1).
 | PreToolUse (Bash) | `ticket-docs git-gate` | Refuses production code committed before its red tests |
 | PostToolUse (Bash) | `ticket-docs time-reminder` | Asks to update PROGRESS.md's times after a commit |
 
-Last reviewed: 2026-11-11 (GH-18)
+Last reviewed: 2026-11-12 (GH-23)
