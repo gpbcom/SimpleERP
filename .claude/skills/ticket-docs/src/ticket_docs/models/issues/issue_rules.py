@@ -34,8 +34,11 @@ class IssueRules(YamlCatalog):
         PATTERN_GROUPS (Dict[str, Tuple[str, ...]]): The named groups each regular expression must define.
         TITLE_MAX_LENGTH_MIN (int): The shortest title limit accepted.
         TITLE_MAX_LENGTH_MAX (int): The longest title limit accepted.
+        FAMILY_TICKET_LIMITS_MIN (int): The smallest number of tickets a family's limit accepts.
         feature_label (str): The label of a feature.
         families (Dict[str, List[str]]): The component labels each feature family allows (the family matrix).
+        family_ticket_limits (Dict[str, int]): The most tickets a feature of each family holds, closed ones included; a
+            family not listed has no limit.
         components (List[str]): The component labels, one per ticket.
         title_pattern (str): A ticket title, its ``label`` group being the component.
         title_max_length (int): The longest ticket title, in characters.
@@ -61,12 +64,19 @@ class IssueRules(YamlCatalog):
         new_issue_statuses (List[str]): The board statuses a new issue may start in, the first by default.
         comment_marker (str): The first line of the issues workflow's comment.
         empty_form_answer (str): What an issue form writes for a field left empty.
+        approval_label (str): The label of a feature or ticket created by an agent, which waits for a maintainer's
+            approval: removing the label approves the issue.
+        approval_statuses (List[str]): The board statuses an issue may have while it carries ``approval_label``.
 
     Notes:
         - **The family matrix is the heart of GIT-10**: a feature carries exactly one family label, and each of its
           tickets carries exactly one component label that the family allows.
         - ``HARNESS`` and ``SPECS`` are both a family and a component: an issue is a feature by its
-          ``feature_label``, never by them.
+          ``feature_label``, never by them. ``USER`` is a family only: its components start with ``USER-``.
+        - ``approval_statuses`` is the list of the statuses **allowed** while the approval label is on, not of the
+          refused ones, so that a status added to the board later is refused until it is listed here.
+        - ``approval_statuses`` stays within ``new_issue_statuses``, so that an issue created by an agent can start in
+          one of them.
     """
 
     UNREADABLE: ClassVar[type[Exception]] = SEIssueRulesUnreadable
@@ -80,10 +90,16 @@ class IssueRules(YamlCatalog):
     }
     TITLE_MAX_LENGTH_MIN: ClassVar[int] = 20
     TITLE_MAX_LENGTH_MAX: ClassVar[int] = 256
+    FAMILY_TICKET_LIMITS_MIN: ClassVar[int] = 1
 
     feature_label: str = Field(description="The label of a feature.", examples=["feature"])
     families: Dict[str, List[str]] = Field(
         description="The component labels each feature family allows.", examples=[{"PRODUCT": ["BACKEND"]}]
+    )
+    family_ticket_limits: Dict[str, int] = Field(
+        default_factory=dict,
+        description="The most tickets a feature of each family holds; a family not listed has no limit.",
+        examples=[{"USER": 1}],
     )
     components: List[str] = Field(description="The component labels, one per ticket.", examples=[["BACKEND"]])
     title_pattern: str = Field(description="A ticket title, its label group being the component.")
@@ -112,6 +128,13 @@ class IssueRules(YamlCatalog):
     new_issue_statuses: List[str] = Field(description="The board statuses a new issue may start in.")
     comment_marker: str = Field(description="The first line of the issues workflow's comment.")
     empty_form_answer: str = Field(description="What an issue form writes for a field left empty.")
+    approval_label: str = Field(
+        description="The label of an issue that waits for a maintainer's approval.",
+        examples=["needs-maintainer-approval"],
+    )
+    approval_statuses: List[str] = Field(
+        description="The board statuses an issue may have while it carries the approval label.", examples=[["Backlog"]]
+    )
 
     @field_validator(
         "feature_label",
@@ -121,10 +144,11 @@ class IssueRules(YamlCatalog):
         "feature_kind",
         "comment_marker",
         "empty_form_answer",
+        "approval_label",
         mode="before",
     )
     def validate_text(cls, value: JsonValue) -> JsonValue:
-        """Validate the label, the link template, the defaults, the Kind, the marker and the empty answer.
+        """Validate the labels, the link template, the defaults, the Kind, the marker and the empty answer.
 
         Args:
             value (JsonValue): The raw text.
@@ -151,6 +175,7 @@ class IssueRules(YamlCatalog):
         "references_columns",
         "pinned_prefixes",
         "new_issue_statuses",
+        "approval_statuses",
         mode="before",
     )
     def validate_list(cls, value: JsonValue) -> JsonValue:
@@ -270,6 +295,36 @@ class IssueRules(YamlCatalog):
             )
         return value
 
+    @field_validator("family_ticket_limits", mode="before")
+    def validate_family_ticket_limits(cls, value: JsonValue) -> JsonValue:
+        """Validate ``family_ticket_limits``.
+
+        Args:
+            value (JsonValue): The raw limits, or ``None``.
+
+        Returns:
+            JsonValue: The limits, the default (no limit) for ``None``.
+
+        Raises:
+            SEIssueRulesInvalidFamilies: When the value is not a mapping of family labels to whole numbers of tickets
+                of at least ``FAMILY_TICKET_LIMITS_MIN``.
+        """
+        if value is None:
+            return cls.model_fields["family_ticket_limits"].get_default(call_default_factory=True)
+        if not isinstance(value, dict) or not all(
+            isinstance(family, str)
+            and family.strip()
+            and isinstance(limit, int)
+            and not isinstance(limit, bool)
+            and limit >= cls.FAMILY_TICKET_LIMITS_MIN
+            for family, limit in value.items()
+        ):
+            raise SEIssueRulesInvalidFamilies(
+                f"Invalid family_ticket_limits: {value!r}. "  # noqa: E501
+                f"Must map family labels to whole numbers of tickets of at least {cls.FAMILY_TICKET_LIMITS_MIN}."
+            )
+        return value
+
     @field_validator(
         "required_reference_kinds", "type_labels", "type_kinds", "priority_labels", "priority_options", mode="before"
     )
@@ -328,15 +383,22 @@ class IssueRules(YamlCatalog):
             IssueRules: The rules.
 
         Raises:
-            SEIssueRulesInconsistent: When a family allows an unknown component, a component has no required kind or
-                an unknown one, the types or the priorities differ between their labels and their board options, or
-                a default is not one of them.
+            SEIssueRulesInconsistent: When a family allows an unknown component, a ticket limit names an unknown
+                family, a component has no required kind or an unknown one, the types or the priorities differ
+                between their labels and their board options, a default is not one of them, the approval label is
+                also a family or a component, or an approval status is not a status a new issue may start in.
         """
         unknown = sorted({item for items in self.families.values() for item in items} - set(self.components))
         if unknown:
             raise SEIssueRulesInconsistent(
                 f"The families allow unknown components: {', '.join(unknown)}. "  # noqa: E501
                 "Every component of a family must be in components."
+            )
+        limited = sorted(set(self.family_ticket_limits) - set(self.families))
+        if limited:
+            raise SEIssueRulesInconsistent(
+                f"The ticket limits name unknown families: {', '.join(limited)}. "  # noqa: E501
+                "Every family of family_ticket_limits must be in families."
             )
         if set(self.required_reference_kinds) != set(self.components) or not set(
             self.required_reference_kinds.values()
@@ -354,6 +416,16 @@ class IssueRules(YamlCatalog):
             raise SEIssueRulesInconsistent(
                 f"The priorities differ: {sorted(self.priority_labels)} against {sorted(self.priority_options)}. "  # noqa: E501
                 "priority_labels and priority_options must name the same priorities, default_priority among them."
+            )
+        if self.approval_label in set(self.families) | set(self.components):
+            raise SEIssueRulesInconsistent(
+                f"Invalid approval_label: {self.approval_label!r}. "  # noqa: E501
+                "It must differ from every family and component label."
+            )
+        if not set(self.approval_statuses) <= set(self.new_issue_statuses):
+            raise SEIssueRulesInconsistent(
+                f"Invalid approval_statuses: {self.approval_statuses!r}. "  # noqa: E501
+                f"Each must be one of new_issue_statuses: {', '.join(self.new_issue_statuses)}."
             )
         return self
 

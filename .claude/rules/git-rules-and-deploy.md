@@ -21,7 +21,7 @@ These rules apply to simple-erp. They apply to anyone who commits, pushes, opens
 | [GIT-7](#git-7--a-pull-request-is-fixed-only-in-its-tickets-own-claude-session) | A pull request is fixed, rebased or pushed only in its ticket's own Claude session | 2026-11-10 |
 | [GIT-8](#git-8--branches-follow-gitflow) | Branches follow GitFlow: names, bases, targets, releases, hotfixes and version tags | 2026-11-10 |
 | GIT-9 | Reserved: every piece of work is an issue on the board, its Status following the work ([issue #4](https://github.com/gpbcom/simple-erp/issues/4), not written yet) | — |
-| [GIT-10](#git-10--a-feature-is-a-parent-issue-made-of-labelled-tickets) | A feature is a parent issue made of tickets (sub-issues); each ticket has exactly one component label, allowed by the feature's family, and follows the ticket format | 2026-11-11 |
+| [GIT-10](#git-10--a-feature-is-a-parent-issue-made-of-labelled-tickets) | A feature is a parent issue made of tickets (sub-issues); each ticket has exactly one component label, allowed by the feature's family, and follows the ticket format; an issue created by an agent carries `needs-maintainer-approval` and stays in Backlog until a maintainer removes it | 2026-11-11 |
 | [DEP-1](#dep-1--every-dependency-file-resolves-and-installs-before-a-push-or-a-stage-run) | Every dependency file resolves and installs, on each runtime and platform the pipeline uses, before a push or a stage run | 2026-11-10 |
 | [DEP-2](#dep-2--a-version-change-keeps-the-file-and-its-copies-consistent) | A version change regenerates lock files with their own command, and moves every copy of the pin | 2026-11-10 |
 | [DEP-3](#dep-3--a-dependency-error-in-a-workflow-log-is-a-failure) | A dependency error in a GitHub Actions log is a failure, even when the job ends green | 2026-11-10 |
@@ -56,7 +56,7 @@ You can commit locally without asking.
 
 **Rule:** as soon as a ticket's branch is pushed and its pull request is open, move its issue to **In review** in the "simple-erp" project (field **Status**). Do it in the same session, right after opening the pull request. A new push that answers a review or a failed QA run moves it back to **In review** too.
 
-The statuses are: **Backlog**, **Ready**, **In progress** (the branch exists), **In review** (the pull request is open), **QA** (the QA run of GIT-6 is started), **Done** (merged; GitHub closes the issue through "Closes #n").
+The statuses are: **Backlog**, **Ready**, **In progress** (the branch exists), **In review** (the pull request is open), **QA** (the QA run of GIT-6 is started), **Done** (merged; GitHub closes the issue through "Closes #n"). An issue labelled `needs-maintainer-approval` stays in **Backlog** until a maintainer removes the label (GIT-10).
 
 **Why:** the board tells everyone what waits for a review and which version: the pull request's.
 
@@ -177,8 +177,8 @@ git branch --show-current | grep -vxE 'master|develop|feature/GH-[0-9]+-[a-z0-9]
 
 **Rule:** work is planned on GitHub as features made of tickets, like epics and stories.
 
-1. **A feature** is an issue labelled `feature` and exactly one **family** label: `HARNESS`, `SPECS`, `PRODUCT` or `TESTS`. Its tickets are its GitHub **sub-issues**. **A feature is never empty**: it has at least one ticket.
-2. **A ticket** is a sub-issue of exactly one feature, with **exactly one component label**: `HARNESS`, `SPECS`, `INFRA`, `BACKEND`, `FRONTEND`, `E2E-TESTS`, `LOAD-TESTS` or `UNIT-TESTS`. The secondary labels `type:*` and `priority:*` stay; there is no `area:*` label.
+1. **A feature** is an issue labelled `feature` and exactly one **family** label: `HARNESS`, `SPECS`, `PRODUCT`, `TESTS` or `USER`. Its tickets are its GitHub **sub-issues**. **A feature is never empty**: it has at least one ticket.
+2. **A ticket** is a sub-issue of exactly one feature, with **exactly one component label**: `HARNESS`, `SPECS`, `INFRA`, `BACKEND`, `FRONTEND`, `E2E-TESTS`, `LOAD-TESTS`, `UNIT-TESTS`, `USER-FEATURE-REQUEST` or `USER-REPORTED-BUG`. The secondary labels `type:*` and `priority:*` stay; there is no `area:*` label.
 3. **The family decides the components:**
 
    | Feature family | Its tickets may be |
@@ -187,6 +187,7 @@ git branch --show-current | grep -vxE 'master|develop|feature/GH-[0-9]+-[a-z0-9]
    | `SPECS` | `SPECS` only |
    | `PRODUCT` | `INFRA`, `BACKEND`, `FRONTEND`, `E2E-TESTS`, `LOAD-TESTS`, `UNIT-TESTS`, alone or mixed, at the developer's will |
    | `TESTS` | `E2E-TESTS`, `LOAD-TESTS`, `UNIT-TESTS`, alone or mixed: a test campaign of its own |
+   | `USER` | `USER-FEATURE-REQUEST` or `USER-REPORTED-BUG`, **exactly one ticket**, closed ones included: a customer's feature request or bug report (F25 of the specifications). A ticket replaced by another is removed from the feature, not only closed |
 
 4. **One ticket, one delivery:** each ticket has its own branch (`feature|bugfix/GH-<n>-<slug>`, GIT-8), pull request, ticket folder and board card. A feature is closed when all its tickets are.
 5. **A ticket's title** is `[LABEL] Verb phrase`, the label being its component, under 80 characters: `[BACKEND] Store a customer with its VAT number`.
@@ -202,11 +203,12 @@ git branch --show-current | grep -vxE 'master|develop|feature/GH-[0-9]+-[a-z0-9]
    | `## Attachments` | The relevant spec files: images shown inline, Markdown files linked |
 
 7. **Every reference and attachment is a permalink pinned to a commit**: `https://github.com/gpbcom/simple-erp/blob/<40-character commit>/<path>`, so the ticket never changes meaning when the specifications move on.
-8. **A feature's body** has the sections `## Goal`, `## Specifications delivered`, `## Out of scope`, `## Tickets`.
+8. **A feature's body** has the sections `## Goal`, `## Specifications delivered`, `## Out of scope`, `## Tickets`. A `USER` feature's "Specifications delivered" names the specification pages the request touches, or "none yet".
+9. **An issue created by an agent**, feature or ticket, carries the label `needs-maintainer-approval` and stays in **Backlog** on the board while it carries it. Only a maintainer removes the label, which approves the issue, then moves its card to Ready. GitHub permissions decide who can remove a label; the check below reports an issue that carries the label in any other Status of the board "simple-erp", and leaves an issue that is not on the board to GIT-9.
 
-The test labels (`TESTS`, `E2E-TESTS`, `LOAD-TESTS`, `UNIT-TESTS`) were added on 2026-11-11 (issue #21).
+The test labels (`TESTS`, `E2E-TESTS`, `LOAD-TESTS`, `UNIT-TESTS`) were added on 2026-11-11 (issue #21). The `USER` family, its components `USER-FEATURE-REQUEST` and `USER-REPORTED-BUG`, and the label `needs-maintainer-approval` were added on 2026-11-12 (issue #23), for the requests the DevOps agents bring from customers.
 
-The machine-readable version of this rule is `.claude/skills/ticket-docs/conf/issue-rules.yaml` (families, components, matrix, title pattern, sections, reference patterns).
+The machine-readable version of this rule is `.claude/skills/ticket-docs/conf/issue-rules.yaml` (families, components, matrix, ticket limits per family, title pattern, sections, reference patterns, the approval label and the statuses it allows).
 
 **Source:** the owner, 2026-11-11, after an interview on the ticket format; the existing issues were backfilled the same day (features #15 harness, #16 specifications, #17 CI/CD).
 
@@ -221,25 +223,29 @@ The machine-readable version of this rule is `.claude/skills/ticket-docs/conf/is
 3. Put the ticket on the board with its Status (GIT-9, issue #4).
 4. Never give a ticket a second component label: split it into two tickets instead.
 
-**Check (until `ticket-docs check-issues` exists, issue #18):** this must print nothing:
+**Check (until `ticket-docs check-issues` exists, issue #18):** this must print nothing. It reads the first 100 issues, and each issue's Status on the board "simple-erp" (project 6), so the token needs the `read:project` scope:
 
 ```bash
-gh api graphql -f query='query{ repository(owner:"gpbcom", name:"simple-erp"){ issues(first:100, states:[OPEN,CLOSED]){ nodes{ number title labels(first:10){ nodes{ name } } parent{ number labels(first:10){ nodes{ name } } } subIssues(first:50){ totalCount } } } } }' --jq '
+gh api graphql -f query='query{ repository(owner:"gpbcom", name:"simple-erp"){ issues(first:100, states:[OPEN,CLOSED]){ nodes{ number title labels(first:10){ nodes{ name } } parent{ number labels(first:10){ nodes{ name } } } subIssues(first:50){ totalCount } projectItems(first:5){ nodes{ project{ number } fieldValueByName(name:"Status"){ ... on ProjectV2ItemFieldSingleSelectValue{ name } } } } } } } }' --jq '
   .data.repository.issues.nodes[] | ([.labels.nodes[].name]) as $l
-  | if ($l | index("feature")) then
-      ([$l[] | select(. == "HARNESS" or . == "SPECS" or . == "PRODUCT" or . == "TESTS")] | length) as $f
+  | ([(.projectItems.nodes // [])[] | select(.project.number == 6) | .fieldValueByName.name // empty][0]) as $s
+  | (if ($l | index("needs-maintainer-approval")) and $s != null and $s != "Backlog" then "#\(.number): needs-maintainer-approval keeps it in Backlog, not \($s)" else empty end),
+    (if ($l | index("feature")) then
+      ([$l[] | select(. == "HARNESS" or . == "SPECS" or . == "PRODUCT" or . == "TESTS" or . == "USER")] | length) as $f
       | if $f != 1 then "#\(.number): a feature needs exactly one family label"
-        elif .subIssues.totalCount == 0 then "#\(.number): empty feature" else empty end
+        elif .subIssues.totalCount == 0 then "#\(.number): empty feature"
+        elif ($l | index("USER")) and .subIssues.totalCount > 1 then "#\(.number): a USER feature holds exactly one ticket" else empty end
     else
-      ([$l[] | select(. == "HARNESS" or . == "SPECS" or . == "INFRA" or . == "BACKEND" or . == "FRONTEND" or . == "E2E-TESTS" or . == "LOAD-TESTS" or . == "UNIT-TESTS")]) as $c
+      ([$l[] | select(. == "HARNESS" or . == "SPECS" or . == "INFRA" or . == "BACKEND" or . == "FRONTEND" or . == "E2E-TESTS" or . == "LOAD-TESTS" or . == "UNIT-TESTS" or . == "USER-FEATURE-REQUEST" or . == "USER-REPORTED-BUG")]) as $c
       | if ($c | length) != 1 then "#\(.number): a ticket needs exactly one component label"
         elif .parent == null then "#\(.number): a ticket needs a parent feature"
-        else ([.parent.labels.nodes[].name | select(. == "HARNESS" or . == "SPECS" or . == "PRODUCT" or . == "TESTS")][0]) as $fam
+        else ([.parent.labels.nodes[].name | select(. == "HARNESS" or . == "SPECS" or . == "PRODUCT" or . == "TESTS" or . == "USER")][0]) as $fam
           | if ($fam == "HARNESS" or $fam == "SPECS") and $c[0] != $fam then "#\(.number): a \($fam) feature holds only \($fam) tickets"
-            elif $fam == "PRODUCT" and ($c[0] == "HARNESS" or $c[0] == "SPECS") then "#\(.number): a PRODUCT feature holds only INFRA, BACKEND, FRONTEND or test tickets"
+            elif $fam == "PRODUCT" and ($c[0] == "HARNESS" or $c[0] == "SPECS" or ($c[0] | startswith("USER-"))) then "#\(.number): a PRODUCT feature holds only INFRA, BACKEND, FRONTEND or test tickets"
             elif $fam == "TESTS" and ($c[0] | endswith("-TESTS") | not) then "#\(.number): a TESTS feature holds only E2E-TESTS, LOAD-TESTS or UNIT-TESTS tickets"
+            elif $fam == "USER" and ($c[0] | startswith("USER-") | not) then "#\(.number): a USER feature holds only USER-FEATURE-REQUEST or USER-REPORTED-BUG tickets"
             elif (.title | test("^\\[[A-Z0-9][A-Z0-9-]*\\] ") | not) or (.title | startswith("[" + $c[0] + "] ") | not) then "#\(.number): title must start with [\($c[0])]"
-            else empty end end end'
+            else empty end end end)'
 ```
 
 ## Deploy
