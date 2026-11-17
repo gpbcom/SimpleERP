@@ -57,9 +57,12 @@ Nothing is hosted, so there is no stage to book and nothing to pay for besides A
 | Gate | None | The owner's explicit yes before each run (GIT-6); the plan does not allow a required reviewer on a private repository |
 
 ```bash
-gh workflow run stage.yml --ref <branch> -f stage=dev -f ref=<commit>
-gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=<commit>
+gh workflow run stage.yml --ref <branch> -f stage=dev -f ref=$(git rev-parse HEAD)
+gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=$(git rev-parse HEAD)
 ```
+
+The `ref` may be a short SHA, a full SHA, a branch or a tag: the first step of `stage.yml` resolves it to its full
+commit through GitHub's API and checks that out, and an unknown ref fails at that step with a message naming it.
 
 **Why both:** they answer different questions. Dev runs on every integration and catches a broken commit in minutes;
 QA runs the slow, release-grade checks once per candidate, behind an approval. Both follow GitFlow: `develop` goes to
@@ -76,4 +79,4 @@ and the unit tests on the commit.
 3. The merge commit is tagged `v<x.y.z>` and the tag pushed: `release.yml` publishes.
 4. `master` is merged back into `develop`.
 
-Last reviewed: 2026-11-10 (GH-1)
+Last reviewed: 2026-11-17 (GH-13)

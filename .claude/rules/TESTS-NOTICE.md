@@ -56,8 +56,8 @@ The reports go to `playwright-report/` and `test-results/results.json`; copy bot
 ## Stage runs (dev and QA)
 
 ```bash
-gh workflow run stage.yml --ref <branch> -f stage=dev -f ref=<commit>  # dev: smoke, Bruno, Playwright @smoke
-gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=<commit>   # QA: only on the owner's yes, the full suites (GIT-6)
+gh workflow run stage.yml --ref <branch> -f stage=dev -f ref=$(git rev-parse HEAD)  # dev: smoke, Bruno, Playwright @smoke
+gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=$(git rev-parse HEAD)   # QA: only on the owner's yes, the full suites (GIT-6)
 gh run list --workflow stage.yml --commit <commit>          # find the run
 gh run watch <run-id>
 ```

@@ -116,7 +116,7 @@ grep -q 'Closes #[0-9]' pr-description.txt || echo "PR description: no 'Closes #
 Then:
 
 ```bash
-gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=<the pull request's head commit>
+gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=$(git rev-parse HEAD)  # on the pull request's head
 ```
 
 **Ask the owner's explicit yes before starting it**, showing the commit, the pull request and the evidence of each step above: the plan of the repository does not allow a required reviewer on the `qa` environment of a private repository, so this yes is the QA gate. A yes covers one QA run. Once the run is started, post on the pull request a comment whose first line is exactly `QA run: <run URL> on <commit>`, and move the issue to **QA** (GIT-3).

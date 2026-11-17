@@ -139,8 +139,8 @@ The time spent **must** be computed for every step and for the whole ticket, and
 
 A feature is never done on local tests alone: its commit runs on the **dev stage and the QA stage** (`.github/workflows/stage.yml`). The stages are ephemeral: each run starts the commit's images on a GitHub runner with the seeded data set, runs the tests, records a GitHub Deployment on the `dev` or `qa` environment and uploads every report. There is no stage to book or to wait for.
 
-1. **Dev**, before the pull request, once the branch is pushed (GIT-1): `gh workflow run stage.yml --ref <branch> -f stage=dev -f ref=<sha>`. It runs the smoke test, the Bruno collection and Playwright `@smoke`.
-2. **QA**, once the pull request is open and every earlier step is ✅ (GIT-6): `gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=<sha>`. Ask the owner's yes first (GIT-6: it is the QA gate, ⏳ excluded from the step's time); the run then runs the full Playwright suite, Bruno, the upgrade test from the previous release, and the dependency scan.
+1. **Dev**, before the pull request, once the branch is pushed (GIT-1): `gh workflow run stage.yml --ref <branch> -f stage=dev -f ref=$(git rev-parse HEAD)`. It runs the smoke test, the Bruno collection and Playwright `@smoke`.
+2. **QA**, once the pull request is open and every earlier step is ✅ (GIT-6): `gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=$(git rev-parse HEAD)`. Ask the owner's yes first (GIT-6: it is the QA gate, ⏳ excluded from the step's time); the run then runs the full Playwright suite, Bruno, the upgrade test from the previous release, and the dependency scan.
 3. **Evidence:** `gh run watch <run-id>`, then `ticket-docs record-run --ticket <KEY> --kind e2e --where dev|qa --check stage --what "<…>" --run-id <run-id>`. Search its `actions.log` for dependency errors (DEP-3).
 4. A run that fails on its environment (a runner outage, a registry timeout) is ⚠️ invalid and run again, never ✅. Its folder is kept (TEST-9).
 5. Only the owner can waive QA, logged as a decision (`Dn`) in EXPLAIN §6.3. The QA row then reads 🚫 with that Dn, never ✅.
