@@ -1,0 +1,29 @@
+🏠 [Specs](../../../../../README.md) › 🏷️ [Sectors](../../../../README.md) ›
+🍽️ [SC06 Restaurant and hospitality](../../../README.md) › 🖼️ [Images](../../README.md) ›
+🖼️ [Screen states](../README.md) › 🖼️ Entity states: U17 Cashier
+
+# 🖼️ Entity states: U17 Cashier
+
+The screens showing each entity state this persona sees, light and dark (VD-15, D120).
+
+## s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-desktop, light](s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-desktop-light.png) | ![s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-desktop, dark](s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-desktop-dark.png) |
+
+## s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-phone, light](s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-phone-light.png) | ![s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-phone, dark](s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-phone-dark.png) |
+
+## s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-tablet
+
+| Light | Dark |
+|---|---|
+| ![s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-tablet, light](s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-tablet-light.png) | ![s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-tablet, dark](s-sc06-13-meal-vouchers-e-sc06-12-meal-voucher-payment-active-tablet-dark.png) |
+
+---
+
+⬆️ [Up](../README.md)

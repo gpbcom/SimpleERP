@@ -1,0 +1,27 @@
+🏠 [Specs](../../../../../README.md) › 🧩 [Functional capabilities](../../../../README.md) ›
+⚖️ [F15 Legal assistant](../../../README.md) › 🖼️ [Images](../../README.md) ›
+🖼️ [Images: FL-F15-02 Receive a legal warning](../README.md) › 🖼️ FL-F15-02 Receive a legal warning
+
+# 🖼️ FL-F15-02 Receive a legal warning
+
+**Status:** ✅ specified
+
+Images of
+[FL-F15-02 Receive a legal warning](../../../flows/fl-f15-02-receive-a-legal-warning.md)
+for this persona, in light and dark mode (D120, D121). Errors follow the
+[error message pattern](../../../../../04-ux/design-system/patterns/error-messages.md).
+
+## 2 A threshold crossed (desktop)
+
+| Light | Dark |
+|---|---|
+| ![A threshold crossed, light](2-threshold-crossed-desktop-light.png) | ![A threshold crossed, dark](2-threshold-crossed-desktop-dark.png) |
+
+## 2 A threshold crossed (phone)
+
+| Light | Dark |
+|---|---|
+| ![A threshold crossed, light](2-threshold-crossed-phone-light.png) | ![A threshold crossed, dark](2-threshold-crossed-phone-dark.png) |
+---
+
+⬆️ [Up](../README.md)

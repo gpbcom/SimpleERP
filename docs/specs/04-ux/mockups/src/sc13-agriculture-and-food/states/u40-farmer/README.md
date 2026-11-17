@@ -1,0 +1,119 @@
+🏠 [Specs](../../../../../../README.md) › 🎨 [UX](../../../../../README.md) › 🧪 [Mockups](../../../../README.md) ›
+🧪 [src](../../../README.md) › 🧪 [sc13-agriculture-and-food](../../README.md) › 🧪 [states](../README.md) › 🧪 u40-farmer
+
+# 🧪 u40-farmer
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc13-01-plots-e-sc13-01-plot-new-desktop.html`
+- `s-sc13-01-plots-e-sc13-01-plot-new-phone.html`
+- `s-sc13-01-plots-e-sc13-01-plot-refused-desktop.html`
+- `s-sc13-01-plots-e-sc13-01-plot-refused-phone.html`
+- `s-sc13-01-plots-e-sc13-02-crop-plan-active-desktop.html`
+- `s-sc13-01-plots-e-sc13-02-crop-plan-active-phone.html`
+- `s-sc13-02-treatments-e-sc13-03-field-operation-active-desktop.html`
+- `s-sc13-02-treatments-e-sc13-03-field-operation-active-phone.html`
+- `s-sc13-03-fertilisation-e-sc13-03-field-operation-active-desktop.html`
+- `s-sc13-03-fertilisation-e-sc13-03-field-operation-active-phone.html`
+- `s-sc13-04-harvests-e-sc13-04-lot-blocked-desktop.html`
+- `s-sc13-04-harvests-e-sc13-04-lot-blocked-phone.html`
+- `s-sc13-04-harvests-e-sc13-04-lot-refused-desktop.html`
+- `s-sc13-04-harvests-e-sc13-04-lot-refused-phone.html`
+- `s-sc13-05-herd-e-sc13-05-animal-active-desktop.html`
+- `s-sc13-05-herd-e-sc13-05-animal-active-phone.html`
+- `s-sc13-06-veterinary-e-sc13-06-veterinary-treatment-active-desktop.html`
+- `s-sc13-06-veterinary-e-sc13-06-veterinary-treatment-active-phone.html`
+- `s-sc13-07-aid-declaration-e-sc13-01-plot-new-desktop.html`
+- `s-sc13-07-aid-declaration-e-sc13-01-plot-new-phone.html`
+- `s-sc13-07-aid-declaration-e-sc13-01-plot-refused-desktop.html`
+- `s-sc13-07-aid-declaration-e-sc13-01-plot-refused-phone.html`
+- `s-sc13-07-aid-declaration-e-sc13-05-animal-active-desktop.html`
+- `s-sc13-07-aid-declaration-e-sc13-05-animal-active-phone.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-desktop.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-phone.html`
+- `s-sc13-08-machinery-e-sc13-07-machine-flagged-desktop.html`
+- `s-sc13-08-machinery-e-sc13-07-machine-flagged-phone.html`
+- `s-sc13-08-machinery-e-sc13-07-machine-overdue-desktop.html`
+- `s-sc13-08-machinery-e-sc13-07-machine-overdue-phone.html`
+- `s-sc13-10-direct-sales-e-sc13-09-direct-sale-active-desktop.html`
+- `s-sc13-10-direct-sales-e-sc13-09-direct-sale-active-phone.html`
+- `s-sc13-11-cooperative-e-sc13-10-cooperative-statement-active-desktop.html`
+- `s-sc13-11-cooperative-e-sc13-10-cooperative-statement-active-phone.html`
+- `s-sc13-12-organic-e-sc13-11-organic-record-recorded-desktop.html`
+- `s-sc13-12-organic-e-sc13-11-organic-record-recorded-phone.html`
+- `s-sc13-13-batches-e-f12-25-recipe-approved-desktop.html`
+- `s-sc13-13-batches-e-f12-25-recipe-approved-phone.html`
+- `s-sc13-13-batches-e-f12-25-recipe-draft-desktop.html`
+- `s-sc13-13-batches-e-f12-25-recipe-draft-phone.html`
+- `s-sc13-13-batches-e-f12-25-recipe-superseded-desktop.html`
+- `s-sc13-13-batches-e-f12-25-recipe-superseded-phone.html`
+- `s-sc13-13-batches-e-sc13-04-lot-refused-desktop.html`
+- `s-sc13-13-batches-e-sc13-04-lot-refused-phone.html`
+- `s-sc13-13-batches-e-sc13-12-batch-active-desktop.html`
+- `s-sc13-13-batches-e-sc13-12-batch-active-phone.html`
+- `s-sc13-14-traceability-e-sc13-04-lot-refused-desktop.html`
+- `s-sc13-14-traceability-e-sc13-04-lot-refused-phone.html`
+- `s-sc13-14-traceability-e-sc13-12-batch-active-desktop.html`
+- `s-sc13-14-traceability-e-sc13-12-batch-active-phone.html`
+- `s-sc13-18-costs-e-sc13-02-crop-plan-active-desktop.html`
+- `s-sc13-18-costs-e-sc13-02-crop-plan-active-phone.html`
+- `s-sc13-18-costs-e-sc13-07-machine-flagged-desktop.html`
+- `s-sc13-18-costs-e-sc13-07-machine-flagged-phone.html`
+- `s-sc13-18-costs-e-sc13-07-machine-overdue-desktop.html`
+- `s-sc13-18-costs-e-sc13-07-machine-overdue-phone.html`
+- `s-sc13-20-farm-assistant-e-sc13-03-field-operation-active-desktop.html`
+- `s-sc13-20-farm-assistant-e-sc13-03-field-operation-active-phone.html`
+- `s-sc13-20-farm-assistant-e-sc13-05-animal-active-desktop.html`
+- `s-sc13-20-farm-assistant-e-sc13-05-animal-active-phone.html`
+
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-declared-desktop.html`
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-declared-phone.html`
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-grubbed-up-desktop.html`
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-grubbed-up-phone.html`
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-harvested-desktop.html`
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-harvested-phone.html`
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-in-production-desktop.html`
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-in-production-phone.html`
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-planted-desktop.html`
+- `s-sc13-21-vineyard-e-sc13-17-vine-plot-planted-phone.html`
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-cancelled-desktop.html`
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-done-desktop.html`
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-invoiced-desktop.html`
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-quoted-desktop.html`
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-scheduled-desktop.html`
+- `s-sc13-23-cooperative-e-sc13-19-member-delivery-advance-paid-phone.html`
+- `s-sc13-23-cooperative-e-sc13-19-member-delivery-graded-phone.html`
+- `s-sc13-23-cooperative-e-sc13-19-member-delivery-received-phone.html`
+- `s-sc13-23-cooperative-e-sc13-19-member-delivery-settled-phone.html`
+- `s-sc13-24-baskets-e-sc13-20-basket-subscription-active-desktop.html`
+- `s-sc13-24-baskets-e-sc13-20-basket-subscription-ended-desktop.html`
+- `s-sc13-24-baskets-e-sc13-20-basket-subscription-paused-desktop.html`
+- `s-sc13-24-baskets-e-sc13-20-basket-subscription-pending-desktop.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-delivered-desktop.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-felled-desktop.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-marked-desktop.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-sold-desktop.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-withdrawn-desktop.html`
+
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-cancelled-phone.html`
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-done-phone.html`
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-invoiced-phone.html`
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-quoted-phone.html`
+- `s-sc13-22-farm-contractor-e-sc13-18-field-job-scheduled-phone.html`
+- `s-sc13-23-cooperative-e-sc13-19-member-delivery-advance-paid-desktop.html`
+- `s-sc13-23-cooperative-e-sc13-19-member-delivery-graded-desktop.html`
+- `s-sc13-23-cooperative-e-sc13-19-member-delivery-received-desktop.html`
+- `s-sc13-23-cooperative-e-sc13-19-member-delivery-settled-desktop.html`
+- `s-sc13-24-baskets-e-sc13-20-basket-subscription-active-phone.html`
+- `s-sc13-24-baskets-e-sc13-20-basket-subscription-ended-phone.html`
+- `s-sc13-24-baskets-e-sc13-20-basket-subscription-paused-phone.html`
+- `s-sc13-24-baskets-e-sc13-20-basket-subscription-pending-phone.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-delivered-phone.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-felled-phone.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-marked-phone.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-sold-phone.html`
+- `s-sc13-25-forestry-e-sc13-21-timber-lot-withdrawn-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

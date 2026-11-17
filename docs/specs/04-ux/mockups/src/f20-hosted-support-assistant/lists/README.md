@@ -1,0 +1,101 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [f20-hosted-support-assistant](../README.md) › 🧪 lists
+
+# 🧪 lists
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f20-l01-support-requests-u01-employee-desktop.html`
+- `s-f20-l01-support-requests-u01-employee-phone.html`
+- `s-f20-l01-support-requests-u07-administrator-desktop.html`
+- `s-f20-l01-support-requests-u07-administrator-phone.html`
+- `s-f20-l01-support-requests-u13-owner-desktop.html`
+- `s-f20-l01-support-requests-u13-owner-phone.html`
+- `s-f20-l01-support-requests-u48-hosting-engineer-desktop.html`
+- `s-f20-l01-support-requests-u48-hosting-engineer-phone.html`
+- `s-f20-l02-messages-u01-employee-desktop.html`
+- `s-f20-l02-messages-u01-employee-phone.html`
+- `s-f20-l02-messages-u07-administrator-desktop.html`
+- `s-f20-l02-messages-u07-administrator-phone.html`
+- `s-f20-l02-messages-u13-owner-desktop.html`
+- `s-f20-l02-messages-u13-owner-phone.html`
+- `s-f20-l03-screenshots-u01-employee-desktop.html`
+- `s-f20-l03-screenshots-u01-employee-phone.html`
+- `s-f20-l03-screenshots-u07-administrator-desktop.html`
+- `s-f20-l03-screenshots-u07-administrator-phone.html`
+- `s-f20-l03-screenshots-u48-hosting-engineer-desktop.html`
+- `s-f20-l03-screenshots-u48-hosting-engineer-phone.html`
+- `s-f20-l04-diagnosis-u07-administrator-desktop.html`
+- `s-f20-l04-diagnosis-u07-administrator-phone.html`
+- `s-f20-l04-diagnosis-u48-hosting-engineer-desktop.html`
+- `s-f20-l04-diagnosis-u48-hosting-engineer-phone.html`
+- `s-f20-l05-cluster-readings-u07-administrator-desktop.html`
+- `s-f20-l05-cluster-readings-u07-administrator-phone.html`
+- `s-f20-l05-cluster-readings-u48-hosting-engineer-desktop.html`
+- `s-f20-l05-cluster-readings-u48-hosting-engineer-phone.html`
+- `s-f20-l06-fix-proposals-u07-administrator-desktop.html`
+- `s-f20-l06-fix-proposals-u07-administrator-phone.html`
+- `s-f20-l06-fix-proposals-u48-hosting-engineer-desktop.html`
+- `s-f20-l06-fix-proposals-u48-hosting-engineer-phone.html`
+- `s-f20-l07-service-incidents-u13-owner-desktop.html`
+- `s-f20-l07-service-incidents-u13-owner-phone.html`
+- `s-f20-l07-service-incidents-u48-hosting-engineer-desktop.html`
+- `s-f20-l07-service-incidents-u48-hosting-engineer-phone.html`
+- `s-f20-l08-restores-u07-administrator-desktop.html`
+- `s-f20-l08-restores-u07-administrator-phone.html`
+- `s-f20-l08-restores-u48-hosting-engineer-desktop.html`
+- `s-f20-l08-restores-u48-hosting-engineer-phone.html`
+- `s-f20-l09-breach-records-u13-owner-desktop.html`
+- `s-f20-l09-breach-records-u13-owner-phone.html`
+- `s-f20-l09-breach-records-u48-hosting-engineer-desktop.html`
+- `s-f20-l09-breach-records-u48-hosting-engineer-phone.html`
+- `s-f20-l10-ratings-u07-administrator-desktop.html`
+- `s-f20-l10-ratings-u07-administrator-phone.html`
+- `s-f20-l10-ratings-u48-hosting-engineer-desktop.html`
+- `s-f20-l10-ratings-u48-hosting-engineer-phone.html`
+- `s-f20-l11-assistant-policies-u48-hosting-engineer-desktop.html`
+- `s-f20-l11-assistant-policies-u48-hosting-engineer-phone.html`
+- `s-f20-l12-support-plans-u05-accounting-desktop.html`
+- `s-f20-l12-support-plans-u05-accounting-phone.html`
+- `s-f20-l12-support-plans-u13-owner-desktop.html`
+- `s-f20-l12-support-plans-u13-owner-phone.html`
+- `s-f20-l13-maintenance-notices-u07-administrator-desktop.html`
+- `s-f20-l13-maintenance-notices-u07-administrator-phone.html`
+- `s-f20-l13-maintenance-notices-u13-owner-desktop.html`
+- `s-f20-l13-maintenance-notices-u13-owner-phone.html`
+- `s-f20-l13-maintenance-notices-u48-hosting-engineer-desktop.html`
+- `s-f20-l13-maintenance-notices-u48-hosting-engineer-phone.html`
+- `s-f20-l14-upgrade-release-notes-u01-employee-desktop.html`
+- `s-f20-l14-upgrade-release-notes-u01-employee-phone.html`
+- `s-f20-l14-upgrade-release-notes-u07-administrator-desktop.html`
+- `s-f20-l14-upgrade-release-notes-u07-administrator-phone.html`
+- `s-f20-l15-incident-reports-u13-owner-desktop.html`
+- `s-f20-l15-incident-reports-u13-owner-phone.html`
+- `s-f20-l15-incident-reports-u48-hosting-engineer-desktop.html`
+- `s-f20-l15-incident-reports-u48-hosting-engineer-phone.html`
+- `s-f20-l16-service-credits-u05-accounting-desktop.html`
+- `s-f20-l16-service-credits-u05-accounting-phone.html`
+- `s-f20-l16-service-credits-u13-owner-desktop.html`
+- `s-f20-l16-service-credits-u13-owner-phone.html`
+- `s-f20-l17-nis2-fact-sheets-u13-owner-desktop.html`
+- `s-f20-l17-nis2-fact-sheets-u13-owner-phone.html`
+- `s-f20-l17-nis2-fact-sheets-u48-hosting-engineer-desktop.html`
+- `s-f20-l17-nis2-fact-sheets-u48-hosting-engineer-phone.html`
+- `s-f20-l18-support-conversation-exports-u07-administrator-desktop.html`
+- `s-f20-l18-support-conversation-exports-u07-administrator-phone.html`
+- `s-f20-l19-engineer-calls-u07-administrator-desktop.html`
+- `s-f20-l19-engineer-calls-u07-administrator-phone.html`
+- `s-f20-l19-engineer-calls-u48-hosting-engineer-desktop.html`
+- `s-f20-l19-engineer-calls-u48-hosting-engineer-phone.html`
+- `s-f20-l20-access-grants-u07-administrator-desktop.html`
+- `s-f20-l20-access-grants-u07-administrator-phone.html`
+- `s-f20-l20-access-grants-u48-hosting-engineer-desktop.html`
+- `s-f20-l20-access-grants-u48-hosting-engineer-phone.html`
+- `s-f20-l21-health-reports-u07-administrator-desktop.html`
+- `s-f20-l21-health-reports-u07-administrator-phone.html`
+- `s-f20-l21-health-reports-u13-owner-desktop.html`
+- `s-f20-l21-health-reports-u13-owner-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

@@ -1,0 +1,159 @@
+🏠 [Specs](../../../../README.md) › 🏷️ [Sectors](../../../README.md) › 🎭 [SC16 Events and culture](../../README.md) ›
+📝 [Use cases](../README.md) › 📝 [Use cases: FL-SC16-01 Plan and book](README.md) ›
+📝 UC-SC16-01 Plan an event and its budget
+
+# 📝 UC-SC16-01 Plan an event and its budget
+
+**Status:** ✅ specified
+
+## Summary
+
+The event producer creates an event with its dates and budget lines on the shared events model; the owner approves the
+budget.
+
+## Personas
+
+- [U43 Event producer](../../../../01-users/personas/u43-event-producer.md)
+- [U13 Owner](../../../../01-users/personas/u13-owner.md)
+
+## Goal
+
+An approved event with its budget.
+
+## Trigger
+
+A programming decision.
+
+## Frequency
+
+Per event.
+
+## Preconditions
+
+- The SC16 sector pack is installed for the company,
+  [UC-F14-02](../../../../02-functional/f14-plugin-store/use-cases/01-find-and-install/uc-f14-02-install-a-plugin-or-sector-pack.md),
+  and its users have their roles,
+  [UC-F1-06](../../../../02-functional/f01-administration/use-cases/04-edit-a-role/uc-f01-06-edit-a-role-and-its-record-rules.md).
+
+## Postconditions
+
+- **Success:** the event and budget are approved.
+- **Failed:** the event stays a draft.
+
+## Main flow
+
+1. The producer creates the event on [S-SC16-01 Event plan](../../screens/01-plan-and-book/s-sc16-01-event-plan.md),
+   [UC-F5-11](../../../../02-functional/f05-social-media/use-cases/07-events-and-ticketing/uc-f05-11-organise-events-and-sell-tickets.md).
+2. The producer enters budget lines,
+   [UC-F8-09](../../../../02-functional/f08-accounting/use-cases/04-tax-assets-and-analytics/uc-f08-09-track-analytics-and-budgets.md).
+3. The owner approves.
+4. Actuals follow the budget.
+
+## Alternative flows
+
+- 1a. A tour of several dates: each date is an event of the tour.
+
+## Error flows
+
+- 4e. Over budget: the producer and owner are alerted.
+- 3e. The budget refused: it goes back to draft.
+- Any step: a call to a service or an outside system fails: it is retried first
+  ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
+  error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)) says what failed; what was
+  typed is kept.
+
+## Business rules
+
+- [BR-SC16-01 Events follow the country pack](../../business-rules/br-sc16-01-events-follow-the-country-pack.md)
+
+## Entities
+
+- [E-SC16-01 Show](../../data/e-sc16-01-show.md)
+- [E-SC16-02 Event budget](../../data/e-sc16-02-event-budget.md)
+- [E-F5-07 Registration event](../../../../02-functional/f05-social-media/data/e-f05-07-registration-event.md)
+
+## Permissions
+
+The event producer and owner roles; the record rules of their role and site apply,
+[UC-F1-06](../../../../02-functional/f01-administration/use-cases/04-edit-a-role/uc-f01-06-edit-a-role-and-its-record-rules.md).
+
+## Notifications
+
+None beyond the in-app updates of the records concerned.
+
+## Audit events
+
+Every creation, change and state change of event, event budget, event records, with who, when and the values before and
+after (T3).
+
+## AI involvement
+
+The AI assistant answers questions on the event, event budget, event records of this use case, with links, and prepares
+them as drafts the user confirms. It works within the user's rights,
+[BR-F3-34](../../../../02-functional/f03-assistant/business-rules/br-f03-34-every-capability-is-reachable-from-the-assistant.md),
+and never deletes or does anything irreversible without the user's confirmation,
+[BR-F3-07](../../../../02-functional/f03-assistant/business-rules/br-f03-07-no-deletes-no-irreversible-acts.md).
+
+## API, MCP and A2A exposure
+
+Through the API and webhooks (T5) and the MCP and A2A gateway (T6), with the caller's rights,
+[BR-F3-34](../../../../02-functional/f03-assistant/business-rules/br-f03-34-every-capability-is-reachable-from-the-assistant.md),
+reading, creating and changing the records of this use case; nothing irreversible without a person's confirmation.
+
+## Screens
+
+- [S-SC16-01 Event plan](../../screens/01-plan-and-book/s-sc16-01-event-plan.md)
+
+## Flowchart
+
+See [FL-SC16-01 Plan and book](../../flows/fl-sc16-01-plan-and-book.md#flowchart).
+
+## Sequence diagram
+
+```mermaid
+sequenceDiagram
+  actor A1 as Event producer
+  actor A2 as Owner
+  participant P1 as Event plan
+  A1->>P1: Create
+  A1->>P1: Budget
+  A2->>P1: Approve
+  P1-->>A2: Approved
+  A1->>P1: Follow
+  alt over budget
+    P1-->>A1: The producer and owner are alerted
+  end
+  alt the budget refused
+    P1-->>A2: It goes back to draft
+  end
+```
+
+## Acceptance criteria
+
+1. **Given** the example venue's Jazz Night on 12 December in Hall A for 800 **when** the budget is approved **then**
+   artists show 18,000 EUR planned.
+2. **Given** artists at 19,000 EUR for 18,000 EUR planned **when** a cost is posted **then** the producer and owner are
+   alerted.
+
+## Non-functional notes
+
+[D408](../../../../06-decisions/technical/d408-performance-and-profiles.md)'s targets
+([performance](../../../../05-non-functional/performance.md)): 95 % of screens within 1 second; lists paged on the
+server, the first page within 1 second; reports within 5 seconds or in the background. WCAG 2.2 AA and RGAA
+([D46](../../../../06-decisions/ux/d46-accessibility-standard.md)).
+
+## Regulatory references
+
+None specific to this use case; the sector's legal rules are listed in [SC16 regulatory](../../regulatory.md).
+
+## Related use cases
+
+- [UC-SC16-02 Book venues and rooms](uc-sc16-02-book-venues-and-rooms.md)
+
+## Open questions
+
+None.
+
+---
+
+⬆️ [Up](README.md) · ➡️ [UC-SC16-02 Book venues and rooms](uc-sc16-02-book-venues-and-rooms.md)

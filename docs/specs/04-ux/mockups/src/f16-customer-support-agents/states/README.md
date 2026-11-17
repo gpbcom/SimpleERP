@@ -1,0 +1,102 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [f16-customer-support-agents](../README.md) › 🧪 states
+
+# 🧪 states
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f16-01-request-inbox-empty-phone.html`
+- `s-f16-01-request-inbox-loading-phone.html`
+- `s-f16-01-request-inbox-offline-phone.html`
+- `s-f16-01-request-inbox-read-only-phone.html`
+- `s-f16-02-procedure-editor-empty-desktop.html`
+- `s-f16-02-procedure-editor-loading-desktop.html`
+- `s-f16-02-procedure-editor-offline-phone.html`
+- `s-f16-02-procedure-editor-read-only-desktop.html`
+- `s-f16-03-intent-rollout-empty-desktop.html`
+- `s-f16-03-intent-rollout-loading-desktop.html`
+- `s-f16-03-intent-rollout-offline-phone.html`
+- `s-f16-03-intent-rollout-read-only-desktop.html`
+- `s-f16-04-review-queue-empty-desktop.html`
+- `s-f16-04-review-queue-loading-desktop.html`
+- `s-f16-04-review-queue-offline-phone.html`
+- `s-f16-04-review-queue-read-only-desktop.html`
+- `s-f16-05-support-dashboard-empty-desktop.html`
+- `s-f16-05-support-dashboard-loading-desktop.html`
+- `s-f16-05-support-dashboard-offline-phone.html`
+- `s-f16-05-support-dashboard-read-only-desktop.html`
+- `s-f16-06-support-connections-empty-desktop.html`
+- `s-f16-06-support-connections-loading-desktop.html`
+- `s-f16-06-support-connections-offline-desktop.html`
+- `s-f16-06-support-connections-read-only-desktop.html`
+- `s-f16-07-service-levels-empty-desktop.html`
+- `s-f16-07-service-levels-loading-desktop.html`
+- `s-f16-07-service-levels-offline-phone.html`
+- `s-f16-07-service-levels-read-only-desktop.html`
+- `s-f16-08-agent-workspace-empty-desktop.html`
+- `s-f16-08-agent-workspace-loading-desktop.html`
+- `s-f16-08-agent-workspace-offline-phone.html`
+- `s-f16-08-agent-workspace-read-only-desktop.html`
+- `s-f16-09-satisfaction-survey-empty-phone.html`
+- `s-f16-09-satisfaction-survey-loading-phone.html`
+- `s-f16-09-satisfaction-survey-offline-phone.html`
+- `s-f16-09-satisfaction-survey-read-only-phone.html`
+- `s-f16-10-help-centre-empty-desktop.html`
+- `s-f16-10-help-centre-loading-desktop.html`
+- `s-f16-10-help-centre-offline-phone.html`
+- `s-f16-10-help-centre-read-only-desktop.html`
+- `s-f16-11-my-requests-empty-phone.html`
+- `s-f16-11-my-requests-loading-phone.html`
+- `s-f16-11-my-requests-offline-phone.html`
+- `s-f16-11-my-requests-read-only-phone.html`
+- `s-f16-12-intent-discovery-empty-desktop.html`
+- `s-f16-12-intent-discovery-loading-desktop.html`
+- `s-f16-12-intent-discovery-offline-phone.html`
+- `s-f16-12-intent-discovery-read-only-desktop.html`
+- `s-f16-13-fraud-signals-empty-desktop.html`
+- `s-f16-13-fraud-signals-loading-desktop.html`
+- `s-f16-13-fraud-signals-offline-phone.html`
+- `s-f16-13-fraud-signals-read-only-desktop.html`
+- `s-f16-14-work-requests-empty-desktop.html`
+- `s-f16-14-work-requests-loading-desktop.html`
+- `s-f16-14-work-requests-offline-phone.html`
+- `s-f16-14-work-requests-read-only-desktop.html`
+- `s-f16-15-arrival-of-your-visit-empty-phone.html`
+- `s-f16-15-arrival-of-your-visit-loading-phone.html`
+- `s-f16-15-arrival-of-your-visit-offline-phone.html`
+- `s-f16-15-arrival-of-your-visit-read-only-phone.html`
+- `s-f16-16-forum-empty-phone.html`
+- `s-f16-16-forum-loading-phone.html`
+- `s-f16-16-forum-offline-phone.html`
+- `s-f16-16-forum-read-only-phone.html`
+- `s-f16-17-live-chat-empty-desktop.html`
+- `s-f16-17-live-chat-loading-desktop.html`
+- `s-f16-17-live-chat-offline-phone.html`
+- `s-f16-17-live-chat-read-only-desktop.html`
+- `s-f16-18-voice-agent-empty-phone.html`
+- `s-f16-18-voice-agent-loading-phone.html`
+- `s-f16-18-voice-agent-offline-phone.html`
+- `s-f16-18-voice-agent-read-only-phone.html`
+- `s-f16-19-proactive-outreach-empty-desktop.html`
+- `s-f16-19-proactive-outreach-loading-desktop.html`
+- `s-f16-19-proactive-outreach-offline-phone.html`
+- `s-f16-19-proactive-outreach-read-only-desktop.html`
+- `s-f16-20-support-contracts-empty-desktop.html`
+- `s-f16-20-support-contracts-loading-desktop.html`
+- `s-f16-20-support-contracts-offline-phone.html`
+- `s-f16-20-support-contracts-read-only-desktop.html`
+- `s-f16-21-canned-replies-empty-desktop.html`
+- `s-f16-21-canned-replies-loading-desktop.html`
+- `s-f16-21-canned-replies-offline-phone.html`
+- `s-f16-21-canned-replies-read-only-desktop.html`
+- [u02-manager](u02-manager/README.md)
+- [u09-customer](u09-customer/README.md)
+- [u13-owner](u13-owner/README.md)
+- [u16-office-worker](u16-office-worker/README.md)
+- [u25-care-coordinator](u25-care-coordinator/README.md)
+- [u29-dispatcher](u29-dispatcher/README.md)
+- [u41-customer-success-manager](u41-customer-success-manager/README.md)
+
+---
+
+⬆️ [Up](../README.md)

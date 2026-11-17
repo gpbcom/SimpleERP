@@ -1,0 +1,103 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [sc03-services](../README.md) › 🧪 lists
+
+# 🧪 lists
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc03-l01-engagements-u03-sales-desktop.html`
+- `s-sc03-l01-engagements-u03-sales-phone.html`
+- `s-sc03-l01-engagements-u09-customer-desktop.html`
+- `s-sc03-l01-engagements-u09-customer-phone.html`
+- `s-sc03-l01-engagements-u13-owner-desktop.html`
+- `s-sc03-l01-engagements-u13-owner-phone.html`
+- `s-sc03-l01-engagements-u16-office-worker-desktop.html`
+- `s-sc03-l01-engagements-u16-office-worker-phone.html`
+- `s-sc03-l01-engagements-u24-engagement-manager-desktop.html`
+- `s-sc03-l01-engagements-u24-engagement-manager-phone.html`
+- `s-sc03-l02-statement-of-works-u03-sales-desktop.html`
+- `s-sc03-l02-statement-of-works-u03-sales-phone.html`
+- `s-sc03-l02-statement-of-works-u09-customer-desktop.html`
+- `s-sc03-l02-statement-of-works-u09-customer-phone.html`
+- `s-sc03-l02-statement-of-works-u24-engagement-manager-desktop.html`
+- `s-sc03-l02-statement-of-works-u24-engagement-manager-phone.html`
+- `s-sc03-l03-rate-cards-u13-owner-desktop.html`
+- `s-sc03-l03-rate-cards-u13-owner-phone.html`
+- `s-sc03-l03-rate-cards-u24-engagement-manager-desktop.html`
+- `s-sc03-l03-rate-cards-u24-engagement-manager-phone.html`
+- `s-sc03-l04-staffing-assignments-u13-owner-desktop.html`
+- `s-sc03-l04-staffing-assignments-u13-owner-phone.html`
+- `s-sc03-l04-staffing-assignments-u24-engagement-manager-desktop.html`
+- `s-sc03-l04-staffing-assignments-u24-engagement-manager-phone.html`
+- `s-sc03-l04-staffing-assignments-u36-professional-desktop.html`
+- `s-sc03-l04-staffing-assignments-u36-professional-phone.html`
+- `s-sc03-l05-timesheets-u16-office-worker-desktop.html`
+- `s-sc03-l05-timesheets-u16-office-worker-phone.html`
+- `s-sc03-l05-timesheets-u24-engagement-manager-desktop.html`
+- `s-sc03-l05-timesheets-u24-engagement-manager-phone.html`
+- `s-sc03-l06-rebillable-costs-u09-customer-desktop.html`
+- `s-sc03-l06-rebillable-costs-u09-customer-phone.html`
+- `s-sc03-l06-rebillable-costs-u16-office-worker-desktop.html`
+- `s-sc03-l06-rebillable-costs-u16-office-worker-phone.html`
+- `s-sc03-l06-rebillable-costs-u24-engagement-manager-desktop.html`
+- `s-sc03-l06-rebillable-costs-u24-engagement-manager-phone.html`
+- `s-sc03-l07-billing-proposals-u05-accounting-desktop.html`
+- `s-sc03-l07-billing-proposals-u05-accounting-phone.html`
+- `s-sc03-l07-billing-proposals-u24-engagement-manager-desktop.html`
+- `s-sc03-l07-billing-proposals-u24-engagement-manager-phone.html`
+- `s-sc03-l08-milestones-u05-accounting-desktop.html`
+- `s-sc03-l08-milestones-u05-accounting-phone.html`
+- `s-sc03-l08-milestones-u24-engagement-manager-desktop.html`
+- `s-sc03-l08-milestones-u24-engagement-manager-phone.html`
+- `s-sc03-l09-revenue-positions-u05-accounting-desktop.html`
+- `s-sc03-l09-revenue-positions-u05-accounting-phone.html`
+- `s-sc03-l09-revenue-positions-u24-engagement-manager-desktop.html`
+- `s-sc03-l09-revenue-positions-u24-engagement-manager-phone.html`
+- `s-sc03-l10-freelance-contracts-u04-purchasing-desktop.html`
+- `s-sc03-l10-freelance-contracts-u04-purchasing-phone.html`
+- `s-sc03-l10-freelance-contracts-u24-engagement-manager-desktop.html`
+- `s-sc03-l10-freelance-contracts-u24-engagement-manager-phone.html`
+- `s-sc03-l11-skills-u06-hr-desktop.html`
+- `s-sc03-l11-skills-u06-hr-phone.html`
+- `s-sc03-l11-skills-u16-office-worker-desktop.html`
+- `s-sc03-l11-skills-u16-office-worker-phone.html`
+- `s-sc03-l11-skills-u24-engagement-manager-desktop.html`
+- `s-sc03-l11-skills-u24-engagement-manager-phone.html`
+- `s-sc03-l12-shared-items-u09-customer-desktop.html`
+- `s-sc03-l12-shared-items-u09-customer-phone.html`
+- `s-sc03-l12-shared-items-u24-engagement-manager-desktop.html`
+- `s-sc03-l12-shared-items-u24-engagement-manager-phone.html`
+- `s-sc03-l13-satisfaction-surveys-u09-customer-desktop.html`
+- `s-sc03-l13-satisfaction-surveys-u09-customer-phone.html`
+- `s-sc03-l13-satisfaction-surveys-u13-owner-desktop.html`
+- `s-sc03-l13-satisfaction-surveys-u13-owner-phone.html`
+- `s-sc03-l13-satisfaction-surveys-u24-engagement-manager-desktop.html`
+- `s-sc03-l13-satisfaction-surveys-u24-engagement-manager-phone.html`
+- `s-sc03-l14-pricing-models-u13-owner-desktop.html`
+- `s-sc03-l14-pricing-models-u13-owner-phone.html`
+- `s-sc03-l14-pricing-models-u24-engagement-manager-desktop.html`
+- `s-sc03-l14-pricing-models-u24-engagement-manager-phone.html`
+- `s-sc03-l15-resource-plans-u24-engagement-manager-desktop.html`
+- `s-sc03-l15-resource-plans-u24-engagement-manager-phone.html`
+- `s-sc03-l16-staffing-needs-u24-engagement-manager-desktop.html`
+- `s-sc03-l16-staffing-needs-u24-engagement-manager-phone.html`
+- `s-sc03-l17-assignment-contracts-u14-field-worker-desktop.html`
+- `s-sc03-l17-assignment-contracts-u14-field-worker-phone.html`
+- `s-sc03-l17-assignment-contracts-u24-engagement-manager-desktop.html`
+- `s-sc03-l17-assignment-contracts-u24-engagement-manager-phone.html`
+- `s-sc03-l18-creative-proofs-u09-customer-desktop.html`
+- `s-sc03-l18-creative-proofs-u09-customer-phone.html`
+- `s-sc03-l18-creative-proofs-u24-engagement-manager-desktop.html`
+- `s-sc03-l18-creative-proofs-u24-engagement-manager-phone.html`
+- `s-sc03-l19-certificates-u24-engagement-manager-desktop.html`
+- `s-sc03-l19-certificates-u24-engagement-manager-phone.html`
+- `s-sc03-l19-certificates-u36-professional-desktop.html`
+- `s-sc03-l19-certificates-u36-professional-phone.html`
+- `s-sc03-l20-answers-u03-sales-desktop.html`
+- `s-sc03-l20-answers-u03-sales-phone.html`
+- `s-sc03-l20-answers-u24-engagement-manager-desktop.html`
+- `s-sc03-l20-answers-u24-engagement-manager-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

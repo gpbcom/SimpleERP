@@ -1,0 +1,101 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [f23-what-if-simulation](../README.md) › 🧪 lists
+
+# 🧪 lists
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f23-l01-baseline-forecasts-u05-accounting-desktop.html`
+- `s-f23-l01-baseline-forecasts-u05-accounting-phone.html`
+- `s-f23-l01-baseline-forecasts-u13-owner-desktop.html`
+- `s-f23-l01-baseline-forecasts-u13-owner-phone.html`
+- `s-f23-l02-scenarios-u02-manager-desktop.html`
+- `s-f23-l02-scenarios-u02-manager-phone.html`
+- `s-f23-l02-scenarios-u05-accounting-desktop.html`
+- `s-f23-l02-scenarios-u05-accounting-phone.html`
+- `s-f23-l02-scenarios-u08-external-accountant-desktop.html`
+- `s-f23-l02-scenarios-u08-external-accountant-phone.html`
+- `s-f23-l02-scenarios-u13-owner-desktop.html`
+- `s-f23-l02-scenarios-u13-owner-phone.html`
+- `s-f23-l03-scenario-changes-u02-manager-desktop.html`
+- `s-f23-l03-scenario-changes-u02-manager-phone.html`
+- `s-f23-l03-scenario-changes-u05-accounting-desktop.html`
+- `s-f23-l03-scenario-changes-u05-accounting-phone.html`
+- `s-f23-l03-scenario-changes-u13-owner-desktop.html`
+- `s-f23-l03-scenario-changes-u13-owner-phone.html`
+- `s-f23-l03-scenario-changes-u31-treasurer-desktop.html`
+- `s-f23-l03-scenario-changes-u31-treasurer-phone.html`
+- `s-f23-l04-simulation-runs-u02-manager-desktop.html`
+- `s-f23-l04-simulation-runs-u02-manager-phone.html`
+- `s-f23-l04-simulation-runs-u05-accounting-desktop.html`
+- `s-f23-l04-simulation-runs-u05-accounting-phone.html`
+- `s-f23-l04-simulation-runs-u13-owner-desktop.html`
+- `s-f23-l04-simulation-runs-u13-owner-phone.html`
+- `s-f23-l05-impact-results-u02-manager-desktop.html`
+- `s-f23-l05-impact-results-u02-manager-phone.html`
+- `s-f23-l05-impact-results-u03-sales-desktop.html`
+- `s-f23-l05-impact-results-u03-sales-phone.html`
+- `s-f23-l05-impact-results-u04-purchasing-desktop.html`
+- `s-f23-l05-impact-results-u04-purchasing-phone.html`
+- `s-f23-l05-impact-results-u05-accounting-desktop.html`
+- `s-f23-l05-impact-results-u05-accounting-phone.html`
+- `s-f23-l05-impact-results-u06-hr-desktop.html`
+- `s-f23-l05-impact-results-u06-hr-phone.html`
+- `s-f23-l05-impact-results-u13-owner-desktop.html`
+- `s-f23-l05-impact-results-u13-owner-phone.html`
+- `s-f23-l05-impact-results-u21-production-planner-desktop.html`
+- `s-f23-l05-impact-results-u21-production-planner-phone.html`
+- `s-f23-l05-impact-results-u31-treasurer-desktop.html`
+- `s-f23-l05-impact-results-u31-treasurer-phone.html`
+- `s-f23-l06-sensitivities-u05-accounting-desktop.html`
+- `s-f23-l06-sensitivities-u05-accounting-phone.html`
+- `s-f23-l06-sensitivities-u13-owner-desktop.html`
+- `s-f23-l06-sensitivities-u13-owner-phone.html`
+- `s-f23-l07-counter-measures-u02-manager-desktop.html`
+- `s-f23-l07-counter-measures-u02-manager-phone.html`
+- `s-f23-l07-counter-measures-u13-owner-desktop.html`
+- `s-f23-l07-counter-measures-u13-owner-phone.html`
+- `s-f23-l08-action-proposals-u13-owner-desktop.html`
+- `s-f23-l08-action-proposals-u13-owner-phone.html`
+- `s-f23-l09-change-warnings-u13-owner-desktop.html`
+- `s-f23-l09-change-warnings-u13-owner-phone.html`
+- `s-f23-l09-change-warnings-u31-treasurer-desktop.html`
+- `s-f23-l09-change-warnings-u31-treasurer-phone.html`
+- `s-f23-l10-scenario-comments-u08-external-accountant-desktop.html`
+- `s-f23-l10-scenario-comments-u08-external-accountant-phone.html`
+- `s-f23-l10-scenario-comments-u13-owner-desktop.html`
+- `s-f23-l10-scenario-comments-u13-owner-phone.html`
+- `s-f23-l11-goals-u05-accounting-desktop.html`
+- `s-f23-l11-goals-u05-accounting-phone.html`
+- `s-f23-l11-goals-u13-owner-desktop.html`
+- `s-f23-l11-goals-u13-owner-phone.html`
+- `s-f23-l12-financing-options-u08-external-accountant-desktop.html`
+- `s-f23-l12-financing-options-u08-external-accountant-phone.html`
+- `s-f23-l12-financing-options-u13-owner-desktop.html`
+- `s-f23-l12-financing-options-u13-owner-phone.html`
+- `s-f23-l12-financing-options-u31-treasurer-desktop.html`
+- `s-f23-l12-financing-options-u31-treasurer-phone.html`
+- `s-f23-l13-driver-accuracies-u05-accounting-desktop.html`
+- `s-f23-l13-driver-accuracies-u05-accounting-phone.html`
+- `s-f23-l13-driver-accuracies-u13-owner-desktop.html`
+- `s-f23-l13-driver-accuracies-u13-owner-phone.html`
+- `s-f23-l14-sector-drivers-u02-manager-desktop.html`
+- `s-f23-l14-sector-drivers-u02-manager-phone.html`
+- `s-f23-l14-sector-drivers-u13-owner-desktop.html`
+- `s-f23-l14-sector-drivers-u13-owner-phone.html`
+- `s-f23-l15-budget-contributions-u02-manager-desktop.html`
+- `s-f23-l15-budget-contributions-u02-manager-phone.html`
+- `s-f23-l15-budget-contributions-u05-accounting-desktop.html`
+- `s-f23-l15-budget-contributions-u05-accounting-phone.html`
+- `s-f23-l16-forecast-versions-u05-accounting-desktop.html`
+- `s-f23-l16-forecast-versions-u05-accounting-phone.html`
+- `s-f23-l16-forecast-versions-u13-owner-desktop.html`
+- `s-f23-l16-forecast-versions-u13-owner-phone.html`
+- `s-f23-l17-valuations-u13-owner-desktop.html`
+- `s-f23-l17-valuations-u13-owner-phone.html`
+- `s-f23-l17-valuations-u31-treasurer-desktop.html`
+- `s-f23-l17-valuations-u31-treasurer-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

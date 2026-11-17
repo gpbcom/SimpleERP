@@ -1,0 +1,123 @@
+🏠 [Specs](../../../../../../README.md) › 🎨 [UX](../../../../../README.md) › 🧪 [Mockups](../../../../README.md) ›
+🧪 [src](../../../README.md) › 🧪 [f19-feature-factory](../../README.md) › 🧪 [states](../README.md) › 🧪 u13-owner
+
+# 🧪 u13-owner
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f19-01-feature-chat-e-f19-01-feature-request-active-desktop.html`
+- `s-f19-01-feature-chat-e-f19-01-feature-request-active-phone.html`
+- `s-f19-02-specification-e-f19-02-feature-specification-active-desktop.html`
+- `s-f19-02-specification-e-f19-02-feature-specification-active-phone.html`
+- `s-f19-03-quote-e-f19-11-delivery-commitment-cancelled-desktop.html`
+- `s-f19-03-quote-e-f19-11-delivery-commitment-cancelled-phone.html`
+- `s-f19-03-quote-e-f19-11-delivery-commitment-delayed-desktop.html`
+- `s-f19-03-quote-e-f19-11-delivery-commitment-delayed-phone.html`
+- `s-f19-03-quote-e-f19-11-delivery-commitment-late-desktop.html`
+- `s-f19-03-quote-e-f19-11-delivery-commitment-late-phone.html`
+- `s-f19-03-quote-e-f19-11-delivery-commitment-on-time-desktop.html`
+- `s-f19-03-quote-e-f19-11-delivery-commitment-on-time-phone.html`
+- `s-f19-07-try-out-e-f19-06-try-out-copy-active-desktop.html`
+- `s-f19-07-try-out-e-f19-06-try-out-copy-active-phone.html`
+- `s-f19-09-changes-e-f19-01-feature-request-active-desktop.html`
+- `s-f19-09-changes-e-f19-01-feature-request-active-phone.html`
+- `s-f19-11-cancel-e-f19-06-try-out-copy-active-desktop.html`
+- `s-f19-11-cancel-e-f19-06-try-out-copy-active-phone.html`
+- `s-f19-11-cancel-e-f19-13-code-handover-available-desktop.html`
+- `s-f19-11-cancel-e-f19-13-code-handover-available-phone.html`
+- `s-f19-11-cancel-e-f19-13-code-handover-downloaded-desktop.html`
+- `s-f19-11-cancel-e-f19-13-code-handover-downloaded-phone.html`
+- `s-f19-12-promotion-e-f19-07-feature-promotion-listed-desktop.html`
+- `s-f19-12-promotion-e-f19-07-feature-promotion-listed-phone.html`
+- `s-f19-12-promotion-e-f19-07-feature-promotion-started-desktop.html`
+- `s-f19-12-promotion-e-f19-07-feature-promotion-started-phone.html`
+- `s-f19-12-promotion-e-f19-07-feature-promotion-submitted-desktop.html`
+- `s-f19-12-promotion-e-f19-07-feature-promotion-submitted-phone.html`
+- `s-f19-15-credits-e-f19-08-promotion-credit-active-desktop.html`
+- `s-f19-15-credits-e-f19-08-promotion-credit-active-phone.html`
+- `s-f19-15-credits-e-f19-09-hosted-invoice-active-desktop.html`
+- `s-f19-15-credits-e-f19-09-hosted-invoice-active-phone.html`
+- `s-f19-15-credits-e-f19-15-factory-posting-prepared-desktop.html`
+- `s-f19-15-credits-e-f19-15-factory-posting-prepared-phone.html`
+- `s-f19-19-feature-board-e-f19-03-feature-subscription-active-desktop.html`
+- `s-f19-19-feature-board-e-f19-03-feature-subscription-active-phone.html`
+- `s-f19-19-feature-board-e-f19-08-promotion-credit-active-desktop.html`
+- `s-f19-19-feature-board-e-f19-08-promotion-credit-active-phone.html`
+- `s-f19-19-feature-board-e-f19-12-feature-refund-proposed-desktop.html`
+- `s-f19-19-feature-board-e-f19-12-feature-refund-proposed-phone.html`
+- `s-f19-19-feature-board-e-f19-12-feature-refund-refused-desktop.html`
+- `s-f19-19-feature-board-e-f19-12-feature-refund-refused-phone.html`
+- `s-f19-20-promotion-terms-e-f19-07-feature-promotion-listed-desktop.html`
+- `s-f19-20-promotion-terms-e-f19-07-feature-promotion-listed-phone.html`
+- `s-f19-20-promotion-terms-e-f19-07-feature-promotion-started-desktop.html`
+- `s-f19-20-promotion-terms-e-f19-07-feature-promotion-started-phone.html`
+- `s-f19-20-promotion-terms-e-f19-07-feature-promotion-submitted-desktop.html`
+- `s-f19-20-promotion-terms-e-f19-07-feature-promotion-submitted-phone.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-cancelled-desktop.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-cancelled-phone.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-delayed-desktop.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-delayed-phone.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-delivered-desktop.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-delivered-phone.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-late-desktop.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-late-phone.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-on-time-desktop.html`
+- `s-f19-21-delivery-plan-e-f19-11-delivery-commitment-on-time-phone.html`
+- `s-f19-22-refunds-e-f19-12-feature-refund-issued-desktop.html`
+- `s-f19-22-refunds-e-f19-12-feature-refund-issued-phone.html`
+- `s-f19-22-refunds-e-f19-12-feature-refund-proposed-desktop.html`
+- `s-f19-22-refunds-e-f19-12-feature-refund-proposed-phone.html`
+- `s-f19-22-refunds-e-f19-12-feature-refund-refused-desktop.html`
+- `s-f19-22-refunds-e-f19-12-feature-refund-refused-phone.html`
+- `s-f19-22-refunds-e-f19-16-feature-defect-active-desktop.html`
+- `s-f19-22-refunds-e-f19-16-feature-defect-active-phone.html`
+- `s-f19-23-ownership-e-f19-13-code-handover-available-desktop.html`
+- `s-f19-23-ownership-e-f19-13-code-handover-available-phone.html`
+- `s-f19-23-ownership-e-f19-13-code-handover-downloaded-desktop.html`
+- `s-f19-23-ownership-e-f19-13-code-handover-downloaded-phone.html`
+- `s-f19-25-factory-accounting-e-f19-09-hosted-invoice-active-desktop.html`
+- `s-f19-25-factory-accounting-e-f19-09-hosted-invoice-active-phone.html`
+- `s-f19-25-factory-accounting-e-f19-15-factory-posting-posted-desktop.html`
+- `s-f19-25-factory-accounting-e-f19-15-factory-posting-posted-phone.html`
+- `s-f19-25-factory-accounting-e-f19-15-factory-posting-prepared-desktop.html`
+- `s-f19-25-factory-accounting-e-f19-15-factory-posting-prepared-phone.html`
+- `s-f19-25-factory-accounting-e-f19-15-factory-posting-reconciled-desktop.html`
+- `s-f19-25-factory-accounting-e-f19-15-factory-posting-reconciled-phone.html`
+
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-accepted-desktop.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-building-desktop.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-cancelled-desktop.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-ordered-desktop.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-ready-desktop.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-refused-desktop.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-charged-desktop.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-lapsed-desktop.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-pledged-desktop.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-refunded-desktop.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-withdrawn-desktop.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-active-desktop.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-declined-desktop.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-ended-desktop.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-ending-desktop.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-offered-desktop.html`
+
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-accepted-phone.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-building-phone.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-cancelled-phone.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-ordered-phone.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-ready-phone.html`
+- `s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-refused-phone.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-charged-phone.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-lapsed-phone.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-pledged-phone.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-refunded-phone.html`
+- `s-f19-28-co-funding-e-f19-18-funding-pledge-withdrawn-phone.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-active-phone.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-declined-phone.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-ended-phone.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-ending-phone.html`
+- `s-f19-29-maintenance-plan-e-f19-19-feature-maintenance-plan-offered-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

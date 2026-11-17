@@ -1,0 +1,111 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [sc10-real-estate](../README.md) › 🧪 states
+
+# 🧪 states
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc10-01-mandates-empty-desktop.html`
+- `s-sc10-01-mandates-loading-desktop.html`
+- `s-sc10-01-mandates-offline-phone.html`
+- `s-sc10-01-mandates-read-only-desktop.html`
+- `s-sc10-02-listings-empty-desktop.html`
+- `s-sc10-02-listings-loading-desktop.html`
+- `s-sc10-02-listings-offline-phone.html`
+- `s-sc10-02-listings-read-only-desktop.html`
+- `s-sc10-03-viewings-empty-desktop.html`
+- `s-sc10-03-viewings-loading-desktop.html`
+- `s-sc10-03-viewings-offline-phone.html`
+- `s-sc10-03-viewings-read-only-desktop.html`
+- `s-sc10-04-offers-empty-desktop.html`
+- `s-sc10-04-offers-loading-desktop.html`
+- `s-sc10-04-offers-offline-phone.html`
+- `s-sc10-04-offers-read-only-desktop.html`
+- `s-sc10-05-client-funds-empty-desktop.html`
+- `s-sc10-05-client-funds-loading-desktop.html`
+- `s-sc10-05-client-funds-offline-desktop.html`
+- `s-sc10-05-client-funds-read-only-desktop.html`
+- `s-sc10-06-agency-fees-empty-desktop.html`
+- `s-sc10-06-agency-fees-loading-desktop.html`
+- `s-sc10-06-agency-fees-offline-phone.html`
+- `s-sc10-06-agency-fees-read-only-desktop.html`
+- `s-sc10-07-letting-empty-desktop.html`
+- `s-sc10-07-letting-loading-desktop.html`
+- `s-sc10-07-letting-offline-tablet.html`
+- `s-sc10-07-letting-read-only-desktop.html`
+- `s-sc10-08-rents-empty-desktop.html`
+- `s-sc10-08-rents-loading-desktop.html`
+- `s-sc10-08-rents-offline-tablet.html`
+- `s-sc10-08-rents-read-only-desktop.html`
+- `s-sc10-09-indexation-empty-desktop.html`
+- `s-sc10-09-indexation-loading-desktop.html`
+- `s-sc10-09-indexation-offline-tablet.html`
+- `s-sc10-09-indexation-read-only-desktop.html`
+- `s-sc10-10-deposits-empty-desktop.html`
+- `s-sc10-10-deposits-loading-desktop.html`
+- `s-sc10-10-deposits-offline-tablet.html`
+- `s-sc10-10-deposits-read-only-desktop.html`
+- `s-sc10-11-charges-empty-desktop.html`
+- `s-sc10-11-charges-loading-desktop.html`
+- `s-sc10-11-charges-offline-tablet.html`
+- `s-sc10-11-charges-read-only-desktop.html`
+- `s-sc10-12-landlord-statements-empty-desktop.html`
+- `s-sc10-12-landlord-statements-loading-desktop.html`
+- `s-sc10-12-landlord-statements-offline-tablet.html`
+- `s-sc10-12-landlord-statements-read-only-desktop.html`
+- `s-sc10-13-diagnostics-empty-desktop.html`
+- `s-sc10-13-diagnostics-loading-desktop.html`
+- `s-sc10-13-diagnostics-offline-tablet.html`
+- `s-sc10-13-diagnostics-read-only-desktop.html`
+- `s-sc10-14-unpaid-rents-empty-desktop.html`
+- `s-sc10-14-unpaid-rents-loading-desktop.html`
+- `s-sc10-14-unpaid-rents-offline-tablet.html`
+- `s-sc10-14-unpaid-rents-read-only-desktop.html`
+- `s-sc10-15-assemblies-empty-desktop.html`
+- `s-sc10-15-assemblies-loading-desktop.html`
+- `s-sc10-15-assemblies-offline-tablet.html`
+- `s-sc10-15-assemblies-read-only-desktop.html`
+- `s-sc10-16-budget-and-calls-empty-desktop.html`
+- `s-sc10-16-budget-and-calls-loading-desktop.html`
+- `s-sc10-16-budget-and-calls-offline-tablet.html`
+- `s-sc10-16-budget-and-calls-read-only-desktop.html`
+- `s-sc10-17-works-fund-empty-desktop.html`
+- `s-sc10-17-works-fund-loading-desktop.html`
+- `s-sc10-17-works-fund-offline-tablet.html`
+- `s-sc10-17-works-fund-read-only-desktop.html`
+- `s-sc10-18-co-ownership-accounts-empty-desktop.html`
+- `s-sc10-18-co-ownership-accounts-loading-desktop.html`
+- `s-sc10-18-co-ownership-accounts-offline-tablet.html`
+- `s-sc10-18-co-ownership-accounts-read-only-desktop.html`
+- `s-sc10-19-portal-empty-phone.html`
+- `s-sc10-19-portal-loading-phone.html`
+- `s-sc10-19-portal-offline-phone.html`
+- `s-sc10-19-portal-read-only-phone.html`
+- `s-sc10-20-portfolio-assistant-empty-desktop.html`
+- `s-sc10-20-portfolio-assistant-loading-desktop.html`
+- `s-sc10-20-portfolio-assistant-offline-tablet.html`
+- `s-sc10-20-portfolio-assistant-read-only-desktop.html`
+- `s-sc10-21-short-term-rentals-empty-desktop.html`
+- `s-sc10-21-short-term-rentals-loading-desktop.html`
+- `s-sc10-21-short-term-rentals-offline-tablet.html`
+- `s-sc10-21-short-term-rentals-read-only-desktop.html`
+- `s-sc10-22-commercial-leases-empty-desktop.html`
+- `s-sc10-22-commercial-leases-loading-desktop.html`
+- `s-sc10-22-commercial-leases-offline-tablet.html`
+- `s-sc10-22-commercial-leases-read-only-desktop.html`
+- `s-sc10-23-furnished-rentals-empty-desktop.html`
+- `s-sc10-23-furnished-rentals-loading-desktop.html`
+- `s-sc10-23-furnished-rentals-offline-tablet.html`
+- `s-sc10-23-furnished-rentals-read-only-desktop.html`
+- `s-sc10-24-coworking-empty-desktop.html`
+- `s-sc10-24-coworking-loading-desktop.html`
+- `s-sc10-24-coworking-offline-tablet.html`
+- `s-sc10-24-coworking-read-only-desktop.html`
+- [u05-accounting](u05-accounting/README.md)
+- [u09-customer](u09-customer/README.md)
+- [u34-property-manager](u34-property-manager/README.md)
+- [u35-real-estate-agent](u35-real-estate-agent/README.md)
+
+---
+
+⬆️ [Up](../README.md)

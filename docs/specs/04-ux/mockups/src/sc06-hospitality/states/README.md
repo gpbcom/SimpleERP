@@ -1,0 +1,104 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [sc06-hospitality](../README.md) › 🧪 states
+
+# 🧪 states
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc06-01-recipes-and-menus-empty-desktop.html`
+- `s-sc06-01-recipes-and-menus-loading-desktop.html`
+- `s-sc06-01-recipes-and-menus-offline-phone.html`
+- `s-sc06-01-recipes-and-menus-read-only-desktop.html`
+- `s-sc06-02-allergens-empty-desktop.html`
+- `s-sc06-02-allergens-loading-desktop.html`
+- `s-sc06-02-allergens-offline-phone.html`
+- `s-sc06-02-allergens-read-only-desktop.html`
+- `s-sc06-03-hygiene-records-empty-desktop.html`
+- `s-sc06-03-hygiene-records-loading-desktop.html`
+- `s-sc06-03-hygiene-records-offline-desktop.html`
+- `s-sc06-03-hygiene-records-read-only-desktop.html`
+- `s-sc06-04-perishables-empty-desktop.html`
+- `s-sc06-04-perishables-loading-desktop.html`
+- `s-sc06-04-perishables-offline-desktop.html`
+- `s-sc06-04-perishables-read-only-desktop.html`
+- `s-sc06-05-tips-empty-desktop.html`
+- `s-sc06-05-tips-loading-desktop.html`
+- `s-sc06-05-tips-offline-phone.html`
+- `s-sc06-05-tips-read-only-desktop.html`
+- `s-sc06-06-staff-meals-empty-desktop.html`
+- `s-sc06-06-staff-meals-loading-desktop.html`
+- `s-sc06-06-staff-meals-offline-phone.html`
+- `s-sc06-06-staff-meals-read-only-desktop.html`
+- `s-sc06-07-rooms-and-rates-empty-desktop.html`
+- `s-sc06-07-rooms-and-rates-loading-desktop.html`
+- `s-sc06-07-rooms-and-rates-offline-phone.html`
+- `s-sc06-07-rooms-and-rates-read-only-desktop.html`
+- `s-sc06-08-bookings-empty-desktop.html`
+- `s-sc06-08-bookings-loading-desktop.html`
+- `s-sc06-08-bookings-offline-tablet.html`
+- `s-sc06-08-bookings-read-only-desktop.html`
+- `s-sc06-09-check-in-empty-desktop.html`
+- `s-sc06-09-check-in-loading-desktop.html`
+- `s-sc06-09-check-in-offline-tablet.html`
+- `s-sc06-09-check-in-read-only-desktop.html`
+- `s-sc06-10-housekeeping-empty-desktop.html`
+- `s-sc06-10-housekeeping-loading-desktop.html`
+- `s-sc06-10-housekeeping-offline-tablet.html`
+- `s-sc06-10-housekeeping-read-only-desktop.html`
+- `s-sc06-11-folio-empty-desktop.html`
+- `s-sc06-11-folio-loading-desktop.html`
+- `s-sc06-11-folio-offline-tablet.html`
+- `s-sc06-11-folio-read-only-desktop.html`
+- `s-sc06-12-tourist-tax-empty-desktop.html`
+- `s-sc06-12-tourist-tax-loading-desktop.html`
+- `s-sc06-12-tourist-tax-offline-tablet.html`
+- `s-sc06-12-tourist-tax-read-only-desktop.html`
+- `s-sc06-13-meal-vouchers-empty-desktop.html`
+- `s-sc06-13-meal-vouchers-loading-desktop.html`
+- `s-sc06-13-meal-vouchers-offline-phone.html`
+- `s-sc06-13-meal-vouchers-read-only-desktop.html`
+- `s-sc06-14-performance-empty-desktop.html`
+- `s-sc06-14-performance-loading-desktop.html`
+- `s-sc06-14-performance-offline-phone.html`
+- `s-sc06-14-performance-read-only-desktop.html`
+- `s-sc06-15-hospitality-assistant-empty-desktop.html`
+- `s-sc06-15-hospitality-assistant-loading-desktop.html`
+- `s-sc06-15-hospitality-assistant-offline-tablet.html`
+- `s-sc06-15-hospitality-assistant-read-only-desktop.html`
+- `s-sc06-16-campsite-empty-desktop.html`
+- `s-sc06-16-campsite-loading-desktop.html`
+- `s-sc06-16-campsite-offline-tablet.html`
+- `s-sc06-16-campsite-read-only-desktop.html`
+- `s-sc06-17-catering-empty-desktop.html`
+- `s-sc06-17-catering-loading-desktop.html`
+- `s-sc06-17-catering-offline-phone.html`
+- `s-sc06-17-catering-read-only-desktop.html`
+- `s-sc06-18-groups-and-seminars-empty-desktop.html`
+- `s-sc06-18-groups-and-seminars-loading-desktop.html`
+- `s-sc06-18-groups-and-seminars-offline-tablet.html`
+- `s-sc06-18-groups-and-seminars-read-only-desktop.html`
+- `s-sc06-19-dynamic-pricing-empty-desktop.html`
+- `s-sc06-19-dynamic-pricing-loading-desktop.html`
+- `s-sc06-19-dynamic-pricing-offline-phone.html`
+- `s-sc06-19-dynamic-pricing-read-only-desktop.html`
+- `s-sc06-20-alcohol-licences-empty-desktop.html`
+- `s-sc06-20-alcohol-licences-loading-desktop.html`
+- `s-sc06-20-alcohol-licences-offline-phone.html`
+- `s-sc06-20-alcohol-licences-read-only-desktop.html`
+- `s-sc06-21-guest-profiles-empty-desktop.html`
+- `s-sc06-21-guest-profiles-loading-desktop.html`
+- `s-sc06-21-guest-profiles-offline-tablet.html`
+- `s-sc06-21-guest-profiles-read-only-desktop.html`
+- [u03-sales](u03-sales/README.md)
+- [u05-accounting](u05-accounting/README.md)
+- [u09-customer](u09-customer/README.md)
+- [u13-owner](u13-owner/README.md)
+- [u17-cashier](u17-cashier/README.md)
+- [u18-waiter](u18-waiter/README.md)
+- [u19-kitchen-staff](u19-kitchen-staff/README.md)
+- [u23-store-manager](u23-store-manager/README.md)
+- [u28-hotel-receptionist](u28-hotel-receptionist/README.md)
+
+---
+
+⬆️ [Up](../README.md)

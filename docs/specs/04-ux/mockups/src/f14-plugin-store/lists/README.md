@@ -1,0 +1,115 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [f14-plugin-store](../README.md) › 🧪 lists
+
+# 🧪 lists
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f14-l01-store-listings-u07-administrator-desktop.html`
+- `s-f14-l01-store-listings-u07-administrator-phone.html`
+- `s-f14-l01-store-listings-u11-provider-admin-desktop.html`
+- `s-f14-l01-store-listings-u11-provider-admin-phone.html`
+- `s-f14-l01-store-listings-u13-owner-desktop.html`
+- `s-f14-l01-store-listings-u13-owner-phone.html`
+- `s-f14-l01-store-listings-u46-plugin-publisher-desktop.html`
+- `s-f14-l01-store-listings-u46-plugin-publisher-phone.html`
+- `s-f14-l02-plugin-installations-u07-administrator-desktop.html`
+- `s-f14-l02-plugin-installations-u07-administrator-phone.html`
+- `s-f14-l02-plugin-installations-u46-plugin-publisher-desktop.html`
+- `s-f14-l02-plugin-installations-u46-plugin-publisher-phone.html`
+- `s-f14-l03-plugin-versions-u07-administrator-desktop.html`
+- `s-f14-l03-plugin-versions-u07-administrator-phone.html`
+- `s-f14-l03-plugin-versions-u11-provider-admin-desktop.html`
+- `s-f14-l03-plugin-versions-u11-provider-admin-phone.html`
+- `s-f14-l03-plugin-versions-u46-plugin-publisher-desktop.html`
+- `s-f14-l03-plugin-versions-u46-plugin-publisher-phone.html`
+- `s-f14-l04-plugin-price-plans-u07-administrator-desktop.html`
+- `s-f14-l04-plugin-price-plans-u07-administrator-phone.html`
+- `s-f14-l04-plugin-price-plans-u13-owner-desktop.html`
+- `s-f14-l04-plugin-price-plans-u13-owner-phone.html`
+- `s-f14-l04-plugin-price-plans-u46-plugin-publisher-desktop.html`
+- `s-f14-l04-plugin-price-plans-u46-plugin-publisher-phone.html`
+- `s-f14-l05-plugin-licences-u07-administrator-desktop.html`
+- `s-f14-l05-plugin-licences-u07-administrator-phone.html`
+- `s-f14-l05-plugin-licences-u13-owner-desktop.html`
+- `s-f14-l05-plugin-licences-u13-owner-phone.html`
+- `s-f14-l06-plugin-reviews-u07-administrator-desktop.html`
+- `s-f14-l06-plugin-reviews-u07-administrator-phone.html`
+- `s-f14-l06-plugin-reviews-u11-provider-admin-desktop.html`
+- `s-f14-l06-plugin-reviews-u11-provider-admin-phone.html`
+- `s-f14-l06-plugin-reviews-u46-plugin-publisher-desktop.html`
+- `s-f14-l06-plugin-reviews-u46-plugin-publisher-phone.html`
+- `s-f14-l07-plugin-check-reports-u11-provider-admin-desktop.html`
+- `s-f14-l07-plugin-check-reports-u11-provider-admin-phone.html`
+- `s-f14-l07-plugin-check-reports-u46-plugin-publisher-desktop.html`
+- `s-f14-l07-plugin-check-reports-u46-plugin-publisher-phone.html`
+- `s-f14-l08-payouts-u05-accounting-desktop.html`
+- `s-f14-l08-payouts-u05-accounting-phone.html`
+- `s-f14-l08-payouts-u46-plugin-publisher-desktop.html`
+- `s-f14-l08-payouts-u46-plugin-publisher-phone.html`
+- `s-f14-l09-seller-reports-u05-accounting-desktop.html`
+- `s-f14-l09-seller-reports-u05-accounting-phone.html`
+- `s-f14-l09-seller-reports-u11-provider-admin-desktop.html`
+- `s-f14-l09-seller-reports-u11-provider-admin-phone.html`
+- `s-f14-l10-private-stores-u11-provider-admin-desktop.html`
+- `s-f14-l10-private-stores-u11-provider-admin-phone.html`
+- `s-f14-l11-plugin-withdrawals-u11-provider-admin-desktop.html`
+- `s-f14-l11-plugin-withdrawals-u11-provider-admin-phone.html`
+- `s-f14-l12-refunds-u11-provider-admin-desktop.html`
+- `s-f14-l12-refunds-u11-provider-admin-phone.html`
+- `s-f14-l12-refunds-u13-owner-desktop.html`
+- `s-f14-l12-refunds-u13-owner-phone.html`
+- `s-f14-l13-usage-metrics-u46-plugin-publisher-desktop.html`
+- `s-f14-l13-usage-metrics-u46-plugin-publisher-phone.html`
+- `s-f14-l14-software-bill-of-materials-u11-provider-admin-desktop.html`
+- `s-f14-l14-software-bill-of-materials-u11-provider-admin-phone.html`
+- `s-f14-l14-software-bill-of-materials-u46-plugin-publisher-desktop.html`
+- `s-f14-l14-software-bill-of-materials-u46-plugin-publisher-phone.html`
+- `s-f14-l15-end-of-life-notices-u07-administrator-desktop.html`
+- `s-f14-l15-end-of-life-notices-u07-administrator-phone.html`
+- `s-f14-l15-end-of-life-notices-u46-plugin-publisher-desktop.html`
+- `s-f14-l15-end-of-life-notices-u46-plugin-publisher-phone.html`
+- `s-f14-l16-maintainer-transfers-u07-administrator-desktop.html`
+- `s-f14-l16-maintainer-transfers-u07-administrator-phone.html`
+- `s-f14-l16-maintainer-transfers-u11-provider-admin-desktop.html`
+- `s-f14-l16-maintainer-transfers-u11-provider-admin-phone.html`
+- `s-f14-l16-maintainer-transfers-u46-plugin-publisher-desktop.html`
+- `s-f14-l16-maintainer-transfers-u46-plugin-publisher-phone.html`
+- `s-f14-l17-rollouts-u07-administrator-desktop.html`
+- `s-f14-l17-rollouts-u07-administrator-phone.html`
+- `s-f14-l17-rollouts-u11-provider-admin-desktop.html`
+- `s-f14-l17-rollouts-u11-provider-admin-phone.html`
+- `s-f14-l17-rollouts-u46-plugin-publisher-desktop.html`
+- `s-f14-l17-rollouts-u46-plugin-publisher-phone.html`
+- `s-f14-l18-listing-translations-u46-plugin-publisher-desktop.html`
+- `s-f14-l18-listing-translations-u46-plugin-publisher-phone.html`
+- `s-f14-l19-support-terms-u07-administrator-desktop.html`
+- `s-f14-l19-support-terms-u07-administrator-phone.html`
+- `s-f14-l19-support-terms-u13-owner-desktop.html`
+- `s-f14-l19-support-terms-u13-owner-phone.html`
+- `s-f14-l19-support-terms-u46-plugin-publisher-desktop.html`
+- `s-f14-l19-support-terms-u46-plugin-publisher-phone.html`
+- `s-f14-l20-rollback-points-u07-administrator-desktop.html`
+- `s-f14-l20-rollback-points-u07-administrator-phone.html`
+- `s-f14-l21-plugin-security-reviews-u07-administrator-desktop.html`
+- `s-f14-l21-plugin-security-reviews-u07-administrator-phone.html`
+- `s-f14-l21-plugin-security-reviews-u11-provider-admin-desktop.html`
+- `s-f14-l21-plugin-security-reviews-u11-provider-admin-phone.html`
+- `s-f14-l21-plugin-security-reviews-u46-plugin-publisher-desktop.html`
+- `s-f14-l21-plugin-security-reviews-u46-plugin-publisher-phone.html`
+- `s-f14-l22-test-instances-u46-plugin-publisher-desktop.html`
+- `s-f14-l22-test-instances-u46-plugin-publisher-phone.html`
+- `s-f14-l23-trials-u07-administrator-desktop.html`
+- `s-f14-l23-trials-u07-administrator-phone.html`
+- `s-f14-l24-partner-listings-u13-owner-desktop.html`
+- `s-f14-l24-partner-listings-u13-owner-phone.html`
+- `s-f14-l24-partner-listings-u51-reseller-partner-desktop.html`
+- `s-f14-l24-partner-listings-u51-reseller-partner-phone.html`
+- `s-f14-l25-themes-u12-marketing-desktop.html`
+- `s-f14-l25-themes-u12-marketing-phone.html`
+- `s-f14-l25-themes-u46-plugin-publisher-desktop.html`
+- `s-f14-l25-themes-u46-plugin-publisher-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

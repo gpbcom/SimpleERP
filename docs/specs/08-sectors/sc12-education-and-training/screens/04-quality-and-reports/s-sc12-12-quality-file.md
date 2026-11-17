@@ -1,0 +1,102 @@
+🏠 [Specs](../../../../README.md) › 🏷️ [Sectors](../../../README.md) › 🎓 [SC12 Education and training](../../README.md) ›
+🖥️ [Screens](../README.md) › 🖥️ [Screens: FL-SC12-04 Quality and reports](README.md) › 🖥️ S-SC12-12 Quality file
+
+# 🖥️ S-SC12-12 Quality file
+
+**Status:** 🔄 waiting for the owner
+
+## Personas
+
+- [U38 Training coordinator](../../../../01-users/personas/u38-training-coordinator.md)
+- [U13 Owner](../../../../01-users/personas/u13-owner.md)
+
+## Purpose
+
+Used to keep the Qualiopi evidence file
+([UC-SC12-12](../../use-cases/04-quality-and-reports/uc-sc12-12-keep-the-qualiopi-evidence-file.md)).
+
+## Entry points
+
+Education and training in the menu; the AI assistant (BR-F3-34).
+
+## Wireframe
+
+See the images in the flow page (D120).
+
+**Example images** (as drawn in its flow, light and dark, D120):
+
+| Shows | Device | Light | Dark |
+|---|---|---|---|
+| FL-SC12-04 step 1, U38 | desktop | ![FL-SC12-04 step 1, U38, light](../../images/04-quality-and-reports/u38-training-coordinator/1-quality-file-desktop-light.png) | ![FL-SC12-04 step 1, U38, dark](../../images/04-quality-and-reports/u38-training-coordinator/1-quality-file-desktop-dark.png) |
+| Empty | desktop | ![Empty, light](../../images/states/s-sc12-12-quality-file-empty-desktop-light.png) | ![Empty, dark](../../images/states/s-sc12-12-quality-file-empty-desktop-dark.png) |
+| Loading | desktop | ![Loading, light](../../images/states/s-sc12-12-quality-file-loading-desktop-light.png) | ![Loading, dark](../../images/states/s-sc12-12-quality-file-loading-desktop-dark.png) |
+| Read-only | desktop | ![Read-only, light](../../images/states/s-sc12-12-quality-file-read-only-desktop-light.png) | ![Read-only, dark](../../images/states/s-sc12-12-quality-file-read-only-desktop-dark.png) |
+| Offline | desktop | ![Offline, light](../../images/states/s-sc12-12-quality-file-offline-desktop-light.png) | ![Offline, dark](../../images/states/s-sc12-12-quality-file-offline-desktop-dark.png) |
+
+## Fields and columns
+
+The fields of [E-SC12-12 Quality evidence](../../data/e-sc12-12-quality-evidence.md), shown as the entity pages list
+them, with their examples.
+
+## Actions
+
+- Collect: [UC-SC12-12](../../use-cases/04-quality-and-reports/uc-sc12-12-keep-the-qualiopi-evidence-file.md), step 1.
+- Review: [UC-SC12-12](../../use-cases/04-quality-and-reports/uc-sc12-12-keep-the-qualiopi-evidence-file.md), step 2.
+- Approve: [UC-SC12-12](../../use-cases/04-quality-and-reports/uc-sc12-12-keep-the-qualiopi-evidence-file.md), step 3.
+- Prepare the audit: [UC-SC12-12](../../use-cases/04-quality-and-reports/uc-sc12-12-keep-the-qualiopi-evidence-file.md),
+  step 4.
+
+## States
+
+- Normal: evidence by criterion and session.
+- Empty: "No evidence".
+- Loading: the frame and titles show at once with placeholder rows; within 1 second
+  ([D408](../../../../06-decisions/technical/d408-performance-and-profiles.md)) the data replaces them, and a longer
+  load shows a progress line saying what loads.
+- Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)) says what failed
+  and what to do; what was typed is kept. For example, evidence missing: it is listed.
+- Read-only: the owner approves only.
+- Offline: not available offline: office work on enrolments, funding and billing. Offline work is kept for the phone
+  forms of the field, [D38](../../../../06-decisions/ux/d38-offline-field-tasks.md),
+  [UC-F2-22](../../../../02-functional/f02-no-code-configuration/use-cases/09-portals-and-offline-forms/uc-f02-22-fill-a-form-offline-on-the-phone.md).
+  A banner says the connection is lost; what is on screen stays visible, every action is disabled and nothing is queued
+  until the connection is back.
+
+Shown entities (VD-15): [E-SC12-12 Quality evidence](../../data/e-sc12-12-quality-evidence.md).
+
+Entity states shown (VD-15):
+
+| Entity | State | What changes | Personas | Images |
+|---|---|---|---|---|
+| E-SC12-12 Quality evidence | Recorded | Badge "Recorded"; a new record starts here; no other state; fields editable within the role | U13, U38 | `u13-owner/s-sc12-12-quality-file-e-sc12-12-quality-evidence-recorded-{desktop,phone}-{light,dark}.png`, `u38-training-coordinator/s-sc12-12-quality-file-e-sc12-12-quality-evidence-recorded-desktop-{light,dark}.png` |
+
+State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
+list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each
+entity's Lifecycle (step 36j): the badge is the state's name, the next states are its transitions, and a final state is
+read-only.
+
+## Responsive behaviour
+
+(Proposed) Desktop; approvals and receipts also on the phone.
+
+## Accessibility
+
+Labelled controls; amounts and states as text.
+
+## Components
+
+- [C-03 Data table](../../../../04-ux/design-system/components/c-03-data-table.md)
+- [C-02 Form field](../../../../04-ux/design-system/components/c-02-form-field.md)
+
+## Shown in
+
+- [FL-SC12-04 Quality and reports](../../flows/fl-sc12-04-quality-and-reports.md)
+
+## Open questions
+
+None.
+
+---
+
+⬅️ [S-SC12-11 Trainers](../01-offer-and-sessions/s-sc12-11-trainers.md) · ⬆️ [Up](README.md) ·
+➡️ [S-SC12-13 Yearly report](s-sc12-13-yearly-report.md)

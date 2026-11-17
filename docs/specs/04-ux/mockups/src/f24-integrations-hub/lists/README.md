@@ -1,0 +1,113 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [f24-integrations-hub](../README.md) › 🧪 lists
+
+# 🧪 lists
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f24-l01-connectors-u07-administrator-desktop.html`
+- `s-f24-l01-connectors-u07-administrator-phone.html`
+- `s-f24-l01-connectors-u13-owner-desktop.html`
+- `s-f24-l01-connectors-u13-owner-phone.html`
+- `s-f24-l01-connectors-u47-simple-erp-maintainer-desktop.html`
+- `s-f24-l01-connectors-u47-simple-erp-maintainer-phone.html`
+- `s-f24-l02-tool-connections-u01-employee-desktop.html`
+- `s-f24-l02-tool-connections-u01-employee-phone.html`
+- `s-f24-l02-tool-connections-u06-hr-desktop.html`
+- `s-f24-l02-tool-connections-u06-hr-phone.html`
+- `s-f24-l02-tool-connections-u07-administrator-desktop.html`
+- `s-f24-l02-tool-connections-u07-administrator-phone.html`
+- `s-f24-l02-tool-connections-u11-provider-admin-desktop.html`
+- `s-f24-l02-tool-connections-u11-provider-admin-phone.html`
+- `s-f24-l02-tool-connections-u13-owner-desktop.html`
+- `s-f24-l02-tool-connections-u13-owner-phone.html`
+- `s-f24-l03-suite-components-u01-employee-desktop.html`
+- `s-f24-l03-suite-components-u01-employee-phone.html`
+- `s-f24-l03-suite-components-u02-manager-desktop.html`
+- `s-f24-l03-suite-components-u02-manager-phone.html`
+- `s-f24-l03-suite-components-u07-administrator-desktop.html`
+- `s-f24-l03-suite-components-u07-administrator-phone.html`
+- `s-f24-l03-suite-components-u16-office-worker-desktop.html`
+- `s-f24-l03-suite-components-u16-office-worker-phone.html`
+- `s-f24-l04-linked-documents-u01-employee-desktop.html`
+- `s-f24-l04-linked-documents-u01-employee-phone.html`
+- `s-f24-l04-linked-documents-u16-office-worker-desktop.html`
+- `s-f24-l04-linked-documents-u16-office-worker-phone.html`
+- `s-f24-l05-calendar-links-u01-employee-desktop.html`
+- `s-f24-l05-calendar-links-u01-employee-phone.html`
+- `s-f24-l05-calendar-links-u07-administrator-desktop.html`
+- `s-f24-l05-calendar-links-u07-administrator-phone.html`
+- `s-f24-l06-sync-jobs-u03-sales-desktop.html`
+- `s-f24-l06-sync-jobs-u03-sales-phone.html`
+- `s-f24-l06-sync-jobs-u05-accounting-desktop.html`
+- `s-f24-l06-sync-jobs-u05-accounting-phone.html`
+- `s-f24-l06-sync-jobs-u06-hr-desktop.html`
+- `s-f24-l06-sync-jobs-u06-hr-phone.html`
+- `s-f24-l06-sync-jobs-u07-administrator-desktop.html`
+- `s-f24-l06-sync-jobs-u07-administrator-phone.html`
+- `s-f24-l06-sync-jobs-u08-external-accountant-desktop.html`
+- `s-f24-l06-sync-jobs-u08-external-accountant-phone.html`
+- `s-f24-l06-sync-jobs-u11-provider-admin-desktop.html`
+- `s-f24-l06-sync-jobs-u11-provider-admin-phone.html`
+- `s-f24-l07-field-mappings-u03-sales-desktop.html`
+- `s-f24-l07-field-mappings-u03-sales-phone.html`
+- `s-f24-l07-field-mappings-u06-hr-desktop.html`
+- `s-f24-l07-field-mappings-u06-hr-phone.html`
+- `s-f24-l07-field-mappings-u07-administrator-desktop.html`
+- `s-f24-l07-field-mappings-u07-administrator-phone.html`
+- `s-f24-l07-field-mappings-u11-provider-admin-desktop.html`
+- `s-f24-l07-field-mappings-u11-provider-admin-phone.html`
+- `s-f24-l08-sync-log-entries-u07-administrator-desktop.html`
+- `s-f24-l08-sync-log-entries-u07-administrator-phone.html`
+- `s-f24-l08-sync-log-entries-u11-provider-admin-desktop.html`
+- `s-f24-l08-sync-log-entries-u11-provider-admin-phone.html`
+- `s-f24-l09-connector-actions-u03-sales-desktop.html`
+- `s-f24-l09-connector-actions-u03-sales-phone.html`
+- `s-f24-l09-connector-actions-u07-administrator-desktop.html`
+- `s-f24-l09-connector-actions-u07-administrator-phone.html`
+- `s-f24-l09-connector-actions-u13-owner-desktop.html`
+- `s-f24-l09-connector-actions-u13-owner-phone.html`
+- `s-f24-l10-connector-incidents-u07-administrator-desktop.html`
+- `s-f24-l10-connector-incidents-u07-administrator-phone.html`
+- `s-f24-l10-connector-incidents-u47-simple-erp-maintainer-desktop.html`
+- `s-f24-l10-connector-incidents-u47-simple-erp-maintainer-phone.html`
+- `s-f24-l11-connector-categories-u07-administrator-desktop.html`
+- `s-f24-l11-connector-categories-u07-administrator-phone.html`
+- `s-f24-l11-connector-categories-u13-owner-desktop.html`
+- `s-f24-l11-connector-categories-u13-owner-phone.html`
+- `s-f24-l11-connector-categories-u47-simple-erp-maintainer-desktop.html`
+- `s-f24-l11-connector-categories-u47-simple-erp-maintainer-phone.html`
+- `s-f24-l12-integration-icons-u07-administrator-desktop.html`
+- `s-f24-l12-integration-icons-u07-administrator-phone.html`
+- `s-f24-l12-integration-icons-u13-owner-desktop.html`
+- `s-f24-l12-integration-icons-u13-owner-phone.html`
+- `s-f24-l12-integration-icons-u47-simple-erp-maintainer-desktop.html`
+- `s-f24-l12-integration-icons-u47-simple-erp-maintainer-phone.html`
+- `s-f24-l13-webhook-subscriptions-u07-administrator-desktop.html`
+- `s-f24-l13-webhook-subscriptions-u07-administrator-phone.html`
+- `s-f24-l13-webhook-subscriptions-u13-owner-desktop.html`
+- `s-f24-l13-webhook-subscriptions-u13-owner-phone.html`
+- `s-f24-l14-e-invoicing-registrations-u05-accounting-desktop.html`
+- `s-f24-l14-e-invoicing-registrations-u05-accounting-phone.html`
+- `s-f24-l14-e-invoicing-registrations-u07-administrator-desktop.html`
+- `s-f24-l14-e-invoicing-registrations-u07-administrator-phone.html`
+- `s-f24-l15-connector-catalogue-reviews-u47-simple-erp-maintainer-desktop.html`
+- `s-f24-l15-connector-catalogue-reviews-u47-simple-erp-maintainer-phone.html`
+- `s-f24-l16-connector-requests-u13-owner-desktop.html`
+- `s-f24-l16-connector-requests-u13-owner-phone.html`
+- `s-f24-l17-connector-drafts-u07-administrator-desktop.html`
+- `s-f24-l17-connector-drafts-u07-administrator-phone.html`
+- `s-f24-l17-connector-drafts-u11-provider-admin-desktop.html`
+- `s-f24-l17-connector-drafts-u11-provider-admin-phone.html`
+- `s-f24-l18-export-pipelines-u07-administrator-desktop.html`
+- `s-f24-l18-export-pipelines-u07-administrator-phone.html`
+- `s-f24-l18-export-pipelines-u11-provider-admin-desktop.html`
+- `s-f24-l18-export-pipelines-u11-provider-admin-phone.html`
+- `s-f24-l19-firm-syncs-u05-accounting-desktop.html`
+- `s-f24-l19-firm-syncs-u05-accounting-phone.html`
+- `s-f24-l19-firm-syncs-u08-external-accountant-desktop.html`
+- `s-f24-l19-firm-syncs-u08-external-accountant-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

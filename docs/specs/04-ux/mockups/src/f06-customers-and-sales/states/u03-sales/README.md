@@ -1,0 +1,143 @@
+🏠 [Specs](../../../../../../README.md) › 🎨 [UX](../../../../../README.md) › 🧪 [Mockups](../../../../README.md) ›
+🧪 [src](../../../README.md) › 🧪 [f06-customers-and-sales](../../README.md) › 🧪 [states](../README.md) › 🧪 u03-sales
+
+# 🧪 u03-sales
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f06-01-pipeline-e-f06-02-opportunity-active-desktop.html`
+- `s-f06-01-pipeline-e-f06-02-opportunity-active-phone.html`
+- `s-f06-02-lead-e-f06-02-opportunity-active-desktop.html`
+- `s-f06-02-lead-e-f06-02-opportunity-active-phone.html`
+- `s-f06-02-lead-e-f06-20-lead-active-desktop.html`
+- `s-f06-02-lead-e-f06-20-lead-active-phone.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-accepted-desktop.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-accepted-phone.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-draft-desktop.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-draft-phone.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-expired-desktop.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-expired-phone.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-refused-desktop.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-refused-phone.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-sent-desktop.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-sent-phone.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-to-approve-desktop.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-to-approve-phone.html`
+- `s-f06-03-quote-editor-e-f06-08-sales-price-list-active-desktop.html`
+- `s-f06-03-quote-editor-e-f06-08-sales-price-list-active-phone.html`
+- `s-f06-05-order-e-f06-04-order-cancelled-desktop.html`
+- `s-f06-05-order-e-f06-04-order-cancelled-phone.html`
+- `s-f06-05-order-e-f06-04-order-done-desktop.html`
+- `s-f06-05-order-e-f06-04-order-done-phone.html`
+- `s-f06-05-order-e-f06-04-order-in-progress-desktop.html`
+- `s-f06-05-order-e-f06-04-order-in-progress-phone.html`
+- `s-f06-05-order-e-f06-04-order-open-desktop.html`
+- `s-f06-05-order-e-f06-04-order-open-phone.html`
+- `s-f06-05-order-e-f06-12-credit-limit-active-desktop.html`
+- `s-f06-05-order-e-f06-12-credit-limit-active-phone.html`
+- `s-f06-09-subscriptions-e-f06-07-subscription-contract-active-desktop.html`
+- `s-f06-09-subscriptions-e-f06-07-subscription-contract-active-phone.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-active-desktop.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-active-phone.html`
+- `s-f06-13-rentals-e-f06-09-rental-booked-desktop.html`
+- `s-f06-13-rentals-e-f06-09-rental-booked-phone.html`
+- `s-f06-13-rentals-e-f06-09-rental-late-desktop.html`
+- `s-f06-13-rentals-e-f06-09-rental-late-phone.html`
+- `s-f06-13-rentals-e-f06-09-rental-picked-up-desktop.html`
+- `s-f06-13-rentals-e-f06-09-rental-picked-up-phone.html`
+- `s-f06-13-rentals-e-f06-09-rental-returned-desktop.html`
+- `s-f06-13-rentals-e-f06-09-rental-returned-phone.html`
+- `s-f06-14-usage-billing-e-f06-10-rate-plan-and-meter-active-desktop.html`
+- `s-f06-14-usage-billing-e-f06-10-rate-plan-and-meter-active-phone.html`
+- `s-f06-15-account-e-f06-01-customer-record-accepted-desktop.html`
+- `s-f06-15-account-e-f06-01-customer-record-accepted-phone.html`
+- `s-f06-15-account-e-f06-01-customer-record-active-desktop.html`
+- `s-f06-15-account-e-f06-01-customer-record-active-phone.html`
+- `s-f06-15-account-e-f06-11-timeline-entry-recorded-desktop.html`
+- `s-f06-15-account-e-f06-11-timeline-entry-recorded-phone.html`
+
+- `s-f06-24-partner-programme-e-f06-23-partner-active-desktop.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-applied-desktop.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-ended-desktop.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-refused-desktop.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-suspended-desktop.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-entered-desktop.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-invalid-desktop.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-retired-desktop.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-valid-desktop.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-active-desktop.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-closed-desktop.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-draft-desktop.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-exhausted-desktop.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-expired-desktop.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-expired-desktop.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-failed-desktop.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-received-desktop.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-requested-desktop.html`
+
+- `s-f06-24-partner-programme-e-f06-23-partner-active-phone.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-active-tablet.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-applied-phone.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-applied-tablet.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-ended-phone.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-ended-tablet.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-refused-phone.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-refused-tablet.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-suspended-phone.html`
+- `s-f06-24-partner-programme-e-f06-23-partner-suspended-tablet.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-entered-phone.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-entered-tablet.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-invalid-phone.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-invalid-tablet.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-retired-phone.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-retired-tablet.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-valid-phone.html`
+- `s-f06-25-company-identifiers-e-f06-24-company-identifier-valid-tablet.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-active-phone.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-active-tablet.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-closed-phone.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-closed-tablet.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-draft-phone.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-draft-tablet.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-exhausted-phone.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-exhausted-tablet.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-expired-phone.html`
+- `s-f06-26-frame-contracts-e-f06-25-frame-contract-expired-tablet.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-expired-phone.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-expired-tablet.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-failed-phone.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-failed-tablet.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-received-phone.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-received-tablet.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-requested-phone.html`
+- `s-f06-27-solvency-check-e-f06-26-solvency-report-requested-tablet.html`
+
+- `s-f06-01-pipeline-e-f06-02-opportunity-active-tablet.html`
+- `s-f06-02-lead-e-f06-02-opportunity-active-tablet.html`
+- `s-f06-02-lead-e-f06-20-lead-active-tablet.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-accepted-tablet.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-draft-tablet.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-expired-tablet.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-refused-tablet.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-sent-tablet.html`
+- `s-f06-03-quote-editor-e-f06-03-quote-to-approve-tablet.html`
+- `s-f06-03-quote-editor-e-f06-08-sales-price-list-active-tablet.html`
+- `s-f06-05-order-e-f06-04-order-cancelled-tablet.html`
+- `s-f06-05-order-e-f06-04-order-done-tablet.html`
+- `s-f06-05-order-e-f06-04-order-in-progress-tablet.html`
+- `s-f06-05-order-e-f06-04-order-open-tablet.html`
+- `s-f06-05-order-e-f06-12-credit-limit-active-tablet.html`
+- `s-f06-09-subscriptions-e-f06-07-subscription-contract-active-tablet.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-active-tablet.html`
+- `s-f06-13-rentals-e-f06-09-rental-booked-tablet.html`
+- `s-f06-13-rentals-e-f06-09-rental-late-tablet.html`
+- `s-f06-13-rentals-e-f06-09-rental-picked-up-tablet.html`
+- `s-f06-13-rentals-e-f06-09-rental-returned-tablet.html`
+- `s-f06-14-usage-billing-e-f06-10-rate-plan-and-meter-active-tablet.html`
+- `s-f06-15-account-e-f06-01-customer-record-accepted-tablet.html`
+- `s-f06-15-account-e-f06-01-customer-record-active-tablet.html`
+- `s-f06-15-account-e-f06-11-timeline-entry-recorded-tablet.html`
+
+---
+
+⬆️ [Up](../README.md)

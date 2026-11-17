@@ -1,0 +1,114 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [sc08-non-profit](../README.md) › 🧪 states
+
+# 🧪 states
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc08-01-members-empty-desktop.html`
+- `s-sc08-01-members-loading-desktop.html`
+- `s-sc08-01-members-offline-phone.html`
+- `s-sc08-01-members-read-only-desktop.html`
+- `s-sc08-02-general-assembly-empty-desktop.html`
+- `s-sc08-02-general-assembly-loading-desktop.html`
+- `s-sc08-02-general-assembly-offline-phone.html`
+- `s-sc08-02-general-assembly-read-only-desktop.html`
+- `s-sc08-03-board-empty-desktop.html`
+- `s-sc08-03-board-loading-desktop.html`
+- `s-sc08-03-board-offline-phone.html`
+- `s-sc08-03-board-read-only-desktop.html`
+- `s-sc08-04-donations-empty-desktop.html`
+- `s-sc08-04-donations-loading-desktop.html`
+- `s-sc08-04-donations-offline-phone.html`
+- `s-sc08-04-donations-read-only-desktop.html`
+- `s-sc08-05-campaigns-empty-desktop.html`
+- `s-sc08-05-campaigns-loading-desktop.html`
+- `s-sc08-05-campaigns-offline-phone.html`
+- `s-sc08-05-campaigns-read-only-desktop.html`
+- `s-sc08-06-tax-receipts-empty-desktop.html`
+- `s-sc08-06-tax-receipts-loading-desktop.html`
+- `s-sc08-06-tax-receipts-offline-phone.html`
+- `s-sc08-06-tax-receipts-read-only-desktop.html`
+- `s-sc08-07-regular-gifts-empty-desktop.html`
+- `s-sc08-07-regular-gifts-loading-desktop.html`
+- `s-sc08-07-regular-gifts-offline-phone.html`
+- `s-sc08-07-regular-gifts-read-only-desktop.html`
+- `s-sc08-08-grants-empty-desktop.html`
+- `s-sc08-08-grants-loading-desktop.html`
+- `s-sc08-08-grants-offline-phone.html`
+- `s-sc08-08-grants-read-only-desktop.html`
+- `s-sc08-09-grant-reports-empty-desktop.html`
+- `s-sc08-09-grant-reports-loading-desktop.html`
+- `s-sc08-09-grant-reports-offline-phone.html`
+- `s-sc08-09-grant-reports-read-only-desktop.html`
+- `s-sc08-10-missions-empty-phone.html`
+- `s-sc08-10-missions-loading-phone.html`
+- `s-sc08-10-missions-offline-phone.html`
+- `s-sc08-10-missions-read-only-phone.html`
+- `s-sc08-11-volunteer-time-empty-phone.html`
+- `s-sc08-11-volunteer-time-loading-phone.html`
+- `s-sc08-11-volunteer-time-offline-phone.html`
+- `s-sc08-11-volunteer-time-read-only-phone.html`
+- `s-sc08-12-events-empty-desktop.html`
+- `s-sc08-12-events-loading-desktop.html`
+- `s-sc08-12-events-offline-phone.html`
+- `s-sc08-12-events-read-only-desktop.html`
+- `s-sc08-13-temporary-bar-empty-phone.html`
+- `s-sc08-13-temporary-bar-loading-phone.html`
+- `s-sc08-13-temporary-bar-offline-phone.html`
+- `s-sc08-13-temporary-bar-read-only-phone.html`
+- `s-sc08-14-association-accounts-empty-desktop.html`
+- `s-sc08-14-association-accounts-loading-desktop.html`
+- `s-sc08-14-association-accounts-offline-phone.html`
+- `s-sc08-14-association-accounts-read-only-desktop.html`
+- `s-sc08-15-publication-empty-desktop.html`
+- `s-sc08-15-publication-loading-desktop.html`
+- `s-sc08-15-publication-offline-phone.html`
+- `s-sc08-15-publication-read-only-desktop.html`
+- `s-sc08-16-bequests-empty-desktop.html`
+- `s-sc08-16-bequests-loading-desktop.html`
+- `s-sc08-16-bequests-offline-phone.html`
+- `s-sc08-16-bequests-read-only-desktop.html`
+- `s-sc08-17-news-empty-desktop.html`
+- `s-sc08-17-news-loading-desktop.html`
+- `s-sc08-17-news-offline-phone.html`
+- `s-sc08-17-news-read-only-desktop.html`
+- `s-sc08-18-data-rights-empty-desktop.html`
+- `s-sc08-18-data-rights-loading-desktop.html`
+- `s-sc08-18-data-rights-offline-phone.html`
+- `s-sc08-18-data-rights-read-only-desktop.html`
+- `s-sc08-19-dashboard-empty-desktop.html`
+- `s-sc08-19-dashboard-loading-desktop.html`
+- `s-sc08-19-dashboard-offline-phone.html`
+- `s-sc08-19-dashboard-read-only-desktop.html`
+- `s-sc08-20-association-assistant-empty-desktop.html`
+- `s-sc08-20-association-assistant-loading-desktop.html`
+- `s-sc08-20-association-assistant-offline-phone.html`
+- `s-sc08-20-association-assistant-read-only-desktop.html`
+- `s-sc08-21-grant-making-empty-desktop.html`
+- `s-sc08-21-grant-making-loading-desktop.html`
+- `s-sc08-21-grant-making-offline-phone.html`
+- `s-sc08-21-grant-making-read-only-desktop.html`
+- `s-sc08-22-work-integration-empty-desktop.html`
+- `s-sc08-22-work-integration-loading-desktop.html`
+- `s-sc08-22-work-integration-offline-desktop.html`
+- `s-sc08-22-work-integration-read-only-desktop.html`
+- `s-sc08-23-federation-empty-desktop.html`
+- `s-sc08-23-federation-loading-desktop.html`
+- `s-sc08-23-federation-offline-phone.html`
+- `s-sc08-23-federation-read-only-desktop.html`
+- `s-sc08-24-peer-fundraising-empty-desktop.html`
+- `s-sc08-24-peer-fundraising-loading-desktop.html`
+- `s-sc08-24-peer-fundraising-offline-phone.html`
+- `s-sc08-24-peer-fundraising-read-only-desktop.html`
+- [u01-employee](u01-employee/README.md)
+- [u06-hr](u06-hr/README.md)
+- [u09-customer](u09-customer/README.md)
+- [u12-marketing](u12-marketing/README.md)
+- [u13-owner](u13-owner/README.md)
+- [u31-treasurer](u31-treasurer/README.md)
+- [u32-volunteer](u32-volunteer/README.md)
+
+---
+
+⬆️ [Up](../README.md)
