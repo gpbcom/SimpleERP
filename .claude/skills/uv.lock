@@ -9,6 +9,7 @@ members = [
     "cve-scan",
     "harness-core",
     "pr-watch",
+    "progress-updates",
     "project-docs",
     "release-notes",
     "ticket-docs",
@@ -119,6 +120,7 @@ dependencies = [
     { name = "cve-scan" },
     { name = "harness-core" },
     { name = "pr-watch" },
+    { name = "progress-updates" },
     { name = "project-docs" },
     { name = "release-notes" },
     { name = "ticket-docs" },
@@ -140,6 +142,7 @@ requires-dist = [
     { name = "cve-scan", editable = "cve-scan" },
     { name = "harness-core", editable = "harness-core" },
     { name = "pr-watch", editable = "pr-watch" },
+    { name = "progress-updates", editable = "progress-updates" },
     { name = "project-docs", editable = "project-docs" },
     { name = "release-notes", editable = "release-notes" },
     { name = "ticket-docs", editable = "ticket-docs" },
@@ -428,6 +431,23 @@ requires-dist = [
     { name = "httpx", specifier = ">=0.28.0" },
     { name = "pydantic", specifier = ">=2.11.0" },
     { name = "pydantic-settings", specifier = ">=2.10.0" },
+]
+
+[[package]]
+name = "progress-updates"
+version = "0.1.0"
+source = { editable = "progress-updates" }
+dependencies = [
+    { name = "harness-core" },
+    { name = "pydantic" },
+    { name = "pyyaml" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "harness-core", editable = "harness-core" },
+    { name = "pydantic", specifier = ">=2.11.0" },
+    { name = "pyyaml", specifier = ">=6.0.2" },
 ]
 
 [[package]]

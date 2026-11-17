@@ -57,5 +57,9 @@ Every squash and every push waits for the owner's explicit yes (GIT-1).
 | PreToolUse (Bash) | `ai-cost gate` | Refuses a paid AI test not run through the cost guard |
 | PreToolUse (Bash) | `ticket-docs git-gate` | Refuses production code committed before its red tests |
 | PostToolUse (Bash) | `ticket-docs time-reminder` | Asks to update PROGRESS.md's times after a commit |
+| PostToolUse (Bash, Agent, Workflow) | `progress-updates hook` | Reminds Claude to report every 2 minutes while work runs in the background |
 
-Last reviewed: 2026-11-12 (GH-23)
+Long-running work (a background command, a subagent, a workflow, a CI run) is reported to the owner every 2 minutes
+until it ends, colourised and with icons, by the `progress-updates` skill and tool.
+
+Last reviewed: 2026-11-17 (GH-14)

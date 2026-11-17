@@ -8,6 +8,7 @@ dependencies = [
     "cve-scan",
     "harness-core",
     "pr-watch",
+    "progress-updates",
     "project-docs",
     "release-notes",
     "ticket-docs",
@@ -22,6 +23,7 @@ members = [
     "cve-scan",
     "harness-core",
     "pr-watch",
+    "progress-updates",
     "project-docs",
     "release-notes",
     "ticket-docs",
@@ -32,6 +34,7 @@ ai-test-cost = { workspace = true }
 cve-scan = { workspace = true }
 harness-core = { workspace = true }
 pr-watch = { workspace = true }
+progress-updates = { workspace = true }
 project-docs = { workspace = true }
 release-notes = { workspace = true }
 ticket-docs = { workspace = true }
@@ -64,7 +67,7 @@ classmethod-decorators = ["pydantic.field_validator"]
 convention = "google"
 
 [tool.ruff.lint.isort]
-known-first-party = ["ai_cost", "cve_scan", "harness_core", "pr_watch", "project_docs", "release_notes", "tests", "ticket_docs"]
+known-first-party = ["ai_cost", "cve_scan", "harness_core", "pr_watch", "progress_updates", "project_docs", "release_notes", "tests", "ticket_docs"]
 
 [tool.mypy]
 python_version = "3.13"

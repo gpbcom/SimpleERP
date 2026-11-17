@@ -8,6 +8,7 @@
 | PreToolUse | Bash | `ai-cost gate` | Denies a paid AI command outside `ai-cost run`, `raise-cap`, and commands setting `AI_COST_*` |
 | PreToolUse | Bash | `ticket-docs git-gate` | Denies production code committed before its red run (TEST-7), and commits or pushes on `master`/`develop` (GIT-8) |
 | PostToolUse | Bash | `ticket-docs time-reminder` | After a commit on a ticket branch, asks to update PROGRESS.md's times |
+| PostToolUse | Bash, Agent, Workflow | `progress-updates hook` | After a command or subagent goes to the background, reminds Claude to report every 2 minutes; never blocks |
 
 Every command is `"$CLAUDE_PROJECT_DIR"/.claude/skills/.venv/bin/<tool> …` with a 10 s timeout: the venv's entry points answer in
 250 to 330 ms, the `bin/` wrappers (which go through `uv run`) in 400 to 460 ms. A hook prints its JSON answer or
@@ -25,6 +26,7 @@ before the hooks work: until then Claude Code reports them as failing, without b
 | `pr-watch/conf/watch.yaml` | Timings (10 min runs, 60 min renotify, 30 min QA wait), GitHub settings |
 | `ai-test-cost/conf/settings.yaml` | Cap ($20), kill ratio (90 %), usage source, files: never overridable from the environment |
 | `ai-test-cost/conf/prices.yaml`, `paid-commands.yaml` | Model prices (source and date inside), paid command patterns |
+| `progress-updates/conf/progress-updates.yaml` | The interval (120 s, the shortest accepted), line length, evidence count, the icon and health dot of each state |
 
 ## Environment variables
 
