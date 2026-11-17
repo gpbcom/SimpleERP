@@ -8,6 +8,7 @@ How simple-erp is tested, and how every test result stays provable.
 |---|---|---|---|
 | Unit | pytest, two workers | local, CI, stages | Each class does what its tests say |
 | Conventions | `tests/conventions/` | local, CI | The house rules of `AGENT.md` that a test can enforce |
+| Workflows | `tests/workflows/` | local, CI | The workflows' key steps and the pages that show how to start them (text checks) |
 | Static | ruff, mypy | local, CI | Style and types |
 | GUI | Playwright in `frontends/<frontend>/e2e/` | local, dev, QA | Screens and flows, against the real images |
 | API | Bruno collection in `bruno/` | dev, QA | The HTTP APIs, headless |
@@ -39,4 +40,4 @@ flowchart LR
 - `docs/tickets/` is local. Each ticket folder is archived to its GitHub pre-release at every hand-over, and each
   release carries its QA reports.
 
-Last reviewed: 2026-11-10 (GH-1)
+Last reviewed: 2026-11-17 (GH-13)

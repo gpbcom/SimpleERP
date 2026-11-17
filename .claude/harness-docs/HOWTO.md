@@ -58,7 +58,7 @@ TEST-10, DOC-4…) or into `AGENT.md`, and applies it from then on.
 .claude/skills/project-docs/bin/project-docs check           # is the documentation complete?
 .claude/skills/release-notes/bin/release-notes next-version  # the next semantic version
 .claude/skills/pr-watch/bin/pr-watch status                  # watched pull requests
-gh workflow run stage.yml --ref <branch> -f stage=dev -f ref=<sha>   # a dev stage run
+gh workflow run stage.yml --ref <branch> -f stage=dev -f ref=$(git rev-parse HEAD)   # a dev stage run
 ```
 
 ## First-time setup (once per machine)

@@ -37,6 +37,9 @@ flowchart TD
     J --> K["merge into develop, Done"]
 ```
 
+A dev or QA stage run is started on the branch's head commit, `-f ref=$(git rev-parse HEAD)`; the stage also
+accepts a short SHA, a branch or a tag and resolves it to the full commit first (`docs/technical/ci-cd-and-stages.md`).
+
 ## Rules
 
 | File | IDs | About |
@@ -62,4 +65,4 @@ Every squash and every push waits for the owner's explicit yes (GIT-1).
 Long-running work (a background command, a subagent, a workflow, a CI run) is reported to the owner every 2 minutes
 until it ends, colourised and with icons, by the `progress-updates` skill and tool.
 
-Last reviewed: 2026-11-17 (GH-14)
+Last reviewed: 2026-11-17 (GH-13)

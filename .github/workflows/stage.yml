@@ -41,17 +41,32 @@ jobs:
       STAGE: ${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }}
       REPORTS: ${{ github.workspace }}/stage-reports
     steps:
+      # actions/checkout takes a branch, a tag or a full SHA, not a short one: resolve the ref first (GH-13).
+      - id: ref
+        name: Resolve the ref to its full commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REF: ${{ inputs.ref || github.sha }}
+        run: |
+          if ! sha=$(gh api "repos/${{ github.repository }}/commits/$REF" --jq .sha 2>/dev/null) || [ -z "$sha" ]; then
+            echo "::error title=Unknown ref::'$REF' is not a commit, branch or tag of ${{ github.repository }}."
+            exit 1
+          fi
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+          echo "Resolved '$REF' to $sha"
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
-          ref: ${{ inputs.ref || github.sha }}
+          ref: ${{ steps.ref.outputs.sha }}
           fetch-depth: 0
       - name: Record what runs
+        env:
+          REF: ${{ inputs.ref || github.ref_name }}
         run: |
           mkdir -p "$REPORTS"
           {
             echo "stage=$STAGE"
             echo "commit=$(git rev-parse HEAD)"
-            echo "ref=${{ inputs.ref || github.ref_name }}"
+            echo "ref=$REF"
             echo "run=${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           } | tee "$REPORTS/stage.txt"
       - id: detect
