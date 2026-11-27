@@ -1,0 +1,24 @@
+{
+  "app": { "name": "SimpleERP" },
+  "shell": {
+    "skipToContent": "Skip to content",
+    "navigation": "Main navigation",
+    "collapseSidebar": "Collapse the menu",
+    "expandSidebar": "Expand the menu",
+    "search": "Search",
+    "searchPlaceholder": "Search customers, invoices, people...",
+    "assistant": "Assistant",
+    "notifications": "Notifications",
+    "siteSwitcher": "Switch site",
+    "userMenu": "User menu",
+    "switchToDark": "Switch to dark mode",
+    "switchToLight": "Switch to light mode"
+  },
+  "nav": {
+    "home": "Home",
+    "tasks": "Tasks",
+    "assistant": "Assistant",
+    "me": "Me"
+  },
+  "page": { "empty": "Nothing here yet." }
+}

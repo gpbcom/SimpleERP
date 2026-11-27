@@ -1,10 +1,29 @@
 # Observability
 
-Logs, metrics and dashboards (Loki, Prometheus, Grafana), alerts. Nothing of it is built yet.
+Logs, metrics and dashboards (Loki, Prometheus, Grafana), alerts. Only the logging library is built; the rest is not yet.
 
 ## Today
 
-Nothing built yet.
+The logging library `backend/shared/logging` (package `erp_logging`, [pyproject](../../../backend/shared/logging/pyproject.toml))
+writes every log line in three places, configured by the reference
+[`logger.yaml`](../../../backend/shared/logging/conf/logger.yaml) and applied by `erp_logging.setup.logging_setup.LoggingSetup`:
+
+- a coloured console;
+- a coloured rotating file, `logs/simpleerp.log`;
+- `logs/simpleerp.jsonl`, written by `JsonLinesFormatter` as one JSON object per line with the time, the level, the
+  logger, the message and the three tags.
+
+Each line carries the tags `service`, `company` (an opaque id) and `request`, as [D416](../../specs/06-decisions/technical/d416-observability-design.md)
+and the [non-functional observability page](../../specs/05-non-functional/observability.md) require. The company and the
+request come from `LogContext`, which the request middleware of T0.09 will bind for each call; until then they are empty.
+
+```mermaid
+flowchart LR
+    Code[Log call in a service] --> Context[LogContext: service, company, request]
+    Context --> Console[Coloured console]
+    Context --> File[logs/simpleerp.log]
+    Context --> Json[logs/simpleerp.jsonl]
+```
 
 ## Target design (specified in GH-2, not built yet)
 

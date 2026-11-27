@@ -1,0 +1,11 @@
+**
+!package.json
+!pnpm-workspace.yaml
+!pnpm-lock.yaml
+!frontend/packages/
+!frontend/backoffice/
+**/node_modules
+**/dist
+**/coverage
+frontend/backoffice/e2e/test-results
+frontend/backoffice/e2e/playwright-report

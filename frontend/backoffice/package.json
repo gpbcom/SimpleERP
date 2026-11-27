@@ -1,5 +1,42 @@
 {
   "name": "@simpleerp/backoffice",
   "version": "0.0.0",
-  "private": true
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --build && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "typecheck": "vue-tsc --build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@simpleerp/i18n": "workspace:*",
+    "@simpleerp/tokens": "workspace:*",
+    "@simpleerp/ui": "workspace:*",
+    "lucide-vue-next": "1.0.0",
+    "pinia": "4.1.0",
+    "vue": "3.5.46",
+    "vue-router": "5.5.3"
+  },
+  "devDependencies": {
+    "@simpleerp/config": "workspace:*",
+    "@types/jsdom": "30.0.0",
+    "@types/node": "22.20.7",
+    "@vitejs/plugin-vue": "6.0.11",
+    "@vue/test-utils": "2.6.0",
+    "axe-core": "4.14.1",
+    "eslint": "10.16.0",
+    "globals": "17.14.0",
+    "jsdom": "31.0.1",
+    "typescript": "6.0.3",
+    "vite": "8.4.0",
+    "vitest": "5.1.2",
+    "vue-tsc": "3.3.14"
+  }
 }

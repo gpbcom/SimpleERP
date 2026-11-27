@@ -5,7 +5,7 @@ description = "Open-source, self-hosted, AI-native ERP for small and medium comp
 readme = "README.md"
 license = "AGPL-3.0-only"
 requires-python = ">=3.13,<3.14"
-dependencies = ["erp-lifecycle"]
+dependencies = ["erp-config", "erp-lifecycle", "erp-logging"]
 
 [tool.uv]
 # The root is the workspace, not a package: each service, the shared models, the SDK and the shared libraries are members
@@ -13,7 +13,9 @@ dependencies = ["erp-lifecycle"]
 package = false
 
 [tool.uv.sources]
+erp-config = { workspace = true }
 erp-lifecycle = { workspace = true }
+erp-logging = { workspace = true }
 
 [tool.uv.workspace]
 members = ["backend/models", "backend/shared/*", "backend/services/*", "plugins/*", "sdk"]
