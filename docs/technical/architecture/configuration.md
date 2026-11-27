@@ -6,7 +6,7 @@ Where SimpleERP reads its settings.
 |---|---|
 | `backend/services/<service>/conf/logger.yaml` | The logging: a coloured console handler and a coloured rotating file in `logs/`, root level `DEBUG` |
 | `backend/services/<service>/conf/app.yaml` | Planned: the application settings, with every default written out |
-| `backend/services/<service>/conf/catalogs/` | Planned: data that would otherwise be hard-coded, loaded by `YamlCatalog` models. The base `YamlCatalog` exists in `erp_models.catalogs.yaml_catalog`: it reads a UTF-8 YAML mapping and raises the catalogue's `UNREADABLE` exception. The catalogue files themselves come with the tickets that need them |
+| `backend/services/<service>/conf/catalogs/` | Planned: data that would otherwise be hard-coded, loaded by `YamlCatalog` models. The base `YamlCatalog` exists in `erp_models.catalogs.yaml_catalog`: it reads a UTF-8 YAML mapping and raises the catalogue's `UNREADABLE` exception. The first catalogue is the error code catalogue `backend/models/conf/catalogs/error_codes.yaml` (T0.04), loaded by `ErrorCatalog` (`erp_models.errors.catalogs.error_catalog`). The other catalogue files come with the tickets that need them |
 
 Each service keeps its configuration in its own `conf/` folder, next to its `src/` and `tests/` ([D438](../../specs/06-decisions/technical/d438-repository-layout.md)).
 

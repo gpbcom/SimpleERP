@@ -1,0 +1,23 @@
+# Error code catalogue: each code with its title, why and action message keys and its support reference.
+# Later tickets add their own codes here. Keys only: the texts belong to the translation catalogues.
+codes:
+  UNEXPECTED-ERROR-01:
+    title: errors.unexpected_error_01.title
+    why: errors.unexpected_error_01.why
+    action: errors.unexpected_error_01.action
+    reference: UNEXPECTED-ERROR-01
+  SERVICE-FAILURE-01:
+    title: errors.service_failure_01.title
+    why: errors.service_failure_01.why
+    action: errors.service_failure_01.action
+    reference: SERVICE-FAILURE-01
+  INVALID-INPUT-01:
+    title: errors.invalid_input_01.title
+    why: errors.invalid_input_01.why
+    action: errors.invalid_input_01.action
+    reference: INVALID-INPUT-01
+  SITE-CLOSE-01:
+    title: errors.site_close_01.title
+    why: errors.site_close_01.why
+    action: errors.site_close_01.action
+    reference: SITE-CLOSE-01
