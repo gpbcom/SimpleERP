@@ -43,6 +43,8 @@ PACKAGE_GLOBS = ("backend/models", "backend/shared/*", "backend/services/*", "pl
 SHARED_PREFIXES = ("backend/models/", "backend/shared/")
 SHARED_FILES = ("pyproject.toml", "uv.lock")
 TIMEOUT_S = 900
+# git with its LFS filter turned off: files stored in Git LFS are checked out as their pointers.
+GIT_WITHOUT_LFS = ["git", "-c", "filter.lfs.smudge=", "-c", "filter.lfs.process=", "-c", "filter.lfs.required=false"]
 # A failure whose output holds one of these is caused by the environment (a missing tool or module), not by the
 # ticket's code: fixer agents cannot repair it, so the run stops and the person fixes the environment (TKT-6).
 ENVIRONMENT_MARKERS = ("command not found",)
@@ -101,10 +103,12 @@ def isolated_tree(changed: List[str], root: Path = ROOT) -> Path:
     """Make a clean worktree of ``HEAD`` holding only the given changes of ``root``, and return its folder.
 
     Every other ticket's uncommitted work stays out (L-22): each changed file is copied from ``root``, and a changed
-    file that no longer exists there is deleted. The caller removes the tree with ``remove_tree``.
+    file that no longer exists there is deleted. The caller removes the tree with ``remove_tree``. The Git LFS filter
+    is turned off for the checkout, so the tree holds the LFS pointers, not the images: no check reads an image, and
+    downloading the tens of thousands of mock-up images of ``docs/specs/`` took minutes for every check round (TKT-6).
     """
     tree = Path(tempfile.mkdtemp(prefix="erp-checks-"))
-    code, out = run(["git", "worktree", "add", "--detach", "--force", str(tree), "HEAD"], cwd=root)
+    code, out = run([*GIT_WITHOUT_LFS, "worktree", "add", "--detach", "--force", str(tree), "HEAD"], cwd=root)
     if code != 0:
         shutil.rmtree(tree, ignore_errors=True)
         raise RuntimeError(f"Could not make the clean worktree for the checks: {out}")

@@ -126,6 +126,11 @@
         "kind": "test",
         "path": "tests/harness/checks/runs/test_checks_front_end.py",
         "what": "the front-end checks run through pnpm"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/checks/test_checks_lfs.py",
+        "what": "the clean worktree of the checks is made without running the LFS filter, and an LFS file stays a pointer there"
       }
     ],
     "TKT-7": [

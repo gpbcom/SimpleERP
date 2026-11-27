@@ -180,7 +180,9 @@ never edit the same checkout; parallel tickets share one, but each commits only 
    target does not exist yet is not applicable, never failed.
    **The checks run in a clean temporary worktree of the shared branch's commit that holds only the ticket's own
    changes**, never in the shared checkout: `uv` and `pnpm -r` read the whole workspace, and the other running
-   tickets' work is half built by design (tests first, TKT-4), so it would fail this ticket;
+   tickets' work is half built by design (tests first, TKT-4), so it would fail this ticket. **The clean worktree is
+   made with the Git LFS filter off**: its images are LFS pointers, because no check reads an image and downloading
+   the mock-ups of `docs/specs/` took minutes at every check round;
 2. the **reviewer** approves the diff against `TICKET.md`, the specifications (citing the decisions `Dnnn` it applies)
    and the rules (`AGENT.md`, TKT), and returns a short review note, written to `REVIEW.md`;
 3. `EXPLAIN.md`, `IMPLEMENTATION.md` (TKT-14), `REVIEW.md` and `PROGRESS.md` are written, with the evidence in
