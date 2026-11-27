@@ -17,6 +17,49 @@ How SimpleERP is tested, and how every test result stays provable.
 Each service's tests live in `backend/services/<service>/tests/` and mirror its `src/`; they use real stand-ins
 rather than mocks (a local server, a git sandbox, a fake executable), and are named as sentences (`AGENT.md`, "Tests").
 
+## Test helpers
+
+The shared test library `backend/shared/testing` (package `erp_testing`, uv package `erp-testing`) holds the helpers
+every service's tests use. It holds no business rules: it only starts stand-ins, builds synthetic data and captures
+logs. Its helpers are, by class and module:
+
+- `StandInServer` (`erp_testing.stand_in`): a local HTTP stand-in. A route with no configured answer answers a valid
+  empty value of its real model, `[]` for a list (TEST-2).
+- `PostgresTestServer` (`erp_testing.postgres`): a PostgreSQL started once per session from the local PostgreSQL
+  binaries. The tests that need it are skipped, with the reason, where those binaries are missing.
+- `SyntheticCompanyContext` (`erp_testing.context`): a company context for a synthetic company and user, built on the
+  context library of `backend/shared/context`.
+- `LogCapture` (`erp_testing.logs`): captures what a test's code logs, so that a test can assert on it.
+- `CompanyBuilder` and `UserBuilder` (`erp_testing.synthetic`): build a company and a user seeded by sector and seed,
+  from `conf/catalogs/synthetic.yaml`. Their e-mail addresses are on a reserved test domain, never a real one.
+
+The library registers its pytest fixtures through `TestingPlugin` (`erp_testing.plugin`): `stand_in_server`,
+`postgres_server`, `synthetic_catalog`, `company_builder`, `user_builder`, `company_context` and `log_capture`. A
+service's `conftest.py` registers the plugin in three lines:
+
+```python
+from erp_testing.plugin import TestingPlugin
+
+
+def pytest_configure(config):
+    config.pluginmanager.register(TestingPlugin(), "erp_testing")
+```
+
+```mermaid
+flowchart LR
+    stand_in_server["stand_in_server"] --> StandInServer["StandInServer"]
+    postgres_server["postgres_server"] --> PostgresTestServer["PostgresTestServer"]
+    synthetic_catalog["synthetic_catalog"] --> CompanyBuilder["CompanyBuilder"]
+    company_builder["company_builder"] --> CompanyBuilder
+    user_builder["user_builder"] --> UserBuilder["UserBuilder"]
+    company_context["company_context"] --> SyntheticCompanyContext["SyntheticCompanyContext"]
+    log_capture["log_capture"] --> LogCapture["LogCapture"]
+```
+
+No mock library is used in any test, as [D426](../../specs/06-decisions/technical/d426-testing-strategy.md) requires:
+the tests use the real stand-ins above instead. A test of the library checks that no test imports a mock library. The
+layout of the library follows [D438](../../specs/06-decisions/technical/d438-repository-layout.md).
+
 ## Tests first
 
 In a ticket's plan, the `test-writer` agent writes the tests of a task before the implementers write its code, from
@@ -62,4 +105,4 @@ tests; anonymised copies only for the hosted support assistant's reproductions, 
 
 Decided in [D426](../../specs/06-decisions/technical/d426-testing-strategy.md).
 
-Last reviewed: 2026-11-27 (T0.12)
+Last reviewed: 2026-11-27 (T0.13)

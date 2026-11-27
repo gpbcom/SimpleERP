@@ -1,0 +1,30 @@
+$ uv run --all-packages pytest backend/shared/testing/tests -q -n 2
+(cwd ., on the ticket's own files only)
+
+bringing up nodes...
+bringing up nodes...
+
+........................................................................ [ 22%]
+........................................................................ [ 44%]
+........................................................................ [ 66%]
+...s......................................ss...........s................ [ 88%]
+.....................................                                    [100%]
+=============================== warnings summary ===============================
+tests/plugin/test_testing_plugin.py::TestTestingPlugin::test_the_synthetic_catalog_fixture_is_the_shipped_catalog
+  /tmp/erp-checks-ifdk7_zc/.venv/lib/python3.13/site-packages/_pytest/fixtures.py:1392: PytestRemovedIn10Warning: Session-scoped fixtures defined as instance methods are deprecated.
+  Instance attributes set in the 'synthetic_catalog' fixture will NOT be visible to test methods,
+  as each test gets a new instance while the fixture runs only once per class.
+  Use a @classmethod decorator below @pytest.fixture and set attributes on cls instead.
+  See https://docs.pytest.org/en/stable/deprecations.html#class-scoped-fixture-as-instance-method
+    fixturefunc = resolve_fixture_function(fixturedef, request)
+
+tests/plugin/test_testing_plugin.py::TestTestingPlugin::test_the_postgres_server_fixture_answers_pg_isready
+  /tmp/erp-checks-ifdk7_zc/.venv/lib/python3.13/site-packages/_pytest/fixtures.py:1392: PytestRemovedIn10Warning: Session-scoped fixtures defined as instance methods are deprecated.
+  Instance attributes set in the 'postgres_server' fixture will NOT be visible to test methods,
+  as each test gets a new instance while the fixture runs only once per class.
+  Use a @classmethod decorator below @pytest.fixture and set attributes on cls instead.
+  See https://docs.pytest.org/en/stable/deprecations.html#class-scoped-fixture-as-instance-method
+    fixturefunc = resolve_fixture_function(fixturedef, request)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+321 passed, 4 skipped, 2 warnings in 7.23s

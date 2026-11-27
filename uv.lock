@@ -12,6 +12,7 @@ members = [
     "erp-models",
     "erp-outbox",
     "erp-sdk",
+    "erp-testing",
     "platform",
     "simpleerp",
 ]
@@ -257,6 +258,29 @@ requires-dist = [
 name = "erp-sdk"
 version = "0.1.0"
 source = { virtual = "sdk" }
+
+[[package]]
+name = "erp-testing"
+version = "0.1.0"
+source = { editable = "backend/shared/testing" }
+dependencies = [
+    { name = "erp-context" },
+    { name = "erp-lifecycle" },
+    { name = "erp-models" },
+    { name = "pydantic" },
+    { name = "pytest" },
+    { name = "pyyaml" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "erp-context", editable = "backend/shared/context" },
+    { name = "erp-lifecycle", editable = "backend/shared/lifecycle" },
+    { name = "erp-models", editable = "backend/models" },
+    { name = "pydantic", specifier = ">=2.9" },
+    { name = "pytest", specifier = ">=8.4.0" },
+    { name = "pyyaml", specifier = ">=6.0" },
+]
 
 [[package]]
 name = "execnet"
