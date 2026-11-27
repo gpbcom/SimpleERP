@@ -36,13 +36,13 @@ def tree(root: Path, *folders: str) -> Path:
 
 
 def pytest_folders(commands: List[List[str]]) -> List[str]:
-    return [command[3] for command in commands if command[2] == "pytest"]
+    return [command[4] for command in commands if command[3:4] == ["pytest"]]
 
 
 class TestChecksPython:
     def test_pytest_runs_the_repository_tests_on_two_workers_as_ci_does(self, tmp_path: Path) -> None:
         commands, _ = python_run(tree(tmp_path), ["tests/a/test_a.py"])
-        assert ["uv", "run", "pytest", "tests", "-q", "-n", "2"] in commands
+        assert ["uv", "run", "--all-packages", "pytest", "tests", "-q", "-n", "2"] in commands
 
     def test_mypy_is_skipped_with_its_reason_when_no_source_folder_exists(self, tmp_path: Path) -> None:
         root = tmp_path / "empty"

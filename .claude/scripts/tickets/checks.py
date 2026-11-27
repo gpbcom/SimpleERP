@@ -254,7 +254,15 @@ def python_checks(checks: Checks, changed: List[str]) -> None:
     checks.check("ruff format", ["uv", "run", "ruff", "format", "--check", *files], files[0])
     sources = sorted(str(p.relative_to(root)) for pattern in MYPY_SOURCE_GLOBS for p in root.glob(pattern))
     if sources:
-        checks.check("mypy", ["uv", "run", "mypy", *sources], sources[0])
+        # Each source folder is a module root, as CI's check_python_project.sh gives each project (MYPYPATH): with
+        # explicit_package_bases and no mypy_path, mypy would also name a library's file after its path from the root
+        # (backend.shared.<lib>.src.erp_<lib>) and refuse it as found twice (TKT-6).
+        checks.check(
+            "mypy",
+            ["uv", "run", "--all-packages", "mypy", *sources],
+            sources[0],
+            env={"MYPYPATH": os.pathsep.join(sources)},
+        )
     else:
         checks.skip("mypy", f"not run, no source folder in the tree ({', '.join(MYPY_SOURCE_GLOBS)})")
     folders = test_folders(changed, root)
@@ -262,7 +270,7 @@ def python_checks(checks: Checks, changed: List[str]) -> None:
         checks.skip("pytest", "no test folder in the tree")
     for folder in folders:
         name = "pytest" if folder == "tests" else f"pytest {folder.removesuffix('/tests')}"
-        checks.check(name, ["uv", "run", "pytest", folder, "-q", "-n", "2"], folder)
+        checks.check(name, ["uv", "run", "--all-packages", "pytest", folder, "-q", "-n", "2"], folder)
 
 
 FRONT_END_PACKAGES = ("frontend/*/package.json", "frontend/portals/*/package.json", "frontend/packages/*/package.json")

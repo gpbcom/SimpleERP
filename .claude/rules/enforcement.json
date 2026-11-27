@@ -136,6 +136,16 @@
         "kind": "test",
         "path": "tests/harness/checks/test_checks_lfs.py",
         "what": "the clean worktree of the checks is made without running the LFS filter, and an LFS file stays a pointer there"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/checks/runs/test_checks_mypy_path.py",
+        "what": "mypy runs with every source folder it checks on MYPYPATH, and mypy and pytest with every workspace member installed (uv run --all-packages), as CI does"
+      },
+      {
+        "kind": "test",
+        "path": "tests/ci/workflows/checks/test_python_workflow.py",
+        "what": "CI installs every workspace member (uv sync --locked --all-packages) and package tests need no docstrings (ruff D off in **/tests/**)"
       }
     ],
     "TKT-7": [

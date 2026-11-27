@@ -184,7 +184,11 @@ never edit the same checkout; parallel tickets share one, but each commits only 
    changes**, never in the shared checkout: `uv` and `pnpm -r` read the whole workspace, and the other running
    tickets' work is half built by design (tests first, TKT-4), so it would fail this ticket. **The clean worktree is
    made with the Git LFS filter off**: its images are LFS pointers, because no check reads an image and downloading
-   the mock-ups of `docs/specs/` took minutes at every check round;
+   the mock-ups of `docs/specs/` took minutes at every check round. mypy runs with every source folder on `MYPYPATH`, as CI
+   gives each project its own, so that no file is found under two module names; mypy and pytest run with every
+   workspace member installed (`uv run --all-packages`), as CI installs them (`uv sync --locked --all-packages`), since the
+   workspace root is no package; and package tests, like the repository's, need no docstrings (ruff `D` off in
+   `**/tests/**`), as `AGENT.md` says;
 2. the **reviewer** approves the diff against `TICKET.md`, the specifications (citing the decisions `Dnnn` it applies)
    and the rules (`AGENT.md`, TKT), and returns a short review note, written to `REVIEW.md`;
 3. `EXPLAIN.md`, `IMPLEMENTATION.md` (TKT-14), `REVIEW.md` and `PROGRESS.md` are written, with the evidence in

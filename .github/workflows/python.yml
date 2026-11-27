@@ -45,7 +45,7 @@ jobs:
         with:
           enable-cache: true
       - name: Install the workspace
-        run: uv sync --locked
+        run: uv sync --locked --all-packages
       - name: Ruff, mypy and pytest
         id: check
         run: |
@@ -78,7 +78,7 @@ jobs:
         with:
           enable-cache: true
       - name: Install the workspace
-        run: uv sync --locked
+        run: uv sync --locked --all-packages
       - name: Ruff, mypy and pytest
         id: check
         run: |
@@ -106,7 +106,7 @@ jobs:
         with:
           enable-cache: true
       - name: Install the workspace
-        run: uv sync --locked
+        run: uv sync --locked --all-packages
       - name: Ruff check
         run: uv run ruff check .claude .github/scripts tests
       - name: Ruff format check
