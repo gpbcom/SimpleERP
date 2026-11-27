@@ -336,6 +336,11 @@
         "kind": "test",
         "path": "tests/harness/roadmap_gantt/test_roadmap_gantt_areas.py",
         "what": "every area is a folder of the D438 layout, a service or front end the graph names is known by its bare name, and a folder outside the layout locks every area"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/ticket_tree/test_ticket_tree_follow_develop.py",
+        "what": "follow-develop moves the shared branch to develop keeping the tickets' uncommitted work, merges a file both changed, changes nothing on a conflict or when the branch holds its own commits"
       }
     ],
     "TKT-17": [

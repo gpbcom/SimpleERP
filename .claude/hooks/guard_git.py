@@ -24,7 +24,9 @@ QUOTED = re.compile(r"'[^']*'|\"(?:[^\"\\]|\\.)*\"")
 TICKET_CONTEXT = re.compile(r"^(feature/tickets|feature/T\d+\.\d{2}|ticket/T\d+\.\d{2}|worktree-.*)$")
 APPROVE = re.compile(r"\btickets\.py\s+approve\b")
 RELEASE = re.compile(r"\bgh\s+workflow\s+run\s+release(?:\.yml)?\b")
-WRITES = re.compile(r"\bgit\s+(?:-C\s+\S+\s+|-c\s+\S+\s+)*(commit|merge|rebase|reset|stash|push|cherry-pick|revert)\b")
+WRITES = re.compile(
+    r"\bgit\s+(?:-C\s+\S+\s+|-c\s+\S+\s+)*(commit|merge|rebase|reset|stash|push|cherry-pick|revert)\b(?!-)"
+)
 PR_MERGE = re.compile(r"\bgh\s+pr\s+merge\b")
 NO_VERIFY = re.compile(r"\bgit\b[^|;&]*\s(--no-verify|commit\s+(?:[^|;&]*\s)?-n\b)")
 PROTECTED = ("develop", "master", "main")

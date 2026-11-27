@@ -114,3 +114,11 @@ class TestGuardHook:
         main = make_repo(tmp_path)
         git(main, "checkout", "-b", "feature/harness-gitflow")
         assert guard("git commit -m 'harness: gitflow'", main) == {}
+
+    @pytest.mark.parametrize(
+        "command", ["git merge-base --is-ancestor HEAD origin/develop", "git reset-ish-alias --help"]
+    )
+    def test_a_read_only_command_named_like_a_write_is_allowed(self, tmp_path: Path, command: str) -> None:
+        main = make_repo(tmp_path)
+        git(main, "checkout", "-b", "feature/tickets")
+        assert guard(command, main) == {}
