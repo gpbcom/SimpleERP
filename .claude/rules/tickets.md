@@ -52,6 +52,7 @@ agent graph of `.claude/agents/` and `.claude/workflows/`. They apply to the per
 | [TKT-24](#tkt-24) | Harness scripts run anywhere: a shallow CI checkout, no local develop, no GitHub |
 | [TKT-25](#tkt-25) | A branch lives as long as its work: only a live branch is rebased, the rest is deleted after a backup, and `master` is never rewritten |
 | [TKT-26](#tkt-26) | A release reaches `master` by itself, with its changelog, its release notes and its test reports |
+| [TKT-27](#tkt-27) | The harness cleans up after itself: every temporary file, folder and worktree goes when its run ends, even a killed one |
 
 ## <a id="tkt-1"></a>TKT-1: Roadmap tickets, one folder each
 
@@ -719,3 +720,27 @@ notes and test reports are whatever someone remembers to write.
 under bash with a stand-in `gh`: the merge into `master`, the tag, the way back, the token) and of
 `tests/ci/release_notes/` (version, changelog, release notes, test report, no release without reports) pass;
 `grep -n 'tkt-26' .claude/rules/tickets.md` finds the summary row and the heading.
+
+## <a id="tkt-27"></a>TKT-27: The harness cleans up after itself
+
+**Rule:**
+
+- Every temporary file, folder and worktree that a harness command or an agent makes is removed by the same run when
+  it ends, whether it passes, fails or stops. Nothing is left for the person to clean.
+- A run can be killed before its cleanup (a command timeout). What it leaves is removed by the next run of the same
+  command, before that run makes its own: `checks.py` names each clean tree after its process
+  (`erp-checks-<pid>-…`), removes every tree whose process is gone (or, named before this rule, untouched for an
+  hour), and prunes git's list of worktrees. A tree still in use by a running process is kept.
+- A clean tree that cannot be made or filled leaves no folder and no worktree behind.
+- Test tools keep their temporary files with the run that makes them: in a clean tree, pytest writes them beside the
+  tree (`--basetemp`), and they are removed with it, never left in `/tmp/pytest-of-<user>`.
+- An agent that makes a scratch worktree, branch or file for its own work removes it when that work is done; the
+  workers' worktrees go with their integration (TKT-25).
+
+**Why:** `/tmp` is a memory file system with a quota for each user. On 2026-11-28 the leftovers of the harness (the
+clean tree of a killed check run, 929 MB, and pytest's old folders, 954 MB) filled it, and two tickets stopped on
+checks that could not write their files.
+
+**Check:** the tests of `tests/harness/checks/test_checks_cleanup.py` pass (a killed run's tree is removed, a running
+one is kept, a tree that cannot be made leaves nothing, pytest's folder goes with the tree);
+`grep -n 'tkt-27' .claude/rules/tickets.md` finds the summary row and the heading.

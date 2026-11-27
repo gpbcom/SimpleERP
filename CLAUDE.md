@@ -55,6 +55,10 @@ the code, in `.claude/`.
   workflows in `.claude/workflows/`.
 - **Progress every 2 minutes** (TKT-9): when a ticket workflow starts, arm the Monitor tool with
   `python3 .claude/scripts/reports/progress.py watch --every 120 --run <run id>` and relay each report in full.
+- **Clean up after yourself** (TKT-27): every run removes the temporary files, folders and worktrees it makes,
+  even when it fails; `checks.py` removes what a killed run left before it makes its own clean tree, and pytest
+  keeps its temporary files with that tree. An agent removes its own scratch worktrees, branches and files when
+  its work is done.
 - **Rules that hold** (TKT-22 to TKT-24): every rule names its enforcers in `.claude/rules/enforcement.json`; "done"
   is defined once; harness scripts run in a shallow CI checkout. **A gap found in the harness is closed with the fix,
   a test that fails without it, and the rule with its enforcers.**

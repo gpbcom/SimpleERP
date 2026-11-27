@@ -592,6 +592,28 @@
         "path": "tests/ci/release_notes/test_release_notes.py",
         "what": "version, changelog, release notes, test report, no release without reports"
       }
+    ],
+    "TKT-27": [
+      {
+        "kind": "test",
+        "path": "tests/harness/checks/test_checks_cleanup.py",
+        "what": "a killed run's clean tree is removed by the next run, a running one is kept, a tree that cannot be made leaves no folder and no worktree, pytest's temporary folder goes with the tree"
+      },
+      {
+        "kind": "script",
+        "path": ".claude/scripts/tickets/checks.py",
+        "what": "names each clean tree after its process, sweeps the stale ones and prunes git's worktrees before each run, removes its own tree on every exit, keeps pytest's temporary files beside the tree"
+      },
+      {
+        "kind": "script",
+        "path": ".claude/scripts/tickets/ticket_tree.py",
+        "what": "integrate removes the workers' worktrees; its temporary worktrees and folders are removed in finally blocks"
+      },
+      {
+        "kind": "agent",
+        "path": ".claude/agents/verifier.md",
+        "what": "runs checks.py, which cleans up after itself, and leaves no file of its own outside tests-evidences/"
+      }
     ]
   }
 }
