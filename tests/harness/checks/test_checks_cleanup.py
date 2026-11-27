@@ -137,7 +137,13 @@ class TestChecksCleanup:
         assert command[command.index("--basetemp") + 1] == str(
             tmp_path / "erp-checks-123-abc-pytest" / "backend-models-tests"
         )
-        assert "--basetemp" not in call(f"print(json.dumps(checks.pytest_command('tests', Path({str(ROOT)!r}))))")  # type: ignore[operator]
+        # A checkout that is no clean tree keeps pytest's default. The repository's root is no example: the checks
+        # run these very tests inside a clean tree named erp-checks-<pid>-.
+        checkout = tmp_path / "checkout"
+        command = call(f"print(json.dumps(checks.pytest_command('tests', Path({str(checkout)!r}))))")
+        assert isinstance(command, list)
+        assert "--basetemp" not in command
+        assert not checkout.exists()
 
     def test_pytest_runs_with_the_temporary_folder_it_is_given_beside_the_clean_tree(self, tmp_path: Path) -> None:
         tree = tmp_path / "erp-checks-123-abc"
