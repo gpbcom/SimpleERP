@@ -37,6 +37,10 @@ class TestRepositoryLayout:
         ]
         return sorted(found)
 
+    def front_ends_with_an_image(self) -> List[str]:
+        """Return the front ends that hold a Dockerfile, which the detector lists as images."""
+        return [folder for folder in self.front_end_projects() if (self.ROOT / folder / "Dockerfile").is_file()]
+
     def test_the_python_workspace_members_are_listed_as_packages(self) -> None:
         result = run_detector(self.ROOT, [], "--all")
         assert result.returncode == 0, result.stderr
@@ -54,9 +58,9 @@ class TestRepositoryLayout:
         assert result.returncode == 0, result.stderr
         values = outputs(result)
         assert {"frontend/backoffice", "frontend/mobile"} <= set(json.loads(values[TYPESCRIPT_KEY]))
-        folders = [image["folder"] for image in json.loads(values[IMAGES_KEY])]
-        assert "frontend/backoffice" not in folders
-        assert "frontend/mobile" not in folders
+        folders = {image["folder"] for image in json.loads(values[IMAGES_KEY])}
+        front_ends = {"frontend/backoffice", "frontend/mobile"}
+        assert folders & front_ends == set(self.front_ends_with_an_image()) & front_ends
 
     def test_a_change_to_a_front_end_app_selects_only_that_app(self) -> None:
         result = run_detector(self.ROOT, ["frontend/mobile/README.md"])
@@ -83,5 +87,7 @@ class TestRepositoryLayout:
     def test_a_change_to_the_shared_front_end_packages_selects_every_front_end(self) -> None:
         result = run_detector(self.ROOT, ["frontend/packages/README.md"])
         assert result.returncode == 0, result.stderr
-        expected = {**nothing(), TYPESCRIPT_KEY: compact(self.front_end_projects())}
+        expected = {TYPESCRIPT_KEY: compact(self.front_end_projects())}
         assert self.selected(result, expected) == expected
+        images = {image["folder"] for image in json.loads(outputs(result)[IMAGES_KEY])}
+        assert images == set(self.front_ends_with_an_image())
