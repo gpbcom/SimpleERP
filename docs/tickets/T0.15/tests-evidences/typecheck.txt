@@ -1,0 +1,26 @@
+$ pnpm -r --if-present typecheck
+(cwd ., on the ticket's own files only)
+
+Scope: 6 of 7 workspace projects
+frontend/packages/config typecheck$ tsc --noEmit -p tsconfig.json
+frontend/packages/tokens typecheck$ tsc --noEmit
+frontend/packages/config typecheck: Done
+frontend/packages/tokens typecheck: Done
+frontend/packages/i18n typecheck$ vue-tsc --noEmit
+frontend/packages/ui typecheck$ pnpm --filter @simpleerp/tokens run build && vue-tsc --noEmit
+frontend/packages/ui typecheck: > @simpleerp/tokens@0.0.0 build /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens
+frontend/packages/ui typecheck: > tsx src/build/main.ts
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/tokens.css
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/tokens.ts
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/inter-latin-400-normal.woff2
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/LICENSE-inter
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/inter-latin-500-normal.woff2
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/inter-latin-600-normal.woff2
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/plus-jakarta-sans-latin-600-normal.woff2
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/LICENSE-plus-jakarta-sans
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/plus-jakarta-sans-latin-700-normal.woff2
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/plus-jakarta-sans-latin-800-normal.woff2
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/jetbrains-mono-latin-400-normal.woff2
+frontend/packages/ui typecheck: /tmp/erp-checks-fcx3zjo4/frontend/packages/tokens/dist/fonts/LICENSE-jetbrains-mono
+frontend/packages/i18n typecheck: Done
+frontend/packages/ui typecheck: Done
