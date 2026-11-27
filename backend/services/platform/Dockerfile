@@ -17,7 +17,11 @@ RUN uv sync --locked --no-dev --package platform --no-editable
 FROM python:3.13-slim AS runtime
 ENV PATH=/opt/venv/bin:$PATH \
     PYTHONUNBUFFERED=1
-RUN useradd --system --uid 10001 --no-create-home simpleerp
+RUN apt-get update \
+    && apt-get upgrade -y --no-install-recommends \
+    && rm -rf /var/lib/apt/lists/* \
+    && python -m pip uninstall -y pip \
+    && useradd --system --uid 10001 --no-create-home simpleerp
 COPY --from=build /opt/venv /opt/venv
 WORKDIR /app
 COPY backend/services/platform/conf/ conf/

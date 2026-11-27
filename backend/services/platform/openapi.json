@@ -1,0 +1,53 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FastAPI",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/v1/health": {
+      "get": {
+        "summary": "Get Health",
+        "description": "Answer the health check.\n\nReturns:\n    HealthStatus: The status given by the health service.",
+        "operationId": "get_health_v1_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthStatus"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HealthState": {
+        "type": "string",
+        "enum": [
+          "ok"
+        ],
+        "title": "HealthState",
+        "description": "The states a health answer can report.\n\nAttributes:\n    OK (str): The service is up and answering."
+      },
+      "HealthStatus": {
+        "properties": {
+          "status": {
+            "$ref": "#/components/schemas/HealthState",
+            "description": "The state of the service.",
+            "default": "ok"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "title": "HealthStatus",
+        "description": "The body of the health answer.\n\nAttributes:\n    status (HealthState): The state of the service."
+      }
+    }
+  }
+}

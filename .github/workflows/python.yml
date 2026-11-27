@@ -3,7 +3,8 @@ name: python
 # Step 2 of the pipeline for Python (AGENT.md, "CI/CD"): ruff, ruff format, mypy and pytest for each changed service
 # and shared package, and the repository tests (harness, conventions, CI scripts). Python comes from .python-version
 # and every dependency from uv.lock. Reusable only: ci.yml and release.yml call it. Every job keeps its JUnit reports
-# as a test-report-* artifact, failed runs included, for the release's test report (TKT-26).
+# as a test-report-* artifact, failed runs included, for the release's test report (TKT-26). A service that commits an
+# openapi.json also gets its contract check against the base commit (REQ-T05-05).
 
 on:
   workflow_call:
@@ -40,6 +41,7 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          fetch-depth: 0
           persist-credentials: false
       - uses: astral-sh/setup-uv@1db35dd8eee11c5894872e0b383ae6c406cf738d # v10.4.0
         with:
@@ -52,6 +54,10 @@ jobs:
           name="service-${FOLDER##*/}"
           echo "name=$name" >> "$GITHUB_OUTPUT"
           bash .github/scripts/check_python_project.sh "$FOLDER" "$name"
+      - name: Contract check
+        env:
+          CONTRACT_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: bash .github/scripts/check_contract.sh "$FOLDER" "$CONTRACT_BASE"
       - name: Keep the test reports (TKT-26)
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
