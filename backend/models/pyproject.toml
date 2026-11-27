@@ -5,7 +5,7 @@ description = "The shared Pydantic models of every SimpleERP public contract."
 readme = "README.md"
 license = "AGPL-3.0-only"
 requires-python = ">=3.13,<3.14"
-dependencies = []
+dependencies = ["pydantic>=2.9", "pyyaml>=6.0"]
 
 [build-system]
 requires = ["uv_build>=0.12.21,<0.13"]
@@ -13,3 +13,9 @@ build-backend = "uv_build"
 
 [tool.uv.build-backend]
 module-name = "erp_models"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "--strict-markers --timeout=300"
