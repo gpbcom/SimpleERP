@@ -30,3 +30,6 @@ class TestStructure:
 
     def test_no_any_annotation(self) -> None:
         assert not ConventionScanner(ROOT).any_imports()
+
+    def test_async_methods_come_after_the_sync_methods_of_their_section(self) -> None:
+        assert not ConventionScanner(ROOT).async_before_sync()

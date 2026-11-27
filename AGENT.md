@@ -140,6 +140,8 @@ Each step must pass before the next one starts:
 - A Pydantic model outside `src/models/`.
 - A class outside `src/models/` with `start` or `stop`, or with `run` but no lifecycle base class.
 - A node without `__call__`, or with `run`.
+- A sync method declared after an async method of the same banner section of its class. See
+  [File shape](#file-shape).
 
 ## File shape
 
@@ -180,6 +182,28 @@ whose section would be empty.
 ```
 
 `@property` and `@classmethod` constructors such as `load` are public, so they go under the second banner.
+
+**Async methods MUST always be declared after the sync methods**, within each banner section: the sync helpers, then
+the async helpers under "Internal Helpers Methods"; the sync public methods, then the async public methods under
+"Publicly Exposed Methods". A class with no banner, such as a test class, is one section.
+
+```python
+    ############################
+    # Internal Helpers Methods #
+    ############################
+
+    def _active_customers(self, customers: List[Customer]) -> List[Customer]: ...
+
+    async def _fetch_customers(self) -> List[Customer]: ...
+
+    ############################
+    # Publicly Exposed Methods #
+    ############################
+
+    def create(self, customer: Customer) -> Customer: ...
+
+    async def refresh(self) -> None: ...
+```
 
 A task graph node subclasses `TaskNode`, and its work is in `async def __call__(self, state)`, never a `run` method. The
 graph adds the instance itself: `graph.add_node(NodeName.CHECK.value, self.check)`. `__call__` goes under the second

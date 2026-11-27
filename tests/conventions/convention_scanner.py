@@ -3,12 +3,13 @@ from __future__ import annotations
 import ast
 from collections import Counter
 from pathlib import Path
-from typing import Iterator, List, Optional, Set, Tuple
+from typing import Dict, Iterator, List, Optional, Set, Tuple
 
 from tests.conventions.helpers import (
     ALLOWED_IMPORTS,
     FOLDER_LIMIT,
     FOLDER_LIMIT_IGNORES,
+    METHOD_BANNERS,
     RUNNABLE_BASES,
     SERVICE_SOURCE_GLOB,
     SHARED_MODELS_SOURCE,
@@ -78,6 +79,16 @@ class ConventionScanner:
 
     def _service_packages(self) -> Set[str]:
         return {package.name for source in self.root.glob(SERVICE_SOURCE_GLOB) for package in self._packages(source)}
+
+    def _banners(self, lines: List[str], owner: ast.ClassDef) -> List[Tuple[int, str]]:
+        """Return the line and the name of each method banner inside a class, in order."""
+        end = owner.end_lineno or owner.lineno
+        return [
+            (number, name)
+            for number in range(owner.lineno, end + 1)
+            for name in METHOD_BANNERS
+            if lines[number - 1].strip() == f"# {name} #"
+        ]
 
     ############################
     # Publicly Exposed Methods #
@@ -242,6 +253,31 @@ class ConventionScanner:
                     methods = {item.name for item in node.body if isinstance(item, ast.AsyncFunctionDef)}
                     if "__call__" not in methods or "run" in methods:
                         offenders.append(self.where(path, node))
+        return offenders
+
+    def async_before_sync(self) -> List[str]:
+        """Sync methods declared after an async method of the same banner section of their class.
+
+        A class with no banner, such as a test class, is one section.
+        """
+        offenders: List[str] = []
+        for path, tree in self.all_trees():
+            lines = path.read_text(encoding="utf-8").splitlines()
+            for owner in ast.walk(tree):
+                if not isinstance(owner, ast.ClassDef):
+                    continue
+                banners = self._banners(lines, owner)
+                last_async: Dict[str, str] = {}
+                for item in owner.body:
+                    if not isinstance(item, (ast.FunctionDef, ast.AsyncFunctionDef)):
+                        continue
+                    section = next((name for line, name in reversed(banners) if line < item.lineno), "")
+                    if isinstance(item, ast.AsyncFunctionDef):
+                        last_async[section] = item.name
+                    elif section in last_async:
+                        where = f" in {section}" if section else ""
+                        method = f"{owner.name}.{item.name}"
+                        offenders.append(f"{self.where(path, item)} {method} after async {last_async[section]}{where}")
         return offenders
 
     def models_outside_models(self) -> List[str]:
