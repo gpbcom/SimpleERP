@@ -107,6 +107,9 @@ The Python rules in this file apply to `backend/`, `plugins/` and `sdk/`. They d
 
 - Vue 3 with TypeScript and Vite, Pinia for state, and the components of `frontend/packages/` built on the design
   system's tokens ([D407](docs/specs/06-decisions/technical/d407-front-end.md)).
+- **Every npm package uses the `@simpleerp` scope**, apps and shared packages alike: `@simpleerp/backoffice`,
+  `@simpleerp/config`, `@simpleerp/tokens`, `@simpleerp/ui`, `@simpleerp/api-client`. Never `@simple-erp` or another
+  scope.
 - Each screen follows its screen page and its HTML mock-ups in `docs/specs/`.
 - Front-end tests use Playwright, and live in the app's `e2e/` folder: `frontend/backoffice/e2e/`,
   `frontend/portals/<portal>/e2e/`, `frontend/mobile/e2e/`.
@@ -142,6 +145,7 @@ Each step must pass before the next one starts:
 - A node without `__call__`, or with `run`.
 - A sync method declared after an async method of the same banner section of its class. See
   [File shape](#file-shape).
+- A `package.json` under `frontend/` whose package name is not in the `@simpleerp` scope, outside `node_modules`.
 
 ## File shape
 

@@ -33,3 +33,6 @@ class TestStructure:
 
     def test_async_methods_come_after_the_sync_methods_of_their_section(self) -> None:
         assert not ConventionScanner(ROOT).async_before_sync()
+
+    def test_every_npm_package_uses_the_simpleerp_scope(self) -> None:
+        assert not ConventionScanner(ROOT).npm_scope_offenders()
