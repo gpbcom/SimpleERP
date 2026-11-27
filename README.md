@@ -191,7 +191,7 @@ The repository layout is in [Project structure](#-project-structure).
 |---|---|---|
 | [Docker](https://docs.docker.com/) with Compose | recent | running SimpleERP; the laptop profile fits in 8 GB of RAM ([REQ-T09-03](docs/specs/03-technical/t09-install-backups-and-updates/requirements/req-t09-03-laptop-profile.md)) |
 | [uv](https://docs.astral.sh/uv/) | recent | the Python 3.13 workspace (see [`.python-version`](.python-version)) |
-| [Node.js](https://nodejs.org/) with [pnpm](https://pnpm.io/) | recent | the front-end workspace |
+| [Node.js](https://nodejs.org/) 22 with [pnpm](https://pnpm.io/) | 22; pnpm at the version that `packageManager` pins in [`package.json`](package.json) | the front-end workspace |
 | [Git](https://git-scm.com/) | recent | the GitFlow hooks of the repository |
 
 <a id="run-it"></a>
@@ -217,8 +217,8 @@ On a server, the same images run with Docker Compose; on a cluster, with Helm.
 ```bash
 git clone https://github.com/gpbcom/SimpleERP.git
 cd SimpleERP
-uv sync                                            # Python 3.13 workspace, one uv.lock
-pnpm install                                       # front-end workspace, once frontend/ exists
+uv sync --locked                                   # Python 3.13 workspace, installed from uv.lock
+pnpm install --frozen-lockfile                     # front-end workspace, installed from pnpm-lock.yaml
 uv run pytest tests -n 2                           # the repository-level tests
 python3 .claude/scripts/tickets/tickets.py setup   # the GitFlow git hooks, once per clone
 ```
@@ -300,7 +300,8 @@ The commands a maintainer uses, from Claude Code in the main checkout:
 
 The layout decided in [D438](docs/specs/06-decisions/technical/d438-repository-layout.md)
 ([Repository layout](docs/technical/architecture/repository-layout.md)). The first tickets of phase P0 create it; today
-the repository holds the specifications, the documentation and the harness.
+every folder of the tree exists, with a README saying what it holds. The services, libraries, plugins, packages and
+portals are added by the tickets that build them.
 
 ```text
 SimpleERP/

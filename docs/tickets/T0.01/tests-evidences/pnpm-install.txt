@@ -1,0 +1,7 @@
+$ pnpm install --frozen-lockfile
+(cwd ., on the ticket's own files only)
+
+Scope: all 3 workspace projects
+Already up to date
+
+Done in 96ms using pnpm v10.34.9

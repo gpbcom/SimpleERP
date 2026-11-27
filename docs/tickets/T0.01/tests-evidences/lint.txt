@@ -1,0 +1,4 @@
+$ pnpm -r --if-present lint
+(cwd ., on the ticket's own files only)
+
+Scope: 2 of 3 workspace projects

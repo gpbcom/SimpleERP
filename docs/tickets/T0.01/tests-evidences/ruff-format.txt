@@ -1,0 +1,4 @@
+$ uv run ruff format --check backend/models/src/erp_models/__init__.py tests/ci/detect_changes/test_repository_layout.py tests/layout/test_folder_readmes.py tests/layout/test_pnpm_workspace.py tests/layout/test_readme_quick_start.py tests/layout/test_uv_workspace.py
+(cwd ., on the ticket's own files only)
+
+6 files already formatted

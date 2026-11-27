@@ -8,8 +8,8 @@ requires-python = ">=3.13,<3.14"
 dependencies = []
 
 [tool.uv]
-# The root is the workspace, not a package: each service, the shared models and the shared libraries are members
-# (D438), added by the tickets that create them.
+# The root is the workspace, not a package: each service, the shared models, the SDK and the shared libraries are members
+# (D438); `backend/models` and `sdk` exist, the others are added by the tickets that create them.
 package = false
 
 [tool.uv.workspace]
