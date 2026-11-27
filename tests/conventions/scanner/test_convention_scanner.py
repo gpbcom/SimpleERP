@@ -18,6 +18,14 @@ CLEAN_SERVICE: Dict[str, str] = {
 }
 
 
+HELPERS = "    ############################\n    # Internal Helpers Methods #\n    ############################\n\n"
+PUBLIC = "    ############################\n    # Publicly Exposed Methods #\n    ############################\n\n"
+SYNC_HELPER = "    def _a(self) -> None: ...\n\n"
+ASYNC_HELPER = "    async def _b(self) -> None: ...\n\n"
+SYNC_PUBLIC = "    def c(self) -> None: ...\n\n"
+ASYNC_PUBLIC = "    async def d(self) -> None: ...\n\n"
+
+
 def write(root: Path, files: Dict[str, str]) -> ConventionScanner:
     for name, text in {**CLEAN_SERVICE, **files}.items():
         (root / name).parent.mkdir(parents=True, exist_ok=True)
@@ -41,6 +49,7 @@ class TestConventionScanner:
         "lifecycle_offenders",
         "node_offenders",
         "models_outside_models",
+        "async_before_sync",
     )
 
     @pytest.mark.parametrize("rule", RULES)
@@ -81,10 +90,27 @@ class TestConventionScanner:
             ("node_offenders", f"{SERVICE}/service/a.py", "class CheckNode:\n    async def run(self) -> None: ...\n"),
             ("models_outside_models", f"{SERVICE}/api/a.py", "class A(BaseModel): ...\n"),
             ("models_outside_models", "backend/shared/x/src/erp_x/a.py", "class A(BaseModel): ...\n"),
+            ("async_before_sync", f"{SERVICE}/service/a.py", f"class A:\n{HELPERS}{ASYNC_HELPER}{SYNC_HELPER}"),
+            ("async_before_sync", f"{SERVICE}/service/a.py", f"class A:\n{PUBLIC}{ASYNC_PUBLIC}{SYNC_PUBLIC}"),
+            ("async_before_sync", "tests/test_a.py", f"class TestA:\n{ASYNC_PUBLIC}{SYNC_PUBLIC}"),
         ],
     )
     def test_each_rule_catches_its_violation(self, tmp_path: Path, rule: str, name: str, text: str) -> None:
         assert getattr(write(tmp_path, {name: text}), rule)()
+
+    def test_async_methods_after_the_sync_ones_of_each_section_pass(self, tmp_path: Path) -> None:
+        text = (
+            "class A:\n    def __init__(self) -> None: ...\n\n"
+            f"{HELPERS}{SYNC_HELPER}{ASYNC_HELPER}{PUBLIC}{SYNC_PUBLIC}    @property\n"
+            f"    def e(self) -> int: ...\n\n{ASYNC_PUBLIC}"
+        )
+        assert write(tmp_path, {f"{SERVICE}/service/a.py": text}).async_before_sync() == []
+
+    def test_the_offender_names_the_sync_method_and_its_section(self, tmp_path: Path) -> None:
+        text = f"class A:\n{HELPERS}{SYNC_HELPER}{ASYNC_HELPER}{PUBLIC}{ASYNC_PUBLIC}{SYNC_PUBLIC}"
+        assert write(tmp_path, {f"{SERVICE}/service/a.py": text}).async_before_sync() == [
+            f"{SERVICE}/service/a.py:16 A.c after async d in Publicly Exposed Methods"
+        ]
 
     def test_a_sixth_file_in_a_folder_is_caught(self, tmp_path: Path) -> None:
         files = {f"backend/services/sales/tests/service/test_{n}.py": "" for n in range(6)}

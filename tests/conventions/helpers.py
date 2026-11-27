@@ -36,5 +36,7 @@ ALLOWED_IMPORTS: Dict[str, FrozenSet[str]] = {
 # Names a third-party protocol owns, which may start with an underscore.
 THIRD_PARTY_ATTRIBUTES: FrozenSet[str] = frozenset()
 RUNNABLE_BASES = {"Runnable", "AsyncRunnable", "Command"}
+# The two method banners of a class (AGENT.md, "File shape"); async methods follow the sync ones within each.
+METHOD_BANNERS: Tuple[str, ...] = ("Internal Helpers Methods", "Publicly Exposed Methods")
 FOLDER_LIMIT = 5
 FOLDER_LIMIT_IGNORES = {"__init__.py", "conftest.py"}

@@ -2,6 +2,13 @@
 
 @AGENT.md
 
+## Class layout
+
+- **Async methods MUST always be declared after the sync methods**, within each banner section of a class: under
+  "Internal Helpers Methods", the sync helpers then the async helpers; under "Publicly Exposed Methods", the sync
+  public methods then the async ones (`AGENT.md`, "File shape"). `tests/conventions/` fails on a sync method declared
+  after an async one of the same section.
+
 ## The harness
 
 SimpleERP is an open-source, self-hosted, AI-native ERP (see `README.md`). Its Claude Code harness is versioned with
