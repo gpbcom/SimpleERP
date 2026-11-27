@@ -1,0 +1,8 @@
+$ pnpm -r --if-present typecheck
+(cwd ., on the ticket's own files only)
+
+Scope: 4 of 5 workspace projects
+frontend/packages/config typecheck$ tsc --noEmit -p tsconfig.json
+frontend/packages/tokens typecheck$ tsc --noEmit
+frontend/packages/config typecheck: Done
+frontend/packages/tokens typecheck: Done

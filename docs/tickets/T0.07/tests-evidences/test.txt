@@ -1,0 +1,18 @@
+$ pnpm -r --if-present test
+(cwd ., on the ticket's own files only)
+
+Scope: 4 of 5 workspace projects
+frontend/packages/config test$ vitest run
+frontend/packages/tokens test$ vitest run
+frontend/packages/tokens test:  RUN  v5.1.2 /tmp/erp-checks-gf7y8uxh/frontend/packages/tokens
+frontend/packages/config test:  RUN  v5.1.2 /tmp/erp-checks-gf7y8uxh/frontend/packages/config
+frontend/packages/config test:  Test Files  2 passed (2)
+frontend/packages/config test:       Tests  7 passed (7)
+frontend/packages/config test:    Start at  19:55:26
+frontend/packages/config test:    Duration  953ms (tests 49%, import 45%, transform 6%, worker 1%)
+frontend/packages/config test: Done
+frontend/packages/tokens test:  Test Files  8 passed (8)
+frontend/packages/tokens test:       Tests  255 passed (255)
+frontend/packages/tokens test:    Start at  19:55:26
+frontend/packages/tokens test:    Duration  1.27s (tests 35%, transform 35%, import 29%, worker 1%)
+frontend/packages/tokens test: Done
