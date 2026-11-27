@@ -14,6 +14,9 @@ POINTER = "version https://git-lfs.github.com/spec/v1\noid sha256:0\nsize 1\n"
 def repository_with_an_lfs_image(tmp_path: Path) -> Path:
     """Return two tickets at work in a repository whose PNG files go through an LFS filter that always fails."""
     repo = two_tickets_at_work(tmp_path, ["backend/services/mine/", f"docs/tickets/{TICKET}/"])
+    # A machine with git-lfs installed (CI) would turn the pointer into a new one on ``git add``: store it as it is.
+    git(repo, "config", "filter.lfs.clean", "cat")
+    git(repo, "config", "filter.lfs.process", "")
     (repo / ".gitattributes").write_text("*.png filter=lfs diff=lfs merge=lfs -text\n", encoding="utf-8")
     (repo / "docs" / "image.png").parent.mkdir(parents=True, exist_ok=True)
     (repo / "docs" / "image.png").write_text(POINTER, encoding="utf-8")
