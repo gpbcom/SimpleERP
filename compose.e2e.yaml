@@ -1,0 +1,55 @@
+# Throwaway stack of the real images, started by images.yml (job e2e) and stage.yml with
+# `docker compose -f compose.e2e.yaml up --detach --wait`. Only ERP_IMAGE_PREFIX and ERP_IMAGE_TAG are required.
+name: simpleerp-e2e
+
+services:
+  postgres:
+    image: postgres:18-alpine@sha256:0115267ab5a509022df9319c77be365cef335adb71556c75f60f5360ee247e71
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_DB: simpleerp
+      POSTGRES_USER: simpleerp
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U simpleerp -d simpleerp"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+  platform:
+    image: ${ERP_IMAGE_PREFIX}-platform:${ERP_IMAGE_TAG}
+    build:
+      context: .
+      dockerfile: backend/services/platform/Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "${ERP_PLATFORM_PORT:-8000}:8000"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/v1/health', timeout=3)
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  backoffice:
+    image: ${ERP_IMAGE_PREFIX}-backoffice:${ERP_IMAGE_TAG}
+    build:
+      context: .
+      dockerfile: frontend/backoffice/Dockerfile
+    depends_on:
+      platform:
+        condition: service_healthy
+    ports:
+      - "${ERP_BACKOFFICE_PORT:-8080}:8080"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8080/"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s

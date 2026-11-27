@@ -82,8 +82,16 @@ gh workflow run stage.yml --ref <branch> -f stage=qa -f ref=<commit>
 QA runs the slow, release-grade checks once per candidate. Both follow GitFlow: `develop` goes to dev, `release/*` to
 QA, and a tag on `master` makes the release.
 
-Until the first service has a Dockerfile and `compose.e2e.yaml` exists, a stage run is the repository's tests on the
-commit.
+`compose.e2e.yaml` at the repository root is the stack every stage and the end-to-end tests start. It runs `platform`,
+`backoffice` and PostgreSQL from the images named `${ERP_IMAGE_PREFIX}-<name>:${ERP_IMAGE_TAG}`, waits for every health
+check to pass, publishes the back office and the API for Playwright and Bruno, and keeps the database private to the
+stack. To start it locally, set the two variables and run the command:
+
+```bash
+ERP_IMAGE_PREFIX=ghcr.io/gpbcom/simpleerp ERP_IMAGE_TAG=<tag> docker compose -f compose.e2e.yaml up --detach --wait
+```
+
+It runs the same images as the Compose profiles of `infra/compose/`.
 
 ## Releases
 
@@ -117,4 +125,4 @@ QA stages stay ephemeral runs on runners (`stage.yml`); a long-lived staging and
 
 Decided in [D419](../../specs/06-decisions/technical/d419-ci-cd-and-registry.md).
 
-Last reviewed: 2026-11-27
+Last reviewed: 2026-11-28

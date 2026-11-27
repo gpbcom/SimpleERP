@@ -1,0 +1,61 @@
+# One company on one server, with one command:
+#   ERP_IMAGE_TAG=<commit sha> docker compose -f infra/compose/compose.yaml up -d --wait
+# Before the first start, create the PostgreSQL password file:
+#   mkdir -p infra/compose/secrets && openssl rand -base64 24 > infra/compose/secrets/postgres_password
+name: simpleerp
+
+services:
+  postgres:
+    image: postgres:18-alpine@sha256:0115267ab5a509022df9319c77be365cef335adb71556c75f60f5360ee247e71
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: simpleerp
+      POSTGRES_USER: simpleerp
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_password
+    secrets:
+      - postgres_password
+    volumes:
+      - postgres-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U simpleerp -d simpleerp"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  platform:
+    image: ${ERP_IMAGE_PREFIX:-ghcr.io/gpbcom/simpleerp}-platform:${ERP_IMAGE_TAG:?Set ERP_IMAGE_TAG to the commit SHA of the images to install.}
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "${ERP_PLATFORM_PORT:-8000}:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/v1/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+  backoffice:
+    image: ${ERP_IMAGE_PREFIX:-ghcr.io/gpbcom/simpleerp}-backoffice:${ERP_IMAGE_TAG:?Set ERP_IMAGE_TAG to the commit SHA of the images to install.}
+    restart: unless-stopped
+    depends_on:
+      platform:
+        condition: service_healthy
+    ports:
+      - "${ERP_BACKOFFICE_PORT:-8080}:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1:8080/ || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 5s
+
+secrets:
+  postgres_password:
+    file: ./secrets/postgres_password
+
+volumes:
+  postgres-data:
