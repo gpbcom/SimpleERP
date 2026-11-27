@@ -453,6 +453,10 @@ the same code, so their pull requests merge without conflicts.
 - Every ticket sits in one column: 📥 Backlog (a prerequisite is open), ✅ Ready, 📝 Planned (`/ticket-plan`),
   🔄 Running (`/ticket-run`), 👀 In review (pull request open), 🏁 Done (merged). The workflows move the card;
   `board.py sync` recomputes every column from the repository.
+- **Moving a card never changes a tracked file.** `.claude/github.json` records only what exists on GitHub (the
+  project, the issues, the links, the milestones, the cards' ids); each card's column and the closed issues change at
+  every run, so they live in the local cache `.git/erp/board-items.json`. Otherwise every run would leave the tracked
+  state changed, and `ticket_tree.py prepare` would refuse to start the next ticket.
 - **The board follows the specifications.** Whenever the roadmap pages, the ticket graph or the specifications they
   cite change on `develop`, `python3 .claude/scripts/github/board.py refresh` is run (`--dry-run` first): it creates
   the new issues and links, and updates every issue whose title, body or roadmap labels differ from the pages, and

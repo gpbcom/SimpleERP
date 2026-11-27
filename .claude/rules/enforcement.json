@@ -353,6 +353,11 @@
         "kind": "test",
         "path": "tests/harness/board/test_board_refresh.py",
         "what": "refresh updates only the issues whose text or roadmap labels changed"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/board/test_board_move.py",
+        "what": "a card move leaves .claude/github.json unchanged, keeps its column in the local cache, and reads a column an older tracked state still holds"
       }
     ],
     "TKT-18": [
