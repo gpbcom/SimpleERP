@@ -1,0 +1,12 @@
+$ uv run ruff check backend/shared/lifecycle/src/erp_lifecycle/__init__.py backend/shared/lifecycle/src/erp_lifecycle/factories/__init__.py backend/shared/lifecycle/src/erp_lifecycle/factories/runnable_factory.py backend/shared/lifecycle/src/erp_lifecycle/runnables/__init__.py backend/shared/lifecycle/src/erp_lifecycle/runnables/async_runnable.py backend/shared/lifecycle/src/erp_lifecycle/runnables/runnable.py backend/shared/lifecycle/tests/factories/stand_in_runnable.py backend/shared/lifecycle/tests/factories/stand_in_runnable_factory.py backend/shared/lifecycle/tests/factories/test_runnable_factory.py backend/shared/lifecycle/tests/runnables/recording_async_runnable.py backend/shared/lifecycle/tests/runnables/recording_runnable.py backend/shared/lifecycle/tests/runnables/test_async_runnable.py backend/shared/lifecycle/tests/runnables/test_runnable.py tests/conventions/scanner/test_convention_scanner.py
+(cwd ., on the ticket's own files only)
+
+All checks passed!
+Using CPython 3.13.15
+Creating virtual environment at: .venv
+   Building erp-lifecycle @ file:///tmp/erp-checks-nubnuxyt/backend/shared/lifecycle
+      Built erp-lifecycle @ file:///tmp/erp-checks-nubnuxyt/backend/shared/lifecycle
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 23 packages in 241ms

@@ -7,6 +7,8 @@ target is built yet.
 
 The back end today is the Python 3.13 code under `src/`, described in [Architecture](architecture.md).
 
+Ticket T0.05 builds the first shared library, `backend/shared/lifecycle` (package `erp_lifecycle`): the `Runnable` and `AsyncRunnable` base classes with `initialize()`, `run()`, `close()` and `execute()`, which always closes, and the abstract `RunnableFactory` that every concrete factory subclasses, as set by [D406](../../specs/06-decisions/technical/d406-back-end.md) and [AGENT.md](../../../AGENT.md#lifecycle-and-factories) ("Lifecycle and factories").
+
 ## Target design (specified in GH-2, not built yet)
 
 **Language and framework (D406).** Python 3.13 with uv, Pydantic models and the api → service → storage layers
@@ -34,4 +36,4 @@ effects stay at the edges.
 
 Decided in [D406](../../specs/06-decisions/technical/d406-back-end.md).
 
-Last reviewed: 2026-11-12 (GH-2)
+Last reviewed: 2026-11-27 (T0.05, GH-2)

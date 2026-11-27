@@ -88,6 +88,7 @@ class TestConventionScanner:
             ("services_missing_layers", "backend/services/stock/src/erp_stock/api/a.py", ""),
             ("lifecycle_offenders", f"{SERVICE}/service/a.py", "class A:\n    def run(self) -> None: ...\n"),
             ("lifecycle_offenders", "backend/shared/x/src/erp_x/a.py", "class A:\n    def start(self) -> None: ...\n"),
+            ("lifecycle_offenders", f"{SERVICE}/service/a.py", "class A:\n    async def run(self) -> None: ...\n"),
             ("node_offenders", f"{SERVICE}/service/a.py", "class CheckNode:\n    async def run(self) -> None: ...\n"),
             ("models_outside_models", f"{SERVICE}/api/a.py", "class A(BaseModel): ...\n"),
             ("models_outside_models", "backend/shared/x/src/erp_x/a.py", "class A(BaseModel): ...\n"),
@@ -142,6 +143,17 @@ class TestConventionScanner:
             (f"{SERVICE}/models/quote.py", "class Quote(BaseModel): ...\n"),
             ("backend/models/src/erp_models/sales/quote.py", "class Quote(BaseModel): ...\n"),
             ("backend/shared/x/src/erp_x/runner.py", "class Job(Runnable):\n    def run(self) -> None: ...\n"),
+            (
+                "backend/shared/x/src/erp_x/async_runner.py",
+                "class Job(AsyncRunnable):\n    async def run(self) -> None: ...\n",
+            ),
+            (
+                f"{SERVICE}/service/a.py",
+                "from erp_lifecycle.runnables.runnable import Runnable\n"
+                "from erp_lifecycle.runnables.async_runnable import AsyncRunnable\n\n"
+                "class A(Runnable):\n    def run(self) -> None: ...\n\n"
+                "class B(AsyncRunnable):\n    async def run(self) -> None: ...\n",
+            ),
         ],
     )
     def test_what_the_layout_allows_passes(self, tmp_path: Path, name: str, text: str) -> None:
