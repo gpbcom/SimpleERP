@@ -23,6 +23,7 @@ class TestWorkflowSecurity:
         "automerge.yml",
         "ci.yml",
         "gitflow.yml",
+        "helm.yml",
         "images.yml",
         "python.yml",
         "release.yml",

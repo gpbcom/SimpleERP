@@ -2,7 +2,7 @@ name: release
 
 # TKT-26: a release reaches master by itself, with its changelog, release notes and test reports. Started on develop
 # (/release, or `gh workflow run release.yml --ref develop [-f version=x.y.z]`), it runs every suite of CI on that
-# commit with everything selected, writes CHANGELOG.md, docs/releases/v<version>/ (RELEASE_NOTES.md, TEST_REPORT.md and
+# commit with everything selected (Python, TypeScript, Terraform and Helm), writes CHANGELOG.md, docs/releases/v<version>/ (RELEASE_NOTES.md, TEST_REPORT.md and
 # the raw reports) on release/<version>, and opens the pull request to master labelled automerge. automerge.yml merges
 # it once every check passed, tags v<version>, publishes the GitHub release and brings the release back to develop.
 # Nobody commits by hand. RELEASE_TOKEN (a fine-grained token of this repository with contents, pull requests and
@@ -67,6 +67,7 @@ jobs:
       packages: ${{ steps.detect.outputs.packages }}
       typescript: ${{ steps.detect.outputs.typescript }}
       terraform: ${{ steps.detect.outputs.terraform }}
+      helm: ${{ steps.detect.outputs.helm }}
       repository: ${{ steps.detect.outputs.repository }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -101,8 +102,13 @@ jobs:
     with:
       folders: ${{ needs.changes.outputs.terraform }}
 
+  helm:
+    needs: changes
+    if: needs.changes.outputs.helm == 'true'
+    uses: ./.github/workflows/helm.yml
+
   prepare:
-    needs: [version, changes, python, typescript, terraform]
+    needs: [version, changes, python, typescript, terraform, helm]
     if: >-
       always() && needs.version.result == 'success' && needs.changes.result == 'success'
       && !contains(needs.*.result, 'failure') && !contains(needs.*.result, 'cancelled')

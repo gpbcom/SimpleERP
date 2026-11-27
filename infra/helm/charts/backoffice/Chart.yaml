@@ -1,0 +1,6 @@
+apiVersion: v2
+name: backoffice
+description: The SimpleERP back-office web app, served by its own image.
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

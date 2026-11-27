@@ -1,0 +1,6 @@
+apiVersion: v2
+name: platform
+description: The SimpleERP platform service, one Deployment and one ClusterIP Service.
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

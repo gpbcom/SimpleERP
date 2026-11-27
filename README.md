@@ -210,6 +210,12 @@ docker compose -f infra/compose/<profile>.yaml up -d   # available from phase P0
 
 On a server, the same images run with Docker Compose; on a cluster, with Helm.
 
+```bash
+helm install simpleerp infra/helm --namespace simpleerp --create-namespace --set global.image.tag=<commit SHA>
+```
+
+The Helm chart and its check are described in [`infra/helm/README.md`](infra/helm/README.md).
+
 <a id="development-setup"></a>
 
 ### 📥 Development setup

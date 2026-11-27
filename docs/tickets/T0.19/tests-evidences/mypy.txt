@@ -1,0 +1,18 @@
+$ uv run --all-packages mypy backend/models/src backend/services/platform/src backend/shared/config/src backend/shared/context/src backend/shared/country-rules/src backend/shared/lifecycle/src backend/shared/logging/src backend/shared/outbox/src
+(cwd ., on the ticket's own files only)
+
+Success: no issues found in 307 source files
+   Building erp-context @ file:///tmp/erp-checks-9dv5am0j/backend/shared/context
+   Building erp-country-rules @ file:///tmp/erp-checks-9dv5am0j/backend/shared/country-rules
+   Building erp-models @ file:///tmp/erp-checks-9dv5am0j/backend/models
+   Building erp-outbox @ file:///tmp/erp-checks-9dv5am0j/backend/shared/outbox
+   Building platform @ file:///tmp/erp-checks-9dv5am0j/backend/services/platform
+      Built erp-country-rules @ file:///tmp/erp-checks-9dv5am0j/backend/shared/country-rules
+      Built erp-outbox @ file:///tmp/erp-checks-9dv5am0j/backend/shared/outbox
+      Built erp-context @ file:///tmp/erp-checks-9dv5am0j/backend/shared/context
+      Built erp-models @ file:///tmp/erp-checks-9dv5am0j/backend/models
+      Built platform @ file:///tmp/erp-checks-9dv5am0j/backend/services/platform
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 17 packages in 16ms

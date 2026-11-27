@@ -13,7 +13,16 @@ TYPESCRIPT_KEY = "typescript"
 REPOSITORY_KEY = "repository"
 IMAGES_KEY = "images"
 TERRAFORM_KEY = "terraform"
-KEYS = [SERVICES_KEY, PACKAGES_KEY, TYPESCRIPT_KEY, REPOSITORY_KEY, IMAGES_KEY, TERRAFORM_KEY]
+HELM_KEY = "helm"
+KEYS = [
+    SERVICES_KEY,
+    PACKAGES_KEY,
+    TYPESCRIPT_KEY,
+    REPOSITORY_KEY,
+    IMAGES_KEY,
+    TERRAFORM_KEY,
+    HELM_KEY,
+]
 SALES = "backend/services/sales"
 STOCK = "backend/services/stock"
 BACKOFFICE = "frontend/backoffice"
@@ -58,6 +67,7 @@ REPO_FILES: Dict[str, str] = {
     "infra/terraform/ovhcloud/tests/ovhcloud.tftest.hcl": "# test\n",
     "infra/terraform/ovhcloud/.terraform/modules/x/main.tf": "# cache\n",
     "infra/terraform/README.md": "Terraform.\n",
+    "infra/helm/Chart.yaml": "apiVersion: v2\nname: simpleerp\nversion: 0.1.0\n",
 }
 
 
@@ -98,6 +108,7 @@ def nothing() -> Dict[str, str]:
         REPOSITORY_KEY: "false",
         IMAGES_KEY: "[]",
         TERRAFORM_KEY: "[]",
+        HELM_KEY: "false",
     }
 
 
@@ -109,6 +120,7 @@ def everything() -> Dict[str, str]:
         REPOSITORY_KEY: "true",
         IMAGES_KEY: compact(sorted(ALL_IMAGES, key=lambda image: image["folder"])),
         TERRAFORM_KEY: compact(ALL_TERRAFORM),
+        HELM_KEY: "true",
     }
 
 

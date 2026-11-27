@@ -1,0 +1,52 @@
+global:
+  image:
+    # Registry path shared by every SimpleERP image.
+    prefix: ghcr.io/gpbcom/simpleerp
+    # Image tag, the commit SHA the images were published under. Empty means the chart appVersion.
+    tag: ""
+    # When Kubernetes pulls the image.
+    pullPolicy: IfNotPresent
+
+# Whether the umbrella chart installs this chart.
+enabled: true
+
+image:
+  # Image name, appended to the registry path after a dash.
+  name: backoffice
+
+# Number of pods.
+replicaCount: 1
+
+# Port the nginx of the back-office image listens on (EXPOSE 8080 in frontend/backoffice/Dockerfile).
+containerPort: 8080
+
+service:
+  # Kubernetes Service type, kept private to the cluster.
+  type: ClusterIP
+  # Port the Service listens on.
+  port: 8080
+
+probe:
+  # Path that answers once the app is served.
+  path: /
+
+# Environment variables of the container, as a name to value map.
+env: {}
+
+# CPU and memory requests and limits of the container.
+resources: {}
+
+# Security context of the pod.
+podSecurityContext: {}
+
+# Security context of the container.
+securityContext: {}
+
+# Labels a node must have to run the pod.
+nodeSelector: {}
+
+# Taints the pod tolerates.
+tolerations: []
+
+# Scheduling affinity of the pod.
+affinity: {}

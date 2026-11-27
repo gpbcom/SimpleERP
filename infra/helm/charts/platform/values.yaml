@@ -1,0 +1,53 @@
+# Every value the templates read, with its default.
+global:
+  image:
+    # Registry and image name prefix, followed by "-<image.name>".
+    prefix: ghcr.io/gpbcom/simpleerp
+    # Commit SHA the images were published under, as CI does. Empty falls back to the chart appVersion.
+    tag: ""
+    # Kubernetes image pull policy.
+    pullPolicy: IfNotPresent
+
+# Whether the chart renders its resources.
+enabled: true
+
+image:
+  # Image name, appended to the global prefix.
+  name: platform
+
+# Number of pods.
+replicaCount: 1
+
+# Port the platform image listens on (EXPOSE of its Dockerfile).
+containerPort: 8000
+
+service:
+  # Kubernetes Service type, private to the cluster behind the gateway.
+  type: ClusterIP
+  # Port the Service listens on.
+  port: 8000
+
+probe:
+  # Health endpoint of the platform service, used by the liveness and readiness probes.
+  path: /v1/health
+
+# Environment variables that override conf/app.yaml.
+env: {}
+
+# CPU and memory requests and limits.
+resources: {}
+
+# Pod-level security context.
+podSecurityContext: {}
+
+# Container-level security context.
+securityContext: {}
+
+# Node selector of the pod.
+nodeSelector: {}
+
+# Tolerations of the pod.
+tolerations: []
+
+# Affinity rules of the pod.
+affinity: {}

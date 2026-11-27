@@ -1,0 +1,17 @@
+# Values shared by every chart of the umbrella.
+global:
+  image:
+    # Registry and repository prefix of every image, the ERP_IMAGE_PREFIX of the images workflow and compose.e2e.yaml.
+    prefix: ghcr.io/gpbcom/simpleerp
+    # Commit SHA the images were published under. Empty falls back to the chart's appVersion.
+    tag: ""
+    # Kubernetes image pull policy of every Deployment.
+    pullPolicy: IfNotPresent
+
+# Install the platform service. Its other defaults are in charts/platform/values.yaml.
+platform:
+  enabled: true
+
+# Install the back-office front end. Its other defaults are in charts/backoffice/values.yaml.
+backoffice:
+  enabled: true

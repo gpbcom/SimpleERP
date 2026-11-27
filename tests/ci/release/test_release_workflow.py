@@ -13,13 +13,14 @@ NAME = "release.yml"
 
 
 class TestReleaseWorkflow:
-    SUITES: ClassVar[List[str]] = ["python", "typescript", "terraform"]
+    SUITES: ClassVar[List[str]] = ["python", "typescript", "terraform", "helm"]
     REPORTS: ClassVar[List[Tuple[str, str, str]]] = [
         ("python.yml", "services", "test-report-python-"),
         ("python.yml", "packages", "test-report-python-"),
         ("python.yml", "repository", "test-report-python-repository"),
         ("typescript.yml", "check", "test-report-ts-"),
         ("terraform.yml", "check", "test-report-terraform-"),
+        ("helm.yml", "check", "test-report-helm"),
     ]
 
     def test_a_release_is_started_by_hand_from_develop_only(self) -> None:
@@ -76,3 +77,9 @@ class TestReleaseWorkflow:
 
     def test_pytest_writes_junit_reports(self) -> None:
         assert "--junitxml=" in runs("python.yml", "repository")
+
+    def test_the_helm_suite_runs_when_the_changes_job_selects_it(self) -> None:
+        helm = jobs(NAME)["helm"]
+        assert helm["needs"] == "changes"
+        assert helm["if"] == "needs.changes.outputs.helm == 'true'"
+        assert cast(Dict[str, str], jobs(NAME)["changes"]["outputs"])["helm"] == "${{ steps.detect.outputs.helm }}"

@@ -11,8 +11,10 @@ import pytest
 
 # First-party imports
 from tests.ci.detect_changes.helpers import (
+    HELM_KEY,
     IMAGES_KEY,
     PACKAGES_KEY,
+    REPOSITORY_KEY,
     TYPESCRIPT_KEY,
     compact,
     nothing,
@@ -72,7 +74,6 @@ class TestRepositoryLayout:
         "path",
         [
             "infra/compose/README.md",
-            "infra/helm/README.md",
             "packs/countries/README.md",
             "packs/sectors/README.md",
             "backend/services/README.md",
@@ -91,3 +92,9 @@ class TestRepositoryLayout:
         assert self.selected(result, expected) == expected
         images = {image["folder"] for image in json.loads(outputs(result)[IMAGES_KEY])}
         assert images == set(self.front_ends_with_an_image())
+
+    def test_a_change_to_the_helm_chart_selects_helm_and_the_repository_tests(self) -> None:
+        result = run_detector(self.ROOT, ["infra/helm/README.md"])
+        assert result.returncode == 0, result.stderr
+        expected = {HELM_KEY: "true", REPOSITORY_KEY: "true"}
+        assert self.selected(result, expected) == expected

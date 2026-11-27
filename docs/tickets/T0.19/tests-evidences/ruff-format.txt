@@ -1,0 +1,4 @@
+$ uv run ruff format --check tests/ci/check_helm/test_check_helm.py tests/ci/detect_changes/helm/test_helm_changes.py tests/ci/detect_changes/helpers.py tests/ci/detect_changes/test_detect_changes.py tests/ci/detect_changes/test_repository_layout.py tests/ci/detect_changes/test_shared_changes.py tests/ci/release/test_release_workflow.py tests/ci/workflows/checks/helm/test_helm_workflow.py tests/ci/workflows/test_ci_workflow.py tests/ci/workflows/test_workflow_security.py tests/infra/helm/test_charts.py tests/infra/helm/test_rendering.py tests/infra/helm/test_values.py
+(cwd ., on the ticket's own files only)
+
+13 files already formatted
