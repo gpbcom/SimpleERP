@@ -8,6 +8,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Union
 
@@ -44,6 +45,10 @@ SHARED_PREFIXES = ("backend/models/", "backend/shared/")
 SHARED_FILES = ("pyproject.toml", "uv.lock")
 TIMEOUT_S = 900
 # git with its LFS filter turned off: files stored in Git LFS are checked out as their pointers.
+TREE_PREFIX = "erp-checks-"
+# A clean tree whose name carries no process id (made before TKT-27) is stale once untouched for this long.
+UNNAMED_TREE_STALE_S = 3600
+PYTEST_SUFFIX = "-pytest"
 GIT_WITHOUT_LFS = ["git", "-c", "filter.lfs.smudge=", "-c", "filter.lfs.process=", "-c", "filter.lfs.required=false"]
 # A failure whose output holds one of these is caused by the environment (a missing tool or module), not by the
 # ticket's code: fixer agents cannot repair it, so the run stops and the person fixes the environment (TKT-6).
@@ -99,36 +104,107 @@ def own_paths(ticket: str, root: Path = ROOT) -> Optional[List[str]]:
     return [str(path) for path in paths] if isinstance(paths, list) else None
 
 
-def isolated_tree(changed: List[str], root: Path = ROOT) -> Path:
+def isolated_tree(changed: List[str], root: Path = ROOT, temp: Optional[Path] = None) -> Path:
     """Make a clean worktree of ``HEAD`` holding only the given changes of ``root``, and return its folder.
 
     Every other ticket's uncommitted work stays out (L-22): each changed file is copied from ``root``, and a changed
     file that no longer exists there is deleted. The caller removes the tree with ``remove_tree``. The Git LFS filter
     is turned off for the checkout, so the tree holds the LFS pointers, not the images: no check reads an image, and
     downloading the tens of thousands of mock-up images of ``docs/specs/`` took minutes for every check round (TKT-6).
+    The tree is named after this process (``erp-checks-<pid>-``), so that ``sweep_stale_trees`` can tell a tree still
+    in use from one a killed run left behind, and a tree that cannot be made or filled leaves nothing (TKT-27).
     """
-    tree = Path(tempfile.mkdtemp(prefix="erp-checks-"))
+    tree = Path(tempfile.mkdtemp(prefix=f"{TREE_PREFIX}{os.getpid()}-", dir=temp))
     code, out = run([*GIT_WITHOUT_LFS, "worktree", "add", "--detach", "--force", str(tree), "HEAD"], cwd=root)
     if code != 0:
-        shutil.rmtree(tree, ignore_errors=True)
+        remove_tree(tree, root)
         raise RuntimeError(f"Could not make the clean worktree for the checks: {out}")
-    for name in changed:
-        source, target = root / name, tree / name
-        if source.is_file():
-            target.parent.mkdir(parents=True, exist_ok=True)
-            # A fresh modification time, never the source's (copy2): a tool that judges freshness by time (the mypy
-            # cache) must see the copy as new, never reuse what it built from an older version of the file.
-            shutil.copy(source, target)
-        elif target.is_file() or target.is_symlink():
-            target.unlink()
+    try:
+        for name in changed:
+            source, target = root / name, tree / name
+            if source.is_file():
+                target.parent.mkdir(parents=True, exist_ok=True)
+                # A fresh modification time, never the source's (copy2): a tool that judges freshness by time (the
+                # mypy cache) must see the copy as new, never reuse what it built from an older version of the file.
+                shutil.copy(source, target)
+            elif target.is_file() or target.is_symlink():
+                target.unlink()
+    except BaseException:
+        remove_tree(tree, root)
+        raise
     return tree
 
 
+def pytest_temp(tree: Path) -> Path:
+    """Return the folder beside a clean tree where pytest keeps its temporary files, removed with the tree."""
+    return tree.with_name(tree.name + PYTEST_SUFFIX)
+
+
 def remove_tree(tree: Path, root: Path = ROOT) -> None:
-    """Remove a worktree made by ``isolated_tree``, whatever its state."""
+    """Remove a worktree made by ``isolated_tree``, whatever its state, with pytest's temporary files beside it."""
     run(["git", "worktree", "remove", "--force", str(tree)], cwd=root)
     shutil.rmtree(tree, ignore_errors=True)
+    shutil.rmtree(pytest_temp(tree), ignore_errors=True)
     run(["git", "worktree", "prune"], cwd=root)
+
+
+def process_alive(pid: int) -> bool:
+    """Tell whether a process with this id is running."""
+    try:
+        os.kill(pid, 0)
+    except ProcessLookupError:
+        return False
+    except PermissionError:
+        return True
+    return True
+
+
+def stale_tree(tree: Path) -> bool:
+    """Tell whether a clean tree was left by a run that is gone: its process ended, or, unnamed, it is old."""
+    match = re.match(rf"{re.escape(TREE_PREFIX)}(\d+)-", tree.name)
+    if match:
+        return not process_alive(int(match.group(1)))
+    return time.time() - tree.stat().st_mtime > UNNAMED_TREE_STALE_S
+
+
+def sweep_stale_trees(root: Path = ROOT, temp: Optional[Path] = None) -> List[Path]:
+    """Remove the clean trees that killed runs of the checks left behind, and return them (TKT-27).
+
+    A run removes its own tree when it ends, but a run killed before that (a command timeout) cannot; the next run
+    removes it, and prunes git's list of worktrees, before it makes its own. A tree still in use by a running process
+    is kept.
+    """
+    folder = temp if temp is not None else Path(tempfile.gettempdir())
+    trees = [
+        tree
+        for tree in sorted(folder.glob(f"{TREE_PREFIX}*"))
+        if tree.is_dir() and not tree.name.endswith(PYTEST_SUFFIX)
+    ]
+    removed = [tree for tree in trees if stale_tree(tree)]
+    orphans = [
+        temp_folder
+        for temp_folder in sorted(folder.glob(f"{TREE_PREFIX}*{PYTEST_SUFFIX}"))
+        if not temp_folder.with_name(temp_folder.name.removesuffix(PYTEST_SUFFIX)).exists() and stale_tree(temp_folder)
+    ]
+    for orphan in orphans:
+        shutil.rmtree(orphan, ignore_errors=True)
+    for tree in removed:
+        remove_tree(tree, root)
+    run(["git", "worktree", "prune"], cwd=root)
+    return removed
+
+
+def pytest_command(folder: str, root: Path) -> List[str]:
+    """Return the pytest command of a test folder.
+
+    In a clean tree, pytest keeps its temporary files beside it (``pytest_temp``), never in ``/tmp/pytest-of-<user>``,
+    so that they go with the tree; beside it rather than inside, so that no scan of the tree finds the files a test
+    writes there (TKT-27).
+    """
+    command = ["uv", "run", "--all-packages", "pytest", folder, "-q", "-n", "2"]
+    if root.name.startswith(TREE_PREFIX):
+        command += ["--basetemp", str(pytest_temp(root) / folder.replace("/", "-"))]
+    return command
 
 
 def changed_files(base: str, ticket: str = "", root: Path = ROOT) -> List[str]:
@@ -270,7 +346,7 @@ def python_checks(checks: Checks, changed: List[str]) -> None:
         checks.skip("pytest", "no test folder in the tree")
     for folder in folders:
         name = "pytest" if folder == "tests" else f"pytest {folder.removesuffix('/tests')}"
-        checks.check(name, ["uv", "run", "--all-packages", "pytest", folder, "-q", "-n", "2"], folder)
+        checks.check(name, pytest_command(folder, root), folder)
 
 
 FRONT_END_PACKAGES = ("frontend/*/package.json", "frontend/portals/*/package.json", "frontend/packages/*/package.json")
@@ -351,6 +427,7 @@ def main() -> int:
         print(USAGE, file=sys.stderr)
         return 2
     changed = changed_files(base, ticket)
+    sweep_stale_trees()
     tree = isolated_tree(changed) if own_paths(ticket) is not None else ROOT
     try:
         verdict = run_checks(ticket, base, changed, tree)

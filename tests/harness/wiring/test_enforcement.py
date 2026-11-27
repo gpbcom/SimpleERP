@@ -40,7 +40,7 @@ class TestEnforcement:
         assert sorted(set(registry()) - rule_ids()) == []
 
     def test_the_rules_file_lists_every_rule(self) -> None:
-        assert len(rule_ids()) == 26
+        assert len(rule_ids()) == 28
 
     @pytest.mark.parametrize("rule", sorted(rule_ids()))
     def test_each_rule_has_an_enforcer_that_exists(self, rule: str) -> None:

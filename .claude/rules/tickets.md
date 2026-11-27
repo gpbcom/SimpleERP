@@ -52,6 +52,8 @@ agent graph of `.claude/agents/` and `.claude/workflows/`. They apply to the per
 | [TKT-24](#tkt-24) | Harness scripts run anywhere: a shallow CI checkout, no local develop, no GitHub |
 | [TKT-25](#tkt-25) | A branch lives as long as its work: only a live branch is rebased, the rest is deleted after a backup, and `master` is never rewritten |
 | [TKT-26](#tkt-26) | A release reaches `master` by itself, with its changelog, its release notes and its test reports |
+| [TKT-27](#tkt-27) | The harness cleans up after itself: every temporary file, folder and worktree goes when its run ends, even a killed one |
+| [TKT-28](#tkt-28) | Every branch of the person's work is pushed with its pull request labelled `automerge`, without asking first |
 
 ## <a id="tkt-1"></a>TKT-1: Roadmap tickets, one folder each
 
@@ -719,3 +721,49 @@ notes and test reports are whatever someone remembers to write.
 under bash with a stand-in `gh`: the merge into `master`, the tag, the way back, the token) and of
 `tests/ci/release_notes/` (version, changelog, release notes, test report, no release without reports) pass;
 `grep -n 'tkt-26' .claude/rules/tickets.md` finds the summary row and the heading.
+
+## <a id="tkt-27"></a>TKT-27: The harness cleans up after itself
+
+**Rule:**
+
+- Every temporary file, folder and worktree that a harness command or an agent makes is removed by the same run when
+  it ends, whether it passes, fails or stops. Nothing is left for the person to clean.
+- A run can be killed before its cleanup (a command timeout). What it leaves is removed by the next run of the same
+  command, before that run makes its own: `checks.py` names each clean tree after its process
+  (`erp-checks-<pid>-…`), removes every tree whose process is gone (or, named before this rule, untouched for an
+  hour), and prunes git's list of worktrees. A tree still in use by a running process is kept.
+- A clean tree that cannot be made or filled leaves no folder and no worktree behind.
+- Test tools keep their temporary files with the run that makes them: in a clean tree, pytest writes them beside the
+  tree (`--basetemp`), and they are removed with it, never left in `/tmp/pytest-of-<user>`.
+- An agent that makes a scratch worktree, branch or file for its own work removes it when that work is done; the
+  workers' worktrees go with their integration (TKT-25).
+
+**Why:** `/tmp` is a memory file system with a quota for each user. On 2026-11-28 the leftovers of the harness (the
+clean tree of a killed check run, 929 MB, and pytest's old folders, 954 MB) filled it, and two tickets stopped on
+checks that could not write their files.
+
+**Check:** the tests of `tests/harness/checks/test_checks_cleanup.py` pass (a killed run's tree is removed, a running
+one is kept, a tree that cannot be made leaves nothing, pytest's folder goes with the tree);
+`grep -n 'tkt-27' .claude/rules/tickets.md` finds the summary row and the heading.
+
+## <a id="tkt-28"></a>TKT-28: Always push with automerge
+
+**Rule:**
+
+- Once committed, every branch of the person's work is pushed and its pull request opened with the `automerge`
+  label, without asking the person first: the tickets' `feature/tickets` by `ticket_tree.py finish` (TKT-5, after
+  the code review of TKT-18), every other `feature/`, `bugfix/` and `hotfix/` branch (harness fixes, dependency
+  fixes) by `python3 .claude/scripts/github/publish.py --title "<title>" --body-file <file>`, run from the branch's
+  checkout. It opens the pull request to `develop` (`master` for a hotfix), or labels the open one.
+- `automerge.yml` then merges it once every check has passed (TKT-15). Nobody merges by hand, except a pull request
+  that changes `.github/workflows/`, which `automerge.yml` labels `needs-person`.
+- `publish.py` refuses `develop`, `master`, `main`, `feature/tickets` and any branch outside GitFlow, before it pushes
+  anything.
+- Starting a release (TKT-26) and a push to `develop` or `master` still ask the person.
+
+**Why:** the person asked on 2026-11-28: "Always push with auto merge." Asking before each push of a reviewed fix
+held the tickets that waited for it (a dependency advisory held #888 and three tickets behind it).
+
+**Check:** the tests of `tests/harness/publish/test_publish.py` pass (a branch is pushed and its pull request opened
+with `automerge` to the right base, an open one is labelled, a protected, shared or non-GitFlow branch is refused
+before any push); `grep -n 'tkt-28' .claude/rules/tickets.md` finds the summary row and the heading.
