@@ -21,13 +21,18 @@ Confirmed by the owner on 2026-11-12: FastAPI; OpenAPI generated from the code, 
 the Bruno collection generated from it; `packages/` as a service kit without business rules; business rules as pure
 functions over data.
 
+Confirmed by the owner on 2026-11-27: every service is a regular FastAPI application, as in the other gpbcom projects.
+There is never a `cli` module: the service's `api` layer is its FastAPI application, built by an application factory
+and served by uvicorn, and no package has a command line.
+
 ## Decided by
 
-The owner, on 2026-11-12, in the specification interview.
+The owner, on 2026-11-12, in the specification interview, and on 2026-11-27 for the regular FastAPI application.
 
 ## Consequences
 
-The back-end chapter's target design.
+The back-end chapter's target design. `AGENT.md` ("Layout") states how a service is built and served and what replaces
+a command, and the tests of `tests/conventions/entrypoints/` fail on any command line in a package.
 
 ## Related
 

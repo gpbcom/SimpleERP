@@ -31,7 +31,7 @@ How people, programs and agents reach SimpleERP: API, MCP, A2A and the plugin SD
 
 | Chapter | Holds |
 |---|---|
-| [API](interfaces/api.md) | The entry points: the command line today |
+| [API](interfaces/api.md) | The HTTP API of every service: a regular FastAPI application served by uvicorn, with no command line |
 | [Plugin SDK and developer experience](interfaces/plugin-sdk.md) | How third parties build, test, sign and publish plugins (T4, F14) |
 | [MCP](interfaces/mcp.md) | SimpleERP as an MCP server and as an MCP client: tools, rights, confirmations, transport, security (T6) |
 | [A2A](interfaces/a2a.md) | SimpleERP as an A2A agent and as a caller of outside agents: skills, discovery, trust, rights (T6) |
@@ -87,4 +87,4 @@ Where SimpleERP runs, how it is deployed and how it is sized.
 | [Deployment](infrastructure/deployment.md) | Targets OVHcloud, Scaleway and self-hosted; Terraform by default; Compose and Helm (D18) |
 | [Infrastructure deployment](infrastructure/infrastructure.md) | The deployment targets, self-hosted and the fully managed hosted edition: clusters, regions, sizing, networks, Terraform |
 
-Last reviewed: 2026-11-15 (GH-2)
+Last reviewed: 2026-11-27 (GH-2)
