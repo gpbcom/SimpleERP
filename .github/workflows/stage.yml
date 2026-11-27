@@ -1,0 +1,194 @@
+name: stage
+run-name: "stage ${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }} on ${{ inputs.ref || github.ref_name }}"
+
+# An ephemeral stage (docs/technical/delivery/ci-cd-and-stages.md): the commit's images started with compose.e2e.yaml
+# on the runner, the smoke test, Bruno and Playwright run against them, every report kept (TEST-9), and a GitHub
+# Deployment recorded on the dev or qa environment. Nothing is hosted.
+#   dev: every push to develop, and on demand for any commit. Playwright runs the tests tagged @smoke.
+#   qa:  every push to release/** and hotfix/**, and on demand for a pull request once its owner said yes (GIT-6).
+#        The full Playwright suite and the dependency check (DEP-1).
+# Until compose.e2e.yaml exists, a stage run says there are no images yet and succeeds.
+
+on:
+  push:
+    branches:
+      - develop
+      - "release/**"
+      - "hotfix/**"
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "Which stage"
+        type: choice
+        options: [dev, qa]
+        required: true
+      ref:
+        description: "The commit, branch or tag to run"
+        type: string
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: stage-${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }}-${{ inputs.ref || github.sha }}
+  cancel-in-progress: false
+
+jobs:
+  stage:
+    name: ${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }} stage
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+      packages: read
+      deployments: write
+    environment:
+      name: ${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }}
+      url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    env:
+      STAGE: ${{ inputs.stage || (github.ref_name == 'develop' && 'dev' || 'qa') }}
+      REPORTS: ${{ github.workspace }}/stage-reports
+    defaults:
+      run:
+        shell: bash
+    steps:
+      # actions/checkout takes a branch, a tag or a full SHA, not a short one: resolve the ref first.
+      - name: Resolve the ref to its full commit
+        id: ref
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          REF: ${{ inputs.ref || github.sha }}
+        run: |
+          if ! sha=$(gh api "repos/$REPO/commits/$REF" --jq .sha 2> /dev/null) || [ -z "$sha" ]; then
+            echo "::error title=Unknown ref::'$REF' is not a commit, branch or tag of $REPO."
+            exit 1
+          fi
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+          echo "Resolved '$REF' to $sha."
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ steps.ref.outputs.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Record what runs
+        id: compose
+        env:
+          REF: ${{ inputs.ref || github.ref_name }}
+          SHA: ${{ steps.ref.outputs.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          mkdir -p "$REPORTS"
+          {
+            echo "stage=$STAGE"
+            echo "commit=$SHA"
+            echo "ref=$REF"
+            echo "run=$RUN_URL"
+          } | tee "$REPORTS/stage.txt"
+          {
+            echo "ERP_IMAGE_PREFIX=ghcr.io/${GITHUB_REPOSITORY,,}"
+            echo "ERP_IMAGE_TAG=$SHA"
+          } >> "$GITHUB_ENV"
+          if [ -f compose.e2e.yaml ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "No images yet: compose.e2e.yaml does not exist on this commit, so there is nothing to start." \
+              | tee "$REPORTS/no-images-yet.txt"
+          fi
+      - uses: docker/login-action@8aa5831fb8d48d8f76594c7ddde61ae58019f550 # v4.8.0
+        if: steps.compose.outputs.present == 'true'
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Start the commit's images
+        if: steps.compose.outputs.present == 'true'
+        run: |
+          # CI publishes the images of develop and master under the commit SHA; any other commit is built here.
+          if ! docker compose -f compose.e2e.yaml pull 2>&1 | tee "$REPORTS/compose-pull.txt"; then
+            echo "Some images of $ERP_IMAGE_TAG are not published: building them from the commit."
+            docker compose -f compose.e2e.yaml build 2>&1 | tee "$REPORTS/compose-build.txt"
+          fi
+          docker compose -f compose.e2e.yaml up --detach --wait
+          docker compose -f compose.e2e.yaml ps | tee "$REPORTS/compose-ps.txt"
+      - name: Smoke test
+        if: steps.compose.outputs.present == 'true'
+        run: |
+          docker compose -f compose.e2e.yaml ps --all --format '{{.Service}} {{.State}} {{.Health}}' \
+            | tee "$REPORTS/smoke.txt" \
+            | awk '$2 != "running" || ($3 != "" && $3 != "healthy") { bad = 1; print "::error::" $1 " is " $2 " " $3 }
+                   END { exit bad }'
+      - name: Bruno collection (TEST-1)
+        if: steps.compose.outputs.present == 'true' && hashFiles('bruno/**') != ''
+        run: |
+          status=0
+          for collection in bruno/*/; do
+            name=$(basename "$collection")
+            (cd "$collection" && npx --yes @usebruno/cli@4.2.1 run --env stage \
+              --reporter-json "$REPORTS/bruno-$name.json" --reporter-junit "$REPORTS/bruno-$name.xml" \
+              --reporter-skip-all-headers --reporter-skip-body) || status=1
+          done
+          exit "$status"
+      - uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6.1.1
+        if: steps.compose.outputs.present == 'true' && hashFiles('pnpm-lock.yaml') != ''
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        if: steps.compose.outputs.present == 'true' && hashFiles('pnpm-lock.yaml') != ''
+        with:
+          node-version: "22"
+          cache: pnpm
+      - name: Playwright (TEST-6)
+        if: steps.compose.outputs.present == 'true' && hashFiles('pnpm-lock.yaml') != ''
+        run: |
+          pnpm install --frozen-lockfile
+          if [ "$STAGE" = dev ]; then
+            bash .github/scripts/playwright.sh --grep @smoke
+          else
+            bash .github/scripts/playwright.sh
+          fi
+      - uses: astral-sh/setup-uv@1db35dd8eee11c5894872e0b383ae6c406cf738d # v10.4.0
+        if: env.STAGE == 'qa'
+      - name: Dependency resolution (DEP-1)
+        if: env.STAGE == 'qa'
+        run: uv lock --check 2>&1 | tee "$REPORTS/dep-1.txt"
+      - name: Service logs, then stop the stack
+        if: always() && steps.compose.outputs.present == 'true'
+        run: |
+          docker compose -f compose.e2e.yaml logs --no-color > "$REPORTS/compose-logs.txt" 2>&1 || true
+          docker compose -f compose.e2e.yaml down --volumes || true
+      - name: Collect the Playwright reports
+        if: always()
+        run: |
+          for report in frontend/*/playwright-report frontend/portals/*/playwright-report; do
+            [ -d "$report" ] || continue
+            project="${report%/playwright-report}"
+            mkdir -p "$REPORTS/playwright-${project//\//-}"
+            cp -r "$report" "$REPORTS/playwright-${project//\//-}/"
+            if [ -d "$project/test-results" ]; then
+              cp -r "$project/test-results" "$REPORTS/playwright-${project//\//-}/"
+            fi
+          done
+      - name: Keep the reports (TEST-9)
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: stage-${{ env.STAGE }}-reports-${{ github.run_id }}
+          path: stage-reports/
+          retention-days: 90
+      - name: Summary
+        if: always()
+        env:
+          SHA: ${{ steps.ref.outputs.sha }}
+          RUN_ID: ${{ github.run_id }}
+          PRESENT: ${{ steps.compose.outputs.present }}
+        run: |
+          {
+            echo "### ${STAGE} stage on \`${SHA:0:12}\`"
+            echo
+            if [ "$PRESENT" != true ]; then
+              echo "No images yet: \`compose.e2e.yaml\` does not exist on this commit."
+              echo
+            fi
+            echo "Reports: artifact \`stage-${STAGE}-reports-${RUN_ID}\`."
+          } >> "$GITHUB_STEP_SUMMARY"

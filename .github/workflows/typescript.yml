@@ -1,0 +1,60 @@
+name: typescript
+
+# Step 2 of the pipeline for the front ends (AGENT.md, "CI/CD"): lint, type check and test each changed project of
+# the pnpm workspace (frontend/<app>, frontend/portals/<portal>, frontend/packages/<package>), with Node 22 and every
+# dependency from pnpm-lock.yaml. A script a project does not have is skipped. Reusable only: ci.yml and release.yml
+# call it. The test log is kept as a test-report-ts-* artifact, failed runs included (TKT-26).
+
+on:
+  workflow_call:
+    inputs:
+      projects:
+        description: "Compact JSON array of the front-end project folders to check, from detect_changes.py."
+        type: string
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: inputs.projects != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        project: ${{ fromJSON(inputs.projects) }}
+    env:
+      PROJECT: ${{ matrix.project }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6.1.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22"
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Lint
+        run: pnpm --filter "./$PROJECT" run --if-present lint
+      - name: Type check
+        run: pnpm --filter "./$PROJECT" run --if-present typecheck
+      - name: Test
+        id: test
+        shell: bash
+        run: |
+          set -o pipefail
+          name="${PROJECT//\//-}"
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+          mkdir -p reports
+          pnpm --filter "./$PROJECT" run --if-present test 2>&1 | tee "reports/$name.log"
+      - name: Keep the test reports (TKT-26)
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: test-report-ts-${{ steps.test.outputs.name }}
+          path: reports/
+          if-no-files-found: ignore
