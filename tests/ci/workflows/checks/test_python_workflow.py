@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 # Standard library imports
+import tomllib
 from typing import ClassVar, Dict, List, cast
 
 # Third-party imports
@@ -32,6 +33,16 @@ class TestPythonWorkflow:
     def test_every_job_installs_the_locked_workspace_with_uv(self, job: str) -> None:
         assert with_of(step_using(NAME, job, "astral-sh/setup-uv"))["enable-cache"] is True
         assert "uv sync --locked" in runs(NAME, job)
+
+    @pytest.mark.parametrize("job", ["services", "packages", "repository"])
+    def test_every_job_installs_every_workspace_member(self, job: str) -> None:
+        # The root is not a package (package = false): without --all-packages, erp_models and the libraries are not
+        # installed, and their tests cannot import them.
+        assert "uv sync --locked --all-packages" in runs(NAME, job)
+
+    def test_the_tests_of_every_package_need_no_docstrings(self) -> None:
+        ignores = tomllib.loads((ROOT / "pyproject.toml").read_text(encoding="utf-8"))["tool"]["ruff"]["lint"]
+        assert "D" in ignores["per-file-ignores"]["**/tests/**"]
 
     @pytest.mark.parametrize("job", PROJECT_JOBS)
     def test_each_project_runs_the_shared_check_script(self, job: str) -> None:
