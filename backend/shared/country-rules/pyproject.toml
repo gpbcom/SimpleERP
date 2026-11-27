@@ -1,0 +1,26 @@
+[project]
+name = "erp-country-rules"
+version = "0.1.0"
+description = "The country-pack rules library: the value of a legal rule in force on the date of a fact."
+license = "AGPL-3.0-only"
+requires-python = ">=3.13,<3.14"
+dependencies = ["erp-models", "pydantic>=2.9", "pyyaml>=6.0"]
+
+[dependency-groups]
+dev = ["pytest>=8.4.0", "pytest-asyncio>=1.2.0", "pytest-timeout>=2.4.0", "pytest-xdist>=3.8.0"]
+
+[tool.uv.sources]
+erp-models = { workspace = true }
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "erp_country_rules"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "--strict-markers --timeout=300"

@@ -1,0 +1,8 @@
+$ uv run --all-packages pytest backend/shared/outbox/tests -q -n 2
+(cwd ., on the ticket's own files only)
+
+bringing up nodes...
+bringing up nodes...
+
+....................................                                     [100%]
+36 passed in 0.40s

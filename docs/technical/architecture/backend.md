@@ -16,6 +16,16 @@ each service's `conf/app.yaml` ([Configuration](configuration.md#shared-configur
 the `backend/shared/` folder of [D438](../../specs/06-decisions/technical/d438-repository-layout.md) and follow
 [D406](../../specs/06-decisions/technical/d406-back-end.md).
 
+Ticket T0.12 builds the country-pack rules library, `backend/shared/country-rules` (package `erp_country_rules`). `CountryRules.value(rule, country, date)` returns the value in force at the date of the
+fact, as an exact `Decimal`, or as the `erp_models` money with its currency. Its layers follow `AGENT.md`: the models
+`CountryPack`, `CountryRule`, `RuleVersion` and `CountryRulesConfig`; the storage `CountryPackRepository`, which reads
+a pack from `<packs_dir>/<country in lower case>/rules.yaml` (by default `packs/countries`); and the service
+`CountryRules`. A pack holds `country`, `version` and `rules`; each rule holds versions with `valid_from`, an inclusive
+optional `valid_to` and a `value`. Versions never overlap, and a float value is refused. Signed packs
+([REQ-T11-01](../../specs/03-technical/t11-legal-corpora/requirements/req-t11-01-signed-packs.md)) and the pack registry
+are not built yet. The interface and the requirement are [I-T11-01](../../specs/03-technical/t11-legal-corpora/interfaces/i-t11-01-rules-library.md)
+and [REQ-T11-02](../../specs/03-technical/t11-legal-corpora/requirements/req-t11-02-rules-library.md).
+
 ## Target design (specified in GH-2, not built yet)
 
 **Language and framework (D406).** Python 3.13 with uv, Pydantic models and the api → service → storage layers
@@ -43,4 +53,4 @@ effects stay at the edges.
 
 Decided in [D406](../../specs/06-decisions/technical/d406-back-end.md).
 
-Last reviewed: 2026-11-27 (T0.05, GH-2)
+Last reviewed: 2026-11-27 (T0.05, T0.12, GH-2)
