@@ -73,6 +73,7 @@ CACHE_DIR = (
     / "erp"
 )
 CACHE = CACHE_DIR / "board.json"
+ITEMS = CACHE_DIR / "board-items.json"
 REPO = IDENTITY["repo"]
 OWNER, NAME = REPO.split("/", 1)
 OWNER_FIELD = "organization" if IDENTITY.get("owner_type") == "organization" else "user"
@@ -177,13 +178,50 @@ def rest(method: str, path: str, payload: Optional[Json] = None, tolerate_existi
 
 
 def load_state() -> Dict[str, Json]:
+    """Return the board's state: what exists on GitHub (tracked), with each card's column and the closed issues.
+
+    The columns and the closed issues change with every ticket run, so they live in the local cache
+    ``.git/erp/board-items.json``, never in the tracked ``.claude/github.json`` (TKT-17). A column still written in an
+    older tracked state is read as the cache until the local one knows better.
+    """
+    state: Dict[str, Json] = {
+        "repo": REPO,
+        "milestones": {},
+        "issues": {},
+        "subissues": [],
+        "blocked": [],
+        "items": {},
+        "closed": [],
+    }
     if STATE.is_file():
-        return json.loads(STATE.read_text(encoding="utf-8"))
-    return {"repo": REPO, "milestones": {}, "issues": {}, "subissues": [], "blocked": [], "items": {}, "closed": []}
+        state = json.loads(STATE.read_text(encoding="utf-8"))
+    local = json.loads(ITEMS.read_text(encoding="utf-8")) if ITEMS.is_file() else {}
+    items = state.setdefault("items", {})
+    assert isinstance(items, dict)
+    for ident, status in local.get("items", {}).items():
+        item = items.setdefault(ident, {})
+        assert isinstance(item, dict)
+        item["status"] = status
+    closed = state.get("closed", [])
+    assert isinstance(closed, list)
+    state["closed"] = sorted(set(closed) | set(local.get("closed", [])))
+    return state
 
 
 def save(state: Dict[str, Json]) -> None:
-    STATE.write_text(json.dumps(state, indent=1, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
+    """Write what exists on GitHub to ``.claude/github.json`` and the cards' columns to the local cache."""
+    items = state.get("items", {})
+    assert isinstance(items, dict)
+    tracked = dict(state)
+    tracked["items"] = {k: {f: v for f, v in item.items() if f != "status"} for k, item in items.items()}
+    tracked["closed"] = []
+    STATE.write_text(json.dumps(tracked, indent=1, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
+    columns = {k: item["status"] for k, item in items.items() if isinstance(item, dict) and "status" in item}
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    ITEMS.write_text(
+        json.dumps({"items": columns, "closed": state.get("closed", [])}, indent=1, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
 
 
 ###########
