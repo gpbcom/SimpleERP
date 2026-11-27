@@ -32,8 +32,11 @@ crash.*.log
 # Node
 node_modules/
 
-# Log files written by the logging configuration stay out of the repository
+# Log files written by the logging configuration stay out of the repository.
+# A package named logs under src/ or tests/ is code and stays tracked.
 logs/
+!**/src/**/logs/
+!**/tests/**/logs/
 
 # Editor settings stay local to each person.
 .vscode/

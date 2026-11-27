@@ -1,0 +1,10 @@
+$ uv run --all-packages pytest backend/shared/country-rules/tests -q -n 2
+(cwd ., on the ticket's own files only)
+
+bringing up nodes...
+bringing up nodes...
+
+........................................................................ [ 41%]
+........................................................................ [ 83%]
+.............................                                            [100%]
+173 passed in 0.47s
