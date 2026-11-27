@@ -25,6 +25,12 @@ them. The pnpm workspace (`pnpm-workspace.yaml`) has two members that exist on d
 `frontend/mobile`. `frontend/portals/` and the front-end packages of `frontend/packages/` come with the later tickets of
 the roadmap, as do the services, the shared libraries and the plugins.
 
+The import rules of the layout are enforced by the tests of `tests/conventions/`, through the rules of its
+`ConventionScanner` (`tests/conventions/convention_scanner.py`): `shared_models_imports`, where `erp_models` imports no
+other package of the repository; `shared_library_imports`, where a library of `backend/shared/` imports only `erp_models`
+and other libraries; and `plugin_and_sdk_imports`, where `plugins/` and `sdk/` import only `erp_models`. The packages are
+found from the folders, so a new library or plugin needs no change to the tests.
+
 ## Target design (specified in GH-2, not built yet)
 
 **Layout (D438).** One mono-repo, the back end and the front end separated:

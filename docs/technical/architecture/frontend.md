@@ -5,7 +5,9 @@ target is built yet.
 
 ## Today
 
-No front end is built yet; `AGENT.md` leaves the framework to be decided.
+No front end app is built yet. [`frontend/packages/config`](../../../frontend/packages/config/)
+(`@simpleerp/config`) holds the shared settings that every front end extends: the ESLint flat config
+(`@simpleerp/config/eslint`) and the strict TypeScript settings (`@simpleerp/config/tsconfig`).
 
 ## Target design (specified in GH-2, not built yet)
 

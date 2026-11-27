@@ -1,0 +1,11 @@
+$ pnpm -r --if-present test
+(cwd ., on the ticket's own files only)
+
+Scope: 3 of 4 workspace projects
+frontend/packages/config test$ vitest run
+frontend/packages/config test:  RUN  v5.1.2 /tmp/erp-checks-upa08zif/frontend/packages/config
+frontend/packages/config test:  Test Files  2 passed (2)
+frontend/packages/config test:       Tests  7 passed (7)
+frontend/packages/config test:    Start at  19:46:48
+frontend/packages/config test:    Duration  799ms (import 48%, tests 42%, transform 10%, worker 1%)
+frontend/packages/config test: Done

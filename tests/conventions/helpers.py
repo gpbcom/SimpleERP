@@ -17,6 +17,12 @@ SOURCE_GLOBS: Tuple[str, ...] = (
 SHARED_MODELS_SOURCE = "backend/models/src"
 # The source folders of the services: one service never imports another.
 SERVICE_SOURCE_GLOB = "backend/services/*/src"
+# The source folders of the shared libraries: they import the shared models and each other, never a service.
+SHARED_LIBRARY_SOURCE_GLOB = "backend/shared/*/src"
+# The source folders of the plugins and of the plugin SDK: they reach SimpleERP through the shared models only.
+PLUGIN_AND_SDK_SOURCE_GLOBS: Tuple[str, ...] = ("plugins/*/src", "sdk/src")
+# The name of the shared models package, which every package may import.
+SHARED_MODELS_PACKAGE = "erp_models"
 # The repository-level tests, and the ``tests/`` folder of every package.
 TEST_GLOBS: Tuple[str, ...] = (
     "tests",

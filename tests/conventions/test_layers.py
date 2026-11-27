@@ -18,3 +18,12 @@ class TestLayers:
 
     def test_no_service_imports_another_service(self) -> None:
         assert not ConventionScanner(ROOT).foreign_service_imports()
+
+    def test_shared_models_import_no_library_or_service(self) -> None:
+        assert not ConventionScanner(ROOT).shared_models_imports()
+
+    def test_shared_libraries_never_import_a_service(self) -> None:
+        assert not ConventionScanner(ROOT).shared_library_imports()
+
+    def test_plugins_and_the_sdk_import_only_the_shared_models(self) -> None:
+        assert not ConventionScanner(ROOT).plugin_and_sdk_imports()
