@@ -79,6 +79,11 @@
         "kind": "test",
         "path": "tests/harness/ticket_tree/test_ticket_tree.py",
         "what": "integrate never applies a file another open ticket owns, and lists it under refused (L-34)"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/gitflow/test_guard_follows_cd.py",
+        "what": "the guard judges the branch of the folder a git write runs in: a cd before it or git -C; an unresolved folder keeps the session's"
       }
     ],
     "TKT-6": [
