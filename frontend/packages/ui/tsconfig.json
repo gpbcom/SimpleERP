@@ -1,0 +1,8 @@
+{
+  "extends": "../config/tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node", "@testing-library/jest-dom/vitest"],
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "tests/**/*.ts", "*.config.ts"]
+}
