@@ -1,0 +1,23 @@
+# Platform error code catalogue (D122): each code with its title, why and action message keys and its support reference.
+# Keys only: the texts belong to the translation catalogues.
+codes:
+  PLATFORM-ROUTE-01:
+    title: errors.platform_route_01.title
+    why: errors.platform_route_01.why
+    action: errors.platform_route_01.action
+    reference: PLATFORM-ROUTE-01
+  PLATFORM-METHOD-01:
+    title: errors.platform_method_01.title
+    why: errors.platform_method_01.why
+    action: errors.platform_method_01.action
+    reference: PLATFORM-METHOD-01
+  PLATFORM-REQUEST-01:
+    title: errors.platform_request_01.title
+    why: errors.platform_request_01.why
+    action: errors.platform_request_01.action
+    reference: PLATFORM-REQUEST-01
+  PLATFORM-INTERNAL-01:
+    title: errors.platform_internal_01.title
+    why: errors.platform_internal_01.why
+    action: errors.platform_internal_01.action
+    reference: PLATFORM-INTERNAL-01

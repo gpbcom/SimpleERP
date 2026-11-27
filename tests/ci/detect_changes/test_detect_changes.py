@@ -11,6 +11,7 @@ import pytest
 from tests.ci.detect_changes.helpers import (
     BACKOFFICE,
     CUSTOMER_PORTAL,
+    HELM_KEY,
     IMAGES_KEY,
     KEYS,
     PACKAGES_KEY,
@@ -37,6 +38,7 @@ class TestDetectChanges:
         for key in (SERVICES_KEY, PACKAGES_KEY, TYPESCRIPT_KEY, IMAGES_KEY):
             assert isinstance(json.loads(values[key]), list)
         assert values[REPOSITORY_KEY] in {"true", "false"}
+        assert values[HELM_KEY] in {"true", "false"}
 
     def test_no_changed_path_selects_nothing(self, tmp_path: Path) -> None:
         assert detect(tmp_path, []) == nothing()

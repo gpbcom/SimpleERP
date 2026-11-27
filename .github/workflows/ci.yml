@@ -1,8 +1,8 @@
 name: ci
 
 # The entry point of the pipeline (AGENT.md, "CI/CD"): detect what changed, check only that (python.yml,
-# typescript.yml, terraform.yml), then build, scan, sign and test the changed images (images.yml), published from
-# develop and master only. The `result` job is the one check that says whether the whole run passed.
+# typescript.yml, terraform.yml, helm.yml), then build, scan, sign and test the changed images (images.yml),
+# published from develop and master only. The `result` job is the one check that says whether the whole run passed.
 
 on:
   push:
@@ -34,6 +34,7 @@ jobs:
       typescript: ${{ steps.detect.outputs.typescript }}
       repository: ${{ steps.detect.outputs.repository }}
       terraform: ${{ steps.detect.outputs.terraform }}
+      helm: ${{ steps.detect.outputs.helm }}
       images: ${{ steps.detect.outputs.images }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -88,6 +89,11 @@ jobs:
     with:
       folders: ${{ needs.changes.outputs.terraform }}
 
+  helm:
+    needs: changes
+    if: needs.changes.outputs.helm == 'true'
+    uses: ./.github/workflows/helm.yml
+
   images:
     needs: [changes, python, typescript, terraform]
     if: ${{ !cancelled() && !contains(needs.*.result, 'failure') && needs.changes.outputs.images != '[]' }}
@@ -101,7 +107,7 @@ jobs:
       publish: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/master') }}
 
   result:
-    needs: [changes, python, typescript, terraform, images]
+    needs: [changes, python, typescript, terraform, helm, images]
     if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 5

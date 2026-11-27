@@ -1,0 +1,3 @@
+public_paths:
+  - /v1/health
+error_codes_path: conf/catalogs/error_codes.yaml

@@ -1,0 +1,16 @@
+$ uv run ruff check tests/ci/check_helm/test_check_helm.py tests/ci/detect_changes/helm/test_helm_changes.py tests/ci/detect_changes/helpers.py tests/ci/detect_changes/test_detect_changes.py tests/ci/detect_changes/test_repository_layout.py tests/ci/detect_changes/test_shared_changes.py tests/ci/release/test_release_workflow.py tests/ci/workflows/checks/helm/test_helm_workflow.py tests/ci/workflows/test_ci_workflow.py tests/ci/workflows/test_workflow_security.py tests/infra/helm/test_charts.py tests/infra/helm/test_rendering.py tests/infra/helm/test_values.py
+(cwd ., on the ticket's own files only)
+
+All checks passed!
+Using CPython 3.13.15
+Creating virtual environment at: .venv
+   Building erp-config @ file:///tmp/erp-checks-9dv5am0j/backend/shared/config
+   Building erp-lifecycle @ file:///tmp/erp-checks-9dv5am0j/backend/shared/lifecycle
+   Building erp-logging @ file:///tmp/erp-checks-9dv5am0j/backend/shared/logging
+      Built erp-config @ file:///tmp/erp-checks-9dv5am0j/backend/shared/config
+      Built erp-lifecycle @ file:///tmp/erp-checks-9dv5am0j/backend/shared/lifecycle
+      Built erp-logging @ file:///tmp/erp-checks-9dv5am0j/backend/shared/logging
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 26 packages in 211ms

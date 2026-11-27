@@ -16,8 +16,16 @@ NAME = "ci.yml"
 
 
 class TestCiWorkflow:
-    OUTPUT_KEYS: ClassVar[Set[str]] = {"services", "packages", "typescript", "repository", "terraform", "images"}
-    JOBS: ClassVar[Set[str]] = {"changes", "python", "typescript", "terraform", "images", "result"}
+    OUTPUT_KEYS: ClassVar[Set[str]] = {
+        "services",
+        "packages",
+        "typescript",
+        "repository",
+        "terraform",
+        "helm",
+        "images",
+    }
+    JOBS: ClassVar[Set[str]] = {"changes", "python", "typescript", "terraform", "helm", "images", "result"}
     PUSH_BRANCHES: ClassVar[List[str]] = ["master", "develop", "release/**", "hotfix/**"]
     PULL_REQUEST_BASES: ClassVar[List[str]] = ["develop", "master", "release/**"]
     CHECK_JOBS: ClassVar[Set[str]] = {"changes", "python", "typescript", "terraform"}
@@ -82,6 +90,7 @@ class TestCiWorkflow:
             ),
             ("typescript", "typescript.yml", ["needs.changes.outputs.typescript"]),
             ("terraform", "terraform.yml", ["needs.changes.outputs.terraform"]),
+            ("helm", "helm.yml", ["needs.changes.outputs.helm == 'true'"]),
         ],
     )
     def test_each_language_job_calls_its_workflow_under_its_condition(

@@ -18,15 +18,28 @@ console script or an argument parser, and `tests/conventions/entrypoints/` fails
 | What a command would have done | How it is done |
 |---|---|
 | Serve the service | uvicorn serves the application factory |
-| Export the OpenAPI document | The application serves it at `/openapi.json`; a script of `.github/scripts/` writes the committed copy |
-| Check the contract | A test of the service's `tests/`, run by CI |
+| Export the OpenAPI document | The application serves it at `/openapi.json`; `.github/scripts/export_openapi.py` writes the committed copy |
+| Check the contract | The tests of `backend/services/platform/tests/contracts/`, run by CI through `.github/scripts/check_contract.sh` |
 | Run a job beside the service | An `AsyncRunnable` that the application's lifespan initialises and closes |
 | Run an operation a person starts | An endpoint, behind the rights it needs |
 
 ## HTTP
 
-None yet. When the first endpoint is added, this chapter lists each one (method, path, request, response, errors), its
+Each endpoint is listed here as it is added, this chapter lists each one (method, path, request, response, errors), its
 OpenAPI definition, and its requests in the Bruno collection `bruno/`.
+
+**OpenAPI of the platform service.** As [REQ-T05-01](../../specs/03-technical/t05-api-and-webhooks/requirements/req-t05-01-rest-openapi.md) and the registry of [I-T05-02](../../specs/03-technical/t05-api-and-webhooks/interfaces/i-t05-02-openapi-registry.md) require, `platform` serves its OpenAPI document, generated from its code, at the FastAPI
+OpenAPI URL (`/openapi.json`). The same document is committed at `backend/services/platform/openapi.json`, and the
+tests of `backend/services/platform/tests/contracts/` ([REQ-T05-05](../../specs/03-technical/t05-api-and-webhooks/requirements/req-t05-05-contract-tests.md)) fail when the committed copy differs from the served one. A stale
+copy fails CI. To regenerate it after a change of the API:
+
+```bash
+uv run --package platform python .github/scripts/export_openapi.py backend/services/platform
+```
+
+The script exits 0 when it writes the document, and 2 with one line on stderr when the folder has no single package or
+the application cannot be built. The contract tests also compare the document with the one of a base commit, given in
+`ERP_CONTRACT_BASELINE`, as described in [CI/CD](../delivery/ci-cd-and-stages.md#workflows).
 
 **Company and user headers.** Every request carries the company (`X-Company-Id`) and the user (`X-User-Id`) headers. The
 `CompanyContextMiddleware` of [`erp_context`](../../../backend/shared/context/README.md) checks them on every path that is

@@ -1,0 +1,7 @@
+$ helm lint infra/helm
+(cwd ., on the ticket's own files only)
+
+==> Linting infra/helm
+[INFO] Chart.yaml: icon is recommended
+
+1 chart(s) linted, 0 chart(s) failed
