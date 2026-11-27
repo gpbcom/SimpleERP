@@ -1,0 +1,10 @@
+{
+  "extends": "@simpleerp/config/tsconfig",
+  "compilerOptions": {
+    "noEmit": true,
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "resolveJsonModule": true,
+    "types": ["vite/client"]
+  },
+  "include": ["src", "tests", "vitest.config.ts"]
+}

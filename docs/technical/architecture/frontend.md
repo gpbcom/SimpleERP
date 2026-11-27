@@ -8,6 +8,12 @@ target is built yet.
 No front end app is built yet. [`frontend/packages/config`](../../../frontend/packages/config/)
 (`@simpleerp/config`) holds the shared settings that every front end extends: the ESLint flat config
 (`@simpleerp/config/eslint`) and the strict TypeScript settings (`@simpleerp/config/tsconfig`).
+[`frontend/packages/i18n`](../../../frontend/packages/i18n/README.md) (`@simpleerp/i18n`) holds the French and English
+message catalogues of [D21](../../specs/06-decisions/foundations/d21-languages.md), the formatting of dates, numbers and
+money per locale, with money as an exact decimal ([REQ-T10-03](../../specs/03-technical/t10-translations-and-notifications/requirements/req-t10-03-money-decimals.md)),
+a language switch without reloading, and a check that fails CI when a key is missing in one language
+([REQ-T10-01](../../specs/03-technical/t10-translations-and-notifications/requirements/req-t10-01-translation-catalogues.md),
+review workflow in P2). It is built on Vue 3 and the platform `Intl` API ([D407](../../specs/06-decisions/technical/d407-front-end.md)).
 
 ## Target design (specified in GH-2, not built yet)
 

@@ -1,0 +1,8 @@
+$ pnpm -r --if-present lint
+(cwd ., on the ticket's own files only)
+
+Scope: 5 of 6 workspace projects
+frontend/packages/config lint$ eslint .
+frontend/packages/config lint: Done
+frontend/packages/i18n lint$ eslint .
+frontend/packages/i18n lint: Done
