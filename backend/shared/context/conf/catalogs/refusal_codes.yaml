@@ -1,0 +1,38 @@
+# Refusal catalogue: one code per reason a request is refused, with its HTTP status and its message keys.
+# Keys only: the texts belong to the translation catalogues, and nothing here is a secret.
+entries:
+  - reason: no-company
+    code: CONTEXT-COMPANY-01
+    status: 400
+    title_key: errors.context.no_company.title
+    why_key: errors.context.no_company.why
+    action_key: errors.context.no_company.action
+    reference: CONTEXT-COMPANY-01
+  - reason: no-user
+    code: CONTEXT-USER-01
+    status: 401
+    title_key: errors.context.no_user.title
+    why_key: errors.context.no_user.why
+    action_key: errors.context.no_user.action
+    reference: CONTEXT-USER-01
+  - reason: no-policy
+    code: RIGHTS-DENIED-01
+    status: 403
+    title_key: errors.rights.no_policy.title
+    why_key: errors.rights.no_policy.why
+    action_key: errors.rights.no_policy.action
+    reference: RIGHTS-DENIED-01
+  - reason: policy-denied
+    code: RIGHTS-DENIED-02
+    status: 403
+    title_key: errors.rights.policy_denied.title
+    why_key: errors.rights.policy_denied.why
+    action_key: errors.rights.policy_denied.action
+    reference: RIGHTS-DENIED-02
+  - reason: other-company
+    code: RIGHTS-COMPANY-01
+    status: 403
+    title_key: errors.rights.other_company.title
+    why_key: errors.rights.other_company.why
+    action_key: errors.rights.other_company.action
+    reference: RIGHTS-COMPANY-01

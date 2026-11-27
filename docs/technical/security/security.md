@@ -4,7 +4,10 @@ Threats, controls, secrets, sign-in, encryption, audits. Nothing of it is built 
 
 ## Today
 
-Nothing built yet.
+**Rights.** The library `backend/shared/context` ([README](../../../backend/shared/context/README.md)) decides every
+action through `allowed(user, action, record)`. It denies by default, and a deny wins over any allow. A record of another
+company is refused. Every refusal is logged with its code, who asked, what was asked and why. The audit trail writer
+that keeps these logs comes later, in ticket T0.10.
 
 ## Target design (specified in GH-2, not built yet)
 
