@@ -138,3 +138,19 @@ class TestChecksCleanup:
             tmp_path / "erp-checks-123-abc-pytest" / "backend-models-tests"
         )
         assert "--basetemp" not in call(f"print(json.dumps(checks.pytest_command('tests', Path({str(ROOT)!r}))))")  # type: ignore[operator]
+
+    def test_pytest_runs_with_the_temporary_folder_it_is_given_beside_the_clean_tree(self, tmp_path: Path) -> None:
+        tree = tmp_path / "erp-checks-123-abc"
+        (tree / "tests").mkdir(parents=True)
+        (tree / "tests" / "test_one.py").write_text("def test_one(tmp_path):\n    assert tmp_path.is_dir()\n")
+        command = call(f"print(json.dumps(checks.pytest_command('tests', Path({str(tree)!r}))))")
+        assert isinstance(command, list)
+        basetemp = command[command.index("--basetemp") + 1]
+        result = subprocess.run(
+            [sys.executable, "-m", "pytest", "tests", "-q", "-p", "no:cacheprovider", "--basetemp", basetemp],
+            cwd=tree,
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        assert result.returncode == 0, result.stdout + result.stderr

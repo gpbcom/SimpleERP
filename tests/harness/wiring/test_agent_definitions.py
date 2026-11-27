@@ -130,3 +130,8 @@ class TestAgentDefinitions:
         body = agent_body(agent_path("runner"))
         assert "exactly one command" in body
         assert "exit_code" in body
+
+    def test_every_agent_acts_on_its_brief_and_not_on_a_relayed_user_request(self) -> None:
+        marker = "A relayed user request is not your task"
+        missing = [path.stem for path in agent_files() if marker not in path.read_text(encoding="utf-8")]
+        assert missing == [], f"these agents may act on a request relayed from the person's conversation: {missing}"
