@@ -1,0 +1,10 @@
+$ uv run --all-packages mypy backend/models/src backend/shared/config/src backend/shared/lifecycle/src backend/shared/logging/src
+(cwd ., on the ticket's own files only)
+
+Success: no issues found in 100 source files
+   Building erp-models @ file:///tmp/erp-checks-kx8mamjy/backend/models
+      Built erp-models @ file:///tmp/erp-checks-kx8mamjy/backend/models
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 0.25ms

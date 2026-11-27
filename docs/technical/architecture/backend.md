@@ -9,6 +9,13 @@ The back end today is the Python 3.13 code under `src/`, described in [Architect
 
 Ticket T0.05 builds the first shared library, `backend/shared/lifecycle` (package `erp_lifecycle`): the `Runnable` and `AsyncRunnable` base classes with `initialize()`, `run()`, `close()` and `execute()`, which always closes, and the abstract `RunnableFactory` that every concrete factory subclasses, as set by [D406](../../specs/06-decisions/technical/d406-back-end.md) and [AGENT.md](../../../AGENT.md#lifecycle-and-factories) ("Lifecycle and factories").
 
+The shared libraries `backend/shared/logging` (package `erp_logging`, [pyproject](../../../backend/shared/logging/pyproject.toml))
+and `backend/shared/config` (package `erp_config`, [pyproject](../../../backend/shared/config/pyproject.toml)) exist too.
+They hold no business rules: logging writes each line to the console and to the files of `logs/`, and configuration loads
+each service's `conf/app.yaml` ([Configuration](configuration.md#shared-configuration-library-erp_config)). They sit in
+the `backend/shared/` folder of [D438](../../specs/06-decisions/technical/d438-repository-layout.md) and follow
+[D406](../../specs/06-decisions/technical/d406-back-end.md).
+
 ## Target design (specified in GH-2, not built yet)
 
 **Language and framework (D406).** Python 3.13 with uv, Pydantic models and the api → service → storage layers

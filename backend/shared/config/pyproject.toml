@@ -1,0 +1,14 @@
+[project]
+name = "erp-config"
+version = "0.1.0"
+description = "The configuration loading every SimpleERP service shares."
+license = "AGPL-3.0-only"
+requires-python = ">=3.13,<3.14"
+dependencies = ["pydantic>=2.9", "pyyaml>=6.0"]
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "erp_config"

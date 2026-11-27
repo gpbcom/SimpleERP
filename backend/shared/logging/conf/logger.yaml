@@ -1,0 +1,72 @@
+version: 1
+disable_existing_loggers: false
+
+filters:
+  context:
+    "()": erp_logging.filters.context_filter.ContextFilter
+    # LoggingSetup replaces the service at run time. The default is written out.
+    service: simpleerp
+
+formatters:
+  console:
+    "()": colorlog.ColoredFormatter
+    format: &format "%(asctime)s.%(msecs)03d - %(log_color)s%(levelname)s%(reset)s - %(cyan)s%(name)s%(reset)s - %(service)s - %(company)s - %(request)s - %(processName)s:%(process)d - %(threadName)s:%(thread)d - %(taskName)s - %(cyan)s%(filename)s:%(lineno)d%(reset)s - %(funcName)s - %(message_log_color)s%(message)s"
+    datefmt: &datefmt "%Y-%m-%dT%H:%M:%S"
+    # Colour is left out when the output is piped, so that a program reading it gets plain text.
+    stream: ext://sys.stdout
+    log_colors: &log_colors
+      DEBUG: white
+      INFO: green
+      WARNING: yellow
+      ERROR: red
+      CRITICAL: bold_red,bg_white
+    secondary_log_colors: &secondary_log_colors
+      message:
+        WARNING: yellow
+        ERROR: red
+        CRITICAL: bold_red
+  file:
+    "()": colorlog.ColoredFormatter
+    format: *format
+    datefmt: *datefmt
+    # A file is not a terminal, so colour has to be forced. Read it with `tail -f` or `less -R`.
+    force_color: true
+    log_colors: *log_colors
+    secondary_log_colors: *secondary_log_colors
+  # JSON lines, one object per record, for a collector.
+  json:
+    "()": erp_logging.formatters.json_lines_formatter.JsonLinesFormatter
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: console
+    filters: [context]
+    stream: ext://sys.stdout
+  file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: file
+    filters: [context]
+    filename: logs/simpleerp.log
+    maxBytes: 10485760 # 10 MiB
+    backupCount: 5
+    encoding: utf-8
+  json:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: json
+    filters: [context]
+    filename: logs/simpleerp.jsonl
+    maxBytes: 10485760 # 10 MiB
+    backupCount: 5
+    encoding: utf-8
+
+loggers:
+  asyncio:
+    level: WARNING
+
+root:
+  level: DEBUG
+  handlers: [console, file, json]
