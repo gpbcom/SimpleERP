@@ -1,7 +1,7 @@
 [project]
 name = "erp-sdk"
 version = "0.1.0"
-description = "The SimpleERP plugin SDK and its command line."
+description = "The SimpleERP plugin SDK, a library with no command line."
 readme = "README.md"
 license = "AGPL-3.0-only"
 requires-python = ">=3.13,<3.14"

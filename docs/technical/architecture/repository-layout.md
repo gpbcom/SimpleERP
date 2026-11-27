@@ -41,13 +41,13 @@ backend/
         models/      the service's private models
         storage/     the repositories
         service/     the business logic
-        api/         the endpoints
+        api/         the FastAPI application: routers, handlers, the app factory
 frontend/
   backoffice/        one web app (D407)
   portals/           customer and supplier portals
   mobile/            the offline-first app
 plugins/             first-party plugins, built on backend/models/
-sdk/                 the plugin SDK and its CLI (D425), built on backend/models/
+sdk/                 the plugin SDK (D425), built on backend/models/
 infra/
   compose/           laptop and one-server profiles (D408, D421)
   helm/              an umbrella chart and a chart per service
@@ -70,7 +70,10 @@ compose.e2e.yaml     the real images for Playwright (AGENT.md)
   imports another service.
 - `backend/models/` is the one shared Pydantic models library: services, `plugins/` and `sdk/` import it, so that every
   public contract is defined once.
-- Plugins and the SDK are separate: `plugins/` holds first-party plugins, `sdk/` the plugin SDK and CLI.
+- Plugins and the SDK are separate: `plugins/` holds first-party plugins, `sdk/` the plugin SDK.
+- No package has a command line: every service is a regular FastAPI application, built by its application factory and
+  served by uvicorn, and no package of `backend/`, `plugins/` or `sdk/` holds a `cli` module, a `__main__.py` or a
+  console script ([D406](../../specs/06-decisions/technical/d406-back-end.md), `AGENT.md`, "Layout").
 - Outside this repository: the closed hosted services (D388, D415), the store's plugins and generated features, and the
   private GitOps repository of the hosted clusters (D420).
 - AGENT.md's "Mono-repo" section and the conventions tests (`tests/conventions/`) follow this layout since

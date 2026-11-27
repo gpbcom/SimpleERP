@@ -35,4 +35,4 @@ The data migration chapter's target design.
 ---
 
 ⬅️ [D423 Release train and long-term support](d423-release-train-and-lts.md) · ⬆️ [Up](README.md) ·
-➡️ [D425 Plugin SDK and CLI](d425-plugin-sdk-and-cli.md)
+➡️ [D425 Plugin SDK and developer tools](d425-plugin-sdk-and-cli.md)

@@ -12,6 +12,14 @@ The back end today is the Python 3.13 code under `src/`, described in [Architect
 **Language and framework (D406).** Python 3.13 with uv, Pydantic models and the api → service → storage layers
 (`AGENT.md`); FastAPI for the HTTP services.
 
+**A regular FastAPI application (D406, 2026-11-27).** Every service is a regular FastAPI application. Its `api` layer is
+the application: the routers, their dependencies, the middlewares and the exception handlers, and the application
+factory `AppFactory.create()` in `api/app_factory.py`, which reads `conf/app.yaml`, configures logging and returns the
+application. uvicorn serves it (`uvicorn --factory <service_pkg>.api.app_factory:AppFactory.create`), in the image and on
+a laptop. There is never a `cli` module, a console script or an argument parser: a job runs beside the application as an
+`AsyncRunnable` its lifespan initialises and closes, an operation a person starts is an endpoint, a check is a test, and
+a CI step is a script of `.github/scripts/` (`AGENT.md`, "Layout").
+
 **Contracts (TC-07).** Each service publishes its OpenAPI generated from its Pydantic models; the MCP tools, A2A skills,
 typed clients between services and the Bruno collection are generated from it, so that one change updates all; breaking
 changes are caught in CI.

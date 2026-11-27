@@ -7,7 +7,7 @@ so that business rules live in one place and storage can change without touching
 
 ```mermaid
 flowchart TD
-    api["api: command line, HTTP routes"] --> service["service: business rules"]
+    api["api: the FastAPI application"] --> service["service: business rules"]
     service --> storage["storage: reading and writing data"]
     api --> models["models: Pydantic models, enums, exceptions"]
     service --> models
@@ -15,6 +15,9 @@ flowchart TD
 ```
 
 - `api` never imports `storage`, and no layer imports one above it. `tests/conventions/test_layers.py` enforces it.
+- Every service is a regular FastAPI application: its `api` layer is the application, built by `AppFactory.create()`
+  and served by uvicorn. No package has a command line, and `tests/conventions/entrypoints/` enforces it
+  ([D406](../../specs/06-decisions/technical/d406-back-end.md), `AGENT.md`, "Layout").
 - Every runnable class has the `initialize()`, `run()`, `close()` lifecycle and is built by a factory
   (`AGENT.md`, "Lifecycle and factories").
 - Each class has its own file, and a folder holds five Python files at most.
@@ -99,4 +102,4 @@ flowchart LR
 
 Decided in [D405](../../specs/06-decisions/technical/d405-architecture-and-scalability.md).
 
-Last reviewed: 2026-11-12 (GH-2)
+Last reviewed: 2026-11-27 (GH-2)

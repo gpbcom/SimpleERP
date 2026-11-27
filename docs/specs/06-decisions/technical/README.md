@@ -35,7 +35,7 @@ The decisions of this theme, in number order.
 | 📜 | D422 | [Backups and recovery targets](d422-backups-and-recovery.md) | ✅ |
 | 📜 | D423 | [Release train and long-term support](d423-release-train-and-lts.md) | ✅ |
 | 📜 | D424 | [Importers from other ERPs](d424-importers.md) | ✅ |
-| 📜 | D425 | [Plugin SDK and CLI](d425-plugin-sdk-and-cli.md) | ✅ |
+| 📜 | D425 | [Plugin SDK and developer tools](d425-plugin-sdk-and-cli.md) | ✅ |
 | 📜 | D426 | [Testing strategy](d426-testing-strategy.md) | ✅ |
 | 📜 | D438 | [Repository layout](d438-repository-layout.md) | ✅ |
 | 📜 | D444 | [Backup targets per edition](d444-backups-per-edition.md) | ✅ |

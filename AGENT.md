@@ -22,6 +22,8 @@ pnpm --filter ./frontend/<app> run typecheck
   `ruff format --check`, `mypy` and `pytest` for each Python package (`python.yml`), and lint, type check and tests for
   each front end (`typescript.yml`). All of them must pass.
 - Run a service's tests with `--package <service>`, from its own `tests/` folder.
+- Serve a service on a laptop from its folder, `backend/services/<service>/`, with
+  `uv run --package <service> uvicorn --factory <service_pkg>.api.app_factory:AppFactory.create --port 8000`.
 - Run tests one file or one folder at a time.
 - Format only the files you edited, never a whole folder.
 
@@ -31,7 +33,7 @@ Each back-end service holds these layers, under its own package, in `backend/ser
 
 | Path | Holds |
 | --- | --- |
-| `src/<service_pkg>/api/` | The entry points: HTTP routes and the command line. They call `service` and hold no business rules |
+| `src/<service_pkg>/api/` | The FastAPI application: its routers, their dependencies, middlewares and exception handlers, and its application factory. They call `service` and hold no business rules |
 | `src/<service_pkg>/service/` | The business rules, one package per concern |
 | `src/<service_pkg>/storage/` | Reading and writing data, and nothing else: the repositories |
 | `src/<service_pkg>/models/` | The service's own Pydantic models, enums and their exceptions. They only load and validate, and never log |
@@ -48,6 +50,30 @@ with the same rules as a `models` layer.
 Each layer only calls the one below it: `api` imports `service`, and `service` imports `storage`. All three import
 `models`, and `models` imports none of them. `api` never imports `storage`, and no layer imports one above it. Any
 layer may import `erp_models`, which imports no service and no library of `backend/shared/`.
+
+**Every service is a regular FastAPI application, and no package has a command line.**
+
+- A service's `api/` layer is its FastAPI application: the versioned routers (`/v1`) of `api/http/`, their `Depends`
+  providers, the middlewares and the exception handlers, and `api/app_factory.py`. `AppFactory.create()`, a
+  `@classmethod` that takes no argument, reads `conf/app.yaml` in the working folder, configures logging from
+  `conf/logger.yaml` and returns the `FastAPI` application.
+- uvicorn serves it, in the image and on a laptop:
+  `uvicorn --factory <service_pkg>.api.app_factory:AppFactory.create --host <host> --port <port>`. The address and the
+  port are uvicorn's options, never the service's configuration.
+- **NEVER a `cli` module or package** (`cli.py`, `cli/`, `<name>_cli.py`, `cli_<name>.py`), a `__main__.py`, a console
+  script (`[project.scripts]` or any other) in a `pyproject.toml`, an argument parser (`argparse`, `click`, `typer`) or
+  a read of `sys.argv`, in any package of `backend/`, `plugins/` or `sdk/`. Only the harness (`.claude/`) and CI
+  (`.github/`) keep command lines.
+- What a command would have done is done the FastAPI way:
+
+  | Instead of a command that | Do |
+  | --- | --- |
+  | Serves the service | uvicorn serves the application factory |
+  | Exports the OpenAPI document | The application serves it at `/openapi.json`, and a script of `.github/scripts/` writes the committed copy from `app.openapi()` |
+  | Checks a contract or a generated file | A test in the service's `tests/`, which CI runs with the others |
+  | Runs a job beside the service (a consumer, a scheduler, the outbox relay) | An `AsyncRunnable` that the application's lifespan initialises at startup and closes at shutdown |
+  | Runs an operation a person starts (an import, a re-index) | An endpoint, behind the rights it needs, that starts the job's runnable |
+  | Runs a CI or release step | A script of `.github/scripts/` |
 
 Elsewhere in this file:
 
@@ -76,7 +102,7 @@ ends, each with its own Docker image. The first tickets of phase P0 create this 
 | `frontend/mobile/` | The offline-first mobile app, a progressive web app |
 | `frontend/packages/<pkg>/` | The shared TypeScript packages: design tokens, components, API client |
 | `plugins/<plugin>/` | The first-party plugins, built on `backend/models/` |
-| `sdk/` | The plugin SDK and its command line |
+| `sdk/` | The plugin SDK ([D425](docs/specs/06-decisions/technical/d425-plugin-sdk-and-cli.md)), built on `backend/models/` |
 | `infra/compose/`, `infra/helm/`, `infra/terraform/` | The laptop and one-server Compose profiles, the Helm charts, the Terraform modules and cloud deployments |
 | `packs/countries/`, `packs/sectors/` | The country and sector packs, as data |
 | `tests/` | The repository-level tests: `tests/harness/`, `tests/ci/`, and `tests/conventions/`, the [rules a test enforces](#rules-a-test-enforces), run against every Python package |
@@ -102,6 +128,8 @@ The Python rules in this file apply to `backend/`, `plugins/` and `sdk/`. They d
 
 - Each service and front end has exactly one image, built by a multi-stage `Dockerfile` in its own folder.
 - The build context is the repository root, because the shared `uv.lock` and `pnpm-lock.yaml` are there.
+- A service's image runs uvicorn on its application factory, listening on `0.0.0.0` inside the container. It has no
+  console script of its own.
 
 **Front ends**
 
@@ -137,6 +165,9 @@ Each step must pass before the next one starts:
 - A nested function.
 - `@staticmethod`. Use an instance method or a `@classmethod`.
 - `Any`. See [Typing](#typing).
+- A command line, in the packages of `backend/`, `plugins/` and `sdk/`: a `cli` module or package, a `__main__.py`, a
+  console script in a `pyproject.toml`, and, in `src/`, an argument parser or a read of `sys.argv`. See
+  [Layout](#layout).
 - An attribute starting with an underscore: `self.process`, never `self._process`. Methods may start with one. The only
   exception is a name a third-party protocol owns, listed in `tests/conventions/helpers.py`.
 - An import that [Layout](#layout) does not allow.
@@ -164,8 +195,8 @@ count towards the five.
 An `enums/` or `exceptions/` package's `__init__.py` re-exports everything under it, so callers keep importing from the
 package. Other code is imported by its full path: `from service.customers.customer_service import CustomerService`.
 
-Nothing else sits at module level, so there are no module constants, helper functions or module-level loggers. The
-exceptions are a `main()` for a console script and `__all__`. Constants become `ClassVar` attributes in `UPPER_CASE`,
+Nothing else sits at module level, so there are no module constants, helper functions, module-level loggers or
+module-level applications. The only exception is `__all__`. Constants become `ClassVar` attributes in `UPPER_CASE`,
 above the constructor.
 
 Inside a class, the order is: constants and fields, `__init__`, validators, then these two banners. Leave out a banner
@@ -225,10 +256,12 @@ Every runnable class except the nodes subclasses `Runnable` or `AsyncRunnable`, 
 
 - `execute()` on the base class calls all three, and closes whatever happens. Use it unless something runs alongside.
 - They take no arguments. Inputs go to the constructor, and results are read from attributes afterwards, such as
-  `Command.exit_code`.
+  `ImportJob.imported_count`.
 - Runnables are created by an abstract factory in their layer's `factories/` package, with concrete ones in its
-  sub-folders: `ServiceFactory` in `service/factories/`, and `CommandFactory` in `api/factories/`. Do not call a
-  runnable's constructor in `src/` outside a factory.
+  sub-folders: `JobFactory` in `service/factories/`, and `ImportJobFactory` in `service/factories/imports/`. Do not
+  call a runnable's constructor in `src/` outside a factory.
+- The FastAPI application is not a runnable: `AppFactory` builds it and uvicorn runs it. A job that runs beside it is
+  initialised in the application's lifespan and closed when the lifespan ends.
 
 ## Imports
 
@@ -356,7 +389,7 @@ def __init__(self, config: DatabaseConfig, logger: Optional[Logger] = None) -> N
 - `DEBUG` lines are written by default, because the root level in `conf/logger.yaml` is `DEBUG`. Keep them short.
 - **Never log a secret or a typed value.** If an error might quote one, log `type(error).__name__`.
 - `models` never logs. It raises.
-- Only `api/cli/` uses `print`, because that output is for the person at the terminal.
+- Nothing in `src/` uses `print`: a service answers through its HTTP API and reports through its logs.
 
 ## Pydantic models
 

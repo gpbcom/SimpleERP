@@ -2,13 +2,26 @@
 
 The entry points of SimpleERP: what calls it, and how.
 
-## Command line
+## How a service is served
 
-| Command | Defined in | Does |
-|---|---|---|
-| `SimpleERP` | `src/api/cli/main.py` (`[project.scripts]` in `pyproject.toml`) | Prints a greeting. It is the place where commands will be added, through `api/factories/` |
+Every service is a regular FastAPI application ([D406](../../specs/06-decisions/technical/d406-back-end.md)). Its `api`
+layer is the application, and `AppFactory.create()` in `api/app_factory.py` builds it: it reads `conf/app.yaml`,
+configures logging and returns the `FastAPI` application. uvicorn serves it, in the image and on a laptop:
 
-Only `api/cli/` prints to the terminal; every other layer logs.
+```bash
+uvicorn --factory <service_pkg>.api.app_factory:AppFactory.create --host <host> --port <port>
+```
+
+SimpleERP has no command line. No package of `backend/`, `plugins/` or `sdk/` holds a `cli` module, a `__main__.py`, a
+console script or an argument parser, and `tests/conventions/entrypoints/` fails on any of them (`AGENT.md`, "Layout").
+
+| What a command would have done | How it is done |
+|---|---|
+| Serve the service | uvicorn serves the application factory |
+| Export the OpenAPI document | The application serves it at `/openapi.json`; a script of `.github/scripts/` writes the committed copy |
+| Check the contract | A test of the service's `tests/`, run by CI |
+| Run a job beside the service | An `AsyncRunnable` that the application's lifespan initialises and closes |
+| Run an operation a person starts | An endpoint, behind the rights it needs |
 
 ## HTTP
 
@@ -29,4 +42,4 @@ The MCP and A2A entry points are in [MCP](mcp.md) and [A2A](a2a.md).
 
 Decided in [D410](../../specs/06-decisions/technical/d410-api-style-and-auth.md).
 
-Last reviewed: 2026-11-12 (GH-2)
+Last reviewed: 2026-11-27 (GH-2)

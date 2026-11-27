@@ -35,5 +35,5 @@ The tests chapter's target design; TEST-1 to TEST-9 apply.
 
 ---
 
-⬅️ [D425 Plugin SDK and CLI](d425-plugin-sdk-and-cli.md) · ⬆️ [Up](README.md) ·
+⬅️ [D425 Plugin SDK and developer tools](d425-plugin-sdk-and-cli.md) · ⬆️ [Up](README.md) ·
 ➡️ [D427 Integrations hub](../f24-integrations-hub/d427-integrations-hub-coverage.md)

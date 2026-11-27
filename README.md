@@ -315,7 +315,7 @@ SimpleERP/
 │   ├── mobile/              # the offline-first app
 │   └── packages/<pkg>/      # shared TypeScript packages: design tokens, components, API client
 ├── plugins/                 # first-party plugins, built on backend/models
-├── sdk/                     # the plugin SDK and its command line
+├── sdk/                     # the plugin SDK, a library with no command line
 ├── infra/                   # compose/ (laptop, one server), helm/, terraform/ (modules, OVHcloud, Scaleway)
 ├── packs/                   # countries/ and sectors/, as data
 ├── docs/                    # specs/, functional/, technical/
