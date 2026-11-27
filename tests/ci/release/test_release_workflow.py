@@ -13,12 +13,13 @@ NAME = "release.yml"
 
 
 class TestReleaseWorkflow:
-    SUITES: ClassVar[List[str]] = ["python", "typescript"]
+    SUITES: ClassVar[List[str]] = ["python", "typescript", "terraform"]
     REPORTS: ClassVar[List[Tuple[str, str, str]]] = [
         ("python.yml", "services", "test-report-python-"),
         ("python.yml", "packages", "test-report-python-"),
         ("python.yml", "repository", "test-report-python-repository"),
         ("typescript.yml", "check", "test-report-ts-"),
+        ("terraform.yml", "check", "test-report-terraform-"),
     ]
 
     def test_a_release_is_started_by_hand_from_develop_only(self) -> None:
@@ -64,6 +65,14 @@ class TestReleaseWorkflow:
         assert len(uploads) == 1
         assert uploads[0]["if"] == "always()"
         assert str(with_of(uploads[0])["name"]).startswith(artifact)
+
+    def test_the_terraform_suite_gets_the_folders_of_the_changes_job(self) -> None:
+        inputs = cast(Dict[str, str], jobs(NAME)["terraform"]["with"])
+        assert inputs == {"folders": "${{ needs.changes.outputs.terraform }}"}
+        assert "terraform" in cast(Dict[str, str], jobs(NAME)["changes"]["outputs"])
+
+    def test_terraform_writes_junit_reports(self) -> None:
+        assert "-junit-xml=" in runs("terraform.yml", "check")
 
     def test_pytest_writes_junit_reports(self) -> None:
         assert "--junitxml=" in runs("python.yml", "repository")

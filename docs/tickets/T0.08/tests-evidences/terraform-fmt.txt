@@ -1,0 +1,4 @@
+$ terraform fmt -check -recursive infra/terraform
+(cwd ., on the ticket's own files only)
+
+

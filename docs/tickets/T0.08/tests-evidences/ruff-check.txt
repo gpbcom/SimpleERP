@@ -1,0 +1,10 @@
+$ uv run ruff check tests/ci/detect_changes/helpers.py tests/ci/detect_changes/terraform/test_terraform.py tests/ci/detect_changes/test_detect_changes.py tests/ci/detect_changes/test_repository_layout.py tests/ci/detect_changes/test_shared_changes.py tests/ci/release/test_release_workflow.py tests/ci/workflows/checks/test_terraform_workflow.py tests/ci/workflows/test_ci_workflow.py tests/ci/workflows/test_workflow_security.py tests/infra/terraform/helpers.py tests/infra/terraform/test_terraform_roots.py tests/infra/terraform/test_terraform_state_and_credentials.py
+(cwd ., on the ticket's own files only)
+
+All checks passed!
+Using CPython 3.13.15
+Creating virtual environment at: .venv
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 22 packages in 235ms

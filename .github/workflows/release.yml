@@ -66,6 +66,7 @@ jobs:
       services: ${{ steps.detect.outputs.services }}
       packages: ${{ steps.detect.outputs.packages }}
       typescript: ${{ steps.detect.outputs.typescript }}
+      terraform: ${{ steps.detect.outputs.terraform }}
       repository: ${{ steps.detect.outputs.repository }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -93,8 +94,15 @@ jobs:
     with:
       projects: ${{ needs.changes.outputs.typescript }}
 
+  terraform:
+    needs: changes
+    if: needs.changes.outputs.terraform != '[]'
+    uses: ./.github/workflows/terraform.yml
+    with:
+      folders: ${{ needs.changes.outputs.terraform }}
+
   prepare:
-    needs: [version, changes, python, typescript]
+    needs: [version, changes, python, typescript, terraform]
     if: >-
       always() && needs.version.result == 'success' && needs.changes.result == 'success'
       && !contains(needs.*.result, 'failure') && !contains(needs.*.result, 'cancelled')

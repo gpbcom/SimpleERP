@@ -46,9 +46,10 @@ The pipeline below comes with the CI/CD change that follows the harness port. Un
 
 | Workflow | Runs on | Does |
 |---|---|---|
-| `ci.yml` | Every push to a GitFlow branch, every pull request to `develop` or `master` | Detects what changed, then calls `python.yml`, `typescript.yml` and `images.yml` for the services, packages and front ends concerned; one final job fails when any of them failed. Every run keeps its test reports as `test-report-*` artifacts, failed runs included |
+| `ci.yml` | Every push to a GitFlow branch, every pull request to `develop` or `master` | Detects what changed, then calls `python.yml`, `typescript.yml`, `terraform.yml` and `images.yml` for the services, packages, front ends and Terraform folders concerned; one final job fails when any of them failed. Every run keeps its test reports as `test-report-*` artifacts, failed runs included |
 | `python.yml` | Called by CI | For each changed Python package: `uv sync --locked`, `ruff check`, `ruff format --check`, `mypy` and `pytest -n 2` with its JUnit report; and the repository-level tests of `tests/` |
 | `typescript.yml` | Called by CI | For each changed front end and TypeScript package: `pnpm install --frozen-lockfile`, lint, type check and tests |
+| `terraform.yml` | Called by CI | For each changed Terraform folder (a root or a module of `infra/terraform/`): `terraform fmt -check -recursive`, `init -backend=false`, `validate` and `terraform test` where the folder has a `tests/` folder, with its JUnit report kept as `test-report-terraform-*` |
 | `images.yml` | Called by CI | Builds one image per changed service and front end (repository root as context), runs Playwright against the real images of `compose.e2e.yaml`, then signs and pushes the images tagged with the commit SHA, from `develop` and `master` only |
 | `gitflow.yml` | Every pull request | Checks that the branch is a GitFlow branch, that it targets the right base, and that a ticket's title starts with its ID |
 | `automerge.yml` | A pull request labelled `automerge` whose checks passed | Merges it with a merge commit once every check passed on its head commit, which closes its issue, then deletes its head branch unless it moved. For a release: tags `v<version>`, publishes the GitHub release and brings the branch back to `develop` |
@@ -56,7 +57,8 @@ The pipeline below comes with the CI/CD change that follows the harness port. Un
 | `stage.yml` | `develop` (dev), `release/**` and `hotfix/**` (QA), or by hand | The ephemeral stage, below |
 
 A change in `backend/models/`, `backend/shared/`, `frontend/packages/`, `uv.lock` or `pnpm-lock.yaml` selects every
-service and front end (`AGENT.md`, "CI/CD"). `ticket_tree.py finish`, run by `/ticket-run`, labels a ticket's pull request `automerge`,
+service and front end (`AGENT.md`, "CI/CD"). A change under `infra/terraform/` selects every Terraform folder, because
+the modules are shared, and the repository-level tests of `tests/`. `ticket_tree.py finish`, run by `/ticket-run`, labels a ticket's pull request `automerge`,
 so a ticket reaches `develop` with no merge by hand; a failing check leaves the pull request open for the person.
 
 ## Stages: dev and QA

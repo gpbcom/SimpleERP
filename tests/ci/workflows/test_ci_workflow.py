@@ -16,11 +16,11 @@ NAME = "ci.yml"
 
 
 class TestCiWorkflow:
-    OUTPUT_KEYS: ClassVar[Set[str]] = {"services", "packages", "typescript", "repository", "images"}
-    JOBS: ClassVar[Set[str]] = {"changes", "python", "typescript", "images", "result"}
+    OUTPUT_KEYS: ClassVar[Set[str]] = {"services", "packages", "typescript", "repository", "terraform", "images"}
+    JOBS: ClassVar[Set[str]] = {"changes", "python", "typescript", "terraform", "images", "result"}
     PUSH_BRANCHES: ClassVar[List[str]] = ["master", "develop", "release/**", "hotfix/**"]
     PULL_REQUEST_BASES: ClassVar[List[str]] = ["develop", "master", "release/**"]
-    CHECK_JOBS: ClassVar[Set[str]] = {"changes", "python", "typescript"}
+    CHECK_JOBS: ClassVar[Set[str]] = {"changes", "python", "typescript", "terraform"}
     IMAGES_PERMISSIONS: ClassVar[Dict[str, str]] = {"contents": "read", "packages": "write", "id-token": "write"}
     IMAGES_CONDITIONS: ClassVar[List[str]] = [
         "!cancelled()",
@@ -81,6 +81,7 @@ class TestCiWorkflow:
                 ],
             ),
             ("typescript", "typescript.yml", ["needs.changes.outputs.typescript"]),
+            ("terraform", "terraform.yml", ["needs.changes.outputs.terraform"]),
         ],
     )
     def test_each_language_job_calls_its_workflow_under_its_condition(
@@ -96,6 +97,9 @@ class TestCiWorkflow:
         assert inputs["services"] == "${{ needs.changes.outputs.services }}"
         assert inputs["packages"] == "${{ needs.changes.outputs.packages }}"
         assert "needs.changes.outputs.repository == 'true'" in inputs["repository"]
+
+    def test_the_terraform_job_receives_the_folders_to_check(self) -> None:
+        assert jobs(NAME)["terraform"]["with"] == {"folders": "${{ needs.changes.outputs.terraform }}"}
 
     def test_the_images_job_waits_for_every_check_and_runs_only_when_none_failed(self) -> None:
         images = jobs(NAME)["images"]

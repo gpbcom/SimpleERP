@@ -43,6 +43,7 @@ class TestSharedChanges:
             ".github/workflows/python.yml",
             ".github/workflows/typescript.yml",
             ".github/workflows/images.yml",
+            ".github/workflows/terraform.yml",
         ],
     )
     def test_a_shared_path_alone_runs_everything(self, tmp_path: Path, path: str) -> None:
