@@ -39,6 +39,10 @@ flowchart LR
 - CI uploads every JUnit report as an artifact; a release gathers them into its test report, kept in the repository
   and attached to the GitHub Release (TKT-26).
 
+## Country-rules tests
+
+The country-rules library's tests (in `backend/shared/country-rules/tests/`) check every rate change of its test pack on the day before and on the day of the change ([REQ-T11-06](../../specs/03-technical/t11-legal-corpora/requirements/req-t11-06-tests-per-date.md), criterion 1).
+
 ## Target design (specified in GH-2, not built yet)
 
 **Levels (D426).** Unit tests first; contract tests generated from each OpenAPI; the Bruno collection on the
@@ -58,4 +62,4 @@ tests; anonymised copies only for the hosted support assistant's reproductions, 
 
 Decided in [D426](../../specs/06-decisions/technical/d426-testing-strategy.md).
 
-Last reviewed: 2026-11-27
+Last reviewed: 2026-11-27 (T0.12)
