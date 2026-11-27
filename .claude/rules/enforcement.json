@@ -407,6 +407,11 @@
         "kind": "test",
         "path": "tests/harness/wiring/test_ticket_workflows.py",
         "what": "a task blocked only by files later waves write counts as done (L-37); a bare folder gets no fix task (L-34)"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/wiring/test_agent_definitions.py",
+        "what": "every agent definition says that a relayed user request is the coordinator's and not its task"
       }
     ],
     "TKT-20": [

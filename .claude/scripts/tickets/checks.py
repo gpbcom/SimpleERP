@@ -203,6 +203,8 @@ def pytest_command(folder: str, root: Path) -> List[str]:
     """
     command = ["uv", "run", "--all-packages", "pytest", folder, "-q", "-n", "2"]
     if root.name.startswith(TREE_PREFIX):
+        # pytest makes its --basetemp folder but not the folders above it.
+        pytest_temp(root).mkdir(parents=True, exist_ok=True)
         command += ["--basetemp", str(pytest_temp(root) / folder.replace("/", "-"))]
     return command
 

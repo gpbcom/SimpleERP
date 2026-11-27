@@ -526,12 +526,18 @@ Approved`; `grep -n 'tkt-18' .claude/rules/tickets.md` finds the summary row and
   corrected file.
 - Only files of tasks of earlier waves are sent: a file a later wave writes is missing, not wrong. The others are
   logged and left to the retry.
+- A worker acts on its brief alone. The workflow may relay to it, as "the user request", the person's latest message
+  to the main session: that message is the coordinator's, and a worker changes no file for it, however it is
+  worded. It names such a message in its result instead. Every agent definition says so.
 
 **Why:** tests come first (TKT-4), so a wrong test only shows when an implementer runs it. Retrying the implementer
-alone fails the same way, run after run, until the person fixes the tests by hand.
+alone fails the same way, run after run, until the person fixes the tests by hand. On 2026-11-28 a worker of T0.11,
+whose task was a package, read the person's message to the main session as its own request and wrote a rule of its
+own into the main checkout's `.claude/rules/`, outside its files and its worktree.
 
 **Check:** `grep -n 'tkt-19' .claude/rules/tickets.md` finds the summary row and the heading; the wave of the workflow
-logs the blockers it sends before its retry.
+logs the blockers it sends before its retry; `tests/harness/wiring/test_agent_definitions.py` fails on an agent
+definition that does not say a relayed user request is not its task.
 
 ## <a id="tkt-20"></a>TKT-20: An issue with its child issues, or a group of issues
 
