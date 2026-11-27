@@ -1,0 +1,19 @@
+[project]
+name = "erp-outbox"
+version = "0.1.0"
+description = "The event outbox every SimpleERP service shares: events stored with their change, then published."
+readme = "README.md"
+license = "AGPL-3.0-only"
+requires-python = ">=3.13,<3.14"
+dependencies = ["erp-lifecycle", "erp-models"]
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "erp_outbox"
+
+[tool.uv.sources]
+erp-lifecycle = { workspace = true }
+erp-models = { workspace = true }

@@ -8,6 +8,7 @@ members = [
     "erp-lifecycle",
     "erp-logging",
     "erp-models",
+    "erp-outbox",
     "erp-sdk",
     "simpleerp",
 ]
@@ -134,6 +135,21 @@ dependencies = [
 requires-dist = [
     { name = "pydantic", specifier = ">=2.9" },
     { name = "pyyaml", specifier = ">=6.0" },
+]
+
+[[package]]
+name = "erp-outbox"
+version = "0.1.0"
+source = { editable = "backend/shared/outbox" }
+dependencies = [
+    { name = "erp-lifecycle" },
+    { name = "erp-models" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "erp-lifecycle", editable = "backend/shared/lifecycle" },
+    { name = "erp-models", editable = "backend/models" },
 ]
 
 [[package]]
