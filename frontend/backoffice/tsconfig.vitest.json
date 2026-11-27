@@ -1,0 +1,11 @@
+{
+  "extends": "@simpleerp/config/tsconfig",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.vitest.tsbuildinfo",
+    "types": ["vitest/globals", "jsdom", "node"],
+    "paths": { "@/*": ["./src/*"] }
+  },
+  "include": ["tests/**/*", "src/**/*", "src/**/*.vue", "src/env.d.ts"]
+}

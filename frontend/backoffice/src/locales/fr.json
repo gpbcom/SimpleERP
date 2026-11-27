@@ -1,0 +1,24 @@
+{
+  "app": { "name": "SimpleERP" },
+  "shell": {
+    "skipToContent": "Aller au contenu",
+    "navigation": "Navigation principale",
+    "collapseSidebar": "Réduire le menu",
+    "expandSidebar": "Déplier le menu",
+    "search": "Rechercher",
+    "searchPlaceholder": "Rechercher des clients, des factures, des personnes...",
+    "assistant": "Assistant",
+    "notifications": "Notifications",
+    "siteSwitcher": "Changer de site",
+    "userMenu": "Menu utilisateur",
+    "switchToDark": "Passer en mode sombre",
+    "switchToLight": "Passer en mode clair"
+  },
+  "nav": {
+    "home": "Accueil",
+    "tasks": "Tâches",
+    "assistant": "Assistant",
+    "me": "Moi"
+  },
+  "page": { "empty": "Rien ici pour le moment." }
+}
