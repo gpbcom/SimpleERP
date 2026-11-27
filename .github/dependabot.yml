@@ -1,0 +1,42 @@
+# Weekly dependency updates, as pull requests to develop (GitFlow, GIT-8). Dependabot proposes the new commit SHAs of
+# the pinned actions (DEP-4). The uv workspace has one lock file at the root (D438); the npm entry covers the pnpm
+# workspace once its root package.json exists, and the docker entry the base images of the services and front ends.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    target-branch: develop
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: ci
+    groups:
+      actions:
+        patterns: ["*"]
+
+  - package-ecosystem: uv
+    directory: /
+    target-branch: develop
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: deps
+
+  - package-ecosystem: npm
+    directory: /
+    target-branch: develop
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: deps
+
+  - package-ecosystem: docker
+    directories:
+      - /backend/services/*
+      - /frontend/*
+      - /frontend/portals/*
+    target-branch: develop
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: deps

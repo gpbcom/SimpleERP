@@ -1,0 +1,246 @@
+name: images
+
+# Steps 3 to 5 of the pipeline (AGENT.md, "CI/CD"; D415 and D419): scan the lock files, build each changed image from
+# the repository root, scan it, write its SBOM, push it under a run tag, sign and attest it by digest, run Playwright
+# against the real images of compose.e2e.yaml, then add the commit SHA tag to the same digest from develop and master
+# only. Images are ghcr.io/<owner>/<repo>-<name>, such as ghcr.io/gpbcom/simpleerp-sales. compose.e2e.yaml names its
+# images ${ERP_IMAGE_PREFIX}-<name>:${ERP_IMAGE_TAG}. Reusable only: ci.yml calls it.
+
+on:
+  workflow_call:
+    inputs:
+      images:
+        description: 'Compact JSON array of {"folder": ..., "name": ...} objects, from detect_changes.py.'
+        type: string
+        required: true
+      publish:
+        description: "Add the commit SHA tag to the images once the end-to-end tests pass."
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: read
+
+env:
+  RUN_TAG: run-${{ github.run_id }}-${{ github.run_attempt }}
+  OSV_SCANNER: ghcr.io/google/osv-scanner:v2.7.1@sha256:a70ffffc2bfd33482953e5d6b64c6fcdb30239717a07b0f0d3ab2859ce3e4cde
+  TRIVY_VERSION: v0.76.2
+  SIGNER: ^https://github\.com/gpbcom/SimpleERP/\.github/workflows/images\.yml@
+  OIDC_ISSUER: https://token.actions.githubusercontent.com
+
+jobs:
+  scan-dependencies:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Scan the lock files with OSV-Scanner
+        run: |
+          lockfiles=()
+          for lockfile in uv.lock pnpm-lock.yaml; do
+            if [ -f "$lockfile" ]; then
+              lockfiles+=("--lockfile=$lockfile")
+            fi
+          done
+          if [ "${#lockfiles[@]}" -eq 0 ]; then
+            echo "No lock file: OSV-Scanner is not applicable."
+            exit 0
+          fi
+          docker run --rm --volume "$PWD:/src:ro" --workdir /src "$OSV_SCANNER" scan source "${lockfiles[@]}"
+
+  image:
+    needs: scan-dependencies
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(inputs.images) }}
+    env:
+      FOLDER: ${{ matrix.folder }}
+      NAME: ${{ matrix.name }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Name the image
+        run: echo "IMAGE=ghcr.io/${GITHUB_REPOSITORY,,}-${NAME}" >> "$GITHUB_ENV"
+      - uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
+      - uses: docker/login-action@8aa5831fb8d48d8f76594c7ddde61ae58019f550 # v4.8.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build the image
+        uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc # v7.4.0
+        with:
+          context: .
+          file: ${{ matrix.folder }}/Dockerfile
+          load: true
+          tags: ${{ env.IMAGE }}:${{ env.RUN_TAG }}
+          cache-from: type=gha,scope=${{ matrix.name }}
+          cache-to: type=gha,scope=${{ matrix.name }},mode=max
+      - uses: aquasecurity/setup-trivy@81e514348e19b6112ce2a7e3ecbafe19c1e1f567 # v0.3.1
+        with:
+          version: ${{ env.TRIVY_VERSION }}
+      - name: Scan the image with Trivy
+        run: trivy image --severity HIGH,CRITICAL --ignore-unfixed --exit-code 1 "${IMAGE}:${RUN_TAG}"
+      - name: Write the CycloneDX SBOM
+        run: |
+          mkdir -p sbom
+          trivy image --format cyclonedx --output "sbom/${NAME}.cdx.json" "${IMAGE}:${RUN_TAG}"
+      - name: Keep the SBOM
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: sbom-${{ matrix.name }}
+          path: sbom/${{ matrix.name }}.cdx.json
+      - name: Push the run tag and read back the digest
+        run: |
+          docker push "${IMAGE}:${RUN_TAG}"
+          digest="$(docker inspect --format '{{range .RepoDigests}}{{println .}}{{end}}' "${IMAGE}:${RUN_TAG}" \
+            | grep "^${IMAGE}@" | head -n 1 | cut -d@ -f2)"
+          test -n "$digest"
+          echo "DIGEST=${digest}" >> "$GITHUB_ENV"
+      - uses: sigstore/cosign-installer@881c63bd87e38389154debd8331404ce7ca8a3ab # v4.1.4
+      - name: Sign the image
+        run: cosign sign --yes "${IMAGE}@${DIGEST}"
+      - name: Attach the SBOM
+        run: cosign attest --yes --type cyclonedx --predicate "sbom/${NAME}.cdx.json" "${IMAGE}@${DIGEST}"
+      - name: Verify the signature
+        run: |
+          cosign verify \
+            --certificate-oidc-issuer "$OIDC_ISSUER" \
+            --certificate-identity-regexp "$SIGNER" \
+            "${IMAGE}@${DIGEST}"
+
+  e2e:
+    needs: image
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+      packages: read
+    env:
+      IMAGES: ${{ inputs.images }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Find compose.e2e.yaml
+        id: compose
+        run: |
+          if [ -f compose.e2e.yaml ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "compose.e2e.yaml does not exist yet: the end-to-end tests are not applicable."
+          fi
+          {
+            echo "ERP_IMAGE_PREFIX=ghcr.io/${GITHUB_REPOSITORY,,}"
+            echo "ERP_IMAGE_TAG=${RUN_TAG}"
+          } >> "$GITHUB_ENV"
+      - uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
+        if: steps.compose.outputs.present == 'true'
+      - uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4.0.0
+        if: steps.compose.outputs.present == 'true'
+      - uses: docker/login-action@8aa5831fb8d48d8f76594c7ddde61ae58019f550 # v4.8.0
+        if: steps.compose.outputs.present == 'true'
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build the images compose.e2e.yaml needs and this run did not build
+        if: steps.compose.outputs.present == 'true'
+        run: |
+          needed="$(docker compose -f compose.e2e.yaml config --images)"
+          built="$(echo "$IMAGES" | jq -r '.[].name')"
+          all="$(python3 .github/scripts/detect_changes.py --all < /dev/null | sed -n 's/^images=//p')"
+          echo "$all" | jq -r '.[] | "\(.folder) \(.name)"' | while read -r folder name; do
+            image="${ERP_IMAGE_PREFIX}-${name}:${ERP_IMAGE_TAG}"
+            if echo "$built" | grep -qxF "$name" || ! echo "$needed" | grep -qxF "$image"; then
+              continue
+            fi
+            docker buildx build --load \
+              --file "${folder}/Dockerfile" \
+              --tag "$image" \
+              --cache-from "type=gha,scope=${name}" \
+              --cache-to "type=gha,scope=${name},mode=max" \
+              .
+          done
+      - name: Pull the images this run built
+        if: steps.compose.outputs.present == 'true'
+        run: |
+          for name in $(echo "$IMAGES" | jq -r '.[].name'); do
+            docker pull "${ERP_IMAGE_PREFIX}-${name}:${ERP_IMAGE_TAG}"
+          done
+      - name: Start the stack
+        if: steps.compose.outputs.present == 'true'
+        run: docker compose -f compose.e2e.yaml up --detach --wait
+      - uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6.1.1
+        if: steps.compose.outputs.present == 'true' && hashFiles('pnpm-lock.yaml') != ''
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        if: steps.compose.outputs.present == 'true' && hashFiles('pnpm-lock.yaml') != ''
+        with:
+          node-version: "22"
+          cache: pnpm
+      - name: Run Playwright against the real images
+        if: steps.compose.outputs.present == 'true' && hashFiles('pnpm-lock.yaml') != ''
+        run: |
+          pnpm install --frozen-lockfile
+          bash .github/scripts/playwright.sh
+      - name: Keep the Playwright reports
+        if: failure()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: playwright-report
+          path: |
+            frontend/**/playwright-report/
+            frontend/**/test-results/
+          if-no-files-found: ignore
+      - name: Stop the stack
+        if: always() && steps.compose.outputs.present == 'true'
+        run: docker compose -f compose.e2e.yaml down --volumes
+
+  publish:
+    needs: e2e
+    if: inputs.publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      packages: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(inputs.images) }}
+    env:
+      NAME: ${{ matrix.name }}
+    steps:
+      - uses: docker/setup-buildx-action@f87e5991a6d7451dcb8d9637bfbc97413f497069 # v4.4.1
+      - uses: docker/login-action@8aa5831fb8d48d8f76594c7ddde61ae58019f550 # v4.8.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: sigstore/cosign-installer@881c63bd87e38389154debd8331404ce7ca8a3ab # v4.1.4
+      - name: Add the commit SHA tag to the same digest
+        run: |
+          image="ghcr.io/${GITHUB_REPOSITORY,,}-${NAME}"
+          docker buildx imagetools create --tag "${image}:${GITHUB_SHA}" "${image}:${RUN_TAG}"
+          before="$(docker buildx imagetools inspect "${image}:${RUN_TAG}" --format '{{.Manifest.Digest}}')"
+          after="$(docker buildx imagetools inspect "${image}:${GITHUB_SHA}" --format '{{.Manifest.Digest}}')"
+          test "$before" = "$after"
+          echo "IMAGE=${image}" >> "$GITHUB_ENV"
+      - name: Verify the signature of the SHA tag
+        run: |
+          cosign verify \
+            --certificate-oidc-issuer "$OIDC_ISSUER" \
+            --certificate-identity-regexp "$SIGNER" \
+            "${IMAGE}:${GITHUB_SHA}"

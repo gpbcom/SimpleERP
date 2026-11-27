@@ -1,0 +1,132 @@
+name: release
+
+# TKT-26: a release reaches master by itself, with its changelog, release notes and test reports. Started on develop
+# (/release, or `gh workflow run release.yml --ref develop [-f version=x.y.z]`), it runs every suite of CI on that
+# commit with everything selected, writes CHANGELOG.md, docs/releases/v<version>/ (RELEASE_NOTES.md, TEST_REPORT.md and
+# the raw reports) on release/<version>, and opens the pull request to master labelled automerge. automerge.yml merges
+# it once every check passed, tags v<version>, publishes the GitHub release and brings the release back to develop.
+# Nobody commits by hand. RELEASE_TOKEN (a fine-grained token of this repository with contents, pull requests and
+# workflows in read and write) lets the pull requests start CI and the merge into master carry .github/workflows/,
+# which GITHUB_TOKEN may not.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "The version to release, x.y.z. Empty: the next minor version after the last v* tag."
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  version:
+    if: github.ref == 'refs/heads/develop'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      version: ${{ steps.pick.outputs.version }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Check the release token
+        env:
+          RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        run: |
+          if [ -z "$RELEASE_TOKEN" ]; then
+            echo "::error::The secret RELEASE_TOKEN is missing: a release cannot reach master by itself (TKT-26). See the README, Releases."
+            exit 1
+          fi
+      - name: Pick the version
+        id: pick
+        env:
+          REQUESTED: ${{ inputs.version }}
+        run: |
+          line=$(python3 .github/scripts/release_notes.py version --requested "$REQUESTED")
+          version="${line#version=}"
+          if git ls-remote --exit-code --heads origin "release/$version" > /dev/null; then
+            echo "::error::release/$version already exists: its release is still on its way."
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "Releasing v$version from $(git rev-parse HEAD)."
+
+  changes:
+    needs: version
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      services: ${{ steps.detect.outputs.services }}
+      packages: ${{ steps.detect.outputs.packages }}
+      typescript: ${{ steps.detect.outputs.typescript }}
+      repository: ${{ steps.detect.outputs.repository }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Select every suite
+        id: detect
+        run: python3 .github/scripts/detect_changes.py --all >> "$GITHUB_OUTPUT"
+
+  python:
+    needs: changes
+    if: >-
+      needs.changes.outputs.services != '[]' || needs.changes.outputs.packages != '[]'
+      || needs.changes.outputs.repository == 'true'
+    uses: ./.github/workflows/python.yml
+    with:
+      services: ${{ needs.changes.outputs.services }}
+      packages: ${{ needs.changes.outputs.packages }}
+      repository: ${{ needs.changes.outputs.repository == 'true' }}
+
+  typescript:
+    needs: changes
+    if: needs.changes.outputs.typescript != '[]'
+    uses: ./.github/workflows/typescript.yml
+    with:
+      projects: ${{ needs.changes.outputs.typescript }}
+
+  prepare:
+    needs: [version, changes, python, typescript]
+    if: >-
+      always() && needs.version.result == 'success' && needs.changes.result == 'success'
+      && !contains(needs.*.result, 'failure') && !contains(needs.*.result, 'cancelled')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.RELEASE_TOKEN }}
+      - name: Collect the test reports of every suite
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          pattern: test-report-*
+          path: reports
+      - name: Write the changelog, the release notes and the test report
+        env:
+          VERSION: ${{ needs.version.outputs.version }}
+        run: python3 .github/scripts/release_notes.py write --version "$VERSION" --reports reports
+      - name: Commit them on release/<version> and open the pull request to master
+        env:
+          VERSION: ${{ needs.version.outputs.version }}
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "release/$VERSION"
+          # docs/ is ignored but for its versioned folders: the release's own folder is added on purpose.
+          git add --force CHANGELOG.md "docs/releases/v$VERSION"
+          git commit --quiet -m "Release v$VERSION: changelog, release notes and test reports"
+          git push --quiet origin "release/$VERSION"
+          gh pr create -R "$REPO" --base master --head "release/$VERSION" --label automerge \
+            --title "Release v$VERSION" --body-file "docs/releases/v$VERSION/RELEASE_NOTES.md"
+          echo "release/$VERSION is on its way to master: automerge merges it once every check passed."

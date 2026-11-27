@@ -1,0 +1,125 @@
+name: python
+
+# Step 2 of the pipeline for Python (AGENT.md, "CI/CD"): ruff, ruff format, mypy and pytest for each changed service
+# and shared package, and the repository tests (harness, conventions, CI scripts). Python comes from .python-version
+# and every dependency from uv.lock. Reusable only: ci.yml and release.yml call it. Every job keeps its JUnit reports
+# as a test-report-* artifact, failed runs included, for the release's test report (TKT-26).
+
+on:
+  workflow_call:
+    inputs:
+      services:
+        description: "Compact JSON array of the backend/services/<service> folders to check, from detect_changes.py."
+        type: string
+        required: true
+      packages:
+        description: "Compact JSON array of the shared Python package folders to check, from detect_changes.py."
+        type: string
+        required: false
+        default: "[]"
+      repository:
+        description: "Whether to run the repository tests and lint the harness and the CI scripts."
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  services:
+    if: inputs.services != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: ${{ fromJSON(inputs.services) }}
+    env:
+      FOLDER: ${{ matrix.folder }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@1db35dd8eee11c5894872e0b383ae6c406cf738d # v10.4.0
+        with:
+          enable-cache: true
+      - name: Install the workspace
+        run: uv sync --locked
+      - name: Ruff, mypy and pytest
+        id: check
+        run: |
+          name="service-${FOLDER##*/}"
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+          bash .github/scripts/check_python_project.sh "$FOLDER" "$name"
+      - name: Keep the test reports (TKT-26)
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: test-report-python-${{ steps.check.outputs.name }}
+          path: reports/
+          if-no-files-found: ignore
+
+  packages:
+    if: inputs.packages != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: ${{ fromJSON(inputs.packages) }}
+    env:
+      FOLDER: ${{ matrix.folder }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@1db35dd8eee11c5894872e0b383ae6c406cf738d # v10.4.0
+        with:
+          enable-cache: true
+      - name: Install the workspace
+        run: uv sync --locked
+      - name: Ruff, mypy and pytest
+        id: check
+        run: |
+          name="package-${FOLDER//\//-}"
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+          bash .github/scripts/check_python_project.sh "$FOLDER" "$name"
+      - name: Keep the test reports (TKT-26)
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: test-report-python-${{ steps.check.outputs.name }}
+          path: reports/
+          if-no-files-found: ignore
+
+  repository:
+    # A shallow checkout with no develop branch: the harness scripts must work there too (TKT-24).
+    if: inputs.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@1db35dd8eee11c5894872e0b383ae6c406cf738d # v10.4.0
+        with:
+          enable-cache: true
+      - name: Install the workspace
+        run: uv sync --locked
+      - name: Ruff check
+        run: uv run ruff check .claude .github/scripts tests
+      - name: Ruff format check
+        run: uv run ruff format --check .claude .github/scripts tests
+      - name: Repository tests
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          uv run pytest tests -n 2 --junitxml=reports/repository.xml
+      - name: Keep the test reports (TKT-26)
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: test-report-python-repository
+          path: reports/
+          if-no-files-found: ignore

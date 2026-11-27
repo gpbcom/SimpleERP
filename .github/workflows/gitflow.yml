@@ -1,0 +1,42 @@
+name: gitflow
+
+# TKT-15 and GIT-8: every pull request follows GitFlow. feature/ and bugfix/ go to develop; release/ and hotfix/ go to
+# master, and come back to develop; master only comes back to develop. Dependabot's branches go to develop. A ticket's
+# pull request is titled with its ID: feature/<ID> starts with the ID, and the tickets' shared branch feature/tickets
+# starts with "<ID>: " (one ticket) or "Tickets <ID>" (several, TKT-15).
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+
+permissions:
+  contents: read
+
+jobs:
+  rules:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check the branch, its base and the title
+        env:
+          HEAD: ${{ github.head_ref }}
+          BASE: ${{ github.base_ref }}
+          TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          fail() { echo "::error::$1"; exit 1; }
+          case "$HEAD" in
+            feature/*|bugfix/*) [ "$BASE" = develop ] || fail "$HEAD goes to develop, not $BASE." ;;
+            release/*|hotfix/*) [ "$BASE" = master ] || [ "$BASE" = develop ] || fail "$HEAD goes to master (then develop), not $BASE." ;;
+            master) [ "$BASE" = develop ] || fail "master only comes back to develop." ;;
+            dependabot/*) [ "$BASE" = develop ] || fail "Dependabot's updates go to develop, not $BASE." ;;
+            *) fail "$HEAD is not a GitFlow branch: feature/, bugfix/, release/ or hotfix/." ;;
+          esac
+          ticket=$(printf '%s' "$HEAD" | sed -n 's#^feature/\(T[0-9][0-9]*\.[0-9][0-9]\)$#\1#p')
+          if [ -n "$ticket" ]; then
+            case "$TITLE" in "$ticket:"*|"$ticket "*) ;; *) fail "The title of a ticket's pull request starts with $ticket." ;; esac
+          fi
+          if [ "$HEAD" = feature/tickets ]; then
+            printf '%s' "$TITLE" | grep -qE '^(T[0-9]+\.[0-9]{2}: |Tickets T[0-9]+\.[0-9]{2})' \
+              || fail "The title of feature/tickets starts with '<ID>: ' for one ticket or 'Tickets <ID>, <ID>' for several."
+          fi
+          echo "GitFlow: $HEAD -> $BASE"
