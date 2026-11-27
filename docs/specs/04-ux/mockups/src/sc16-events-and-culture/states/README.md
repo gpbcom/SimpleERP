@@ -1,0 +1,114 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [sc16-events-and-culture](../README.md) › 🧪 states
+
+# 🧪 states
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc16-01-event-plan-empty-desktop.html`
+- `s-sc16-01-event-plan-loading-desktop.html`
+- `s-sc16-01-event-plan-offline-phone.html`
+- `s-sc16-01-event-plan-read-only-desktop.html`
+- `s-sc16-02-venues-empty-desktop.html`
+- `s-sc16-02-venues-loading-desktop.html`
+- `s-sc16-02-venues-offline-phone.html`
+- `s-sc16-02-venues-read-only-desktop.html`
+- `s-sc16-03-artists-empty-desktop.html`
+- `s-sc16-03-artists-loading-desktop.html`
+- `s-sc16-03-artists-offline-phone.html`
+- `s-sc16-03-artists-read-only-desktop.html`
+- `s-sc16-04-performers-empty-desktop.html`
+- `s-sc16-04-performers-loading-desktop.html`
+- `s-sc16-04-performers-offline-phone.html`
+- `s-sc16-04-performers-read-only-desktop.html`
+- `s-sc16-05-ticketing-empty-desktop.html`
+- `s-sc16-05-ticketing-loading-desktop.html`
+- `s-sc16-05-ticketing-offline-phone.html`
+- `s-sc16-05-ticketing-read-only-desktop.html`
+- `s-sc16-06-access-control-empty-desktop.html`
+- `s-sc16-06-access-control-loading-desktop.html`
+- `s-sc16-06-access-control-offline-phone.html`
+- `s-sc16-06-access-control-read-only-desktop.html`
+- `s-sc16-07-box-office-empty-desktop.html`
+- `s-sc16-07-box-office-loading-desktop.html`
+- `s-sc16-07-box-office-offline-phone.html`
+- `s-sc16-07-box-office-read-only-desktop.html`
+- `s-sc16-08-accreditations-empty-desktop.html`
+- `s-sc16-08-accreditations-loading-desktop.html`
+- `s-sc16-08-accreditations-offline-phone.html`
+- `s-sc16-08-accreditations-read-only-desktop.html`
+- `s-sc16-09-shifts-empty-desktop.html`
+- `s-sc16-09-shifts-loading-desktop.html`
+- `s-sc16-09-shifts-offline-phone.html`
+- `s-sc16-09-shifts-read-only-desktop.html`
+- `s-sc16-10-sponsors-empty-desktop.html`
+- `s-sc16-10-sponsors-loading-desktop.html`
+- `s-sc16-10-sponsors-offline-phone.html`
+- `s-sc16-10-sponsors-read-only-desktop.html`
+- `s-sc16-11-exhibitors-empty-desktop.html`
+- `s-sc16-11-exhibitors-loading-desktop.html`
+- `s-sc16-11-exhibitors-offline-phone.html`
+- `s-sc16-11-exhibitors-read-only-desktop.html`
+- `s-sc16-12-bars-and-merchandise-empty-desktop.html`
+- `s-sc16-12-bars-and-merchandise-loading-desktop.html`
+- `s-sc16-12-bars-and-merchandise-offline-phone.html`
+- `s-sc16-12-bars-and-merchandise-read-only-desktop.html`
+- `s-sc16-13-safety-empty-desktop.html`
+- `s-sc16-13-safety-loading-desktop.html`
+- `s-sc16-13-safety-offline-phone.html`
+- `s-sc16-13-safety-read-only-desktop.html`
+- `s-sc16-14-copyright-empty-desktop.html`
+- `s-sc16-14-copyright-loading-desktop.html`
+- `s-sc16-14-copyright-offline-phone.html`
+- `s-sc16-14-copyright-read-only-desktop.html`
+- `s-sc16-15-ticket-tax-empty-desktop.html`
+- `s-sc16-15-ticket-tax-loading-desktop.html`
+- `s-sc16-15-ticket-tax-offline-desktop.html`
+- `s-sc16-15-ticket-tax-read-only-desktop.html`
+- `s-sc16-16-memberships-empty-desktop.html`
+- `s-sc16-16-memberships-loading-desktop.html`
+- `s-sc16-16-memberships-offline-phone.html`
+- `s-sc16-16-memberships-read-only-desktop.html`
+- `s-sc16-17-refunds-empty-desktop.html`
+- `s-sc16-17-refunds-loading-desktop.html`
+- `s-sc16-17-refunds-offline-phone.html`
+- `s-sc16-17-refunds-read-only-desktop.html`
+- `s-sc16-18-event-report-empty-desktop.html`
+- `s-sc16-18-event-report-loading-desktop.html`
+- `s-sc16-18-event-report-offline-phone.html`
+- `s-sc16-18-event-report-read-only-desktop.html`
+- `s-sc16-19-attendee-messages-empty-desktop.html`
+- `s-sc16-19-attendee-messages-loading-desktop.html`
+- `s-sc16-19-attendee-messages-offline-phone.html`
+- `s-sc16-19-attendee-messages-read-only-desktop.html`
+- `s-sc16-20-events-assistant-empty-desktop.html`
+- `s-sc16-20-events-assistant-loading-desktop.html`
+- `s-sc16-20-events-assistant-offline-phone.html`
+- `s-sc16-20-events-assistant-read-only-desktop.html`
+- `s-sc16-21-cashless-empty-desktop.html`
+- `s-sc16-21-cashless-loading-desktop.html`
+- `s-sc16-21-cashless-offline-phone.html`
+- `s-sc16-21-cashless-read-only-desktop.html`
+- `s-sc16-22-cinema-empty-desktop.html`
+- `s-sc16-22-cinema-loading-desktop.html`
+- `s-sc16-22-cinema-offline-phone.html`
+- `s-sc16-22-cinema-read-only-desktop.html`
+- `s-sc16-23-touring-empty-desktop.html`
+- `s-sc16-23-touring-loading-desktop.html`
+- `s-sc16-23-touring-offline-phone.html`
+- `s-sc16-23-touring-read-only-desktop.html`
+- `s-sc16-24-photography-empty-desktop.html`
+- `s-sc16-24-photography-loading-desktop.html`
+- `s-sc16-24-photography-offline-phone.html`
+- `s-sc16-24-photography-read-only-desktop.html`
+- [u05-accounting](u05-accounting/README.md)
+- [u09-customer](u09-customer/README.md)
+- [u13-owner](u13-owner/README.md)
+- [u17-cashier](u17-cashier/README.md)
+- [u32-volunteer](u32-volunteer/README.md)
+- [u43-event-producer](u43-event-producer/README.md)
+- [u44-box-office-agent](u44-box-office-agent/README.md)
+
+---
+
+⬆️ [Up](../README.md)

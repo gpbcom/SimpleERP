@@ -1,0 +1,93 @@
+🏠 [Specs](../../../../README.md) › 🧩 [Functional capabilities](../../../README.md) ›
+💶 [F13 Payroll (plugin)](../../README.md) › 🖥️ [Screens](../README.md) ›
+🖥️ [Screens: FL-F13-02 Monthly pay run](README.md) › 🖥️ S-F13-06 Withholding
+
+# 🖥️ S-F13-06 Withholding
+
+**Status:** ✅ specified
+
+## Personas
+
+- [U45 Payroll officer](../../../../01-users/personas/u45-payroll-officer.md)
+
+## Purpose
+
+Apply withholding tax.
+
+## Entry points
+
+Payroll in the menu; the AI assistant (BR-F3-34).
+
+## Wireframe
+
+See the images in the flow page (D120).
+
+**Example images** (as drawn in its flow, light and dark, D120):
+
+| Shows | Device | Light | Dark |
+|---|---|---|---|
+| FL-F13-02 step 4, U45 | desktop | ![FL-F13-02 step 4, U45, light](../../images/02-monthly-pay-run/u45-payroll-officer/4-withholding-desktop-light.png) | ![FL-F13-02 step 4, U45, dark](../../images/02-monthly-pay-run/u45-payroll-officer/4-withholding-desktop-dark.png) |
+| Empty | desktop | ![Empty, light](../../images/states/s-f13-06-withholding-empty-desktop-light.png) | ![Empty, dark](../../images/states/s-f13-06-withholding-empty-desktop-dark.png) |
+| Loading | desktop | ![Loading, light](../../images/states/s-f13-06-withholding-loading-desktop-light.png) | ![Loading, dark](../../images/states/s-f13-06-withholding-loading-desktop-dark.png) |
+| Read-only | desktop | ![Read-only, light](../../images/states/s-f13-06-withholding-read-only-desktop-light.png) | ![Read-only, dark](../../images/states/s-f13-06-withholding-read-only-desktop-dark.png) |
+| Offline | desktop | ![Offline, light](../../images/states/s-f13-06-withholding-offline-desktop-light.png) | ![Offline, dark](../../images/states/s-f13-06-withholding-offline-desktop-dark.png) |
+
+## Fields and columns
+
+As its entities.
+
+## Actions
+
+As its use case's main flow.
+
+## States
+
+- Normal: each employee's withholding rate, its date of receipt and the amount withheld.
+- Empty: "No rate received yet": every employee shows the neutral rate until the tax office sends one.
+- Loading: the frame and titles show at once with placeholder rows for the withholding rates; within 1 second (D408) the
+  data replaces them, and a longer load shows a progress line saying what loads.
+- Error: the error message pattern (D122).
+- Read-only: rates are read-only; they come from the tax office (BR-F13-06).
+- Offline: not available offline: rates are received through the connector. D38 keeps only today's schedule, time and
+  intervention records offline. A banner says the connection is lost; what is on screen stays visible, every action is
+  disabled and nothing is queued until the connection is back.
+
+Shown entities (VD-15): [E-F13-05 Withholding rate](../../data/e-f13-05-withholding-rate.md).
+
+Entity states shown (VD-15):
+
+| Entity | State | What changes | Personas | Images |
+|---|---|---|---|---|
+| E-F13-05 Withholding rate | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U45 | `u45-payroll-officer/s-f13-06-withholding-e-f13-05-withholding-rate-active-desktop-{light,dark}.png` |
+
+State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
+list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each
+entity's Lifecycle (step 36j): the badge is the state's name, the next states are its transitions, and a final state is
+read-only.
+
+## Responsive behaviour
+
+Desktop; approvals and receipts also on the phone.
+
+## Accessibility
+
+Labelled controls; amounts and states as text.
+
+## Components
+
+- [C-03 Data table](../../../../04-ux/design-system/components/c-03-data-table.md)
+- [C-02 Form field](../../../../04-ux/design-system/components/c-02-form-field.md)
+- [C-10 Empty state](../../../../04-ux/design-system/components/c-10-empty-state.md)
+
+## Shown in
+
+- [FL-F13-02 Monthly pay run](../../flows/fl-f13-02-monthly-pay-run.md)
+
+## Open questions
+
+None.
+
+---
+
+⬅️ [S-F13-05 Agreement rules](s-f13-05-agreement-rules.md) · ⬆️ [Up](README.md) ·
+➡️ [S-F13-07 Pay run](s-f13-07-pay-run.md)

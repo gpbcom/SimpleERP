@@ -1,0 +1,112 @@
+🏠 [Specs](../../../../../../README.md) › 🎨 [UX](../../../../../README.md) › 🧪 [Mockups](../../../../README.md) ›
+🧪 [src](../../../README.md) › 🧪 [f09-hr-and-projects](../../README.md) › 🧪 [states](../README.md) ›
+🧪 u25-care-coordinator
+
+# 🧪 u25-care-coordinator
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f09-27-rounds-e-f09-12-certification-expired-desktop.html`
+- `s-f09-27-rounds-e-f09-12-certification-expired-phone.html`
+- `s-f09-27-rounds-e-f09-12-certification-rejected-desktop.html`
+- `s-f09-27-rounds-e-f09-12-certification-rejected-phone.html`
+- `s-f09-27-rounds-e-f09-12-certification-to-verify-desktop.html`
+- `s-f09-27-rounds-e-f09-12-certification-to-verify-phone.html`
+- `s-f09-27-rounds-e-f09-12-certification-verified-desktop.html`
+- `s-f09-27-rounds-e-f09-12-certification-verified-phone.html`
+- `s-f09-27-rounds-e-f09-26-round-changed-desktop.html`
+- `s-f09-27-rounds-e-f09-26-round-changed-phone.html`
+- `s-f09-27-rounds-e-f09-26-round-draft-desktop.html`
+- `s-f09-27-rounds-e-f09-26-round-draft-phone.html`
+- `s-f09-27-rounds-e-f09-26-round-published-desktop.html`
+- `s-f09-27-rounds-e-f09-26-round-published-phone.html`
+- `s-f09-30-scheduling-board-e-f09-16-shift-draft-desktop.html`
+- `s-f09-30-scheduling-board-e-f09-16-shift-draft-phone.html`
+- `s-f09-30-scheduling-board-e-f09-16-shift-published-desktop.html`
+- `s-f09-30-scheduling-board-e-f09-16-shift-published-phone.html`
+- `s-f09-30-scheduling-board-e-f09-28-assignment-proposal-no-candidate-desktop.html`
+- `s-f09-30-scheduling-board-e-f09-28-assignment-proposal-no-candidate-phone.html`
+- `s-f09-30-scheduling-board-e-f09-28-assignment-proposal-overridden-desktop.html`
+- `s-f09-30-scheduling-board-e-f09-28-assignment-proposal-overridden-phone.html`
+- `s-f09-30-scheduling-board-e-f09-28-assignment-proposal-superseded-desktop.html`
+- `s-f09-30-scheduling-board-e-f09-28-assignment-proposal-superseded-phone.html`
+- `s-f09-30-scheduling-board-e-f09-28-assignment-proposal-waiting-desktop.html`
+- `s-f09-30-scheduling-board-e-f09-28-assignment-proposal-waiting-phone.html`
+- `s-f09-30-scheduling-board-e-f09-33-automatic-scheduling-setting-off-desktop.html`
+- `s-f09-30-scheduling-board-e-f09-33-automatic-scheduling-setting-off-phone.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-blocked-desktop.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-blocked-phone.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-cancelled-desktop.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-cancelled-phone.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-done-desktop.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-done-phone.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-in-progress-desktop.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-in-progress-phone.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-proposed-desktop.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-proposed-phone.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-ready-desktop.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-ready-phone.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-scheduled-desktop.html`
+- `s-f09-30-scheduling-board-e-f16-12-work-request-scheduled-phone.html`
+- `s-f09-31-proposal-review-e-f02-25-request-type-draft-desktop.html`
+- `s-f09-31-proposal-review-e-f02-25-request-type-draft-phone.html`
+- `s-f09-31-proposal-review-e-f02-25-request-type-published-desktop.html`
+- `s-f09-31-proposal-review-e-f02-25-request-type-published-phone.html`
+- `s-f09-31-proposal-review-e-f02-25-request-type-retired-desktop.html`
+- `s-f09-31-proposal-review-e-f02-25-request-type-retired-phone.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-applied-desktop.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-applied-phone.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-confirmed-desktop.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-confirmed-phone.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-no-candidate-desktop.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-no-candidate-phone.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-overridden-desktop.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-overridden-phone.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-stopped-desktop.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-stopped-phone.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-superseded-desktop.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-superseded-phone.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-waiting-desktop.html`
+- `s-f09-31-proposal-review-e-f09-28-assignment-proposal-waiting-phone.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-blocked-desktop.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-blocked-phone.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-cancelled-desktop.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-cancelled-phone.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-done-desktop.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-done-phone.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-drafted-desktop.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-drafted-phone.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-in-progress-desktop.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-in-progress-phone.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-proposed-desktop.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-proposed-phone.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-ready-desktop.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-ready-phone.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-scheduled-desktop.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-scheduled-phone.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-to-confirm-desktop.html`
+- `s-f09-31-proposal-review-e-f16-12-work-request-to-confirm-phone.html`
+- `s-f09-33-planning-map-e-f09-26-round-draft-or-changed-desktop.html`
+- `s-f09-33-planning-map-e-f09-26-round-draft-or-changed-phone.html`
+- `s-f09-33-planning-map-e-f09-26-round-published-desktop.html`
+- `s-f09-33-planning-map-e-f09-26-round-published-phone.html`
+- `s-f09-33-planning-map-e-f09-32-live-position-off-desktop.html`
+- `s-f09-33-planning-map-e-f09-32-live-position-off-phone.html`
+- `s-f09-33-planning-map-e-f09-32-live-position-paused-desktop.html`
+- `s-f09-33-planning-map-e-f09-32-live-position-paused-phone.html`
+- `s-f09-33-planning-map-e-f09-32-live-position-sharing-desktop.html`
+- `s-f09-33-planning-map-e-f09-32-live-position-sharing-phone.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-blocked-desktop.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-blocked-phone.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-done-desktop.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-done-phone.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-in-progress-desktop.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-in-progress-phone.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-ready-desktop.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-ready-phone.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-scheduled-desktop.html`
+- `s-f09-33-planning-map-e-f16-12-work-request-scheduled-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

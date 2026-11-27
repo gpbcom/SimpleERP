@@ -1,0 +1,72 @@
+[project]
+name = "simpleerp"
+version = "0.1.0"
+description = "Open-source, self-hosted, AI-native ERP for small and medium companies."
+readme = "README.md"
+license = "AGPL-3.0-only"
+requires-python = ">=3.13,<3.14"
+dependencies = []
+
+[tool.uv]
+# The root is the workspace, not a package: each service, the shared models and the shared libraries are members
+# (D438), added by the tickets that create them.
+package = false
+
+[tool.uv.workspace]
+members = ["backend/models", "backend/shared/*", "backend/services/*", "plugins/*", "sdk"]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.0",
+    "pydantic>=2.9",
+    "pytest>=8.4.0",
+    "pytest-asyncio>=1.2.0",
+    "pytest-timeout>=2.4.0",
+    "pytest-xdist>=3.8.0",
+    "pyyaml>=6.0",
+    "ruff>=0.13.0",
+    "types-pyyaml>=6.0.12",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "N", "D", "UP", "B", "SIM", "G", "PT", "RUF"]
+# `Dict`/`List`/`Optional` are the house typing style (AGENT.md, Typing).
+# `*Exception` is the house exception suffix, and a one-class-per-file package needs no module docstrings.
+# `RUF100`: the `# noqa: E501` on a multi-sentence message stops `ruff format` from joining its lines back into one.
+ignore = ["UP006", "UP007", "UP035", "UP045", "RUF012", "RUF100", "D100", "D104", "N818"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+".claude/**" = ["D", "N", "PT", "SIM", "B", "RUF", "G", "E501"]
+
+[tool.ruff.lint.pep8-naming]
+classmethod-decorators = ["pydantic.field_validator"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.isort]
+# Tests are written before the code they import: pinning ``tests`` as first-party keeps the import order the same
+# whether or not the imported module exists yet.
+known-first-party = ["tests"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.13"
+explicit_package_bases = true
+namespace_packages = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "--strict-markers --timeout=300"

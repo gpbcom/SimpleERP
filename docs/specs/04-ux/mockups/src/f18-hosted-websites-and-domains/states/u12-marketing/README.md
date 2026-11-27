@@ -1,0 +1,134 @@
+🏠 [Specs](../../../../../../README.md) › 🎨 [UX](../../../../../README.md) › 🧪 [Mockups](../../../../README.md) ›
+🧪 [src](../../../README.md) › 🧪 [f18-hosted-websites-and-domains](../../README.md) › 🧪 [states](../README.md) ›
+🧪 u12-marketing
+
+# 🧪 u12-marketing
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f18-01-site-builder-e-f18-01-hosted-website-live-desktop.html`
+- `s-f18-01-site-builder-e-f18-01-hosted-website-live-phone.html`
+- `s-f18-01-site-builder-e-f18-01-hosted-website-new-desktop.html`
+- `s-f18-01-site-builder-e-f18-01-hosted-website-new-phone.html`
+- `s-f18-01-site-builder-e-f18-02-page-held-desktop.html`
+- `s-f18-01-site-builder-e-f18-02-page-held-phone.html`
+- `s-f18-01-site-builder-e-f18-02-page-live-desktop.html`
+- `s-f18-01-site-builder-e-f18-02-page-live-phone.html`
+- `s-f18-01-site-builder-e-f18-02-page-published-desktop.html`
+- `s-f18-01-site-builder-e-f18-02-page-published-phone.html`
+- `s-f18-02-identity-e-f18-03-identity-active-desktop.html`
+- `s-f18-02-identity-e-f18-03-identity-active-phone.html`
+- `s-f18-03-pages-e-f18-02-page-held-desktop.html`
+- `s-f18-03-pages-e-f18-02-page-held-phone.html`
+- `s-f18-03-pages-e-f18-02-page-live-desktop.html`
+- `s-f18-03-pages-e-f18-02-page-live-phone.html`
+- `s-f18-03-pages-e-f18-02-page-published-desktop.html`
+- `s-f18-03-pages-e-f18-02-page-published-phone.html`
+- `s-f18-04-contact-page-e-f18-02-page-held-desktop.html`
+- `s-f18-04-contact-page-e-f18-02-page-held-phone.html`
+- `s-f18-04-contact-page-e-f18-02-page-live-desktop.html`
+- `s-f18-04-contact-page-e-f18-02-page-live-phone.html`
+- `s-f18-04-contact-page-e-f18-02-page-published-desktop.html`
+- `s-f18-04-contact-page-e-f18-02-page-published-phone.html`
+- `s-f18-04-contact-page-e-f18-04-contact-message-held-desktop.html`
+- `s-f18-04-contact-page-e-f18-04-contact-message-held-phone.html`
+- `s-f18-04-contact-page-e-f18-04-contact-message-lost-desktop.html`
+- `s-f18-04-contact-page-e-f18-04-contact-message-lost-phone.html`
+- `s-f18-04-contact-page-e-f18-04-contact-message-sent-desktop.html`
+- `s-f18-04-contact-page-e-f18-04-contact-message-sent-phone.html`
+- `s-f18-04-contact-page-e-f18-16-spam-hold-held-desktop.html`
+- `s-f18-04-contact-page-e-f18-16-spam-hold-held-phone.html`
+- `s-f18-04-contact-page-e-f18-16-spam-hold-released-desktop.html`
+- `s-f18-04-contact-page-e-f18-16-spam-hold-released-phone.html`
+- `s-f18-13-preview-e-f18-01-hosted-website-live-desktop.html`
+- `s-f18-13-preview-e-f18-01-hosted-website-live-phone.html`
+- `s-f18-13-preview-e-f18-01-hosted-website-new-desktop.html`
+- `s-f18-13-preview-e-f18-01-hosted-website-new-phone.html`
+- `s-f18-14-checks-e-f18-10-publication-check-report-recorded-desktop.html`
+- `s-f18-14-checks-e-f18-10-publication-check-report-recorded-phone.html`
+- `s-f18-16-editor-e-f18-01-hosted-website-live-desktop.html`
+- `s-f18-16-editor-e-f18-01-hosted-website-live-phone.html`
+- `s-f18-16-editor-e-f18-01-hosted-website-new-desktop.html`
+- `s-f18-16-editor-e-f18-01-hosted-website-new-phone.html`
+- `s-f18-17-languages-e-f18-02-page-held-desktop.html`
+- `s-f18-17-languages-e-f18-02-page-held-phone.html`
+- `s-f18-17-languages-e-f18-02-page-live-desktop.html`
+- `s-f18-17-languages-e-f18-02-page-live-phone.html`
+- `s-f18-17-languages-e-f18-02-page-published-desktop.html`
+- `s-f18-17-languages-e-f18-02-page-published-phone.html`
+- `s-f18-18-audience-e-f18-11-audience-figure-recorded-desktop.html`
+- `s-f18-18-audience-e-f18-11-audience-figure-recorded-phone.html`
+- `s-f18-19-shop-link-e-f18-02-page-held-desktop.html`
+- `s-f18-19-shop-link-e-f18-02-page-held-phone.html`
+- `s-f18-19-shop-link-e-f18-02-page-live-desktop.html`
+- `s-f18-19-shop-link-e-f18-02-page-live-phone.html`
+- `s-f18-19-shop-link-e-f18-02-page-published-desktop.html`
+- `s-f18-19-shop-link-e-f18-02-page-published-phone.html`
+- `s-f18-21-blog-e-f18-13-blog-article-preview-desktop.html`
+- `s-f18-21-blog-e-f18-13-blog-article-preview-phone.html`
+- `s-f18-22-redirects-e-f18-14-redirect-active-desktop.html`
+- `s-f18-22-redirects-e-f18-14-redirect-active-phone.html`
+- `s-f18-22-redirects-e-f18-14-redirect-removed-desktop.html`
+- `s-f18-22-redirects-e-f18-14-redirect-removed-phone.html`
+- `s-f18-24-form-protection-e-f18-04-contact-message-held-desktop.html`
+- `s-f18-24-form-protection-e-f18-04-contact-message-held-phone.html`
+- `s-f18-24-form-protection-e-f18-04-contact-message-lost-desktop.html`
+- `s-f18-24-form-protection-e-f18-04-contact-message-lost-phone.html`
+- `s-f18-24-form-protection-e-f18-04-contact-message-sent-desktop.html`
+- `s-f18-24-form-protection-e-f18-04-contact-message-sent-phone.html`
+- `s-f18-24-form-protection-e-f18-16-spam-hold-held-desktop.html`
+- `s-f18-24-form-protection-e-f18-16-spam-hold-held-phone.html`
+- `s-f18-24-form-protection-e-f18-16-spam-hold-released-desktop.html`
+- `s-f18-24-form-protection-e-f18-16-spam-hold-released-phone.html`
+- `s-f18-25-sector-templates-e-f18-02-page-held-desktop.html`
+- `s-f18-25-sector-templates-e-f18-02-page-held-phone.html`
+- `s-f18-25-sector-templates-e-f18-02-page-live-desktop.html`
+- `s-f18-25-sector-templates-e-f18-02-page-live-phone.html`
+- `s-f18-25-sector-templates-e-f18-02-page-published-desktop.html`
+- `s-f18-25-sector-templates-e-f18-02-page-published-phone.html`
+- `s-f18-25-sector-templates-e-f18-17-sector-template-published-desktop.html`
+- `s-f18-25-sector-templates-e-f18-17-sector-template-published-phone.html`
+- `s-f18-25-sector-templates-e-f18-17-sector-template-updated-desktop.html`
+- `s-f18-25-sector-templates-e-f18-17-sector-template-updated-phone.html`
+- `s-f18-26-search-basics-e-f18-18-search-settings-edited-desktop.html`
+- `s-f18-26-search-basics-e-f18-18-search-settings-edited-phone.html`
+- `s-f18-26-search-basics-e-f18-18-search-settings-generated-desktop.html`
+- `s-f18-26-search-basics-e-f18-18-search-settings-generated-phone.html`
+
+- `s-f18-28-page-ab-test-e-f18-20-page-test-applied-desktop.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-draft-desktop.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-dropped-desktop.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-ended-desktop.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-paused-desktop.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-running-desktop.html`
+- `s-f18-29-visitor-tracking-e-f18-21-visit-anonymous-desktop.html`
+- `s-f18-29-visitor-tracking-e-f18-21-visit-erased-desktop.html`
+- `s-f18-29-visitor-tracking-e-f18-21-visit-identified-desktop.html`
+- `s-f18-30-accessibility-e-f18-22-accessibility-statement-draft-desktop.html`
+- `s-f18-30-accessibility-e-f18-22-accessibility-statement-outdated-desktop.html`
+- `s-f18-30-accessibility-e-f18-22-accessibility-statement-published-desktop.html`
+- `s-f18-30-accessibility-e-f18-22-accessibility-statement-replaced-desktop.html`
+- `s-f18-31-members-pages-e-f18-23-page-audience-draft-desktop.html`
+- `s-f18-31-members-pages-e-f18-23-page-audience-live-desktop.html`
+- `s-f18-31-members-pages-e-f18-23-page-audience-withdrawn-desktop.html`
+
+- `s-f18-28-page-ab-test-e-f18-20-page-test-applied-phone.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-draft-phone.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-dropped-phone.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-ended-phone.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-paused-phone.html`
+- `s-f18-28-page-ab-test-e-f18-20-page-test-running-phone.html`
+- `s-f18-29-visitor-tracking-e-f18-21-visit-anonymous-phone.html`
+- `s-f18-29-visitor-tracking-e-f18-21-visit-erased-phone.html`
+- `s-f18-29-visitor-tracking-e-f18-21-visit-identified-phone.html`
+- `s-f18-30-accessibility-e-f18-22-accessibility-statement-draft-phone.html`
+- `s-f18-30-accessibility-e-f18-22-accessibility-statement-outdated-phone.html`
+- `s-f18-30-accessibility-e-f18-22-accessibility-statement-published-phone.html`
+- `s-f18-30-accessibility-e-f18-22-accessibility-statement-replaced-phone.html`
+- `s-f18-31-members-pages-e-f18-23-page-audience-draft-phone.html`
+- `s-f18-31-members-pages-e-f18-23-page-audience-live-phone.html`
+- `s-f18-31-members-pages-e-f18-23-page-audience-withdrawn-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

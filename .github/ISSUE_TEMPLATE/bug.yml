@@ -1,0 +1,56 @@
+name: Bug report
+description: Something in SimpleERP does not work as it should.
+title: "[USER-REPORTED-BUG] "
+labels: ["USER-REPORTED-BUG", "USER"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug. A maintainer reads every report before it is worked on.
+        **A security problem is never reported here:** follow [SECURITY.md](https://github.com/gpbcom/SimpleERP/blob/develop/SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: In plain words, what you did, what you saw, and what you expected instead.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. I see ... but I expected ...
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The screen, API endpoint, plugin or command concerned.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: The SimpleERP version, or the commit you run.
+  - type: dropdown
+    id: runs-on
+    attributes:
+      label: How you run SimpleERP
+      options:
+        - Laptop profile (Docker Compose)
+        - One server (Docker Compose)
+        - Kubernetes (Helm)
+        - Hosted edition
+        - Development checkout
+        - Other
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Logs or screenshots. Mask them first. No secret, password or personal data.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before sending
+      options:
+        - label: I searched the open issues and this bug is not reported yet.
+          required: true
+        - label: This report holds no secret and no personal data.
+          required: true

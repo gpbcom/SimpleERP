@@ -1,0 +1,115 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [sc15-wholesale-and-distribution](../README.md) › 🧪 states
+
+# 🧪 states
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc15-01-price-agreements-empty-desktop.html`
+- `s-sc15-01-price-agreements-loading-desktop.html`
+- `s-sc15-01-price-agreements-offline-phone.html`
+- `s-sc15-01-price-agreements-read-only-desktop.html`
+- `s-sc15-02-rebates-empty-desktop.html`
+- `s-sc15-02-rebates-loading-desktop.html`
+- `s-sc15-02-rebates-offline-phone.html`
+- `s-sc15-02-rebates-read-only-desktop.html`
+- `s-sc15-03-yearly-agreement-empty-desktop.html`
+- `s-sc15-03-yearly-agreement-loading-desktop.html`
+- `s-sc15-03-yearly-agreement-offline-phone.html`
+- `s-sc15-03-yearly-agreement-read-only-desktop.html`
+- `s-sc15-04-edi-orders-empty-desktop.html`
+- `s-sc15-04-edi-orders-loading-desktop.html`
+- `s-sc15-04-edi-orders-offline-phone.html`
+- `s-sc15-04-edi-orders-read-only-desktop.html`
+- `s-sc15-05-rep-orders-empty-desktop.html`
+- `s-sc15-05-rep-orders-loading-desktop.html`
+- `s-sc15-05-rep-orders-offline-phone.html`
+- `s-sc15-05-rep-orders-read-only-desktop.html`
+- `s-sc15-06-back-orders-empty-phone.html`
+- `s-sc15-06-back-orders-loading-phone.html`
+- `s-sc15-06-back-orders-offline-phone.html`
+- `s-sc15-06-back-orders-read-only-phone.html`
+- `s-sc15-07-drop-shipping-empty-desktop.html`
+- `s-sc15-07-drop-shipping-loading-desktop.html`
+- `s-sc15-07-drop-shipping-offline-desktop.html`
+- `s-sc15-07-drop-shipping-read-only-desktop.html`
+- `s-sc15-08-waves-empty-phone.html`
+- `s-sc15-08-waves-loading-phone.html`
+- `s-sc15-08-waves-offline-phone.html`
+- `s-sc15-08-waves-read-only-phone.html`
+- `s-sc15-09-pallets-empty-phone.html`
+- `s-sc15-09-pallets-loading-phone.html`
+- `s-sc15-09-pallets-offline-phone.html`
+- `s-sc15-09-pallets-read-only-phone.html`
+- `s-sc15-10-returns-empty-desktop.html`
+- `s-sc15-10-returns-loading-desktop.html`
+- `s-sc15-10-returns-offline-phone.html`
+- `s-sc15-10-returns-read-only-desktop.html`
+- `s-sc15-11-supplier-funds-empty-desktop.html`
+- `s-sc15-11-supplier-funds-loading-desktop.html`
+- `s-sc15-11-supplier-funds-offline-desktop.html`
+- `s-sc15-11-supplier-funds-read-only-desktop.html`
+- `s-sc15-12-imports-empty-desktop.html`
+- `s-sc15-12-imports-loading-desktop.html`
+- `s-sc15-12-imports-offline-desktop.html`
+- `s-sc15-12-imports-read-only-desktop.html`
+- `s-sc15-13-eu-statistics-empty-desktop.html`
+- `s-sc15-13-eu-statistics-loading-desktop.html`
+- `s-sc15-13-eu-statistics-offline-desktop.html`
+- `s-sc15-13-eu-statistics-read-only-desktop.html`
+- `s-sc15-14-visits-empty-desktop.html`
+- `s-sc15-14-visits-loading-desktop.html`
+- `s-sc15-14-visits-offline-phone.html`
+- `s-sc15-14-visits-read-only-desktop.html`
+- `s-sc15-15-margins-empty-desktop.html`
+- `s-sc15-15-margins-loading-desktop.html`
+- `s-sc15-15-margins-offline-phone.html`
+- `s-sc15-15-margins-read-only-desktop.html`
+- `s-sc15-16-credit-limits-empty-desktop.html`
+- `s-sc15-16-credit-limits-loading-desktop.html`
+- `s-sc15-16-credit-limits-offline-desktop.html`
+- `s-sc15-16-credit-limits-read-only-desktop.html`
+- `s-sc15-17-buying-empty-desktop.html`
+- `s-sc15-17-buying-loading-desktop.html`
+- `s-sc15-17-buying-offline-desktop.html`
+- `s-sc15-17-buying-read-only-desktop.html`
+- `s-sc15-18-b2b-portal-empty-phone.html`
+- `s-sc15-18-b2b-portal-loading-phone.html`
+- `s-sc15-18-b2b-portal-offline-phone.html`
+- `s-sc15-18-b2b-portal-read-only-phone.html`
+- `s-sc15-19-supplier-performance-empty-desktop.html`
+- `s-sc15-19-supplier-performance-loading-desktop.html`
+- `s-sc15-19-supplier-performance-offline-desktop.html`
+- `s-sc15-19-supplier-performance-read-only-desktop.html`
+- `s-sc15-20-sales-assistant-empty-desktop.html`
+- `s-sc15-20-sales-assistant-loading-desktop.html`
+- `s-sc15-20-sales-assistant-offline-phone.html`
+- `s-sc15-20-sales-assistant-read-only-desktop.html`
+- `s-sc15-21-beverage-distribution-empty-desktop.html`
+- `s-sc15-21-beverage-distribution-loading-desktop.html`
+- `s-sc15-21-beverage-distribution-offline-phone.html`
+- `s-sc15-21-beverage-distribution-read-only-desktop.html`
+- `s-sc15-22-van-sales-empty-desktop.html`
+- `s-sc15-22-van-sales-loading-desktop.html`
+- `s-sc15-22-van-sales-offline-phone.html`
+- `s-sc15-22-van-sales-read-only-desktop.html`
+- `s-sc15-23-catch-weight-empty-phone.html`
+- `s-sc15-23-catch-weight-loading-phone.html`
+- `s-sc15-23-catch-weight-offline-phone.html`
+- `s-sc15-23-catch-weight-read-only-phone.html`
+- `s-sc15-24-medical-devices-empty-desktop.html`
+- `s-sc15-24-medical-devices-loading-desktop.html`
+- `s-sc15-24-medical-devices-offline-desktop.html`
+- `s-sc15-24-medical-devices-read-only-desktop.html`
+- [u03-sales](u03-sales/README.md)
+- [u04-purchasing](u04-purchasing/README.md)
+- [u05-accounting](u05-accounting/README.md)
+- [u09-customer](u09-customer/README.md)
+- [u13-owner](u13-owner/README.md)
+- [u15-warehouse-operator](u15-warehouse-operator/README.md)
+- [u27-quality-manager](u27-quality-manager/README.md)
+- [u42-sales-representative](u42-sales-representative/README.md)
+
+---
+
+⬆️ [Up](../README.md)

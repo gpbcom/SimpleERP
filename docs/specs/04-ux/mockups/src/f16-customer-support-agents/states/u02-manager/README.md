@@ -1,0 +1,110 @@
+🏠 [Specs](../../../../../../README.md) › 🎨 [UX](../../../../../README.md) › 🧪 [Mockups](../../../../README.md) ›
+🧪 [src](../../../README.md) › 🧪 [f16-customer-support-agents](../../README.md) › 🧪 [states](../README.md) ›
+🧪 u02-manager
+
+# 🧪 u02-manager
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-f16-02-procedure-editor-e-f16-02-intent-accepted-desktop.html`
+- `s-f16-02-procedure-editor-e-f16-02-intent-accepted-phone.html`
+- `s-f16-02-procedure-editor-e-f16-02-intent-new-desktop.html`
+- `s-f16-02-procedure-editor-e-f16-02-intent-new-phone.html`
+- `s-f16-03-intent-rollout-e-f16-02-intent-accepted-desktop.html`
+- `s-f16-03-intent-rollout-e-f16-02-intent-accepted-phone.html`
+- `s-f16-03-intent-rollout-e-f16-02-intent-new-desktop.html`
+- `s-f16-03-intent-rollout-e-f16-02-intent-new-phone.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-escalated-desktop.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-escalated-phone.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-in-progress-desktop.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-in-progress-phone.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-new-desktop.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-new-phone.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-resolved-desktop.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-resolved-phone.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-waiting-desktop.html`
+- `s-f16-07-service-levels-e-f16-01-customer-request-waiting-phone.html`
+- `s-f16-07-service-levels-e-f16-05-service-level-policy-active-desktop.html`
+- `s-f16-07-service-levels-e-f16-05-service-level-policy-active-phone.html`
+- `s-f16-07-service-levels-e-f16-05-service-level-policy-changed-desktop.html`
+- `s-f16-07-service-levels-e-f16-05-service-level-policy-changed-phone.html`
+- `s-f16-07-service-levels-e-f16-05-service-level-policy-retired-desktop.html`
+- `s-f16-07-service-levels-e-f16-05-service-level-policy-retired-phone.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-escalated-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-escalated-phone.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-in-progress-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-in-progress-phone.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-new-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-new-phone.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-resolved-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-resolved-phone.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-waiting-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-01-customer-request-waiting-phone.html`
+- `s-f16-08-agent-workspace-e-f16-05-service-level-policy-active-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-05-service-level-policy-active-phone.html`
+- `s-f16-08-agent-workspace-e-f16-05-service-level-policy-changed-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-05-service-level-policy-changed-phone.html`
+- `s-f16-08-agent-workspace-e-f16-05-service-level-policy-retired-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-05-service-level-policy-retired-phone.html`
+- `s-f16-08-agent-workspace-e-f16-06-queue-open-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-06-queue-open-phone.html`
+- `s-f16-08-agent-workspace-e-f16-06-queue-paused-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-06-queue-paused-phone.html`
+- `s-f16-08-agent-workspace-e-f16-07-macro-active-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-07-macro-active-phone.html`
+- `s-f16-08-agent-workspace-e-f16-07-macro-archived-desktop.html`
+- `s-f16-08-agent-workspace-e-f16-07-macro-archived-phone.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-escalated-desktop.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-escalated-phone.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-in-progress-desktop.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-in-progress-phone.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-new-desktop.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-new-phone.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-resolved-desktop.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-resolved-phone.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-waiting-desktop.html`
+- `s-f16-09-satisfaction-survey-e-f16-01-customer-request-waiting-phone.html`
+- `s-f16-09-satisfaction-survey-e-f16-08-satisfaction-rating-asked-desktop.html`
+- `s-f16-09-satisfaction-survey-e-f16-08-satisfaction-rating-asked-phone.html`
+- `s-f16-09-satisfaction-survey-e-f16-08-satisfaction-rating-expired-desktop.html`
+- `s-f16-09-satisfaction-survey-e-f16-08-satisfaction-rating-expired-phone.html`
+- `s-f16-10-help-centre-e-f16-09-help-centre-article-archived-desktop.html`
+- `s-f16-10-help-centre-e-f16-09-help-centre-article-archived-phone.html`
+- `s-f16-10-help-centre-e-f16-09-help-centre-article-draft-desktop.html`
+- `s-f16-10-help-centre-e-f16-09-help-centre-article-draft-phone.html`
+- `s-f16-10-help-centre-e-f16-09-help-centre-article-published-desktop.html`
+- `s-f16-10-help-centre-e-f16-09-help-centre-article-published-phone.html`
+- `s-f16-12-intent-discovery-e-f16-02-intent-accepted-desktop.html`
+- `s-f16-12-intent-discovery-e-f16-02-intent-accepted-phone.html`
+- `s-f16-12-intent-discovery-e-f16-02-intent-new-desktop.html`
+- `s-f16-12-intent-discovery-e-f16-02-intent-new-phone.html`
+- `s-f16-12-intent-discovery-e-f16-10-intent-candidate-accepted-desktop.html`
+- `s-f16-12-intent-discovery-e-f16-10-intent-candidate-accepted-phone.html`
+- `s-f16-12-intent-discovery-e-f16-10-intent-candidate-dismissed-desktop.html`
+- `s-f16-12-intent-discovery-e-f16-10-intent-candidate-dismissed-phone.html`
+- `s-f16-12-intent-discovery-e-f16-10-intent-candidate-merged-desktop.html`
+- `s-f16-12-intent-discovery-e-f16-10-intent-candidate-merged-phone.html`
+- `s-f16-12-intent-discovery-e-f16-10-intent-candidate-proposed-desktop.html`
+- `s-f16-12-intent-discovery-e-f16-10-intent-candidate-proposed-phone.html`
+- `s-f16-13-fraud-signals-e-f16-11-fraud-signal-cleared-desktop.html`
+- `s-f16-13-fraud-signals-e-f16-11-fraud-signal-cleared-phone.html`
+- `s-f16-13-fraud-signals-e-f16-11-fraud-signal-confirmed-desktop.html`
+- `s-f16-13-fraud-signals-e-f16-11-fraud-signal-confirmed-phone.html`
+- `s-f16-13-fraud-signals-e-f16-11-fraud-signal-raised-desktop.html`
+- `s-f16-13-fraud-signals-e-f16-11-fraud-signal-raised-phone.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-blocked-desktop.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-blocked-phone.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-cancelled-desktop.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-cancelled-phone.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-done-desktop.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-done-phone.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-in-progress-desktop.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-in-progress-phone.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-ready-desktop.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-ready-phone.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-scheduled-desktop.html`
+- `s-f16-14-work-requests-e-f16-12-work-request-scheduled-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

@@ -1,0 +1,43 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Virtual environments
+.venv
+
+# Claude Code worktrees of the ticket harness
+.claude/worktrees/
+
+# Terraform state, variables and plans stay outside the repository
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+*.tfbackend
+
+# Node
+node_modules/
+
+# Log files written by the logging configuration stay out of the repository
+logs/
+
+# Editor settings stay local to each person.
+.vscode/
+
+# Helm dependencies are packaged on build and never committed
+infra/helm/*/charts/
+
+# Playwright output (reports are uploaded by CI and kept in the ticket folders)
+playwright-report/
+test-results/

@@ -1,0 +1,188 @@
+🏠 [Specs](../../../../README.md) › 🧩 [Functional capabilities](../../../README.md) ›
+🤖 [F25 DevOps agents (hosted edition)](../../README.md) › 🖥️ [Screens](../README.md) ›
+🗂️ [Views: DevOps agents (hosted edition) menu](README.md) › 🗂️ S-F25-L11 Triages
+
+# 🗂️ S-F25-L11 Triages
+
+**Status:** ✅ specified, reviewed by the owner on 2026-11-13 (D519); example images in step S8
+
+## Personas
+
+| Persona | Rows they see | What differs |
+|---|---|---|
+| [U47 SimpleERP maintainer](../../../../01-users/personas/u47-simpleerp-maintainer.md) | only their own records, through the portal or the AI assistant | columns, facets and actions as their roles' field rules allow (D488) |
+| [U13 Owner](../../../../01-users/personas/u13-owner.md) | the records their roles' record rules allow (T2) | columns, facets and actions as their roles' field rules allow (D488) |
+| [U07 Administrator](../../../../01-users/personas/u07-administrator.md) | the records their roles' record rules allow (T2) | columns, facets and actions as their roles' field rules allow (D488) |
+
+## Purpose
+
+The aggregated list of every [E-F25-11 Triage](../../data/e-f25-11-triage.md) the user may see: to find, filter, total
+and act on many triages at once
+([D484](../../../../06-decisions/ux/d484-aggregated-list-view-per-record-type-and-persona-workspaces.md),
+[D485](../../../../06-decisions/ux/d485-every-entity-has-an-aggregated-view.md)). Written from the
+[list view template](../../../../_templates/list-view.md) and the
+[aggregated list view pattern](../../../../04-ux/design-system/patterns/aggregated-list-view.md).
+
+## Entry points
+
+- **Menu:** DevOps agents (hosted edition) › Triages, in the capability's menu (D495).
+- **Workspaces:** 3 persona workspaces embed it, each on its persona's default saved view (D493): see Shown in.
+- **Global search:** typing "triages" offers this view.
+- **AI assistant:** "show the triages that need attention" opens it with the filter as editable chips (D486).
+
+## Wireframe
+
+```text
++--------------------------------------------------------------------------------------------------------------+
+| Triages    DevOps agents (hosted edition) › Triages   [+ New]                                                |
+| [count] [Late]   [chart: count by state]                                                                     |
+| [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
+| FACETS            | (chips)                                                  n of N results                  |
+| ticket            | [ ] TICKET   STATE   SEVERITY   PRIORITY                                                 |
+| severity          | [ ] ...                                                  Open >                          |
+| state             | [ ] ...                                                  Open >                          |
+| Related records   |                                                                                          |
+| Counts, totals, facets and the chart use only the records you may see.                                       |
++--------------------------------------------------------------------------------------------------------------+
+```
+
+## Columns
+
+| Label | Field | Format | Sortable |
+|---|---|---|---|
+| Ticket | ticket | link to the record | yes |
+| State | state | badge: Triaged, Acknowledged, Resolved, Late | yes |
+| Severity | severity | text | yes |
+| Priority | priority | number, right-aligned | yes |
+
+Secrets are never a column (VR-4).
+
+## Facets
+
+| Facet | Values | Counted on |
+|---|---|---|
+| Ticket | each linked ticket | the visible rows (D488) |
+| Severity | each value | the visible rows (D488) |
+| State | Triaged, Acknowledged, Resolved, Late | the visible rows (D488) |
+
+Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
+
+## Related-record filters
+
+- Triages of a chosen ticket, or of the tickets that match a filter.
+- From the other side: the tickets that have triages, or none.
+
+## KPI strip
+
+- Count of the visible rows.
+- Needs attention: count in the state Late.
+
+Recomputed on the filtered visible rows (D487, C-16).
+
+## Default chart
+
+Count by state (VR-8); the Chart button turns the filtered list into a chart the user can pin to their home screen
+(C-09).
+
+## Saved views
+
+- All.
+- Open: Triaged, Acknowledged, Late.
+- Needs attention.
+- Recently changed.
+
+Each persona's default saved view is set in its workspace (see Shown in).
+
+## Map layout
+
+None: no place.
+
+## Actions
+
+| Action | Where | Who | Result |
+|---|---|---|---|
+| New triage | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
+| Tag | bulk bar | every persona of the list | tags the selected rows; audited |
+| Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
+| Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
+| Ask about this list | toolbar | every persona of the list | an answer from the visible rows only, with its sources (D489) |
+| Chart | toolbar | every persona of the list | a C-09 chart of the filtered rows, pinnable |
+| Open › | row | every persona of the list | the record's own page (Row opens) |
+
+Each action is offered within the role and checked again on the server (VR-10).
+
+## Inline edit
+
+- severity: editable in its cell unless the record's state locks it.
+- priority: editable in its cell unless the record's state locks it.
+
+## Hidden fields
+
+None: no personal data and no secret among its fields.
+
+## Row opens
+
+Open › goes to [S-F25-21 Triage board](../01-intake/s-f25-21-triage-board.md).
+
+The records also show on: [S-F25-03 USER ticket](../01-intake/s-f25-03-user-ticket.md),
+[S-F25-14 My requests](../05-tell-the-customer/s-f25-14-my-requests.md).
+
+## States
+
+- **Loading:** the KPI strip, the facets and the table as placeholders.
+- **Listed:** the first 50 triages of the saved view, with the KPI strip and the facet counts.
+- **Filtered:** the chips of the filter or the plain words, and the result count.
+- **No result:** "Nothing matches these filters", with Clear filters.
+- **Empty:** no triage the user may see yet, with the create action when allowed.
+- **Selected:** the bulk bar with the actions allowed on every selected row.
+- **Error:** the query failed, with Retry.
+
+## Responsive behaviour
+
+On a phone the table keeps its columns and scrolls sideways, the facet panel becomes a drawer and the KPI strip stays
+(VR-14, D491).
+
+## Accessibility
+
+The KPI strip, the facet panel, the toolbar and the table are named landmarks; the result count is announced when the
+filters change; each chip has its remove button; the facet drawer returns the focus to its button.
+
+## Example images
+
+Drawn in step S8 (36k) from this page: one row per persona and device for each state of the view, light and dark
+([D490](../../../../06-decisions/ux/d490-example-images-for-every-persona-that-can-open-a-view.md),
+[D500](../../../../06-decisions/ux/d500-images-live-in-the-specs-folders.md)).
+
+| Shows | Device | Light | Dark |
+|---|---|---|---|
+| Listed, U47, view Open: Triaged, Acknowledged, Late | desktop | ![Listed, U47, view Open: Triaged, Acknowledged, Late, light](../../images/lists/s-f25-l11-triages-u47-simpleerp-maintainer-desktop-light.png) | ![Listed, U47, view Open: Triaged, Acknowledged, Late, dark](../../images/lists/s-f25-l11-triages-u47-simpleerp-maintainer-desktop-dark.png) |
+| Listed, U47, view Open: Triaged, Acknowledged, Late | phone | ![Listed, U47, view Open: Triaged, Acknowledged, Late, light](../../images/lists/s-f25-l11-triages-u47-simpleerp-maintainer-phone-light.png) | ![Listed, U47, view Open: Triaged, Acknowledged, Late, dark](../../images/lists/s-f25-l11-triages-u47-simpleerp-maintainer-phone-dark.png) |
+| Listed, U13, view Needs attention | desktop | ![Listed, U13, view Needs attention, light](../../images/lists/s-f25-l11-triages-u13-owner-desktop-light.png) | ![Listed, U13, view Needs attention, dark](../../images/lists/s-f25-l11-triages-u13-owner-desktop-dark.png) |
+| Listed, U13, view Needs attention | phone | ![Listed, U13, view Needs attention, light](../../images/lists/s-f25-l11-triages-u13-owner-phone-light.png) | ![Listed, U13, view Needs attention, dark](../../images/lists/s-f25-l11-triages-u13-owner-phone-dark.png) |
+| Listed, U07, view Needs attention | desktop | ![Listed, U07, view Needs attention, light](../../images/lists/s-f25-l11-triages-u07-administrator-desktop-light.png) | ![Listed, U07, view Needs attention, dark](../../images/lists/s-f25-l11-triages-u07-administrator-desktop-dark.png) |
+| Listed, U07, view Needs attention | phone | ![Listed, U07, view Needs attention, light](../../images/lists/s-f25-l11-triages-u07-administrator-phone-light.png) | ![Listed, U07, view Needs attention, dark](../../images/lists/s-f25-l11-triages-u07-administrator-phone-dark.png) |
+
+## Components
+
+[C-03 Data table](../../../../04-ux/design-system/components/c-03-data-table.md),
+[C-15 Facet panel](../../../../04-ux/design-system/components/c-15-facet-panel.md),
+[C-16 KPI strip](../../../../04-ux/design-system/components/c-16-kpi-strip.md),
+[C-09 Chart](../../../../04-ux/design-system/components/c-09-chart.md).
+
+## Shown in
+
+| Where | Pages |
+|---|---|
+| Menu | [DevOps agents (hosted edition) › Triages](README.md) |
+| Workspaces | [U47](../../../../04-ux/views/u47-simpleerp-maintainer/workspace.md), [U13](../../../../04-ux/views/u13-owner/workspace.md), [U07](../../../../04-ux/views/u07-administrator/workspace.md) |
+| Flows | [FL-F25-01](../../flows/fl-f25-01-intake.md), [FL-F25-05](../../flows/fl-f25-05-tell-the-customer.md) |
+
+## Open questions
+
+None.
+
+---
+
+⬅️ [S-F25-L10 Agent runs](s-f25-l10-agent-runs.md) · ⬆️ [Up](README.md) ·
+➡️ [S-F25-L12 Vulnerability cases](s-f25-l12-vulnerability-cases.md)

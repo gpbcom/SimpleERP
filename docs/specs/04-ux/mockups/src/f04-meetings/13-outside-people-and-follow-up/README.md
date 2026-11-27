@@ -1,0 +1,14 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [f04-meetings](../README.md) › 🧪 13-outside-people-and-follow-up
+
+# 🧪 13-outside-people-and-follow-up
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- [u02-manager](u02-manager/README.md)
+- [u07-administrator](u07-administrator/README.md)
+- [u09-customer](u09-customer/README.md)
+
+---
+
+⬆️ [Up](../README.md)

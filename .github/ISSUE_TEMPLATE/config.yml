@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/gpbcom/SimpleERP/security/advisories/new
+    about: Never in a public issue. Report it privately, as SECURITY.md explains.
+  - name: Security policy
+    url: https://github.com/gpbcom/SimpleERP/blob/develop/SECURITY.md
+    about: Supported versions and how vulnerabilities are handled.

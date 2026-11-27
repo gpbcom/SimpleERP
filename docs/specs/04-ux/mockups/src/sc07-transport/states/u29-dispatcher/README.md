@@ -1,0 +1,133 @@
+🏠 [Specs](../../../../../../README.md) › 🎨 [UX](../../../../../README.md) › 🧪 [Mockups](../../../../README.md) ›
+🧪 [src](../../../README.md) › 🧪 [sc07-transport](../../README.md) › 🧪 [states](../README.md) › 🧪 u29-dispatcher
+
+# 🧪 u29-dispatcher
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-billed-desktop.html`
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-billed-phone.html`
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-delivered-desktop.html`
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-delivered-phone.html`
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-ordered-desktop.html`
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-ordered-phone.html`
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-planned-desktop.html`
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-planned-phone.html`
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-quoted-desktop.html`
+- `s-sc07-01-transport-orders-e-sc07-01-transport-order-quoted-phone.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-billed-desktop.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-billed-phone.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-delivered-desktop.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-delivered-phone.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-ordered-desktop.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-ordered-phone.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-planned-desktop.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-planned-phone.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-quoted-desktop.html`
+- `s-sc07-02-trip-planning-e-sc07-01-transport-order-quoted-phone.html`
+- `s-sc07-02-trip-planning-e-sc07-02-trip-assigned-desktop.html`
+- `s-sc07-02-trip-planning-e-sc07-02-trip-assigned-phone.html`
+- `s-sc07-02-trip-planning-e-sc07-02-trip-planned-desktop.html`
+- `s-sc07-02-trip-planning-e-sc07-02-trip-planned-phone.html`
+- `s-sc07-02-trip-planning-e-sc07-02-trip-sent-desktop.html`
+- `s-sc07-02-trip-planning-e-sc07-02-trip-sent-phone.html`
+- `s-sc07-03-fleet-e-sc07-03-fleet-vehicle-blocked-desktop.html`
+- `s-sc07-03-fleet-e-sc07-03-fleet-vehicle-blocked-phone.html`
+- `s-sc07-04-drivers-e-sc07-04-driver-document-active-desktop.html`
+- `s-sc07-04-drivers-e-sc07-04-driver-document-active-phone.html`
+- `s-sc07-05-consignment-notes-e-sc07-05-consignment-note-recorded-desktop.html`
+- `s-sc07-05-consignment-notes-e-sc07-05-consignment-note-recorded-phone.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-06-stop-closed-desktop.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-06-stop-closed-phone.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-06-stop-done-desktop.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-06-stop-done-phone.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-06-stop-new-desktop.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-06-stop-new-phone.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-06-stop-open-desktop.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-06-stop-open-phone.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-07-transport-incident-active-desktop.html`
+- `s-sc07-07-proof-of-delivery-e-sc07-07-transport-incident-active-phone.html`
+- `s-sc07-08-tachograph-e-sc07-08-tachograph-file-active-desktop.html`
+- `s-sc07-08-tachograph-e-sc07-08-tachograph-file-active-phone.html`
+- `s-sc07-09-dangerous-goods-e-sc07-09-dangerous-goods-declaration-active-desktop.html`
+- `s-sc07-09-dangerous-goods-e-sc07-09-dangerous-goods-declaration-active-phone.html`
+- `s-sc07-10-fuel-and-tolls-e-sc07-10-fuel-and-toll-line-recorded-desktop.html`
+- `s-sc07-10-fuel-and-tolls-e-sc07-10-fuel-and-toll-line-recorded-phone.html`
+- `s-sc07-11-vehicle-maintenance-e-sc07-03-fleet-vehicle-blocked-desktop.html`
+- `s-sc07-11-vehicle-maintenance-e-sc07-03-fleet-vehicle-blocked-phone.html`
+- `s-sc07-11-vehicle-maintenance-e-sc07-03-fleet-vehicle-overdue-desktop.html`
+- `s-sc07-11-vehicle-maintenance-e-sc07-03-fleet-vehicle-overdue-phone.html`
+- `s-sc07-11-vehicle-maintenance-e-sc07-11-vehicle-repair-active-desktop.html`
+- `s-sc07-11-vehicle-maintenance-e-sc07-11-vehicle-repair-active-phone.html`
+- `s-sc07-12-chartering-e-sc07-12-charter-blocked-desktop.html`
+- `s-sc07-12-chartering-e-sc07-12-charter-blocked-phone.html`
+- `s-sc07-12-chartering-e-sc07-12-charter-sent-desktop.html`
+- `s-sc07-12-chartering-e-sc07-12-charter-sent-phone.html`
+- `s-sc07-14-client-warehouse-e-sc07-14-client-stock-active-desktop.html`
+- `s-sc07-14-client-warehouse-e-sc07-14-client-stock-active-phone.html`
+- `s-sc07-17-co2-information-e-sc07-17-transport-co2-statement-active-desktop.html`
+- `s-sc07-17-co2-information-e-sc07-17-transport-co2-statement-active-phone.html`
+- `s-sc07-18-margins-e-sc07-02-trip-assigned-desktop.html`
+- `s-sc07-18-margins-e-sc07-02-trip-assigned-phone.html`
+- `s-sc07-18-margins-e-sc07-02-trip-planned-desktop.html`
+- `s-sc07-18-margins-e-sc07-02-trip-planned-phone.html`
+- `s-sc07-18-margins-e-sc07-02-trip-sent-desktop.html`
+- `s-sc07-18-margins-e-sc07-02-trip-sent-phone.html`
+- `s-sc07-19-international-trips-e-sc07-02-trip-assigned-desktop.html`
+- `s-sc07-19-international-trips-e-sc07-02-trip-assigned-phone.html`
+- `s-sc07-19-international-trips-e-sc07-02-trip-planned-desktop.html`
+- `s-sc07-19-international-trips-e-sc07-02-trip-planned-phone.html`
+- `s-sc07-19-international-trips-e-sc07-02-trip-sent-desktop.html`
+- `s-sc07-19-international-trips-e-sc07-02-trip-sent-phone.html`
+- `s-sc07-19-international-trips-e-sc07-15-cabotage-operation-active-desktop.html`
+- `s-sc07-19-international-trips-e-sc07-15-cabotage-operation-active-phone.html`
+- `s-sc07-20-fleet-assistant-e-sc07-02-trip-sent-desktop.html`
+- `s-sc07-20-fleet-assistant-e-sc07-02-trip-sent-phone.html`
+
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-cancelled-desktop.html`
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-completed-desktop.html`
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-dispatched-desktop.html`
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-planned-desktop.html`
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-running-desktop.html`
+- `s-sc07-22-removals-e-sc07-19-removal-closed-desktop.html`
+- `s-sc07-22-removals-e-sc07-19-removal-lost-desktop.html`
+- `s-sc07-22-removals-e-sc07-19-removal-moved-desktop.html`
+- `s-sc07-22-removals-e-sc07-19-removal-quoted-desktop.html`
+- `s-sc07-22-removals-e-sc07-19-removal-signed-desktop.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-delivered-desktop.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-failed-desktop.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-held-desktop.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-out-desktop.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-received-desktop.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-returned-desktop.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-cleared-desktop.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-closed-desktop.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-declared-desktop.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-documents-desktop.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-opened-desktop.html`
+
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-cancelled-phone.html`
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-completed-phone.html`
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-dispatched-phone.html`
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-planned-phone.html`
+- `s-sc07-21-passenger-transport-e-sc07-18-passenger-trip-running-phone.html`
+- `s-sc07-22-removals-e-sc07-19-removal-closed-phone.html`
+- `s-sc07-22-removals-e-sc07-19-removal-lost-phone.html`
+- `s-sc07-22-removals-e-sc07-19-removal-moved-phone.html`
+- `s-sc07-22-removals-e-sc07-19-removal-quoted-phone.html`
+- `s-sc07-22-removals-e-sc07-19-removal-signed-phone.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-delivered-phone.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-failed-phone.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-held-phone.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-out-phone.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-received-phone.html`
+- `s-sc07-23-last-mile-e-sc07-20-parcel-returned-phone.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-cleared-phone.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-closed-phone.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-declared-phone.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-documents-phone.html`
+- `s-sc07-24-freight-forwarding-e-sc07-21-shipment-file-opened-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

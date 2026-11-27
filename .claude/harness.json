@@ -1,0 +1,8 @@
+{
+    "repo": "gpbcom/SimpleERP",
+    "owner": "gpbcom",
+    "owner_type": "user",
+    "project_title": "SimpleERP roadmap",
+    "product": "SimpleERP",
+    "image_prefix": "ghcr.io/gpbcom/simpleerp"
+}

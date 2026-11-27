@@ -1,0 +1,113 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [sc12-education-and-training](../README.md) › 🧪 states
+
+# 🧪 states
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc12-01-catalogue-empty-desktop.html`
+- `s-sc12-01-catalogue-loading-desktop.html`
+- `s-sc12-01-catalogue-offline-desktop.html`
+- `s-sc12-01-catalogue-read-only-desktop.html`
+- `s-sc12-02-sessions-empty-desktop.html`
+- `s-sc12-02-sessions-loading-desktop.html`
+- `s-sc12-02-sessions-offline-desktop.html`
+- `s-sc12-02-sessions-read-only-desktop.html`
+- `s-sc12-03-enrolment-empty-desktop.html`
+- `s-sc12-03-enrolment-loading-desktop.html`
+- `s-sc12-03-enrolment-offline-desktop.html`
+- `s-sc12-03-enrolment-read-only-desktop.html`
+- `s-sc12-04-funding-empty-desktop.html`
+- `s-sc12-04-funding-loading-desktop.html`
+- `s-sc12-04-funding-offline-desktop.html`
+- `s-sc12-04-funding-read-only-desktop.html`
+- `s-sc12-05-invitations-empty-desktop.html`
+- `s-sc12-05-invitations-loading-desktop.html`
+- `s-sc12-05-invitations-offline-desktop.html`
+- `s-sc12-05-invitations-read-only-desktop.html`
+- `s-sc12-06-attendance-empty-desktop.html`
+- `s-sc12-06-attendance-loading-desktop.html`
+- `s-sc12-06-attendance-offline-phone.html`
+- `s-sc12-06-attendance-read-only-desktop.html`
+- `s-sc12-07-e-learning-empty-phone.html`
+- `s-sc12-07-e-learning-loading-phone.html`
+- `s-sc12-07-e-learning-offline-phone.html`
+- `s-sc12-07-e-learning-read-only-phone.html`
+- `s-sc12-08-certificates-empty-desktop.html`
+- `s-sc12-08-certificates-loading-desktop.html`
+- `s-sc12-08-certificates-offline-phone.html`
+- `s-sc12-08-certificates-read-only-desktop.html`
+- `s-sc12-09-satisfaction-empty-desktop.html`
+- `s-sc12-09-satisfaction-loading-desktop.html`
+- `s-sc12-09-satisfaction-offline-desktop.html`
+- `s-sc12-09-satisfaction-read-only-desktop.html`
+- `s-sc12-10-billing-empty-desktop.html`
+- `s-sc12-10-billing-loading-desktop.html`
+- `s-sc12-10-billing-offline-desktop.html`
+- `s-sc12-10-billing-read-only-desktop.html`
+- `s-sc12-11-trainers-empty-desktop.html`
+- `s-sc12-11-trainers-loading-desktop.html`
+- `s-sc12-11-trainers-offline-desktop.html`
+- `s-sc12-11-trainers-read-only-desktop.html`
+- `s-sc12-12-quality-file-empty-desktop.html`
+- `s-sc12-12-quality-file-loading-desktop.html`
+- `s-sc12-12-quality-file-offline-desktop.html`
+- `s-sc12-12-quality-file-read-only-desktop.html`
+- `s-sc12-13-yearly-report-empty-desktop.html`
+- `s-sc12-13-yearly-report-loading-desktop.html`
+- `s-sc12-13-yearly-report-offline-desktop.html`
+- `s-sc12-13-yearly-report-read-only-desktop.html`
+- `s-sc12-14-complaints-empty-desktop.html`
+- `s-sc12-14-complaints-loading-desktop.html`
+- `s-sc12-14-complaints-offline-desktop.html`
+- `s-sc12-14-complaints-read-only-desktop.html`
+- `s-sc12-15-school-enrolment-empty-desktop.html`
+- `s-sc12-15-school-enrolment-loading-desktop.html`
+- `s-sc12-15-school-enrolment-offline-desktop.html`
+- `s-sc12-15-school-enrolment-read-only-desktop.html`
+- `s-sc12-16-timetables-empty-desktop.html`
+- `s-sc12-16-timetables-loading-desktop.html`
+- `s-sc12-16-timetables-offline-desktop.html`
+- `s-sc12-16-timetables-read-only-desktop.html`
+- `s-sc12-17-grades-empty-desktop.html`
+- `s-sc12-17-grades-loading-desktop.html`
+- `s-sc12-17-grades-offline-phone.html`
+- `s-sc12-17-grades-read-only-desktop.html`
+- `s-sc12-18-pupil-attendance-empty-desktop.html`
+- `s-sc12-18-pupil-attendance-loading-desktop.html`
+- `s-sc12-18-pupil-attendance-offline-phone.html`
+- `s-sc12-18-pupil-attendance-read-only-desktop.html`
+- `s-sc12-19-school-fees-empty-desktop.html`
+- `s-sc12-19-school-fees-loading-desktop.html`
+- `s-sc12-19-school-fees-offline-desktop.html`
+- `s-sc12-19-school-fees-read-only-desktop.html`
+- `s-sc12-20-training-assistant-empty-desktop.html`
+- `s-sc12-20-training-assistant-loading-desktop.html`
+- `s-sc12-20-training-assistant-offline-desktop.html`
+- `s-sc12-20-training-assistant-read-only-desktop.html`
+- `s-sc12-21-cfa-empty-desktop.html`
+- `s-sc12-21-cfa-loading-desktop.html`
+- `s-sc12-21-cfa-offline-desktop.html`
+- `s-sc12-21-cfa-read-only-desktop.html`
+- `s-sc12-22-driving-school-empty-desktop.html`
+- `s-sc12-22-driving-school-loading-desktop.html`
+- `s-sc12-22-driving-school-offline-desktop.html`
+- `s-sc12-22-driving-school-read-only-desktop.html`
+- `s-sc12-23-nursery-empty-desktop.html`
+- `s-sc12-23-nursery-loading-desktop.html`
+- `s-sc12-23-nursery-offline-desktop.html`
+- `s-sc12-23-nursery-read-only-desktop.html`
+- `s-sc12-24-canteen-empty-desktop.html`
+- `s-sc12-24-canteen-loading-desktop.html`
+- `s-sc12-24-canteen-offline-desktop.html`
+- `s-sc12-24-canteen-read-only-desktop.html`
+- [u01-employee](u01-employee/README.md)
+- [u05-accounting](u05-accounting/README.md)
+- [u09-customer](u09-customer/README.md)
+- [u13-owner](u13-owner/README.md)
+- [u38-training-coordinator](u38-training-coordinator/README.md)
+- [u39-trainer](u39-trainer/README.md)
+
+---
+
+⬆️ [Up](../README.md)

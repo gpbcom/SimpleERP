@@ -1,0 +1,44 @@
+name: Feature request
+description: Something SimpleERP users should be able to do or see.
+title: "[USER-FEATURE-REQUEST] "
+labels: ["USER-FEATURE-REQUEST", "USER"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your request. A maintainer reads every request before it is worked on, and checks it against
+        the [specifications](https://github.com/gpbcom/SimpleERP/tree/develop/docs/specs).
+  - type: textarea
+    id: need
+    attributes:
+      label: Need
+      description: Who needs what, and why. A user story is welcome, for example "As an owner, I want ... so that ...".
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: Concrete cases the feature must handle, with real-looking values.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: One per line, each one testable ("Given ..., when ..., then ...").
+  - type: input
+    id: area
+    attributes:
+      label: Area
+      description: The capability it belongs to, if you know it (for example F6 Customers and sales).
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Screenshots, links to docs/specs/, constraints. No secret or personal data.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before sending
+      options:
+        - label: I searched the open issues and this request is not there yet.
+          required: true

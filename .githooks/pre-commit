@@ -1,0 +1,4 @@
+#!/bin/sh
+# GitFlow rules of SimpleERP (TKT-15), turned on by: python3 .claude/scripts/tickets/tickets.py setup
+# The person, never an agent, steps outside them on purpose with ERP_GITFLOW_BYPASS=1 (first push, release tag).
+exec python3 "$(dirname "$0")/../.claude/scripts/github/gitflow.py" pre-commit "$@"

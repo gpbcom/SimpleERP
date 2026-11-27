@@ -1,0 +1,105 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [sc09-health-practices](../README.md) › 🧪 lists
+
+# 🧪 lists
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc09-l01-appointments-u09-customer-desktop.html`
+- `s-sc09-l01-appointments-u09-customer-phone.html`
+- `s-sc09-l01-appointments-u13-owner-desktop.html`
+- `s-sc09-l01-appointments-u13-owner-phone.html`
+- `s-sc09-l01-appointments-u33-medical-secretary-desktop.html`
+- `s-sc09-l01-appointments-u33-medical-secretary-phone.html`
+- `s-sc09-l02-patients-u09-customer-desktop.html`
+- `s-sc09-l02-patients-u09-customer-phone.html`
+- `s-sc09-l02-patients-u13-owner-desktop.html`
+- `s-sc09-l02-patients-u13-owner-phone.html`
+- `s-sc09-l02-patients-u33-medical-secretary-desktop.html`
+- `s-sc09-l02-patients-u33-medical-secretary-phone.html`
+- `s-sc09-l03-clinical-record-entries-u09-customer-desktop.html`
+- `s-sc09-l03-clinical-record-entries-u09-customer-phone.html`
+- `s-sc09-l03-clinical-record-entries-u13-owner-desktop.html`
+- `s-sc09-l03-clinical-record-entries-u13-owner-phone.html`
+- `s-sc09-l03-clinical-record-entries-u33-medical-secretary-desktop.html`
+- `s-sc09-l03-clinical-record-entries-u33-medical-secretary-phone.html`
+- `s-sc09-l03-clinical-record-entries-u36-professional-desktop.html`
+- `s-sc09-l03-clinical-record-entries-u36-professional-phone.html`
+- `s-sc09-l04-prescriptions-u13-owner-desktop.html`
+- `s-sc09-l04-prescriptions-u13-owner-phone.html`
+- `s-sc09-l04-prescriptions-u17-cashier-desktop.html`
+- `s-sc09-l04-prescriptions-u17-cashier-phone.html`
+- `s-sc09-l04-prescriptions-u36-professional-desktop.html`
+- `s-sc09-l04-prescriptions-u36-professional-phone.html`
+- `s-sc09-l05-care-sheets-u05-accounting-desktop.html`
+- `s-sc09-l05-care-sheets-u05-accounting-phone.html`
+- `s-sc09-l05-care-sheets-u13-owner-desktop.html`
+- `s-sc09-l05-care-sheets-u13-owner-phone.html`
+- `s-sc09-l05-care-sheets-u33-medical-secretary-desktop.html`
+- `s-sc09-l05-care-sheets-u33-medical-secretary-phone.html`
+- `s-sc09-l06-insurer-returns-u05-accounting-desktop.html`
+- `s-sc09-l06-insurer-returns-u05-accounting-phone.html`
+- `s-sc09-l06-insurer-returns-u13-owner-desktop.html`
+- `s-sc09-l06-insurer-returns-u13-owner-phone.html`
+- `s-sc09-l06-insurer-returns-u33-medical-secretary-desktop.html`
+- `s-sc09-l06-insurer-returns-u33-medical-secretary-phone.html`
+- `s-sc09-l07-patient-invoices-u09-customer-desktop.html`
+- `s-sc09-l07-patient-invoices-u09-customer-phone.html`
+- `s-sc09-l07-patient-invoices-u17-cashier-desktop.html`
+- `s-sc09-l07-patient-invoices-u17-cashier-phone.html`
+- `s-sc09-l07-patient-invoices-u33-medical-secretary-desktop.html`
+- `s-sc09-l07-patient-invoices-u33-medical-secretary-phone.html`
+- `s-sc09-l07-patient-invoices-u36-professional-desktop.html`
+- `s-sc09-l07-patient-invoices-u36-professional-phone.html`
+- `s-sc09-l08-health-exchanges-u13-owner-desktop.html`
+- `s-sc09-l08-health-exchanges-u13-owner-phone.html`
+- `s-sc09-l08-health-exchanges-u33-medical-secretary-desktop.html`
+- `s-sc09-l08-health-exchanges-u33-medical-secretary-phone.html`
+- `s-sc09-l09-consulting-rooms-u13-owner-desktop.html`
+- `s-sc09-l09-consulting-rooms-u13-owner-phone.html`
+- `s-sc09-l09-consulting-rooms-u33-medical-secretary-desktop.html`
+- `s-sc09-l09-consulting-rooms-u33-medical-secretary-phone.html`
+- `s-sc09-l10-shared-costs-u05-accounting-desktop.html`
+- `s-sc09-l10-shared-costs-u05-accounting-phone.html`
+- `s-sc09-l10-shared-costs-u13-owner-desktop.html`
+- `s-sc09-l10-shared-costs-u13-owner-phone.html`
+- `s-sc09-l11-sterilisation-cycles-u13-owner-desktop.html`
+- `s-sc09-l11-sterilisation-cycles-u13-owner-phone.html`
+- `s-sc09-l11-sterilisation-cycles-u33-medical-secretary-desktop.html`
+- `s-sc09-l11-sterilisation-cycles-u33-medical-secretary-phone.html`
+- `s-sc09-l12-locum-agreements-u05-accounting-desktop.html`
+- `s-sc09-l12-locum-agreements-u05-accounting-phone.html`
+- `s-sc09-l12-locum-agreements-u13-owner-desktop.html`
+- `s-sc09-l12-locum-agreements-u13-owner-phone.html`
+- `s-sc09-l13-certified-modules-u07-administrator-desktop.html`
+- `s-sc09-l13-certified-modules-u07-administrator-phone.html`
+- `s-sc09-l13-certified-modules-u11-provider-admin-desktop.html`
+- `s-sc09-l13-certified-modules-u11-provider-admin-phone.html`
+- `s-sc09-l14-dispensations-u17-cashier-desktop.html`
+- `s-sc09-l14-dispensations-u17-cashier-phone.html`
+- `s-sc09-l14-dispensations-u36-professional-desktop.html`
+- `s-sc09-l14-dispensations-u36-professional-phone.html`
+- `s-sc09-l15-eyewear-orders-u17-cashier-desktop.html`
+- `s-sc09-l15-eyewear-orders-u17-cashier-phone.html`
+- `s-sc09-l15-eyewear-orders-u36-professional-desktop.html`
+- `s-sc09-l15-eyewear-orders-u36-professional-phone.html`
+- `s-sc09-l16-animals-u33-medical-secretary-desktop.html`
+- `s-sc09-l16-animals-u33-medical-secretary-phone.html`
+- `s-sc09-l16-animals-u36-professional-desktop.html`
+- `s-sc09-l16-animals-u36-professional-phone.html`
+- `s-sc09-l17-dental-quotes-u09-customer-desktop.html`
+- `s-sc09-l17-dental-quotes-u09-customer-phone.html`
+- `s-sc09-l17-dental-quotes-u36-professional-desktop.html`
+- `s-sc09-l17-dental-quotes-u36-professional-phone.html`
+- `s-sc09-l18-centre-activities-u13-owner-desktop.html`
+- `s-sc09-l18-centre-activities-u13-owner-phone.html`
+- `s-sc09-l18-centre-activities-u33-medical-secretary-desktop.html`
+- `s-sc09-l18-centre-activities-u33-medical-secretary-phone.html`
+- `s-sc09-l19-aci-indicators-u33-medical-secretary-desktop.html`
+- `s-sc09-l19-aci-indicators-u33-medical-secretary-phone.html`
+- `s-sc09-l19-aci-indicators-u36-professional-desktop.html`
+- `s-sc09-l19-aci-indicators-u36-professional-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

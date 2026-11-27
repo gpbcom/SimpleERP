@@ -1,0 +1,137 @@
+🏠 [Specs](../../../../README.md) › 🧩 [Functional capabilities](../../../README.md) ›
+💸 [F22 Unified platform cost management](../../README.md) › 📝 [Use cases](../README.md) ›
+📝 [Use cases: FL-F22-05 Billing](README.md) › 📝 UC-F22-17 Follow the hosting's own platform costs
+
+# 📝 UC-F22-17 Follow the hosting's own platform costs
+
+**Status:** ✅ specified
+
+## Summary
+
+The hosting engineer follows the hosting's own platform costs against revenue, including self-hosted compute.
+
+## Personas
+
+- [U48 Hosting engineer](../../../../01-users/personas/u48-hosting-engineer.md)
+
+## Goal
+
+Sustainable hosting.
+
+## Trigger
+
+Month.
+
+## Frequency
+
+Monthly.
+
+## Preconditions
+
+- Costs.
+
+## Postconditions
+
+- Success: read.
+- Failure: none.
+
+## Main flow
+
+1. Open (S-F22-17).
+2. Compare with revenue.
+3. Include compute (BR-F22-15).
+4. Act.
+
+## Alternative flows
+
+- 4a. Savings.
+
+## Error flows
+
+- 2e. None.
+- Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
+  (D122) and what was typed stays on the screen.
+
+## Business rules
+
+- [BR-F22-02 Every paid call is metered](../../business-rules/br-f22-02-every-paid-call-metered.md)
+- [BR-F22-11 Suppliers' invoices matched](../../business-rules/br-f22-11-supplier-invoices-matched.md)
+- [BR-F22-15 Self-hosted compute has a cost](../../business-rules/br-f22-15-self-hosted-compute-has-a-cost.md)
+
+## Entities
+
+- [E-F22-02 Metered call record](../../data/e-f22-02-metered-call-record.md)
+- [E-F22-12 Invoice match](../../data/e-f22-12-invoice-match.md)
+- [E-F22-15 Compute machine](../../data/e-f22-15-compute-machine.md)
+
+## Permissions
+
+Hosting engineer.
+
+## Notifications
+
+- None.
+
+## Audit events
+
+None.
+
+## AI involvement
+
+None.
+
+## API, MCP and A2A exposure
+
+Through T5 and T6 with the caller's rights (BR-F3-34).
+
+## Screens
+
+- [S-F22-17 Platform costs](../../screens/05-billing/s-f22-17-platform-costs.md)
+
+## Flowchart
+
+See [FL-F22-05 Billing](../../flows/fl-f22-05-billing.md#flowchart).
+
+## Sequence diagram
+
+```mermaid
+sequenceDiagram
+  actor E as Hosting engineer
+  participant S as Platform costs
+  E->>S: November
+  S-->>E: Costs 18 percent of revenue
+```
+
+## Acceptance criteria
+
+1. **Given** costs and revenue **when** compared **then** 18 %.
+2. **Given** compute **when** included **then** counted.
+3. **Given** savings **when** found **then** listed.
+
+## Non-functional notes
+
+D408's targets ([Performance](../../../../05-non-functional/performance.md)): 95 % of screens within 1 second; lists
+paged on the server, the first page within 1 second; reports within 5 seconds or in the background.
+
+## Regulatory references
+
+Billing and accounting rules of the France country pack:
+[CR-FR-015 Mandatory invoice mentions](../../../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md),
+[CR-FR-016 Electronic invoicing](../../../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md),
+[CR-FR-100 VAT on services to clients abroad](../../../../10-country-packs/france/tax-and-vat/cr-fr-100-vat-on-services-abroad.md),
+[CR-FR-002 Accounting records kept 10 years](../../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md),
+[CR-FR-202 Price reductions on invoices](../../../../10-country-packs/france/invoicing/cr-fr-202-price-reductions-on-invoices.md),
+[CR-FR-049 Processors and transfers outside the EU](../../../../10-country-packs/france/data-protection/cr-fr-049-processors-and-transfers.md).
+
+## Related use cases
+
+- [UC-F22-23 Act on savings recommendations](../06-savings-and-kpis/uc-f22-23-act-on-savings-recommendations.md)
+
+## Open questions
+
+None.
+
+---
+
+⬅️ [UC-F22-16 Re-bill clients as an IT provider](uc-f22-16-re-bill-clients-as-an-it-provider.md) · ⬆️ [Up](README.md) ·
+➡️ [UC-F22-18 Spot anomalies and runaway agents](../03-runs/uc-f22-18-spot-anomalies-and-runaway-agents.md)

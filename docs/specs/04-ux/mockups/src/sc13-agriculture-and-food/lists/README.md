@@ -1,0 +1,105 @@
+🏠 [Specs](../../../../../README.md) › 🎨 [UX](../../../../README.md) › 🧪 [Mockups](../../../README.md) ›
+🧪 [src](../../README.md) › 🧪 [sc13-agriculture-and-food](../README.md) › 🧪 lists
+
+# 🧪 lists
+
+HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
+
+- `s-sc13-l01-plots-u05-accounting-desktop.html`
+- `s-sc13-l01-plots-u05-accounting-phone.html`
+- `s-sc13-l01-plots-u40-farmer-desktop.html`
+- `s-sc13-l01-plots-u40-farmer-phone.html`
+- `s-sc13-l02-crop-plans-u05-accounting-desktop.html`
+- `s-sc13-l02-crop-plans-u05-accounting-phone.html`
+- `s-sc13-l02-crop-plans-u40-farmer-desktop.html`
+- `s-sc13-l02-crop-plans-u40-farmer-phone.html`
+- `s-sc13-l03-field-operations-u14-field-worker-desktop.html`
+- `s-sc13-l03-field-operations-u14-field-worker-phone.html`
+- `s-sc13-l03-field-operations-u40-farmer-desktop.html`
+- `s-sc13-l03-field-operations-u40-farmer-phone.html`
+- `s-sc13-l04-lots-u15-warehouse-operator-desktop.html`
+- `s-sc13-l04-lots-u15-warehouse-operator-phone.html`
+- `s-sc13-l04-lots-u20-production-operator-desktop.html`
+- `s-sc13-l04-lots-u20-production-operator-phone.html`
+- `s-sc13-l04-lots-u21-production-planner-desktop.html`
+- `s-sc13-l04-lots-u21-production-planner-phone.html`
+- `s-sc13-l04-lots-u27-quality-manager-desktop.html`
+- `s-sc13-l04-lots-u27-quality-manager-phone.html`
+- `s-sc13-l04-lots-u40-farmer-desktop.html`
+- `s-sc13-l04-lots-u40-farmer-phone.html`
+- `s-sc13-l05-animals-u05-accounting-desktop.html`
+- `s-sc13-l05-animals-u05-accounting-phone.html`
+- `s-sc13-l05-animals-u40-farmer-desktop.html`
+- `s-sc13-l05-animals-u40-farmer-phone.html`
+- `s-sc13-l06-veterinary-treatments-u40-farmer-desktop.html`
+- `s-sc13-l06-veterinary-treatments-u40-farmer-phone.html`
+- `s-sc13-l07-machines-u05-accounting-desktop.html`
+- `s-sc13-l07-machines-u05-accounting-phone.html`
+- `s-sc13-l07-machines-u30-driver-desktop.html`
+- `s-sc13-l07-machines-u30-driver-phone.html`
+- `s-sc13-l07-machines-u40-farmer-desktop.html`
+- `s-sc13-l07-machines-u40-farmer-phone.html`
+- `s-sc13-l08-seasonal-contracts-u05-accounting-desktop.html`
+- `s-sc13-l08-seasonal-contracts-u05-accounting-phone.html`
+- `s-sc13-l08-seasonal-contracts-u14-field-worker-desktop.html`
+- `s-sc13-l08-seasonal-contracts-u14-field-worker-phone.html`
+- `s-sc13-l08-seasonal-contracts-u40-farmer-desktop.html`
+- `s-sc13-l08-seasonal-contracts-u40-farmer-phone.html`
+- `s-sc13-l09-direct-sales-u09-customer-desktop.html`
+- `s-sc13-l09-direct-sales-u09-customer-phone.html`
+- `s-sc13-l09-direct-sales-u40-farmer-desktop.html`
+- `s-sc13-l09-direct-sales-u40-farmer-phone.html`
+- `s-sc13-l10-cooperative-statements-u05-accounting-desktop.html`
+- `s-sc13-l10-cooperative-statements-u05-accounting-phone.html`
+- `s-sc13-l10-cooperative-statements-u31-treasurer-desktop.html`
+- `s-sc13-l10-cooperative-statements-u31-treasurer-phone.html`
+- `s-sc13-l10-cooperative-statements-u40-farmer-desktop.html`
+- `s-sc13-l10-cooperative-statements-u40-farmer-phone.html`
+- `s-sc13-l11-organic-records-u27-quality-manager-desktop.html`
+- `s-sc13-l11-organic-records-u27-quality-manager-phone.html`
+- `s-sc13-l11-organic-records-u40-farmer-desktop.html`
+- `s-sc13-l11-organic-records-u40-farmer-phone.html`
+- `s-sc13-l12-batches-u20-production-operator-desktop.html`
+- `s-sc13-l12-batches-u20-production-operator-phone.html`
+- `s-sc13-l12-batches-u21-production-planner-desktop.html`
+- `s-sc13-l12-batches-u21-production-planner-phone.html`
+- `s-sc13-l12-batches-u27-quality-manager-desktop.html`
+- `s-sc13-l12-batches-u27-quality-manager-phone.html`
+- `s-sc13-l12-batches-u40-farmer-desktop.html`
+- `s-sc13-l12-batches-u40-farmer-phone.html`
+- `s-sc13-l13-hygiene-readings-u20-production-operator-desktop.html`
+- `s-sc13-l13-hygiene-readings-u20-production-operator-phone.html`
+- `s-sc13-l13-hygiene-readings-u27-quality-manager-desktop.html`
+- `s-sc13-l13-hygiene-readings-u27-quality-manager-phone.html`
+- `s-sc13-l14-product-labels-u21-production-planner-desktop.html`
+- `s-sc13-l14-product-labels-u21-production-planner-phone.html`
+- `s-sc13-l14-product-labels-u27-quality-manager-desktop.html`
+- `s-sc13-l14-product-labels-u27-quality-manager-phone.html`
+- `s-sc13-l15-recalls-u15-warehouse-operator-desktop.html`
+- `s-sc13-l15-recalls-u15-warehouse-operator-phone.html`
+- `s-sc13-l15-recalls-u27-quality-manager-desktop.html`
+- `s-sc13-l15-recalls-u27-quality-manager-phone.html`
+- `s-sc13-l16-cap-aid-declarations-u05-accounting-desktop.html`
+- `s-sc13-l16-cap-aid-declarations-u05-accounting-phone.html`
+- `s-sc13-l16-cap-aid-declarations-u40-farmer-desktop.html`
+- `s-sc13-l16-cap-aid-declarations-u40-farmer-phone.html`
+- `s-sc13-l17-vine-plots-u40-farmer-desktop.html`
+- `s-sc13-l17-vine-plots-u40-farmer-phone.html`
+- `s-sc13-l18-field-jobs-u30-driver-desktop.html`
+- `s-sc13-l18-field-jobs-u30-driver-phone.html`
+- `s-sc13-l18-field-jobs-u40-farmer-desktop.html`
+- `s-sc13-l18-field-jobs-u40-farmer-phone.html`
+- `s-sc13-l19-member-deliveries-u31-treasurer-desktop.html`
+- `s-sc13-l19-member-deliveries-u31-treasurer-phone.html`
+- `s-sc13-l19-member-deliveries-u40-farmer-desktop.html`
+- `s-sc13-l19-member-deliveries-u40-farmer-phone.html`
+- `s-sc13-l20-basket-subscriptions-u09-customer-desktop.html`
+- `s-sc13-l20-basket-subscriptions-u09-customer-phone.html`
+- `s-sc13-l20-basket-subscriptions-u40-farmer-desktop.html`
+- `s-sc13-l20-basket-subscriptions-u40-farmer-phone.html`
+- `s-sc13-l21-timber-lots-u40-farmer-desktop.html`
+- `s-sc13-l21-timber-lots-u40-farmer-phone.html`
+
+---
+
+⬆️ [Up](../README.md)

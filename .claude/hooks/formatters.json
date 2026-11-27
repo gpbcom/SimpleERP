@@ -1,0 +1,20 @@
+{
+    "formatters": [
+        {
+            "name": "ruff format",
+            "match": "^(?:backend|plugins|sdk|tests|\\.claude)/.+\\.py$",
+            "run": ["uv", "run", "ruff", "format", "{file}"]
+        },
+        {
+            "name": "prettier",
+            "match": "^frontend/.+\\.(?:ts|vue|js|json|css)$",
+            "run": ["pnpm", "exec", "prettier", "--write", "{file}"],
+            "needs": ["pnpm-workspace.yaml", "node_modules/.bin/prettier"]
+        },
+        {
+            "name": "terraform fmt",
+            "match": "^infra/terraform/.+\\.(?:tf|tftest\\.hcl)$",
+            "run": ["terraform", "fmt", "{file}"]
+        }
+    ]
+}

@@ -1,0 +1,294 @@
+<!doctype html><html lang="en" data-theme="light"><head><meta charset="utf-8"><style>
+@font-face{font-family:Inter;font-weight:400;src:url(../../../../assets/fonts/inter-latin-400-normal.woff2)}
+@font-face{font-family:Inter;font-weight:500;src:url(../../../../assets/fonts/inter-latin-500-normal.woff2)}
+@font-face{font-family:Inter;font-weight:600;src:url(../../../../assets/fonts/inter-latin-600-normal.woff2)}
+@font-face{font-family:Jakarta;font-weight:600;src:url(../../../../assets/fonts/plus-jakarta-sans-latin-600-normal.woff2)}
+@font-face{font-family:Jakarta;font-weight:700;src:url(../../../../assets/fonts/plus-jakarta-sans-latin-700-normal.woff2)}
+@font-face{font-family:Jakarta;font-weight:800;src:url(../../../../assets/fonts/plus-jakarta-sans-latin-800-normal.woff2)}
+@font-face{font-family:JBMono;font-weight:400;src:url(../../../../assets/fonts/jetbrains-mono-latin-400-normal.woff2)}
+:root,[data-theme=light]{--primary:#4B4FC9;--on-primary:#fff;--accent:#F2B134;--success:#2E7D32;--error:#C62828;
+--warning:#8A5A00;--text:#1C1F24;--muted:#5B6170;--surface:#FFFFFF;--alt:#F5F5FB;--border:#D9DAE6;--strong:#7A7F92;
+--error-bg:#FDECEC;--success-bg:#E8F3E9;--warning-bg:#FFF4DE;--info-bg:#EEEFFC;--raised-1:#FFFFFF;--raised-2:#FFFFFF;
+--elevation-1:0 1px 2px rgba(28,31,36,.06),0 2px 6px rgba(28,31,36,.08);
+--elevation-2:0 8px 24px rgba(28,31,36,.14),0 24px 56px rgba(28,31,36,.16)}
+[data-theme=dark]{--primary:#A3A6FF;--on-primary:#14151C;--accent:#F2B134;--success:#7BC67E;--error:#FF8A80;
+--warning:#F2C46D;--text:#ECEDF3;--muted:#A6AABA;--surface:#14151C;--alt:#1E2029;--border:#343747;--strong:#7C8096;
+--error-bg:#3A1F22;--success-bg:#1D2E20;--warning-bg:#33291A;--info-bg:#22243A;--raised-1:#1E2029;--raised-2:#282A36;
+--elevation-1:none;--elevation-2:none}
+*{box-sizing:border-box;margin:0}
+body{font-family:Inter,sans-serif;font-size:16px;line-height:24px;color:var(--text);background:var(--surface);width:100vw;height:100vh;overflow:hidden;
+--row-height:48px;--cell-padding:12px;--field-height:44px}
+body.compact{font-size:14px;line-height:20px;--row-height:32px;--cell-padding:6px;--field-height:32px}
+.shell{display:grid;grid-template-columns:232px 1fr;grid-template-rows:56px 1fr;height:100vh}
+.side{grid-row:1/3;background:var(--alt);border-right:1px solid var(--border);padding:16px 12px;display:flex;flex-direction:column;gap:4px}
+.logo{font-family:Jakarta;font-weight:800;font-size:20px;line-height:28px;padding:4px 8px 16px;display:flex;align-items:center;gap:8px}
+.logo .sym{width:28px;height:28px;border-radius:8px;background:#4B4FC9;color:#fff;display:grid;place-items:center;font-size:17px}
+.logo b{color:var(--primary)}
+.nav{display:flex;align-items:center;gap:12px;padding:8px 12px;border-radius:8px;color:var(--muted);font-weight:500;font-size:14px;line-height:20px}
+.nav.on{background:var(--info-bg);color:var(--primary)}
+.nav .cnt{margin-left:auto;background:var(--accent);color:#1C1F24;border-radius:999px;padding:0 8px;font-size:12px;line-height:16px}
+.top{background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px;padding:0 24px;font-size:14px;line-height:20px}
+.search{flex:0 1 380px;display:flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:8px;padding:8px 12px;color:var(--muted)}
+.top .sp{flex:1}.chip{display:flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:8px;padding:8px 12px;color:var(--text)}
+.avatar{width:32px;height:32px;border-radius:50%;background:var(--primary);color:var(--on-primary);display:grid;place-items:center;font-weight:600}
+.main{padding:24px;overflow:hidden;position:relative;background:var(--surface)}
+h1{font-family:Jakarta;font-weight:700;font-size:32px;line-height:40px}
+h2{font-family:Jakarta;font-weight:700;font-size:24px;line-height:32px;margin-bottom:12px}
+.card h2,.dialog h2{font-weight:600;font-size:20px;line-height:28px}
+.sub{color:var(--muted);margin-top:4px}
+.head{display:flex;align-items:flex-end;gap:12px;margin-bottom:24px}.head .sp{flex:1}
+.card{background:var(--raised-1);border:1px solid var(--border);border-radius:8px;padding:24px;box-shadow:var(--elevation-1);margin-bottom:16px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:8px;min-height:var(--field-height);padding:0 16px;font-size:14px;line-height:20px;font-weight:500;border:1px solid var(--strong);background:var(--surface);color:var(--text);white-space:nowrap}
+.btn.primary{background:var(--primary);color:var(--on-primary);border-color:var(--primary)}
+.btn.danger{background:var(--surface);color:var(--error);border-color:var(--error)}
+.btn.ghost{border-color:transparent;background:transparent;color:var(--primary)}
+.row{display:flex;gap:12px;align-items:center}.right{justify-content:flex-end}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}th{text-align:left;color:var(--muted);font-weight:600;font-size:12px;line-height:16px;text-transform:uppercase;letter-spacing:.04em;padding:8px var(--cell-padding);border-bottom:1px solid var(--border)}
+td{height:var(--row-height);padding:0 var(--cell-padding);border-bottom:1px solid var(--border)}
+tbody tr:nth-child(even) td{background:var(--alt)}
+body.compact td svg{width:16px;height:16px}
+.badge{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:4px 8px;font-size:12px;line-height:16px;font-weight:600;background:var(--alt);color:var(--muted)}
+.badge.ok{background:var(--success-bg);color:var(--success)}.badge.err{background:var(--error-bg);color:var(--error)}
+.badge.warn{background:var(--warning-bg);color:var(--warning)}.badge.info{background:var(--info-bg);color:var(--primary)}
+.field{margin-bottom:16px}.field label{display:block;font-weight:500;font-size:14px;line-height:20px;margin-bottom:8px}
+.input{border:1px solid var(--strong);border-radius:8px;padding:0 12px;background:var(--surface);min-height:var(--field-height);display:flex;align-items:center;gap:8px}
+.input.locked{background:var(--alt);color:var(--muted);border-style:dashed}
+.field.bad .input{border:2px solid var(--error)}
+.help{color:var(--muted);font-size:12px;line-height:16px;margin-top:4px}
+.ferr{color:var(--error);font-size:14px;line-height:20px;margin-top:8px;display:flex;gap:8px;align-items:flex-start;font-weight:500}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--border);margin-bottom:16px}
+.tab{padding:12px 16px;margin-bottom:-1px;color:var(--muted);font-size:14px;line-height:20px;font-weight:500;border-bottom:2px solid transparent}
+.tab.on{color:var(--primary);font-weight:600;border-bottom-color:var(--primary)}
+.stepper{display:flex;gap:8px;margin-bottom:24px}
+.st{flex:1;display:flex;flex-direction:column;gap:8px;font-size:12px;line-height:16px;color:var(--muted)}
+.st i{height:6px;border-radius:3px;background:var(--border);display:block}
+.st.done i{background:var(--success)}.st.on i{background:var(--primary)}.st.on{color:var(--primary);font-weight:600}
+.banner{display:flex;gap:12px;align-items:center;border-radius:8px;padding:12px 16px;margin-bottom:16px;font-weight:500}
+.banner.info{background:var(--info-bg);color:var(--primary)}.banner.warn{background:var(--warning-bg);color:var(--warning)}
+.banner.err{background:var(--error-bg);color:var(--error)}.banner.ok{background:var(--success-bg);color:var(--success)}
+.banner .sp{flex:1}
+.veil{position:absolute;inset:0;background:rgba(20,21,28,.45);display:grid;place-items:center;z-index:5}
+.dialog{width:520px;max-width:92%;background:var(--raised-2);border-radius:12px;padding:24px;box-shadow:var(--elevation-2);border:1px solid var(--border)}
+.dialog .ttl{display:flex;gap:12px;align-items:flex-start;font-family:Jakarta;font-weight:600;font-size:20px;line-height:28px}
+.dialog .ttl .ic{color:var(--error);flex:none;margin-top:2px}.dialog .ttl .ic.info{color:var(--primary)}
+.dialog p{margin:12px 0 0 36px;color:var(--text)}.dialog ul{margin:8px 0 0 54px;color:var(--muted)}
+.dialog .acts{display:flex;gap:12px;justify-content:flex-end;margin-top:24px}
+.ref{text-align:right;color:var(--muted);font-family:JBMono;font-size:12px;line-height:16px;margin-top:16px}
+.mono{font-family:JBMono;font-size:14px;line-height:20px}.muted{color:var(--muted)}.big{font-family:Jakarta;font-weight:800;font-size:40px;line-height:48px}
+.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.pill{border:1px solid var(--border);border-radius:999px;padding:4px 12px;display:inline-flex;gap:8px;align-items:center}
+.toast{position:absolute;right:24px;bottom:24px;background:var(--text);color:var(--surface);border-radius:8px;padding:12px 16px;display:flex;gap:12px;align-items:center;box-shadow:var(--elevation-2)}
+.matrix td,.matrix th{text-align:center}.matrix td:first-child,.matrix th:first-child{text-align:left}
+.ck{width:18px;height:18px;border-radius:4px;border:2px solid var(--strong);display:inline-block;vertical-align:middle}
+.ck.on{background:var(--primary);border-color:var(--primary);position:relative}
+.ck.on:after{content:"";position:absolute;left:4px;top:0;width:5px;height:10px;border:solid var(--on-primary);border-width:0 2px 2px 0;transform:rotate(45deg)}
+.phone{display:flex;flex-direction:column;height:100vh;background:var(--surface)}
+.ptop{background:var(--surface);border-bottom:1px solid var(--border);padding:12px 16px;display:flex;align-items:center;gap:12px}
+.ptop h1{font-size:20px;line-height:28px;font-weight:600}
+.pmain{flex:1;padding:16px;overflow:hidden;position:relative;font-size:16px;line-height:24px}
+.pmain .card{padding:16px}.pmain .btn{width:100%;min-height:44px;margin-top:16px}
+.pmain .grid2{grid-template-columns:1fr}.pmain .big{font-size:32px;line-height:40px}
+.ptabs{background:var(--alt);border-top:1px solid var(--border);display:grid;grid-template-columns:repeat(4,1fr);padding:8px 0 16px}
+.ptab{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:12px;line-height:16px;color:var(--muted)}.ptab.on{color:var(--primary);font-weight:600}
+.pmain .dialog{width:100%}.pmain .veil{align-items:end}.pmain .dialog .acts{flex-direction:column-reverse}
+.tile{width:28px;height:28px;border-radius:8px;border:1px solid var(--border);background:#FFFFFF;color:#1C1F24;display:inline-grid;place-items:center;font-size:11px;font-weight:700;flex:none;vertical-align:middle}
+.tag-provider{background:var(--accent);color:#1C1F24;text-align:center;font-weight:600;padding:8px;font-size:14px;line-height:20px}
+</style></head><body class="compact"><style>.ro .btn{background:var(--alt)!important;color:var(--muted)!important;border-color:var(--border)!important}.ro .input{background:var(--alt);color:var(--muted);border-style:dashed}</style><div class="shell"><aside class="side"><div class="logo"><span class="sym">S</span><span>Simple<b>ERP</b></span></div><div class="nav"><svg class=""
+  class="lucide lucide-house"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+  <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+</svg>Home</div><div class="nav"><svg class=""
+  class="lucide lucide-receipt"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" />
+  <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+  <path d="M12 17.5v-11" />
+</svg>Invoices</div><div class="nav"><svg class=""
+  class="lucide lucide-credit-card"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect width="20" height="14" x="2" y="5" rx="2" />
+  <line x1="2" x2="22" y1="10" y2="10" />
+</svg>Payments</div><div class="nav"><svg class=""
+  class="lucide lucide-landmark"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <line x1="3" x2="21" y1="22" y2="22" />
+  <line x1="6" x2="6" y1="18" y2="11" />
+  <line x1="10" x2="10" y1="18" y2="11" />
+  <line x1="14" x2="14" y1="18" y2="11" />
+  <line x1="18" x2="18" y1="18" y2="11" />
+  <polygon points="12 2 20 7 4 7" />
+</svg>Bank</div><div class="nav"><svg class=""
+  class="lucide lucide-book-open"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 7v14" />
+  <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+</svg>Ledger</div><div class="nav"><svg class=""
+  class="lucide lucide-file-output"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+  <path d="M4 7V4a2 2 0 0 1 2-2 2 2 0 0 0-2 2" />
+  <path d="M4.063 20.999a2 2 0 0 0 2 1L18 22a2 2 0 0 0 2-2V7l-5-5H6" />
+  <path d="m5 11-3 3" />
+  <path d="m5 17-3-3h10" />
+</svg>Exports</div><div class="nav"><svg class=""
+  class="lucide lucide-bot"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 8V4H8" />
+  <rect width="16" height="12" x="4" y="8" rx="2" />
+  <path d="M2 14h2" />
+  <path d="M20 14h2" />
+  <path d="M15 13v2" />
+  <path d="M9 13v2" />
+</svg>Assistant</div></aside><header class="top"><div class="search"><svg class=""
+  class="lucide lucide-search"
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="11" cy="11" r="8" />
+  <path d="m21 21-4.3-4.3" />
+</svg>Search customers, invoices, people...</div><span class="sp"></span><span class="chip"><svg class=""
+  class="lucide lucide-bot"
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 8V4H8" />
+  <rect width="16" height="12" x="4" y="8" rx="2" />
+  <path d="M2 14h2" />
+  <path d="M20 14h2" />
+  <path d="M15 13v2" />
+  <path d="M9 13v2" />
+</svg>Assistant</span><span class="chip"><svg class=""
+  class="lucide lucide-bell"
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
+  <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+</svg></span><span class="chip"><svg class=""
+  class="lucide lucide-map-pin"
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+  <circle cx="12" cy="10" r="3" />
+</svg>Head office<svg class=""
+  class="lucide lucide-chevron-down"
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m6 9 6 6 6-6" />
+</svg></span><span class="avatar">AC</span></header><main class="main ro"><div class="head"><div><h1>Books</h1><div class="sub">Keep several books</div></div><div class="sp"></div></div><div class="card" style="padding:16px;margin-bottom:16px;border-left:4px solid var(--primary)"><div class="row" style="gap:8px"><span class="muted">Book</span><span class="badge err" style="font-size:14px;line-height:20px;padding:4px 12px">Refused</span><span style="flex:1"></span></div></div><div class="banner info"><svg class=""
+  class="lucide lucide-lock"
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+</svg><span>Read only: this book is Refused, a final state. The history shows how it got here.</span><span class="sp"></span></div><div class="card"><div class="row right" style="margin-top:8px"></div></div></main></div></body></html>
