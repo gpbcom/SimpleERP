@@ -142,7 +142,8 @@ the more of a ticket runs in parallel, the more tickets each sprint can close.
   stash`, `git reset` or `git push`: the PreToolUse hook `.claude/hooks/guard_git.py` refuses them on `feature/tickets`
   and in a worker's worktree. It judges the branch of the folder the git write runs in (its `git -C`, else the last
   `cd` before it), not only the session's: a `feature/harness-*` worktree commits while tickets run, and a `cd` into
-  the tickets' checkout is refused. Every step goes through
+  the tickets' checkout is refused; a read-only command named like a write (`git merge-base`) passes. Every step goes
+  through
   `ticket_tree.py`, which compares git *trees* (never commits) on a temporary index.
 - Every worker runs in its own git worktree and changes only its task's files:
   - its first step, `ticket_tree.py start`, moves the worktree to the home's commit if `develop` moved since, copies
@@ -435,6 +436,11 @@ the work in progress. A private repository of a free account has no branch prote
 
   `/ticket-run <ID> --force` starts anyway, on the person's decision, and logs the problems in `PROGRESS.md`. The verdict is the
   exit code of `tickets.py check`, reported unchanged by the `runner` agent: no agent judges the start rule.
+- **The shared branch follows `develop` while tickets run.** When `develop` already holds every commit of
+  `feature/tickets` (the tickets committed on it are merged), `python3 .claude/scripts/tickets/ticket_tree.py
+  follow-develop --ticket <ID>` moves the branch to `origin/develop`, so a harness fix merged on `develop` reaches the
+  running tickets. Their uncommitted work stays: a file only `develop` changed is updated, a file both changed gets a
+  three-way merge, and nothing changes at all when one of them conflicts.
 - `python3 .claude/scripts/tickets/tickets.py list` shows the open tickets and the files each owns; `prune` removes the
   worktrees of tickets started before this rule once they are merged, and puts the main checkout back on `develop`
   once no ticket is open and `feature/tickets` is merged. VS Code's Source Control shows the uncommitted work of every

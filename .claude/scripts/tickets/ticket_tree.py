@@ -51,6 +51,10 @@ the script uses git *trees* (``git write-tree`` on a temporary index), which nev
   is left, every file and line mentioned is a clickable relative link, and every link resolves (the file exists, the
   line ``#L<n>`` or range ``#L<a>-L<b>`` is inside it, and a ``path:42`` link text matches its ``#L42``). It prints one
   problem per line, and nothing when all is well. ``finish`` refuses to commit while it finds a problem.
+- ``follow-develop`` moves the shared branch to ``origin/develop`` while tickets run, when ``develop`` already holds
+  every commit of the branch (the tickets committed on it are merged): a harness fix merged on ``develop`` then reaches
+  the running tickets. Their uncommitted work stays: a file only ``develop`` changed is updated, a file both changed
+  gets a three-way merge, and nothing changes at all when one of them conflicts (TKT-5, TKT-16).
 - ``finish`` makes the one commit on ``feature/<ID>``. With a remote ``origin``, it rebases that commit on
   ``origin/develop`` when ``develop`` moved, pushes the branch and opens its pull request to ``develop`` (``Closes #n``,
   label ``automerge``): GitHub merges it once CI passes (TKT-15). An open pull request is updated through the REST
@@ -949,6 +953,77 @@ def regenerate_changes_table(top: Path, ticket: str) -> None:
         changes(top, ticket, "write")
 
 
+def follow_develop(top: Path) -> Dict[str, JsonData]:
+    """Move the shared branch to ``origin/develop``, keeping every running ticket's uncommitted work (TKT-16)."""
+    home = main_checkout(top)
+    if current_branch(home) != SHARED_BRANCH:
+        raise TicketTreeError(f"The main checkout is not on {SHARED_BRANCH}: there is no shared branch to move.")
+    target = git(home, "rev-parse", shared_start(home))[1]
+    current = head(home)
+    if current == target:
+        return {"moved": False, "head": current}
+    if git(home, "merge-base", "--is-ancestor", current, target, check=False)[0] != 0:
+        raise TicketTreeError(
+            f"{SHARED_BRANCH} holds commits {DEVELOP} does not have yet: let their pull request merge, then run again."
+        )
+    upstream = changed_names(home, current, target)
+    local = set(changed_names(home, current, snapshot(home)))
+    merged: Dict[str, Optional[bytes]] = {}
+    conflicts: List[str] = []
+    for name in upstream:
+        theirs = blob(home, target, name)
+        if name not in local:
+            merged[name] = theirs
+            continue
+        base, ours = blob(home, current, name), (home / name).read_bytes() if (home / name).is_file() else None
+        if theirs == ours:
+            continue
+        if base is None or ours is None or theirs is None:
+            conflicts.append(name)
+            continue
+        result = three_way(base, ours, theirs)
+        if result is None:
+            conflicts.append(name)
+        else:
+            merged[name] = result
+    if conflicts:
+        raise TicketTreeError(
+            f"{DEVELOP} and the running tickets both changed these files and they do not merge: {', '.join(conflicts)}. "
+            "Nothing was changed."
+        )
+    git(home, "reset", "--quiet", "--mixed", target)
+    for name, content in merged.items():
+        path = home / name
+        if content is None:
+            path.unlink(missing_ok=True)
+        else:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(content)
+    for ticket in open_states(home):
+        state = load_state(home, ticket)
+        state["base"] = target
+        state["tree"] = snapshot(home)
+        save_state(home, ticket, state)
+        write_patch(home, target, str(state["tree"]), state_dir(home, ticket) / INTEGRATED_PATCH)
+    return {"moved": True, "head": target, "updated": sorted(merged), "tickets": open_states(home)}
+
+
+def blob(home: Path, commit: str, name: str) -> Optional[bytes]:
+    """Return a file's content at a commit, or None when the commit does not hold it."""
+    result = subprocess.run(["git", "-C", str(home), "show", f"{commit}:{name}"], capture_output=True, check=False)
+    return result.stdout if result.returncode == 0 else None
+
+
+def three_way(base: bytes, ours: bytes, theirs: bytes) -> Optional[bytes]:
+    """Return the three-way merge of two versions of a file, or None when they conflict."""
+    with tempfile.TemporaryDirectory(prefix="erp-follow-") as folder:
+        paths = [Path(folder) / name for name in ("ours", "base", "theirs")]
+        for path, content in zip(paths, (ours, base, theirs)):
+            path.write_bytes(content)
+        result = subprocess.run(["git", "merge-file", "-p", *map(str, paths)], capture_output=True, check=False)
+    return result.stdout if result.returncode == 0 else None
+
+
 def finish(top: Path, ticket: str, open_pull_request: bool = True) -> Dict[str, JsonData]:
     """Commit the ticket's own files once on the shared branch, then publish it (TKT-15) or merge it locally."""
     home = require_home(top, ticket)
@@ -991,7 +1066,19 @@ def parser() -> argparse.ArgumentParser:
     """Return the command line parser."""
     root = argparse.ArgumentParser(description=USAGE, formatter_class=argparse.RawDescriptionHelpFormatter)
     commands = root.add_subparsers(dest="command", required=True)
-    for name in ("prepare", "home", "status", "start", "handoff", "integrate", "diff", "changes", "docs", "finish"):
+    for name in (
+        "prepare",
+        "home",
+        "status",
+        "start",
+        "handoff",
+        "integrate",
+        "diff",
+        "changes",
+        "docs",
+        "finish",
+        "follow-develop",
+    ):
         command = commands.add_parser(name)
         command.add_argument("--ticket", required=True)
         if name in ("handoff", "integrate"):
@@ -1022,6 +1109,8 @@ def main() -> int:
         output: Union[str, Dict[str, JsonData]]
         if args.command == "prepare":
             output = prepare(top, args.ticket)
+        elif args.command == "follow-develop":
+            output = follow_develop(top)
         elif args.command == "home":
             output = {"home": str(home_of(top, args.ticket))}
         elif args.command == "status":
