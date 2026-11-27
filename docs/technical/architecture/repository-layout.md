@@ -5,7 +5,25 @@ infrastructure, packs, documentation and workflows.
 
 ## Today
 
-The root `src/` layout and AGENT.md's "Mono-repo" section, not moved to yet.
+The repository follows the layout of D438 for its first folders. Every folder of the tree exists, with a README saying
+what it holds:
+
+- [`backend/`](../../../backend/README.md), with [`backend/models/`](../../../backend/models/README.md) (package
+  `erp_models`, still empty), [`backend/shared/`](../../../backend/shared/README.md) and
+  [`backend/services/`](../../../backend/services/README.md), which hold no service or library yet;
+- [`frontend/`](../../../frontend/README.md), with [`frontend/backoffice/`](../../../frontend/backoffice/README.md),
+  [`frontend/mobile/`](../../../frontend/mobile/README.md) and [`frontend/packages/`](../../../frontend/packages/README.md);
+- [`plugins/`](../../../plugins/README.md) and [`sdk/`](../../../sdk/README.md), the plugin SDK;
+- [`infra/`](../../../infra/README.md), with [`infra/compose/`](../../../infra/compose/README.md),
+  [`infra/helm/`](../../../infra/helm/README.md) and [`infra/terraform/`](../../../infra/terraform/README.md);
+- [`packs/`](../../../packs/README.md), with [`packs/countries/`](../../../packs/countries/README.md) and
+  [`packs/sectors/`](../../../packs/sectors/README.md).
+
+The uv workspace (`pyproject.toml` at the root) has two members that exist on disk: `backend/models` and `sdk`. Its
+other members (`backend/shared/*`, `backend/services/*`, `plugins/*`) are declared and come with the tickets that create
+them. The pnpm workspace (`pnpm-workspace.yaml`) has two members that exist on disk: `frontend/backoffice` and
+`frontend/mobile`. `frontend/portals/` and the front-end packages of `frontend/packages/` come with the later tickets of
+the roadmap, as do the services, the shared libraries and the plugins.
 
 ## Target design (specified in GH-2, not built yet)
 

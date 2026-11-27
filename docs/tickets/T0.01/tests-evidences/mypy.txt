@@ -1,0 +1,4 @@
+$ uv run mypy backend/models/src
+(cwd ., on the ticket's own files only)
+
+Success: no issues found in 1 source file

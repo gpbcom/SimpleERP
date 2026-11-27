@@ -4,12 +4,27 @@ Where SimpleERP reads its settings.
 
 | File | Holds |
 |---|---|
-| `conf/logger.yaml` | The logging: a coloured console handler and a coloured rotating file in `logs/`, root level `DEBUG` |
-| `conf/app.yaml` | Planned: the application settings, with every default written out |
-| `conf/catalogs/` | Planned: data that would otherwise be hard-coded, loaded by `YamlCatalog` models |
+| `backend/services/<service>/conf/logger.yaml` | The logging: a coloured console handler and a coloured rotating file in `logs/`, root level `DEBUG` |
+| `backend/services/<service>/conf/app.yaml` | Planned: the application settings, with every default written out |
+| `backend/services/<service>/conf/catalogs/` | Planned: data that would otherwise be hard-coded, loaded by `YamlCatalog` models |
+
+Each service keeps its configuration in its own `conf/` folder, next to its `src/` and `tests/` ([D438](../../specs/06-decisions/technical/d438-repository-layout.md)).
 
 - Secrets live in a secret store, never in configuration or logs. A field ending in `_key` names a secret store entry.
 - The log file holds colour codes: read it with `tail -f` or `less -R`.
+
+## Workspaces
+
+The workspace files at the repository root set up the toolchains for every package ([D438](../../specs/06-decisions/technical/d438-repository-layout.md)).
+
+| File | Holds |
+|---|---|
+| `pyproject.toml` | The uv workspace root, with its members `backend/models`, `backend/shared/*`, `backend/services/*`, `plugins/*` and `sdk` |
+| `uv.lock` | Every Python dependency pinned, one lock for every Python package ([D415](../../specs/06-decisions/technical/d415-supply-chain-controls.md)) |
+| `.python-version` | Python 3.13 |
+| `package.json` | The pnpm workspace root, with `packageManager` pinning pnpm and `engines.node` set to Node 22 |
+| `pnpm-workspace.yaml` | The front-end members `frontend/backoffice`, `frontend/mobile`, `frontend/portals/*` and `frontend/packages/*` |
+| `pnpm-lock.yaml` | Every front-end dependency pinned ([D415](../../specs/06-decisions/technical/d415-supply-chain-controls.md)) |
 
 ## Target design (specified in GH-2, not built yet)
 

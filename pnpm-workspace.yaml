@@ -1,0 +1,5 @@
+packages:
+  - frontend/backoffice
+  - frontend/mobile
+  - frontend/portals/*
+  - frontend/packages/*
