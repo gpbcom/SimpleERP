@@ -5,7 +5,11 @@ Terraform. Nothing of the target is built yet.
 
 ## Today
 
-Nothing built yet; the targets of D18 are in [Deployment](deployment.md).
+The Terraform skeleton exists, in [`infra/terraform/README.md`](../../../infra/terraform/README.md): six interface
+modules (`network`, `kubernetes-cluster`, `storage`, `registry`, `dns`, `helm-release`), the provider modules of
+OVHcloud and Scaleway, and one root per cloud that calls them, each checked by `terraform fmt`, `validate` and
+`test` in CI (`terraform.yml`). The modules hold no resource yet: applying a root creates nothing. The working
+deployment comes in phase P2 (T9), under REQ-T09-08. The targets of D18 are in [Deployment](deployment.md).
 
 ## Target design (specified in GH-2, not built yet)
 
@@ -48,4 +52,4 @@ flowchart TB
 
 Decided in [D421](../../specs/06-decisions/technical/d421-infrastructure-cncf.md).
 
-Last reviewed: 2026-11-12 (GH-2)
+Last reviewed: 2026-11-27 (T0.08, GH-2)

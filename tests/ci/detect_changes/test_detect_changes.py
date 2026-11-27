@@ -29,7 +29,7 @@ from tests.ci.detect_changes.helpers import (
 
 
 class TestDetectChanges:
-    def test_the_output_is_five_lines_in_the_contract_order(self, tmp_path: Path) -> None:
+    def test_the_output_is_six_lines_in_the_contract_order(self, tmp_path: Path) -> None:
         write_repo(tmp_path)
         result = run_detector(tmp_path, [f"{SALES}/x.py"])
         assert [line.split("=", 1)[0] for line in result.stdout.splitlines()] == KEYS
@@ -110,7 +110,6 @@ class TestDetectChanges:
             "docs/specs/02-functional/f06-customers-and-sales/README.md",
             "README.md",
             "AGENT.md",
-            "infra/terraform/modules/network/main.tf",
             "packs/countries/fr/vat.yaml",
         ],
     )

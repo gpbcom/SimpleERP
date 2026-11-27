@@ -1,0 +1,62 @@
+name: terraform
+
+# Step 2 of the pipeline for the infrastructure (AGENT.md, "CI/CD"): check the format, initialise without a backend,
+# validate and test each changed Terraform folder (infra/terraform/<root> and infra/terraform/modules/<module>), with
+# the Terraform version the roots require. Reusable only: ci.yml and release.yml call it. The test log is kept as a
+# test-report-terraform-* artifact, failed runs included (TKT-26).
+
+on:
+  workflow_call:
+    inputs:
+      folders:
+        description: "Compact JSON array of the Terraform folders to check, from detect_changes.py."
+        type: string
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: inputs.folders != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: ${{ fromJSON(inputs.folders) }}
+    env:
+      FOLDER: ${{ matrix.folder }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: hashicorp/setup-terraform@dfe3c3f87815947d99a8997f908cb6525fc44e9e # v4.0.1
+        with:
+          terraform_version: "1.17.2"
+          terraform_wrapper: false
+      - name: Check the format
+        run: terraform fmt -check -recursive "$FOLDER"
+      - name: Initialise
+        run: terraform -chdir="$FOLDER" init -backend=false -input=false
+      - name: Validate
+        run: terraform -chdir="$FOLDER" validate
+      - name: Test
+        id: test
+        shell: bash
+        run: |
+          set -o pipefail
+          name="${FOLDER//\//-}"
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+          mkdir -p reports
+          # terraform test runs only for a folder that has a tests folder.
+          if [ -d "$FOLDER/tests" ]; then
+            terraform -chdir="$FOLDER" test -junit-xml="$GITHUB_WORKSPACE/reports/$name.xml"
+          fi
+      - name: Keep the test reports (TKT-26)
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: test-report-terraform-${{ steps.test.outputs.name }}
+          path: reports/
+          if-no-files-found: ignore

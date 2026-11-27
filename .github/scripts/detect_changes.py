@@ -4,7 +4,7 @@ Usage:
     git diff --name-only <base> <head> | python3 .github/scripts/detect_changes.py [--root <repo root>]
     python3 .github/scripts/detect_changes.py --all [--root <repo root>]
 
-It prints five ``key=value`` lines for ``$GITHUB_OUTPUT``, in this order:
+It prints six ``key=value`` lines for ``$GITHUB_OUTPUT``, in this order:
 
 - ``services``: a compact JSON list of the ``backend/services/<service>`` folders to check;
 - ``packages``: a compact JSON list of the shared Python packages to check (``backend/models``,
@@ -13,12 +13,15 @@ It prints five ``key=value`` lines for ``$GITHUB_OUTPUT``, in this order:
   ``frontend/portals/<portal>``, ``frontend/packages/<package>``), each with a ``package.json``;
 - ``repository``: ``true`` when the repository tests must run (``tests/``, ``.claude/``, ``.githooks/``, ``.github/``);
 - ``images``: a compact JSON list of ``{"folder": ..., "name": ...}`` objects, one per folder with a ``Dockerfile`` that
-  the change touches. The image is ``ghcr.io/<owner>/<repo>-<name>``.
+  the change touches. The image is ``ghcr.io/<owner>/<repo>-<name>``;
+- ``terraform``: a compact JSON list of the ``infra/terraform/`` folders, at any depth, that hold a ``*.tf`` file
+  directly (hidden folders, ``_`` folders and ``tests`` folders are skipped). Any changed path under
+  ``infra/terraform/`` selects all of them, because the modules are shared, and sets ``repository``.
 
 A shared path (the root lock files and manifests, ``backend/models/``, ``backend/shared/``, ``compose.e2e.yaml``,
-``.dockerignore``, ``.github/scripts/`` and the reusable workflows) selects everything that exists. ``--all`` does the
-same without reading stdin. A folder that does not exist yet is never listed, so every list is empty on a repository
-with no service and no front end.
+``.dockerignore``, ``.github/scripts/`` and the reusable workflows, ``terraform.yml`` included) selects everything that
+exists. ``--all`` does the same without reading stdin. A folder that does not exist yet is never listed, so every list
+is empty on a repository with no service and no front end.
 """
 
 from __future__ import annotations
@@ -31,6 +34,8 @@ from typing import List, Optional, Set
 
 SERVICES = "backend/services"
 FRONTEND = "frontend"
+TERRAFORM = "infra/terraform"
+TERRAFORM_SKIPPED = frozenset({"tests"})
 PORTALS = "frontend/portals"
 FRONTEND_PACKAGES = "frontend/packages"
 PACKAGE_GROUPS = ("backend/shared", "plugins")
@@ -51,6 +56,7 @@ SHARED_FILES = frozenset(
         ".github/workflows/python.yml",
         ".github/workflows/typescript.yml",
         ".github/workflows/images.yml",
+        ".github/workflows/terraform.yml",
     }
 )
 REPOSITORY_PREFIXES = ("tests/", ".claude/", ".githooks/", ".github/")
@@ -87,6 +93,19 @@ def discover_frontends(root: Path, marker: str) -> List[str]:
     """List the front-end project folders (apps, portals and packages) holding ``marker``."""
     apps = [folder for folder in children(root, FRONTEND, marker) if folder.split("/", 1)[1] not in FRONTEND_GROUPS]
     return sorted(apps + children(root, PORTALS, marker) + children(root, FRONTEND_PACKAGES, marker))
+
+
+def discover_terraform(root: Path) -> List[str]:
+    """List the ``infra/terraform`` folders, at any depth, holding a ``*.tf`` file directly."""
+    base = root / TERRAFORM
+    if not base.is_dir():
+        return []
+    found = set()
+    for file in base.rglob("*.tf"):
+        parts = file.relative_to(base).parts[:-1]
+        if file.is_file() and not any(part.startswith((".", "_")) or part in TERRAFORM_SKIPPED for part in parts):
+            found.add(file.parent.relative_to(root).as_posix())
+    return sorted(found)
 
 
 def image_name(folder: str) -> str:
@@ -146,17 +165,21 @@ def main(argv: Optional[List[str]] = None) -> int:
     all_packages = discover_packages(root)
     all_typescript = discover_frontends(root, "package.json")
     all_images = discover_images(root)
+    all_terraform = discover_terraform(root)
     frontend_images = [folder for folder in all_images if folder.startswith(f"{FRONTEND}/")]
 
     services: Set[str] = set()
     packages: Set[str] = set()
     typescript: Set[str] = set()
     images: Set[str] = set()
+    terraform: Set[str] = set()
     repository = False
     for path in [] if everything else read_paths(sys.stdin.read()):
         if is_shared(path):
             everything = True
             continue
+        if path.startswith(f"{TERRAFORM}/"):
+            terraform |= set(all_terraform)
         if path.startswith(f"{FRONTEND_PACKAGES}/"):
             typescript |= set(all_typescript)
             images |= set(frontend_images)
@@ -169,10 +192,11 @@ def main(argv: Optional[List[str]] = None) -> int:
             folder = owner(path, folders)
             if folder:
                 selected.add(folder)
-        repository = repository or path.startswith(REPOSITORY_PREFIXES)
+        repository = repository or path.startswith((*REPOSITORY_PREFIXES, f"{TERRAFORM}/"))
     if everything:
         services, packages = set(all_services), set(all_packages)
         typescript, images = set(all_typescript), set(all_images)
+        terraform = set(all_terraform)
         repository = True
 
     print(f"services={compact(sorted(services))}")
@@ -180,6 +204,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     print(f"typescript={compact(sorted(typescript))}")
     print(f"repository={str(repository).lower()}")
     print(f"images={compact([{'folder': folder, 'name': image_name(folder)} for folder in sorted(images)])}")
+    print(f"terraform={compact(sorted(terraform))}")
     return 0
 
 

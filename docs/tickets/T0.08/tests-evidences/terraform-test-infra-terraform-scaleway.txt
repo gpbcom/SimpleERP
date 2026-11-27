@@ -1,0 +1,9 @@
+$ terraform test
+(cwd infra/terraform/scaleway, on the ticket's own files only)
+
+tests/scaleway.tftest.hcl... [37min progress[0m
+[0m  run "wiring"... [32mpass[0m[0m
+tests/scaleway.tftest.hcl... [37mtearing down[0m
+[0mtests/scaleway.tftest.hcl... [32mpass[0m[0m
+
+[32mSuccess![0m[0m 1 passed, 0 failed.

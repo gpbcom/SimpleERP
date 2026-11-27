@@ -1,0 +1,4 @@
+$ uv run ruff format --check tests/conventions/convention_scanner.py tests/conventions/helpers.py tests/conventions/scanner/test_new_packages.py tests/conventions/scanner/test_plugin_and_sdk_imports.py tests/conventions/scanner/test_shared_library_imports.py tests/conventions/scanner/test_shared_models_imports.py tests/conventions/test_layers.py
+(cwd ., on the ticket's own files only)
+
+7 files already formatted

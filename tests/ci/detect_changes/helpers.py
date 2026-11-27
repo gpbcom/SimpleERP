@@ -12,7 +12,8 @@ PACKAGES_KEY = "packages"
 TYPESCRIPT_KEY = "typescript"
 REPOSITORY_KEY = "repository"
 IMAGES_KEY = "images"
-KEYS = [SERVICES_KEY, PACKAGES_KEY, TYPESCRIPT_KEY, REPOSITORY_KEY, IMAGES_KEY]
+TERRAFORM_KEY = "terraform"
+KEYS = [SERVICES_KEY, PACKAGES_KEY, TYPESCRIPT_KEY, REPOSITORY_KEY, IMAGES_KEY, TERRAFORM_KEY]
 SALES = "backend/services/sales"
 STOCK = "backend/services/stock"
 BACKOFFICE = "frontend/backoffice"
@@ -21,6 +22,12 @@ UI = "frontend/packages/ui"
 ALL_SERVICES = [SALES, STOCK]
 ALL_PACKAGES = ["backend/models", "backend/shared/logging", "plugins/hello", "sdk"]
 ALL_TYPESCRIPT = [BACKOFFICE, UI, CUSTOMER_PORTAL]
+ALL_TERRAFORM = [
+    "infra/terraform/modules/clouds/ovhcloud",
+    "infra/terraform/modules/network",
+    "infra/terraform/ovhcloud",
+    "infra/terraform/scaleway",
+]
 ALL_IMAGES: List[Dict[str, str]] = [
     {"folder": SALES, "name": "sales"},
     {"folder": BACKOFFICE, "name": "backoffice"},
@@ -44,6 +51,13 @@ REPO_FILES: Dict[str, str] = {
     f"{UI}/package.json": "{}\n",
     f"{UI}/Dockerfile": "FROM scratch\n",
     "frontend/mobile/README.md": "Not started.\n",
+    "infra/terraform/modules/network/main.tf": "# network\n",
+    "infra/terraform/modules/clouds/ovhcloud/main.tf": "# ovhcloud module\n",
+    "infra/terraform/ovhcloud/main.tf": "# ovhcloud root\n",
+    "infra/terraform/scaleway/main.tf": "# scaleway root\n",
+    "infra/terraform/ovhcloud/tests/ovhcloud.tftest.hcl": "# test\n",
+    "infra/terraform/ovhcloud/.terraform/modules/x/main.tf": "# cache\n",
+    "infra/terraform/README.md": "Terraform.\n",
 }
 
 
@@ -77,7 +91,14 @@ def compact(value: Union[List[str], List[Dict[str, str]]]) -> str:
 
 
 def nothing() -> Dict[str, str]:
-    return {SERVICES_KEY: "[]", PACKAGES_KEY: "[]", TYPESCRIPT_KEY: "[]", REPOSITORY_KEY: "false", IMAGES_KEY: "[]"}
+    return {
+        SERVICES_KEY: "[]",
+        PACKAGES_KEY: "[]",
+        TYPESCRIPT_KEY: "[]",
+        REPOSITORY_KEY: "false",
+        IMAGES_KEY: "[]",
+        TERRAFORM_KEY: "[]",
+    }
 
 
 def everything() -> Dict[str, str]:
@@ -87,6 +108,7 @@ def everything() -> Dict[str, str]:
         TYPESCRIPT_KEY: compact(sorted(ALL_TYPESCRIPT)),
         REPOSITORY_KEY: "true",
         IMAGES_KEY: compact(sorted(ALL_IMAGES, key=lambda image: image["folder"])),
+        TERRAFORM_KEY: compact(ALL_TERRAFORM),
     }
 
 

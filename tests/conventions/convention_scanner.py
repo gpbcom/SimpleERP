@@ -13,8 +13,11 @@ from tests.conventions.helpers import (
     FRONTEND_FOLDER,
     METHOD_BANNERS,
     NPM_SCOPE,
+    PLUGIN_AND_SDK_SOURCE_GLOBS,
     RUNNABLE_BASES,
     SERVICE_SOURCE_GLOB,
+    SHARED_LIBRARY_SOURCE_GLOB,
+    SHARED_MODELS_PACKAGE,
     SHARED_MODELS_SOURCE,
     SOURCE_GLOBS,
     TEST_GLOBS,
@@ -82,6 +85,30 @@ class ConventionScanner:
 
     def _service_packages(self) -> Set[str]:
         return {package.name for source in self.root.glob(SERVICE_SOURCE_GLOB) for package in self._packages(source)}
+
+    def _first_party_packages(self) -> Set[str]:
+        """The names of every package under every source folder, found on disk and never listed."""
+        return {package.name for source in self._source_folders() for package in self._packages(source)}
+
+    def _foreign_imports(self, sources: Set[Path], allowed: Set[str], own: Optional[str] = None) -> List[str]:
+        """Report each import of a first-party package outside ``allowed`` and the file's own package.
+
+        ``own`` replaces the file's package name in the offender text, and is allowed in its place.
+        """
+        first_party = self._first_party_packages()
+        offenders: List[str] = []
+        for source, path, tree in self._source_trees():
+            if source not in sources:
+                continue
+            package = own or self._layer_of(source, path)[0]
+            for node in ast.walk(tree):
+                roots = {name.split(".")[0] for name in self._imported(node)}
+                offenders += [
+                    f"{self.where(path, node)} {package} imports {root}"
+                    for root in sorted(roots)
+                    if root in first_party and root not in allowed and root != package
+                ]
+        return offenders
 
     def _banners(self, lines: List[str], owner: ast.ClassDef) -> List[Tuple[int, str]]:
         """Return the line and the name of each method banner inside a class, in order."""
@@ -305,3 +332,19 @@ class ConventionScanner:
             if isinstance(node, ast.ClassDef)
             and any(isinstance(base, ast.Name) and base.id == "BaseModel" for base in node.bases)
         ]
+
+    def shared_models_imports(self) -> List[str]:
+        """Imports of any first-party package other than ``erp_models`` itself, in the shared models."""
+        sources = {self.root / SHARED_MODELS_SOURCE}
+        return self._foreign_imports(sources, {SHARED_MODELS_PACKAGE}, SHARED_MODELS_PACKAGE)
+
+    def shared_library_imports(self) -> List[str]:
+        """Imports, in a shared library, of a service, a plugin or the SDK: only models and libraries are allowed."""
+        sources = set(self.root.glob(SHARED_LIBRARY_SOURCE_GLOB))
+        libraries = {package.name for source in sources for package in self._packages(source)}
+        return self._foreign_imports(sources, {SHARED_MODELS_PACKAGE} | libraries)
+
+    def plugin_and_sdk_imports(self) -> List[str]:
+        """Imports, in a plugin or the SDK, of any first-party package but ``erp_models`` and its own."""
+        sources = {folder for pattern in PLUGIN_AND_SDK_SOURCE_GLOBS for folder in self.root.glob(pattern)}
+        return self._foreign_imports(sources, {SHARED_MODELS_PACKAGE})

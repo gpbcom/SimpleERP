@@ -1,0 +1,16 @@
+$ terraform test
+(cwd infra/terraform/modules/dns, on the ticket's own files only)
+
+tests/dns.tftest.hcl... [37min progress[0m
+[0m  run "the_dns_output_carries_every_field"... [32mpass[0m[0m
+  run "the_dns_output_follows_the_scaleway_cloud"... [32mpass[0m[0m
+  run "an_unknown_cloud_name_is_refused"... [32mpass[0m[0m
+  run "a_blank_region_is_refused"... [32mpass[0m[0m
+  run "a_name_with_capitals_is_refused"... [32mpass[0m[0m
+  run "a_name_starting_with_a_digit_is_refused"... [32mpass[0m[0m
+  run "a_domain_with_no_dot_is_refused"... [32mpass[0m[0m
+  run "a_domain_with_capitals_is_refused"... [32mpass[0m[0m
+tests/dns.tftest.hcl... [37mtearing down[0m
+[0mtests/dns.tftest.hcl... [32mpass[0m[0m
+
+[32mSuccess![0m[0m 8 passed, 0 failed.

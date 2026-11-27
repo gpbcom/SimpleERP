@@ -1,0 +1,14 @@
+$ terraform test
+(cwd infra/terraform/modules/helm-release, on the ticket's own files only)
+
+tests/helm-release.tftest.hcl... [37min progress[0m
+[0m  run "the_release_output_carries_every_field"... [32mpass[0m[0m
+  run "the_release_output_follows_the_scaleway_cloud"... [32mpass[0m[0m
+  run "an_unknown_cloud_name_is_refused"... [32mpass[0m[0m
+  run "a_blank_region_is_refused"... [32mpass[0m[0m
+  run "a_name_with_capitals_is_refused"... [32mpass[0m[0m
+  run "a_name_starting_with_a_digit_is_refused"... [32mpass[0m[0m
+tests/helm-release.tftest.hcl... [37mtearing down[0m
+[0mtests/helm-release.tftest.hcl... [32mpass[0m[0m
+
+[32mSuccess![0m[0m 6 passed, 0 failed.

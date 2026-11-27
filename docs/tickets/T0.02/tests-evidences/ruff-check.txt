@@ -1,0 +1,10 @@
+$ uv run ruff check tests/conventions/convention_scanner.py tests/conventions/helpers.py tests/conventions/scanner/test_new_packages.py tests/conventions/scanner/test_plugin_and_sdk_imports.py tests/conventions/scanner/test_shared_library_imports.py tests/conventions/scanner/test_shared_models_imports.py tests/conventions/test_layers.py
+(cwd ., on the ticket's own files only)
+
+All checks passed!
+Using CPython 3.13.15
+Creating virtual environment at: .venv
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 22 packages in 224ms

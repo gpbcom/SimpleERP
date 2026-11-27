@@ -1,0 +1,11 @@
+$ pnpm install --frozen-lockfile
+(cwd ., on the ticket's own files only)
+
+Scope: all 4 workspace projects
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +138
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 138, reused 138, downloaded 0, added 138, done
+
+Done in 446ms using pnpm v10.34.9

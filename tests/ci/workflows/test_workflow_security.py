@@ -27,6 +27,7 @@ class TestWorkflowSecurity:
         "python.yml",
         "release.yml",
         "stage.yml",
+        "terraform.yml",
         "typescript.yml",
     ]
     INJECTABLE: ClassVar[List[str]] = ["${{ github.event", "${{ inputs.", "${{ github.head_ref"]
