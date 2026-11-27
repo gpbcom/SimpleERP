@@ -12,11 +12,14 @@ from __future__ import annotations
 
 import json
 import re
+import shlex
 import subprocess
 import sys
+from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 HEREDOC = re.compile(r"<<-?\s*['\"]?(\w+)['\"]?")
+SEGMENTS = re.compile(r"&&|\|\||;|\n")
 QUOTED = re.compile(r"'[^']*'|\"(?:[^\"\\]|\\.)*\"")
 TICKET_CONTEXT = re.compile(r"^(feature/tickets|feature/T\d+\.\d{2}|ticket/T\d+\.\d{2}|worktree-.*)$")
 APPROVE = re.compile(r"\btickets\.py\s+approve\b")
@@ -40,6 +43,30 @@ PUSH_PROTECTED = re.compile(r"\bgit\s+(?:-C\s+\S+\s+)*push\b[^|;&]*?(?:\s|:)(dev
 def branch_of(cwd: str) -> str:
     result = subprocess.run(["git", "-C", cwd, "branch", "--show-current"], capture_output=True, text=True, check=False)
     return result.stdout.strip()
+
+
+def folder_of(command: str, cwd: str) -> str:
+    """Return the folder the first git write of a command runs in: its ``git -C``, else the last ``cd`` before it.
+
+    A folder that cannot be resolved (a variable, a path that does not exist) leaves the folder unchanged, so that a
+    write is never judged on a branch the guard could not see.
+    """
+    current = Path(cwd)
+    for segment in SEGMENTS.split(command):
+        try:
+            words = shlex.split(segment)
+        except ValueError:
+            continue
+        if len(words) == 2 and words[0] == "cd":
+            candidate = current / Path(words[1]).expanduser()
+            current = candidate.resolve() if "$" not in words[1] and candidate.is_dir() else current
+        if WRITES.search(code_of(segment)) or PR_MERGE.search(segment):
+            for index, word in enumerate(words[:-1]):
+                if word == "-C" and index > 0 and words[index - 1] == "git":
+                    candidate = current / Path(words[index + 1]).expanduser()
+                    return str(candidate.resolve()) if candidate.is_dir() else str(current)
+            return str(current)
+    return str(current)
 
 
 def code_of(command: str) -> str:
@@ -80,11 +107,17 @@ def rewritten_protected(command: str, branch: str) -> str:
 
 
 def decide(command: str, cwd: str) -> Optional[Tuple[str, str]]:
-    """Return (decision, reason) for a Bash command, or None to let it run."""
+    """Return (decision, reason) for a Bash command, or None to let it run.
+
+    The branch judged is the one of the folder the git write runs in (``folder_of``), not only the session's: a
+    harness branch's worktree may commit while the main checkout is on the tickets' branch, and a ``cd`` into a
+    ticket's checkout is refused as if the session were there.
+    """
+    folder = folder_of(command, cwd)
     command = code_of(command)
     if NO_VERIFY.search(command):
         return "deny", "Skipping the git hooks (--no-verify) is not allowed: they hold the GitFlow rules (TKT-15)."
-    branch = branch_of(cwd)
+    branch = branch_of(folder)
     protected = rewritten_protected(command, branch)
     if protected:
         return "deny", REWRITE_REASON.format(target=protected)

@@ -140,7 +140,9 @@ the more of a ticket runs in parallel, the more tickets each sprint can close.
 - **No intermediate commit.** Until the ticket is done, its work (code, tests, documents) stays **uncommitted** in the
   main checkout, beside the other running tickets' work. No agent runs `git commit`, `git merge`, `git rebase`, `git
   stash`, `git reset` or `git push`: the PreToolUse hook `.claude/hooks/guard_git.py` refuses them on `feature/tickets`
-  and in a worker's worktree. Every step goes through
+  and in a worker's worktree. It judges the branch of the folder the git write runs in (its `git -C`, else the last
+  `cd` before it), not only the session's: a `feature/harness-*` worktree commits while tickets run, and a `cd` into
+  the tickets' checkout is refused. Every step goes through
   `ticket_tree.py`, which compares git *trees* (never commits) on a temporary index.
 - Every worker runs in its own git worktree and changes only its task's files:
   - its first step, `ticket_tree.py start`, moves the worktree to the home's commit if `develop` moved since, copies
