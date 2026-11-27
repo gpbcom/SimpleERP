@@ -614,6 +614,28 @@
         "path": ".claude/agents/verifier.md",
         "what": "runs checks.py, which cleans up after itself, and leaves no file of its own outside tests-evidences/"
       }
+    ],
+    "TKT-28": [
+      {
+        "kind": "test",
+        "path": "tests/harness/publish/test_publish.py",
+        "what": "a branch is pushed and its pull request opened with automerge to develop (master for a hotfix), an open one is labelled, develop, master, feature/tickets and non-GitFlow branches are refused before any push"
+      },
+      {
+        "kind": "script",
+        "path": ".claude/scripts/github/publish.py",
+        "what": "pushes the current branch and opens or labels its pull request with automerge"
+      },
+      {
+        "kind": "script",
+        "path": ".claude/scripts/tickets/ticket_tree.py",
+        "what": "finish pushes feature/tickets and opens or updates its pull request with automerge"
+      },
+      {
+        "kind": "workflow",
+        "path": ".github/workflows/automerge.yml",
+        "what": "merges a pull request labelled automerge once every check passed"
+      }
     ]
   }
 }

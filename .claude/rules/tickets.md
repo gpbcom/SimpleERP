@@ -53,6 +53,7 @@ agent graph of `.claude/agents/` and `.claude/workflows/`. They apply to the per
 | [TKT-25](#tkt-25) | A branch lives as long as its work: only a live branch is rebased, the rest is deleted after a backup, and `master` is never rewritten |
 | [TKT-26](#tkt-26) | A release reaches `master` by itself, with its changelog, its release notes and its test reports |
 | [TKT-27](#tkt-27) | The harness cleans up after itself: every temporary file, folder and worktree goes when its run ends, even a killed one |
+| [TKT-28](#tkt-28) | Every branch of the person's work is pushed with its pull request labelled `automerge`, without asking first |
 
 ## <a id="tkt-1"></a>TKT-1: Roadmap tickets, one folder each
 
@@ -744,3 +745,25 @@ checks that could not write their files.
 **Check:** the tests of `tests/harness/checks/test_checks_cleanup.py` pass (a killed run's tree is removed, a running
 one is kept, a tree that cannot be made leaves nothing, pytest's folder goes with the tree);
 `grep -n 'tkt-27' .claude/rules/tickets.md` finds the summary row and the heading.
+
+## <a id="tkt-28"></a>TKT-28: Always push with automerge
+
+**Rule:**
+
+- Once committed, every branch of the person's work is pushed and its pull request opened with the `automerge`
+  label, without asking the person first: the tickets' `feature/tickets` by `ticket_tree.py finish` (TKT-5, after
+  the code review of TKT-18), every other `feature/`, `bugfix/` and `hotfix/` branch (harness fixes, dependency
+  fixes) by `python3 .claude/scripts/github/publish.py --title "<title>" --body-file <file>`, run from the branch's
+  checkout. It opens the pull request to `develop` (`master` for a hotfix), or labels the open one.
+- `automerge.yml` then merges it once every check has passed (TKT-15). Nobody merges by hand, except a pull request
+  that changes `.github/workflows/`, which `automerge.yml` labels `needs-person`.
+- `publish.py` refuses `develop`, `master`, `main`, `feature/tickets` and any branch outside GitFlow, before it pushes
+  anything.
+- Starting a release (TKT-26) and a push to `develop` or `master` still ask the person.
+
+**Why:** the person asked on 2026-11-28: "Always push with auto merge." Asking before each push of a reviewed fix
+held the tickets that waited for it (a dependency advisory held #888 and three tickets behind it).
+
+**Check:** the tests of `tests/harness/publish/test_publish.py` pass (a branch is pushed and its pull request opened
+with `automerge` to the right base, an open one is labelled, a protected, shared or non-GitFlow branch is refused
+before any push); `grep -n 'tkt-28' .claude/rules/tickets.md` finds the summary row and the heading.
