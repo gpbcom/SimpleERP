@@ -1,0 +1,20 @@
+$ uv run --all-packages pytest backend/shared/context/tests -q -n 2
+(cwd ., on the ticket's own files only)
+
+bringing up nodes...
+bringing up nodes...
+
+........................................................................ [ 19%]
+........................................................................ [ 39%]
+........................................................................ [ 59%]
+........................................................................ [ 79%]
+........................................................................ [ 99%]
+...                                                                      [100%]
+=============================== warnings summary ===============================
+.venv/lib/python3.13/site-packages/fastapi/testclient.py:1
+.venv/lib/python3.13/site-packages/fastapi/testclient.py:1
+  /tmp/erp-checks-lfi4fj5s/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+363 passed, 2 warnings in 1.09s
