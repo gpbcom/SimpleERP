@@ -3,7 +3,7 @@
 
 # 📏 BR-SC02-18 Every purchase from a person enters the police register
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,8 @@ corrected by a dated new line.
 ## Why
 
 The register is how the authorities trace stolen goods; a dealer without it is liable. The owner asked for second-hand
-buy-back ([D546](../../../06-decisions/sectors/d546-benchmark-gaps-sc02-retail.md)). (Proposed) The France-pack rule is
-written later.
+buy-back ([D546](../../../06-decisions/sectors/d546-benchmark-gaps-sc02-retail.md)). The France-pack rule is
+[CR-FR-228 Second-hand purchase register](../../../10-country-packs/france/trade/cr-fr-228-second-hand-register.md).
 
 ## Examples
 
@@ -31,7 +31,7 @@ written later.
 - [UC-SC02-18](../use-cases/06-books-furniture-second-hand-franchise/uc-sc02-18-buy-back-second-hand-goods.md)
 - [E-SC02-15 Second-hand purchase](../data/e-sc02-15-second-hand-purchase.md)
 - [E-F7-06 Item](../../../02-functional/f07-purchasing-and-stock/data/e-f07-06-item.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-228 Second-hand purchase register](../../../10-country-packs/france/trade/cr-fr-228-second-hand-register.md)
 
 ## Exceptions

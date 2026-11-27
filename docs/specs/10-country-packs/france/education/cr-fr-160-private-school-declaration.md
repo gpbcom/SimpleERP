@@ -22,7 +22,8 @@ its first year.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+L441-1 and L441-4 in their current version since 2021-08-26 (loi n° 2021-1109 du 24 août 2021)
+([Code de l'éducation, art. L441-1 to L441-4](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166627/), read 2026-11-27).
 
 ## Enforced by
 
@@ -35,7 +36,8 @@ a pack update (D294).
 
 ## Penalty
 
-Opening without declaration: 1 year and 15 000 EUR, and a ban on running a school.
+Opening without declaration or despite an opposition: 1 year and 15 000 EUR, and a ban on opening, running or teaching
+in a school, for good or up to 5 years ([Code de l'éducation, art. L441-4](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166627/), read 2026-11-27).
 
 ## Exceptions
 

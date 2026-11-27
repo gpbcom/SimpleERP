@@ -4,12 +4,12 @@
 
 # 📏 BR-F11-17 Chargebacks are answered before their deadline
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 A chargeback gathers its evidence at once and is answered before the acquirer's deadline; accounting is alerted 2 days
-before (Proposed).
+before.
 
 ## Why
 

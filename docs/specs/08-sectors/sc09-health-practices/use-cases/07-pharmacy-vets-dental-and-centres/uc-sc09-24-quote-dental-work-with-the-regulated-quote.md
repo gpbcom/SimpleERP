@@ -4,13 +4,15 @@
 
 # 📝 UC-SC09-24 Quote dental work with the regulated quote
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
-A dentist quotes prosthetic work (crowns, bridges, dentures) with the regulated quote. The quote lists each act with its
-price, the basis of the health insurance, the complementary cover and the patient's remaining cost, and shows whether
-the work belongs to the package with no remaining cost. The patient reads and signs it before any prosthetic care
+A dentist quotes prosthetic work (crowns, bridges, dentures) with the regulated quote. The quote follows the official
+model: each act with its code and fees, the device and its materials, the place of manufacture, the reimbursement base
+and the health insurance's amount, the basket of each act (with the package with no remaining cost) and the
+alternatives, and its validity; the complementary cover's share and the remaining cost are shown apart, as
+information. The patient reads and signs it before any prosthetic care
 starts.
 
 ## Personas
@@ -48,8 +50,9 @@ A few quotes a week in a dental practice.
 1. The dentist opens the dental quotes screen
    ([S-SC09-24](../../screens/07-pharmacy-vets-dental-and-centres/s-sc09-24-dental-quotes.md)) and chooses the patient
    and the teeth concerned.
-2. The dentist adds each act from the national scale or the practice's list; the screen shows the basis, the health
-   insurance's share, the cover's share and the patient's remaining cost.
+2. The dentist adds each act from the national scale or the practice's list; the screen shows the act's code, fees,
+   materials and place of manufacture, the reimbursement base and the health insurance's amount, and, as information,
+   the cover's share and the patient's remaining cost.
 3. The screen shows, per act, whether it belongs to the package with no remaining cost, with its price cap.
 4. The quote is sent to the patient on the phone
    ([UC-SC09-08](../03-insurance-billing/uc-sc09-08-bill-patients-and-show-fees.md)); the patient reads it and signs
@@ -151,13 +154,16 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Before prosthetic care the dentist gives the patient a written quote that states each act, its price, the
-amount the health insurance and the complementary cover cover, and the remaining cost, and the patient accepts it before
-the care. Some prosthetic acts belong to a package with no remaining cost, with price caps. The France-pack rule is
+Before prosthetic care the dentist gives the patient a written quote on the model of annex III of the dentists'
+national agreement 2023-2028: the treatment, each act and its code, the device and its materials, the fees, the
+reimbursement base and the amount the health insurance pays, the basket, the place of manufacture, the alternatives with
+no or a moderate remaining cost, the date and the validity; it is due from a fee overrun of 70 EUR and for every
+made-to-measure device. The complementary cover's share and the remaining cost are not part of it. Some prosthetic acts belong to a package with no remaining cost, with price caps. The France-pack rule is
 listed below. Related: [CR-FR-130](../../../../10-country-packs/france/health-practice/cr-fr-130-fee-display.md),
 [CR-FR-133](../../../../10-country-packs/france/health-practice/cr-fr-133-third-party-payment.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule, (⚖️ lawyer review before launch, D574) until the dentists' national agreement 2023-2028 (its quote article and annex III) is read, for
+  the patient's acceptance before the care:
   [CR-FR-238 Regulated dental quote](../../../../10-country-packs/france/health-practice/cr-fr-238-dental-regulated-quote.md)
 
 ## Related use cases

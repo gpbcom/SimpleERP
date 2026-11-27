@@ -12,8 +12,10 @@ A professional seller must repair or replace goods that do not conform, free of 
 ## Values
 
 - Guarantee period: 2 years from delivery (new, used, refurbished, digital).
-- Presumption that the defect existed at purchase: 24 months for new goods and 12 months for used goods; for refurbished
-  goods the page gives 12 months in its detail section and 24 months in its summary, and does not resolve this.
+- Presumption that the defect existed at delivery: 24 months, and 12 months for second-hand goods (L217-7, for contracts
+  from 2022-01-01) ([Code de la consommation, art. L217-7](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044152587), read 2026-11-27); a refurbished product is a
+  second-hand product (R122-4) ([art. R122-4](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000045186097), read 2026-11-27), so 12 months.
+  See [CR-FR-278](../products/cr-fr-278-refurbished-products.md).
 - Remedies: the buyer chooses repair or replacement; the seller may impose the cheaper if the other costs clearly more.
 - Repair or replacement within 30 days of the request, free of charge.
 - A repair extends the guarantee by 12 months; a replacement imposed after a repair request renews it for 2 years.
@@ -37,6 +39,7 @@ Right to repair for contracts from 31 July 2026 (as the page states). Other star
 
 - [BR-F6-23 The legal conformity guarantee applies first](../../../02-functional/f06-customers-and-sales/business-rules/br-f06-23-the-legal-conformity-guarantee-applies-first.md)
 - [UC-F6-31 Handle a warranty claim](../../../02-functional/f06-customers-and-sales/use-cases/10-partners-contracts-and-warranties/uc-f06-31-handle-a-warranty-claim.md)
+- [UC-SC05-17 Refurbish electronics](../../../08-sectors/sc05-manufacturing/use-cases/06-excise-refurbishment-and-cutting/uc-sc05-17-refurbish-electronics.md)
 
 ## When the law changes
 
@@ -53,8 +56,7 @@ None stated.
 
 ## Open questions
 
-The page gives 12 months and 24 months for the presumption on refurbished goods and does not resolve it; to confirm
-before coding.
+The presumption for refurbished goods is settled by L217-7 and R122-4 (12 months), read 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC19-04 Installations and labels
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC19-04 Installations and labels](../../../flows/fl-sc19-04-installations-and-labels.md) for this persona,
 in light and dark mode (D120, D121). Errors follow the

@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U49-01 | [Audit a client](j-u49-01-audit-a-client.md) | 🔄 |
+| 🧭 | J-U49-01 | [Audit a client](j-u49-01-audit-a-client.md) | ✅ |
 
 ---
 

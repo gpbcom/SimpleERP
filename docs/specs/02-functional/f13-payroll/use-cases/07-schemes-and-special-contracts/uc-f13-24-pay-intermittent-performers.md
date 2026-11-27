@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-24 Pay intermittent performers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -55,7 +55,7 @@ Each show; the events example company (SC16) hires about 40 contracts a month in
 - 1a. The company is an occasional organiser: the hiring declaration goes through the simplified service up to 2 hours
   before the show and the simplified declaration and payment within 15 days after the contract (CR-FR-178).
 - 3a. One performer has several contracts in the month: one payslip per contract or one per month as the regime allows
-  (Proposed) to read.
+  (⚖️ lawyer review before launch, D574: the GUSO and performers' funds rules on monthly payslips).
 
 ## Error flows
 
@@ -147,7 +147,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 [CR-FR-176 Performing-arts declaration](../../../../10-country-packs/france/events/cr-fr-176-performing-arts-declaration.md),
 [CR-FR-178 Occasional organiser (GUSO)](../../../../10-country-packs/france/events/cr-fr-178-occasional-organiser-guso.md);
-the performers' funds and contribution set: (Proposed) to read.
+the performers' funds and contribution set: (⚖️ lawyer review before launch, D574) to read: the Audiens, Congés
+Spectacles and France Travail annex 10 rules.
 
 ## Related use cases
 

@@ -13,6 +13,6 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-F5-10 | [Automate marketing journeys](uc-f05-10-automate-marketing-journeys.md) | ✅ |
-| 📝 | UC-F5-14 | [Build a segment of contacts](uc-f05-14-build-a-segment-of-contacts.md) | 🔄 |
-| 📝 | UC-F5-15 | [Record and prove consent](uc-f05-15-record-and-prove-consent.md) | 🔄 |
-| 📝 | UC-F5-16 | [Keep emails delivered](uc-f05-16-keep-emails-delivered.md) | 🔄 |
+| 📝 | UC-F5-14 | [Build a segment of contacts](uc-f05-14-build-a-segment-of-contacts.md) | ✅ |
+| 📝 | UC-F5-15 | [Record and prove consent](uc-f05-15-record-and-prove-consent.md) | ✅ |
+| 📝 | UC-F5-16 | [Keep emails delivered](uc-f05-16-keep-emails-delivered.md) | ✅ |

@@ -4,7 +4,7 @@
 
 # 📏 BR-F18-17 Mailboxes for named users, closed at offboarding
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -22,7 +22,7 @@ Mail on the domain is company data (D475) and follows F1's user lifecycle (UC-F1
 | marie@company domain for user Marie | passes |
 | contact@company domain shared by 3 users | passes |
 | Mailbox with no owner | fails: refused |
-| User offboarded | passes: mailbox closed, mail exported to the manager (Proposed) after 30 days |
+| User offboarded | passes: mailbox closed, mail exported to the manager after 30 days |
 
 ## Applies to
 
@@ -30,11 +30,11 @@ Mail on the domain is company data (D475) and follows F1's user lifecycle (UC-F1
 
 ## Exceptions
 
-The owner may keep a leaver's address as a forward for (Proposed) 90 days.
+The owner may keep a leaver's address as a forward for 90 days.
 
 ## Configurable
 
-Mailbox size per plan (Proposed).
+Mailbox size per plan.
 
 ## Open questions
 

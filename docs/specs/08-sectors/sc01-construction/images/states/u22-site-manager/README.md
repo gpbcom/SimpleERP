@@ -383,11 +383,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc01-11-warranties-e-sc01-13-as-built-file-active-desktop, light](s-sc01-11-warranties-e-sc01-13-as-built-file-active-desktop-light.png) | ![s-sc01-11-warranties-e-sc01-13-as-built-file-active-desktop, dark](s-sc01-11-warranties-e-sc01-13-as-built-file-active-desktop-dark.png) |
 
+## s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-desktop, light](s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-desktop-light.png) | ![s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-desktop, dark](s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-desktop-dark.png) |
+
 ## s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone
 
 | Light | Dark |
 |---|---|
 | ![s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone, light](s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone-light.png) | ![s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone, dark](s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone-dark.png) |
+
+## s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone, light](s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone-light.png) | ![s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone, dark](s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone-dark.png) |
 
 ## s-sc01-11-warranties-e-sc01-11-warranty-active-desktop
 
@@ -808,6 +820,12 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 | Light | Dark |
 |---|---|
 | ![s-sc01-11-warranties-e-sc01-13-as-built-file-active-tablet, light](s-sc01-11-warranties-e-sc01-13-as-built-file-active-tablet-light.png) | ![s-sc01-11-warranties-e-sc01-13-as-built-file-active-tablet, dark](s-sc01-11-warranties-e-sc01-13-as-built-file-active-tablet-dark.png) |
+
+## s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-tablet
+
+| Light | Dark |
+|---|---|
+| ![s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-tablet, light](s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-tablet-light.png) | ![s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-tablet, dark](s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-tablet-dark.png) |
 
 ## s-sc01-11-warranties-e-sc01-11-warranty-active-tablet
 

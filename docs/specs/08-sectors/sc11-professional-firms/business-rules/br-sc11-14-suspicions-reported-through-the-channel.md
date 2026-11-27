@@ -7,13 +7,14 @@
 
 ## Statement
 
-(Proposed) A suspicion is recorded confidentially and reported through the profession's channel, never told to the
+A suspicion is recorded confidentially and reported through the profession's channel, never told to the
 client; in France:
 [CR-FR-149 Anti-money-laundering vigilance](../../../10-country-packs/france/professional-firms/cr-fr-149-aml-vigilance.md).
 
 ## Why
 
-(Proposed) The procedure is still to read.
+The professional reports a suspicion to the financial intelligence unit and never tells the client; since 2025-02-01
+lawyers file it electronically on ERMES through the bar president (CR-FR-149, Code monétaire et financier L561-15).
 
 ## Examples
 

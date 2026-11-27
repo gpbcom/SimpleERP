@@ -4,7 +4,7 @@
 
 # 📏 BR-F23-18 A budget is frozen once approved
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

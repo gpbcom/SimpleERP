@@ -3,7 +3,7 @@
 
 # 📏 BR-F8-31 Trips outside the travel policy need approval
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

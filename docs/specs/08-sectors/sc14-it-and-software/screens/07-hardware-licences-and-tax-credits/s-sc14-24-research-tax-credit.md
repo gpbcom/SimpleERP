@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC14-24 Research tax credit
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,7 +4,7 @@
 
 # 📏 BR-F7-22 Deposits are refunded for returned items only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

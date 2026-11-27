@@ -3,19 +3,20 @@
 
 # 📏 BR-SC04-19 Family allowance aid follows the CAF rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 The aid for childcare at home is computed only from the table of the family allowance fund in the country pack, the
-child's age, the family's recorded resources and the hours; the parents' share is the cost less that aid, and with no
-resources recorded no aid is applied.
+family's recorded resources, the number of children, the care mode, the paid hours and the net pay; the child's age
+decides only whether the family is eligible. The parents' share is the cost less that aid, and with no resources
+recorded no aid is applied.
 
 ## Why
 
 An aid computed by hand drifts from the fund's rules and parents may be asked to repay it. The owner asked for childcare
-at home ([D548](../../../06-decisions/sectors/d548-benchmark-gaps-sc04-home-care.md)). (Proposed) The France-pack rule
-is written later.
+at home ([D548](../../../06-decisions/sectors/d548-benchmark-gaps-sc04-home-care.md)). The France-pack rule is
+[CR-FR-232 Childcare at home and the PAJE aid](../../../10-country-packs/france/home-care/cr-fr-232-childcare-paje.md).
 
 ## Examples
 
@@ -23,7 +24,7 @@ is written later.
 |---|---|
 | Cost 1,200.00 EUR, aid 480.00 EUR | parents' share 720.00 EUR |
 | No resources recorded | no aid, share flagged |
-| Child reaches a new age band | aid recomputed from the birthday |
+| Child reaches the age limit of the aid | eligibility ends from the birthday, the family is told |
 | Aid table updated by the pack | applied from its date, the old months unchanged |
 
 ## Applies to
@@ -31,7 +32,7 @@ is written later.
 - [UC-SC04-19](../use-cases/06-care-homes-cesu-and-nursing/uc-sc04-19-provide-childcare-at-home.md)
 - [E-SC04-17 Childcare contract](../data/e-sc04-17-childcare-contract.md)
 - [E-SC04-02 Care funding](../data/e-sc04-02-care-funding.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-232 Childcare at home and the PAJE aid](../../../10-country-packs/france/home-care/cr-fr-232-childcare-paje.md)
 
 ## Exceptions

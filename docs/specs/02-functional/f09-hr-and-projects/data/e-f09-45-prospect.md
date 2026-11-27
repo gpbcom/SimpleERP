@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-45 Prospect
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -52,7 +52,7 @@ stateDiagram-v2
   Found --> Shortlisted : HR shortlists it, UC-F9-40
   Found --> Discarded : not shortlisted, UC-F9-40
   Shortlisted --> Discarded : HR removes it, UC-F9-40
-  Shortlisted --> Invited : the sequence approved, first message sent, BR-F9-36
+  Shortlisted --> Invited : the sequence approved, first message sent, on HR's click or automatically, D570
   Invited --> Connected : invitation accepted, UC-F9-41
   Invited --> WaitingForHR : a question or an unclear reply, UC-F9-41
   Connected --> WaitingForHR : a question or an unclear reply, UC-F9-41
@@ -62,6 +62,7 @@ stateDiagram-v2
   Invited --> Declined : a negative reply, BR-F9-37
   Connected --> Declined : a negative reply, BR-F9-37
   WaitingForHR --> Declined : HR marks it negative, UC-F9-41
+  Shortlisted --> NoAnswer : day 60, the first message expired unsent, D570
   Invited --> NoAnswer : day 60, BR-F9-37
   Connected --> NoAnswer : day 60, BR-F9-37
   WaitingForHR --> NoAnswer : day 60, BR-F9-37
@@ -75,6 +76,13 @@ stateDiagram-v2
 From any state, a person who asks to be erased is erased at once
 ([BR-F9-11](../business-rules/br-f09-11-candidate-data-has-a-term.md)).
 
+In prepared mode a message that is not sent within 7 days expires, and the prospect goes on as if they had not
+answered ([D570](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md),
+[BR-F9-37](../business-rules/br-f09-37-outreach-stops-at-a-reply-a-refusal-or-day-60.md)). A prospect whose first
+message expired was never contacted: they stay shortlisted, no follow-up falls due for them, and on day 60 they end as
+"no answer", then are erased with the others at the end of the sequence. Every prospect of a sequence therefore reaches
+an end state after day 60.
+
 ## Indexes and search
 
 By search, state, score; unique LinkedIn profile ID per search; the do-not-contact list by LinkedIn profile ID
@@ -83,7 +91,7 @@ By search, state, score; unique LinkedIn profile ID per search; the do-not-conta
 ## Retention
 
 As [BR-F9-39](../business-rules/br-f09-39-prospects-kept-only-as-long-as-needed.md) says: an applicant follows
-[BR-F9-11](../business-rules/br-f09-11-candidate-data-has-a-term.md); (Proposed) a declined prospect or one without an
+[BR-F9-11](../business-rules/br-f09-11-candidate-data-has-a-term.md); a declined prospect or one without an
 answer is erased at the end of the sequence, a discarded one when the search closes.
 
 ## Audit

@@ -13,7 +13,7 @@ irreversible acts prepared for the user
 
 Report a bug or request a feature from a conversation, explain a request's status, offer the feature factory.
 
-(Proposed) Explain where an approved ticket stands in the agent team
+Explain where an approved ticket stands in the agent team
 ([FL-F25-08](flows/fl-f25-08-team-builds-a-ticket.md)): its contract, the roles at work, the candidate commit and its
 verdict, the draft pull request.
 

@@ -4,7 +4,7 @@
 
 # 📏 BR-F21-19 Differences are explained before the old tool stops
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -17,8 +17,8 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F25-04 | [Approve and govern](fl-f25-04-approve-and-govern.md) | ✅ |
 | 🔀 | FL-F25-05 | [Tell the customer](fl-f25-05-tell-the-customer.md) | ✅ |
 | 🔀 | FL-F25-06 | [Vulnerability handling](fl-f25-06-vulnerability-handling.md) | ✅ |
-| 🔀 | FL-F25-07 | [Roadmap, beta, credits and changelog](fl-f25-07-roadmap-beta-and-credits.md) | 🔄 |
-| 🔀 | FL-F25-08 | [The agent team builds an approved ticket](fl-f25-08-team-builds-a-ticket.md) | 🔄 |
+| 🔀 | FL-F25-07 | [Roadmap, beta, credits and changelog](fl-f25-07-roadmap-beta-and-credits.md) | ✅ |
+| 🔀 | FL-F25-08 | [The agent team builds an approved ticket](fl-f25-08-team-builds-a-ticket.md) | ✅ |
 
 ---
 

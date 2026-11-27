@@ -4,7 +4,7 @@
 
 # 📏 BR-F23-20 Group scenarios eliminate intercompany flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

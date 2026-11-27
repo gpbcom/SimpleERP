@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F16-07 Forum, live chat, voice and support contracts
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F16-07 Forum, live chat, voice and support contracts](../../../flows/fl-f16-07-live-chat-voice-and-contracts.md) for

@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -24,13 +24,13 @@ One file per rule.
 | 📏 | BR-F17-11 | [Facts kept for a set period](br-f17-11-facts-kept-for-a-set-period.md) | ✅ |
 | 📏 | BR-F17-12 | [Win and loss from real deals](br-f17-12-win-loss-from-real-deals.md) | ✅ |
 | 📏 | BR-F17-13 | [Tender opportunities matched to the company](br-f17-13-tender-opportunities-matched-to-the-company.md) | ✅ |
-| 📏 | BR-F17-14 | [Data costs within their budget](br-f17-14-data-costs-within-their-budget.md) | 🔄 |
-| 📏 | BR-F17-15 | [Price suggestions need approval](br-f17-15-price-suggestions-need-approval.md) | 🔄 |
+| 📏 | BR-F17-14 | [Data costs within their budget](br-f17-14-data-costs-within-their-budget.md) | ✅ |
+| 📏 | BR-F17-15 | [Price suggestions need approval](br-f17-15-price-suggestions-need-approval.md) | ✅ |
 | 📏 | BR-F17-16 | [Call topics feed cards without people](br-f17-16-call-topics-feed-cards-without-people.md) | ✅ |
 | 📏 | BR-F17-17 | [Ads come only from public ad libraries](br-f17-17-ads-come-only-from-public-ad-libraries.md) | ✅ |
 | 📏 | BR-F17-18 | [Page watching respects robots rules and rate limits](br-f17-18-page-watching-respects-robots-rules-and-rate-limits.md) | ✅ |
-| 📏 | BR-F17-19 | [Search data carries its provider and date](br-f17-19-search-data-carries-its-provider-and-date.md) | 🔄 |
-| 📏 | BR-F17-20 | [Detection reads public pages only](br-f17-20-detection-reads-public-pages-only.md) | 🔄 |
+| 📏 | BR-F17-19 | [Search data carries its provider and date](br-f17-19-search-data-carries-its-provider-and-date.md) | ✅ |
+| 📏 | BR-F17-20 | [Detection reads public pages only](br-f17-20-detection-reads-public-pages-only.md) | ✅ |
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-08 Customer balances
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -21,7 +21,7 @@ D1 to D30: taken by the owner on 2026-11-10.
 | 🛒 |  | [Decisions: F6 Customers and sales](f06-customers-and-sales/README.md) | 13 pages |
 | 📦 |  | [Decisions: F7 Purchasing and stock](f07-purchasing-and-stock/README.md) | 14 pages |
 | 📒 |  | [Decisions: F8 Accounting](f08-accounting/README.md) | 13 pages |
-| 👥 |  | [Decisions: F9 HR and projects](f09-hr-and-projects/README.md) | 22 pages |
+| 👥 |  | [Decisions: F9 HR and projects](f09-hr-and-projects/README.md) | 24 pages |
 | 🏪 |  | [Decisions: F10 Point of sale (plugin)](f10-point-of-sale/README.md) | 7 pages |
 | 🛍️ |  | [Decisions: F11 Online shop (plugin)](f11-online-shop/README.md) | 6 pages |
 | 🏭 |  | [Decisions: F12 Manufacturing (plugin)](f12-manufacturing/README.md) | 6 pages |
@@ -38,7 +38,7 @@ D1 to D30: taken by the owner on 2026-11-10.
 | 🔮 |  | [Decisions: F23 What-if simulation and impact](f23-what-if-simulation/README.md) | 6 pages |
 | 🔌 |  | [Decisions: F24 Integrations hub](f24-integrations-hub/README.md) | 7 pages |
 | 🤖 |  | [Decisions: F25 DevOps agents (hosted edition)](f25-devops-agents/README.md) | 11 pages |
-| 🧭 |  | [Decisions: Foundations](foundations/README.md) | 36 pages |
+| 🧭 |  | [Decisions: Foundations](foundations/README.md) | 40 pages |
 | 🏭 |  | [Decisions: Sectors](sectors/README.md) | 73 pages |
 | 🛡️ |  | [Decisions: Security and compliance](security-and-compliance/README.md) | 5 pages |
 | ⚙️ |  | [Decisions: Technical](technical/README.md) | 29 pages |

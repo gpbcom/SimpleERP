@@ -26,20 +26,20 @@ One folder per persona: app shell, home screen and journeys.
 | 👤 | U14 | [Field worker: app shell and home](u14-field-worker/README.md) | ✅ |
 | 👤 | U15 | [Warehouse operator: app shell and home](u15-warehouse-operator/README.md) | ✅ |
 | 👤 | U16 | [Office worker: app shell and home](u16-office-worker/README.md) | ✅ |
-| 👤 | U17 | [Cashier: app shell and home](u17-cashier/README.md) | 🔄 |
-| 👤 | U18 | [Waiter: app shell and home](u18-waiter/README.md) | 🔄 |
-| 👤 | U19 | [Kitchen staff: app shell and home](u19-kitchen-staff/README.md) | 🔄 |
-| 👤 | U20 | [Production operator: app shell and home](u20-production-operator/README.md) | 🔄 |
-| 👤 | U21 | [Production planner: app shell and home](u21-production-planner/README.md) | 🔄 |
-| 👤 | U22 | [Site manager: app shell and home](u22-site-manager/README.md) | 🔄 |
-| 👤 | U23 | [Store manager: app shell and home](u23-store-manager/README.md) | 🔄 |
-| 👤 | U24 | [Engagement manager: app shell and home](u24-engagement-manager/README.md) | 🔄 |
-| 👤 | U25 | [Care coordinator: app shell and home](u25-care-coordinator/README.md) | 🔄 |
-| 👤 | U26 | [Carer: app shell and home](u26-carer/README.md) | 🔄 |
-| 👤 | U27 | [Quality manager: app shell and home](u27-quality-manager/README.md) | 🔄 |
-| 👤 | U28 | [Hotel receptionist: app shell and home](u28-hotel-receptionist/README.md) | 🔄 |
-| 👤 | U29 | [Dispatcher: app shell and home](u29-dispatcher/README.md) | 🔄 |
-| 👤 | U30 | [Driver: app shell and home](u30-driver/README.md) | 🔄 |
+| 👤 | U17 | [Cashier: app shell and home](u17-cashier/README.md) | ✅ |
+| 👤 | U18 | [Waiter: app shell and home](u18-waiter/README.md) | ✅ |
+| 👤 | U19 | [Kitchen staff: app shell and home](u19-kitchen-staff/README.md) | ✅ |
+| 👤 | U20 | [Production operator: app shell and home](u20-production-operator/README.md) | ✅ |
+| 👤 | U21 | [Production planner: app shell and home](u21-production-planner/README.md) | ✅ |
+| 👤 | U22 | [Site manager: app shell and home](u22-site-manager/README.md) | ✅ |
+| 👤 | U23 | [Store manager: app shell and home](u23-store-manager/README.md) | ✅ |
+| 👤 | U24 | [Engagement manager: app shell and home](u24-engagement-manager/README.md) | ✅ |
+| 👤 | U25 | [Care coordinator: app shell and home](u25-care-coordinator/README.md) | ✅ |
+| 👤 | U26 | [Carer: app shell and home](u26-carer/README.md) | ✅ |
+| 👤 | U27 | [Quality manager: app shell and home](u27-quality-manager/README.md) | ✅ |
+| 👤 | U28 | [Hotel receptionist: app shell and home](u28-hotel-receptionist/README.md) | ✅ |
+| 👤 | U29 | [Dispatcher: app shell and home](u29-dispatcher/README.md) | ✅ |
+| 👤 | U30 | [Driver: app shell and home](u30-driver/README.md) | ✅ |
 
 Pages: **1** · [2](page-2.md)
 

@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -18,7 +18,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F22-05 | [Billing](fl-f22-05-billing.md) | ✅ |
 | 🔀 | FL-F22-06 | [Savings and KPIs](fl-f22-06-savings-and-kpis.md) | ✅ |
 | 🔀 | FL-F22-07 | [IT provider re-billing](fl-f22-07-it-provider-re-billing.md) | ✅ |
-| 🔀 | FL-F22-08 | [Credits, SaaS subscriptions, carbon and routing](fl-f22-08-credits-saas-and-carbon.md) | 🔄 |
+| 🔀 | FL-F22-08 | [Credits, SaaS subscriptions, carbon and routing](fl-f22-08-credits-saas-and-carbon.md) | ✅ |
 
 ---
 

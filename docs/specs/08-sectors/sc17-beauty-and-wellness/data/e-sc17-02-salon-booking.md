@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-02 Salon booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

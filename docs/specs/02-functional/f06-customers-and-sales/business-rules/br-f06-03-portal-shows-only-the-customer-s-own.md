@@ -9,7 +9,7 @@
 ## Statement
 
 A customer sees only their own company's documents, orders and requests: through a secure link per document, or with an
-account covering their company's whole history (D17); a link expires (Proposed: after 90 days) and can be revoked.
+account covering their company's whole history (D17); a link expires (after 90 days) and can be revoked.
 
 ## Why
 

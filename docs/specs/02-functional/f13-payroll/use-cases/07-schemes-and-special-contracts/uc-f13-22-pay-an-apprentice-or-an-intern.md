@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-22 Pay an apprentice or an intern
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -84,7 +84,7 @@ sees their own payslip.
 
 ## Notifications
 
-- The payroll officer is told of a new special contract and, (Proposed) 30 days before, of a grid change on a birthday
+- The payroll officer is told of a new special contract and, 30 days before, of a grid change on a birthday
   or contract year.
 
 ## Audit events
@@ -147,8 +147,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 ## Regulatory references
 
-Apprentice pay grid and intern allowance: (Proposed) to read for the France pack (Code du travail D6222-26, Code de
-l'éducation L124-6). Minimum wage:
+Apprentice pay grid and intern allowance: (⚖️ lawyer review before launch, D574) to read for the France pack: Code du
+travail D6222-26, Code de l'éducation L124-6. Minimum wage:
 [CR-FR-185 Minimum wage (SMIC)](../../../../10-country-packs/france/payroll/cr-fr-185-minimum-wage.md).
 
 ## Related use cases

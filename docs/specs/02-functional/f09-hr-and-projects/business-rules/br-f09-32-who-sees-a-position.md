@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-32 Who sees a person's position
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-21, VD-23 / D503, D505)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -49,7 +49,7 @@ None.
 
 ## Configurable
 
-No. (Proposed) "Their planner" is a holder of a planner role whose record rules cover the person's team.
+No. "Their planner" is a holder of a planner role whose record rules cover the person's team.
 
 ## Open questions
 

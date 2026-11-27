@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC01-06 Price revision, off-plan sales, BIM and grants
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

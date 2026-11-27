@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC01-04 | [Site time](s-sc01-04-site-time.md) | 🔄 |
-| 🖥️ | S-SC01-05 | [Site diary](s-sc01-05-site-diary.md) | 🔄 |
-| 🖥️ | S-SC01-15 | [Site assistant](s-sc01-15-site-assistant.md) | 🔄 |
+| 🖥️ | S-SC01-04 | [Site time](s-sc01-04-site-time.md) | ✅ |
+| 🖥️ | S-SC01-05 | [Site diary](s-sc01-05-site-diary.md) | ✅ |
+| 🖥️ | S-SC01-15 | [Site assistant](s-sc01-15-site-assistant.md) | ✅ |

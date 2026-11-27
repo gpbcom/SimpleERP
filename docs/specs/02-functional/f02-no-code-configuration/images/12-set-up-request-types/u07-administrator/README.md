@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F2-12 Set up request types
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F2-12 Set up request types](../../../flows/fl-f02-12-set-up-request-types.md) for this persona, in light
 and dark mode (D120, D121). Errors follow the

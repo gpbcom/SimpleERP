@@ -11,7 +11,8 @@
 - **Traceability:** food business operators trace one step back and one step forward (Regulation (EC) 178/2002, article
   18); product safety recalls (Regulation (EU) 2023/988).
 - **Supplier invoices:** e-invoicing reception from 1 September 2026 (Q13).
-- **Payment terms to suppliers:** 60 days at most (Code de commerce L441-10).
+- **Payment terms to suppliers:** 60 days at most (Code de commerce L441-10); from 2027-01-01, periodic invoices (CIBS
+  L216-34) 45 days at most (L441-10 in the version of Ordonnance n° 2026-671, CR-FR-018).
 
 ## Country pack
 

@@ -25,7 +25,7 @@ any change of working conditions or new risk information, and keeps every versio
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12 (the page was verified on 22 July 2026).
+Since 2022-03-31: L4121-3-1 and R4121-4 ([Code du travail, art. L4121-3-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043893919), [art. R4121-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045386451), read 2026-11-27).
 
 ## Enforced by
 

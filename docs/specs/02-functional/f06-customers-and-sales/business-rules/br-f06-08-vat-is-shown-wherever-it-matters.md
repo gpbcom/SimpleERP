@@ -3,17 +3,31 @@
 
 # 📏 BR-F6-08 VAT is shown wherever it matters
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
 Every line carries its VAT rate; every quote, order, invoice, credit note, subscription, deposit and payment request
 shows the total excluding VAT, the VAT amount per rate and the total including VAT, in SimpleERP, in documents and in
 the portal. Prices are shown including VAT to consumers (and excluding VAT with the VAT detail to businesses). When no
-VAT is charged, the reason's legal mention replaces it: "TVA non applicable, art. 293 B du CGI" (small-business
-exemption), "Autoliquidation" (reverse charge, for example construction subcontracting or intra-EU services),
-"Exonération de TVA, art. 262 ter I du CGI" (intra-EU supply of goods). Figures in lists, dashboards and the AI
-assistant's answers say whether they are excluding or including VAT.
+VAT is charged, the reason's legal mention replaces it: "Autoliquidation" (reverse charge, for example construction
+subcontracting or intra-EU services), and for the small-business exemption and the intra-EU supply of goods the
+mention of the article in force on the invoice date:
+
+- until 2026-12-31: "TVA non applicable, art. 293 B du CGI" (small-business exemption), "Exonération de TVA, art.
+  262 ter I du CGI" (intra-EU supply of goods);
+- from 2027-01-01, when the VAT articles of the CGI move to the Code des impositions sur les biens et services (CIBS):
+  "TVA non applicable, article L. 223-3 du CIBS" (small-business exemption); the CGI wording is still accepted until
+  2028-06-30, and on invoices and contracts producing effects until 2028-06-30 a CGI reference is read as the CIBS
+  article that takes it over;
+- after 2028-06-30, the intra-EU supply mention quotes its CIBS article, (⚖️ lawyer review before launch, D574) to
+  read: CIBS L213-9 to L213-54, as CR-FR-009 says.
+
+The rules on the invoice format and its electronic transmission (CGI art. 289, 289 bis, 290, 290 A) stay in force from
+2027-01-01 until the regulatory part of the CIBS takes them over
+([CR-FR-016 Electronic invoicing](../../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md)).
+
+Figures in lists, dashboards and the AI assistant's answers say whether they are excluding or including VAT.
 
 ## Why
 

@@ -20,4 +20,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F24-07 Employees and their tools](07-employees-and-their-tools/README.md) | 14 images |
 | 🖼️ |  | [Images: FL-F24-08 AI connectors, office suites, warehouse and firms](08-ai-connectors-suites-and-warehouse/README.md) | 16 images |
 | 🖼️ |  | [Screen states](states/README.md) | 200 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

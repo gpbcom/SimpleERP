@@ -5,12 +5,13 @@
 
 # 📝 UC-F13-30 Apply the hotels-and-restaurants agreement
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
 For establishments under the hotels-and-restaurants agreement, SimpleERP applies its grid, the staff meals as a benefit
-in kind, the tips shared by the agreed key and the agreement's overtime rules in the monthly run.
+in kind, the tips paid in full to the staff in contact with customers and the agreement's overtime rules in
+the monthly run.
 
 ## Personas
 
@@ -42,8 +43,8 @@ Monthly; the restaurant example company (SC06) has 3 establishments.
 
 1. The payroll officer starts the run; SimpleERP reads the family's rules for the period (S-F13-05).
 2. SimpleERP checks each employee's pay against the grid of their level and echelon.
-3. SimpleERP values the meals taken as a benefit in kind (CR-FR-114) and adds the tips shared by the agreed key
-   (CR-FR-113).
+3. SimpleERP values the meals taken as a benefit in kind (CR-FR-114) and adds the tips, paid in full to the staff
+   in contact with customers (CR-FR-113).
 4. SimpleERP applies the agreement's overtime rules to the hours from F9.
 5. The payroll officer reviews the lines per employee and the run continues (UC-F13-07).
 
@@ -51,7 +52,8 @@ Monthly; the restaurant example company (SC06) has 3 establishments.
 
 - 3a. The employee had a meal allowance instead of meals: the allowance is paid and no benefit is valued.
 - 3b. Monthly pay with tips above 1.6 times the minimum wage: the tips lose their exemption from contributions
-  (CR-FR-113).
+  (CR-FR-113); the exemption runs until 2028-12-31, and from 2029-01-01 tips carry contributions unless the law
+  extends it.
 
 ## Error flows
 
@@ -133,7 +135,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 [CR-FR-113 Tips sharing](../../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md),
 [CR-FR-114 Staff meals as a benefit in kind](../../../../10-country-packs/france/labour/cr-fr-114-staff-meals-benefit.md);
-the agreement's grid and overtime: (Proposed) to read.
+the agreement's grid and overtime: (⚖️ lawyer review before launch, D574) to read: the hotels, cafés and
+restaurants agreement (IDCC 1979) grid and overtime rules.
 
 ## Related use cases
 

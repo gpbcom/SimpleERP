@@ -23,7 +23,7 @@ the receipt number on posters, leaflets and tickets.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code du travail L7122-3 in its current version in force since 2019-10-01 (ordonnance n° 2019-700) ([Code du travail, art. L7122-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038723890), read 2026-11-27).
 
 ## Enforced by
 

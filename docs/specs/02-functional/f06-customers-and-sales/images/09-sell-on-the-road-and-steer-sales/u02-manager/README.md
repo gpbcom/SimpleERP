@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F6-09 Sell on the road and steer sales
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F6-09 Sell on the road and steer sales](../../../flows/fl-f06-09-sell-on-the-road-and-steer-sales.md) for
 this persona, in light and dark mode (D120, D121). Errors follow the

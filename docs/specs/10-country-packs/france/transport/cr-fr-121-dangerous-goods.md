@@ -3,24 +3,25 @@
 
 # ⚖️ CR-FR-121 Dangerous goods (ADR)
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) Dangerous goods travel with their transport document and instructions on board, by trained drivers, under a
-safety adviser.
+A company that transports, loads or unloads dangerous goods appoints a safety adviser, who writes a yearly report and
+an accident report, kept 5 years ([Arrêté TMD du 29 mai 2009, art. 6](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000042679883), read 2026-11-27).
+(⚖️ lawyer review before launch, D574) The transport document, the written instructions on board and the drivers' training (ADR 5.4 and 8.2).
 
 ## Values
 
-- (Proposed) Documents and thresholds to read.
+- (⚖️ lawyer review before launch, D574) Documents and thresholds (ADR 1.1.3.6) to read.
 
 ## Legal references
 
-- ADR agreement; arrêté TMD (not read yet).
+- ADR agreement (not read); [arrêté TMD du 29 mai 2009](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000020796240), art. 6 read.
 
 ## Effective dates
 
-(Proposed) To read.
+(⚖️ lawyer review before launch, D574) To read (the ADR edition in force).
 
 ## Enforced by
 
@@ -33,7 +34,7 @@ in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read yet.
 
 ## Exceptions
 
@@ -41,7 +42,7 @@ None.
 
 ## Open questions
 
-The rules are not read yet.
+The ADR itself is on the lawyer's list.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

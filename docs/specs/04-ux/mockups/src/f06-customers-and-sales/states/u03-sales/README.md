@@ -10,7 +10,13 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f06-02-lead-e-f06-02-opportunity-active-desktop.html`
 - `s-f06-02-lead-e-f06-02-opportunity-active-phone.html`
 - `s-f06-02-lead-e-f06-20-lead-active-desktop.html`
+- `s-f06-02-lead-e-f06-20-lead-qualified-desktop.html`
+- `s-f06-02-lead-e-f06-20-lead-disqualified-desktop.html`
+- `s-f06-02-lead-e-f06-20-lead-converted-desktop.html`
 - `s-f06-02-lead-e-f06-20-lead-active-phone.html`
+- `s-f06-02-lead-e-f06-20-lead-qualified-phone.html`
+- `s-f06-02-lead-e-f06-20-lead-disqualified-phone.html`
+- `s-f06-02-lead-e-f06-20-lead-converted-phone.html`
 - `s-f06-03-quote-editor-e-f06-03-quote-accepted-desktop.html`
 - `s-f06-03-quote-editor-e-f06-03-quote-accepted-phone.html`
 - `s-f06-03-quote-editor-e-f06-03-quote-draft-desktop.html`
@@ -38,7 +44,13 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f06-09-subscriptions-e-f06-07-subscription-contract-active-desktop.html`
 - `s-f06-09-subscriptions-e-f06-07-subscription-contract-active-phone.html`
 - `s-f06-11-lead-scoring-e-f06-20-lead-active-desktop.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-qualified-desktop.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-disqualified-desktop.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-converted-desktop.html`
 - `s-f06-11-lead-scoring-e-f06-20-lead-active-phone.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-qualified-phone.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-disqualified-phone.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-converted-phone.html`
 - `s-f06-13-rentals-e-f06-09-rental-booked-desktop.html`
 - `s-f06-13-rentals-e-f06-09-rental-booked-phone.html`
 - `s-f06-13-rentals-e-f06-09-rental-late-desktop.html`
@@ -115,6 +127,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f06-01-pipeline-e-f06-02-opportunity-active-tablet.html`
 - `s-f06-02-lead-e-f06-02-opportunity-active-tablet.html`
 - `s-f06-02-lead-e-f06-20-lead-active-tablet.html`
+- `s-f06-02-lead-e-f06-20-lead-qualified-tablet.html`
+- `s-f06-02-lead-e-f06-20-lead-disqualified-tablet.html`
+- `s-f06-02-lead-e-f06-20-lead-converted-tablet.html`
 - `s-f06-03-quote-editor-e-f06-03-quote-accepted-tablet.html`
 - `s-f06-03-quote-editor-e-f06-03-quote-draft-tablet.html`
 - `s-f06-03-quote-editor-e-f06-03-quote-expired-tablet.html`
@@ -129,6 +144,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f06-05-order-e-f06-12-credit-limit-active-tablet.html`
 - `s-f06-09-subscriptions-e-f06-07-subscription-contract-active-tablet.html`
 - `s-f06-11-lead-scoring-e-f06-20-lead-active-tablet.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-qualified-tablet.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-disqualified-tablet.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-converted-tablet.html`
 - `s-f06-13-rentals-e-f06-09-rental-booked-tablet.html`
 - `s-f06-13-rentals-e-f06-09-rental-late-tablet.html`
 - `s-f06-13-rentals-e-f06-09-rental-picked-up-tablet.html`

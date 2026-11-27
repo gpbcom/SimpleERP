@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-23 No worker starts before the contract is approved
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

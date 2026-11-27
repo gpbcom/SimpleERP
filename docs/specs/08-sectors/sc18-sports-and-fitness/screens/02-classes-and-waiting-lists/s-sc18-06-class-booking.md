@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-06 Class booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

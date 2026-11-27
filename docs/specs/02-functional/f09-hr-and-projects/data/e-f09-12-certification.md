@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-12 Qualification
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -59,7 +59,7 @@ stateDiagram-v2
   Rejected --> [*] : BR-F9-28
 ```
 
-(Proposed) A qualification entered by hand by someone other than HR starts "To verify".
+A qualification entered by hand by someone other than HR starts "To verify".
 
 ## Indexes and search
 

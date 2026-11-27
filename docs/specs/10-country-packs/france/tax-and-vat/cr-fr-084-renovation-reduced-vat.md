@@ -25,7 +25,11 @@ customer certifies the conditions on the quote or the invoice.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2026-03-01: art. 279-0 bis in force since 2025-03-01, art. 278-0 bis since 2026-03-01 ([CGI, art. 279-0 bis](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051215062), [art. 278-0 bis](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053562844), read 2026-11-27); art. 278-0 bis A not read yet. Until 2026-12-31, CGI art. 279-0 bis and 278-0 bis apply; from 2027-01-01, the Code des impositions sur les biens et services, Book II, the housing rates (L213-244 to L213-250) of section 4 Taux,
+in force on that date ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 49](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054587047) as amended by Ordonnance n° 2026-671, read 2026-11-27); on invoices,
+contracts and acts that produce effects until 2028-06-30 (art. 46 II as
+amended by Ordonnance n° 2026-671, [BOFiP, BOI-RES-TVA-000253 of 2026-10-07](https://bofip.impots.gouv.fr/bofip/14901-PGP.html/identifiant=BOI-RES-TVA-000253-20261007), read 2026-11-27), a reference to the CGI is read as one to the CIBS
+article that takes it over ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 46](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053091753), read 2026-11-27).
 
 ## Enforced by
 

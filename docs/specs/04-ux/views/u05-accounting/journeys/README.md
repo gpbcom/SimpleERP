@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U05-01 | [Close the month](j-u05-01-close-the-month.md) | 🔄 |
+| 🧭 | J-U05-01 | [Close the month](j-u05-01-close-the-month.md) | ✅ |
 
 ---
 

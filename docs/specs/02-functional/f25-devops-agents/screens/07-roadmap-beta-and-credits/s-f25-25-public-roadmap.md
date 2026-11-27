@@ -4,7 +4,7 @@
 
 # 🖥️ S-F25-25 Public roadmap
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

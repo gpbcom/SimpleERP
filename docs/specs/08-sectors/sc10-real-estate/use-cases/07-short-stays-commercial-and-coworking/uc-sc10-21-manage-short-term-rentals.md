@@ -40,7 +40,7 @@ Several stays a week per property; one tourist tax declaration per period.
 
 - **Succeeded:** the stay is saved ([E-SC10-17 Stay](../../data/e-sc10-17-stay.md)) with its nights, guests and tax; the
   invoice shows the tax apart and the declaration lists it.
-- **Failed:** no stay is booked over an existing one; the missing registration number or guest detail is shown.
+- **Failed:** no stay is booked over an existing one; the missing declaration number or guest detail is shown.
 
 ## Main flow
 
@@ -71,7 +71,7 @@ Several stays a week per property; one tourist tax declaration per period.
 ## Error flows
 
 - 2e. The dates overlap another stay: the booking is refused and the free dates are shown.
-- 2e. The commune requires a registration number and the property has none: the stay cannot be published and the missing
+- 2e. The commune requires a declaration number and the property has none: the stay cannot be published and the missing
   number is shown.
 - 3e. No tourist tax rate is known for the commune: the tax is not computed and the manager is asked to load the rate.
 - Any step: a service does not answer; the call is retried first
@@ -160,8 +160,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A furnished tourist rental collects the tourist tax per night and per guest who owes it, at the rate the
 commune sets, shows it apart, and pays it to the commune on its dates; minors and some other guests are exempt. The
-commune may require a registration number for the home and limit the nights a main residence is let in a year. Platforms
-may collect the tax on the manager's behalf. The France-pack rule is written later. Related:
+commune may require a declaration number for the home and limit the nights a main residence is let in a year. Platforms
+may collect the tax on the manager's behalf. The France-pack rules are [CR-FR-288 Furnished tourist rentals](../../../../10-country-packs/france/real-estate/cr-fr-288-furnished-tourist-rentals.md), [CR-FR-111 Tourist tax (taxe de séjour)](../../../../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md) and [CR-FR-282 Police form for foreign guests](../../../../10-country-packs/france/hospitality/cr-fr-282-police-form-for-foreign-guests.md). Related:
 [CR-FR-111](../../../../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md).
 
 ## Related use cases

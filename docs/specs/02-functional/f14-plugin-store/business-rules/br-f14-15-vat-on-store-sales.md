@@ -13,7 +13,8 @@ Store sales bear VAT by the buyer's country rules; in France:
 
 ## Why
 
-The consumer threshold is still to read.
+The consumer threshold is read in CR-FR-071: below 10 000 EUR a year of EU distance sales to consumers, the
+seller's country's VAT; above, the buyer's country's VAT, through the one-stop shop (OSS) if chosen.
 
 ## Examples
 

@@ -12,6 +12,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f14-10-security-review-e-f14-03-plugin-version-submitted-desktop.html`
 - `s-f14-10-security-review-e-f14-07-plugin-check-report-recorded-desktop.html`
 - `s-f14-10-security-review-e-f14-21-plugin-security-review-active-desktop.html`
+- `s-f14-10-security-review-e-f14-21-plugin-security-review-approved-desktop.html`
+- `s-f14-10-security-review-e-f14-21-plugin-security-review-changes-asked-desktop.html`
+- `s-f14-10-security-review-e-f14-21-plugin-security-review-rejected-desktop.html`
 - `s-f14-14-seller-reports-e-f14-09-seller-report-filed-desktop.html`
 - `s-f14-14-seller-reports-e-f14-09-seller-report-prepared-desktop.html`
 - `s-f14-14-seller-reports-e-f14-09-seller-report-sent-desktop.html`
@@ -30,6 +33,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f14-22-plugin-lifecycle-e-f14-16-maintainer-transfer-asked-desktop.html`
 - `s-f14-22-plugin-lifecycle-e-f14-16-maintainer-transfer-refused-desktop.html`
 - `s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-active-desktop.html`
+- `s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop.html`
+- `s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop.html`
+- `s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop.html`
 - `s-f14-23-release-channels-e-f14-17-rollout-beta-desktop.html`
 - `s-f14-23-release-channels-e-f14-17-rollout-paused-desktop.html`
 - `s-f14-23-release-channels-e-f14-17-rollout-running-desktop.html`

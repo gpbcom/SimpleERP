@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC08-08 | [Grants](s-sc08-08-grants.md) | 🔄 |
-| 🖥️ | S-SC08-09 | [Grant reports](s-sc08-09-grant-reports.md) | 🔄 |
+| 🖥️ | S-SC08-08 | [Grants](s-sc08-08-grants.md) | ✅ |
+| 🖥️ | S-SC08-09 | [Grant reports](s-sc08-09-grant-reports.md) | ✅ |

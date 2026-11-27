@@ -58,7 +58,8 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-F21-18 Module guide | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U07 | `u07-administrator/s-f21-11-module-guide-e-f21-18-module-guide-active-desktop-{light,dark}.png` |
+| E-F21-18 Module guide | Active | Badge "Active"; a new record starts here; next: Done (UC-F21-11); fields editable within the role | U07 | `u07-administrator/s-f21-11-module-guide-e-f21-18-module-guide-active-desktop-{light,dark}.png` |
+| E-F21-18 Module guide | Done | Badge "Done"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f21-11-module-guide-e-f21-18-module-guide-done-desktop-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

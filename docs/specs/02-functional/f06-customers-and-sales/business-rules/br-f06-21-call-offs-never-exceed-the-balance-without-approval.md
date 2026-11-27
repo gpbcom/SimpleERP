@@ -4,7 +4,7 @@
 
 # 📏 BR-F6-21 Call-offs never exceed the balance without approval
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

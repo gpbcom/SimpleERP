@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-22 Fill a form offline on the phone
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -74,7 +74,7 @@ The roles the offline form is given to; record rules apply on sync.
 
 ## Notifications
 
-The user is told when a queued record is refused; the manager when a phone has not synced for 24 hours (Proposed).
+The user is told when a queued record is refused; the manager when a phone has not synced for 24 hours.
 
 ## Audit events
 
@@ -125,7 +125,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Saving offline answers within 300 ms (Proposed).
+Saving offline answers within 300 ms.
 
 ## Regulatory references
 

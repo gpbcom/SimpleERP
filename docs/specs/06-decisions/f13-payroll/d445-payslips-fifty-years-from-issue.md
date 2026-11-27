@@ -35,7 +35,7 @@ Revises D365's payslip archive. CR-FR-182, CR-FR-047 and BR-F13-13 say so; Q12 k
 - [F13 Payroll (plugin)](../../02-functional/f13-payroll/README.md)
 - [Q12 Payslip availability period](../../07-questions/q12-payslip-availability-period.md)
 - [D365](d365-payroll-coverage.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

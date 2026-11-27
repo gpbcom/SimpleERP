@@ -4,7 +4,7 @@
 
 # 🧭 J-U25-01 Plan a new recipient's visits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Persona
 
@@ -16,8 +16,8 @@ Every planned visit done by a suitable carer, on rounds that waste no time on th
 
 ## Journey
 
-Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are a proposal (Proposed), drawn from the
-specs, for the owner to confirm.
+Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are drawn from the
+specs and confirmed by the owner (D572).
 
 ```mermaid
 journey

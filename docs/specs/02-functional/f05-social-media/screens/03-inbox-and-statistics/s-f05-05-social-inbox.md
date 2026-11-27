@@ -70,7 +70,13 @@ Entity states shown (VD-15):
 | E-F5-01 Post | Scheduled | Badge "Scheduled"; next: Published or Refused (UC-F5-01, UC-F5-02); fields editable within the role | U12 | `u12-marketing/s-f05-05-social-inbox-e-f05-01-post-scheduled-{desktop,phone}-{light,dark}.png` |
 | E-F5-01 Post | Published | Badge "Published"; next: Held (UC-F5-03); fields editable within the role | U12 | `u12-marketing/s-f05-05-social-inbox-e-f05-01-post-published-{desktop,phone}-{light,dark}.png` |
 | E-F5-01 Post | Held | Badge "Held"; next: Published (UC-F5-01); fields editable within the role | U12 | `u12-marketing/s-f05-05-social-inbox-e-f05-01-post-held-{desktop,phone}-{light,dark}.png` |
-| E-F6-20 Lead | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U12 | `u12-marketing/s-f05-05-social-inbox-e-f06-20-lead-active-{desktop,phone}-{light,dark}.png` |
+| E-F6-20 Lead | Active | Badge "Active"; a new record starts here; next: Qualified or Disqualified (UC-F6-01); fields editable within the role | U12 | `u12-marketing/s-f05-05-social-inbox-e-f06-20-lead-active-{desktop,phone}-{light,dark}.png` |
+| E-F6-20 Lead | Qualified | Badge "Qualified"; next: Disqualified or Converted (UC-F6-01, UC-F6-02); fields editable within the role | U12 | `u12-marketing/s-f05-05-social-inbox-e-f06-20-lead-qualified-{desktop,phone}-{light,dark}.png` |
+| E-F6-20 Lead | Disqualified | Badge "Disqualified"; final: read-only, no next state; the history shows how it got here | U12 | `u12-marketing/s-f05-05-social-inbox-e-f06-20-lead-disqualified-{desktop,phone}-{light,dark}.png` |
+| E-F6-20 Lead | Converted | Badge "Converted"; final: read-only, no next state; the history shows how it got here | U12 | `u12-marketing/s-f05-05-social-inbox-e-f06-20-lead-converted-{desktop,phone}-{light,dark}.png` |
+| E-F6-20 Lead | Qualified | Badge "Qualified"; next: Disqualified or Converted (UC-F6-01, UC-F6-02); fields editable within the role | U12 | `u12-marketing/s-f05-05-social-inbox-e-f06-20-lead-qualified-{desktop,phone}-{light,dark}.png` |
+| E-F6-20 Lead | Disqualified | Badge "Disqualified"; final: read-only, no next state; the history shows how it got here | U12 | `u12-marketing/s-f05-05-social-inbox-e-f06-20-lead-disqualified-{desktop,phone}-{light,dark}.png` |
+| E-F6-20 Lead | Converted | Badge "Converted"; final: read-only, no next state; the history shows how it got here | U12 | `u12-marketing/s-f05-05-social-inbox-e-f06-20-lead-converted-{desktop,phone}-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

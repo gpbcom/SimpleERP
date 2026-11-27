@@ -5,7 +5,7 @@
 
 # 🖥️ S-F19-26 Similar features
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-F24-16 Every integration shows its icon
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -21,9 +21,9 @@ The owner's request in the round of 2026-11-12: "Also add icons in the web UI fo
 | Case | Result |
 |---|---|
 | HubSpot with a logo allowed by its brand terms, SVG | passes: logo shown |
-| Connector whose brand terms forbid use | passes: category icon (banks: Lucide "landmark") (Proposed) |
+| Connector whose brand terms forbid use | passes: category icon (banks: Lucide "landmark") |
 | Logo without a dark-mode variant | passes: shown on a light tile in dark mode |
-| Logo larger than (Proposed) 50 KB or not SVG or PNG | fails: refused in the icon library |
+| Logo larger than 50 KB or not SVG or PNG | fails: refused in the icon library |
 | Icon without accessible name | fails: refused |
 
 ## Applies to
@@ -42,7 +42,7 @@ None.
 
 ## Configurable
 
-No; (Proposed) logos are shown at 24 px in lists and 40 px on the connector page, on a tile with 4 px padding, from SVG
+No; logos are shown at 24 px in lists and 40 px on the connector page, on a tile with 4 px padding, from SVG
 or a PNG of at least 80 px.
 
 ## Open questions

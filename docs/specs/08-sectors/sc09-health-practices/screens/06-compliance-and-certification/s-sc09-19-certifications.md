@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC09-19 Certifications
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -13,8 +13,10 @@
 
 ## Purpose
 
-Used to keep the software's certifications current,
-[UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md).
+Keep each certified module's approvals (such as SESAM-Vitale) and its Ségur referencing current: an expired approval
+disables the module, while a lapsed Ségur referencing, a State funding scheme and not an obligation of the practice,
+only warns the provider ([BR-SC09-15](../../business-rules/br-sc09-15-certifications-kept-current.md),
+[UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md)).
 
 ## Entry points
 
@@ -42,28 +44,30 @@ them, with their examples.
 ## Actions
 
 - Track versions:
-  [UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md),
+  [UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md)).
   step 1.
 - Renew approvals:
-  [UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md),
+  [UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md)).
   step 2.
 - Update practices:
-  [UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md),
+  [UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md)).
   step 3.
 - Check:
-  [UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md),
+  [UC-SC09-19](../../use-cases/06-compliance-and-certification/uc-sc09-19-keep-the-software-s-certifications-current.md)).
   step 4.
 
 ## States
 
-- Normal: certified modules with version, approval and validity.
+- Normal: certified modules with version, approval or Ségur referencing, and validity; a referencing that lapses soon
+  shows a warning, the module stays on.
 - Empty: "No certified module".
 - Loading: the frame and titles show at once with placeholder rows; within 1 second
   ([D408](../../../../06-decisions/technical/d408-performance-and-profiles.md)) the data replaces them, and a longer
   load shows a progress line saying what loads.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)) says what failed
-  and what to do; what was typed is kept. For example, expired: the module is disabled
-  ([BR-SC09-15](../../business-rules/br-sc09-15-certifications-kept-current.md)).
+  and what to do; what was typed is kept. For example, an expired approval: the module is disabled
+  ([BR-SC09-15](../../business-rules/br-sc09-15-certifications-kept-current.md)); a lapsed Ségur referencing is a
+  warning, not an error.
 - Read-only: practices read the state only.
 - Offline: not available offline: work on health data that stays on certified hosting. Offline work is kept for the
   phone forms of the field, [D38](../../../../06-decisions/ux/d38-offline-field-tasks.md),
@@ -88,7 +92,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

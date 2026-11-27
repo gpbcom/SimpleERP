@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC06-06 Campsites, catering, groups, pricing and licences
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC06-06 Campsites, catering, groups, pricing and licences](../../../flows/fl-sc06-06-campsites-catering-groups-and-pricing.md)

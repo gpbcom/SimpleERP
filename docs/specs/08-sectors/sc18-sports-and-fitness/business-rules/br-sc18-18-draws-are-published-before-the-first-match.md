@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-18 Draws are published before the first match
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

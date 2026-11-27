@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -21,12 +21,12 @@ One file per entity.
 | 🗃️ | E-F19-08 | [Promotion credit](e-f19-08-promotion-credit.md) | ✅ |
 | 🗃️ | E-F19-09 | [Hosted invoice](e-f19-09-hosted-invoice.md) | ✅ |
 | 🗃️ | E-F19-10 | [Feature withdrawal](e-f19-10-feature-withdrawal.md) | ✅ |
-| 🗃️ | E-F19-11 | [Delivery commitment](e-f19-11-delivery-commitment.md) | 🔄 |
+| 🗃️ | E-F19-11 | [Delivery commitment](e-f19-11-delivery-commitment.md) | ✅ |
 | 🗃️ | E-F19-12 | [Feature refund](e-f19-12-feature-refund.md) | ✅ |
-| 🗃️ | E-F19-13 | [Code handover](e-f19-13-code-handover.md) | 🔄 |
+| 🗃️ | E-F19-13 | [Code handover](e-f19-13-code-handover.md) | ✅ |
 | 🗃️ | E-F19-14 | [Security and privacy review](e-f19-14-security-and-privacy-review.md) | ✅ |
 | 🗃️ | E-F19-15 | [Factory posting](e-f19-15-factory-posting.md) | ✅ |
-| 🗃️ | E-F19-16 | [Feature defect](e-f19-16-feature-defect.md) | 🔄 |
+| 🗃️ | E-F19-16 | [Feature defect](e-f19-16-feature-defect.md) | ✅ |
 | 🗃️ | E-F19-17 | [Catalogue change](e-f19-17-catalogue-change.md) | ✅ |
 | 🗃️ | E-F19-18 | [Funding pledge](e-f19-18-funding-pledge.md) | ✅ |
 | 🗃️ | E-F19-19 | [Feature maintenance plan](e-f19-19-feature-maintenance-plan.md) | ✅ |

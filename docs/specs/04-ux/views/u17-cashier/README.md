@@ -2,7 +2,7 @@
 
 # 🧾 Cashier: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ the kitchen. Default density: comfortable, large touch targets
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Open the session; Orders to collect.
 - Widgets: Today's sales.
@@ -38,16 +38,16 @@ the kitchen. Default density: comfortable, large touch targets
 
 ## Navigation
 
-(Proposed) Till · Orders · Customers · Session.
+Till · Orders · Customers · Session.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U17-01 | [Serve the queue and close the till](journeys/j-u17-01-serve-the-queue.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U17-01 | [Serve the queue and close the till](journeys/j-u17-01-serve-the-queue.md) | ✅ |
 
 ---
 

@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -18,7 +18,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F20-05 | [Maintenance and releases](fl-f20-05-maintenance-and-releases.md) | ✅ |
 | 🔀 | FL-F20-06 | [After an incident](fl-f20-06-after-an-incident.md) | ✅ |
 | 🔀 | FL-F20-07 | [Employees' help](fl-f20-07-employees-help.md) | ✅ |
-| 🔀 | FL-F20-08 | [Engineers, screen sharing, reports and languages](fl-f20-08-engineers-sharing-and-reports.md) | 🔄 |
+| 🔀 | FL-F20-08 | [Engineers, screen sharing, reports and languages](fl-f20-08-engineers-sharing-and-reports.md) | ✅ |
 
 ---
 

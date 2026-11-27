@@ -151,7 +151,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 A licence is issued by the federation once a season for a member, in a category, and may require a medical
-certificate or questionnaire; the club collects the fee and passes it on. The France-pack rule is written later.
+certificate or questionnaire; the club collects the fee and passes it on. The France-pack rule is [CR-FR-284 Sports licences and medical certificates](../../../../10-country-packs/france/non-profit/cr-fr-284-sports-licences-and-medical-certificates.md).
 
 ## Related use cases
 

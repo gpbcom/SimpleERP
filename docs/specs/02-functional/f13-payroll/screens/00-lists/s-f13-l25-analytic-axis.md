@@ -38,7 +38,8 @@ filter, total and act on many analytic axis at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] ANALYTIC AXIS   STATE                                                                |
+| state             | [ ] NAME   ANALYTIC PLA   VALUES   STATE                                                 |
+| analytic plan     | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,7 +49,9 @@ filter, total and act on many analytic axis at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Analytic axis | the record's title | text | yes |
+| Name | name | text | yes |
+| Analytic plan | analytic plan | link to the record | yes |
+| Values | values | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -58,12 +61,14 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Analytic plan | each linked analytic plan | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: analytic axis link to no other record type in their fields.
+- Analytic axis of a chosen analytic plan, or of the analytic plans that match a filter.
+- From the other side: the analytic plans that have analytic axis, or none.
 
 ## KPI strip
 

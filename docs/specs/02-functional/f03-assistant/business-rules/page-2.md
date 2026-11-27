@@ -13,7 +13,7 @@
 | 📏 | BR-F3-34 | [All capabilities via the AI assistant](br-f03-34-every-capability-is-reachable-from-the-assistant.md) | ✅ |
 | 📏 | BR-F3-35 | [Agents follow thresholds and amount limits](br-f03-35-agents-follow-thresholds-and-limits.md) | ✅ |
 | 📏 | BR-F3-36 | [An audit agent checks the agents](br-f03-36-an-audit-agent-checks-agents.md) | ✅ |
-| 📏 | BR-F3-37 | [A quality drop blocks a model or prompt change](br-f03-37-a-quality-drop-blocks-a-model-or-prompt-change.md) | 🔄 |
+| 📏 | BR-F3-37 | [A quality drop blocks a model or prompt change](br-f03-37-a-quality-drop-blocks-a-model-or-prompt-change.md) | ✅ |
 | 📏 | BR-F3-38 | [Content is data, never instructions](br-f03-38-content-is-data-never-instructions.md) | ✅ |
 | 📏 | BR-F3-39 | [Memory is opt-in, visible and erasable](br-f03-39-memory-is-opt-in-visible-and-erasable.md) | ✅ |
 | 📏 | BR-F3-40 | [Every figure opens its query](br-f03-40-every-figure-opens-its-query.md) | ✅ |

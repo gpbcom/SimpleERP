@@ -16,7 +16,8 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-072 Accessible online shops](../../10-country-packs/france/consumer/cr-fr-072-web-accessibility-eaa.md),
 [CR-FR-052 Personal data kept no longer than needed](../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md),
 [CR-FR-036 Consumer withdrawal right](../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md). Qualiopi
-and the training agreement are (Proposed): their official pages could not be read yet.
+(7 criteria, 33 indicators from 2026-11-01) and the training agreement are read in CR-FR-157 and CR-FR-158; the
+criminal fines of Code du travail L6355-18 to L6355-22 were repealed on 2026-06-27 (loi n° 2026-534).
 
 ## Country pack
 

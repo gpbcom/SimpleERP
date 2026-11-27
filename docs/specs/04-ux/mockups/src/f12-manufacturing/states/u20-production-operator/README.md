@@ -38,7 +38,6 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-tablet.html`
 - `s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-draft-tablet.html`
 - `s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-in-progress-tablet.html`
-- `s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-tablet.html`
 
 - `s-f12-32-kanban-e-f12-31-kanban-card-empty-tablet.html`
 - `s-f12-32-kanban-e-f12-31-kanban-card-full-tablet.html`

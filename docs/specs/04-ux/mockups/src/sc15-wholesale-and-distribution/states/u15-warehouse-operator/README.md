@@ -15,7 +15,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc15-08-waves-e-sc15-04-sales-order-shipped-phone.html`
 - `s-sc15-08-waves-e-sc15-05-pick-wave-active-phone.html`
 - `s-sc15-09-pallets-e-sc15-05-pick-wave-active-phone.html`
-- `s-sc15-09-pallets-e-sc15-14-pallet-active-phone.html`
+- `s-sc15-09-pallets-e-sc15-14-pallet-open-phone.html`
+- `s-sc15-09-pallets-e-sc15-14-pallet-closed-phone.html`
+- `s-sc15-09-pallets-e-sc15-14-pallet-loaded-phone.html`
 - `s-sc15-10-returns-e-sc15-07-return-authorisation-active-phone.html`
 
 - `s-sc15-04-edi-orders-e-sc15-04-sales-order-confirmed-tablet.html`
@@ -27,7 +29,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc15-08-waves-e-sc15-04-sales-order-shipped-tablet.html`
 - `s-sc15-08-waves-e-sc15-05-pick-wave-active-tablet.html`
 - `s-sc15-09-pallets-e-sc15-05-pick-wave-active-tablet.html`
-- `s-sc15-09-pallets-e-sc15-14-pallet-active-tablet.html`
+- `s-sc15-09-pallets-e-sc15-14-pallet-open-tablet.html`
+- `s-sc15-09-pallets-e-sc15-14-pallet-closed-tablet.html`
+- `s-sc15-09-pallets-e-sc15-14-pallet-loaded-tablet.html`
 - `s-sc15-10-returns-e-sc15-07-return-authorisation-active-tablet.html`
 
 ---

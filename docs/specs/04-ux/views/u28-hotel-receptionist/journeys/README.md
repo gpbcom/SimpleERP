@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U28-01 | [Welcome a guest](j-u28-01-welcome-a-guest.md) | 🔄 |
+| 🧭 | J-U28-01 | [Welcome a guest](j-u28-01-welcome-a-guest.md) | ✅ |
 
 ---
 

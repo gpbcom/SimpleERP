@@ -4,7 +4,7 @@
 
 # 🖥️ S-F13-29 Days-based contracts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

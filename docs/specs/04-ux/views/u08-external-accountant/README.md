@@ -45,10 +45,10 @@ Accounting, F15 Legal assistant, F23 What-if simulation and impact.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U08-01 | [Close the year with the client](journeys/j-u08-01-close-the-year-with-the-client.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U08-01 | [Close the year with the client](journeys/j-u08-01-close-the-year-with-the-client.md) | ✅ |
 
 ---
 

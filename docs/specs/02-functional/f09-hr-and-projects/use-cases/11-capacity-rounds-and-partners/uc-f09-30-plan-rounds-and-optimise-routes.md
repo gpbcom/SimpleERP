@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-30 Plan rounds and optimise routes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -131,7 +131,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Optimising 300 visits within 1 minute (Proposed).
+Optimising 300 visits within 1 minute.
 
 ## Regulatory references
 

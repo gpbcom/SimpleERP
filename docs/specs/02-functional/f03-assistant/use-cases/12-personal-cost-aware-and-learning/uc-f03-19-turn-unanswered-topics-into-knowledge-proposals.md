@@ -4,7 +4,7 @@
 
 # 📝 UC-F3-19 Turn unanswered topics into knowledge proposals
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -27,7 +27,7 @@ A topic reaches the threshold of unanswered questions.
 
 ## Frequency
 
-Weekly review by knowledge editors (Proposed).
+Weekly review by knowledge editors.
 
 ## Preconditions
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-14 Installation grants
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

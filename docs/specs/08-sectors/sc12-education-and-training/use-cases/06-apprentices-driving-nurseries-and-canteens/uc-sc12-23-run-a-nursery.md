@@ -4,13 +4,13 @@
 
 # 📝 UC-SC12-23 Run a nursery
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
 A nursery looks after children under the contract signed with their family. The hourly rate the family pays follows the
-scale of the family allowance fund, which depends on the family's income and its size; the fund pays the rest of the
-cost. The director books the places by hour, the parents see the hours and the invoice on the phone, and the nursery
+scale of the family allowance fund, which depends on the family's income and its size; the fund pays 66 % of the cost price,
+within a ceiling price, for the hours billed, minus the families' share, times the share of general-scheme families. The director books the places by hour, the parents see the hours and the invoice on the phone, and the nursery
 reports the hours to the fund.
 
 ## Personas
@@ -158,11 +158,12 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A nursery funded by the family allowance fund applies the fund's scale: the family pays an hourly rate that
 is a percentage of its monthly income, lower for larger families, within a floor and a ceiling, and the fund pays the
-nursery the rest of the cost for the hours done. The nursery reports the hours to the fund. The percentages, the floor
-and the ceiling are data of the France pack by date, written later. Related:
+nursery 66 % of the cost price, within a ceiling price, for the hours billed to families, minus the families' share,
+times the share of families in the general scheme. The nursery reports the hours to the fund. The percentages, the floor
+and the ceiling are data of the France pack by date. Related:
 [CR-FR-137](../../../../10-country-packs/france/health-practice/cr-fr-137-medical-secrecy.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-245 Nursery hourly funding (PSU)](../../../../10-country-packs/france/education/cr-fr-245-nursery-psu.md)
 
 ## Related use cases

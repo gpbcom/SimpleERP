@@ -23,11 +23,14 @@ approval.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+The 153 000 EUR threshold (Code de commerce D612-5) since 2007-03-27 ([Code de commerce, art. D612-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006268871), read 2026-11-27; the
+date read through a Légifrance search extract).
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc08-non-profit/regulatory.md)
+- [UC-SC08-21 Give grants as a foundation](../../../08-sectors/sc08-non-profit/use-cases/07-foundations-integration-and-federations/uc-sc08-21-give-grants-as-a-foundation.md)
+- [UC-SC08-23 Run a federation of member clubs](../../../08-sectors/sc08-non-profit/use-cases/07-foundations-integration-and-federations/uc-sc08-23-run-a-federation-of-member-clubs.md)
 
 ## When the law changes
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F1-23 Close a company and export all its data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -49,7 +49,7 @@ Once in a company's life.
    accounting FEC, and the audit trail
    ([BR-F1-31](../../business-rules/br-f01-31-exports-are-complete-and-in-open-formats.md)).
 4. The owner downloads it, checks the summary of counts, and confirms with two-factor.
-5. The company becomes read-only for 30 days (Proposed), then is closed; what the law requires is kept for its period
+5. The company becomes read-only for 30 days, then is closed; what the law requires is kept for its period
    ([BR-F1-30](../../business-rules/br-f01-30-a-closed-company-keeps-only-what-the-law-requires.md)).
 
 ## Alternative flows
@@ -82,7 +82,7 @@ The owner confirms; the administrator prepares; the IT provider administrator ar
 
 ## Notifications
 
-- Every user is told 7 days before the company becomes read-only (Proposed).
+- Every user is told 7 days before the company becomes read-only.
 - The owner is told when the export is ready.
 
 ## Audit events
@@ -135,7 +135,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-An export of 10 GB is prepared within 4 hours (Proposed).
+An export of 10 GB is prepared within 4 hours.
 
 ## Regulatory references
 

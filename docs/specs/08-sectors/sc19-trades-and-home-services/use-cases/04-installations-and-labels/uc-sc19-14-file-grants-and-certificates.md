@@ -144,7 +144,9 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Many renovation grants and energy-savings bonuses require the installer to hold a label that covers the work
 at the date of the quote's signature, and the request to be filed before the works. The grants, the label scopes and the
-delays are data of the France pack. Related:
+delays are data of the France pack: MaPrimeRénov' works are done by an RGE professional, who visits the site first and
+puts the visit date on the quote and the invoice. Related:
+[CR-FR-226 Renovation grants and the RGE label](../../../../10-country-packs/france/construction/cr-fr-226-renovation-grants-and-rge.md),
 [CR-FR-084](../../../../10-country-packs/france/tax-and-vat/cr-fr-084-renovation-reduced-vat.md). Same duty as
 [BR-SC01-19](../../../sc01-construction/business-rules/br-sc01-19-grants-need-the-rge-label-at-signature.md) for a
 builder.

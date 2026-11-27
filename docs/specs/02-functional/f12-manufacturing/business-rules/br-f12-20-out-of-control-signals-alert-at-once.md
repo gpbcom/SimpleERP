@@ -20,7 +20,7 @@ Drift caught early saves scrap.
 | Case | Result |
 |---|---|
 | 12.08 above 12.06 | Signal |
-| 12 measures | No limits yet (Proposed: 25) |
+| 12 measures | No limits yet (default: 25) |
 
 ## Applies to
 

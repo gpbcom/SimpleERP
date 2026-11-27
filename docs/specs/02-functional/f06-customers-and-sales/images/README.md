@@ -22,4 +22,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F6-09 Sell on the road and steer sales](09-sell-on-the-road-and-steer-sales/README.md) | 26 images |
 | 🖼️ |  | [Images: FL-F6-10 Partners, frame contracts and warranties](10-partners-contracts-and-warranties/README.md) | 42 images |
 | 🖼️ |  | [Screen states](states/README.md) | 184 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

@@ -25,7 +25,7 @@ Review.
 
 ## Frequency
 
-Quarterly.
+Quarterly by default; the company may make the review more frequent ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Preconditions
 
@@ -45,6 +45,7 @@ Quarterly.
 
 ## Alternative flows
 
+- 1a. The company has set a review period shorter than the default quarter: the review follows that period.
 - 3a. Budget in F22.
 
 ## Error flows

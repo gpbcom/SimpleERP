@@ -3,7 +3,7 @@
 
 # 🗃️ E-F1-17 Portal account
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -40,7 +40,7 @@ By email, record and status.
 
 ## Retention
 
-Deactivated accounts deleted after 1 year (Proposed).
+Deactivated accounts deleted after 1 year.
 
 ## Audit
 

@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC06-18 Groups and seminars
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

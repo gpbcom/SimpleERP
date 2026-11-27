@@ -3,23 +3,27 @@
 
 # ⚖️ CR-FR-191 Marketplace information to buyers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A marketplace tells buyers how offers are ranked, who the seller is and how reviews are checked.
+A marketplace tells buyers how offers are ranked, who the seller is and how reviews are checked ([Code de la consommation, art. L111-7](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049571125), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Mentions to read.
+- Clear, fair and transparent information on the terms of the service and on how offers are ranked.
+- Any contractual relationship, capital link or payment that influences the ranking.
+- Whether the advertiser is a professional, and the parties' civil and tax rights and obligations.
+- A space where sellers give the information of L221-5 and L221-6
+  ([Code de la consommation, art. L111-7 II](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049571125), read 2026-11-27).
 
 ## Legal references
 
-- Code de la consommation L111-7 (not read yet).
+- [Code de la consommation](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049571125) art. L111-7; L111-7-2 for reviews.
 
 ## Effective dates
 
-(Proposed) To read.
+L111-7 in its current version in force since 2024-02-17 (loi n° 2024-449) ([Code de la consommation, art. L111-7](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049571125), read 2026-11-27).
 
 ## Enforced by
 
@@ -32,7 +36,7 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Administrative fine up to 75 000 EUR (natural person) or 375 000 EUR (legal person) for breaches of L111-7 and L111-7-2 ([Code de la consommation, art. L131-4](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221077/), read 2026-11-27).
 
 ## Exceptions
 

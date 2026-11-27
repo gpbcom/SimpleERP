@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC10-22 Commercial leases
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

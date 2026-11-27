@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC12-21 | [Apprentice training centre](s-sc12-21-cfa.md) | 🔄 |
-| 🖥️ | S-SC12-22 | [Driving school](s-sc12-22-driving-school.md) | 🔄 |
-| 🖥️ | S-SC12-23 | [Nursery](s-sc12-23-nursery.md) | 🔄 |
-| 🖥️ | S-SC12-24 | [Canteen and activities](s-sc12-24-canteen.md) | 🔄 |
+| 🖥️ | S-SC12-21 | [Apprentice training centre](s-sc12-21-cfa.md) | ✅ |
+| 🖥️ | S-SC12-22 | [Driving school](s-sc12-22-driving-school.md) | ✅ |
+| 🖥️ | S-SC12-23 | [Nursery](s-sc12-23-nursery.md) | ✅ |
+| 🖥️ | S-SC12-24 | [Canteen and activities](s-sc12-24-canteen.md) | ✅ |

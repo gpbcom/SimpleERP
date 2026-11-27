@@ -4,7 +4,7 @@
 
 # 🧭 J-U12-01 Publish on every network
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Persona
 
@@ -16,8 +16,8 @@ Publish consistent posts on every network from one place and know what works.
 
 ## Journey
 
-Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are a proposal (Proposed), drawn from the
-specs, for the owner to confirm.
+Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are drawn from the
+specs and confirmed by the owner (D572).
 
 ```mermaid
 journey

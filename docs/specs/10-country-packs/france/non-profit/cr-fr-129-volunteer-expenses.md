@@ -24,7 +24,7 @@ employees' scale; a volunteer who waives repayment makes a gift and gets a tax r
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CGI art. 200 (the waiver as a gift) in its current version since 2026-02-21 ([CGI, art. 200](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051200406), read 2026-11-27).
 
 ## Enforced by
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F15-09 Approve the accounts and keep the company registers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -55,7 +55,8 @@ Yearly, plus each change of beneficial owners.
 ## Error flows
 
 - 1e. The accounts are not ready by the due date: the duty turns overdue and the AI assistant explains the extension
-  request as (Proposed) to read.
+  request to the court that
+  [CR-FR-221](../../../../10-country-packs/france/company/cr-fr-221-general-meetings.md) reads.
 - 4e. Minutes not signed: the decision stays "held" and is not numbered.
 - Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
   (D122) and what was typed stays on the screen.
@@ -76,7 +77,7 @@ Owner: holds and signs. External accountant: prepares and files for client compa
 
 ## Notifications
 
-- The owner and the external accountant at the year close and (Proposed) 30 days before the due date.
+- The owner and the external accountant at the year close and 30 days before the due date.
 
 ## Audit events
 
@@ -129,8 +130,12 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 ## Regulatory references
 
-Approval of accounts, registers and beneficial owners: (Proposed) to read for the France pack (Code de commerce L223-26,
-L225-100, L561-46). Identifiers:
+Approval of accounts within six months of the close (SARL):
+[CR-FR-221 Shareholders' general meetings](../../../../10-country-packs/france/company/cr-fr-221-general-meetings.md). Minutes: an SARL's
+give the date, place, chair, partners present and shares, documents, debate, resolutions and votes, signed by the
+managers and the chair (R223-24), an SA's are kept on a special register at the registered office (R225-106), and the
+accounts are filed within one month of approval, two months online (L232-22), as CR-FR-221 states. Beneficial owners:
+(⚖️ lawyer review before launch, D574) to read for the France pack: Code monétaire et financier L561-46. Identifiers:
 [CR-FR-001 Company identifiers](../../../../10-country-packs/france/company/cr-fr-001-company-identifiers.md).
 
 ## Related use cases

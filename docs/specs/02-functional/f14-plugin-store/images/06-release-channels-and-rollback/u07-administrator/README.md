@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F14-06 Release channels and rollback
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F14-06 Release channels and rollback](../../../flows/fl-f14-06-release-channels-and-rollback.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

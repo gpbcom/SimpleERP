@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -40,7 +40,7 @@ One file per rule.
 | 📏 | BR-F4-27 | [Accuracy is measured on reviewers' corrections](br-f04-27-accuracy-is-measured-on-reviewers-corrections.md) | ✅ |
 | 📏 | BR-F4-28 | [A client video link works for one meeting](br-f04-28-a-client-video-link-works-for-one-meeting.md) | ✅ |
 | 📏 | BR-F4-29 | [Customers see only the actions sent to them](br-f04-29-customers-see-only-the-actions-sent-to-them.md) | ✅ |
-| 📏 | BR-F4-30 | [Actions and tasks stay in step](br-f04-30-actions-and-tasks-stay-in-step.md) | 🔄 |
+| 📏 | BR-F4-30 | [Actions and tasks stay in step](br-f04-30-actions-and-tasks-stay-in-step.md) | ✅ |
 
 Pages: **1** · [2](page-2.md)
 

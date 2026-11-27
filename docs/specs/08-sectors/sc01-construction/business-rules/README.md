@@ -2,7 +2,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -25,10 +25,10 @@ One file per rule.
 | 📏 | BR-SC01-13 | [Consumer works signed off premises](br-sc01-13-consumer-works-off-premises.md) | ✅ |
 | 📏 | BR-SC01-14 | [Margin at completion](br-sc01-14-margin-at-completion.md) | ✅ |
 | 📏 | BR-SC01-15 | [Leave through the fund](br-sc01-15-leave-through-the-fund.md) | ✅ |
-| 📏 | BR-SC01-16 | [Revisions use the index of the contract's month](br-sc01-16-revisions-use-the-index-of-the-contracts-month.md) | 🔄 |
-| 📏 | BR-SC01-17 | [Calls for funds follow the legal stage caps](br-sc01-17-calls-for-funds-follow-the-legal-stage-caps.md) | 🔄 |
-| 📏 | BR-SC01-18 | [Quantities keep a link to the model version](br-sc01-18-quantities-keep-a-link-to-the-model-version.md) | 🔄 |
-| 📏 | BR-SC01-19 | [Grants need the RGE label at signature](br-sc01-19-grants-need-the-rge-label-at-signature.md) | 🔄 |
+| 📏 | BR-SC01-16 | [Revisions use the index of the contract's month](br-sc01-16-revisions-use-the-index-of-the-contracts-month.md) | ✅ |
+| 📏 | BR-SC01-17 | [Calls for funds follow the legal stage caps](br-sc01-17-calls-for-funds-follow-the-legal-stage-caps.md) | ✅ |
+| 📏 | BR-SC01-18 | [Quantities keep a link to the model version](br-sc01-18-quantities-keep-a-link-to-the-model-version.md) | ✅ |
+| 📏 | BR-SC01-19 | [Grants need the RGE label at signature](br-sc01-19-grants-need-the-rge-label-at-signature.md) | ✅ |
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F25-32 Hand over a worker's result
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -103,7 +103,7 @@ Once per worker, and again after each repair cycle ([UC-F25-35](uc-f25-35-repair
 ## Permissions
 
 A worker writes its own handoff only, and the handoff check accepts or refuses it. Maintainers read every handoff and
-decide on the blocked ones. Nobody edits a handoff once it is Accepted. (Proposed) Hosting engineers read the handoffs
+decide on the blocked ones. Nobody edits a handoff once it is Accepted. Hosting engineers read the handoffs
 of the runs they watch.
 
 ## Notifications
@@ -124,7 +124,7 @@ summarise the blockers for the maintainer.
 
 ## API, MCP and A2A exposure
 
-(Proposed) Handoffs are read through the operations of the DevOps agents with the maintainer's role and attached to the
+Handoffs are read through the operations of the DevOps agents with the maintainer's role and attached to the
 run as a file. An agent token may submit its own handoff and nothing else. No A2A skill.
 
 ## Screens
@@ -165,7 +165,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-(Proposed) The screen answers within 2 seconds for 10,000 records; every change is audited.
+The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 

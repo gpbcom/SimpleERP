@@ -12,5 +12,5 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F12-23 | [Schedule with finite capacity](uc-f12-23-schedule-with-finite-capacity.md) | 🔄 |
-| 📝 | UC-F12-26 | [Keep working on the tablet without the network](uc-f12-26-keep-working-on-the-tablet-without-the-network.md) | 🔄 |
+| 📝 | UC-F12-23 | [Schedule with finite capacity](uc-f12-23-schedule-with-finite-capacity.md) | ✅ |
+| 📝 | UC-F12-26 | [Keep working on the tablet without the network](uc-f12-26-keep-working-on-the-tablet-without-the-network.md) | ✅ |

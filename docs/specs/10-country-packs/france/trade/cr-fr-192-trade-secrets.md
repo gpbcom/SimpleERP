@@ -24,7 +24,7 @@ any registration; it gives no exclusive right, so a competitor who reaches the s
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-12, the date of this specification.
+Code de commerce L151-1 in force since 2018-08-01 (loi n° 2018-670) ([Code de commerce, art. L151-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037266553), read 2026-11-27).
 
 ## Enforced by
 

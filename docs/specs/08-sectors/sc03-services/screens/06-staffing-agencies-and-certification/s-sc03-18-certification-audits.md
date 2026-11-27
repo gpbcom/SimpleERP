@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC03-18 Certification audits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -31,6 +31,7 @@ Services › Certificates; the engagement's Audits tab; the AI assistant.
 | Initial            2026-01-12   Sophie V.      Positive, 2 minor findings                        |
 | Surveillance 1     2027-01-31   to plan        Due in 78 days                                    |
 | Surveillance 2     2028-01-31   not yet        -                                                 |
+| Programme     with surveillance: one audit each year (always when the product carries a mark)    |
 | Impartiality  checked 2026-01-05, no advice given to the client                                  |
 +--------------------------------------------------------------------------------------------------+
 ```
@@ -53,7 +54,8 @@ Services › Certificates; the engagement's Audits tab; the AI assistant.
 | Client and standard | E-SC03-19 client, standard | link and text | no | yes |
 | Scope | E-SC03-19 scope | text | yes while Pending | yes |
 | Issue and validity | E-SC03-19 issued on, valid to | two dates | no | no |
-| Surveillance dates | E-SC03-19 surveillance dates | dates | no | no |
+| Programme | E-SC03-19 surveillance dates | with surveillance, one audit each year (always when the product carries a mark), or without surveillance, reviewed when the certified object or the requirements change (BR-SC03-18) | no | yes |
+| Surveillance dates | E-SC03-19 surveillance dates | dates, none for a programme without surveillance | no | no |
 | Audits | E-SC03-19 audits | date, auditor, result | yes while Pending or Issued | no |
 | Impartiality check | E-SC03-19 impartiality | text and date | no | yes |
 

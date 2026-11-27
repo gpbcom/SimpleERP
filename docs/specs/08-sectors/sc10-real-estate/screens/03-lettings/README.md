@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC10-07 | [Letting](s-sc10-07-letting.md) | 🔄 |
-| 🖥️ | S-SC10-10 | [Deposits](s-sc10-10-deposits.md) | 🔄 |
-| 🖥️ | S-SC10-13 | [Diagnostics](s-sc10-13-diagnostics.md) | 🔄 |
+| 🖥️ | S-SC10-07 | [Letting](s-sc10-07-letting.md) | ✅ |
+| 🖥️ | S-SC10-10 | [Deposits](s-sc10-10-deposits.md) | ✅ |
+| 🖥️ | S-SC10-13 | [Diagnostics](s-sc10-13-diagnostics.md) | ✅ |

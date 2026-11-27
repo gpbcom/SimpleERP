@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found that industry
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found that industry
 packages cover beauty and wellness salons, and that the specifications had no sector for them (G14). The owner confirmed
 the new sector in the block-by-block interview with the answer "Beauty and wellness", then answered the sector
 interview: the extra areas G191 "Loyalty and referrals, Client file with photos, Regulated care records, Chair and cabin
@@ -83,7 +83,7 @@ France-pack rule is written; no article is quoted.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC17 Beauty and wellness
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC17 Beauty and wellness
 (new)").
 
 ## Consequences
@@ -233,6 +233,9 @@ The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
   [E-F10-10](../../02-functional/f10-point-of-sale/data/e-f10-10-loyalty-card-and-gift-card.md),
   [E-SC17-09](../../08-sectors/sc17-beauty-and-wellness/data/e-sc17-09-commission-plan.md) to
   [E-F6-18](../../02-functional/f06-customers-and-sales/data/e-f06-18-commission-plan-and-target.md).
+- The legal reading of 2026-11-27: tips and service charges go in full to the staff in contact with customers
+  (Code du travail L3244-1); the posted rule of G14 shares them among those staff only
+  ([CR-FR-113](../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md)).
 
 ## Related
 

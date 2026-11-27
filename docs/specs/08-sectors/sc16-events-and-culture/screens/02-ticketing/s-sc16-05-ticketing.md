@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC16-05 Ticketing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -32,6 +32,7 @@ See the images in the flow page (D120).
 | Empty | desktop | ![Empty, light](../../images/states/s-sc16-05-ticketing-empty-desktop-light.png) | ![Empty, dark](../../images/states/s-sc16-05-ticketing-empty-desktop-dark.png) |
 | Loading | desktop | ![Loading, light](../../images/states/s-sc16-05-ticketing-loading-desktop-light.png) | ![Loading, dark](../../images/states/s-sc16-05-ticketing-loading-desktop-dark.png) |
 | Read-only | desktop | ![Read-only, light](../../images/states/s-sc16-05-ticketing-read-only-desktop-light.png) | ![Read-only, dark](../../images/states/s-sc16-05-ticketing-read-only-desktop-dark.png) |
+| Sales closed (cinema without CNC approval) | phone | ![Sales closed, light](../../images/states/s-sc16-05-ticketing-sales-closed-phone-light.png) | ![Sales closed, dark](../../images/states/s-sc16-05-ticketing-sales-closed-phone-dark.png) |
 | Offline | phone | ![Offline, light](../../images/states/s-sc16-05-ticketing-offline-phone-light.png) | ![Offline, dark](../../images/states/s-sc16-05-ticketing-offline-phone-dark.png) |
 
 ## Fields and columns
@@ -62,6 +63,11 @@ pages list them, with their examples.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)) says what failed
   and what to do; what was typed is kept. For example, a seat taken meanwhile: it is refused.
 - Read-only: a past show is read-only.
+- Sales closed: a cinema whose CNC approval number of its ticketing system or delivery and installation declaration
+  date is not recorded sells no ticket online or at the box office; the buyer reads that sales are closed for now, and
+  the owner sees what is missing on the cinema screen
+  ([BR-SC16-17](../../business-rules/br-sc16-17-box-office-figures-are-reported-to-the-cnc.md),
+  [D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md) point 13).
 - Offline: not available offline: seats are held live across channels.
 
 Shown entities (VD-15):
@@ -82,7 +88,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

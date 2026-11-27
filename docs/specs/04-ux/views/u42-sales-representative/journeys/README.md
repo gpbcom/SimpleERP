@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U42-01 | [Visit customers and take orders](j-u42-01-visit-and-take-orders.md) | 🔄 |
+| 🧭 | J-U42-01 | [Visit customers and take orders](j-u42-01-visit-and-take-orders.md) | ✅ |
 
 ---
 

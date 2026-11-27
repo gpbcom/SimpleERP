@@ -7,11 +7,15 @@
 
 ## Statement
 
-Each employee has a professional interview every two years and a review every six years.
+Each employee has a career-path interview at
+most every four years and a review every eight years ([Code du travail, art. L6315-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053279288),
+read 2026-11-27).
 
 ## Values
 
-- Every 2 years; a 6-year review checks training and progress.
+- A career-path interview (entretien de parcours
+  professionnel) in the first year after hiring, then at most every 4 years; every 8 years a review checks the
+  interviews, the training and the progress, the first one possibly 7 years after the first interview ([Code du travail, art. L6315-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053279288), read 2026-11-27).
 - Reminders 3 months before (SimpleERP).
 
 ## Legal references
@@ -20,7 +24,9 @@ Each employee has a professional interview every two years and a review every si
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2025-12-31: L6315-1 as amended by Loi n° 2025-1403 of 30 December 2025; until 2025-12-30,
+the former version of L6315-1 applied (the professional interview, not re-read here); company and branch agreements
+in force on 2026-10-01 follow the new interview frequency from that date ([Code du travail, art. L6315-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053279288), read 2026-11-27).
 
 ## Enforced by
 
@@ -35,7 +41,9 @@ in a pack update (D294).
 
 ## Penalty
 
-Companies of 50 or more: a training top-up to the employee's account when the 6-year review fails.
+Companies of 50 or more: the
+employee's training account is topped up (L6323-13) when, over the 8 years, the employee had no interview and no
+training other than the mandatory one ([Code du travail, art. L6315-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053279288), read 2026-11-27).
 
 ## Exceptions
 

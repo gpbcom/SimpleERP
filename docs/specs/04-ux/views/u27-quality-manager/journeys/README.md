@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U27-01 | [Pass the certification audit](j-u27-01-pass-the-certification-audit.md) | 🔄 |
+| 🧭 | J-U27-01 | [Pass the certification audit](j-u27-01-pass-the-certification-audit.md) | ✅ |
 
 ---
 

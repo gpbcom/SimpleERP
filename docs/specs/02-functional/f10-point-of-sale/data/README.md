@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -29,9 +29,9 @@ One file per entity.
 | 🗃️ | E-F10-16 | [Age check](e-f10-16-age-check.md) | ✅ |
 | 🗃️ | E-F10-17 | [Cash movement](e-f10-17-cash-movement.md) | ✅ |
 | 🗃️ | E-F10-18 | [Card settlement](e-f10-18-card-settlement.md) | ✅ |
-| 🗃️ | E-F10-19 | [Clienteling profile](e-f10-19-clienteling-profile.md) | 🔄 |
-| 🗃️ | E-F10-20 | [Tax-free form](e-f10-20-tax-free-form.md) | 🔄 |
-| 🗃️ | E-F10-21 | [Table QR code](e-f10-21-table-qr-code.md) | 🔄 |
+| 🗃️ | E-F10-19 | [Clienteling profile](e-f10-19-clienteling-profile.md) | ✅ |
+| 🗃️ | E-F10-20 | [Tax-free form](e-f10-20-tax-free-form.md) | ✅ |
+| 🗃️ | E-F10-21 | [Table QR code](e-f10-21-table-qr-code.md) | ✅ |
 | 🗃️ | E-F10-22 | [Takeaway order](e-f10-22-takeaway-order.md) | ✅ |
 | 🗃️ | E-F10-23 | [Shelf label](e-f10-23-shelf-label.md) | ✅ |
 | 🗃️ | E-F10-24 | [Layaway](e-f10-24-layaway.md) | ✅ |

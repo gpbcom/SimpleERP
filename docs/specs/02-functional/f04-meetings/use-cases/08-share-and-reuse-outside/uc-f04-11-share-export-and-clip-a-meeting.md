@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-11 Share, export and clip a meeting
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -44,7 +44,7 @@ F4 set up (UC-F4-08).
 3. Share: a link for colleagues allowed by
    [BR-F4-04](../../business-rules/br-f04-04-transcripts-stay-with-participants.md), or a recap posted to a Slack or
    Teams channel ([BR-F4-22](../../business-rules/br-f04-22-only-chosen-content-leaves.md)).
-4. They mark key moments and share a clip of up to 2 minutes (Proposed), or the chapters.
+4. They mark key moments and share a clip of up to 2 minutes, or the chapters.
 
 ## Alternative flows
 
@@ -120,7 +120,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Export within 30 seconds (Proposed).
+Export within 30 seconds.
 
 ## Regulatory references
 

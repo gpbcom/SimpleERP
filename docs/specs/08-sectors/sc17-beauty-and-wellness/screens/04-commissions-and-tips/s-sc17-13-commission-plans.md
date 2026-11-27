@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-13 Commission plans
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-05 Service levels per priority
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -20,8 +20,8 @@ Customers and contracts need response times (D473); SC14 support contracts promi
 
 | Case | Result |
 |---|---|
-| Normal priority, first response target 4 business hours (Proposed) | request at 10:00 Monday answered 13:30 | met |
-| Urgent priority, resolution 8 business hours (Proposed) | resolved next day 15:00 | breached, lead told |
+| Normal priority, first response target 4 business hours | request at 10:00 Monday answered 13:30 | met |
+| Urgent priority, resolution 8 business hours | resolved next day 15:00 | breached, lead told |
 | Request waiting for the customer | clock paused | met |
 
 ## Applies to

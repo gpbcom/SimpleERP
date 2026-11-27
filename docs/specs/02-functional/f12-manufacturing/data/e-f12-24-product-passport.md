@@ -3,7 +3,7 @@
 
 # 🗃️ E-F12-24 Product passport
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -39,7 +39,8 @@ By product.
 
 ## Retention
 
-As the law sets (Proposed) to read.
+As the law sets (⚖️ lawyer review before launch, D574) to read: Regulation (EU) 2024/1781 (ESPR) and the delegated act of each
+product group, which set how long a passport stays available.
 
 ## Audit
 

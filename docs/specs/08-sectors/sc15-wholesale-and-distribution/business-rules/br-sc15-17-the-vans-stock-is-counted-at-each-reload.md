@@ -15,8 +15,8 @@ again.
 
 A van that leaves again with an unexplained difference hides losses, and a stock figure that is not counted drifts. The
 owner asked for van sales
-([D559](../../../06-decisions/sectors/d559-benchmark-gaps-sc15-wholesale-and-distribution.md)). The
-France-pack rule is written later.
+([D559](../../../06-decisions/sectors/d559-benchmark-gaps-sc15-wholesale-and-distribution.md)). No
+France-pack rule sets this count: it is the company's own stock control.
 
 ## Examples
 

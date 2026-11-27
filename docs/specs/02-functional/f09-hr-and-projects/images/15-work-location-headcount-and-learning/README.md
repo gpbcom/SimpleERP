@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F9-15 Work location, headcount, careers and learning
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

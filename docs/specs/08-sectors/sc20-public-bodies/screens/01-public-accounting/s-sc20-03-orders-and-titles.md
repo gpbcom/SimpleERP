@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-03 Orders and titles
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

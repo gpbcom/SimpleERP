@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-05 Tender file
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

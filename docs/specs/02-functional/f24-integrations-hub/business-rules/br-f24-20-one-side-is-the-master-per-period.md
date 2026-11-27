@@ -3,7 +3,7 @@
 
 # 📏 BR-F24-20 One side is the master per period
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

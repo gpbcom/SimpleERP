@@ -12,7 +12,10 @@
 
 ## Purpose
 
-Send SMS campaigns.
+Send SMS campaigns within the sending window: by default 8:00 to 20:00, never on Sundays or public holidays, a
+product default held in the country pack from the SMS operators' code of conduct (AF2M), which the company may narrow
+([UC-F5-09](../../use-cases/05-benchmark-additions/uc-f05-09-send-sms-campaigns.md),
+[D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Entry points
 
@@ -35,7 +38,12 @@ See the images in the flow page (D120).
 
 ## Fields and columns
 
-As its entities.
+As its entities, with:
+
+| Label | Data | Format | Editable | Required |
+|---|---|---|---|---|
+| Send at | E-F5-05 send at | date and time, inside the sending window for an SMS | yes while Draft | yes, to be Scheduled |
+| Sending window | the company's window, the country pack's by default | 8:00 to 20:00, no Sundays or public holidays, or narrower | no | yes |
 
 ## Actions
 
@@ -47,7 +55,8 @@ As its use case's main flow.
 - Empty: No SMS campaign yet, with New campaign.
 - Loading: skeleton rows in place of the list ([C-03](../../../../04-ux/design-system/components/c-03-data-table.md));
   actions are disabled until it has loaded.
-- Error: the error message pattern (D122).
+- Error: the error message pattern (D122); a send or a schedule outside the sending window is refused and the next
+  time inside it is offered (UC-F5-09 4f): a Sunday at 10:00 offers Monday at 8:00.
 - Read-only: for users without the marketing right; published items.
 - Offline: Not available offline: a back-office screen on live, shared data (D38: only today's schedule, time and
   intervention records work offline). The app shows that it is offline and reloads the screen when the network is back.

@@ -18,7 +18,7 @@ Provisions must be justified to be deductible.
 
 | Case | Result |
 |---|---|
-| 200 days overdue | 50 % proposed (Proposed rates) |
+| 200 days overdue | 50 % proposed (default rates) |
 | Paid later | Reversed |
 
 ## Applies to
@@ -31,7 +31,7 @@ None.
 
 ## Configurable
 
-Rates by age (Proposed: 50 % beyond 180 days).
+Rates by age (default: 50 % beyond 180 days).
 
 ## Open questions
 

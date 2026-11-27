@@ -7,12 +7,15 @@
 
 ## Statement
 
-(Proposed) Each ticket category carries its VAT rate; in France:
+Each ticket category carries its VAT rate; in France:
 [CR-FR-181 VAT on tickets](../../../10-country-packs/france/tax-and-vat/cr-fr-181-ticket-vat-rates.md).
 
 ## Why
 
-(Proposed) The rates are still to read.
+Live shows bear 5.5 %, or 2.1 % for the first 140 paid performances of a new creation or staging; museums and
+monuments of public or non-profit bodies are exempt and other cultural sites bear 10 %; zoos bear 5.5 % (CR-FR-181).
+The rates are those of CGI art. 278-0 bis, 279 and 281 quater until 2026-12-31, and of the CIBS rate articles
+(L213-150 to L213-264) from 2027-01-01, at the same levels.
 
 ## Examples
 

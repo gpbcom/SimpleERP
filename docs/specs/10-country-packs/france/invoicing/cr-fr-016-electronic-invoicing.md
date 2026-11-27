@@ -24,7 +24,13 @@ receives them from 1 September 2026 and issues them from its size's date.
 
 ## Effective dates
 
-2026-09-01 and 2027-09-01, by company size.
+2026-09-01 and 2027-09-01, by company size. Until 2026-12-31, CGI art. 289 bis applies; from 2027-01-01, the Code des impositions sur les biens et services, Book II, the invoices (L216-33 to L216-46) and the reliability of tax data (L216-47 to L216-56),
+in force on that date ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 49](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054587047) as amended by Ordonnance n° 2026-671, read 2026-11-27); on invoices,
+contracts and acts that produce effects until 2028-06-30 (art. 46 II as
+amended by Ordonnance n° 2026-671, [BOFiP, BOI-RES-TVA-000253 of 2026-10-07](https://bofip.impots.gouv.fr/bofip/14901-PGP.html/identifiant=BOI-RES-TVA-000253-20261007), read 2026-11-27), a reference to the CGI is read as one to the CIBS
+article that takes it over ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 46](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053091753), read 2026-11-27).
+From 2027-01-01 the CGI rules on the invoice format and its electronic transmission (art. 289 bis) stay
+applicable until the regulatory part of the CIBS takes them over ([BOFiP, BOI-RES-TVA-000253 of 2026-10-07](https://bofip.impots.gouv.fr/bofip/14901-PGP.html/identifiant=BOI-RES-TVA-000253-20261007), 2.3 and 3.1, read 2026-11-27).
 
 ## Enforced by
 
@@ -43,7 +49,10 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+50 EUR per invoice not issued electronically, at most 15 000 EUR a calendar year, for invoices issued from
+2026-09-01; not applied to a first breach corrected within 30 days (CGI 1737 III, V) ([CGI, art. 1737](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053546686), read 2026-11-27).
+From 2027-01-01, the same fines, the e-invoicing duties now in the Code des impositions sur les
+biens et services ([CGI, art. 1737, version of 2027-01-01](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053546686/2027-01-02), read 2026-11-27).
 
 ## Exceptions
 

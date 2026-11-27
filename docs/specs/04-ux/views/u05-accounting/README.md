@@ -49,10 +49,10 @@ Wholesale and distribution, SC16 Events and culture.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U05-01 | [Close the month](journeys/j-u05-01-close-the-month.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U05-01 | [Close the month](journeys/j-u05-01-close-the-month.md) | ✅ |
 
 ---
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC01-18 Quantities keep a link to the model version
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

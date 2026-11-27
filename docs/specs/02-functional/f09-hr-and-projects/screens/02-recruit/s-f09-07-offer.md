@@ -59,7 +59,10 @@ Entity states shown (VD-15):
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
 | E-F9-07 Applicant | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U06 | `u06-hr/s-f09-07-offer-e-f09-07-applicant-active-desktop-{light,dark}.png` |
-| E-F9-38 Job offer | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U06 | `u06-hr/s-f09-07-offer-e-f09-38-job-offer-active-desktop-{light,dark}.png` |
+| E-F9-38 Job offer | Sent | Badge "Sent"; a new record starts here; next: Signed or Refused (UC-F9-07); fields editable within the role | U06 | `u06-hr/s-f09-07-offer-e-f09-38-job-offer-sent-desktop-{light,dark}.png` |
+| E-F9-38 Job offer | Signed | Badge "Signed"; next: Hired (UC-F9-07); fields editable within the role | U06 | `u06-hr/s-f09-07-offer-e-f09-38-job-offer-signed-desktop-{light,dark}.png` |
+| E-F9-38 Job offer | Refused | Badge "Refused"; final: read-only, no next state; the history shows how it got here | U06 | `u06-hr/s-f09-07-offer-e-f09-38-job-offer-refused-desktop-{light,dark}.png` |
+| E-F9-38 Job offer | Hired | Badge "Hired"; final: read-only, no next state; the history shows how it got here | U06 | `u06-hr/s-f09-07-offer-e-f09-38-job-offer-hired-desktop-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

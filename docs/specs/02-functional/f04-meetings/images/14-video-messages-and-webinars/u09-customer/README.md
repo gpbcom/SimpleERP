@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F4-14 Video messages, webinars and templates
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F4-14 Video messages, webinars and templates](../../../flows/fl-f04-14-video-messages-and-webinars.md) for
 this persona, in light and dark mode (D120, D121). Errors follow the

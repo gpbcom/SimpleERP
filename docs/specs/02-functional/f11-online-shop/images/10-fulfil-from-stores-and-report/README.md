@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F11-10 Fulfil from stores and report
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

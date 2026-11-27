@@ -37,7 +37,11 @@ See the images in the flow page (D120).
 
 ## Fields and columns
 
-As its entities.
+As its entities, with:
+
+| Label | Data | Format | Editable | Required |
+|---|---|---|---|---|
+| Send at | E-F5-05 send at | date and time; an email has no sending window | yes while Draft | yes, to be Scheduled |
 
 ## Actions
 

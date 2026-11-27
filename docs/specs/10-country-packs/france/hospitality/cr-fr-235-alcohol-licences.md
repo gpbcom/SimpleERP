@@ -3,21 +3,27 @@
 
 # ⚖️ CR-FR-235 Alcohol licences and opening hours
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) A place selling alcohol holds the licence of its category, declared at the town hall before opening, and the
-person who runs it holds an operating permit. The mayor or the prefect may set the hours of service and ban sales near
-certain places. Serving a minor is an offence. See also [CR-FR-109](cr-fr-109-alcohol-licences.md), which this rule
+A place selling alcohol holds the licence of its category, declared at the town hall at least 15 days before opening,
+and the person who runs it holds an operating permit; the prefect sets protected zones around health, youth and sports
+establishments, and the mayor may ban takeaway alcohol sales in a time slot between 20:00 and 08:00
+([Code de la santé publique, art. L3331-1, L3331-2, L3332-1-1, L3332-3, L3332-13, L3335-1](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006155036), read 2026-11-27).
+Selling alcohol to minors is forbidden and the server asks for proof of age ([Code de la santé publique, art. L3342-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031927682), read 2026-11-27).
+(⚖️ lawyer review before launch, D574) General hours of service set by the prefect: not in the title read. See also [CR-FR-109](cr-fr-109-alcohol-licences.md), which this rule
 completes with the hours and the permit.
 
 ## Values
 
-- (Proposed) Licence category and declaration before opening.
-- (Proposed) Operating permit obtained by a training course and renewed by a shorter one.
-- (Proposed) Hours and banned zones set by the authority.
-- (Proposed) SimpleERP enforces: alcohol is served within the licence's category and hours.
+- Licence category (3rd or 4th, small or full restaurant licence) and a declaration at least 15 days before opening
+  (L3331-1, L3331-2, L3332-3) ([CSP](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006155036), read 2026-11-27).
+- Operating permit after a mandatory training, valid 10 years, extended 10 years by a refresher course (L3332-1-1)
+  ([CSP](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006155036), read 2026-11-27).
+- Protected zones set by the prefect (L3335-1); a takeaway ban slot set by the mayor (L3332-13) ([CSP](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006155036), read 2026-11-27);
+  (⚖️ lawyer review before launch, D574) general hours, set locally, not read.
+- SimpleERP enforces: alcohol is served within the licence's category and hours.
 - Read on [Service-public F22379](https://entreprendre.service-public.gouv.fr/vosdroits/F22379) (verification date and
   article numbers not captured; read again before coding the dates); general bar closing hours are set locally by the
   prefect and are not on the page:
@@ -39,7 +45,8 @@ completes with the hours and the permit.
 
 ## Effective dates
 
-(Proposed) To read.
+L3331-1 and L3331-2 since 2016-01-01; L3332-3 since 2019-03-25; L3332-1-1 since 2020-01-30; L3332-13 and
+L3335-1 since 2019-12-29 ([Code de la santé publique, title III Débits de boissons](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006155036), read 2026-11-27).
 
 ## Enforced by
 
@@ -53,15 +60,18 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Opening without the declaration: 3 750 EUR fine (L3352-3); a 3rd or 4th category outlet outside the legal
+conditions: 3 750 EUR and closure (L3352-2); selling alcohol to minors: 7 500 EUR fine (L3353-3)
+([Code de la santé publique, art. L3351-1 to L3355-8](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006155038/), read 2026-11-27).
 
 ## Exceptions
 
-(Proposed) Temporary bars of associations have their own authorisation.
+Temporary bars of associations have their own authorisation: the mayor's, five a year, groups one and three only
+([Code de la santé publique, art. L3334-2](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006155036), read 2026-11-27).
 
 ## Open questions
 
-The law on alcohol licences and hours is not read yet; the values are to read before launch.
+The general hours of service, set locally, are on the lawyer's list.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

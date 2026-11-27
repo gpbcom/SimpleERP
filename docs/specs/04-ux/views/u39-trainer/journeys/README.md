@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U39-01 | [Teach a session](j-u39-01-teach-a-session.md) | 🔄 |
+| 🧭 | J-U39-01 | [Teach a session](j-u39-01-teach-a-session.md) | ✅ |
 
 ---
 

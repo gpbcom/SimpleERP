@@ -19,7 +19,7 @@ A full physical count of stock is made at least once per fiscal year.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2000-09-21: L123-12 ([Code de commerce, art. L123-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006219304), read 2026-11-27).
 
 ## Enforced by
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-SC01-16 Revise prices with the BT and TP indices
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -169,11 +169,13 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A works contract may carry a clause that revises the price with the monthly building (BT) or public works
 (TP) index published by the national statistics office; the clause names the index, the base month and the formula.
-Public works contracts above a certain length must carry such a clause. The France-pack rule is listed below. Related:
+In public contracts, a revision clause with an official index is mandatory for contracts of more than 3 months with a
+large share of supplies priced on world markets, and a fixed-price works contract carries an actualisation clause
+(Code de la commande publique R2112-10, R2112-14). The France-pack rule is listed below. Related:
 [CR-FR-021](../../../../10-country-packs/france/invoicing/cr-fr-021-construction-retention-guarantee.md),
 [CR-FR-091](../../../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-224 Price revision with BT and TP indices](../../../../10-country-packs/france/construction/cr-fr-224-price-revision-indices.md)
 
 ## Related use cases

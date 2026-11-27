@@ -9,8 +9,8 @@
 ## Summary
 
 A household that asks for it pays only its share of the invoice: the company declares the invoice for the immediate
-advance of the tax credit, the household confirms it on the phone, and the public payer pays the credit's share to the
-company.
+advance of the tax credit, the household checks it on the phone within 48 hours (then it is validated automatically),
+URSSAF pays the whole service to the company and debits the household for its remainder.
 
 ## Personas
 
@@ -19,7 +19,7 @@ company.
 
 ## Goal
 
-The household does not advance the tax credit and the company is paid the credit's share within the delay.
+The household does not advance the tax credit and the company is paid the whole service by URSSAF.
 
 ## Trigger
 
@@ -39,9 +39,9 @@ Every invoice of an opted-in household.
 ## Postconditions
 
 - **Succeeded:** the claim is saved ([E-SC04-13](../../../sc04-home-care/data/e-sc04-13-immediate-advance-claim.md)),
-  the household has confirmed on the phone and the company is paid the credit's share.
-- **Failed:** no claim is sent without the household's consent, a claim the household refuses is not paid by the public
-  payer and is billed to the household.
+  the household has validated it (or 48 hours have passed) and URSSAF has paid the whole service to the company.
+- **Failed:** no claim is sent without the household's consent, a claim the household disputes is not paid by URSSAF
+  and is billed to the household in full.
 
 ## Main flow
 
@@ -51,12 +51,13 @@ Every invoice of an opted-in household.
 2. SimpleERP checks the consent and the enrolment of each household
    ([BR-SC19-12](../../business-rules/br-sc19-12-the-advance-needs-the-customers-consent.md)).
 3. Accounting sends each claim to the national service.
-4. The household receives a request on the phone and confirms or disputes the claim.
-5. On confirmation the public payer pays the credit's share and the invoice shows the net amount due by the household.
+4. The household receives a request on the phone and validates or disputes the claim within 48 hours.
+5. Once validated, URSSAF debits the household for its remainder and pays the whole service to the company; the
+   invoice shows it as paid through the advance.
 
 ## Alternative flows
 
-- 4a. The household does not answer in the delay: the claim is confirmed or dropped as the pack sets.
+- 4a. The household does not answer within 48 hours: the claim is validated automatically.
 - 2a. The household is not enrolled: the invoice is billed in full and the household is told how to enrol.
 - 4b. The household disputes the claim: it is withdrawn and the household pays in full.
 
@@ -125,7 +126,8 @@ sequenceDiagram
   S->>N: Claim of the credit's share
   N-->>H: Request to confirm
   H->>N: Confirm
-  N-->>A: Credit's share paid
+  N->>H: Debit of the remainder
+  N-->>A: Whole service paid
 ```
 
 ## Acceptance criteria
@@ -144,9 +146,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 The immediate advance lets a household pay only its share: it needs the household's consent and enrolment
-with the national service, and the provider declares each invoice there; the household confirms or disputes it within a
-short delay. The delays are data of the France pack. Related:
-[CR-FR-104](../../../../10-country-packs/france/tax-and-vat/cr-fr-104-immediate-advance-of-tax-credit.md).
+with URSSAF (the household activates its account from a link valid 7 days), and the provider declares each invoice
+there; the household has 48 hours to check it, then it is validated automatically, URSSAF debits the household for the
+remainder 2 days after and pays the whole service to the provider; a financial guarantee is required from the first
+advance (CSS D133-22). Related:
+[CR-FR-104 Immediate advance of the tax credit](../../../../10-country-packs/france/tax-and-vat/cr-fr-104-immediate-advance-of-tax-credit.md).
 
 ## Related use cases
 

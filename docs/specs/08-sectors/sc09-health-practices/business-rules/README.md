@@ -2,7 +2,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -27,8 +27,8 @@ One file per rule.
 | 📏 | BR-SC09-15 | [Certifications kept current](br-sc09-15-certifications-kept-current.md) | ✅ |
 | 📏 | BR-SC09-16 | [Prescription medicines need a valid prescription](br-sc09-16-prescription-medicines-need-a-valid-prescription.md) | ✅ |
 | 📏 | BR-SC09-17 | [Lenses follow the prescription and its validity](br-sc09-17-lenses-follow-the-prescription-and-its-validity.md) | ✅ |
-| 📏 | BR-SC09-18 | [Dispensed medicines enter the register](br-sc09-18-dispensed-medicines-enter-the-register.md) | 🔄 |
-| 📏 | BR-SC09-19 | [Prosthetics need the regulated quote before care](br-sc09-19-prosthetics-need-the-regulated-quote-before-care.md) | 🔄 |
+| 📏 | BR-SC09-18 | [Dispensed medicines enter the register](br-sc09-18-dispensed-medicines-enter-the-register.md) | ✅ |
+| 📏 | BR-SC09-19 | [Prosthetics need the regulated quote before care](br-sc09-19-prosthetics-need-the-regulated-quote-before-care.md) | ✅ |
 | 📏 | BR-SC09-20 | [Activity is reported to the regional health agency](br-sc09-20-activity-is-reported-to-the-regional-health-agency.md) | ✅ |
 | 📏 | BR-SC09-21 | [ACI funding follows the indicators reached](br-sc09-21-aci-funding-follows-the-indicators-reached.md) | ✅ |
 

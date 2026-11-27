@@ -23,7 +23,7 @@ Music Centre; for free shows, 3.5 % of the performance contract.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CIBS L452-14 in force since 2024-01-01 (ordonnance n° 2023-1210) ([Code des impositions sur les biens et services, art. L452-14 to L452-27](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000044595989/LEGISCTA000048626026/), read 2026-11-27).
 
 ## Enforced by
 

@@ -13,7 +13,9 @@ emergencies, and can complain; in France:
 
 ## Why
 
-The notice period is still to read.
+The notice periods are read in CR-FR-189: changes of the terms notified at least 15 days ahead, a statement of
+reasons when restricting or suspending, at least 30 days' notice before terminating (Regulation (EU) 2019/1150, art. 3
+and 4).
 
 ## Examples
 

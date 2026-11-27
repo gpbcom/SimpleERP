@@ -24,6 +24,12 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f21-11-module-guide-e-f21-18-module-guide-active-desktop, light](s-f21-11-module-guide-e-f21-18-module-guide-active-desktop-light.png) | ![s-f21-11-module-guide-e-f21-18-module-guide-active-desktop, dark](s-f21-11-module-guide-e-f21-18-module-guide-active-desktop-dark.png) |
 
+## s-f21-11-module-guide-e-f21-18-module-guide-done-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f21-11-module-guide-e-f21-18-module-guide-done-desktop, light](s-f21-11-module-guide-e-f21-18-module-guide-done-desktop-light.png) | ![s-f21-11-module-guide-e-f21-18-module-guide-done-desktop, dark](s-f21-11-module-guide-e-f21-18-module-guide-done-desktop-dark.png) |
+
 ## s-f21-09-import-e-f21-07-import-job-active-desktop
 
 | Light | Dark |

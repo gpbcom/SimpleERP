@@ -23,7 +23,7 @@ offered; micro and small companies have lighter duties.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+DSA in force since November 2022; all regulated entities comply since 2024-02-17 ([European Commission, DSA questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers), read 2026-11-27).
 
 ## Enforced by
 

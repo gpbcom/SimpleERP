@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -29,12 +29,12 @@ One file per rule.
 | 📏 | BR-F7-16 | [No current safety data sheet, no receipt](br-f07-16-no-current-safety-data-sheet-no-receipt.md) | ✅ |
 | 📏 | BR-F7-17 | [Carbon figures say how they were computed](br-f07-17-carbon-figures-say-how-they-were-computed.md) | ✅ |
 | 📏 | BR-F7-18 | [The supplier score uses the company's weights](br-f07-18-the-supplier-score-uses-the-companys-weights.md) | ✅ |
-| 📏 | BR-F7-19 | [Consigned stock is never valued as own stock](br-f07-19-consigned-stock-is-never-valued-as-own-stock.md) | 🔄 |
-| 📏 | BR-F7-20 | [A scan that does not match the expected item stops the step](br-f07-20-a-scan-that-does-not-match-the-expected-item-stops-the-step.md) | 🔄 |
-| 📏 | BR-F7-21 | [Periodic valuation posts only at period end](br-f07-21-periodic-valuation-posts-only-at-period-end.md) | 🔄 |
-| 📏 | BR-F7-22 | [Deposits are refunded for returned items only](br-f07-22-deposits-are-refunded-for-returned-items-only.md) | 🔄 |
-| 📏 | BR-F7-23 | [EDI messages are acknowledged or retried](br-f07-23-edi-messages-are-acknowledged-or-retried.md) | 🔄 |
-| 📏 | BR-F7-24 | [Re-slotting tasks never block open picks](br-f07-24-re-slotting-tasks-never-block-open-picks.md) | 🔄 |
+| 📏 | BR-F7-19 | [Consigned stock is never valued as own stock](br-f07-19-consigned-stock-is-never-valued-as-own-stock.md) | ✅ |
+| 📏 | BR-F7-20 | [A scan that does not match the expected item stops the step](br-f07-20-a-scan-that-does-not-match-the-expected-item-stops-the-step.md) | ✅ |
+| 📏 | BR-F7-21 | [Periodic valuation posts only at period end](br-f07-21-periodic-valuation-posts-only-at-period-end.md) | ✅ |
+| 📏 | BR-F7-22 | [Deposits are refunded for returned items only](br-f07-22-deposits-are-refunded-for-returned-items-only.md) | ✅ |
+| 📏 | BR-F7-23 | [EDI messages are acknowledged or retried](br-f07-23-edi-messages-are-acknowledged-or-retried.md) | ✅ |
+| 📏 | BR-F7-24 | [Re-slotting tasks never block open picks](br-f07-24-re-slotting-tasks-never-block-open-picks.md) | ✅ |
 
 ---
 

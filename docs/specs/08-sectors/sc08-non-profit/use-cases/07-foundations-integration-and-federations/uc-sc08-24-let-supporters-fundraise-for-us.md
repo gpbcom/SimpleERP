@@ -158,7 +158,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 A gift made through a supporter's page is a gift to the association: the association issues the tax receipt
 to the donor, who is the one who gave, never to the page owner. Above a yearly threshold of the country pack the
 association declares its appeals to public generosity and publishes how it used the funds. The donors' personal data are
-shared with the page owner only with consent. The France-pack rule is written later. Related:
+shared with the page owner only with consent. The France-pack rules are [CR-FR-286 Appeals to public generosity](../../../../10-country-packs/france/non-profit/cr-fr-286-appeals-to-public-generosity.md) and [CR-FR-124 Tax receipts for gifts and their yearly declaration](../../../../10-country-packs/france/non-profit/cr-fr-124-gift-tax-receipts.md). Related:
 [CR-FR-124](../../../../10-country-packs/france/non-profit/cr-fr-124-gift-tax-receipts.md),
 [CR-FR-063](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).

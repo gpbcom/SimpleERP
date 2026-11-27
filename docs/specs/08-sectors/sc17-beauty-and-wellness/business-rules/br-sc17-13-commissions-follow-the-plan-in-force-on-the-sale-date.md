@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-13 Commissions follow the plan in force on the sale date
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

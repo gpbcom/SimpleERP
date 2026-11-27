@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-11 Answers in the customer's language
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -20,7 +20,7 @@ Customers write in their language (D473); the AI assistant translates (F3).
 | Case | Result |
 |---|---|
 | Request in Spanish, Spanish supported | answer in Spanish, marked translated |
-| Request in Finnish, not supported | answer in English (Proposed) with a line saying so |
+| Request in Finnish, not supported | answer in English with a line saying so |
 
 ## Applies to
 

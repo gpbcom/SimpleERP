@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F10-12 Takeaway, tap to pay, labels and layaway
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F10-12 Takeaway, tap to pay, labels and layaway](../../../flows/fl-f10-12-takeaway-softpos-and-labels.md)
 for this persona, in light and dark mode (D120, D121). Errors follow the

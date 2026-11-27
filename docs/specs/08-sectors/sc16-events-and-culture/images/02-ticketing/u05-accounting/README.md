@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC16-02 Ticketing
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC16-02 Ticketing](../../../flows/fl-sc16-02-ticketing.md) for this persona, in light and dark mode (D120,
 D121). Errors follow the [error message pattern](../../../../../04-ux/design-system/patterns/error-messages.md).

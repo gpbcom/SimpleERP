@@ -3,24 +3,28 @@
 
 # ⚖️ CR-FR-203 Who owns software, and assigning it
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) Software written by employees in their duties belongs to the employer; any assignment of author's rights
-lists each right assigned, its scope, place and duration.
+Software written by employees in their duties belongs to the employer; any assignment of author's rights lists each
+right assigned, its scope, place and duration ([CPI, art. L113-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039279818), read 2026-11-27); ([CPI, art. L131-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278958), read 2026-11-27).
 
 ## Values
 
-- (Proposed) To read.
+- Economic rights on software and its documentation created by employees in their duties, or on the employer's
+  instructions, go to the employer, who alone may exercise them, unless statutes or a contract say otherwise (L113-9).
+- An assignment is valid only if each right assigned is mentioned separately and its field of exploitation is limited
+  in extent, purpose, place and duration (L131-3).
 
 ## Legal references
 
-- Code de la propriété intellectuelle L113-9, L131-3 (not read yet).
+- Code de la propriété intellectuelle [L113-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039279818), [L131-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278958).
 
 ## Effective dates
 
-(Proposed) To read.
+L113-9 in its current version since 2020-01-01 (ordonnance n° 2019-964); L131-3 since 1992-07-03
+([CPI, art. L113-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039279818), read 2026-11-27); ([CPI, art. L131-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278958), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +37,7 @@ in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+No penalty: a transfer of author's rights is conditional on these mentions (L131-3) ([CPI, art. L131-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006278958), read 2026-11-27).
 
 ## Exceptions
 

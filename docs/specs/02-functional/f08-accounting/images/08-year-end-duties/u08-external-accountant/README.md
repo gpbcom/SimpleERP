@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F8-08 Year-end duties
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F8-08 Year-end duties](../../../flows/fl-f08-08-year-end-duties.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

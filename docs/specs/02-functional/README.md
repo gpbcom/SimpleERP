@@ -73,7 +73,7 @@ they need that the API lacks is added to the API, never reached around it. X1 to
 | 💶 | F13 | [Payroll (plugin)](f13-payroll/README.md) | ✅ |
 | 🧰 | F14 | [Plugin store](f14-plugin-store/README.md) | ✅ |
 | ⚖️ | F15 | [Legal assistant](f15-legal-assistant/README.md) | ✅ |
-| 🎧 | F16 | [Customer support agents](f16-customer-support-agents/README.md) | 🔄 |
+| 🎧 | F16 | [Customer support agents](f16-customer-support-agents/README.md) | ✅ |
 | 🔭 | F17 | [Competitive analysis](f17-competitive-analysis/README.md) | ✅ |
 | 🌐 | F18 | [Hosted websites and domains (hosted edition)](f18-hosted-websites-and-domains/README.md) | ✅ |
 | 🏭 | F19 | [Feature factory (hosted edition)](f19-feature-factory/README.md) | ✅ |

@@ -30,7 +30,7 @@ F3, F16, F19, F20, F23, F24, F25.
 | 🔌 |  | [Interfaces](interfaces/README.md) | ✅ |
 | 🗃️ |  | [Data](data/README.md) | ✅ |
 | 🖥️ |  | [Screens](screens/README.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 | 🛡️ |  | [Security](security.md) | ✅ |
 | ⚙️ |  | [Operations](operations.md) | ✅ |
 | 🚨 |  | [Errors](errors.md) | ✅ |

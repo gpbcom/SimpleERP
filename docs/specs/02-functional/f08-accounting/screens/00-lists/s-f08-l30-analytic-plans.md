@@ -38,7 +38,8 @@ filter, total and act on many analytic plans at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] ANALYTIC PLAN   STATE                                                                |
+| state             | [ ] NAME   ANALYTIC ACC   MANDATORY   DISTRIBUTION   STATE                               |
+| mandatory         | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,7 +49,10 @@ filter, total and act on many analytic plans at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Analytic plan | the record's title | text | yes |
+| Name | name | text | yes |
+| Analytic accounts | analytic accounts | text | yes |
+| Mandatory | mandatory | yes or no | yes |
+| Distribution models | distribution models | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -58,6 +62,7 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Mandatory | yes, no | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -103,7 +108,7 @@ Each action is offered within the role and checked again on the server (VR-10).
 
 ## Inline edit
 
-None: no field is editable in a cell.
+- mandatory: editable in its cell unless the record's state locks it.
 
 ## Hidden fields
 

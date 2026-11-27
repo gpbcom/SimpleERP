@@ -3,7 +3,7 @@
 
 # 🗃️ E-F22-14 Exchange rate
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -16,7 +16,7 @@ The rate used to convert foreign-currency costs on a day.
 | currency | text | yes | ISO code | - | USD | no | no |
 | date | date | yes | - | - | 2026-11-12 | no | no |
 | rate | number | yes | above 0 | from the source | 0.9200 | no | no |
-| source | text | yes | - | (Proposed) ECB | ECB | no | no |
+| source | text | yes | - | ECB | ECB | no | no |
 
 ## Relations
 

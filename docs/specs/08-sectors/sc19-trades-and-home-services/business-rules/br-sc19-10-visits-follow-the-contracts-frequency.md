@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-10 Visits follow the contract's frequency
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

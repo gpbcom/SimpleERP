@@ -4,7 +4,7 @@
 
 # 🖥️ S-F1-25 Connections and AI usage dashboard
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -22,7 +22,7 @@ Administration › Reports › Connections and AI usage.
 
 ## Wireframe
 
-(Proposed) As drawn here, to confirm with the owner.
+As drawn here.
 
 ```text
 +------------------------------------------------------------------+

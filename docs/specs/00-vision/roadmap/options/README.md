@@ -3,10 +3,12 @@
 
 # 🔀 Roadmap options
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
-The ways to order V1 that respect its frame. The owner's choice is
-[❓ Q20](../../../07-questions/q20-which-roadmap-option-orders-v1.md).
+The ways to order V1 that respect its frame. The owner chose **option A** on 2026-11-27, cut into the twelve phases of
+[Phases](../phases/README.md) ([Q20](../../../07-questions/q20-which-roadmap-option-orders-v1.md),
+[D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md)); the other options are kept as the
+record of what was compared.
 
 ## The frame every option keeps
 
@@ -51,7 +53,7 @@ An early release before V1 is not among the options: the owner was asked twice a
 
 ## Recommendation
 
-Option F (Proposed): it is the only one that both keeps every decision of the owner and protects the pilot's date. It
+Claude's recommendation, written before the owner's choice: option F: it is the only one that both keeps every decision of the owner and protects the pilot's date. It
 takes C's order, so nothing outside the pilot can delay it; B's tracks, so the DevOps agents build in parallel once the
 contracts are frozen; and D's waves, so each group of sectors is accepted on its example companies. The five gaps of the
 adopted roadmap ([What V1 holds](../inventory.md#gaps-of-the-adopted-roadmap)) are fixed by every option, F included.
@@ -63,12 +65,12 @@ plan.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧱 |  | [Option A: ten steps in a row](option-a-ten-steps-in-a-row.md) | 🔄 |
-| 🛤️ |  | [Option B: the platform, then parallel tracks](option-b-platform-then-parallel-tracks.md) | 🔄 |
-| 🎯 |  | [Option C: the pilot first](option-c-the-pilot-first.md) | 🔄 |
-| 🏘️ |  | [Option D: sector waves](option-d-sector-waves.md) | 🔄 |
-| 🏭 |  | [Option E: the factory first](option-e-the-factory-first.md) | 🔄 |
-| ⭐ |  | [Option F: the pilot spine, with tracks and waves](option-f-pilot-spine-tracks-and-waves.md) | 🔄 |
+| 🧱 |  | [Option A: ten steps in a row](option-a-ten-steps-in-a-row.md) | ✅ |
+| 🛤️ |  | [Option B: the platform, then parallel tracks](option-b-platform-then-parallel-tracks.md) | 🚫 |
+| 🎯 |  | [Option C: the pilot first](option-c-the-pilot-first.md) | 🚫 |
+| 🏘️ |  | [Option D: sector waves](option-d-sector-waves.md) | 🚫 |
+| 🏭 |  | [Option E: the factory first](option-e-the-factory-first.md) | 🚫 |
+| ⭐ |  | [Option F: the pilot spine, with tracks and waves](option-f-pilot-spine-tracks-and-waves.md) | 🚫 |
 
 ---
 

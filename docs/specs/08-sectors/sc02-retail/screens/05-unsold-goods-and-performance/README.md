@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC02-13 | [Unsold goods](s-sc02-13-unsold-goods.md) | 🔄 |
-| 🖥️ | S-SC02-14 | [Store performance](s-sc02-14-store-performance.md) | 🔄 |
-| 🖥️ | S-SC02-15 | [Store assistant](s-sc02-15-store-assistant.md) | 🔄 |
+| 🖥️ | S-SC02-13 | [Unsold goods](s-sc02-13-unsold-goods.md) | ✅ |
+| 🖥️ | S-SC02-14 | [Store performance](s-sc02-14-store-performance.md) | ✅ |
+| 🖥️ | S-SC02-15 | [Store assistant](s-sc02-15-store-assistant.md) | ✅ |

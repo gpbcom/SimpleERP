@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F20-07 Employees' help
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F20-07 Employees' help](../../../flows/fl-f20-07-employees-help.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

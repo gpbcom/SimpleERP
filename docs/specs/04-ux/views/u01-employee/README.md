@@ -43,10 +43,10 @@ Home · My HR · Meetings · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U01-01 | [Handle my own HR tasks](journeys/j-u01-01-handle-my-own-hr-tasks.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U01-01 | [Handle my own HR tasks](journeys/j-u01-01-handle-my-own-hr-tasks.md) | ✅ |
 
 ---
 

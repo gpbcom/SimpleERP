@@ -22,7 +22,7 @@ mention sits next to each such dish, or once on the menu when all dishes qualify
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CConso L122-19 in its current version in force since 2018-11-02 (loi n° 2018-938) ([Code de la consommation, art. L122-19](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037556708), read 2026-11-27).
 
 ## Enforced by
 

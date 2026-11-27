@@ -3,7 +3,7 @@
 
 # 🗃️ E-F18-16 Spam hold
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -33,7 +33,7 @@ erDiagram
 stateDiagram-v2
   [*] --> Held : UC-F18-04
   Held --> Released : marketing releases it, UC-F18-04
-  Held --> Deleted : marketing deletes it or (Proposed) after 30 days, UC-F18-24
+  Held --> Deleted : marketing deletes it or after 30 days, UC-F18-24
   Released --> [*] : UC-F18-04
   Deleted --> [*] : UC-F18-04
 ```
@@ -44,7 +44,7 @@ By form, reason and date.
 
 ## Retention
 
-(Proposed) 30 days, then deleted.
+30 days, then deleted.
 
 ## Audit
 

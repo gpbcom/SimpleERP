@@ -2,7 +2,7 @@
 
 # 🖼️ Images
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 One example of each component and pattern, light and dark (D120).
 

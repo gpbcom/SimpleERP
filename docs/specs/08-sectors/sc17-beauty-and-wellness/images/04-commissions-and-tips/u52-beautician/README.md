@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC17-04 Commissions and tips
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC17-04 Commissions and tips](../../../flows/fl-sc17-04-commissions-and-tips.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

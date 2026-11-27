@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U43-01 | [Produce an event](j-u43-01-produce-an-event.md) | 🔄 |
+| 🧭 | J-U43-01 | [Produce an event](j-u43-01-produce-an-event.md) | ✅ |
 
 ---
 

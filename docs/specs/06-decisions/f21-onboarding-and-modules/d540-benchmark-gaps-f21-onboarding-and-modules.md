@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four onboarding
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four onboarding
 features that F21 did not cover: sessions with an implementation expert, a planned go-live cutover, a parallel run of
 the old and the new tools, and a set-up proposed from last year's documents. F21 already has the first-run guide, the
 imports and the migration from a named tool; these complete the human, the dated and the checked sides.
@@ -40,7 +40,7 @@ records after confirmation. All at full depth now.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F21 Onboarding and
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F21 Onboarding and
 modules").
 
 ## Consequences

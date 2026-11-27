@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC13-02 Treatments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -12,8 +12,9 @@
 
 ## Purpose
 
-Used to record treatments and inputs
-([UC-SC13-02](../../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md)).
+Record each plant-protection treatment with its product, dose, area treated, plot and date, and the operator when known
+([UC-SC13-02](../../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md)): the register does not require the
+operator, so a treatment without one is saved; a missing dose or area is flagged.
 
 ## Entry points
 
@@ -42,7 +43,8 @@ with their examples.
 ## Actions
 
 - Choose plot and product: [UC-SC13-02](../../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md), step 1.
-- Record dose and operator: [UC-SC13-02](../../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md), step 2.
+- Record dose, area and date, and the operator if known:
+  [UC-SC13-02](../../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md), step 2.
 - Save: [UC-SC13-02](../../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md), step 3.
 - Check the register: [UC-SC13-02](../../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md), step 4.
 
@@ -76,7 +78,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

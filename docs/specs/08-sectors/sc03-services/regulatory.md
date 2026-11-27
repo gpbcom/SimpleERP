@@ -15,8 +15,8 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-042 Working time and rest](../../10-country-packs/france/labour/cr-fr-042-working-time-and-rest.md),
 [CR-FR-019 Late-payment penalties](../../10-country-packs/france/invoicing/cr-fr-019-late-payment-penalties.md),
 [CR-FR-018 Payment terms cap](../../10-country-packs/france/invoicing/cr-fr-018-payment-terms-cap.md),
-[CR-FR-016 Electronic invoicing](../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md). Day-based
-working time is (Proposed): its official page could not be read yet.
+[CR-FR-016 Electronic invoicing](../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md). All are read in
+their official sources (2026-11-27).
 
 ## Country pack
 

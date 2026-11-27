@@ -4,7 +4,7 @@
 
 # 📏 BR-F20-15 Release notes before each upgrade
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -29,7 +29,7 @@ Customers must know what changes for them (D477).
 
 ## Exceptions
 
-Security fixes may be described after the upgrade (Proposed) to avoid revealing the weakness.
+Security fixes may be described after the upgrade to avoid revealing the weakness.
 
 ## Configurable
 

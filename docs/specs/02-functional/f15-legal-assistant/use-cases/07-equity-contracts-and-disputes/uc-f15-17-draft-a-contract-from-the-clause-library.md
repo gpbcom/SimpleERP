@@ -157,7 +157,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 Some contract terms are limited by law (late-payment terms, liability limits towards consumers, notice
-periods); the library flags a clause that departs from a limit. The France-pack rule is written later. Related:
+periods); the library flags a clause that departs from a limit. The France-pack rule is
+[CR-FR-265 Contract terms the law limits](../../../../10-country-packs/france/consumer/cr-fr-265-unfair-contract-terms.md). Related:
 [CR-FR-018](../../../../10-country-packs/france/invoicing/cr-fr-018-payment-terms-cap.md),
 [CR-FR-019](../../../../10-country-packs/france/invoicing/cr-fr-019-late-payment-penalties.md),
 [CR-FR-175](../../../../10-country-packs/france/trade/cr-fr-175-unfair-b2b-practices.md).

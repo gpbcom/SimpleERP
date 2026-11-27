@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found that industry
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found that industry
 packages cover sports and fitness, and that the specifications had no sector for them (G15). The owner confirmed the new
 sector in the block-by-block interview with the answer "Sports and fitness", then answered the sector interview: the
 extra areas G193 "Courts and facilities, Tournaments and events, Holiday camps, Equipment rental" and the organisations
@@ -52,7 +52,7 @@ SC18 Sports and fitness is the eighteenth sector, with five flows and twenty use
 and, where it has one, its entity and its list. All at full depth now. The organisations are "Clubs and gyms
 (Recommended)" (G194): associative clubs with licences and competitions, and commercial gyms with contracts and access,
 in one sector with the kind of organisation set in the settings. Each legal duty is written in plain words and marked
-(Proposed) until the France-pack rule is written; no article is quoted.
+as proposed until its France-pack rule was written (the rules now exist); no article is quoted.
 
 | Gap | Point | Decision | The owner's answer |
 |---|---|---|---|
@@ -80,7 +80,7 @@ in one sector with the kind of organisation set in the settings. Each legal duty
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC18 Sports and fitness
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC18 Sports and fitness
 (new)").
 
 ## Consequences

@@ -67,8 +67,12 @@ A few moves a day, more at the end of the month and in summer.
   sent again.
 - 6a. The move takes longer than quoted because of a cause on the customer's side (no parking, lift out of order): the
   extra time is billed by the rate the quote states.
-- 4a. The customer signs at home away from the office: the withdrawal period is shown and a waiver can be signed for a
-  date within it.
+- 4a. The customer signs at home away from the office: the withdrawal period is shown. For a move within it, the
+  customer's express request to start before the end of the period is recorded on paper or a durable medium, with the
+  notice that a customer who then withdraws pays the part already done (Code de la consommation L221-25,
+  [CR-FR-276](../../../../10-country-packs/france/transport/cr-fr-276-removal-quotes.md)). No payment or deposit is taken for 7 days from the signature (Code de la consommation L221-10,
+  [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md),
+  [D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Error flows
 
@@ -153,9 +157,12 @@ sequenceDiagram
 2. **Given** a signed quote **when** sales changes the price **then** a new version is created and needs a new
    signature.
 3. **Given** a customer who signs at home and wants a move in five days **when** the quote is signed **then** the
-   withdrawal period is shown and a waiver is offered.
+   withdrawal period is shown and the customer's express request to start early is asked for, on paper or a durable
+   medium.
 4. **Given** an item scratched at unloading **when** the crew notes it with a photo **then** the damage is attached to
    the removal and the dispatcher is told.
+5. **Given** a customer who signed at home 3 days ago **when** the dispatcher asks for a deposit **then** it is refused,
+   and it may be asked from the eighth day after the signature.
 
 ## Non-functional notes
 
@@ -164,9 +171,12 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 A removal contract states the price, the date, the volume, the declared value of the goods and the insurance,
-and a consumer receives a written quote before signing. A consumer who signs away from the company's premises has a
-period to withdraw, which they may waive for a move planned within it. Damage is noted at delivery and confirmed in
-writing within the time the contract states. The France-pack rule is written later. Related:
+and a consumer receives a free written quote before signing, whose price is final unless the quote is expressly
+changed. A consumer who signs away from the company's premises pays nothing for 7 days and keeps a period to withdraw;
+a move within it starts only on the consumer's express request, and a consumer who then withdraws pays the part already
+done. Reserves are written on the delivery note, and the consumer may still object by registered letter within 10
+calendar days of reception. The France-pack rule is
+[CR-FR-276 Removal quotes and delivery reserves](../../../../10-country-packs/france/transport/cr-fr-276-removal-quotes.md). Related:
 [CR-FR-020](../../../../10-country-packs/france/invoicing/cr-fr-020-electronic-acceptance-and-signature.md),
 [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md),
 [CR-FR-118](../../../../10-country-packs/france/transport/cr-fr-118-documents-on-board.md).

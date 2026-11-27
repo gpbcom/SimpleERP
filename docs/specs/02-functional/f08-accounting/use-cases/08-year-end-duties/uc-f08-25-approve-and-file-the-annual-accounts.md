@@ -4,7 +4,7 @@
 
 # 📝 UC-F8-25 Approve and file the annual accounts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -124,7 +124,10 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: Code de commerce articles L223-26, L232-21 to L232-23.
+The accounts are approved by the shareholders within 6 months of the close, as
+[CR-FR-221 Shareholders' general meetings](../../../../10-country-packs/france/company/cr-fr-221-general-meetings.md) states (Code de commerce
+L223-26); an SARL files its accounts, the auditors' reports and the profit-allocation decision with the commercial
+court registry within one month of the approval, two months when filed online (L232-22), as the same rule states.
 
 ## Related use cases
 

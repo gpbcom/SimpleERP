@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-18 Works start only with a valid insurance certificate
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,10 @@ dates.
 ## Why
 
 Works without cover leave the customer unprotected and the company in breach
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The France-pack rule is
+[CR-FR-259 Builders' ten-year insurance certificate](../../../10-country-packs/france/construction/cr-fr-259-builders-warranty-insurance.md):
+the ten-year insurance is in place before work starts, and its certificate is given to the client and attached to quotes
+and invoices.
 
 ## Examples
 
@@ -33,7 +35,7 @@ rule is written later.
 - [E-SC19-12 Warranty certificate](../data/e-sc19-12-warranty-certificate.md)
 - [E-SC19-12 Warranty certificate](../data/e-sc19-12-warranty-certificate.md)
 - [E-F6-03 Quote](../../../02-functional/f06-customers-and-sales/data/e-f06-03-quote.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-259 Builders' ten-year insurance certificate](../../../10-country-packs/france/construction/cr-fr-259-builders-warranty-insurance.md)
 
 ## Exceptions

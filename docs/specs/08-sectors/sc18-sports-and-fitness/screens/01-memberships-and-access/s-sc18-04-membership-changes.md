@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-04 Membership changes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

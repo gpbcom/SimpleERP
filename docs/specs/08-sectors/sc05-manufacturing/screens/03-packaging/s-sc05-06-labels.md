@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC05-06 Labels
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -68,7 +68,9 @@ Entity states shown (VD-15):
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
 | E-SC05-06 Label template | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U15, U20 | `u15-warehouse-operator/s-sc05-06-labels-e-sc05-06-label-template-active-{phone,tablet}-{light,dark}.png`, `u20-production-operator/s-sc05-06-labels-e-sc05-06-label-template-active-tablet-{light,dark}.png` |
-| E-SC15-14 Pallet | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U15, U20 | `u15-warehouse-operator/s-sc05-06-labels-e-sc15-14-pallet-active-{phone,tablet}-{light,dark}.png`, `u20-production-operator/s-sc05-06-labels-e-sc15-14-pallet-active-tablet-{light,dark}.png` |
+| E-SC15-14 Pallet | Open | Badge "Open"; a new record starts here; next: Closed (UC-SC05-06, BR-SC15-09); fields editable within the role | U15, U20 | `u15-warehouse-operator/s-sc05-06-labels-e-sc15-14-pallet-open-{phone,tablet}-{light,dark}.png`, `u20-production-operator/s-sc05-06-labels-e-sc15-14-pallet-open-tablet-{light,dark}.png` |
+| E-SC15-14 Pallet | Closed | Badge "Closed"; next: Loaded (UC-SC15-09); fields editable within the role | U15, U20 | `u15-warehouse-operator/s-sc05-06-labels-e-sc15-14-pallet-closed-{phone,tablet}-{light,dark}.png`, `u20-production-operator/s-sc05-06-labels-e-sc15-14-pallet-closed-tablet-{light,dark}.png` |
+| E-SC15-14 Pallet | Loaded | Badge "Loaded"; final: read-only, no next state; the history shows how it got here | U15, U20 | `u15-warehouse-operator/s-sc05-06-labels-e-sc15-14-pallet-loaded-{phone,tablet}-{light,dark}.png`, `u20-production-operator/s-sc05-06-labels-e-sc15-14-pallet-loaded-tablet-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each
@@ -77,7 +79,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

@@ -4,7 +4,7 @@
 
 # 📏 BR-F20-23 Service times are the same in every supported language
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

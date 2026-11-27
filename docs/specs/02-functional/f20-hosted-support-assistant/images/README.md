@@ -20,4 +20,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F20-07 Employees' help](07-employees-help/README.md) | 18 images |
 | 🖼️ |  | [Images: FL-F20-08 Engineers, screen sharing, reports and languages](08-engineers-sharing-and-reports/README.md) | 16 images |
 | 🖼️ |  | [Screen states](states/README.md) | 224 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

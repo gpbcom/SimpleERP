@@ -29,7 +29,7 @@ F3, F4, F15, F17, F23.
 | 🔌 |  | [Interfaces](interfaces/README.md) | ✅ |
 | 🗃️ |  | [Data](data/README.md) | ✅ |
 | 🖥️ |  | [Screens](screens/README.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 | 🛡️ |  | [Security](security.md) | ✅ |
 | ⚙️ |  | [Operations](operations.md) | ✅ |
 | 🚨 |  | [Errors](errors.md) | ✅ |

@@ -9,7 +9,11 @@
 
 - **Invoices:** mandatory mentions, continuous numbering, payment terms (60 days at most from the invoice date, or 45
   days end of month), late penalties and the 40 EUR fixed recovery fee (Code de commerce L441-9, L441-10; CGI 242 nonies
-  A annex II).
+  A annex II). Until 2026-12-31, L441-9 and L441-10 in their version of 2019-04-26; from 2027-01-01, in the version of
+  Ordonnance n° 2026-671, with the same mentions, caps and fines and periodic invoices (CIBS L216-34) capped at 45
+  days, the VAT duties they refer to now in the CIBS
+  ([CR-FR-015](../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md),
+  [CR-FR-018](../../10-country-packs/france/invoicing/cr-fr-018-payment-terms-cap.md)).
 - **E-invoicing:** reception from 1 September 2026, issuing for small companies from 1 September 2027 (D118, Q13).
 - **Retention guarantee:** 5 % at most, released after one year (loi n° 71-584 du 16 juillet 1971).
 - **Consumers:** information before contract, withdrawal rights for distance sales (Code de la consommation).

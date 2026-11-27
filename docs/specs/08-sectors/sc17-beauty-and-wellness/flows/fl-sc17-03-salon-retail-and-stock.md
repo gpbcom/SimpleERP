@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC17-03 Salon retail and stock
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

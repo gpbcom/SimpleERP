@@ -3,7 +3,7 @@
 
 # 🗃️ E-F21-14 Migration source
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -45,7 +45,7 @@ By tool and date.
 
 ## Retention
 
-Files deleted (Proposed) 90 days after the import; the mapping kept.
+Files deleted 90 days after the import; the mapping kept.
 
 ## Audit
 

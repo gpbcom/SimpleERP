@@ -4,7 +4,7 @@
 
 # 📌 REQ-T13-01 Self-hosted map tiles
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-19 / D501)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -36,7 +36,7 @@ the 95th percentile.
 
 ## Priority
 
-Must (Proposed)
+Must
 
 ## Capabilities served
 

@@ -2,7 +2,7 @@
 
 # ⚖️ Regulatory
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Rules that apply
 
@@ -18,7 +18,7 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-097 Gift cards](../../10-country-packs/france/consumer/cr-fr-097-gift-card-validity.md),
 [CR-FR-036 Consumer withdrawal right](../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md),
 [CR-FR-063 Consent for email and SMS marketing](../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md).
-Gift cards are (Proposed): their official page could not be read yet.
+Gift cards are (⚖️ lawyer review before launch, D574): no official text on their validity and mentions was found yet.
 
 ## Country pack
 

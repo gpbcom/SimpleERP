@@ -3,7 +3,7 @@
 
 # 🗃️ E-F8-24 Variance comment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -38,7 +38,7 @@ By month.
 
 ## Retention
 
-10 years (Proposed).
+10 years.
 
 ## Audit
 

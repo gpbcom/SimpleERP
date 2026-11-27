@@ -12,7 +12,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-F25-25 | [Public roadmap](s-f25-25-public-roadmap.md) | 🔄 |
-| 🖥️ | S-F25-26 | [Beta programme](s-f25-26-beta-programme.md) | 🔄 |
-| 🖥️ | S-F25-27 | [Report credits](s-f25-27-report-credits.md) | 🔄 |
-| 🖥️ | S-F25-28 | [Module changelog](s-f25-28-module-changelog.md) | 🔄 |
+| 🖥️ | S-F25-25 | [Public roadmap](s-f25-25-public-roadmap.md) | ✅ |
+| 🖥️ | S-F25-26 | [Beta programme](s-f25-26-beta-programme.md) | ✅ |
+| 🖥️ | S-F25-27 | [Report credits](s-f25-27-report-credits.md) | ✅ |
+| 🖥️ | S-F25-28 | [Module changelog](s-f25-28-module-changelog.md) | ✅ |

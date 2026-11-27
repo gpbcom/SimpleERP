@@ -4,7 +4,7 @@
 
 # 📝 UC-F1-14 Invite users in bulk
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -55,14 +55,14 @@ A few times a year per company; weekly in a season for hotels, farms and events.
 - 2a. The administrator asks the AI assistant to read a pasted email or table: it fills the batch for review
   ([D62](../../../../06-decisions/f01-administration/d62-assistant-in-setup.md)).
 - 3a. Single sign-on is on: the people are told to sign in with their company account instead.
-- 5a. An end date per line (seasonal contract): the accounts are deactivated on that date (Proposed).
+- 5a. An end date per line (seasonal contract): the accounts are deactivated on that date.
 
 ## Error flows
 
 - 3e. An email already has an account, appears twice, or a role or site does not exist: the line is in error and is not
   sent.
 - 3e. The file cannot be read or has no email column: refused with the reason, nothing is kept.
-- 4e. The batch is larger than 500 lines (Proposed): the administrator is asked to split it.
+- 4e. The batch is larger than 500 lines: the administrator is asked to split it.
 
 ## Business rules
 
@@ -85,8 +85,7 @@ The administrator role; the IT provider administrator
 ## Notifications
 
 - One invitation email per person, in their language.
-- The administrator is told when the batch is fully accepted, and two days after sending of the lines still waiting
-  (Proposed).
+- The administrator is told when the batch is fully accepted, and two days after sending of the lines still waiting.
 
 ## Audit events
 
@@ -142,7 +141,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Checking 500 lines takes under 5 seconds (Proposed); the screen works on a tablet.
+Checking 500 lines takes under 5 seconds; the screen works on a tablet.
 
 ## Regulatory references
 

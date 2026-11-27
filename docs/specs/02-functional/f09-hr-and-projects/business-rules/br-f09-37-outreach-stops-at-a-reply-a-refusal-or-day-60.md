@@ -9,12 +9,19 @@
 
 A sequence sends an invitation with a note on day 0 (a direct message when the person is already connected) and
 follow-ups on days 7 and 21 by default; replies are checked every few hours; a reply stops that person's follow-ups at
-once, a refusal ends their sequence, and on day 60 everything stops.
+once, a refusal ends their sequence, and on day 60 everything stops. This holds whether the messages are prepared for
+HR's click or sent automatically. A prepared message HR has not sent within 7 days of the creation of its task expires and is never sent: the
+prospect goes on as if they had not answered, the next follow-up falling due on its day; a prospect whose first message
+expired was never contacted, so no follow-up falls due for them. A message HR clicked that a sending limit holds no longer waits for HR and never
+expires: it goes when the limit allows (BR-F9-41). A prepared message still waiting on day 60 is cancelled. Every prospect without a reply ends as "no answer" on day 60, contacted or not.
 
 ## Why
 
 The owner's answer LS-3 ([D518](../../../06-decisions/f09-hr-and-projects/d518-linkedin-sourcing-through-unipile.md)):
 "Invite, then 2 follow-ups (Recommended)", after asking to "check periodically the response (mot mode than 2 months)".
+[D570](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md) keeps
+the reply check and these stops in both sending modes, and the owner completed it on 2026-11-27: a prepared message
+expires after 7 days, so that a sequence ends for every prospect even when HR sends nothing.
 
 ## Examples
 
@@ -27,6 +34,12 @@ The owner's answer LS-3 ([D518](../../../06-decisions/f09-hr-and-projects/d518-l
 | Follow-ups moved to days 10 and 30 | passes |
 | A follow-up set on day 75 | fails: refused, after day 60 |
 | Day 60 | the sequence ends; prospects without an answer end as "no answer" |
+| Prepared mode, follow-up 1 due on day 7 and not sent by day 14 | expires, never sent; follow-up 2 falls due on day 21 as for a prospect who did not answer |
+| Prepared mode, follow-up 2 due on day 21 and not sent by day 28 | expires, never sent; on day 60 the prospect ends as "no answer" |
+| Prepared mode, the day 0 invitation not sent by day 7 | expires, never sent; the prospect stays shortlisted, gets no follow-up, and ends as "no answer" on day 60 |
+| Prepared mode, follow-ups moved to days 30 and 57, follow-up 2 not sent by day 60 | cancelled on day 60, never sent |
+| Prepared mode, the invitation pending until day 10, follow-up 1 falls due then and its task is created on day 10 | it expires on day 17 if not sent: the 7 days start when the task is created |
+| Prepared mode, HR clicks Send on day 13 for follow-up 1, the daily cap reached | it goes on day 14 without a new click and does not expire |
 
 ## Applies to
 
@@ -34,6 +47,7 @@ The owner's answer LS-3 ([D518](../../../06-decisions/f09-hr-and-projects/d518-l
 - [E-F9-46 Outreach sequence](../data/e-f09-46-outreach-sequence.md)
 - [E-F9-47 Outreach message](../data/e-f09-47-outreach-message.md)
 - [E-F9-45 Prospect](../data/e-f09-45-prospect.md)
+- [E-F9-18 Project and task](../data/e-f09-18-project-and-task.md)
 
 ## Exceptions
 

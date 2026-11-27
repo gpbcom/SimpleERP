@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-11 Rental contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

@@ -18,4 +18,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC10-06 Portal and assistant](06-portal-and-assistant/README.md) | 14 images |
 | 🖼️ |  | [Images: FL-SC10-07 Short stays, commercial leases, LMNP and coworking](07-short-stays-commercial-and-coworking/README.md) | 26 images |
 | 🖼️ |  | [Screen states](states/README.md) | 160 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

@@ -4,7 +4,7 @@
 
 # 📝 UC-SC03-04 Plan resources and utilisation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -56,7 +56,7 @@ Weekly.
 
 ## Error flows
 
-- 3e. The bench is over the threshold: it is shown to the owner ((Proposed) over 20 % of available hours in the month).
+- 3e. The bench is over the threshold: it is shown to the owner (over 20 % of available hours in the month).
 - 2e. A move over a leave: it is refused with the leave's dates.
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
@@ -133,7 +133,7 @@ sequenceDiagram
 1. **Given** the example consulting firm's S. B. with 120 available hours and 96 approved billable hours in November
    **when** utilisation is computed **then** it is 80 %.
 2. **Given** 6 of 25 consultants unbooked in December **when** the owner opens the plan **then** it is shown to the
-   owner ((Proposed) over 20 % of available hours in the month).
+   owner (over 20 % of available hours in the month).
 
 ## Non-functional notes
 
@@ -152,7 +152,7 @@ None specific to this use case; the sector's legal rules are listed in [SC03 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

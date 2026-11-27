@@ -3,7 +3,7 @@
 
 # 🗃️ E-F24-12 Integration icon
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -14,7 +14,7 @@ The logo shown for an integration, with its variants and the terms that allow it
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
 | connector | link | yes | a connector | - | HubSpot | no | no |
-| file | file | yes | SVG, or PNG of at least 80 px; (Proposed) 50 KB at most | - | hubspot.svg | no | no |
+| file | file | yes | SVG, or PNG of at least 80 px; 50 KB at most | - | hubspot.svg | no | no |
 | dark variant | file | no | same rules | - | hubspot-dark.svg | no | no |
 | brand terms | link | yes | the vendor's published brand page | - | vendor brand page | no | no |
 | checked | date | yes | - | - | 2026-11-12 | no | no |

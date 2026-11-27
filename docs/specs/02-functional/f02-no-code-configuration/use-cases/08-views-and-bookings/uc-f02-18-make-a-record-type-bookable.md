@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-18 Make a record type bookable
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -134,7 +134,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Up to 500 resources per record type (Proposed).
+Up to 500 resources per record type.
 
 ## Regulatory references
 

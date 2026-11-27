@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC12-23 Nursery
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

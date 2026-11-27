@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F10-12 Takeaway, tap to pay, labels and layaway
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

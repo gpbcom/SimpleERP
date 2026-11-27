@@ -3,7 +3,7 @@
 
 # 📏 BR-F13-18 Special regimes declared to their own bodies
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,7 +13,8 @@ funds, or the MSA instead of the general collector) on their own calendars, neve
 ## Why
 
 Each regime has its own collector, rates and deadlines (D470); in France: CR-FR-178 for occasional organisers through
-the simplified service, CR-FR-167 for seasonal farm workers, the rest (Proposed) to read.
+the simplified service, CR-FR-167 for seasonal farm workers, the rest (⚖️ lawyer review before launch, D574) to read: the MSA,
+performers' funds and officers' declaration rules.
 
 ## Examples
 

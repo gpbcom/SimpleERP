@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -15,7 +15,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC16-03 | [People and partners](fl-sc16-03-people-and-partners.md) | ✅ |
 | 🔀 | FL-SC16-04 | [On site](fl-sc16-04-on-site.md) | ✅ |
 | 🔀 | FL-SC16-05 | [Declarations and reports](fl-sc16-05-declarations-and-reports.md) | ✅ |
-| 🔀 | FL-SC16-06 | [Cashless, cinemas, tours and photographers](fl-sc16-06-cashless-cinemas-tours-and-photos.md) | 🔄 |
+| 🔀 | FL-SC16-06 | [Cashless, cinemas, tours and photographers](fl-sc16-06-cashless-cinemas-tours-and-photos.md) | ✅ |
 
 ---
 

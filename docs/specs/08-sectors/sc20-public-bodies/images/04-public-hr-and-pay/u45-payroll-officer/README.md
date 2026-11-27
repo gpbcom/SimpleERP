@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC20-04 Public-sector HR and pay
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC20-04 Public-sector HR and pay](../../../flows/fl-sc20-04-public-hr-and-pay.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

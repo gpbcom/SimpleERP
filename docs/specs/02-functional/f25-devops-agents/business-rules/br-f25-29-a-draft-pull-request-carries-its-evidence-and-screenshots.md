@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-29 A draft pull request carries its evidence and screenshots
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -46,7 +46,7 @@ None.
 
 ## Configurable
 
-(Proposed) The order and the wording of the body's sections, by the maintainers; no section may be removed.
+The order and the wording of the body's sections, by the maintainers; no section may be removed.
 
 ## Open questions
 

@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-30 Payment means
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

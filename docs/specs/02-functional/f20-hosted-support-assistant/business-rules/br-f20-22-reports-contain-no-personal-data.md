@@ -4,7 +4,7 @@
 
 # 📏 BR-F20-22 Reports contain no personal data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

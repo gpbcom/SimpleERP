@@ -61,7 +61,9 @@ Entity states shown (VD-15):
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
 | E-F9-07 Applicant | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U01, U06 | `u01-employee/s-f09-08-referrals-e-f09-07-applicant-active-{desktop,phone}-{light,dark}.png`, `u06-hr/s-f09-08-referrals-e-f09-07-applicant-active-desktop-{light,dark}.png` |
-| E-F9-36 Employee referral | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U01, U06 | `u01-employee/s-f09-08-referrals-e-f09-36-employee-referral-active-{desktop,phone}-{light,dark}.png`, `u06-hr/s-f09-08-referrals-e-f09-36-employee-referral-active-desktop-{light,dark}.png` |
+| E-F9-36 Employee referral | Tracked | Badge "Tracked"; a new record starts here; next: Hired (UC-F9-08); fields editable within the role | U01, U06 | `u01-employee/s-f09-08-referrals-e-f09-36-employee-referral-tracked-{desktop,phone}-{light,dark}.png`, `u06-hr/s-f09-08-referrals-e-f09-36-employee-referral-tracked-desktop-{light,dark}.png` |
+| E-F9-36 Employee referral | Not counted | Badge "Not counted"; a new record can start here; final: read-only, no next state; the history shows how it got here | U01, U06 | `u01-employee/s-f09-08-referrals-e-f09-36-employee-referral-not-counted-{desktop,phone}-{light,dark}.png`, `u06-hr/s-f09-08-referrals-e-f09-36-employee-referral-not-counted-desktop-{light,dark}.png` |
+| E-F9-36 Employee referral | Hired | Badge "Hired"; final: read-only, no next state; the history shows how it got here | U01, U06 | `u01-employee/s-f09-08-referrals-e-f09-36-employee-referral-hired-{desktop,phone}-{light,dark}.png`, `u06-hr/s-f09-08-referrals-e-f09-36-employee-referral-hired-desktop-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

@@ -4,7 +4,7 @@
 
 # 📏 BR-F5-23 Postal campaigns honour opt-outs
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

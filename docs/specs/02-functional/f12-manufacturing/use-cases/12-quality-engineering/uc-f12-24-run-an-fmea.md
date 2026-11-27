@@ -4,7 +4,7 @@
 
 # 📝 UC-F12-24 Run an FMEA
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -106,7 +106,7 @@ sequenceDiagram
 ## Acceptance criteria
 
 1. **Given** a weld crack rated 8, 4 and 5 **when** it is saved **then** its risk priority is 160 and an action is
-   required above 100 (Proposed).
+   required above 100.
 2. **Given** the action done and occurrence rated 2 **when** it is re-rated **then** the priority drops to 80.
 3. **Given** an action due 12-20 open on 12-21 **when** the date passes **then** it is flagged.
 
@@ -116,7 +116,7 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: IEC 60812 (FMEA).
+Design reference, not a law: IEC 60812 (failure mode and effects analysis) ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Related use cases
 

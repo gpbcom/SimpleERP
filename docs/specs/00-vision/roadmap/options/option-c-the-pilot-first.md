@@ -3,7 +3,7 @@
 
 # 🎯 Option C: the pilot first
 
-**Status:** 🔄 waiting for the owner
+**Status:** 🚫 not adopted ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md))
 
 ## Principle
 
@@ -18,7 +18,7 @@ else is built during the pilot, so the pilot company's months of real use (D10) 
 | 1. DevOps agents | [F25](../../../02-functional/f25-devops-agents/README.md) | none | 28 (2 %) |  |
 | 2. Platform | [T1](../../../03-technical/t01-companies-and-data-isolation/README.md), [T2](../../../03-technical/t02-identity-and-access/README.md), [T3](../../../03-technical/t03-audit-trail/README.md), [T4](../../../03-technical/t04-plugin-runtime/README.md), [T5](../../../03-technical/t05-api-and-webhooks/README.md), [T6](../../../03-technical/t06-mcp-and-a2a-gateway/README.md), [T7](../../../03-technical/t07-ai-providers-and-models/README.md), [T8](../../../03-technical/t08-rag-platform/README.md), [T9](../../../03-technical/t09-install-backups-and-updates/README.md), [T10](../../../03-technical/t10-translations-and-notifications/README.md), [T11](../../../03-technical/t11-legal-corpora/README.md), [T12](../../../03-technical/t12-connectors-and-scrapers/README.md), [T13](../../../03-technical/t13-maps-and-geodata/README.md), [F1](../../../02-functional/f01-administration/README.md), [F2](../../../02-functional/f02-no-code-configuration/README.md), [F3](../../../02-functional/f03-assistant/README.md), [F4](../../../02-functional/f04-meetings/README.md), [F21](../../../02-functional/f21-onboarding-and-modules/README.md), [F22](../../../02-functional/f22-unified-cost-management/README.md) | 1 | 176 (14 %) |  |
 | 3. The pilot's business areas | [F6](../../../02-functional/f06-customers-and-sales/README.md), [F7](../../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../../02-functional/f08-accounting/README.md), [F9](../../../02-functional/f09-hr-and-projects/README.md), [F5](../../../02-functional/f05-social-media/README.md) | 2 | 176 (14 %) | D4 order, overlapping; e-invoicing (D454); data migration |
-| Gate: pilot ready | none | 3 | - | by 1 June 2027 (Proposed), before 1 September 2027 (D451) |
+| Gate: pilot ready | none | 3 | - | by 1 June 2027, before 1 September 2027 (D451) |
 | 4. Support, legal and the hub | [F15](../../../02-functional/f15-legal-assistant/README.md), [F16](../../../02-functional/f16-customer-support-agents/README.md), [F24](../../../02-functional/f24-integrations-hub/README.md) | 3 | 74 (6 %) | during the pilot |
 | 5. Plugins and the plugin store | [F10](../../../02-functional/f10-point-of-sale/README.md), [F11](../../../02-functional/f11-online-shop/README.md), [F12](../../../02-functional/f12-manufacturing/README.md), [F13](../../../02-functional/f13-payroll/README.md), [F14](../../../02-functional/f14-plugin-store/README.md) | 3 | 170 (14 %) | D15 |
 | 6. Growth and insight | [F17](../../../02-functional/f17-competitive-analysis/README.md), [F23](../../../02-functional/f23-what-if-simulation/README.md) | 4 | 63 (5 %) |  |
@@ -47,7 +47,7 @@ flowchart LR
 
 ## The dated pilot
 
-The pilot is the gate between step 3 and the rest. Proposed margin: the pilot company runs on SimpleERP by 1 June 2027,
+The pilot is the gate between step 3 and the rest. Margin: the pilot company runs on SimpleERP by 1 June 2027,
 three months before small companies must issue e-invoices (1 September 2027), so a failure can still be fixed in time.
 
 ## Decisions

@@ -13,4 +13,4 @@ The use cases of this flow.
 |---|---|---|---|
 | 📝 | UC-F13-18 | [Report yearly](uc-f13-18-report-yearly.md) | ✅ |
 | 📝 | UC-F13-19 | [Update rates and rules from the country pack](uc-f13-19-update-rates-and-rules-from-the-country-pack.md) | ✅ |
-| 📝 | UC-F13-34 | [Analyse payroll cost by site, project and analytic axis](uc-f13-34-analyse-payroll-cost-by-site-project-and-analytic-axis.md) | 🔄 |
+| 📝 | UC-F13-34 | [Analyse payroll cost by site, project and analytic axis](uc-f13-34-analyse-payroll-cost-by-site-project-and-analytic-axis.md) | ✅ |

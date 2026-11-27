@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -16,7 +16,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC10-04 | [Rents and landlords](fl-sc10-04-rents-and-landlords.md) | ✅ |
 | 🔀 | FL-SC10-05 | [Co-ownership](fl-sc10-05-co-ownership.md) | ✅ |
 | 🔀 | FL-SC10-06 | [Portal and assistant](fl-sc10-06-portal-and-assistant.md) | ✅ |
-| 🔀 | FL-SC10-07 | [Short stays, commercial leases, LMNP and coworking](fl-sc10-07-short-stays-commercial-and-coworking.md) | 🔄 |
+| 🔀 | FL-SC10-07 | [Short stays, commercial leases, LMNP and coworking](fl-sc10-07-short-stays-commercial-and-coworking.md) | ✅ |
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-15 Record and prove consent
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -126,7 +126,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Withdrawal applies to sends starting after it, within a minute (Proposed).
+Withdrawal applies to sends starting after it, within a minute.
 
 ## Regulatory references
 

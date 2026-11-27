@@ -4,11 +4,11 @@
 
 # 📏 BR-F5-11 Bounces and complaints are suppressed
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-A hard bounce or a complaint suppresses the address for marketing at once; soft bounces after 3 in a row (Proposed); a
+A hard bounce or a complaint suppresses the address for marketing at once; soft bounces after 3 in a row; a
 complaint rate above the threshold pauses sending.
 
 ## Why
@@ -32,7 +32,7 @@ None.
 
 ## Configurable
 
-The threshold (Proposed: 0.3 %).
+The threshold (default: 0.3 %).
 
 ## Open questions
 

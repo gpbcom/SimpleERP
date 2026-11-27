@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC17-01 Book staff and cabins
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

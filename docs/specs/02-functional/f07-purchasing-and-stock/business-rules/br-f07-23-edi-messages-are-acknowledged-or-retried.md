@@ -4,7 +4,7 @@
 
 # 📏 BR-F7-23 EDI messages are acknowledged or retried
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

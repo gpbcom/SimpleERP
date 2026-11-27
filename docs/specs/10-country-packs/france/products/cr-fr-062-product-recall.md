@@ -25,6 +25,7 @@ Since 2024-12-13.
 
 - [Regulatory](../../../02-functional/f07-purchasing-and-stock/regulatory.md)
 - [UC-F7-08 Trace lots and serials, recall](../../../02-functional/f07-purchasing-and-stock/use-cases/05-count-trace-and-analyse/uc-f07-08-trace-lots-and-serials-recall.md)
+- [UC-SC17-12 Keep cosmetics safety records](../../../08-sectors/sc17-beauty-and-wellness/use-cases/03-salon-retail-and-stock/uc-sc17-12-keep-cosmetics-safety-records.md)
 
 ## When the law changes
 
@@ -33,7 +34,10 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Five years' imprisonment and a 600 000 EUR fine, or up to 10 % of the average yearly turnover, for a manufacturer or
+importer who does not take the corrective measures of Regulation (EU) 2023/988 art. 9(8) and 11(8), or a
+marketplace that breaches art. 22(12) (CConso L452-5-1, since 2024-12-13); the same for a food operator who does
+not apply the withdrawal or recall procedures of Regulation (EC) 178/2002 (L452-5) ([Code de la consommation, art. L452-1 to L452-7](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000032225277), read 2026-11-27).
 
 ## Exceptions
 

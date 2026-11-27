@@ -136,7 +136,7 @@ As UC-F4-05.
 
 ## Regulatory references
 
-GDPR: HR data; professional interviews
+GDPR: HR data; career-path interviews at most every 4 years and a review every 8 years
 ([CR-FR-039](../../../../10-country-packs/france/labour/cr-fr-039-professional-interviews.md)).
 
 ## Related use cases

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC07-18 A failed delivery gets a new slot or a relay point
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

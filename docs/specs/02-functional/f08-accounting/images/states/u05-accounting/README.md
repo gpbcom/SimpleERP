@@ -108,11 +108,71 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f08-03-supplier-bills-e-f08-28-payment-run-active-desktop, light](s-f08-03-supplier-bills-e-f08-28-payment-run-active-desktop-light.png) | ![s-f08-03-supplier-bills-e-f08-28-payment-run-active-desktop, dark](s-f08-03-supplier-bills-e-f08-28-payment-run-active-desktop-dark.png) |
 
+## s-f08-03-supplier-bills-e-f08-28-payment-run-waiting-for-a-check-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-03-supplier-bills-e-f08-28-payment-run-waiting-for-a-check-desktop, light](s-f08-03-supplier-bills-e-f08-28-payment-run-waiting-for-a-check-desktop-light.png) | ![s-f08-03-supplier-bills-e-f08-28-payment-run-waiting-for-a-check-desktop, dark](s-f08-03-supplier-bills-e-f08-28-payment-run-waiting-for-a-check-desktop-dark.png) |
+
+## s-f08-03-supplier-bills-e-f08-28-payment-run-approved-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-03-supplier-bills-e-f08-28-payment-run-approved-desktop, light](s-f08-03-supplier-bills-e-f08-28-payment-run-approved-desktop-light.png) | ![s-f08-03-supplier-bills-e-f08-28-payment-run-approved-desktop, dark](s-f08-03-supplier-bills-e-f08-28-payment-run-approved-desktop-dark.png) |
+
+## s-f08-03-supplier-bills-e-f08-28-payment-run-sent-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-03-supplier-bills-e-f08-28-payment-run-sent-desktop, light](s-f08-03-supplier-bills-e-f08-28-payment-run-sent-desktop-light.png) | ![s-f08-03-supplier-bills-e-f08-28-payment-run-sent-desktop, dark](s-f08-03-supplier-bills-e-f08-28-payment-run-sent-desktop-dark.png) |
+
+## s-f08-03-supplier-bills-e-f08-28-payment-run-paid-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-03-supplier-bills-e-f08-28-payment-run-paid-desktop, light](s-f08-03-supplier-bills-e-f08-28-payment-run-paid-desktop-light.png) | ![s-f08-03-supplier-bills-e-f08-28-payment-run-paid-desktop, dark](s-f08-03-supplier-bills-e-f08-28-payment-run-paid-desktop-dark.png) |
+
+## s-f08-03-supplier-bills-e-f08-28-payment-run-refused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-03-supplier-bills-e-f08-28-payment-run-refused-desktop, light](s-f08-03-supplier-bills-e-f08-28-payment-run-refused-desktop-light.png) | ![s-f08-03-supplier-bills-e-f08-28-payment-run-refused-desktop, dark](s-f08-03-supplier-bills-e-f08-28-payment-run-refused-desktop-dark.png) |
+
 ## s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop
 
 | Light | Dark |
 |---|---|
 | ![s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop-dark.png) |
 
 ## s-f08-12-expenses-e-f08-09-expense-claim-draft-desktop
 

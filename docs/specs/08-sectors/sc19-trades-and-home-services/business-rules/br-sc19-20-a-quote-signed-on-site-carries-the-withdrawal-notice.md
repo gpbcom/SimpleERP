@@ -3,19 +3,25 @@
 
 # 📏 BR-SC19-20 A quote signed on site carries the withdrawal notice
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-A quote signed at the customer's home carries the withdrawal notice and form and states the delay; no payment is taken
-in the delay except for an urgent repair the customer asked for in writing and only for that part. The customer always
+A quote signed at the customer's home carries the withdrawal notice and form and states the 14-day withdrawal delay.
+No payment and no consideration of any kind is taken for 7 days from the signature, except for an urgent repair the
+customer expressly asked for, limited to the parts and work strictly needed for the emergency. The customer always
 receives a signed copy.
 
 ## Why
 
 A quote signed at home without the notice can be cancelled and the company can be fined
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The withdrawal delay of 14
+days is read in
+[CR-FR-036 Consumer withdrawal right](../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md).
+For a contract signed at the customer's home the law forbids any payment or consideration for 7 days from the
+signature (Code de la consommation L221-10), and an urgent repair the customer expressly asked for, limited to the parts
+and work strictly needed, has no withdrawal right (L221-28); the 14-day withdrawal right stays for everything else. The
+owner chose to follow the law rather than a longer ban ([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Examples
 
@@ -23,7 +29,9 @@ rule is written later.
 |---|---|
 | Quote signed at home | notice and form attached, delay stated |
 | Deposit asked on the day | refused |
-| Urgent repair asked in writing | that part starts at once |
+| Payment asked on day 5 after the signature | refused |
+| Payment asked on day 8, the customer has not withdrawn | taken; the withdrawal right still runs to day 14 |
+| Urgent repair the customer expressly asked for | that part starts at once and may be paid, with no withdrawal right for it |
 | Customer without email | paper copy handed over |
 | Customer withdraws in the delay | the quote is cancelled and nothing is due |
 
@@ -39,7 +47,7 @@ None.
 
 ## Configurable
 
-The notice text and the delay, from the country pack.
+The notice text, the 14-day withdrawal delay and the 7-day payment ban, from the country pack.
 
 ## Open questions
 

@@ -23,7 +23,8 @@ the result alone, asks reasonable advances, and gives a detailed final statement
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Loi n° 71-1130 art. 10 in its current version since 2026-08-05 ([Loi n° 71-1130, art. 10](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000031008982), read 2026-11-27); code of ethics
+articles 10 to 12 since 2023-07-03 ([décret n° 2023-552 du 30 juin 2023](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047774060), read 2026-11-27).
 
 ## Enforced by
 

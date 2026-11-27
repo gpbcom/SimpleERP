@@ -5,7 +5,7 @@
 
 # 📝 UC-F22-27 Buy prepaid credit packs
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -167,10 +167,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 Prepaid credits sold to a sole trader or a consumer need the information before an online order, a stated
 validity and expiry, and the withdrawal right for digital services not yet started:
 [CR-FR-065](../../../../10-country-packs/france/consumer/cr-fr-065-online-pre-contract-information.md),
-[CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md). (Proposed) The VAT treatment of
-a prepaid pack, due at purchase or at use, follows the France pack and is decided with the accountant: see
-[CR-FR-013](../../../../10-country-packs/france/tax-and-vat/cr-fr-013-vouchers-vat.md) for vouchers. The France-pack
-rule on prepaid credits is written later.
+[CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md). (⚖️ lawyer review before launch, D574) The VAT
+treatment of a prepaid pack, due at purchase or at use, is decided with a tax adviser: to read whether a pack is a
+single-purpose voucher (VAT at sale) or a multi-purpose one (VAT at use) under
+[CR-FR-013](../../../../10-country-packs/france/tax-and-vat/cr-fr-013-vouchers-vat.md); the France-pack rule on
+prepaid credits is still to write.
 
 ## Related use cases
 

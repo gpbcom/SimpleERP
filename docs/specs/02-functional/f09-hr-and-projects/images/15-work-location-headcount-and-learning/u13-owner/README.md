@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F9-15 Work location, headcount, careers and learning
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F9-15 Work location, headcount, careers and learning](../../../flows/fl-f09-15-work-location-headcount-and-learning.md)

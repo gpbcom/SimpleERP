@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -15,7 +15,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC04-03 | [Visit](fl-sc04-03-visit.md) | ✅ |
 | 🔀 | FL-SC04-04 | [Bill and fund](fl-sc04-04-bill-and-fund.md) | ✅ |
 | 🔀 | FL-SC04-05 | [People and quality](fl-sc04-05-people-and-quality.md) | ✅ |
-| 🔀 | FL-SC04-06 | [Care homes, CESU, agent mode, childcare and nursing](fl-sc04-06-care-homes-cesu-and-nursing.md) | 🔄 |
+| 🔀 | FL-SC04-06 | [Care homes, CESU, agent mode, childcare and nursing](fl-sc04-06-care-homes-cesu-and-nursing.md) | ✅ |
 
 ---
 

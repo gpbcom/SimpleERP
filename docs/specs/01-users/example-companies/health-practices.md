@@ -2,21 +2,21 @@
 
 # 🩺 Health practices
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Company
 
-(Proposed) Maison de santé des Coteaux, a fictional multi-professional health centre in a mid-sized town, owned by its
+Maison de santé des Coteaux, a fictional multi-professional health centre in a mid-sized town, owned by its
 practitioners.
 
 ## Activity
 
-(Proposed) Consultations by general practitioners, a dentist, physiotherapists and nurses; appointments online and at
+Consultations by general practitioners, a dentist, physiotherapists and nurses; appointments online and at
 the desk, teleconsultation, care at the centre and at home.
 
 ## Size
 
-(Proposed) 9 practitioners (4 general practitioners, 1 dentist, 2 physiotherapists, 2 nurses), 3 medical secretaries and
+9 practitioners (4 general practitioners, 1 dentist, 2 physiotherapists, 2 nurses), 3 medical secretaries and
 a part-time accountant; one building with 8 consulting rooms; about 120 appointments a day. The sector's profile covers
 practices of 1 to 50 practitioners. Several locations are possible
 ([D32](../../06-decisions/technical/d32-several-locations.md)).

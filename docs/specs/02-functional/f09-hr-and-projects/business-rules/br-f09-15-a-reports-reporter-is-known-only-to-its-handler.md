@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-15 A report's reporter is known only to its handler
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -12,7 +12,8 @@ answered within 3 months.
 
 ## Why
 
-Reporters are protected by law (Proposed) to read: Sapin II as amended in 2022.
+Reporters are protected by law. (⚖️ lawyer review before launch, D574) to read: law 2016-1691 (Sapin II) as amended by law 2022-401
+(Waserman), and decree 2022-1284; no France-pack rule reads them yet.
 
 ## Examples
 

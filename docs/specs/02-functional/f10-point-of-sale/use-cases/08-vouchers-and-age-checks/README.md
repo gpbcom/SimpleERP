@@ -13,4 +13,4 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-F10-21 | [Accept meal vouchers within the daily cap](uc-f10-21-accept-meal-vouchers-within-the-daily-cap.md) | ✅ |
-| 📝 | UC-F10-22 | [Check age for restricted sales](uc-f10-22-check-age-for-restricted-sales.md) | 🔄 |
+| 📝 | UC-F10-22 | [Check age for restricted sales](uc-f10-22-check-age-for-restricted-sales.md) | ✅ |

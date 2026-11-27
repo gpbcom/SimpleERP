@@ -3,7 +3,7 @@
 
 # 🧵 Import export
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -48,7 +48,7 @@ then the import with its report. An export is a button of the list or report, wi
 - A dry run always comes first; nothing is written before the user confirms
   ([D424](../../../06-decisions/technical/d424-importers.md)).
 - Lines in error are listed with their message and can be downloaded, fixed and imported again; good lines are not
-  blocked by bad ones (Proposed).
+  blocked by bad ones.
 - An imported pack shows what it adds and changes before it applies, as on
   [S-F2-11 Packs](../../../02-functional/f02-no-code-configuration/screens/06-share-a-configuration/s-f02-11-packs.md).
 - An export holds only what the user may see ([D12](../../../06-decisions/foundations/d12-permissions-model.md)); large

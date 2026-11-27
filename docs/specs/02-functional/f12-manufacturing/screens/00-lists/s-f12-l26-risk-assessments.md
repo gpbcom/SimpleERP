@@ -22,6 +22,9 @@ find, filter, total and act on many risk assessments at once
 [list view template](../../../../_templates/list-view.md) and the
 [aggregated list view pattern](../../../../04-ux/design-system/patterns/aggregated-list-view.md).
 
+The company keeps one risk assessment document listing every work unit of every site; each row is one of its kept
+versions ([BR-F12-15](../../business-rules/br-f12-15-risk-assessment-versions-kept.md)).
+
 ## Entry points
 
 - **Menu:** Manufacturing (plugin) › Risk assessments, in the capability's menu (D495).
@@ -34,10 +37,11 @@ find, filter, total and act on many risk assessments at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Risk assessments    Manufacturing (plugin) › Risk assessments   [+ New]                                      |
-| [count]   [chart: count by state]                                                                            |
+| [count] [due in 7 days]   [chart: count by state]                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] RISK ASSESSMENT   STATE                                                              |
+| state             | [ ] RISK ASSESSM   VERSION   VERSION DATE   WORK UNITS   SITES   NEXT UPDATE    STATE    |
+|                   | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,7 +51,12 @@ find, filter, total and act on many risk assessments at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Risk assessment | the record's title | text | yes |
+| Risk assessment | title | text | yes |
+| Version | version | number, right-aligned | yes |
+| Version date | version date | date | yes |
+| Work units | work units (count) | number, right-aligned | yes |
+| Sites | work units: site | text | yes |
+| Next update due | next update due | date | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -62,11 +71,13 @@ Eligible for: None: these records are neither people who can be scheduled nor wo
 
 ## Related-record filters
 
-None: risk assessments link to no other record type in their fields.
+- Risk assessments of a chosen company site, or of the company sites that match a filter.
+- From the other side: the company sites that have risk assessments, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Due in 7 days, by next update due.
 
 Recomputed on the filtered visible rows (D487, C-16).
 

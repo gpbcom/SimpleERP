@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F23-07 Accuracy and drivers
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F23-07 Accuracy and drivers](../../../flows/fl-f23-07-accuracy-and-drivers.md) for this persona, in light
 and dark mode (D120, D121). Errors follow the

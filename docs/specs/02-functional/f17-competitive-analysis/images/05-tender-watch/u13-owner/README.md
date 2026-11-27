@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F17-05 Tender watch
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F17-05 Tender watch](../../../flows/fl-f17-05-tender-watch.md) for this persona, in light and dark mode
 (D120, D121). Errors follow the [error message pattern](../../../../../04-ux/design-system/patterns/error-messages.md).

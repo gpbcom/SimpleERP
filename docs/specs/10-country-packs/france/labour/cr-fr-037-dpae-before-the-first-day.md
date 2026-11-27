@@ -19,7 +19,7 @@ An employee does not start before the hiring declaration (DPAE) is sent to URSSA
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2025-12-28: L1221-10 in force since 2008-05-01, R1221-5 since 2025-12-28 ([Code du travail, art. L1221-10](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006195587), [art. R1221-4 and R1221-5](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018482811), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +33,7 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+A penalty of 300 times the hourly minimum guaranteed wage (L1221-11), and the fine of a 5th-class contravention, up to 1 500 EUR (R1227-1) ([Code du travail, art. L1221-11](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006195587), [art. R1227-1](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018483004), [Code pénal, art. 131-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417259), read 2026-11-27).
 
 ## Exceptions
 

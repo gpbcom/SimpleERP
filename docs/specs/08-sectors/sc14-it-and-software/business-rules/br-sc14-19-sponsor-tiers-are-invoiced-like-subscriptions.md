@@ -3,7 +3,7 @@
 
 # 📏 BR-SC14-19 Sponsor tiers are invoiced like subscriptions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,9 @@ collection and dunning steps. Its benefits are active only while it is Active an
 
 Sponsors that are invoiced by hand are forgotten and sponsors that stay listed after they stop paying are a grievance.
 The owner asked for open-source sponsorship
-([D558](../../../06-decisions/sectors/d558-benchmark-gaps-sc14-it-and-software.md)). (Proposed) The France-pack rule is
-written later.
+([D558](../../../06-decisions/sectors/d558-benchmark-gaps-sc14-it-and-software.md)). The invoices follow the
+France pack's numbering and mentions (CR-FR-014, CR-FR-015); a payment for visibility is a service with VAT, not a
+gift.
 
 ## Examples
 

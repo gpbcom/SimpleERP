@@ -3,7 +3,7 @@
 
 # 🧩 C-15 Facet panel
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-03 / D486)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -32,11 +32,11 @@ of visible records that have it, and by related-record filters
 ```
 
 1. **Header:** "Facets" and **Clear**, shown when a value is ticked.
-2. **Facet groups:** one per facet field of the view card, 8 at most (rule VR-5 of the
-   [plan](../../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md#view-rules)): state, category, people and link
-   fields. Each value has a box, its label and its count, counted on the visible rows only
+2. **Facet groups:** one per facet field of the view card, 8 at most (rule VR-5 of the plan (the owner's interview notes
+   of 2026-11 for the specifications, not kept in the repository)): state, category, people and link fields. Each value
+   has a box, its label and its count, counted on the visible rows only
    [D488](../../../06-decisions/ux/d488-totals-facets-charts-ai-answers-and-exports-on-visible-rows-only.md).
-3. **Show more:** (Proposed) a group shows 5 values, the rest behind "Show n more".
+3. **Show more:** a group shows 5 values, the rest behind "Show n more".
 4. **Eligible for:** on the views where scheduling attributes apply, one value per request type or operation with
    required attributes; see the [pattern](../patterns/aggregated-list-view.md)
    [D511](../../../06-decisions/f09-hr-and-projects/d511-required-or-preferred-attributes-legal-ones-always-required.md).
@@ -54,18 +54,18 @@ of visible records that have it, and by related-record filters
 - **Sidebar:** on a desktop and a tablet, at the left of the table.
 - **Drawer:** on a phone, opened by "Facets" in the toolbar, with the result count and "Show n results" at the bottom
   ([D491](../../../06-decisions/ux/d491-on-a-phone-the-list-keeps-its-table-and-scrolls-sideways.md)).
-- **Range facet:** (Proposed) for an amount or a date: preset ranges with counts ("Due in 7 days 9"), and "Custom".
-- **Searchable facet:** (Proposed) a search field in a group with more than 20 values, such as people or customers.
+- **Range facet:** for an amount or a date: preset ranges with counts ("Due in 7 days 9"), and "Custom".
+- **Searchable facet:** a search field in a group with more than 20 values, such as people or customers.
 
 ## States
 
 | State | Look |
 |---|---|
-| Loading | (Proposed) The groups with skeleton counts; boxes disabled until the counts arrive |
+| Loading | The groups with skeleton counts; boxes disabled until the counts arrive |
 | Default | Values with their counts, none ticked |
 | Value ticked | Box ticked, the value in `color-primary`; its chip appears in the toolbar |
-| Zero count | (Proposed) Values with no visible record are hidden, unless ticked |
-| Recounting | (Proposed) The counts dim while the server recounts; boxes stay usable |
+| Zero count | Values with no visible record are hidden, unless ticked |
+| Recounting | The counts dim while the server recounts; boxes stay usable |
 | No facet | No facet field the user may read: the panel is not shown |
 | Error | The counts are replaced by a dash and a retry link ([error message pattern](../patterns/error-messages.md)) |
 

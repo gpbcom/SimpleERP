@@ -12,7 +12,8 @@ A fixed-term contract states its reason for recourse and is renewed at most twic
 ## Values
 
 - Mandatory reason and mentions (L1242-12).
-- At most 2 renewals (L1243-13).
+- At most 2 renewals when no extended branch agreement sets another number (L1243-13-1); an extended branch agreement
+  may set the number (L1243-13) ([Code du travail, art. L1243-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035643980), [art. L1243-13-1](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006189460), read 2026-11-27).
 
 ## Legal references
 
@@ -20,7 +21,8 @@ A fixed-term contract states its reason for recourse and is renewed at most twic
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2017-09-24: L1242-12 in force since 2008-05-01, L1243-13 and L1243-13-1 since
+2017-09-24 ([Code du travail, art. L1242-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006901206), [art. L1243-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035643980), [art. L1243-13-1](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006189460), read 2026-11-27).
 
 ## Enforced by
 
@@ -38,7 +40,9 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+A contract not in writing or without its precise reason: 3 750 EUR fine, 7 500 EUR and 6
+months' imprisonment on repeat (L1248-6), and the contract is deemed open-ended (L1242-12). A renewal in breach
+of L1243-13 or L1243-13-1: the same penalty (L1248-10) ([Code du travail, art. L1248-6 and L1248-10](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006177872), [art. L1242-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006901206), read 2026-11-27).
 
 ## Exceptions
 

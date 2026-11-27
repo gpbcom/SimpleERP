@@ -15,8 +15,10 @@
 
 ## Purpose
 
-The aggregated list of every [E-F12-29 Unbuild order](../../data/e-f12-29-unbuild-order.md) the user may see: to find,
-filter, total and act on many unbuild orders at once
+The aggregated list of every [E-F12-04 Manufacturing order](../../data/e-f12-04-manufacturing-order.md) of the kind
+unbuild, rework or repair the user may see: an unbuild order is not a separate record but a manufacturing order of
+one of these kinds ([E-F12-29](../../data/e-f12-29-unbuild-order.md), D573). The list shows that kind as a column and
+the states of E-F12-04; it is for finding, filtering, totalling and acting on many unbuild orders at once
 ([D484](../../../../06-decisions/ux/d484-aggregated-list-view-per-record-type-and-persona-workspaces.md),
 [D485](../../../../06-decisions/ux/d485-every-entity-has-an-aggregated-view.md)). Written from the
 [list view template](../../../../_templates/list-view.md) and the
@@ -34,10 +36,13 @@ filter, total and act on many unbuild orders at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Unbuild orders    Manufacturing (plugin) › Unbuild orders   [+ New]                                          |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Draft]   [chart: count by state]                                                                    |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] UNBUILD ORDER   STATE                                                                |
+| state             | [ ] REFERENCE   KIND   SOURCE ORDER   PRODUCT, QUA   LOT OR SERIA   UNDER GUARAN   STATE |
+| kind              | [ ] ...                                                  Open >                          |
+| source order      | [ ] ...                                                  Open >                          |
+| under guarantee   | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,8 +52,13 @@ filter, total and act on many unbuild orders at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Unbuild order | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Reference | reference | text | yes |
+| Kind | kind | label | yes |
+| Source order | source order | link to the record | yes |
+| Product, quantity | product, quantity | text | yes |
+| Lot or serial | lot or serial | text | yes |
+| Under guarantee | under guarantee | yes or no | yes |
+| State | state | badge: Draft, Confirmed, In progress, Done, Cancelled | yes |
 
 Secrets are never a column (VR-4).
 
@@ -56,17 +66,22 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Draft, Confirmed, In progress, Done, Cancelled | the visible rows (D488) |
+| Kind | make, unbuild, rework, repair, subcontract | the visible rows (D488) |
+| Source order | each linked source order | the visible rows (D488) |
+| Under guarantee | yes, no | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: unbuild orders link to no other record type in their fields.
+- Unbuild orders of a chosen manufacturing order, or of the manufacturing orders that match a filter.
+- From the other side: the manufacturing orders that have unbuild orders, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Draft.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -78,6 +93,8 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Open: Draft, Confirmed, In progress.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -91,6 +108,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New unbuild order | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -106,7 +124,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| customer | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

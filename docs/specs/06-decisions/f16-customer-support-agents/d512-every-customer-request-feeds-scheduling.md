@@ -3,7 +3,7 @@
 
 # 📜 D512 Every customer request feeds scheduling
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-30 / D512)
+**Status:** ✅ decided
 
 ## Context
 
@@ -20,8 +20,8 @@ engagements, bookings and appointments.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-30).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-30).
 
 ## Consequences
 
@@ -38,7 +38,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [FL-F9-12 Schedule customer
   requests](../../02-functional/f09-hr-and-projects/flows/fl-f09-12-schedule-customer-requests.md)
 - [D513 One work request whatever the channel](d513-one-work-request-whatever-the-channel.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

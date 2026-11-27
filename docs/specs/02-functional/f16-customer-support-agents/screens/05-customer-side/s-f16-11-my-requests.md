@@ -4,7 +4,7 @@
 
 # 🖥️ S-F16-11 My requests
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -63,7 +63,7 @@ My requests
 - Loading: the frame and titles show at once with placeholder rows for the requests; within 1 second (D408) the data
   replaces them, and a longer load shows a progress line saying what loads.
 - Error: an expired link, with the sign-in.
-- Read-only: resolved requests are read-only, with "Reopen" for (Proposed) 7 days.
+- Read-only: resolved requests are read-only, with "Reopen" for 7 days.
 - Offline: Requests last loaded stay readable; replies are sent only online. Nothing else is queued: D38 keeps only
   today's schedule, time and intervention records offline; a banner says the connection is lost and the actions come
   back with it.

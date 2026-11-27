@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F10-11 Store reports
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F10-11 Store reports](../../../flows/fl-f10-11-store-reports.md) for this persona, in light and dark mode
 (D120, D121). Errors follow the [error message pattern](../../../../../04-ux/design-system/patterns/error-messages.md).

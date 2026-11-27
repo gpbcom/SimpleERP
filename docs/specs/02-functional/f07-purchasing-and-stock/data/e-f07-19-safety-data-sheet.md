@@ -3,7 +3,7 @@
 
 # 🗃️ E-F7-19 Safety data sheet
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -39,7 +39,8 @@ By item and class; the hazardous stock register.
 
 ## Retention
 
-10 years after the item's last use (Proposed).
+10 years after the item's last use (⚖️ lawyer review before launch, D574: Regulation (EC) 1907/2006 (REACH), article 36;
+no France-pack rule reads it).
 
 ## Audit
 

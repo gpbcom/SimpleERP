@@ -3,7 +3,7 @@
 
 # 📝 UC-F8-38 Send and receive invoices through Peppol
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -168,9 +168,9 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 France's approved e-invoicing platforms carry invoices between French companies:
 [D454](../../../../06-decisions/f08-accounting/d454-e-invoicing-platforms.md),
-[CR-FR-016](../../../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md). (Proposed) The scope of
-Peppol against the French platforms is written later as a France-pack rule; this page states only that Peppol does not
-replace them.
+[CR-FR-016](../../../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md). Invoices between
+French companies go through a registered platform (PA) chosen by the company, received from 2026-09-01 and issued from
+the company's size date; Peppol does not replace that platform.
 
 ## Related use cases
 

@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -16,7 +16,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC09-04 | [Health exchanges](fl-sc09-04-health-exchanges.md) | ✅ |
 | 🔀 | FL-SC09-05 | [Practice organisation](fl-sc09-05-practice-organisation.md) | ✅ |
 | 🔀 | FL-SC09-06 | [Compliance and certification](fl-sc09-06-compliance-and-certification.md) | ✅ |
-| 🔀 | FL-SC09-07 | [Pharmacy, eyewear, vets, dental and health centres](fl-sc09-07-pharmacy-vets-dental-and-centres.md) | 🔄 |
+| 🔀 | FL-SC09-07 | [Pharmacy, eyewear, vets, dental and health centres](fl-sc09-07-pharmacy-vets-dental-and-centres.md) | ✅ |
 
 ---
 

@@ -7,12 +7,15 @@
 
 ## Statement
 
-(Proposed) A property is listed for sale or letting only with its diagnostics valid; in France:
+A property is listed for sale or letting only with its diagnostics valid; in France:
 [CR-FR-144 Mandatory property diagnostics](../../../10-country-packs/france/real-estate/cr-fr-144-property-diagnostics.md).
 
 ## Why
 
-(Proposed) The validity periods are still to read.
+The diagnostics required depend on the building's age, equipment and zone: energy performance; lead before 1949;
+asbestos before 1 July 1997; electricity and gas over 15 years old; termites, risks and noise by zone; an energy audit
+for houses rated E to G; for a letting, the file is attached to the lease at signature and renewal
+([CR-FR-144](../../../10-country-packs/france/real-estate/cr-fr-144-property-diagnostics.md)).
 
 ## Examples
 

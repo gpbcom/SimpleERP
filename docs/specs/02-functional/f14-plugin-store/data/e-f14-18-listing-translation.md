@@ -3,7 +3,7 @@
 
 # 🗃️ E-F14-18 Listing translation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -49,7 +49,7 @@ Every creation and change, with who, when, the old and the new value.
 
 ## Import and export
 
-Import and export of translation files (Proposed) PO or JSON.
+Import and export of translation files PO or JSON.
 
 ## Used by
 

@@ -12,11 +12,11 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-F5-24 | [Marketing cards](s-f05-24-marketing-cards.md) | 🔄 |
-| 🖥️ | S-F5-25 | [Referral programme](s-f05-25-referral-programme.md) | 🔄 |
-| 🖥️ | S-F5-26 | [Push campaign](s-f05-26-push-campaign.md) | 🔄 |
-| 🖥️ | S-F5-27 | [Brand mentions](s-f05-27-brand-mentions.md) | 🔄 |
-| 🖥️ | S-F5-28 | [Postal campaign](s-f05-28-postal-campaign.md) | 🔄 |
+| 🖥️ | S-F5-24 | [Marketing cards](s-f05-24-marketing-cards.md) | ✅ |
+| 🖥️ | S-F5-25 | [Referral programme](s-f05-25-referral-programme.md) | ✅ |
+| 🖥️ | S-F5-26 | [Push campaign](s-f05-26-push-campaign.md) | ✅ |
+| 🖥️ | S-F5-27 | [Brand mentions](s-f05-27-brand-mentions.md) | ✅ |
+| 🖥️ | S-F5-28 | [Postal campaign](s-f05-28-postal-campaign.md) | ✅ |
 
 ---
 

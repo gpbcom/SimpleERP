@@ -59,7 +59,8 @@ Entity states shown (VD-15):
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
 | E-F4-07 Evaluation grid | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U02, U06 | `u02-manager/s-f04-12-interview-evaluation-e-f04-07-evaluation-grid-active-{desktop,phone}-{light,dark}.png`, `u06-hr/s-f04-12-interview-evaluation-e-f04-07-evaluation-grid-active-desktop-{light,dark}.png` |
-| E-F4-21 Interview debrief | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U02, U06 | `u02-manager/s-f04-12-interview-evaluation-e-f04-21-interview-debrief-active-{desktop,phone}-{light,dark}.png`, `u06-hr/s-f04-12-interview-evaluation-e-f04-21-interview-debrief-active-desktop-{light,dark}.png` |
+| E-F4-21 Interview debrief | To validate | Badge "To validate"; a new record starts here; next: Sent (UC-F4-13); fields editable within the role | U02, U06 | `u02-manager/s-f04-12-interview-evaluation-e-f04-21-interview-debrief-to-validate-{desktop,phone}-{light,dark}.png`, `u06-hr/s-f04-12-interview-evaluation-e-f04-21-interview-debrief-to-validate-desktop-{light,dark}.png` |
+| E-F4-21 Interview debrief | Sent | Badge "Sent"; final: read-only, no next state; the history shows how it got here | U02, U06 | `u02-manager/s-f04-12-interview-evaluation-e-f04-21-interview-debrief-sent-{desktop,phone}-{light,dark}.png`, `u06-hr/s-f04-12-interview-evaluation-e-f04-21-interview-debrief-sent-desktop-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

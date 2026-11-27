@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-35 Pay posted workers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -168,7 +168,7 @@ during the posting. The France-pack rule is listed below. Related:
 [CR-FR-098](../../../../10-country-packs/france/labour/cr-fr-098-lawful-staff-lending.md),
 [CR-FR-101](../../../../10-country-packs/france/labour/cr-fr-101-undeclared-work.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-218 Posted workers and the SIPSI declaration](../../../../10-country-packs/france/labour/cr-fr-218-posted-workers-sipsi.md)
 
 ## Related use cases

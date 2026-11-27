@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F12-14 CAD, kanban, MPS and tools
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

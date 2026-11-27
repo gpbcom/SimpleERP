@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-29 Planners see eligibility, never sensitive details
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-24, VD-29 / D506, D511)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -45,7 +45,7 @@ None.
 
 ## Configurable
 
-No. (Proposed) The wording of the short reasons comes from the qualification type catalogue and is translated (T10).
+No. The wording of the short reasons comes from the qualification type catalogue and is translated (T10).
 
 ## Open questions
 

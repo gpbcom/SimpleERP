@@ -12,6 +12,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F5-21 | [Keep the brand kit and asset library](uc-f05-21-keep-the-brand-kit-and-asset-library.md) | 🔄 |
+| 📝 | UC-F5-21 | [Keep the brand kit and asset library](uc-f05-21-keep-the-brand-kit-and-asset-library.md) | ✅ |
 | 📝 | UC-F5-22 | [A/B test posts, emails and SMS](uc-f05-22-a-b-test-posts-emails-and-sms.md) | ✅ |
 | 📝 | UC-F5-23 | [Track campaign budget, cost per lead and return](uc-f05-23-track-campaign-budget-cost-per-lead-and-return.md) | ✅ |

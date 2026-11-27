@@ -57,7 +57,7 @@ A few agents per company, switched on over the first months.
 4. The user switches the agent on: it starts in suggestion mode
    ([BR-F3-44](../../business-rules/br-f03-44-ready-made-agents-start-in-suggestion-mode.md)).
 5. The agent makes its first suggestions; the approver accepts, edits or refuses each one.
-6. After the trial (20 suggestions or 14 days, Proposed) the agent shows its acceptance rate; the owner may move it to
+6. After the trial (20 suggestions or 14 days) the agent shows its acceptance rate; the owner may move it to
    act alone within thresholds ([UC-F3-11](../10-benchmark-additions/uc-f03-11-govern-ai-agents.md)).
 
 ## Alternative flows

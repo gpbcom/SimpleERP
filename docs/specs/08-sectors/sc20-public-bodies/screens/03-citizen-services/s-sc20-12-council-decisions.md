@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-12 Council decisions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

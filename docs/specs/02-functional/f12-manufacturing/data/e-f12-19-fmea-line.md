@@ -3,7 +3,7 @@
 
 # 🗃️ E-F12-19 FMEA line
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -39,7 +39,8 @@ By priority.
 
 ## Retention
 
-Product life + 10 years (Proposed).
+Product life + 10 years (⚖️ lawyer review before launch, D574: Code civil 1245-15, the producer's liability ending 10 years
+after the product is put into circulation; no France-pack rule reads it).
 
 ## Audit
 

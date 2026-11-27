@@ -4,7 +4,7 @@
 
 # 📝 UC-F14-22 Deprecate a plugin and announce its end of life
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -73,7 +73,7 @@ Publisher: its own listings. Administrator: reads notices and exports. Store ope
 
 ## Notifications
 
-- Every installing administrator when the notice is published, and (Proposed) 30 days and 7 days before the end date.
+- Every installing administrator when the notice is published, and 30 days and 7 days before the end date.
 
 ## Audit events
 

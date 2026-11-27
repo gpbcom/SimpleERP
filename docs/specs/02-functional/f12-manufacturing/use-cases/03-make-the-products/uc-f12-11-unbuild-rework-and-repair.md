@@ -38,7 +38,7 @@ F12 set up for the company.
 
 ## Main flow
 
-1. The planner opens an unbuild or repair order
+1. The planner opens a manufacturing order of the kind unbuild, rework or repair
    ([S-F12-11](../../screens/03-make-the-products/s-f12-11-unbuild-and-repair.md)).
 2. Parts and work are recorded.
 3. Recovered parts return to stock with their lots.
@@ -58,8 +58,7 @@ F12 set up for the company.
 
 ## Entities
 
-- [E-F12-04 Manufacturing order](../../data/e-f12-04-manufacturing-order.md)
-- [E-F12-29 Unbuild order](../../data/e-f12-29-unbuild-order.md)
+- [E-F12-04 Manufacturing order](../../data/e-f12-04-manufacturing-order.md), of the kind unbuild, rework or repair
 
 ## Permissions
 

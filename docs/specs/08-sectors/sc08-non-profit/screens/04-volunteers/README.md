@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC08-10 | [Missions](s-sc08-10-missions.md) | 🔄 |
-| 🖥️ | S-SC08-11 | [Volunteer time](s-sc08-11-volunteer-time.md) | 🔄 |
+| 🖥️ | S-SC08-10 | [Missions](s-sc08-10-missions.md) | ✅ |
+| 🖥️ | S-SC08-11 | [Volunteer time](s-sc08-11-volunteer-time.md) | ✅ |

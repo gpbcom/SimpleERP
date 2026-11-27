@@ -3,7 +3,7 @@
 
 # 🖥️ Screens
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per screen, with its text wireframe.
 

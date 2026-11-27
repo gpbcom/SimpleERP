@@ -3,7 +3,7 @@
 
 # 🗃️ E-F16-09 Help-centre article
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -43,7 +43,7 @@ Full text in each language; by intent and status.
 
 ## Retention
 
-Archived articles kept (Proposed) 2 years.
+Archived articles kept 2 years.
 
 ## Audit
 

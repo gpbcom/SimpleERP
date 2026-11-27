@@ -3,7 +3,7 @@
 
 # 🖥️ S-F6-26 Frame contracts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

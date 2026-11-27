@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-24 Track transcription accuracy per language and model
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -25,7 +25,7 @@ A monthly check, or complaints about transcripts.
 
 ## Frequency
 
-Monthly (Proposed).
+Monthly.
 
 ## Preconditions
 
@@ -54,7 +54,7 @@ Monthly (Proposed).
 
 ## Error flows
 
-- 2e. Fewer than 20 reviewed meetings for a language (Proposed): "not enough data".
+- 2e. Fewer than 20 reviewed meetings for a language: "not enough data".
 
 ## Business rules
 
@@ -70,7 +70,7 @@ Administrators.
 
 ## Notifications
 
-The administrator is told when a language drops below the bar (Proposed: 90 % of words right).
+The administrator is told when a language drops below the bar (default: 90 % of words right).
 
 ## Audit events
 

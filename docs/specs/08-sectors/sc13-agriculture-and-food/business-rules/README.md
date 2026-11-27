@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -26,11 +26,11 @@ One file per rule.
 | 📏 | BR-SC13-13 | [Cooperative deliveries matched](br-sc13-13-cooperative-deliveries-matched.md) | ✅ |
 | 📏 | BR-SC13-14 | [Costs per crop and herd](br-sc13-14-costs-per-crop-and-herd.md) | ✅ |
 | 📏 | BR-SC13-15 | [Offline in the field](br-sc13-15-offline-in-the-field.md) | ✅ |
-| 📏 | BR-SC13-16 | [Harvest and stock declarations are filed on time](br-sc13-16-harvest-and-stock-declarations-are-filed-on-time.md) | 🔄 |
-| 📏 | BR-SC13-17 | [Jobs are billed by hectare or hour as agreed](br-sc13-17-jobs-are-billed-by-hectare-or-hour-as-agreed.md) | 🔄 |
-| 📏 | BR-SC13-18 | [Rebates follow the members' deliveries](br-sc13-18-rebates-follow-the-members-deliveries.md) | 🔄 |
-| 📏 | BR-SC13-19 | [Baskets follow the season's contract](br-sc13-19-baskets-follow-the-seasons-contract.md) | 🔄 |
-| 📏 | BR-SC13-20 | [Fellings follow the management plan](br-sc13-20-fellings-follow-the-management-plan.md) | 🔄 |
+| 📏 | BR-SC13-16 | [Harvest and stock declarations are filed on time](br-sc13-16-harvest-and-stock-declarations-are-filed-on-time.md) | ✅ |
+| 📏 | BR-SC13-17 | [Jobs are billed by hectare or hour as agreed](br-sc13-17-jobs-are-billed-by-hectare-or-hour-as-agreed.md) | ✅ |
+| 📏 | BR-SC13-18 | [Rebates follow the members' deliveries](br-sc13-18-rebates-follow-the-members-deliveries.md) | ✅ |
+| 📏 | BR-SC13-19 | [Baskets follow the season's contract](br-sc13-19-baskets-follow-the-seasons-contract.md) | ✅ |
+| 📏 | BR-SC13-20 | [Fellings follow the management plan](br-sc13-20-fellings-follow-the-management-plan.md) | ✅ |
 
 ---
 

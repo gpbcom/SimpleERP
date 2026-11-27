@@ -25,7 +25,8 @@ HR records are kept for their own legal period, not the accounting one.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2017-01-01: R1221-26 in force since 2015-10-29, L3243-4 since 2009-05-14,
+D3171-16 since 2017-01-01 ([Code du travail, art. R1221-26](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031392972), [art. L3243-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020625846), [art. D3171-16](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033515983), read 2026-11-27); the CNIL guidance has no start date.
 
 ## Enforced by
 
@@ -43,7 +44,9 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Personnel register: the fine of a 4th-class contravention, up to 750 EUR, once per person
+employed (R1227-7) ([Code du travail, art. R1227-7](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030422217), [Code pénal, art. 131-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417259), read 2026-11-27). The other periods: not
+read yet.
 
 ## Exceptions
 

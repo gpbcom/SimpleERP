@@ -3,7 +3,7 @@
 
 # 🏘️ Option D: sector waves
 
-**Status:** 🔄 waiting for the owner
+**Status:** 🚫 not adopted ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md))
 
 ## Principle
 

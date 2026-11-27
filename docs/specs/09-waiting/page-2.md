@@ -4,49 +4,80 @@
 
 ## Waiting for the owner
 
-**SC01 Construction, use cases:**
+### The lawyer's checklist: France country pack (continued)
 
-- [S-SC01-01 Site](../08-sectors/sc01-construction/screens/01-win-the-work/s-sc01-01-site.md)
-- [S-SC01-02 Quote by lots](../08-sectors/sc01-construction/screens/01-win-the-work/s-sc01-02-quote-by-lots.md)
-- [S-SC01-03 Site planning](../08-sectors/sc01-construction/screens/02-prepare-the-site/s-sc01-03-site-planning.md)
-- [S-SC01-04 Site time](../08-sectors/sc01-construction/screens/03-run-the-site/s-sc01-04-site-time.md)
-- [S-SC01-05 Site diary](../08-sectors/sc01-construction/screens/03-run-the-site/s-sc01-05-site-diary.md)
-- [S-SC01-06 Progress bill](../08-sectors/sc01-construction/screens/04-bill-and-subcontract/s-sc01-06-progress-bill.md)
-- [S-SC01-07 Subcontracts](../08-sectors/sc01-construction/screens/04-bill-and-subcontract/s-sc01-07-subcontracts.md)
-- [S-SC01-08 Equipment](../08-sectors/sc01-construction/screens/02-prepare-the-site/s-sc01-08-equipment.md)
-- [S-SC01-09 Works declarations](../08-sectors/sc01-construction/screens/02-prepare-the-site/s-sc01-09-works-declarations.md)
-- [S-SC01-10 Acceptance](../08-sectors/sc01-construction/screens/05-hand-over-and-follow-up/s-sc01-10-acceptance.md)
-- [S-SC01-11 Warranties](../08-sectors/sc01-construction/screens/05-hand-over-and-follow-up/s-sc01-11-warranties.md)
-- [S-SC01-12 Renovation sale](../08-sectors/sc01-construction/screens/01-win-the-work/s-sc01-12-renovation-sale.md)
-- [S-SC01-13 Public tenders](../08-sectors/sc01-construction/screens/01-win-the-work/s-sc01-13-public-tenders.md)
-- [S-SC01-14 Site margin](../08-sectors/sc01-construction/screens/04-bill-and-subcontract/s-sc01-14-site-margin.md)
-- [S-SC01-15 Site assistant](../08-sectors/sc01-construction/screens/03-run-the-site/s-sc01-15-site-assistant.md)
-- [E-SC01-01 Construction site](../08-sectors/sc01-construction/data/e-sc01-01-construction-site.md)
-- [E-SC01-02 Quote lot](../08-sectors/sc01-construction/data/e-sc01-02-quote-lot.md)
-- [E-SC01-03 Site phase](../08-sectors/sc01-construction/data/e-sc01-03-site-phase.md)
-- [E-SC01-04 Site time and material entry](../08-sectors/sc01-construction/data/e-sc01-04-site-time-and-material-entry.md)
-- [E-SC01-05 Site diary entry](../08-sectors/sc01-construction/data/e-sc01-05-site-diary-entry.md)
-- [E-SC01-06 Progress bill](../08-sectors/sc01-construction/data/e-sc01-06-progress-bill.md)
-- [E-SC01-07 Subcontract](../08-sectors/sc01-construction/data/e-sc01-07-subcontract.md)
-- [E-SC01-08 Equipment assignment](../08-sectors/sc01-construction/data/e-sc01-08-equipment-assignment.md)
-- [E-SC01-09 Works declaration](../08-sectors/sc01-construction/data/e-sc01-09-works-declaration.md)
-- [E-SC01-10 Acceptance record](../08-sectors/sc01-construction/data/e-sc01-10-acceptance-record.md)
-- [E-SC01-11 Warranty](../08-sectors/sc01-construction/data/e-sc01-11-warranty.md)
-- [E-SC01-12 Public tender](../08-sectors/sc01-construction/data/e-sc01-12-public-tender.md)
-- [BR-SC01-08 Declarations before digging](../08-sectors/sc01-construction/business-rules/br-sc01-08-declarations-before-digging.md)
-- [BR-SC01-12 Public invoices through Chorus Pro](../08-sectors/sc01-construction/business-rules/br-sc01-12-public-invoices-through-chorus-pro.md)
-- [BR-SC01-15 Leave through the fund](../08-sectors/sc01-construction/business-rules/br-sc01-15-leave-through-the-fund.md)
+**France country pack, Non-profit, rules (continued):**
 
-Pages: [1](README.md) · **2** · [3](page-3.md) · [4](page-4.md) · [5](page-5.md) · [6](page-6.md) · [7](page-7.md) ·
-[8](page-8.md) · [9](page-9.md) · [10](page-10.md) · [11](page-11.md) · [12](page-12.md) · [13](page-13.md) ·
-[14](page-14.md) · [15](page-15.md) · [16](page-16.md) · [17](page-17.md) · [18](page-18.md) · [19](page-19.md) ·
-[20](page-20.md) · [21](page-21.md) · [22](page-22.md) · [23](page-23.md) · [24](page-24.md) · [25](page-25.md) ·
-[26](page-26.md) · [27](page-27.md) · [28](page-28.md) · [29](page-29.md) · [30](page-30.md) · [31](page-31.md) ·
-[32](page-32.md) · [33](page-33.md) · [34](page-34.md) · [35](page-35.md) · [36](page-36.md) · [37](page-37.md) ·
-[38](page-38.md) · [39](page-39.md) · [40](page-40.md) · [41](page-41.md) · [42](page-42.md) · [43](page-43.md) ·
-[44](page-44.md) · [45](page-45.md) · [46](page-46.md) · [47](page-47.md) · [48](page-48.md) · [49](page-49.md) ·
-[50](page-50.md) · [51](page-51.md) · [52](page-52.md) · [53](page-53.md) · [54](page-54.md) · [55](page-55.md) ·
-[56](page-56.md) · [57](page-57.md) · [58](page-58.md)
+- [CR-FR-284 Sports licences and medical certificates](../10-country-packs/france/non-profit/cr-fr-284-sports-licences-and-medical-certificates.md)
+- [CR-FR-286 Appeals to public generosity](../10-country-packs/france/non-profit/cr-fr-286-appeals-to-public-generosity.md)
+
+**France country pack, Payments, rules:**
+
+- [CR-FR-212 LCR and cheque remittances](../10-country-packs/france/payments/cr-fr-212-lcr-and-cheque-remittances.md)
+- [CR-FR-289 Closed-loop payment wristbands](../10-country-packs/france/payments/cr-fr-289-closed-loop-payment-wristbands.md)
+
+**France country pack, Payroll, rules:**
+
+- [CR-FR-252 Public-sector contributions](../10-country-packs/france/payroll/cr-fr-252-public-sector-contributions.md)
+- [CR-FR-291 Commissions in pay](../10-country-packs/france/payroll/cr-fr-291-commissions-in-pay.md)
+
+**France country pack, Point of sale, rules:**
+
+- [CR-FR-032 Restaurant and bar bills](../10-country-packs/france/point-of-sale/cr-fr-032-restaurant-bill.md)
+- [CR-FR-033 Scales used for sales](../10-country-packs/france/point-of-sale/cr-fr-033-legal-metrology-scales.md)
+
+**France country pack, Products and traceability, rules:**
+
+- [CR-FR-061 Food traceability](../10-country-packs/france/products/cr-fr-061-food-traceability.md)
+- [CR-FR-074 Conformity of machinery](../10-country-packs/france/products/cr-fr-074-machinery-conformity.md)
+- [CR-FR-290 Cosmetic products used and sold](../10-country-packs/france/products/cr-fr-290-cosmetic-products.md)
+
+**France country pack, Professional firms, rules:**
+
+- [CR-FR-241 Notaries' client funds](../10-country-packs/france/professional-firms/cr-fr-241-notaries-client-funds.md)
+
+**France country pack, Real estate, rules:**
+
+- [CR-FR-288 Furnished tourist rentals](../10-country-packs/france/real-estate/cr-fr-288-furnished-tourist-rentals.md)
+
+**France country pack, Tax and VAT, rules:**
+
+- [CR-FR-009 VAT exemption and reverse-charge mentions](../10-country-packs/france/tax-and-vat/cr-fr-009-vat-mentions.md)
+- [CR-FR-104 Immediate advance of the tax credit](../10-country-packs/france/tax-and-vat/cr-fr-104-immediate-advance-of-tax-credit.md)
+- [CR-FR-111 Tourist tax (taxe de séjour)](../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md)
+- [CR-FR-181 VAT on tickets](../10-country-packs/france/tax-and-vat/cr-fr-181-ticket-vat-rates.md)
+- [CR-FR-205 VAT on the promotion credit](../10-country-packs/france/tax-and-vat/cr-fr-205-promotion-credit-vat-treatment.md)
+- [CR-FR-234 Alcohol excise and bonded warehouses](../10-country-packs/france/tax-and-vat/cr-fr-234-alcohol-excise.md)
+- [CR-FR-268 Tax deduction of provisions](../10-country-packs/france/tax-and-vat/cr-fr-268-tax-deduction-of-provisions.md)
+- [CR-FR-272 VAT on advance payments for services](../10-country-packs/france/tax-and-vat/cr-fr-272-vat-on-advance-payments-for-services.md)
+- [CR-FR-281 VAT on deposits for returnable packaging](../10-country-packs/france/tax-and-vat/cr-fr-281-vat-on-returnable-packaging-deposits.md)
+
+**France country pack, Transport, rules:**
+
+- [CR-FR-121 Dangerous goods (ADR)](../10-country-packs/france/transport/cr-fr-121-dangerous-goods.md)
+- [CR-FR-236 Passenger transport registration and licences](../10-country-packs/france/transport/cr-fr-236-passenger-transport-licences.md)
+- [CR-FR-276 Removal quotes and delivery reserves](../10-country-packs/france/transport/cr-fr-276-removal-quotes.md)
+
+### The lawyer's checklist: product pages
+
+**F1 Administration, use cases:**
+
+- [UC-F1-21 Set the security policies](../02-functional/f01-administration/use-cases/13-security-and-audit/uc-f01-21-set-the-security-policies.md)
+
+**F3 Assistant, use cases:**
+
+- [UC-F3-15 Defend against instructions hidden in content](../02-functional/f03-assistant/use-cases/11-trust-the-answers/uc-f03-15-defend-against-instructions-hidden-in-content.md)
+- [UC-F3-24 Keep personal to-dos and memos](../02-functional/f03-assistant/use-cases/13-voice-agents-and-briefings/uc-f03-24-keep-personal-to-dos-and-memos.md)
+
+**F4 Meetings, use cases:**
+
+- [UC-F4-22 Turn on live captions and translation](../02-functional/f04-meetings/use-cases/11-insights-and-accessibility/uc-f04-22-turn-on-live-captions-and-translation.md)
+
+**F5 Social media and marketing, use cases:**
+
+- [UC-F5-21 Keep the brand kit and asset library](../02-functional/f05-social-media/use-cases/09-brand-tests-and-return-on-investment/uc-f05-21-keep-the-brand-kit-and-asset-library.md)
+
+Pages: [1](README.md) · **2** · [3](page-3.md) · [4](page-4.md) · [5](page-5.md) · [6](page-6.md) · [7](page-7.md)
 
 ---
 

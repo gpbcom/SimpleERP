@@ -4,7 +4,7 @@
 
 # 🖥️ S-F21-27 Cutover
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

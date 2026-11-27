@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18 / D501)
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -11,10 +11,10 @@ One file per entity.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🗃️ | E-T13-01 | [Geocoded place](e-t13-01-geocoded-place.md) | 🔄 |
-| 🗃️ | E-T13-02 | [Route](e-t13-02-route.md) | 🔄 |
-| 🗃️ | E-T13-03 | [Map layer](e-t13-03-map-layer.md) | 🔄 |
-| 🗃️ | E-T13-04 | [Geodata source](e-t13-04-geodata-source.md) | 🔄 |
+| 🗃️ | E-T13-01 | [Geocoded place](e-t13-01-geocoded-place.md) | ✅ |
+| 🗃️ | E-T13-02 | [Route](e-t13-02-route.md) | ✅ |
+| 🗃️ | E-T13-03 | [Map layer](e-t13-03-map-layer.md) | ✅ |
+| 🗃️ | E-T13-04 | [Geodata source](e-t13-04-geodata-source.md) | ✅ |
 
 ---
 

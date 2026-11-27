@@ -4,7 +4,7 @@
 
 # 📏 BR-F21-12 Migrations read the old tool's known formats
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -37,7 +37,7 @@ Tools or versions not supported use the generic import.
 
 ## Configurable
 
-No; the list of supported tools grows with releases (Proposed) to read for their export formats.
+No; the list of supported tools grows with releases, each added once its export format is read.
 
 ## Open questions
 

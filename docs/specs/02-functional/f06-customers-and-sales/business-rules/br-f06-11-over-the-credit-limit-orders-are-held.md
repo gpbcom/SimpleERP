@@ -35,7 +35,7 @@ None.
 
 ## Configurable
 
-Limit per customer or group; overdue days (Proposed: 30).
+Limit per customer or group; overdue days (default: 30).
 
 ## Open questions
 

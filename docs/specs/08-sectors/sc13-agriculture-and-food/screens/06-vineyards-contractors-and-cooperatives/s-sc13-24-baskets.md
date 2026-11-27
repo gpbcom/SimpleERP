@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC13-24 Basket subscriptions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

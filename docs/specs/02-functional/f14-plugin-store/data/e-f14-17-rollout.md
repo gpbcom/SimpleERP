@@ -3,7 +3,7 @@
 
 # 🗃️ E-F14-17 Rollout
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -15,7 +15,7 @@ A release's progress through the beta channel and the stages of its general roll
 |---|---|---|---|---|---|---|---|
 | version | link | yes | a signed version | - | Gate Booking 2.4.0 | no | no |
 | channel | choice | yes | beta, stable | beta | stable | no | no |
-| stages | list | yes | increasing percentages | (Proposed) 5, 25, 100 | 5, 25, 100 | no | no |
+| stages | list | yes | increasing percentages | 5, 25, 100 | 5, 25, 100 | no | no |
 | current stage | percent | yes | one of the stages | first | 25 | no | no |
 | failure rate | percent | yes | computed from install reports | 0 | 0.6 | no | no |
 | status | choice | yes | running, paused, done, stopped | running | paused | no | no |

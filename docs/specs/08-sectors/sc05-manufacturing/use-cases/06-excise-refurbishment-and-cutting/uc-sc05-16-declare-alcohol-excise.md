@@ -4,7 +4,7 @@
 
 # 📝 UC-SC05-16 Declare alcohol excise
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -42,7 +42,8 @@ Several movements a week in a brewery, one declaration a month.
 ## Postconditions
 
 - **Succeeded:** each lot is saved as bonded stock ([E-SC05-15 Bonded stock](../../data/e-sc05-15-bonded-stock.md)) with
-  its movements, and the month's declaration lists every release with its volume of pure alcohol and the duty.
+  its movements, and the month's declaration lists every release with its duty base (volume, volume and degree, or pure
+  alcohol, by category) and the duty.
 - **Failed:** no release is posted without its category and strength, no declaration is closed with a movement missing
   its document, and the gaps are listed.
 
@@ -55,7 +56,8 @@ Several movements a week in a brewery, one declaration a month.
    the category of the drink.
 3. A customer order leaves the warehouse: the planner chooses Release for consumption, Send under suspension, Export or
    Destroy for the lot and the volume.
-4. For a release, SimpleERP computes the volume of pure alcohol and the duty from the rate of the category
+4. For a release, SimpleERP computes the duty base of the lot's category (hectolitres for wines, ciders and intermediate
+   products, hectolitres and degree for beers, hectolitres of pure alcohol for spirits) and the duty from its rate
    ([BR-SC05-16](../../business-rules/br-sc05-16-excise-is-due-when-goods-leave-the-bonded-warehouse.md)) and adds the
    line to the month.
 5. For a movement under suspension, it prepares the accompanying electronic document with the consignee's approval
@@ -144,8 +146,8 @@ sequenceDiagram
   participant D as Country pack rates
   P->>X: Release lot B-204, 1,000 L at 5.0 %
   X->>D: Rate of the beer category
-  D-->>X: Rate per hectolitre of pure alcohol
-  X-->>P: 0.5 hl pure alcohol, duty computed
+  D-->>X: Rate per hectolitre and degree
+  X-->>P: 10 hl at 5.0 degrees, duty computed
   A->>X: Review the month
   X-->>A: Declaration with 14 releases
   A->>X: File the declaration
@@ -154,8 +156,8 @@ sequenceDiagram
 ## Acceptance criteria
 
 1. **Given** a lot of 1,000 L of beer at 5.0 % and a rate of 3.50 EUR per percent and hectolitre in the pack's rate data
-   **when** the planner releases it for consumption **then** the declaration line shows 0.5 hl of pure alcohol and a
-   duty of 175.00 EUR.
+   **when** the planner releases it for consumption **then** the declaration line shows 10 hl at 5.0 degrees and a duty
+   of 175.00 EUR.
 2. **Given** a lot sent under suspension to another bonded warehouse **when** the planner confirms the movement **then**
    no duty is computed and the accompanying document is attached to the lot.
 3. **Given** a release of a lot with no strength entered **when** the planner chooses Release **then** the release is
@@ -171,13 +173,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Alcoholic drinks are held in a bonded warehouse approved by the customs authority, where no excise is due.
 The duty becomes due when the goods leave it for consumption and is declared every month by the warehousekeeper, at a
-rate per volume of pure alcohol that depends on the category of the drink. Movements under suspension travel with an
+rate that depends on the category of the drink: per hectolitre for wines, ciders and intermediate products, per
+hectolitre and degree for beers, per hectolitre of pure alcohol for spirits. Movements under suspension travel with an
 electronic accompanying document. The rates and the reduced rates for small producers are data of the France pack. The
-France-pack rule is written later. Related:
+France-pack rule is listed below. Related:
 [CR-FR-061](../../../../10-country-packs/france/products/cr-fr-061-food-traceability.md),
 [CR-FR-007](../../../../10-country-packs/france/accounting/cr-fr-007-annual-stock-count.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-234 Alcohol excise and bonded warehouses](../../../../10-country-packs/france/tax-and-vat/cr-fr-234-alcohol-excise.md)
 
 ## Related use cases

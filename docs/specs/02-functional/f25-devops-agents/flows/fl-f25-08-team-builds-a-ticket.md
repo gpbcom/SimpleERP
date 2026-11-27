@@ -4,7 +4,7 @@
 
 # 🔀 FL-F25-08 The agent team builds an approved ticket
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

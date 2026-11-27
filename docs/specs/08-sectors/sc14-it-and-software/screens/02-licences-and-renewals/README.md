@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC14-04 | [Licences](s-sc14-04-licences.md) | 🔄 |
-| 🖥️ | S-SC14-09 | [Health](s-sc14-09-health.md) | 🔄 |
-| 🖥️ | S-SC14-10 | [Renewals](s-sc14-10-renewals.md) | 🔄 |
-| 🖥️ | S-SC14-19 | [Partners](s-sc14-19-partners.md) | 🔄 |
+| 🖥️ | S-SC14-04 | [Licences](s-sc14-04-licences.md) | ✅ |
+| 🖥️ | S-SC14-09 | [Health](s-sc14-09-health.md) | ✅ |
+| 🖥️ | S-SC14-10 | [Renewals](s-sc14-10-renewals.md) | ✅ |
+| 🖥️ | S-SC14-19 | [Partners](s-sc14-19-partners.md) | ✅ |

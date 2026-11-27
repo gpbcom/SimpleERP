@@ -145,7 +145,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A member may end a contract that renews itself under the conditions the law and the contract state, with the
 notice written in the contract; the club tells the member in time before a renewal and does not bill after the end date.
-Early exit for a serious reason may be allowed. The France-pack rule is written later. Related:
+Early exit for a serious reason may be allowed. The France-pack rule is [CR-FR-263 Free trials of paid services](../../../../10-country-packs/france/consumer/cr-fr-263-free-trials-of-paid-services.md) (the renewal notice, L215-1, and online termination, L215-1-1). Related:
 [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md).
 
 ## Related use cases

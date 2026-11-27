@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-07 Gift vouchers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

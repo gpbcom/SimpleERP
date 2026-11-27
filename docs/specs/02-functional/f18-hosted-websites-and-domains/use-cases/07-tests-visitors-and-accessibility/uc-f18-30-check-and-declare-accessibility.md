@@ -5,13 +5,14 @@
 
 # 📝 UC-F18-30 Check and declare accessibility
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
 The marketing person and the administrator check the hosted site against the web accessibility criteria, fix what the
-checks find, and publish an accessibility statement that says how accessible the site is, what is not and how to ask for
-help. A site with an online shop cannot be published without its statement.
+checks find, and publish the site's accessibility information: how the service meets the accessibility requirements, as
+the law asks, plus what is not accessible and how to ask for help, which SimpleERP adds. A site with an online shop
+cannot be published without it.
 
 ## Personas
 
@@ -57,12 +58,14 @@ A check at every publication; a statement review each year.
    lists each finding with the page and the way to fix it.
 3. The administrator or marketing person works through the manual checks that a program cannot do (reading order,
    meaning of links, captions) and records the result of each.
-4. SimpleERP fills a draft statement: the standard used, the level reached, what is not accessible and why, the date,
-   and a contact and a way to complain.
+4. SimpleERP fills a draft statement: the requirements that apply and how the site meets them (the content the law
+   asks), then the standard used, the level reached, what is not accessible and why, the date, and a contact and a way
+   to complain, which SimpleERP adds.
 5. The marketing person edits the text and asks the owner to approve it
    ([UC-F18-15](../04-test-and-publish/uc-f18-15-approve-publish-and-roll-back.md)).
-6. The statement is published at a fixed address and linked from the footer of every page; it is reviewed each year or
-   after a big change.
+6. The statement is published at a fixed address, linked from the footer of every page and from the general terms, in
+   written form readable aloud by screen readers; it stays published as long as the shop is offered and is reviewed
+   each year or after a big change.
 
 ## Alternative flows
 
@@ -167,14 +170,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-The European Accessibility Act, in force in the EU since June 2025, makes online shops and certain other
-consumer services accessible and asks for an accessibility statement that says how the requirements are met; very small
-service companies may be exempt. See
-[CR-FR-072](../../../../10-country-packs/france/consumer/cr-fr-072-web-accessibility-eaa.md). The wording of the
-statement and the exemption are checked in the country pack, not invented here; the France-pack rule on the statement is
-written later.
+The European Accessibility Act, in force for services provided after 2025-06-28, makes online shops and certain other
+consumer services accessible ([CR-FR-072](../../../../10-country-packs/france/consumer/cr-fr-072-web-accessibility-eaa.md)). In France the
+provider gives, in its general terms or an equivalent document, the information on how its service meets the
+requirements, in written and oral form, kept as long as the service is offered (Code de la consommation D412-57 2° and
+its annex); the law names no "accessibility statement" and does not ask for the gaps or a way to ask for help.
+Providers with fewer than 10 persons and 2 MEUR or less of turnover or balance sheet are exempt (D412-60).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-222 Accessibility statement (EAA)](../../../../10-country-packs/france/digital/cr-fr-222-accessibility-statement.md)
 
 ## Related use cases

@@ -3,7 +3,7 @@
 
 # 🧩 C-16 KPI strip
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-04 / D487)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -21,12 +21,12 @@ view](../patterns/aggregated-list-view.md)'s table
 +------------------------------------------------------------------------------------+
 ```
 
-1. **Tiles:** a figure and its label, from the view card (rule VR-7 of the
-   [plan](../../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md#view-rules)): the count, the total of the first
-   amount, a "needs attention" count and a dated count ("due in 7 days" or "new this month").
+1. **Tiles:** a figure and its label, from the view card (rule VR-7 of the plan (the owner's interview notes of 2026-11
+   for the specifications, not kept in the repository)): the count, the total of the first amount, a "needs attention"
+   count and a dated count ("due in 7 days" or "new this month").
 2. **Default chart:** a small [C-09 Chart](c-09-chart.md), rule VR-8: count by state (stacked by amount when there is
    one), else by month of the first date, else by the first facet.
-3. **Hide:** collapses the strip to one line of figures; (Proposed) the choice is kept per user and view.
+3. **Hide:** collapses the strip to one line of figures; the choice is kept per user and view.
 
 **Example images** (its variants and states, light and dark, D120):
 
@@ -38,17 +38,17 @@ view](../patterns/aggregated-list-view.md)'s table
 
 - **With chart:** the default, on a desktop.
 - **Figures only:** collapsed, or on a view card with no chart.
-- **Phone:** the tiles in one row that scrolls sideways; the chart below them, (Proposed) collapsed by default
+- **Phone:** the tiles in one row that scrolls sideways; the chart below them, collapsed by default
   ([D491](../../../06-decisions/ux/d491-on-a-phone-the-list-keeps-its-table-and-scrolls-sideways.md)).
-- **(Proposed) Tile as a filter:** a "needs attention" or dated tile adds its filter as a chip when pressed.
+- **Tile as a filter:** a "needs attention" or dated tile adds its filter as a chip when pressed.
 
 ## States
 
 | State | Look |
 |---|---|
-| Loading | (Proposed) Skeleton figures; within 1 second on 100,000 records |
+| Loading | Skeleton figures; within 1 second on 100,000 records |
 | Normal | The figures of the filtered visible rows |
-| Recomputing | (Proposed) Figures dim while the filters change |
+| Recomputing | Figures dim while the filters change |
 | Zero | "0" with its label, never hidden |
 | Collapsed | One line of figures, "Show ˅" |
 | Error | A dash in place of each figure and a retry link ([error message pattern](../patterns/error-messages.md)) |

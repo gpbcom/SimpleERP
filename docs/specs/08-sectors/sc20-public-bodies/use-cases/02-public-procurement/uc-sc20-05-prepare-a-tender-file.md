@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-05 Prepare a tender file
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -141,13 +141,15 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A public buyer chooses its procedure from the estimated value of the whole need: below a first threshold it
-may contract freely while keeping good use of funds, in between it follows an adapted procedure, and above the European
-thresholds a formal one. The buyer must not split a need to stay under a threshold, and fixes the award criteria in
+A public buyer chooses its procedure from the estimated value of the whole need, without VAT: below 60 000 EUR for
+supplies and services and 100 000 EUR for works no notice is required, while keeping good use of funds; in between it
+follows an adapted procedure with a notice; from the European thresholds (5 404 000 EUR for works; 140 000, 216 000 or
+432 000 EUR for supplies and services, by kind of buyer) a formal one. From 2027-01-01 the ceiling without publicity for
+works rises to 140 000 EUR. The buyer must not split a need to stay under a threshold, and fixes the award criteria in
 advance. The thresholds change over time and are data of the France pack. Related:
 [CR-FR-091](../../../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-251 Public procurement thresholds](../../../../10-country-packs/france/trade/cr-fr-251-public-procurement-thresholds.md)
 
 ## Related use cases

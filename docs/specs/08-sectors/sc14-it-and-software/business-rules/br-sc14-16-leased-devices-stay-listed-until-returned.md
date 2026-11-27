@@ -3,7 +3,7 @@
 
 # 📏 BR-SC14-16 Leased devices stay listed until returned
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,8 +13,8 @@ returned device returns to stock only with its wipe certificate.
 ## Why
 
 A device that left the list without a return is lost revenue and a data risk. The owner asked for hardware resale and
-leasing ([D558](../../../06-decisions/sectors/d558-benchmark-gaps-sc14-it-and-software.md)). (Proposed) The France-pack
-rule is written later.
+leasing ([D558](../../../06-decisions/sectors/d558-benchmark-gaps-sc14-it-and-software.md)). No France-pack rule
+sets this: it follows the lease contract, and the wipe protects the personal data left on the device (CR-FR-052).
 
 ## Examples
 

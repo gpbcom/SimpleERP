@@ -17,4 +17,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC01-05 Hand over and follow up](05-hand-over-and-follow-up/README.md) | 18 images |
 | 🖼️ |  | [Images: FL-SC01-06 Price revision, off-plan sales, BIM and grants](06-revision-developers-bim-and-grants/README.md) | 36 images |
 | 🖼️ |  | [Screen states](states/README.md) | 120 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

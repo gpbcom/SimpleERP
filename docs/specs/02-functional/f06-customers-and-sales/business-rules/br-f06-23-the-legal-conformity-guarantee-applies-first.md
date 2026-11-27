@@ -4,7 +4,7 @@
 
 # 📏 BR-F6-23 The legal conformity guarantee applies first
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -17,7 +17,9 @@ reason is recorded.
 The seller owes the legal guarantee whatever its own warranty says, and the customer must not be given less than the law
 ([CR-FR-067](../../../10-country-packs/france/consumer/cr-fr-067-legal-guarantee-of-conformity.md)). The owner asked for
 warranty claims ([D525](../../../06-decisions/f06-customers-and-sales/d525-benchmark-gaps-f06-customers-and-sales.md)).
-(Proposed) The exact duties and periods come from the France-pack rule written later.
+The duties and periods are those of
+[CR-FR-223 Legal conformity guarantee](../../../10-country-packs/france/consumer/cr-fr-223-legal-conformity-guarantee.md): 2 years from
+delivery, repair or replacement free of charge within 30 days, then a price reduction or a refund.
 
 ## Examples
 
@@ -33,9 +35,8 @@ warranty claims ([D525](../../../06-decisions/f06-customers-and-sales/d525-bench
 
 - [UC-F6-31](../use-cases/10-partners-contracts-and-warranties/uc-f06-31-handle-a-warranty-claim.md)
 - [E-F6-27 Warranty](../data/e-f06-27-warranty.md)
-- [E-F6-27 Warranty](../data/e-f06-27-warranty.md)
 - [E-F7-14 Repair order](../../f07-purchasing-and-stock/data/e-f07-14-repair-order.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-223 Legal conformity guarantee](../../../10-country-packs/france/consumer/cr-fr-223-legal-conformity-guarantee.md)
 
 ## Exceptions

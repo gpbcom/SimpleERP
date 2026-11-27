@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-02 Commitments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

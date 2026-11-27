@@ -21,7 +21,9 @@ outreach sequence as positive, negative, question or unclear
 [D518](../../06-decisions/f09-hr-and-projects/d518-linkedin-sourcing-through-unipile.md)). Ranking candidates is a
 high-risk AI use (EU AI Act, Annex III, point 4(a), [AI governance](../../05-non-functional/ai-governance.md)); HR
 approves the shortlist ([BR-F9-36](business-rules/br-f09-36-hr-approves-before-the-first-message.md)) and the AI
-assistant never contacts or rejects anyone on its own.
+assistant never contacts or rejects anyone on its own. The criteria the HR user's LinkedIn search lacks are applied by
+the AI assistant to the profiles returned, and the search screen says which
+([D571](../../06-decisions/f09-hr-and-projects/d571-linkedin-sourcing-uses-the-users-search.md)).
 
 ## Permissions
 
@@ -31,7 +33,7 @@ The user's roles; HR data rules (BR-F9-02).
 
 "CV reading", "Voice pre-screening" and "Planning suggestions" AI feature settings in F1 (D82), local by default.
 
-(Proposed) "Profile ranking" and "Reply classification" AI feature settings in F1 for LinkedIn sourcing.
+"Profile ranking" and "Reply classification" AI feature settings in F1 for LinkedIn sourcing.
 
 ## Open questions
 

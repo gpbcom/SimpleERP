@@ -13,5 +13,5 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-SC07-03 | [Manage the fleet and trailers](uc-sc07-03-manage-the-fleet-and-trailers.md) | ✅ |
-| 📝 | UC-SC07-04 | [Manage drivers and their documents](uc-sc07-04-manage-drivers-and-their-documents.md) | 🔄 |
+| 📝 | UC-SC07-04 | [Manage drivers and their documents](uc-sc07-04-manage-drivers-and-their-documents.md) | ✅ |
 | 📝 | UC-SC07-11 | [Maintain vehicles and their inspections](uc-sc07-11-maintain-vehicles-and-their-inspections.md) | ✅ |

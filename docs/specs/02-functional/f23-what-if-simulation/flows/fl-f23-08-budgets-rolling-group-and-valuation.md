@@ -4,7 +4,7 @@
 
 # 🔀 FL-F23-08 Budgets, rolling forecasts, group and valuation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

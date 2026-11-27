@@ -3,7 +3,7 @@
 
 # 🧩 C-12 File upload
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -32,17 +32,17 @@ A drop area with a button, the accepted formats and size, then one line per file
 - **Drop area:** on desktops, for one or several files.
 - **Button only:** in a [C-02 Form field](c-02-form-field.md), such as "Logo [Upload...]" on
   [S-F1-01 Setup wizard](../../../02-functional/f01-administration/screens/01-guided-setup/s-f01-01-setup-wizard.md).
-- **Camera:** on phones, a photo of a receipt or a page (Proposed: the phone's camera or files), as on
+- **Camera:** on phones, a photo of a receipt or a page (the phone's camera or files), as on
   [S-F3-11 Phone assistant](../../../02-functional/f03-assistant/screens/09-assistant-on-a-phone/s-f03-11-phone-assistant.md).
 
 ## States
 
 | State | Look |
 |---|---|
-| Default | `color-border-strong` dashed edge (Proposed) |
-| Drag over | (Proposed) `color-primary` edge and a tinted fill |
+| Default | `color-border-strong` dashed edge |
+| Drag over | `color-primary` edge and a tinted fill |
 | Uploading | A progress bar per file, with Cancel |
-| Read | (Proposed) For files the AI reads, "Reading..." then what was found |
+| Read | For files the AI reads, "Reading..." then what was found |
 | Done | The file's name, size and a remove button |
 | Error | The [error message pattern](../patterns/error-messages.md): wrong format or too large, with the formats accepted ("The document cannot be read: said, with the formats accepted", F15) |
 
@@ -59,9 +59,9 @@ A drop area with a button, the accepted formats and size, then one line per file
 
 ## Do and don't
 
-- Do say the formats and the size limit (Proposed: limits per use, such as 20 MB for imports).
+- Do say the formats and the size limit (limits per use, such as 20 MB for imports).
 - Do show what the AI read from a file before it is used.
-- (Proposed) Don't lose the other files when one fails.
+- Don't lose the other files when one fails.
 
 ## Used in
 

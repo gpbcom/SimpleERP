@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC04-03 | [Rounds](s-sc04-03-rounds.md) | 🔄 |
-| 🖥️ | S-SC04-04 | [Visit](s-sc04-04-visit.md) | 🔄 |
-| 🖥️ | S-SC04-06 | [Replacements](s-sc04-06-replacements.md) | 🔄 |
+| 🖥️ | S-SC04-03 | [Rounds](s-sc04-03-rounds.md) | ✅ |
+| 🖥️ | S-SC04-04 | [Visit](s-sc04-04-visit.md) | ✅ |
+| 🖥️ | S-SC04-06 | [Replacements](s-sc04-06-replacements.md) | ✅ |

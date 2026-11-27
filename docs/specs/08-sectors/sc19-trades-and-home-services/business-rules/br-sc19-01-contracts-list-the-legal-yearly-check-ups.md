@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-01 Contracts list the legal yearly check-ups
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -15,8 +15,9 @@ contract.
 
 A contract that forgets the legal check-up leaves the customer in breach and the company without proof of its service.
 The owner asked for trades and home services
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (⚖️ lawyer review before launch, D574)
+The France-pack rule is still to write: to read the yearly maintenance of boilers (Code de l'environnement R224-41-4 to
+R224-41-9 and the arrêté of 15 September 2009) and the other check-ups by kind of equipment.
 
 ## Examples
 

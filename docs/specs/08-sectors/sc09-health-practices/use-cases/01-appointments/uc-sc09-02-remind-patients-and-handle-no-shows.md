@@ -4,7 +4,7 @@
 
 # 📝 UC-SC09-02 Remind patients and handle no-shows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -126,7 +126,7 @@ sequenceDiagram
 ## Acceptance criteria
 
 1. **Given** the example health centre's J. Martin with an appointment on Monday at 09:00 **when** reminders run
-   **then** he gets a reminder ((Proposed) 24 hours before).
+   **then** he gets a reminder (24 hours before).
 2. **Given** J. Martin without SMS consent **when** reminders run **then** the reminder goes by email only.
 
 ## Non-functional notes
@@ -146,7 +146,7 @@ None specific to this use case; the sector's legal rules are listed in [SC09 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

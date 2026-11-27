@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-09 Prepare a meeting
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -24,7 +24,7 @@ Arrive at every meeting knowing who comes, what is open and what was said last t
 
 ## Trigger
 
-A synced calendar meeting starts within the hour (Proposed), or the user asks for the brief.
+A synced calendar meeting starts within the hour, or the user asks for the brief.
 
 ## Frequency
 
@@ -43,7 +43,7 @@ F4 set up (UC-F4-08).
 
 1. The meeting is synced from the calendar ([BR-F4-17](../../business-rules/br-f04-17-calendars-sync-both-ways.md)) and
    linked to its records ([BR-F4-12](../../business-rules/br-f04-12-links-are-suggested-then-confirmed.md)).
-2. An hour before (Proposed), the brief is drafted
+2. An hour before, the brief is drafted
    ([S-F4-08](../../screens/07-prepare-and-capture-anywhere/s-f04-08-meeting-prep-brief.md)): participants and their
    roles, the linked customer, deal or project, the last meetings and emails, open actions and points.
 3. The organiser gets it as a notification and opens it from the meeting.
@@ -71,7 +71,7 @@ F4 set up (UC-F4-08).
 
 - [E-F4-01 Meeting](../../data/e-f04-01-meeting.md)
 - [E-F4-24 Meeting prep brief](../../data/e-f04-24-meeting-prep-brief.md)
-- [E-F4-26 Employee calendar](../../data/e-f04-26-employee-calendar.md): (Proposed) the participants' calendars,
+- [E-F4-26 Employee calendar](../../data/e-f04-26-employee-calendar.md): the participants' calendars,
   compared side by side to choose the time
   ([D519](../../../../06-decisions/ux/d519-view-cards-reviewed-list-pages-and-workspaces.md)).
 
@@ -82,7 +82,7 @@ The organiser and internal participants; the brief uses only what each may see
 
 ## Notifications
 
-The organiser gets the brief an hour before (Proposed).
+The organiser gets the brief an hour before.
 
 ## Audit events
 
@@ -129,7 +129,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-The brief is ready within a minute (Proposed).
+The brief is ready within a minute.
 
 ## Regulatory references
 

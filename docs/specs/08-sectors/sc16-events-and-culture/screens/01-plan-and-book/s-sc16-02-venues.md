@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC16-02 Venues
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -37,6 +37,17 @@ See the images in the flow page (D120).
 The fields of [E-SC16-03 Venue room](../../data/e-sc16-03-venue-room.md),
 [E-F2-18 Resource booking](../../../../02-functional/f02-no-code-configuration/data/e-f02-18-resource-booking.md), shown
 as the entity pages list them, with their examples.
+
+For a cinema venue, a Cinema card adds:
+
+| Label | Data | Format | Editable | Required |
+|---|---|---|---|---|
+| CNC ticketing approval number | E-SC16-03 CNC ticketing approval number | text | yes | for a cinema, before any ticket is sold |
+| Delivery and installation declared on | E-SC16-03 delivery and installation declared on | date, not in the future | yes | for a cinema, before any ticket is sold |
+
+Until both are recorded, the cinema sells no ticket at the box office or online
+([BR-SC16-17](../../business-rules/br-sc16-17-box-office-figures-are-reported-to-the-cnc.md),
+[D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md) point 13).
 
 ## Actions
 
@@ -76,7 +87,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

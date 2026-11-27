@@ -10,7 +10,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four website
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four website
 features that F18 did not cover: tests of two versions of a page, tracking of known visitors for sales, an accessibility
 check with a published statement, and members-only pages. F18 already builds, publishes and checks sites with domains
 and mail records; these add the measurement, the legal and the audience sides.
@@ -35,13 +35,13 @@ at full depth now.
 |---|---|---|---|
 | G95 | Page A/B tests | UC-F18-28: page tests that end at significance or at their end date | "Page A/B tests" |
 | G96 | Visitor tracking for sales | UC-F18-29: visits tracked only with consent | "Visitor tracking for sales" |
-| G97 | Accessibility (EAA) | UC-F18-30: an accessibility check and a statement published for every shop site | "Accessibility (EAA)" |
+| G97 | Accessibility (EAA) | UC-F18-30: an accessibility check, and the accessibility information published for every shop site, on screen S-F18-30 Accessibility | "Accessibility (EAA)" |
 | G98 | Members-only pages | UC-F18-31: members-only pages that are never indexed | "Members-only pages" |
 
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F18 Hosted websites and
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F18 Hosted websites and
 domains").
 
 ## Consequences
@@ -61,13 +61,17 @@ domains").
   with [E-F18-21](../../02-functional/f18-hosted-websites-and-domains/data/e-f18-21-visit.md) Visit and its list
   [S-F18-L21](../../02-functional/f18-hosted-websites-and-domains/screens/00-lists/s-f18-l21-visits.md).
 - G97 Accessibility (EAA):
-  [UC-F18-30](../../02-functional/f18-hosted-websites-and-domains/use-cases/07-tests-visitors-and-accessibility/uc-f18-30-check-and-declare-accessibility.md),
-  [S-F18-30](../../02-functional/f18-hosted-websites-and-domains/screens/07-tests-visitors-and-accessibility/s-f18-30-accessibility.md)
+  [UC-F18-30 Check and declare accessibility](../../02-functional/f18-hosted-websites-and-domains/use-cases/07-tests-visitors-and-accessibility/uc-f18-30-check-and-declare-accessibility.md),
+  the screen
+  [S-F18-30 Accessibility](../../02-functional/f18-hosted-websites-and-domains/screens/07-tests-visitors-and-accessibility/s-f18-30-accessibility.md)
   and
-  [BR-F18-24](../../02-functional/f18-hosted-websites-and-domains/business-rules/br-f18-24-an-e-shop-publishes-its-accessibility-statement.md),
-  with [E-F18-22](../../02-functional/f18-hosted-websites-and-domains/data/e-f18-22-accessibility-statement.md)
-  Accessibility statement and its list
-  [S-F18-L22](../../02-functional/f18-hosted-websites-and-domains/screens/00-lists/s-f18-l22-accessibility-statements.md).
+  [BR-F18-24 An e-shop publishes its accessibility information](../../02-functional/f18-hosted-websites-and-domains/business-rules/br-f18-24-an-e-shop-publishes-its-accessibility-statement.md),
+  with the entity
+  [E-F18-22 Accessibility statement](../../02-functional/f18-hosted-websites-and-domains/data/e-f18-22-accessibility-statement.md),
+  the page that holds the accessibility information the law asks for
+  ([CR-FR-222](../../10-country-packs/france/digital/cr-fr-222-accessibility-statement.md)), and its list
+  [S-F18-L22 Accessibility statements](../../02-functional/f18-hosted-websites-and-domains/screens/00-lists/s-f18-l22-accessibility-statements.md)
+  ([D575](../foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 - G98 Members-only pages:
   [UC-F18-31](../../02-functional/f18-hosted-websites-and-domains/use-cases/07-tests-visitors-and-accessibility/uc-f18-31-publish-members-only-pages.md),
   [S-F18-31](../../02-functional/f18-hosted-websites-and-domains/screens/07-tests-visitors-and-accessibility/s-f18-31-members-pages.md)

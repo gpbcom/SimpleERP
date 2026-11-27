@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-18 Set a credit limit and hold orders
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -44,7 +44,7 @@ Daily checks; limits reviewed yearly.
 1. Accounting opens Credit control ([S-F6-16](../../screens/06-accounts-and-credit/s-f06-16-credit-control.md)) and sets
    the limit of a customer or group, with its review date.
 2. A sales person confirms an order; SimpleERP adds it to the open balance and overdue invoices.
-3. Over the limit, or with an invoice overdue by more than 30 days (Proposed), the order is held and the sales person
+3. Over the limit, or with an invoice overdue by more than 30 days, the order is held and the sales person
    sees why.
 4. Accounting releases the order, asks a deposit, or keeps it held until payment.
 5. A payment that brings the balance under the limit releases held orders automatically.
@@ -125,7 +125,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-The check adds under 300 ms to confirming an order (Proposed).
+The check adds under 300 ms to confirming an order.
 
 ## Regulatory references
 

@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC11-21 | [Notary](s-sc11-21-notary.md) | 🔄 |
-| 🖥️ | S-SC11-22 | [Brokerage](s-sc11-22-brokerage.md) | 🔄 |
-| 🖥️ | S-SC11-23 | [Judicial officer](s-sc11-23-judicial-officer.md) | 🔄 |
-| 🖥️ | S-SC11-24 | [Audit firm](s-sc11-24-audit-firm.md) | 🔄 |
+| 🖥️ | S-SC11-21 | [Notary](s-sc11-21-notary.md) | ✅ |
+| 🖥️ | S-SC11-22 | [Brokerage](s-sc11-22-brokerage.md) | ✅ |
+| 🖥️ | S-SC11-23 | [Judicial officer](s-sc11-23-judicial-officer.md) | ✅ |
+| 🖥️ | S-SC11-24 | [Audit firm](s-sc11-24-audit-firm.md) | ✅ |

@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F19-06 Delivery and refunds
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F19-06 Delivery and refunds](../../../flows/fl-f19-06-delivery-and-refunds.md) for this persona, in light
 and dark mode (D120, D121). Errors follow the

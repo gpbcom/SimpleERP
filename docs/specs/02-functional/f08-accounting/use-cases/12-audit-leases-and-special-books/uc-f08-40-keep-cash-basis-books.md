@@ -3,7 +3,7 @@
 
 # 📝 UC-F8-40 Keep cash-basis books
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -152,11 +152,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Self-employed professionals in a simplified regime may keep their books on receipts and payments: the duty
-and its conditions are written later as the France-pack rule on cash-basis books; this page states only what the book
-records.
+Liberal professionals under the controlled-declaration regime keep a chronological book of receipts and payments
+(for each fee the client, amount, date and means of payment) and a register of fixed assets, kept 6 years, as the
+France-pack rule below states.
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-217 Cash-basis books for BNC professions](../../../../10-country-packs/france/accounting/cr-fr-217-cash-basis-books-for-bnc.md)
 
 ## Related use cases

@@ -2,7 +2,7 @@
 
 # 🏢 Example companies
 
-**Status:** ✅ specified; for SC09 to SC16, the company details are proposed, waiting for the owner
+**Status:** ✅ specified; for SC09 to SC16, the company details were confirmed by the owner on 2026-11-27 (D572)
 
 Sample companies used to test that SimpleERP fits any field.
 

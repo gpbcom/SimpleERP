@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-01 Prepare and vote the budget
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -146,12 +146,15 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A local body votes its budget by a date in spring, after a debate on its orientations for the bodies above a
-size, each section (operation, investment) balanced; the budget is transmitted to the prefecture, which checks its
-legality. The accounting framework is M57. Dates and sizes are data of the France pack. Related:
+A local body votes its budget by 15 April (30 April in the year its assembly is renewed), after a report on its
+orientations in communes of 3 500 inhabitants or more, each section (operation, investment) voted in balance with
+sincere estimates (CGCT L1612-2, L1612-4, L2312-1); a budget not adopted in time is referred by the prefect to the
+regional audit chamber. The budget is transmitted to the prefecture, which checks its legality. Dates and sizes are data
+of the France pack. The accounting framework M57 is mandatory for the bodies the law lists and
+optional for the other local bodies (CR-FR-250). Related:
 [CR-FR-064](../../../../10-country-packs/france/accounting/cr-fr-064-accounting-frameworks.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule (the dates, the balance and the scope of M57 read):
   [CR-FR-250 Public accounting M57](../../../../10-country-packs/france/accounting/cr-fr-250-public-accounting-m57.md)
 
 ## Related use cases

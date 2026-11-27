@@ -4,7 +4,7 @@
 
 # 📝 UC-F3-18 See the cost before an expensive question
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -111,7 +111,7 @@ sequenceDiagram
 
 ## Acceptance criteria
 
-1. **Given** a threshold of 1 EUR (Proposed) **when** a question estimated at 4.20 EUR is asked **then** the estimate
+1. **Given** a threshold of 1 EUR **when** a question estimated at 4.20 EUR is asked **then** the estimate
    shows and nothing runs before confirmation.
 2. **Given** the estimate **when** the owner narrows to the last quarter **then** a new estimate of 1.10 EUR shows.
 3. **Given** a run of 3.95 EUR **when** it ends **then** the actual cost shows beside the estimate.
@@ -119,7 +119,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-The estimate shows within 2 seconds (Proposed).
+The estimate shows within 2 seconds.
 
 ## Regulatory references
 

@@ -4,7 +4,7 @@
 
 # 📏 BR-F11-20 No listing without its safety information
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,7 +13,9 @@ safety instructions in the page's language.
 
 ## Why
 
-(Proposed) to read: Regulation (EU) 2023/988, article 19.
+(⚖️ lawyer review before launch, D574) to read: Regulation (EU) 2023/988, article 19 (information on online offers);
+[CR-FR-062 Product recall](../../../10-country-packs/france/products/cr-fr-062-product-recall.md) reads only the
+recall.
 
 ## Examples
 

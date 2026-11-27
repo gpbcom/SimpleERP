@@ -3,19 +3,24 @@
 
 # ⚖️ CR-FR-245 Nursery hourly funding (PSU)
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A nursery funded by the family allowance fund applies the fund's scale: the family pays an hourly rate that
-is a percentage of its monthly income, lower for larger families, within a floor and a ceiling, and the fund pays the
-nursery the rest of the cost for the hours done. The nursery reports the hours to the fund.
+A nursery funded by the family allowance fund applies the fund's scale: the family pays an hourly rate that is a
+percentage of its monthly income, lower for larger families, within a floor and a ceiling, and the fund pays 66 % of the
+cost price, within a ceiling price, for the hours billed to families, minus the families' share, times the share of
+families in the general scheme ([CNAF PSU
+guide](https://www.caf.fr/sites/default/files/medias/671/Guide%20PSU%2012-2025_2.pdf), September 2025, section 1.4, read
+2026-11-27). The nursery reports the hours to the fund.
 
 ## Values
 
-- (Proposed) Percentages, floor and ceiling by date, kept as data.
-- (Proposed) Hours reported to the fund.
-- (Proposed) SimpleERP enforces: hourly funding follows the family allowance scale.
+- Percentages, floor and ceiling by date, kept as data: the 2024 and 2025 scales are dated (2025: floor 801.00 EUR a
+  month, ceiling 7 000 EUR then 8 500 EUR from the September 2025 billing) ([CNAF PSU guide](https://www.caf.fr/sites/default/files/medias/671/Guide%20PSU%2012-2025_2.pdf), annex 6, read 2026-11-27).
+- Hours reported to the fund: the nursery keeps an attendance list to count the hours done, declared to the fund, and
+  records the hours done and billed to justify its declarations ([CNAF PSU guide](https://www.caf.fr/sites/default/files/medias/671/Guide%20PSU%2012-2025_2.pdf), sections 1.3 and 2, read 2026-11-27).
+- SimpleERP enforces: hourly funding follows the family allowance scale.
 - Read in the
   [CNAF Prestation de Service Unique guide](https://www.caf.fr/sites/default/files/medias/671/Guide%20PSU%2012-2025_2.pdf)
   (September 2025), scale of 2025; the 2026 scale, the ceiling price of 2025 and the legal references are not read:
@@ -31,11 +36,13 @@ nursery the rest of the cost for the hours done. The nursery reports the hours t
 
 ## Legal references
 
-- Law to read: the hourly funding of nurseries (not read yet).
+- CNAF PSU guide (September 2025) and CNAF circulars 2014-009 and 2019-005; Code de la santé publique R2324-17,
+  R2324-46.
 
 ## Effective dates
 
-(Proposed) To read.
+2025 scale applied from 2025-01-01 to 2025-12-31; the 2026 scale is not read ([CNAF PSU guide](https://www.caf.fr/sites/default/files/medias/671/Guide%20PSU%2012-2025_2.pdf), annex 6,
+read 2026-11-27).
 
 ## Enforced by
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F20-31 Health report
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

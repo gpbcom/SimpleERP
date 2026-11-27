@@ -3,7 +3,7 @@
 
 # 🗃️ E-F6-18 Commission plan and target
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -16,7 +16,7 @@ Targets per rep, team or territory and the commission rules for a period.
 | period | dates | yes | - | - | 2027-Q1 | no | - |
 | targets | per rep, team, territory | yes | - | - | Lea 180,000 EUR | no | - |
 | rates and tiers | list | yes | - | - | 3 %, 5 % above target | no | - |
-| base | paid, invoiced | yes | - | paid (Proposed) | paid | no | - |
+| base | paid, invoiced | yes | - | paid | paid | no | - |
 
 ## Relations
 
@@ -39,7 +39,8 @@ By period.
 
 ## Retention
 
-5 years with pay records (Proposed).
+5 years with pay records, as the employer's payslip copies
+([CR-FR-047 HR records retention](../../../10-country-packs/france/labour/cr-fr-047-hr-records-retention.md)).
 
 ## Audit
 

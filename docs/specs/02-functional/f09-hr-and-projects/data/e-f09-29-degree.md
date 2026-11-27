@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-29 Degree
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-24, VD-25, VD-26 / D506, D507, D508)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -59,7 +59,7 @@ stateDiagram-v2
 ```
 
 Only a verified degree counts for scheduling
-([BR-F9-27](../business-rules/br-f09-27-unverified-attributes-do-not-count.md)). (Proposed) A degree HR enters with its
+([BR-F9-27](../business-rules/br-f09-27-unverified-attributes-do-not-count.md)). A degree HR enters with its
 proof is verified at once; one the employee enters waits for HR.
 
 ## Indexes and search
@@ -80,7 +80,7 @@ Every change; read by the AI, confirmed, corrected, rejected, with who and when.
 
 ## Import and export
 
-- (Proposed) CSV import of degrees, each imported row "to verify".
+- CSV import of degrees, each imported row "to verify".
 - Part of the employee's data export (access requests, CR-FR-051).
 
 ## Used by

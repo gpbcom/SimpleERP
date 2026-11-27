@@ -156,7 +156,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 The VAT treatment of deposits follows the country pack and is shown on the invoice:
 [BR-F6-08](../../../f06-customers-and-sales/business-rules/br-f06-08-vat-is-shown-wherever-it-matters.md).
-The France-pack rule on deposits is written later.
+The France-pack rule on deposits is [CR-FR-281 VAT on deposits for returnable packaging](../../../../10-country-packs/france/tax-and-vat/cr-fr-281-vat-on-returnable-packaging-deposits.md).
 
 ## Related use cases
 

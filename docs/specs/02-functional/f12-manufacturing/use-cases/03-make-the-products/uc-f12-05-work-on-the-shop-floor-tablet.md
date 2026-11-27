@@ -4,7 +4,7 @@
 
 # 📝 UC-F12-05 Work on the shop-floor tablet
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -113,7 +113,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Tablet screens answer within 300 ms (Proposed), offline included,
+Tablet screens answer within 300 ms, offline included,
 [UC-F12-26](../11-finite-schedule-and-the-tablet/uc-f12-26-keep-working-on-the-tablet-without-the-network.md).
 
 ## Regulatory references

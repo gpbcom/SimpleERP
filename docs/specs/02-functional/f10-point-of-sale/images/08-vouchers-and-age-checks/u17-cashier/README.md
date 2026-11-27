@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F10-08 Vouchers and age checks
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F10-08 Vouchers and age checks](../../../flows/fl-f10-08-vouchers-and-age-checks.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

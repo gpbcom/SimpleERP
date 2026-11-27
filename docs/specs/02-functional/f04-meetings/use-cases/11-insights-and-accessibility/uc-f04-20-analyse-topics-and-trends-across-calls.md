@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-20 Analyse topics and trends across calls
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -58,7 +58,7 @@ Weekly for managers; monthly for the owner.
 
 ## Error flows
 
-- 2e. Fewer than 10 checked calls in the period (Proposed): no trend, the screen says so.
+- 2e. Fewer than 10 checked calls in the period: no trend, the screen says so.
 - 3e. A passage of a meeting she may not read: counted but not quoted.
 
 ## Business rules
@@ -126,7 +126,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Topics of 1,000 calls within 10 seconds (Proposed).
+Topics of 1,000 calls within 10 seconds.
 
 ## Regulatory references
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-SC07-04 Manage drivers and their documents
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -43,7 +43,8 @@ Monthly review.
 ## Main flow
 
 1. HR records documents on [S-SC07-04 Drivers](../../screens/02-fleet-and-drivers/s-sc07-04-drivers.md).
-2. The dispatcher sees expiries ahead.
+2. The dispatcher sees expiries ahead, and HR is reminded of each document 60 days before it expires; the delay is a
+   default the company may change ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 3. HR plans renewals and training,
    [UC-F9-25](../../../../02-functional/f09-hr-and-projects/use-cases/09-train-and-protect/uc-f09-25-run-the-training-plan-with-opco-funding.md).
 4. Planning uses only current documents
@@ -78,7 +79,7 @@ The dispatcher and human resources roles; the record rules of their role and sit
 
 ## Notifications
 
-None beyond the in-app updates of the records concerned.
+HR: a reminder when a driver's document is 60 days from its expiry, or at the delay the company set.
 
 ## Audit events
 
@@ -128,7 +129,9 @@ sequenceDiagram
 ## Acceptance criteria
 
 1. **Given** the example transport company's M. D. with a driver card valid to 2028-04 **when** the renewal is due
-   **then** HR is reminded ((Proposed) 60 days before).
+   **then** HR is reminded (60 days before).
+3. **Given** a company that set the reminder delay to 90 days **when** M. D.'s card is 90 days from its expiry **then**
+   HR is reminded.
 2. **Given** M. D.'s card ending 2028-04 **when** he is assigned in May 2028 **then** the driver is blocked from trips.
 
 ## Non-functional notes
@@ -149,7 +152,7 @@ Legal values from the France country pack:
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

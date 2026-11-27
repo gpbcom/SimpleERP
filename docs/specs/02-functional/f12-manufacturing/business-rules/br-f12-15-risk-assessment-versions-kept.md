@@ -8,7 +8,8 @@
 
 ## Statement
 
-The risk assessment is kept per work unit and each version is kept; in France:
+The risk assessment is one document for the company that lists every work unit with its risks, and each version of it
+is kept; in France (Code du travail R4121-1):
 [CR-FR-076 Occupational risk assessment (DUERP)](../../../10-country-packs/france/labour/cr-fr-076-occupational-risk-assessment.md).
 
 ## Why

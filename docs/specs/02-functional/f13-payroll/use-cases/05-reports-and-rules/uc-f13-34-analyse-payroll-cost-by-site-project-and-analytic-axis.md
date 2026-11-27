@@ -5,7 +5,7 @@
 
 # 📝 UC-F13-34 Analyse payroll cost by site, project and analytic axis
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -76,7 +76,7 @@ Owner, accounting and payroll officer see amounts; managers see headcount and ho
 
 ## Notifications
 
-- The owner is told (Proposed) when a site's monthly payroll cost rises more than 10 % from the month before.
+- The owner is told when a site's monthly payroll cost rises more than 10 % from the month before.
 
 ## Audit events
 

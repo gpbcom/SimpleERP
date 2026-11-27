@@ -53,10 +53,10 @@ software, SC15 Wholesale and distribution, SC16 Events and culture.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U13-01 | [See the company's health at a glance](journeys/j-u13-01-see-the-company-health.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U13-01 | [See the company's health at a glance](journeys/j-u13-01-see-the-company-health.md) | ✅ |
 
 ---
 

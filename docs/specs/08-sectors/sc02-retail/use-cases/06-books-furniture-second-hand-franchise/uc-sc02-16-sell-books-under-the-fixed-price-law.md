@@ -4,7 +4,7 @@
 
 # 📝 UC-SC02-16 Sell books under the fixed price law
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -163,7 +163,7 @@ kept as data. The France-pack rule is listed below. Related:
 [CR-FR-092](../../../../10-country-packs/france/consumer/cr-fr-092-unit-price-display.md),
 [CR-FR-093](../../../../10-country-packs/france/consumer/cr-fr-093-sales-periods.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-227 Fixed book price (5 % cap)](../../../../10-country-packs/france/trade/cr-fr-227-fixed-book-price.md)
 
 ## Related use cases

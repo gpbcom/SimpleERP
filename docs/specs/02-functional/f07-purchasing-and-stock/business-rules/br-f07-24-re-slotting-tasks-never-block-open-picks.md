@@ -4,7 +4,7 @@
 
 # 📏 BR-F7-24 Re-slotting tasks never block open picks
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

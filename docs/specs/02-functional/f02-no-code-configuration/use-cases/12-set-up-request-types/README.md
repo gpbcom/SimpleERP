@@ -4,7 +4,7 @@
 
 # 📝 Use cases: FL-F2-12 Set up request types
 
-**Status:** 🔄 draft (GH-2 step S4b)
+**Status:** ✅ specified
 
 The use cases of this flow.
 
@@ -12,4 +12,4 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F2-30 | [Set up a request type](uc-f02-30-set-up-a-request-type.md) | 🔄 |
+| 📝 | UC-F2-30 | [Set up a request type](uc-f02-30-set-up-a-request-type.md) | ✅ |

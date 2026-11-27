@@ -11,8 +11,8 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC16-14 | [Copyright](s-sc16-14-copyright.md) | 🔄 |
-| 🖥️ | S-SC16-15 | [Ticket tax](s-sc16-15-ticket-tax.md) | 🔄 |
-| 🖥️ | S-SC16-16 | [Memberships](s-sc16-16-memberships.md) | 🔄 |
-| 🖥️ | S-SC16-18 | [Event report](s-sc16-18-event-report.md) | 🔄 |
-| 🖥️ | S-SC16-20 | [Events assistant](s-sc16-20-events-assistant.md) | 🔄 |
+| 🖥️ | S-SC16-14 | [Copyright](s-sc16-14-copyright.md) | ✅ |
+| 🖥️ | S-SC16-15 | [Ticket tax](s-sc16-15-ticket-tax.md) | ✅ |
+| 🖥️ | S-SC16-16 | [Memberships](s-sc16-16-memberships.md) | ✅ |
+| 🖥️ | S-SC16-18 | [Event report](s-sc16-18-event-report.md) | ✅ |
+| 🖥️ | S-SC16-20 | [Events assistant](s-sc16-20-events-assistant.md) | ✅ |

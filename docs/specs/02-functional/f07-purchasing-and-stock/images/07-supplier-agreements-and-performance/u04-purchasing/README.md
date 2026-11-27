@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F7-07 Supplier agreements and performance
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F7-07 Supplier agreements and performance](../../../flows/fl-f07-07-supplier-agreements-and-performance.md) for this

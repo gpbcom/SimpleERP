@@ -3,19 +3,20 @@
 
 # ⚖️ CR-FR-240 Furnished rentals (LMNP)
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A landlord who lets a furnished home as a non-professional renter may deduct the depreciation of the
+A landlord who lets a furnished home as a non-professional renter may deduct the depreciation of the
 building, the furniture and the works, but the depreciation may not create or increase a rental loss: the part above the
-result is carried forward without limit of time. The simplified regime has an allowance instead.
+result is carried forward without limit of time. The simplified regime has an allowance instead ([CGI, art. 39 C](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029355753), [art. 50-0](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054373853), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Depreciation limited to the result, the excess carried forward.
-- (Proposed) Ceilings and allowance of the year, kept as data.
-- (Proposed) SimpleERP enforces: depreciation never creates a rental loss.
+- Depreciation limited to the rent less the other charges, the excess carried forward (39 C II 2 and 3) ([CGI, art. 39 C](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029355753), read 2026-11-27).
+- Ceilings and allowance of the year, kept as data: 15 000 EUR and 30 % for furnished tourist lettings, 83 600 EUR
+  and 50 % for the others, at least 305 EUR (50-0) ([art. 50-0](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054373853), read 2026-11-27).
+- SimpleERP enforces: depreciation never creates a rental loss (39 C II 2) ([CGI, art. 39 C](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029355753), read 2026-11-27).
 - Read on Legifrance, [CGI 39 C](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029355753) (in force since 1
   January 2015) and [CGI 50-0](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054373853) (in force since 1
   July 2026), read 15 November 2026; the definition of the non-professional furnished renter (CGI 155 IV, 151 septies)
@@ -38,11 +39,13 @@ result is carried forward without limit of time. The simplified regime has an al
 
 ## Legal references
 
-- Law to read: furnished rentals as a non-professional renter (not read yet).
+- [Code général des impôts](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006069577/)
+  art. 39 C, 50-0, 155 IV (read); 151 septies not read yet.
 
 ## Effective dates
 
-(Proposed) To read.
+Since 2026-07-01: art. 39 C in force since 2015-01-01, art. 50-0 since 2026-07-01 (Décret
+n° 2026-562) ([CGI, art. 39 C](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029355753), [art. 50-0](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054373853), read 2026-11-27).
 
 ## Enforced by
 
@@ -60,7 +63,8 @@ Not read yet.
 
 ## Exceptions
 
-(Proposed) Professional renters, to read.
+Professional renters: furnished letting is professional only when the household's yearly receipts from it exceed
+23 000 EUR and exceed its other earned income (CGI 155 IV 2) ([CGI, art. 155](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053544949), read 2026-11-27).
 
 ## Open questions
 

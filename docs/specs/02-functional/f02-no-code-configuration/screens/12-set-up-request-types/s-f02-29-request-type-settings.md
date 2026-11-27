@@ -4,7 +4,7 @@
 
 # 🖥️ S-F2-29 Request type settings
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-27 to VD-29, VD-32, VD-33 / D509 to D511, D514, D515)
+**Status:** ✅ specified
 
 ## Personas
 
@@ -44,7 +44,7 @@ Configuration › Request types; a work request's type › Settings (for configu
 | OBJECTIVES (drag to order)   1 Lateness  2 Travel  3 Customer preferences  4 Fairness  5 Cost |
 | Automatic mode               [x] Allowed for this type                                      |
 |                                                                                             |
-| Preview (Proposed): 9 of 14 carers eligible today          [Save draft] [Publish]           |
+| Preview: 9 of 14 carers eligible today          [Save draft] [Publish]           |
 +---------------------------------------------------------------------------------------------+
 ```
 
@@ -80,13 +80,13 @@ Configuration › Request types; a work request's type › Settings (for configu
 | Add an attribute | attributes | administrator, configurators | attribute row added |
 | Save draft | footer | administrator, configurators | draft kept, not used |
 | Publish | footer | administrator, configurators on their own drafts | new version used by new work requests (UC-F2-09) |
-| Preview | footer (Proposed) | administrator, configurators | count of people eligible today |
+| Preview | footer | administrator, configurators | count of people eligible today |
 | Retire | menu | administrator | type no longer offered; open work requests keep it |
 
 ## States
 
 - Normal: the type's settings, editable as a draft.
-- Empty: no request type yet: "Create your first request type", with the sector pack's templates (Proposed).
+- Empty: no request type yet: "Create your first request type", with the sector pack's templates.
 - Loading: skeleton blocks; actions disabled until loaded.
 - Error: the error message pattern (D122); the draft typed stays.
 - Read-only: a configurator outside the type's record types; a retired type.

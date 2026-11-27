@@ -3,7 +3,7 @@
 
 # 🗃️ E-F4-13 Call topic
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -29,7 +29,7 @@ stateDiagram-v2
   [*] --> Recorded : UC-F4-20
 ```
 
-Recomputed each night (Proposed).
+Recomputed each night.
 
 ## Indexes and search
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F9-33 Planning map
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18 to VD-22 / D501 to D504)
+**Status:** ✅ specified
 
 ## Personas
 

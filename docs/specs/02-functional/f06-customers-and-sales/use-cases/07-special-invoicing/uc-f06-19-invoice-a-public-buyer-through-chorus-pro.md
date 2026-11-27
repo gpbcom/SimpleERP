@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-19 Invoice a public buyer through Chorus Pro
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -128,7 +128,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Statuses refreshed at least daily (Proposed).
+Statuses refreshed at least daily.
 
 ## Regulatory references
 

@@ -17,7 +17,7 @@ asked for 14 changes, read on 2026-11-13 at 12:34; two of the notes were clarifi
 - For each card: confirm it, or change it with a note.
 - For VC-1 to VC-6 and VC-10: give each list its existing personas (Recommended), or create new personas.
 - For VC-13: each employee's calendar compared side by side, or the meeting agenda, or both.
-- The [interview record](../../../tickets/GH-2/interviews/2026-11-13-wording-and-views.md) keeps the owner's answers,
+- The interview record (the owner's interview of 2026-11-13 on wording and views, not kept in the repository) keeps the owner's answers,
   not every option.
 
 ## Choice
@@ -63,7 +63,7 @@ the reading above stands.
 ## Decided by
 
 The owner, on 2026-11-13 at 12:34, 12:36 and 13:51, in the GH-2 interview round on the wording and the views
-([interview record](../../../tickets/GH-2/interviews/2026-11-13-wording-and-views.md), sections "View cards (S5)" and
+(interview record (the owner's interview of 2026-11-13 on wording and views, not kept in the repository), sections "View cards (S5)" and
 "List pages (S5): permission conflicts and "all employee types"").
 
 ## Consequences
@@ -95,7 +95,7 @@ The owner, on 2026-11-13 at 12:34, 12:36 and 13:51, in the GH-2 interview round 
 - [D494 Settings and technical records as admin lists](d494-settings-and-technical-records-as-admin-lists.md)
 - [D495 Views listed under each capability menu](d495-views-listed-under-each-capabilitys-menu.md)
 - [D517 The drafts open points](../foundations/d517-the-drafts-open-points-answered-on-2026-11-13.md)
-- [Interview record](../../../tickets/GH-2/interviews/2026-11-13-wording-and-views.md)
+- Interview record (the owner's interview of 2026-11-13 on wording and views, not kept in the repository)
 
 ---
 

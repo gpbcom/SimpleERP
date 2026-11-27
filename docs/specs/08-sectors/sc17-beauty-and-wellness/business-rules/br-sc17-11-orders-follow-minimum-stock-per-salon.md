@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-11 Orders follow minimum stock per salon
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

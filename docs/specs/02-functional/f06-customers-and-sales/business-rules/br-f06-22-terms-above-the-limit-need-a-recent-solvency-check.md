@@ -4,11 +4,11 @@
 
 # 📏 BR-F6-22 Terms above the limit need a recent solvency check
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-Payment terms or credit above the customer's credit limit need a solvency report not older than its validity (Proposed:
+Payment terms or credit above the customer's credit limit need a solvency report not older than its validity (default:
 90 days); without one, the order stays held and the terms are refused.
 
 ## Why
@@ -41,7 +41,7 @@ None.
 
 ## Configurable
 
-Yes: the validity of a report, by the owner (Proposed default: 90 days).
+Yes: the validity of a report, by the owner (default: 90 days).
 
 ## Open questions
 

@@ -4,7 +4,7 @@
 
 # 📏 BR-F5-21 Push needs the device's opt-in
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

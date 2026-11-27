@@ -3,7 +3,7 @@
 
 # 📏 BR-SC01-17 Calls for funds follow the legal stage caps
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -16,7 +16,8 @@ rest moves to the next stage.
 The cap protects the buyer, who pays for a building that does not exist yet; calling more is unlawful and exposes the
 developer. The owner asked for the property developer
 ([D545](../../../06-decisions/sectors/d545-benchmark-gaps-sc01-construction.md)). The ceilings are data of
-the France pack, written later.
+the France pack: 35 % at the foundations, 70 % weathertight, 95 % at completion, 5 % at delivery
+([CR-FR-225](../../../10-country-packs/france/real-estate/cr-fr-225-off-plan-sales.md)).
 
 ## Examples
 
@@ -33,7 +34,7 @@ the France pack, written later.
 - [UC-SC01-17](../use-cases/06-revision-developers-bim-and-grants/uc-sc01-17-sell-off-plan-homes.md)
 - [E-SC01-16 Off-plan lot](../data/e-sc01-16-off-plan-lot.md)
 - [E-SC01-03 Site phase](../data/e-sc01-03-site-phase.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-225 Off-plan sales (VEFA) calls for funds](../../../10-country-packs/france/real-estate/cr-fr-225-off-plan-sales.md)
 
 ## Exceptions

@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F5-09 Brand, tests and return on investment
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

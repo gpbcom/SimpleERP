@@ -3,7 +3,7 @@
 
 # 🎬 Event producer: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Contracts to sign; Declarations due; Shifts not covered.
 - Widgets: Tickets sold against capacity.
@@ -38,16 +38,16 @@ compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Navigation
 
-(Proposed) Home · Events · Artists · Ticketing · Budget · Assistant.
+Home · Events · Artists · Ticketing · Budget · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U43-01 | [Produce an event](journeys/j-u43-01-produce-an-event.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U43-01 | [Produce an event](journeys/j-u43-01-produce-an-event.md) | ✅ |
 
 ---
 

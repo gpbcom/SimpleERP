@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F9-13 Keep employees' qualifications
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F9-13 Keep employees' qualifications](../../../flows/fl-f09-13-keep-qualifications.md) for this persona,
 in light and dark mode (D120, D121). Errors follow the

@@ -3,7 +3,7 @@
 
 # 🧩 C-10 Empty state
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -32,8 +32,8 @@ missing, one sentence saying what comes here (optional), and the action that sta
 - **First use:** nothing created yet; the action creates or imports : "Add your first procedure, or sync a shared
   folder.", as on
   [S-F3-07 Knowledge base](../../../02-functional/f03-assistant/screens/07-manage-knowledge/s-f03-07-knowledge-base.md).
-- **No result:** search or filters match nothing; the action clears them (Proposed).
-- **All done:** nothing waits for the user (Proposed: "Nothing waits for you." on "My tasks",
+- **No result:** search or filters match nothing; the action clears them.
+- **All done:** nothing waits for the user ("Nothing waits for you." on "My tasks",
   [D48](../../../06-decisions/ux/d48-home-screen.md)).
 - **Nothing happened:** a log with no entry: "Your provider has not entered SimpleERP.", as on
   [S-F1-11 Provider access log](../../../02-functional/f01-administration/screens/08-provider-and-client-companies/s-f01-11-provider-access-log.md).
@@ -41,11 +41,11 @@ missing, one sentence saying what comes here (optional), and the action that sta
 ## States
 
 Shown, with its action enabled or not according to the user's rights; when the user may not create, the action is hidden
-and the sentence says who can (Proposed).
+and the sentence says who can.
 
 ## Tokens
 
-`font-h3` for the sentence and `font-body` for the second (Proposed); `color-text-muted` for the second sentence; the
+`font-h3` for the sentence and `font-body` for the second; `color-text-muted` for the second sentence; the
 illustration in the palette ([Imagery](../../visual-identity/imagery.md)); spacing 24 or 32 px from the grid
 ([Tokens](../tokens.md)).
 
@@ -57,8 +57,8 @@ illustration in the palette ([Imagery](../../visual-identity/imagery.md)); spaci
 ## Do and don't
 
 - Do use the user's words and say what to do next ([Tone of voice](../../visual-identity/tone-of-voice.md)).
-- Do offer the AI assistant when it can help start (Proposed).
-- (Proposed) Don't show an empty table with only its headers.
+- Do offer the AI assistant when it can help start.
+- Don't show an empty table with only its headers.
 - Don't blame or joke.
 
 ## Used in

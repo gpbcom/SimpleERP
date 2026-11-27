@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-11 Salon replenishment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

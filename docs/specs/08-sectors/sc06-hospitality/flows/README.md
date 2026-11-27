@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -16,7 +16,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC06-03 | [Rooms and bookings](fl-sc06-03-rooms-and-bookings.md) | ✅ |
 | 🔀 | FL-SC06-04 | [Stay and folio](fl-sc06-04-stay-and-folio.md) | ✅ |
 | 🔀 | FL-SC06-05 | [Taxes and performance](fl-sc06-05-taxes-and-performance.md) | ✅ |
-| 🔀 | FL-SC06-06 | [Campsites, catering, groups, pricing and licences](fl-sc06-06-campsites-catering-groups-and-pricing.md) | 🔄 |
+| 🔀 | FL-SC06-06 | [Campsites, catering, groups, pricing and licences](fl-sc06-06-campsites-catering-groups-and-pricing.md) | ✅ |
 
 ---
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC13-19 Baskets follow the season's contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,7 +15,7 @@ the pick-up, and not after.
 
 Baskets packed for absent members are wasted and a price that does not match the instalments creates disputes. The owner
 asked for basket subscriptions ([D557](../../../06-decisions/sectors/d557-benchmark-gaps-sc13-agriculture-and-food.md)).
-(Proposed) The France-pack rule is written later.
+No France-pack rule sets the baskets or the instalments: they follow the season's contract signed with the members.
 
 ## Examples
 

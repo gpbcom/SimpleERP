@@ -21,7 +21,7 @@ without notice; the certification bodies are supervised by the national institut
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Regulation (EU) 2018/848 applies since 2022-01-01 ([European Commission, DG AGRI: organic legislation](https://agriculture.ec.europa.eu/farming/organic-farming/legislation_en), read 2026-11-27).
 
 ## Enforced by
 

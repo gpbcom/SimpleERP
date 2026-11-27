@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-17 Run council meetings and deliberations
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -39,7 +39,7 @@ A few meetings a year per body, with dozens of deliberations.
 ## Postconditions
 
 - **Succeeded:** each deliberation is saved ([E-SC20-12 Deliberation](../../data/e-sc20-12-deliberation.md)) with its
-  vote and its transmission, and the minutes are posted.
+  vote and its transmission, and the list of the deliberations is posted and published within one week.
 - **Failed:** a meeting is not held without its quorum, a convocation is not sent after its legal delay, and a
   deliberation is not enforceable before it is transmitted.
 
@@ -53,7 +53,8 @@ A few meetings a year per body, with dozens of deliberations.
    [BR-SC20-17](../../business-rules/br-sc20-17-deliberations-are-sent-to-the-prefecture-to-become-enforceable.md).
 4. At the meeting the attendance is recorded and SimpleERP checks the quorum.
 5. For each item the vote is recorded with votes for, against and abstentions, and the result.
-6. After the meeting the minutes are posted and each adopted deliberation is transmitted to the prefecture.
+6. After the meeting the list of the deliberations is posted and published within one week, and each adopted
+   deliberation the law lists is transmitted to the prefecture.
 
 ## Alternative flows
 
@@ -147,12 +148,15 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-The members of a municipal council are convened in writing a number of days before the meeting, with the
-agenda and an explanatory note; the council deliberates only if the majority of its members in office are present;
-deliberations are adopted by majority; the minutes are posted shortly after; and the deliberations are sent to the
-prefecture to become enforceable. The delays, the quorum and the sizes of bodies are data of the France pack.
+The members of a municipal council are convened in writing 3 clear days (under 3 500 inhabitants) or 5 clear days before
+the meeting (1 clear day in urgency), with the agenda and, from 3 500 inhabitants, an explanatory note; the council
+deliberates only if the majority of its members in office are present (none needed when reconvened 3 days later);
+deliberations are adopted by the absolute majority of votes cast; the list of the deliberations is posted and published
+within one week (CGCT L2121-25); and the acts the law lists are sent to the prefecture to become enforceable (L2131-1).
+Councils have 7 to 69 councillors by population band (L2121-2). The delays, the quorum and the sizes of bodies are data
+of the France pack.
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-262 Deliberations and the legality check](../../../../10-country-packs/france/company/cr-fr-262-deliberations-legality-check.md)
 
 ## Related use cases

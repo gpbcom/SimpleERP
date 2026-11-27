@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -29,11 +29,11 @@ One file per rule.
 | 📏 | BR-F6-16 | [An instalment plan replaces the due date](br-f06-16-an-instalment-plan-replaces-the-due-date.md) | ✅ |
 | 📏 | BR-F6-17 | [A dispute pauses reminders on what is disputed](br-f06-17-a-dispute-pauses-reminders-on-what-is-disputed.md) | ✅ |
 | 📏 | BR-F6-18 | [Commissions follow paid invoices](br-f06-18-commissions-follow-paid-invoices.md) | ✅ |
-| 📏 | BR-F6-19 | [Forwarded leads leave their owner's pipeline](br-f06-19-forwarded-leads-leave-their-owners-pipeline.md) | 🔄 |
-| 📏 | BR-F6-20 | [Identifiers are checked per scheme](br-f06-20-identifiers-are-checked-per-scheme.md) | 🔄 |
-| 📏 | BR-F6-21 | [Call-offs never exceed the balance without approval](br-f06-21-call-offs-never-exceed-the-balance-without-approval.md) | 🔄 |
-| 📏 | BR-F6-22 | [Terms above the limit need a recent solvency check](br-f06-22-terms-above-the-limit-need-a-recent-solvency-check.md) | 🔄 |
-| 📏 | BR-F6-23 | [The legal conformity guarantee applies first](br-f06-23-the-legal-conformity-guarantee-applies-first.md) | 🔄 |
+| 📏 | BR-F6-19 | [Forwarded leads leave their owner's pipeline](br-f06-19-forwarded-leads-leave-their-owners-pipeline.md) | ✅ |
+| 📏 | BR-F6-20 | [Identifiers are checked per scheme](br-f06-20-identifiers-are-checked-per-scheme.md) | ✅ |
+| 📏 | BR-F6-21 | [Call-offs never exceed the balance without approval](br-f06-21-call-offs-never-exceed-the-balance-without-approval.md) | ✅ |
+| 📏 | BR-F6-22 | [Terms above the limit need a recent solvency check](br-f06-22-terms-above-the-limit-need-a-recent-solvency-check.md) | ✅ |
+| 📏 | BR-F6-23 | [The legal conformity guarantee applies first](br-f06-23-the-legal-conformity-guarantee-applies-first.md) | ✅ |
 
 ---
 

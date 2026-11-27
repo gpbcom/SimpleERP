@@ -3,7 +3,7 @@
 
 # 📏 BR-SC09-18 Dispensed medicines enter the register
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,8 @@ quantity, the date and the vet before the act is saved. A medicine with no lot o
 
 The register shows where each medicine went and allows a recall; a missing line is an offence and hides a possible
 misuse. The owner asked for veterinary practices
-([D553](../../../06-decisions/sectors/d553-benchmark-gaps-sc09-health-practices.md)). (Proposed) The France-pack rule is
-written later.
+([D553](../../../06-decisions/sectors/d553-benchmark-gaps-sc09-health-practices.md)). The France-pack rule is
+[CR-FR-279 Veterinary medicines dispensing register](../../../10-country-packs/france/health-practice/cr-fr-279-veterinary-dispensing-register.md).
 
 ## Examples
 
@@ -39,7 +39,8 @@ None.
 
 ## Configurable
 
-The years the register is kept, as data of the country pack.
+The years the register is kept, as data of the country pack: 10 years (Code de la santé publique R5141-112,
+[CR-FR-279](../../../10-country-packs/france/health-practice/cr-fr-279-veterinary-dispensing-register.md)).
 
 ## Open questions
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F1-21 Set the security policies
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -121,11 +121,12 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A policy change reaches every server within a minute (Proposed).
+A policy change reaches every server within a minute.
 
 ## Regulatory references
 
-(Proposed) to read: ANSSI password recommendations.
+(⚖️ lawyer review before launch, D574) to read: the ANSSI password recommendations and the CNIL deliberation 2022-100 on
+passwords.
 
 ## Related use cases
 

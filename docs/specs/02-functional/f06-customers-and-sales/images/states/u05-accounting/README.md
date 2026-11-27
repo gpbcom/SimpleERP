@@ -114,6 +114,18 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f06-08-reminders-e-f06-21-payment-reminder-active-desktop, light](s-f06-08-reminders-e-f06-21-payment-reminder-active-desktop-light.png) | ![s-f06-08-reminders-e-f06-21-payment-reminder-active-desktop, dark](s-f06-08-reminders-e-f06-21-payment-reminder-active-desktop-dark.png) |
 
+## s-f06-08-reminders-e-f06-21-payment-reminder-paused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f06-08-reminders-e-f06-21-payment-reminder-paused-desktop, light](s-f06-08-reminders-e-f06-21-payment-reminder-paused-desktop-light.png) | ![s-f06-08-reminders-e-f06-21-payment-reminder-paused-desktop, dark](s-f06-08-reminders-e-f06-21-payment-reminder-paused-desktop-dark.png) |
+
+## s-f06-08-reminders-e-f06-21-payment-reminder-stopped-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f06-08-reminders-e-f06-21-payment-reminder-stopped-desktop, light](s-f06-08-reminders-e-f06-21-payment-reminder-stopped-desktop-light.png) | ![s-f06-08-reminders-e-f06-21-payment-reminder-stopped-desktop, dark](s-f06-08-reminders-e-f06-21-payment-reminder-stopped-desktop-dark.png) |
+
 ## s-f06-08-reminders-e-f06-22-formal-notice-active-desktop
 
 | Light | Dark |
@@ -287,6 +299,18 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 | Light | Dark |
 |---|---|
 | ![s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-active-desktop, light](s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-active-desktop-light.png) | ![s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-active-desktop, dark](s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-active-desktop-dark.png) |
+
+## s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-paused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-paused-desktop, light](s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-paused-desktop-light.png) | ![s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-paused-desktop, dark](s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-paused-desktop-dark.png) |
+
+## s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-stopped-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-stopped-desktop, light](s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-stopped-desktop-light.png) | ![s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-stopped-desktop, dark](s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-stopped-desktop-dark.png) |
 
 ## s-f06-20-instalments-and-disputes-e-f06-17-invoice-dispute-open-desktop
 

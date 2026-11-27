@@ -35,7 +35,7 @@ One file per rule.
 | 📏 | BR-F1-22 | [Bulk invitations are checked line by line](br-f01-22-bulk-invitations-are-checked-line-by-line.md) | ✅ |
 | 📏 | BR-F1-23 | [Site administrators stay within their site and rights](br-f01-23-site-administrators-stay-within-their-site-and-rights.md) | ✅ |
 | 📏 | BR-F1-24 | [A deputy approves within the delegator's limits](br-f01-24-a-deputy-approves-within-the-delegators-limits.md) | ✅ |
-| 📏 | BR-F1-25 | [Uncertified rights are reported, not removed](br-f01-25-uncertified-rights-are-reported-not-removed.md) | 🔄 |
+| 📏 | BR-F1-25 | [Uncertified rights are reported, not removed](br-f01-25-uncertified-rights-are-reported-not-removed.md) | ✅ |
 | 📏 | BR-F1-26 | [Portal accounts see only their own records](br-f01-26-portal-accounts-see-only-their-own-records.md) | ✅ |
 | 📏 | BR-F1-27 | [Tokens are scoped, dated and shown once](br-f01-27-tokens-are-scoped-dated-and-shown-once.md) | ✅ |
 | 📏 | BR-F1-28 | [Security policies never lock out every administrator](br-f01-28-security-policies-never-lock-out-every-administrator.md) | ✅ |

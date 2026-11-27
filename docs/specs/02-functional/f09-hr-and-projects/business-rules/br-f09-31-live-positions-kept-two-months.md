@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-31 Live positions kept two months at most
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-22 / D504; retention proposed)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -12,8 +12,8 @@ keep their own period of 1 year (D290, BR-F9-06).
 
 ## Why
 
-- (Proposed) The CNIL's guidance on the geolocation of employees, to confirm in the France country pack:
-  [CR-FR-211](../../../10-country-packs/france/data-protection/cr-fr-211-live-geolocation-of-employees.md).
+- The CNIL's guidance on the geolocation of employees keeps positions 2 months by default, read in the France country
+  pack: [CR-FR-211](../../../10-country-packs/france/data-protection/cr-fr-211-live-geolocation-of-employees.md).
 - Personal data is kept no longer than needed:
   [CR-FR-052](../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).
 
@@ -38,7 +38,7 @@ None.
 
 ## Configurable
 
-(Proposed) A company may set a shorter period, never a longer one.
+A company may set a shorter period, never a longer one.
 
 ## Open questions
 

@@ -3,7 +3,7 @@
 
 # 📜 D502 Records on a map for planners and managers only
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-20 / D502)
+**Status:** ✅ decided
 
 ## Context
 
@@ -21,8 +21,8 @@ exceptions by nature.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-20).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-20).
 
 ## Consequences
 
@@ -52,7 +52,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [D501 Maps: planning, list views, record pages, dashboards, in four
   domains](d501-maps-planning-list-views-record-pages-dashboards-in-four-domains.md)
 - [D503 Who sees people's positions](../f09-hr-and-projects/d503-who-sees-peoples-positions.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

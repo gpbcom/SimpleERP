@@ -4,55 +4,84 @@
 
 ## Waiting for the owner
 
-**SC04 Home care, use cases:**
+### The lawyer's checklist: product pages (continued)
 
-- [S-SC04-01 Recipient](../08-sectors/sc04-home-care/screens/01-take-on-a-recipient/s-sc04-01-recipient.md)
-- [S-SC04-02 Care plan](../08-sectors/sc04-home-care/screens/01-take-on-a-recipient/s-sc04-02-care-plan.md)
-- [S-SC04-03 Rounds](../08-sectors/sc04-home-care/screens/02-plan-the-rounds/s-sc04-03-rounds.md)
-- [S-SC04-04 Visit](../08-sectors/sc04-home-care/screens/02-plan-the-rounds/s-sc04-04-visit.md)
-- [S-SC04-05 Care log](../08-sectors/sc04-home-care/screens/03-visit/s-sc04-05-care-log.md)
-- [S-SC04-06 Replacements](../08-sectors/sc04-home-care/screens/02-plan-the-rounds/s-sc04-06-replacements.md)
-- [S-SC04-07 Family access](../08-sectors/sc04-home-care/screens/03-visit/s-sc04-07-family-access.md)
-- [S-SC04-08 Billing](../08-sectors/sc04-home-care/screens/04-bill-and-fund/s-sc04-08-billing.md)
-- [S-SC04-09 Tax certificates](../08-sectors/sc04-home-care/screens/04-bill-and-fund/s-sc04-09-tax-certificates.md)
-- [S-SC04-10 Immediate advance](../08-sectors/sc04-home-care/screens/04-bill-and-fund/s-sc04-10-immediate-advance.md)
-- [S-SC04-11 Travel time](../08-sectors/sc04-home-care/screens/04-bill-and-fund/s-sc04-11-travel-time.md)
-- [S-SC04-12 Quality](../08-sectors/sc04-home-care/screens/05-people-and-quality/s-sc04-12-quality.md)
-- [S-SC04-13 Carer skills](../08-sectors/sc04-home-care/screens/05-people-and-quality/s-sc04-13-carer-skills.md)
-- [S-SC04-14 Activity reports](../08-sectors/sc04-home-care/screens/05-people-and-quality/s-sc04-14-activity-reports.md)
-- [S-SC04-15 Rounds assistant](../08-sectors/sc04-home-care/screens/03-visit/s-sc04-15-rounds-assistant.md)
-- [E-SC04-01 Care recipient](../08-sectors/sc04-home-care/data/e-sc04-01-care-recipient.md)
-- [E-SC04-02 Care funding](../08-sectors/sc04-home-care/data/e-sc04-02-care-funding.md)
-- [E-SC04-03 Care plan](../08-sectors/sc04-home-care/data/e-sc04-03-care-plan.md)
-- [E-SC04-04 Visit](../08-sectors/sc04-home-care/data/e-sc04-04-visit.md)
-- [E-SC04-06 Care log entry](../08-sectors/sc04-home-care/data/e-sc04-06-care-log-entry.md)
-- [E-SC04-07 Care incident](../08-sectors/sc04-home-care/data/e-sc04-07-care-incident.md)
-- [E-SC04-08 Care invoice](../08-sectors/sc04-home-care/data/e-sc04-08-care-invoice.md)
-- [E-SC04-09 Tax-credit certificate](../08-sectors/sc04-home-care/data/e-sc04-09-tax-credit-certificate.md)
-- [E-SC04-10 Complaint](../08-sectors/sc04-home-care/data/e-sc04-10-complaint.md)
-- [E-SC04-11 Carer qualification](../08-sectors/sc04-home-care/data/e-sc04-11-carer-qualification.md)
-- [E-SC04-12 Activity report](../08-sectors/sc04-home-care/data/e-sc04-12-activity-report.md)
-- [BR-SC04-11 Billing splits between funders](../08-sectors/sc04-home-care/business-rules/br-sc04-11-billing-splits-between-funders.md)
-- [BR-SC04-13 Immediate advance on request](../08-sectors/sc04-home-care/business-rules/br-sc04-13-immediate-advance-on-request.md)
+**SC07 Transport and logistics, use cases:**
 
-**SC04 Home care, regulatory:**
+- [UC-SC07-21 Run passenger transport](../08-sectors/sc07-transport/use-cases/07-passengers-removals-courier-and-freight/uc-sc07-21-run-passenger-transport.md)
 
-- [Regulatory](../08-sectors/sc04-home-care/regulatory.md)
+**SC09 Health practices, business rules:**
 
-**New persona U27:**
+- [BR-SC09-19 Prosthetics need the regulated quote before care](../08-sectors/sc09-health-practices/business-rules/br-sc09-19-prosthetics-need-the-regulated-quote-before-care.md)
 
-- [Quality manager: app shell and home](../04-ux/views/u27-quality-manager/README.md)
+**SC09 Health practices, use cases:**
 
-Pages: [1](README.md) · [2](page-2.md) · [3](page-3.md) · [4](page-4.md) · [5](page-5.md) · **6** · [7](page-7.md) ·
-[8](page-8.md) · [9](page-9.md) · [10](page-10.md) · [11](page-11.md) · [12](page-12.md) · [13](page-13.md) ·
-[14](page-14.md) · [15](page-15.md) · [16](page-16.md) · [17](page-17.md) · [18](page-18.md) · [19](page-19.md) ·
-[20](page-20.md) · [21](page-21.md) · [22](page-22.md) · [23](page-23.md) · [24](page-24.md) · [25](page-25.md) ·
-[26](page-26.md) · [27](page-27.md) · [28](page-28.md) · [29](page-29.md) · [30](page-30.md) · [31](page-31.md) ·
-[32](page-32.md) · [33](page-33.md) · [34](page-34.md) · [35](page-35.md) · [36](page-36.md) · [37](page-37.md) ·
-[38](page-38.md) · [39](page-39.md) · [40](page-40.md) · [41](page-41.md) · [42](page-42.md) · [43](page-43.md) ·
-[44](page-44.md) · [45](page-45.md) · [46](page-46.md) · [47](page-47.md) · [48](page-48.md) · [49](page-49.md) ·
-[50](page-50.md) · [51](page-51.md) · [52](page-52.md) · [53](page-53.md) · [54](page-54.md) · [55](page-55.md) ·
-[56](page-56.md) · [57](page-57.md) · [58](page-58.md)
+- [UC-SC09-24 Quote dental work with the regulated quote](../08-sectors/sc09-health-practices/use-cases/07-pharmacy-vets-dental-and-centres/uc-sc09-24-quote-dental-work-with-the-regulated-quote.md)
+
+**SC11 Professional firms, business rules:**
+
+- [BR-SC11-16 Client funds are held at the state deposit bank](../08-sectors/sc11-professional-firms/business-rules/br-sc11-16-client-funds-are-held-at-the-state-deposit-bank.md)
+
+**SC11 Professional firms, use cases:**
+
+- [UC-SC11-21 Run a notary's office](../08-sectors/sc11-professional-firms/use-cases/07-notaries-brokers-officers-and-auditors/uc-sc11-21-run-a-notarys-office.md)
+
+**SC13 Agriculture and food, business rules:**
+
+- [BR-SC13-16 Harvest and stock declarations are filed on time](../08-sectors/sc13-agriculture-and-food/business-rules/br-sc13-16-harvest-and-stock-declarations-are-filed-on-time.md)
+- [BR-SC13-18 Rebates follow the members' deliveries](../08-sectors/sc13-agriculture-and-food/business-rules/br-sc13-18-rebates-follow-the-members-deliveries.md)
+- [BR-SC13-20 Fellings follow the management plan](../08-sectors/sc13-agriculture-and-food/business-rules/br-sc13-20-fellings-follow-the-management-plan.md)
+
+**SC13 Agriculture and food, use cases:**
+
+- [UC-SC13-21 Run the vineyard and the cellar](../08-sectors/sc13-agriculture-and-food/use-cases/06-vineyards-contractors-and-cooperatives/uc-sc13-21-run-the-vineyard-and-the-cellar.md)
+
+**SC14 IT and software, business rules:**
+
+- [BR-SC14-09 Incidents notified by stage](../08-sectors/sc14-it-and-software/business-rules/br-sc14-09-incidents-notified-by-stage.md)
+- [BR-SC14-11 VAT by the customer's country](../08-sectors/sc14-it-and-software/business-rules/br-sc14-11-vat-by-the-customer-country.md)
+
+**SC16 Events and culture, business rules:**
+
+- [BR-SC16-16 Unused balances are refundable after the event](../08-sectors/sc16-events-and-culture/business-rules/br-sc16-16-unused-balances-are-refundable-after-the-event.md)
+- [BR-SC16-19 Images are sold only with the model's release](../08-sectors/sc16-events-and-culture/business-rules/br-sc16-19-images-are-sold-only-with-the-models-release.md)
+
+**SC16 Events and culture, use cases:**
+
+- [UC-SC16-22 Run a cinema](../08-sectors/sc16-events-and-culture/use-cases/06-cashless-cinemas-tours-and-photos/uc-sc16-22-run-a-cinema.md)
+
+**SC17 Beauty and wellness, summary pages:**
+
+- [Open questions](../08-sectors/sc17-beauty-and-wellness/open-questions.md)
+
+**SC18 Sports and fitness, entities:**
+
+- [E-SC18-15 Camp registration](../08-sectors/sc18-sports-and-fitness/data/e-sc18-15-camp-registration.md)
+
+**SC18 Sports and fitness, use cases:**
+
+- [UC-SC18-19 Run holiday camps](../08-sectors/sc18-sports-and-fitness/use-cases/05-facilities-events-camps-and-rentals/uc-sc18-19-run-holiday-camps.md)
+
+**SC19 Trades and home services, business rules:**
+
+- [BR-SC19-01 Contracts list the legal yearly check-ups](../08-sectors/sc19-trades-and-home-services/business-rules/br-sc19-01-contracts-list-the-legal-yearly-check-ups.md)
+- [BR-SC19-02 Visits are planned before the legal due date](../08-sectors/sc19-trades-and-home-services/business-rules/br-sc19-02-visits-are-planned-before-the-legal-due-date.md)
+- [BR-SC19-03 Certificates are given to the customer](../08-sectors/sc19-trades-and-home-services/business-rules/br-sc19-03-certificates-are-given-to-the-customer.md)
+- [BR-SC19-04 Renewals follow the notice and index clauses](../08-sectors/sc19-trades-and-home-services/business-rules/br-sc19-04-renewals-follow-the-notice-and-index-clauses.md)
+- [BR-SC19-13 Works start after the grant file is filed](../08-sectors/sc19-trades-and-home-services/business-rules/br-sc19-13-works-start-after-the-grant-file-is-filed.md)
+- [BR-SC19-16 Refrigerant handling needs a certified technician](../08-sectors/sc19-trades-and-home-services/business-rules/br-sc19-16-refrigerant-handling-needs-a-certified-technician.md)
+- [BR-SC19-17 Call-out surcharges are shown before dispatch](../08-sectors/sc19-trades-and-home-services/business-rules/br-sc19-17-call-out-surcharges-are-shown-before-dispatch.md)
+
+**SC20 Public bodies, business rules:**
+
+- [BR-SC20-03 Orders are signed by the authorising officer](../08-sectors/sc20-public-bodies/business-rules/br-sc20-03-orders-are-signed-by-the-authorising-officer.md)
+- [BR-SC20-04 Files follow the public treasury format](../08-sectors/sc20-public-bodies/business-rules/br-sc20-04-files-follow-the-public-treasury-format.md)
+- [BR-SC20-06 Publication follows the legal media](../08-sectors/sc20-public-bodies/business-rules/br-sc20-06-publication-follows-the-legal-media.md)
+- [BR-SC20-07 Award follows the published criteria](../08-sectors/sc20-public-bodies/business-rules/br-sc20-07-award-follows-the-published-criteria.md)
+- [BR-SC20-09 Requests are acknowledged with a deadline](../08-sectors/sc20-public-bodies/business-rules/br-sc20-09-requests-are-acknowledged-with-a-deadline.md)
+- [BR-SC20-10 Bookings follow the council's rates](../08-sectors/sc20-public-bodies/business-rules/br-sc20-10-bookings-follow-the-councils-rates.md)
+
+Pages: [1](README.md) · [2](page-2.md) · [3](page-3.md) · [4](page-4.md) · [5](page-5.md) · **6** · [7](page-7.md)
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F1-13 Provision users from the identity provider
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -87,7 +87,7 @@ deactivate users and groups.
 
 ## Notifications
 
-- The administrator gets a daily summary of users created, changed and deactivated by provisioning (Proposed).
+- The administrator gets a daily summary of users created, changed and deactivated by provisioning.
 - The manager of a deactivated user gets the hand-over task.
 
 ## Audit events

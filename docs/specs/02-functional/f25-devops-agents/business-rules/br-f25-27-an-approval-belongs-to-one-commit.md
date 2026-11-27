@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-27 An approval belongs to one commit
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -46,7 +46,7 @@ None.
 
 ## Configurable
 
-(Proposed) The list of required checks, per ticket in its work contract; build, tests and the acceptance criteria are
+The list of required checks, per ticket in its work contract; build, tests and the acceptance criteria are
 always required.
 
 ## Open questions

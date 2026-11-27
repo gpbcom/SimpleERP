@@ -144,8 +144,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 For some sports and for competition, a licence or an entry needs a medical certificate or a questionnaire,
 and its validity depends on the federation and the practice. Only what is needed is kept: the date, the validity and
 whether the person is fit; the health data is protected
-([CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)). The France-pack
-rule is written later.
+([CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)). The France-pack rules are [CR-FR-284 Sports licences and medical certificates](../../../../10-country-packs/france/non-profit/cr-fr-284-sports-licences-and-medical-certificates.md) and [CR-FR-283 Health data outside care](../../../../10-country-packs/france/data-protection/cr-fr-283-health-data-outside-care.md).
 
 ## Related use cases
 

@@ -12,6 +12,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC06-12 | [Tourist tax](s-sc06-12-tourist-tax.md) | 🔄 |
-| 🖥️ | S-SC06-13 | [Meal vouchers](s-sc06-13-meal-vouchers.md) | 🔄 |
-| 🖥️ | S-SC06-14 | [Performance](s-sc06-14-performance.md) | 🔄 |
+| 🖥️ | S-SC06-12 | [Tourist tax](s-sc06-12-tourist-tax.md) | ✅ |
+| 🖥️ | S-SC06-13 | [Meal vouchers](s-sc06-13-meal-vouchers.md) | ✅ |
+| 🖥️ | S-SC06-14 | [Performance](s-sc06-14-performance.md) | ✅ |

@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC20-04 Public-sector HR and pay
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC13-21 Vineyard
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

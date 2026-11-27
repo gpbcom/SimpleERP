@@ -4,7 +4,7 @@
 
 # 📝 UC-F14-32 Install a website theme
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -158,8 +158,9 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Online shops and public sites must be accessible:
 [CR-FR-072](../../../../10-country-packs/france/consumer/cr-fr-072-web-accessibility-eaa.md). The checks follow the
-accessibility standard the country pack names; (Proposed) the France-pack rule on the site's accessibility statement is
-written later.
+accessibility standard the country pack names; a shop site gives the information on how it meets the
+requirements, in its general terms or an equivalent page
+([CR-FR-222](../../../../10-country-packs/france/digital/cr-fr-222-accessibility-statement.md)).
 
 ## Related use cases
 

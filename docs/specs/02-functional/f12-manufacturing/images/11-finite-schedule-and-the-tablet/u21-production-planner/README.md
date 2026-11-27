@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F12-11 Finite schedule and the tablet
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F12-11 Finite schedule and the tablet](../../../flows/fl-f12-11-finite-schedule-and-the-tablet.md) for
 this persona, in light and dark mode (D120, D121). Errors follow the

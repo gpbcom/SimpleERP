@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U18-01 | [Serve a table](j-u18-01-serve-a-table.md) | 🔄 |
+| 🧭 | J-U18-01 | [Serve a table](j-u18-01-serve-a-table.md) | ✅ |
 
 ---
 

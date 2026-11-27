@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC11-21 Notary
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

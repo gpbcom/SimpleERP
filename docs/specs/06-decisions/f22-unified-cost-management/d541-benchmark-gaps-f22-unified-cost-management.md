@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four cost
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four cost
 features that F22 did not cover: prepaid credit packs, a light register of software subscriptions, the carbon of compute
 and routing of AI tasks to cheaper models. F22 already meters, budgets, forecasts and allocates the platform's costs;
 these extend what is bought, what is tracked, what is reported and how the AI spend is cut. The subscription register
@@ -40,7 +40,7 @@ machines. All at full depth now.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F22 Unified cost
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F22 Unified cost
 management").
 
 ## Consequences

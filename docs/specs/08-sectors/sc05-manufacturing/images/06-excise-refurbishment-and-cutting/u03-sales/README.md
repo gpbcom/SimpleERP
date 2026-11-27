@@ -3,7 +3,7 @@
 
 # 🖼️ FL-SC05-06 Excise, refurbishment, personalisation and cutting
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC05-06 Excise, refurbishment, personalisation and cutting](../../../flows/fl-sc05-06-excise-refurbishment-and-cutting.md)

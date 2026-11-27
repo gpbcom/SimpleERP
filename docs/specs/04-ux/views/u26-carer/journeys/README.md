@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U26-01 | [Do the day's visits](j-u26-01-do-the-day-visits.md) | 🔄 |
+| 🧭 | J-U26-01 | [Do the day's visits](j-u26-01-do-the-day-visits.md) | ✅ |
 
 ---
 

@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F9-14 Source candidates on LinkedIn
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F9-14 Source candidates on LinkedIn](../../../flows/fl-f09-14-source-candidates-on-linkedin.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

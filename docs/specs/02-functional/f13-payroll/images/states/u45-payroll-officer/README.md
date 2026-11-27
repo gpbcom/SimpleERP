@@ -204,6 +204,18 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f13-17-benefits-e-f13-26-employee-benefit-active-desktop, light](s-f13-17-benefits-e-f13-26-employee-benefit-active-desktop-light.png) | ![s-f13-17-benefits-e-f13-26-employee-benefit-active-desktop, dark](s-f13-17-benefits-e-f13-26-employee-benefit-active-desktop-dark.png) |
 
+## s-f13-17-benefits-e-f13-26-employee-benefit-blocked-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f13-17-benefits-e-f13-26-employee-benefit-blocked-desktop, light](s-f13-17-benefits-e-f13-26-employee-benefit-blocked-desktop-light.png) | ![s-f13-17-benefits-e-f13-26-employee-benefit-blocked-desktop, dark](s-f13-17-benefits-e-f13-26-employee-benefit-blocked-desktop-dark.png) |
+
+## s-f13-17-benefits-e-f13-26-employee-benefit-ended-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f13-17-benefits-e-f13-26-employee-benefit-ended-desktop, light](s-f13-17-benefits-e-f13-26-employee-benefit-ended-desktop-light.png) | ![s-f13-17-benefits-e-f13-26-employee-benefit-ended-desktop, dark](s-f13-17-benefits-e-f13-26-employee-benefit-ended-desktop-dark.png) |
+
 ## s-f13-18-yearly-reports-e-f13-15-yearly-payroll-report-checked-desktop
 
 | Light | Dark |

@@ -12,6 +12,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC06-07 | [Rooms and rates](s-sc06-07-rooms-and-rates.md) | 🔄 |
-| 🖥️ | S-SC06-08 | [Bookings](s-sc06-08-bookings.md) | 🔄 |
-| 🖥️ | S-SC06-15 | [Hospitality assistant](s-sc06-15-hospitality-assistant.md) | 🔄 |
+| 🖥️ | S-SC06-07 | [Rooms and rates](s-sc06-07-rooms-and-rates.md) | ✅ |
+| 🖥️ | S-SC06-08 | [Bookings](s-sc06-08-bookings.md) | ✅ |
+| 🖥️ | S-SC06-15 | [Hospitality assistant](s-sc06-15-hospitality-assistant.md) | ✅ |

@@ -160,10 +160,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Second-hand goods sold to consumers carry the legal guarantee of conformity, which the seller may shorten for
-used goods but not below one year. A device sold as refurbished must have been tested and its worn parts replaced, and
-the previous owner's personal data must be erased. Electronic equipment placed on the market is covered by the producer
-responsibility identifier and its eco-contribution. The France-pack rule is written later. Related:
+Second-hand goods sold to consumers carry the legal guarantee of conformity, and a defect that appears within 12 months of delivery is presumed to have existed at delivery ([CR-FR-223 Legal conformity guarantee](../../../../10-country-packs/france/consumer/cr-fr-223-legal-conformity-guarantee.md)). A device sold as refurbished must have been tested on all its functions, repaired where needed and cleared of all the previous owner's data, and is never called "as new". Electronic equipment placed on the market is covered by the producer
+responsibility identifier and its eco-contribution. The France-pack rule is [CR-FR-278 Refurbished products](../../../../10-country-packs/france/products/cr-fr-278-refurbished-products.md). Related:
 [CR-FR-067](../../../../10-country-packs/france/consumer/cr-fr-067-legal-guarantee-of-conformity.md),
 [CR-FR-073](../../../../10-country-packs/france/products/cr-fr-073-epr-unique-identifier.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).

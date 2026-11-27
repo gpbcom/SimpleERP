@@ -5,7 +5,7 @@
 
 # 📝 UC-F15-18 Run a shareholders' general meeting
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -167,7 +167,7 @@ register of companies. The France-pack rule is listed below. Related:
 [CR-FR-146](../../../../10-country-packs/france/real-estate/cr-fr-146-co-ownership-assembly.md) for the co-owners'
 assembly, [CR-FR-001](../../../../10-country-packs/france/company/cr-fr-001-company-identifiers.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-221 Shareholders' general meetings](../../../../10-country-packs/france/company/cr-fr-221-general-meetings.md)
 
 ## Related use cases

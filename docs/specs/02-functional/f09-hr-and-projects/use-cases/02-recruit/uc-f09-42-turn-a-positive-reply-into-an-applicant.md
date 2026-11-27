@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-42 Turn a positive reply into an applicant
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -50,7 +50,11 @@ A few times per sequence.
    "sourcing", with the profile snapshot, the score and its reason, and the conversation.
 3. The approved booking-link reply goes in the same LinkedIn thread with the job position's self-scheduling link
    ([UC-F9-06](uc-f09-06-run-the-applicant-pipeline.md)) and the privacy notice
-   ([BR-F9-38](../../business-rules/br-f09-38-sourced-people-told-at-the-first-contact.md)).
+   ([BR-F9-38](../../business-rules/br-f09-38-sourced-people-told-at-the-first-contact.md)): in prepared mode it waits
+   as a task in HR's task list ([E-F9-18 Project and task](../../data/e-f09-18-project-and-task.md)) and HR sends it
+   with one click, with Send in the task or on
+   [S-F9-39](../../screens/02-recruit/s-f09-39-prospect-conversations.md); on its own when the sequence started in
+   automatic mode ([D570](../../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)).
 4. HR is told; the applicant appears at the first stage of the pipeline
    ([S-F9-06](../../screens/02-recruit/s-f09-06-applicant-pipeline.md)).
 5. The candidate picks a slot; the interview is booked in the interviewers' calendars and captured in F4
@@ -60,10 +64,14 @@ A few times per sequence.
 
 ## Alternative flows
 
-- 1a. The reply was classified as positive but is not: HR changes the class; (Proposed) the applicant is withdrawn and
+- 1a. The reply was classified as positive but is not: HR changes the class; the applicant is withdrawn and
   HR writes to the person by hand.
 - 3a. The candidate asks for another time or channel: HR answers in the thread or by email; the link stays valid.
-- 5a. (Proposed) No slot booked after 7 days: HR is reminded once.
+- 3b. Prepared mode, the booking-link reply not sent within 7 days: it expires, is never sent, and its task closes; the
+  applicant stays at the first stage of the pipeline and HR sends the link by hand if they still want to
+  ([E-F9-47 Outreach message](../../data/e-f09-47-outreach-message.md),
+  [D570](../../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)).
+- 5a. No slot booked after 7 days: HR is reminded once.
 
 ## Error flows
 
@@ -89,6 +97,7 @@ A few times per sequence.
 - [E-F9-45 Prospect](../../data/e-f09-45-prospect.md): changed
 - [E-F9-47 Outreach message](../../data/e-f09-47-outreach-message.md): created
 - [E-F9-06 Job position](../../data/e-f09-06-job-position.md): read
+- [E-F9-18 Project and task](../../data/e-f09-18-project-and-task.md): created, changed, in prepared mode
 
 ## Permissions
 
@@ -96,12 +105,14 @@ HR; the hiring managers see the applicant as any other ([UC-F9-06](uc-f09-06-run
 
 ## Notifications
 
-- HR, at once: a new applicant from sourcing.
+- HR, at once: a new applicant from sourcing. In prepared mode the booking-link reply waits as a task, listed in HR's
+  daily digest of the messages to send (D570), with no notification of its own.
 - The interviewers: the interview booked, as in [UC-F9-06](uc-f09-06-run-the-applicant-pipeline.md).
 
 ## Audit events
 
-Applicant created from a prospect (after the AI assistant's class or HR's), booking link sent, interview booked.
+Applicant created from a prospect (after the AI assistant's class or HR's), booking link prepared with its task, sent
+(by HR's click or automatically) or expired, interview booked.
 
 ## AI involvement
 
@@ -135,6 +146,8 @@ sequenceDiagram
   Q->>A: Classify
   A-->>Q: Positive
   Q->>AP: Applicant Sonia M., source sourcing
+  Q-->>H: Booking-link reply prepared, a task with Send
+  H->>Q: Send
   Q-->>P: Booking link and privacy notice
   P->>AP: Book Tuesday 10:00
   AP-->>H: Interview booked
@@ -144,14 +157,18 @@ sequenceDiagram
 
 1. **Given** Sonia's reply "Yes, happy to talk" **when** it is classified as positive **then** an applicant exists for
    the job with the source "sourcing" and the conversation attached.
-2. **Given** that applicant **when** it is created **then** the booking link goes in the thread with the privacy notice.
+2. **Given** that applicant **when** it is created **then** the booking link is prepared in the thread with the privacy
+   notice, waits as a task in HR's task list, and goes when HR clicks Send in the task or the thread, or at once when
+   the sequence started in automatic mode.
 3. **Given** Sonia picks Tuesday 10:00 **when** she books **then** the interview is in the interviewers' calendars.
 4. **Given** Sonia already an applicant for this job **when** she replies positively **then** no second applicant is
    created.
+5. **Given** the prepared booking-link reply not sent **when** 7 days have passed **then** it expires and is never
+   sent, its task closes, and Sonia stays an applicant at the first stage.
 
 ## Non-functional notes
 
-The applicant created and the link sent within one reply check.
+The applicant created and the link prepared, or sent with automatic sending on, within one reply check.
 
 ## Regulatory references
 

@@ -14,7 +14,10 @@ cannot be raised at revision or renewal, nor carry a rent supplement.
 
 - Cities: Paris, Est Ensemble, Plaine Commune, Bordeaux, Grenoble (part), Lille, Lyon and Villeurbanne, Montpellier,
   Pays Basque.
-- Paris: the source gives an end on 2026-11-24, to check.
+- Paris and the other cities: until 2026-11-22 the experiment ran for 8 years from the law's publication, to 2026-11-24;
+  from 2026-11-23 it runs for 10 years from 2018-11-24, so to 2028-11-24 (computed from the publication date) ([loi n°
+  2018-1021, art. 140, as amended by loi n° 2026-1072 du 21 novembre
+  2026](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043977071), read 2026-11-27).
 - F and G: no increase at renewal since 2024-08-22.
 
 ## Legal references
@@ -24,7 +27,9 @@ cannot be raised at revision or renewal, nor carry a rent supplement.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Loi n° 89-462 art. 17 in its current version since 2022-08-24 ([loi n° 89-462, chapter III](https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000509310/LEGISCTA000006118908/), read 2026-11-27). The rent-cap
+experiment (loi ELAN art. 140): until 2026-11-22, 8 years from the law's publication (24 November 2018); from
+2026-11-23, 10 years (loi n° 2026-1072 du 21 novembre 2026) ([loi n° 2018-1021, art. 140](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043977071), read 2026-11-27).
 
 ## Enforced by
 
@@ -45,7 +50,7 @@ None.
 
 ## Open questions
 
-Whether Paris's cap was extended after 2026-11-24.
+None: the extension to 10 years was read on 2026-11-27 (loi n° 2026-1072).
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

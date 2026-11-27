@@ -37,7 +37,11 @@ find, filter, total and act on many employee referrals at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] EMPLOYEE REFERRAL   STATE                                                            |
+| state             | [ ] EMPLOYEE REF   REFERRER   JOB POSITION   COUNTED   SHARED THROU   POINTS   STATE     |
+| referrer          | [ ] ...                                                  Open >                          |
+| job position      | [ ] ...                                                  Open >                          |
+| counted           | [ ] ...                                                  Open >                          |
+| shared through    | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,8 +51,13 @@ find, filter, total and act on many employee referrals at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Employee referral | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Employee referral | title | text | yes |
+| Referrer | referrer | person's name | yes |
+| Job position | job position | link to the record | yes |
+| Counted | counted | yes or no | yes |
+| Shared through | shared through | label | yes |
+| Points | points | number, right-aligned | yes |
+| State | state | badge: Tracked, Not counted, Hired | yes |
 
 Secrets are never a column (VR-4).
 
@@ -56,13 +65,18 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Tracked, Not counted, Hired | the visible rows (D488) |
+| Referrer | each person, the user first | the visible rows (D488) |
+| Job position | each linked job position | the visible rows (D488) |
+| Counted | yes, no | the visible rows (D488) |
+| Shared through | email, LinkedIn | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: employee referrals link to no other record type in their fields.
+- Employee referrals of a chosen job position, or of the job positions that match a filter.
+- From the other side: the job positions that have employee referrals, or none.
 
 ## KPI strip
 
@@ -78,6 +92,8 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: referrer.
+- Open: Tracked.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -91,6 +107,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New employee referral | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -106,7 +123,12 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| title | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| referrer | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| candidate | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| applicant | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

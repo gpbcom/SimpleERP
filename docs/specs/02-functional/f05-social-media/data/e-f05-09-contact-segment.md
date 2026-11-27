@@ -3,7 +3,7 @@
 
 # 🗃️ E-F5-09 Contact segment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -38,7 +38,7 @@ By name and use.
 
 ## Retention
 
-While used; archived after a year unused (Proposed).
+While used; archived after a year unused.
 
 ## Audit
 

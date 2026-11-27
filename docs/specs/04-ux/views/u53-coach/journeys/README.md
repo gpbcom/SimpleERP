@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U53-01 | [Coach a member](j-u53-01-coach-a-member.md) | 🔄 |
+| 🧭 | J-U53-01 | [Coach a member](j-u53-01-coach-a-member.md) | ✅ |
 
 ---
 

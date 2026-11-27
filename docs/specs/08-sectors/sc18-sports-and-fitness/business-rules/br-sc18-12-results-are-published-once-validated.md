@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-12 Results are published once validated
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

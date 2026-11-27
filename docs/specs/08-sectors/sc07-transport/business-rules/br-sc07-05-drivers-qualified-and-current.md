@@ -7,7 +7,7 @@
 
 ## Statement
 
-(Proposed) A driver is assigned only with a valid licence, driver card and training: legal requirements of the trip's
+A driver is assigned only with a valid licence, driver card and training: legal requirements of the trip's
 request type
 [BR-F9-26](../../../02-functional/f09-hr-and-projects/business-rules/br-f09-26-legal-requirements-never-relaxed.md),
 checked by
@@ -17,7 +17,8 @@ renewals are reminded; in France:
 
 ## Why
 
-(Proposed) The renewal period is still to read.
+The continuous training is renewed every 5 years, the first within 5 years of the initial qualification, and may be
+done in the year before the deadline ([CR-FR-119](../../../10-country-packs/france/transport/cr-fr-119-driver-training.md)).
 
 ## Examples
 
@@ -36,7 +37,8 @@ None.
 
 ## Configurable
 
-Reminder delays.
+Reminder delays: 60 days before a document expires by default, editable by the company
+([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Open questions
 

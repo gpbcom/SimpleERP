@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-10 Bookings follow the council's rates
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,10 @@ is already booked or the number of people is above the safety capacity.
 ## Why
 
 A rate outside the voted ones is irregular and a crowd above the capacity is a safety risk
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The rates are those the council
+votes. (⚖️ lawyer review before launch, D574) The France-pack rule on the safety capacity of a hall is still to write: to read the
+fire-safety rules of venues open to the public (Code de la construction et de l'habitation R143-1 and following, arrêté
+of 25 June 1980).
 
 ## Examples
 

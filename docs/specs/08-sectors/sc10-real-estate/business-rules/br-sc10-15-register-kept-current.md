@@ -7,12 +7,14 @@
 
 ## Statement
 
-(Proposed) Each co-ownership's data in the national register is updated yearly; in France:
+Each co-ownership's data in the national register is updated yearly; in France:
 [CR-FR-148 National register of co-ownerships](../../../10-country-packs/france/real-estate/cr-fr-148-co-ownership-register.md).
 
 ## Why
 
-(Proposed) The register's rules are still to read.
+The manager registers each co-ownership in the national register and files the yearly update within two months of the
+general assembly that approves the accounts; other data are updated when they change
+([CR-FR-148](../../../10-country-packs/france/real-estate/cr-fr-148-co-ownership-register.md)).
 
 ## Examples
 

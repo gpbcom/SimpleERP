@@ -3,7 +3,7 @@
 
 # 📏 BR-F8-24 Unrealised differences are reversed next period
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

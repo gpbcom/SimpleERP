@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC18-05 | [Class timetable](s-sc18-05-class-timetable.md) | 🔄 |
-| 🖥️ | S-SC18-06 | [Class booking](s-sc18-06-class-booking.md) | 🔄 |
-| 🖥️ | S-SC18-07 | [Waiting list](s-sc18-07-waiting-list.md) | 🔄 |
-| 🖥️ | S-SC18-08 | [Coach planning](s-sc18-08-coach-planning.md) | 🔄 |
+| 🖥️ | S-SC18-05 | [Class timetable](s-sc18-05-class-timetable.md) | ✅ |
+| 🖥️ | S-SC18-06 | [Class booking](s-sc18-06-class-booking.md) | ✅ |
+| 🖥️ | S-SC18-07 | [Waiting list](s-sc18-07-waiting-list.md) | ✅ |
+| 🖥️ | S-SC18-08 | [Coach planning](s-sc18-08-coach-planning.md) | ✅ |

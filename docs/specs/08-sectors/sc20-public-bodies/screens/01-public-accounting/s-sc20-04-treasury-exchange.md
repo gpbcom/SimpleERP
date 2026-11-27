@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-04 Treasury exchange
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

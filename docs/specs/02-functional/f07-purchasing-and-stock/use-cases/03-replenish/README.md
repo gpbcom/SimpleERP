@@ -11,6 +11,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F7-05 | [Replenish stock](uc-f07-05-replenish-stock.md) | 🔄 |
+| 📝 | UC-F7-05 | [Replenish stock](uc-f07-05-replenish-stock.md) | ✅ |
 | 📝 | UC-F7-13 | [Set up warehouses, routes and rules](uc-f07-13-set-up-warehouses-routes-and-rules.md) | ✅ |
 | 📝 | UC-F7-21 | [Set safety stock and min/max per item](uc-f07-21-set-safety-stock-and-min-max-per-item.md) | ✅ |

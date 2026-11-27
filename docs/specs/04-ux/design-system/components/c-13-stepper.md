@@ -3,7 +3,7 @@
 
 # 🧩 C-13 Stepper
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -27,8 +27,8 @@ One mark per step with its number and name; done steps show a check, the current
 
 ## Variants
 
-- **Horizontal:** on desktops and tablets, up to seven steps (Proposed).
-- **Compact:** on phones, "Step 3 of 7: Sites" with a progress bar (Proposed).
+- **Horizontal:** on desktops and tablets, up to seven steps.
+- **Compact:** on phones, "Step 3 of 7: Sites" with a progress bar.
 
 ## States
 
@@ -37,13 +37,13 @@ One mark per step with its number and name; done steps show a check, the current
 | Done | `color-success` mark with a check (as drawn) |
 | Current | `color-primary` mark, label in weight 600 |
 | To do | `color-border` mark, `color-text-muted` label |
-| With an error | (Proposed) `color-error` mark with the (!) icon |
+| With an error | `color-error` mark with the (!) icon |
 | Focus | The `color-primary` focus ring on a step that can be opened |
 
 ## Tokens
 
-`color-primary`, `color-success`, `color-error`, `color-border`, `color-text-muted`; `font-caption` for labels
-(Proposed: as drawn); motion 150 ms ([Motion](../../visual-identity/motion.md)).
+`color-primary`, `color-success`, `color-error`, `color-border`, `color-text-muted`; `font-caption` for labels; motion
+150 ms ([Motion](../../visual-identity/motion.md)).
 
 ## Accessibility
 

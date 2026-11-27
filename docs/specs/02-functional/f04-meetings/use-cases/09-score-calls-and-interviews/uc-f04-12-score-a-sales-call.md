@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-12 Score a sales call
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -134,7 +134,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Scorecard within 5 minutes of the check (Proposed).
+Scorecard within 5 minutes of the check.
 
 ## Regulatory references
 

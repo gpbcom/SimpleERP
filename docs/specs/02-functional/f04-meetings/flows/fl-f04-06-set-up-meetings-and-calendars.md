@@ -13,7 +13,7 @@ From connecting sources and calendars to meetings in step with everyone's agenda
 
 - [U07 Administrator](../../../01-users/personas/u07-administrator.md)
 - Every internal persona (their own calendar)
-- [U01 Employee](../../../01-users/personas/u01-employee.md), acting in the chart, step 36i (Proposed)
+- [U01 Employee](../../../01-users/personas/u01-employee.md), acting in the chart, step 36i
 
 ## Flowchart
 

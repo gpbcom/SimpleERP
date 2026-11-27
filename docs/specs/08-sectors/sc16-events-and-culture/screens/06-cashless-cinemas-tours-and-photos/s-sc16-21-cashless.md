@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC16-21 Cashless payments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -24,7 +24,8 @@ Events and culture › Cashless; the gate's phone; a stand's till.
 
 ```text
 +--------------------------------------------------------------------------------------------------+
-| Cashless: Jazz Night 2026                     Held 18,420.00 EUR  [Close accounts] [Pay refunds] |
+| Cashless: Jazz Night 2026                                         [Close accounts] [Pay refunds] |
+| In circulation 18,420.00 EUR of the 1,000,000 EUR declaration threshold; event network only      |
 | Wristband   Visitor        Loaded    Spent     Balance   State       Refund                      |
 | 0412        Marie L.       20.00     12.50     7.50      Active      -                           |
 | 0413        Karim D.       50.00     50.00     0.00      Closed      -                           |
@@ -55,13 +56,14 @@ Events and culture › Cashless; the gate's phone; a stand's till.
 | Balance | E-SC16-19 balance | amount in EUR | no | no |
 | Bank account | E-SC16-19 refund account | text | yes while Closed | yes to refund |
 | Refunded on | E-SC16-19 refunded on | date | no | no |
+| In circulation | computed: the balances not spent or refunded, over the organiser's events | amount in EUR against the 1,000,000 EUR threshold, above which the organiser declares itself to the ACPR each year (L525-6) | no | no |
 
 ## Actions
 
 | Action | Where | Who may use it | Result |
 |---|---|---|---|
 | Link wristband | phone | box office agent | an account in state Active |
-| Load | account | box office agent | the balance grows by the amount |
+| Load | account | box office agent | the balance grows by the amount, never above the loading cap of the pack (set by decree) and with cash within its limit (CR-FR-022); the wristband is spent only at the event's network ([CR-FR-289](../../../../10-country-packs/france/payments/cr-fr-289-closed-loop-payment-wristbands.md)) |
 | Close accounts | header | event producer | every account is Closed and refundable |
 | Pay refunds | header | event producer | the refunds requested are paid and the accounts are Refunded |
 

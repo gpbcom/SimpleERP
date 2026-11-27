@@ -3,7 +3,7 @@
 
 # 🗃️ E-F1-15 Bulk invitation batch
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -37,7 +37,7 @@ By date and creator; shown under Users.
 
 ## Retention
 
-Kept 90 days after its last line ends, as invitations (Proposed).
+Kept 90 days after its last line ends, as invitations.
 
 ## Audit
 

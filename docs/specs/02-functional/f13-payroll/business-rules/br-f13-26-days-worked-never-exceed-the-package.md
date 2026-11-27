@@ -3,7 +3,7 @@
 
 # 📏 BR-F13-26 Days worked never exceed the package
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,7 +14,9 @@ contract; a declaration that would pass it is refused until a person with the ri
 
 A package is a promise of a number of days: working beyond it silently breaks the contract and the rest rules. The owner
 asked for days-based contracts ([D532](../../../06-decisions/f13-payroll/d532-benchmark-gaps-f13-payroll.md)).
-(Proposed) The France-pack rule on the follow-up of days-based workers is written later.
+The France-pack rule on the follow-up of days-based workers is
+[CR-FR-219 Days-based contracts (forfait jours)](../../../10-country-packs/france/labour/cr-fr-219-days-based-contracts.md): at most
+218 days a year, 235 when rest days are waived, and a regular check of the workload.
 
 ## Examples
 
@@ -31,7 +33,7 @@ asked for days-based contracts ([D532](../../../06-decisions/f13-payroll/d532-be
 - [UC-F13-36](../use-cases/10-special-contracts-and-outsourcing/uc-f13-36-follow-days-based-contracts.md)
 - [E-F13-29 Days package](../data/e-f13-29-days-package.md)
 - [E-F9-02 Contract](../../f09-hr-and-projects/data/e-f09-02-contract.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-219 Days-based contracts (forfait jours)](../../../10-country-packs/france/labour/cr-fr-219-days-based-contracts.md)
 
 ## Exceptions

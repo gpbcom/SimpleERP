@@ -22,4 +22,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F7-09 Compliance and carbon](09-compliance-and-carbon/README.md) | 12 images |
 | 🖼️ |  | [Images: FL-F7-10 Consignment, scanning, packaging and EDI](10-consignment-scanning-and-edi/README.md) | 24 images |
 | 🖼️ |  | [Screen states](states/README.md) | 192 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

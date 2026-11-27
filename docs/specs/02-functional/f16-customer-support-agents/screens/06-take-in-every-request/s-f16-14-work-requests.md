@@ -4,7 +4,7 @@
 
 # 🖥️ S-F16-14 Work requests
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18 to VD-20, VD-30, VD-31 / D501, D502, D512, D513)
+**Status:** ✅ specified
 
 ## Personas
 

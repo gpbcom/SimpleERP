@@ -35,7 +35,7 @@ Revises D24 and D422. Backups, REQ-T09-04 and the operations chapter say so.
 - [Operations (docs/technical)](../../../technical/operations/operations.md)
 - [D24](../foundations/d24-backups-and-updates.md)
 - [D422](d422-backups-and-recovery.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

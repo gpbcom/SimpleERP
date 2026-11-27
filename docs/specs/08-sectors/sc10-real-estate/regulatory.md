@@ -19,7 +19,7 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-148 National register of co-ownerships](../../10-country-packs/france/real-estate/cr-fr-148-co-ownership-register.md),
 [CR-FR-023 SEPA payment formats](../../10-country-packs/france/payments/cr-fr-023-sepa-formats.md),
 [CR-FR-052 Personal data kept no longer than needed](../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).
-Four are (Proposed): their official pages could not be read yet.
+All are read in their official sources (2026-11-27).
 
 ## Country pack
 

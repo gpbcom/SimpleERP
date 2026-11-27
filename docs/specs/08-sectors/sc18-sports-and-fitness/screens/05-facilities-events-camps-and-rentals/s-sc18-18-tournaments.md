@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-18 Tournaments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

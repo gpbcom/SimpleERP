@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -26,19 +26,19 @@ One file per rule.
 | 📏 | BR-F13-13 | [Payslips kept](br-f13-13-payslips-kept.md) | ✅ |
 | 📏 | BR-F13-14 | [Benefits valued](br-f13-14-benefits-valued.md) | ✅ |
 | 📏 | BR-F13-15 | [Payroll assistant, own data only](br-f13-15-payroll-assistant-own-data-only.md) | ✅ |
-| 📏 | BR-F13-16 | [Every employee covered by the mandatory schemes](br-f13-16-every-employee-covered-by-the-mandatory-schemes.md) | 🔄 |
-| 📏 | BR-F13-17 | [Special contracts paid by their own rules](br-f13-17-special-contracts-paid-by-their-own-rules.md) | 🔄 |
-| 📏 | BR-F13-18 | [Special regimes declared to their own bodies](br-f13-18-special-regimes-declared-to-their-own-bodies.md) | 🔄 |
-| 📏 | BR-F13-19 | [Garnishment within the attachable portion](br-f13-19-garnishment-within-the-attachable-portion.md) | 🔄 |
-| 📏 | BR-F13-20 | [Advances recovered from the next pay](br-f13-20-advances-recovered-from-the-next-pay.md) | 🔄 |
-| 📏 | BR-F13-21 | [Profit-sharing once the threshold is reached](br-f13-21-profit-sharing-once-the-threshold-is-reached.md) | 🔄 |
-| 📏 | BR-F13-22 | [Leave pay is the higher of two methods](br-f13-22-leave-pay-is-the-higher-of-two-methods.md) | 🔄 |
+| 📏 | BR-F13-16 | [Every employee covered by the mandatory schemes](br-f13-16-every-employee-covered-by-the-mandatory-schemes.md) | ✅ |
+| 📏 | BR-F13-17 | [Special contracts paid by their own rules](br-f13-17-special-contracts-paid-by-their-own-rules.md) | ✅ |
+| 📏 | BR-F13-18 | [Special regimes declared to their own bodies](br-f13-18-special-regimes-declared-to-their-own-bodies.md) | ✅ |
+| 📏 | BR-F13-19 | [Garnishment within the attachable portion](br-f13-19-garnishment-within-the-attachable-portion.md) | ✅ |
+| 📏 | BR-F13-20 | [Advances recovered from the next pay](br-f13-20-advances-recovered-from-the-next-pay.md) | ✅ |
+| 📏 | BR-F13-21 | [Profit-sharing once the threshold is reached](br-f13-21-profit-sharing-once-the-threshold-is-reached.md) | ✅ |
+| 📏 | BR-F13-22 | [Leave pay is the higher of two methods](br-f13-22-leave-pay-is-the-higher-of-two-methods.md) | ✅ |
 | 📏 | BR-F13-23 | [Payroll cost split by the analytic axes](br-f13-23-payroll-cost-split-by-the-analytic-axes.md) | ✅ |
 | 📏 | BR-F13-24 | [Agreement family rules dated and complete](br-f13-24-agreement-family-rules-dated-and-complete.md) | ✅ |
-| 📏 | BR-F13-25 | [A posting needs an A1 certificate or a SIPSI declaration](br-f13-25-a-posting-needs-an-a1-certificate-or-a-sipsi-declaration.md) | 🔄 |
-| 📏 | BR-F13-26 | [Days worked never exceed the package](br-f13-26-days-worked-never-exceed-the-package.md) | 🔄 |
-| 📏 | BR-F13-27 | [Inputs are frozen once handed over](br-f13-27-inputs-are-frozen-once-handed-over.md) | 🔄 |
-| 📏 | BR-F13-28 | [Delegation hours are paid as work time](br-f13-28-delegation-hours-are-paid-as-work-time.md) | 🔄 |
+| 📏 | BR-F13-25 | [A posting needs an A1 certificate or a SIPSI declaration](br-f13-25-a-posting-needs-an-a1-certificate-or-a-sipsi-declaration.md) | ✅ |
+| 📏 | BR-F13-26 | [Days worked never exceed the package](br-f13-26-days-worked-never-exceed-the-package.md) | ✅ |
+| 📏 | BR-F13-27 | [Inputs are frozen once handed over](br-f13-27-inputs-are-frozen-once-handed-over.md) | ✅ |
+| 📏 | BR-F13-28 | [Delegation hours are paid as work time](br-f13-28-delegation-hours-are-paid-as-work-time.md) | ✅ |
 
 ---
 

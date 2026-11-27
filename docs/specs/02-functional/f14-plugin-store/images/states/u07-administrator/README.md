@@ -156,6 +156,24 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-active-desktop, light](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-active-desktop-light.png) | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-active-desktop, dark](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-active-desktop-dark.png) |
 
+## s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop, light](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop-light.png) | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop, dark](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop-dark.png) |
+
+## s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop, light](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop-light.png) | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop, dark](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop-dark.png) |
+
+## s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop, light](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop-light.png) | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop, dark](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop-dark.png) |
+
 ## s-f14-28-free-trials-e-f14-23-trial-active-desktop
 
 | Light | Dark |

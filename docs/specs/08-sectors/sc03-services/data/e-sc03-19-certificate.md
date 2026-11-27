@@ -21,7 +21,7 @@ own life.
 | scope | text | yes | - | - | manufacture of wooden furniture | no | no |
 | issued on | date | no | set at the positive decision | - | 2026-02-01 | no | no |
 | valid to | date | no | three years after the issue | computed | 2029-01-31 | no | no |
-| surveillance dates | dates | yes | one a year before the end | computed | 2027-01-31 | no | no |
+| surveillance dates | dates | no | one a year before the end, when the programme has surveillance (always with a mark, CR-FR-255) | computed | 2027-01-31 | no | no |
 | audits | date, auditor, result | yes | the initial audit at least | - | 2026-01-12 | no | no |
 | impartiality check | text and date | yes | before each assignment | - | 2026-01-05 | no | no |
 | state | Pending, Issued, Lapsed, Expired, Withdrawn | yes | the lifecycle below | Pending | Issued | no | no |

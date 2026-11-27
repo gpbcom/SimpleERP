@@ -5,6 +5,8 @@
 
 **Status:** ✅ decided
 
+Superseded by [D569](d569-roadmap-option-a-in-twelve-phases.md) for its date.
+
 ## Context
 
 R24: D380 (a release only once every capability and sector is built) against the French e-invoicing date of 1 September
@@ -33,7 +35,7 @@ Answers Q16; revises D380; Q13's platform is chosen for the pilot. The roadmap s
 - [Roadmap](../../00-vision/roadmap/roadmap.md)
 - [Q16 How does a pilot company work before the first release?](../../07-questions/q16-pilot-before-the-first-release.md)
 - [D380](d380-every-capability-first-confirmed.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

@@ -30,8 +30,8 @@ The owner, on 2026-11-12 at 14:53, round 1 of the decisions on the independent r
 ## Consequences
 
 Revises D373 (the promise reworded: local by default, outside only by an administrator's choice) and D388 (the closed
-services use only the listed providers). The list itself is in Privacy and GDPR, (Proposed) until the providers are
-named at launch. The vision pages say it plainly.
+services use only the listed providers). The list itself is in Privacy and GDPR, and the providers
+are named at launch. The vision pages say it plainly.
 
 ## Related
 
@@ -40,7 +40,7 @@ named at launch. The vision pages say it plainly.
 - [Privacy and GDPR](../../05-non-functional/privacy-gdpr.md)
 - [D373](d373-sovereign-ai-native-suite.md)
 - [D388](d388-hosted-edition-open-core.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

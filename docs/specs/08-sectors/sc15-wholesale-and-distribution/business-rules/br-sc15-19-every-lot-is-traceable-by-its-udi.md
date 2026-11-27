@@ -3,7 +3,7 @@
 
 # 📏 BR-SC15-19 Every lot is traceable by its UDI
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,7 +14,9 @@ that any customer of a lot can be found from its UDI. A quarantined or recalled 
 
 A safety notice is useless if the distributor cannot say who has the device. The owner asked for medical devices
 ([D559](../../../06-decisions/sectors/d559-benchmark-gaps-sc15-wholesale-and-distribution.md)). The
-France-pack rule is written later.
+law asks the distributor to identify whom it supplied for at least 10 years after the last device is placed on the
+market (15 for implantable devices), and to store the UDI for class III implantable devices and the devices the
+Commission designates (CR-FR-247, Regulation (EU) 2017/745 art. 25 and 27); SimpleERP keeps the UDI of every lot.
 
 ## Examples
 
@@ -31,7 +33,7 @@ France-pack rule is written later.
 - [UC-SC15-24](../use-cases/06-beverages-vans-weights-and-devices/uc-sc15-24-distribute-medical-devices.md)
 - [E-SC15-17 Device lot](../data/e-sc15-17-device-lot.md)
 - [E-F7-10](../../../02-functional/f07-purchasing-and-stock/data/e-f07-10-lot-or-serial.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-247 Medical device UDI traceability](../../../10-country-packs/france/products/cr-fr-247-medical-device-udi.md)
 
 ## Exceptions

@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC16-06 Cashless, cinemas, tours and photographers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

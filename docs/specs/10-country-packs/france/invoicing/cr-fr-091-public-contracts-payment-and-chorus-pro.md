@@ -25,7 +25,7 @@ Every invoice of a public contract goes through Chorus Pro, and the public buyer
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12 (the page was verified on 25 June 2026).
+Since 2019-04-01: Code de la commande publique R2192-10 ([Code de la commande publique, art. R2192-10](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037729711), read 2026-11-27).
 
 ## Enforced by
 

@@ -39,7 +39,7 @@ Every capability below is covered by F4, or by the capability named, and kept in
 | Key moments, clips, chapters | UC-F4-11 |
 | Meeting prep brief from calendar and inbox | UC-F4-09 |
 | Deal health, stakeholders, deals at risk | UC-F4-12, UC-F4-15 |
-| Ask across meetings and emails, cited | UC-F4-06, F3 (emails as a source: F3 extension, Proposed) |
+| Ask across meetings and emails, cited | UC-F4-06, F3 (emails as a source: F3 extension) |
 | Slides, emails and scheduled actions from the AI assistant | UC-F4-11, UC-F4-15, F3 |
 | MCP server with read-only meeting tools | UC-F4-14, T6 |
 | CRM and ATS write-back, field auto-fill with per-field instructions | UC-F4-12 (SimpleERP's own CRM, F6), UC-F4-13 (F9) |

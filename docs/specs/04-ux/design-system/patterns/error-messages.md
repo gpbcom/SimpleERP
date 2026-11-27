@@ -3,7 +3,7 @@
 
 # 🧵 Error messages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -45,7 +45,7 @@ service down, a lost network.
 
 - Field errors show next to the field, as soon as the field is left, and again on saving.
 - Rule refusals show in a dialog or a banner at the top of the page.
-- (Proposed) Outside services down or no network: a banner that says what still works ("Your time is saved and will
+- Outside services down or no network: a banner that says what still works ("Your time is saved and will
   sync").
 - Never a technical code, a stack trace or English jargon in the message itself; never blame ("You entered...").
 

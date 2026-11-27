@@ -3,7 +3,7 @@
 
 # 🗃️ E-F11-22 Punch-out session
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -39,7 +39,7 @@ By customer.
 
 ## Retention
 
-1 year (Proposed).
+1 year.
 
 ## Audit
 

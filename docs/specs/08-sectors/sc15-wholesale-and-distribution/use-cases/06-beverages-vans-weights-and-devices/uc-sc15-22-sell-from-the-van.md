@@ -159,7 +159,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Sales invoiced from a van follow the usual invoice mentions and numbering without gaps, and a sale paid in
 cash to a consumer must be recorded in certified software that keeps the sale data unalterable. Cash payments are
-limited by law and the phone must refuse one above the limit. The France-pack rule is written later. Related:
+limited by law and the phone must refuse one above the limit. The France-pack rules that apply are listed below. Related:
 [CR-FR-014](../../../../10-country-packs/france/invoicing/cr-fr-014-invoice-numbering.md),
 [CR-FR-015](../../../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md),
 [CR-FR-022](../../../../10-country-packs/france/payments/cr-fr-022-cash-payment-limit.md),

@@ -3,7 +3,7 @@
 
 # 📝 Use cases
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per use case, grouped by persona.
 

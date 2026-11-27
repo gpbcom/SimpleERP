@@ -8,7 +8,7 @@
 
 ## Statement
 
-A buyer is told before each contract's notice date (Proposed: 30 days before), with the choices to renew, renegotiate or
+A buyer is told before each contract's notice date (default: 30 days before), with the choices to renew, renegotiate or
 end.
 
 ## Why
@@ -31,7 +31,7 @@ None.
 
 ## Configurable
 
-Days before (Proposed: 30).
+Days before (default: 30).
 
 ## Open questions
 

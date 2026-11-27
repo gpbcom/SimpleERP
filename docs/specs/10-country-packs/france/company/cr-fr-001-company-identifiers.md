@@ -24,7 +24,8 @@ SIREN.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2025-01-01: CGI 286 ter ([CGI, art. 286 ter](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048826954), read 2026-11-27); the SIRENE
+numbering rules not read for their date.
 
 ## Enforced by
 

@@ -4,7 +4,7 @@
 
 # 🔀 FL-F5-10 Cards, referrals, push and listening
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

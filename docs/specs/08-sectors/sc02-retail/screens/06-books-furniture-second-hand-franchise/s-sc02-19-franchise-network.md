@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC02-19 Franchise network
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -22,7 +22,7 @@ A trial period does not exceed its legal maximum for the employee's category, re
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2008-06-27: L1221-19 and L1221-21 ([Code du travail, art. L1221-19](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019071113), [art. L1221-21](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000019067609), read 2026-11-27).
 
 ## Enforced by
 
@@ -38,7 +38,9 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+No fine in the articles read (L1221-19 to L1221-26). An employer who does not give the notice
+when ending a trial owes the employee an indemnity equal to the pay of that notice, unless for gross misconduct
+(L1221-25) ([Code du travail, art. L1221-19 to L1221-26](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000019067609), read 2026-11-27).
 
 ## Exceptions
 

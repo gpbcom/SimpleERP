@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U03-01 | [From lead to order](j-u03-01-from-lead-to-order.md) | 🔄 |
+| 🧭 | J-U03-01 | [From lead to order](j-u03-01-from-lead-to-order.md) | ✅ |
 
 ---
 

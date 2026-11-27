@@ -11,5 +11,5 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F11-21 | [Screen orders for fraud and authenticate payments](uc-f11-21-screen-orders-for-fraud-and-authenticate-payments.md) | 🔄 |
+| 📝 | UC-F11-21 | [Screen orders for fraud and authenticate payments](uc-f11-21-screen-orders-for-fraud-and-authenticate-payments.md) | ✅ |
 | 📝 | UC-F11-22 | [Handle a chargeback](uc-f11-22-handle-a-chargeback.md) | ✅ |

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC01-17 Off-plan sales
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

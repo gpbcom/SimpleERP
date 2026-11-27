@@ -3,25 +3,34 @@
 
 # ⚖️ CR-FR-205 VAT on the promotion credit
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) The 50 % credit given to a customer who promotes a feature is treated as a price reduction on its own
+(⚖️ lawyer review before launch, D574) The 50 % credit given to a customer who promotes a feature is treated as a price reduction on its own
 subscription; a tax adviser confirms it is not a supply by the customer (a licence of its rights), which would need the
 customer's invoice or self-billing and VAT.
 
 ## Values
 
-- (Proposed) A credit note per period, VAT reduced accordingly.
+- A credit note per period, VAT reduced accordingly: price reductions granted directly to the customer are left
+  out of the VAT base (CGI 267 II 1), and a document that amends the initial invoice and refers to it specifically
+  is treated as an invoice (CGI 289 I 5) ([CGI, art. 267](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042910064), [CGI, art. 289](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048827413), read 2026-11-27).
 
 ## Legal references
 
-- CGI art. 267 (not read yet).
+- [Code général des impôts](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006069577/)
+  art. 267 (read; repealed from 2027-01-01 by Ordonnance n° 2025-1247).
 
 ## Effective dates
 
-(Proposed) To read.
+Art. 267 in force since 2020-12-31, until 2027-01-01 ([CGI, art. 267](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042910064), read 2026-11-27). Until 2026-12-31, CGI art. 267 and 289 apply; from 2027-01-01, the Code des impositions sur les biens et services, Book II, the price reductions (L213-70 to L213-72) and the invoices (L216-33 to L216-46),
+in force on that date ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 49](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054587047) as amended by Ordonnance n° 2026-671, read 2026-11-27); on invoices,
+contracts and acts that produce effects until 2028-06-30 (art. 46 II as
+amended by Ordonnance n° 2026-671, [BOFiP, BOI-RES-TVA-000253 of 2026-10-07](https://bofip.impots.gouv.fr/bofip/14901-PGP.html/identifiant=BOI-RES-TVA-000253-20261007), read 2026-11-27), a reference to the CGI is read as one to the CIBS
+article that takes it over ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 46](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053091753), read 2026-11-27).
+From 2027-01-01 the CGI rules on invoices and corrective documents (art. 289) stay
+applicable until the regulatory part of the CIBS takes them over ([BOFiP, BOI-RES-TVA-000253 of 2026-10-07](https://bofip.impots.gouv.fr/bofip/14901-PGP.html/identifiant=BOI-RES-TVA-000253-20261007), 2.3 and 3.1, read 2026-11-27).
 
 ## Enforced by
 
@@ -34,7 +43,8 @@ in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read: the sanction if the credit is found to be a supply by the customer (the tax
+adviser's question).
 
 ## Exceptions
 

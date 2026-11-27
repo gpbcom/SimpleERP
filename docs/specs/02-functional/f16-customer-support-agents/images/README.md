@@ -19,4 +19,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F16-06 Take in every request](06-take-in-every-request/README.md) | 32 images |
 | 🖼️ |  | [Images: FL-F16-07 Forum, live chat, voice and support contracts](07-live-chat-voice-and-contracts/README.md) | 30 images |
 | 🖼️ |  | [Screen states](states/README.md) | 120 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

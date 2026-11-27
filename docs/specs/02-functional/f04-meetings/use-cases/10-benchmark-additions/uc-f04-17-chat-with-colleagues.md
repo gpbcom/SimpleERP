@@ -3,7 +3,7 @@
 
 # 📝 UC-F4-17 Chat with colleagues
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -119,7 +119,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Messages delivered within a second (Proposed).
+Messages delivered within a second.
 
 ## Regulatory references
 

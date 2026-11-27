@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC04-06 Care homes, CESU, agent mode, childcare and nursing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -43,7 +43,7 @@ flowchart LR
   UCSC0419 --> AD["Aid computed from the pack's table"]
   UCSC0420 --> PR{"Valid prescription with acts left?"}
   PR -- no --> RF["Act refused"]
-  PR -- yes --> AC["Act done and billed"]
+  PR -- yes --> AC["Act done and reported to the ARS"]
 ```
 
 ## Sequence diagram
@@ -83,7 +83,7 @@ sequenceDiagram
 | [E-SC04-15 CESU voucher](../data/e-sc04-15-cesu-voucher.md) | Received, Sent, Reimbursed, Rejected | 2 [S-SC04-17](../screens/06-care-homes-cesu-and-nursing/s-sc04-17-cesu.md) | CESU vouchers |
 | [E-SC04-16 Mandate](../data/e-sc04-16-mandate.md) | Draft, Active, Ended, Cancelled | 3 [S-SC04-18](../screens/06-care-homes-cesu-and-nursing/s-sc04-18-agent-mode.md) | Mandates |
 | [E-SC04-17 Childcare contract](../data/e-sc04-17-childcare-contract.md) | Draft, Active, Suspended, Ended | 4 [S-SC04-19](../screens/06-care-homes-cesu-and-nursing/s-sc04-19-childcare.md) | Childcare contracts |
-| [E-SC04-18 Care act](../data/e-sc04-18-care-act.md) | Planned, Done, Billed, Cancelled | 5 [S-SC04-20](../screens/06-care-homes-cesu-and-nursing/s-sc04-20-home-nursing.md) | Care acts |
+| [E-SC04-18 Care act](../data/e-sc04-18-care-act.md) | Planned, Done, Reported, Cancelled | 5 [S-SC04-20](../screens/06-care-homes-cesu-and-nursing/s-sc04-20-home-nursing.md) | Care acts |
 | [E-SC04-01 Care recipient](../data/e-sc04-01-care-recipient.md) | Assessed, Served, Left, Paused | Shown elsewhere: [S-SC04-01 Recipient](../screens/01-take-on-a-recipient/s-sc04-01-recipient.md) | Care recipients |
 | [E-SC04-04 Visit](../data/e-sc04-04-visit.md) | Planned, Done, Cancelled, Missed | Shown elsewhere: [S-SC04-04 Visit](../screens/02-plan-the-rounds/s-sc04-04-visit.md) | Visits |
 

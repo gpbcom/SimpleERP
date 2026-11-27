@@ -133,8 +133,10 @@ sequenceDiagram
 
 1. **Given** the example home-care service's N. R. on 11 November with 6 visits and 95 minutes of travel **when** the
    month is computed **then** 95 minutes of working time for travel are sent to payroll for that day.
-2. **Given** N. R.'s day with 3 splits **when** the month is checked **then** it is flagged and needs the coordinator's
-   reason.
+2. **Given** N. R., part time, with 4 unpaid interruptions in a day **when** the month is checked **then** it is
+   flagged, as the agreement allows at most 3, 5 hours in all
+   ([CR-FR-106](../../../../10-country-packs/france/labour/cr-fr-106-home-care-travel-and-split-shifts.md)), and needs
+   the coordinator's reason.
 
 ## Non-functional notes
 

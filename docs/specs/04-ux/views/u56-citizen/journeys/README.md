@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U56-01 | [Get a service from the commune](j-u56-01-get-a-service-from-the-commune.md) | 🔄 |
+| 🧭 | J-U56-01 | [Get a service from the commune](j-u56-01-get-a-service-from-the-commune.md) | ✅ |
 
 ---
 

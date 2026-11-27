@@ -7,8 +7,8 @@
 ## Rules that apply
 
 Every legal value comes from the company's country pack (D293). In France: seller reporting, platform-to-business terms,
-trader traceability, buyer information, software security reporting, VAT on store sales; three of them still (Proposed);
-see the list below.
+trader traceability, buyer information, software security reporting, VAT on store sales; the country-pack rules below are
+read, CR-FR-188 (the first reporting period) and CR-FR-189 (the French penalty) each keeping a point for a lawyer.
 
 ## Country pack
 

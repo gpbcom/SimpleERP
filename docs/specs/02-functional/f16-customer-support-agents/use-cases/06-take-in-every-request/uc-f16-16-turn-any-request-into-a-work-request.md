@@ -4,7 +4,7 @@
 
 # 📝 UC-F16-16 Turn any customer request into a work request
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-30, VD-31 / D512, D513)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -72,13 +72,12 @@ Every customer request: from a few a day to thousands a day per company.
 - 1b. A request answered with no work to plan (an invoice copy) is not turned into a work request (D517); the
   support agent of
   [UC-F16-01](../01-resolve-a-request/uc-f16-01-resolve-a-customer-request-automatically.md) answers it as before.
-- 4a. The office worker splits a request into two work requests (a delivery and an installation) (Proposed).
+- 4a. The office worker splits a request into two work requests (a delivery and an installation).
 - 6a. The customer cancels: the work request is cancelled, at any state before "in progress".
 
 ## Error flows
 
-- 1e. The same request arrives twice (an email, then a call): the AI links it to the first and proposes to merge
-  (Proposed).
+- 1e. The same request arrives twice (an email, then a call): the AI links it to the first and proposes to merge.
 - 2e. The AI cannot tell the request type: "to confirm" with the types it hesitated between.
 - 5e. The address cannot be placed (none found, or several): "to confirm" with the candidates; listed but not on the
   map.
@@ -125,7 +124,7 @@ told they deal with an AI
 ## API, MCP and A2A exposure
 
 T5 operation "create a work request" with the caller's rights (an outside system sends requests through it); the MCP
-tool of F16; an A2A skill "send a work request" for a partner's agent (Proposed).
+tool of F16; an A2A skill "send a work request" for a partner's agent.
 
 ## Screens
 
@@ -167,7 +166,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A draft within 10 seconds of arrival (Proposed); D408's targets for the list
+A draft within 10 seconds of arrival; D408's targets for the list
 ([Performance](../../../../05-non-functional/performance.md)).
 
 ## Regulatory references

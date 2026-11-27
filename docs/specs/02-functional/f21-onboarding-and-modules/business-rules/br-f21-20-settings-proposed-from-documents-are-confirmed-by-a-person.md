@@ -4,7 +4,7 @@
 
 # 📏 BR-F21-20 Settings proposed from documents are confirmed by a person
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

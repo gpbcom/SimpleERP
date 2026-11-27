@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC11-07 Notaries, brokers, judicial officers and audit firms
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -26,10 +26,10 @@ One file per rule.
 | 📏 | BR-SC11-13 | [Architects' phases billed](br-sc11-13-architect-phases-billed.md) | ✅ |
 | 📏 | BR-SC11-14 | [Suspicions reported through the channel](br-sc11-14-suspicions-reported-through-the-channel.md) | ✅ |
 | 📏 | BR-SC11-15 | [Training hours tracked](br-sc11-15-training-hours-tracked.md) | ✅ |
-| 📏 | BR-SC11-16 | [Client funds are held at the state deposit bank](br-sc11-16-client-funds-are-held-at-the-state-deposit-bank.md) | 🔄 |
-| 📏 | BR-SC11-17 | [Brokers keep their ORIAS registration current](br-sc11-17-brokers-keep-their-orias-registration-current.md) | 🔄 |
+| 📏 | BR-SC11-16 | [Client funds are held at the state deposit bank](br-sc11-16-client-funds-are-held-at-the-state-deposit-bank.md) | ✅ |
+| 📏 | BR-SC11-17 | [Brokers keep their ORIAS registration current](br-sc11-17-brokers-keep-their-orias-registration-current.md) | ✅ |
 | 📏 | BR-SC11-18 | [Fees follow the regulated tariff](br-sc11-18-fees-follow-the-regulated-tariff.md) | ✅ |
-| 📏 | BR-SC11-19 | [Partners rotate as the law requires](br-sc11-19-partners-rotate-as-the-law-requires.md) | 🔄 |
+| 📏 | BR-SC11-19 | [Partners rotate as the law requires](br-sc11-19-partners-rotate-as-the-law-requires.md) | ✅ |
 
 ---
 

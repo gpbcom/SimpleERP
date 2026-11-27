@@ -5,7 +5,7 @@
 
 # 🖥️ S-F19-29 Maintenance plan
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

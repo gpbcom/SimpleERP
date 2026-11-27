@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-24 One role, one worktree, one starting commit
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -38,7 +38,7 @@ spill over each other. The owner asked for isolated worktrees from one recorded 
 
 ## Exceptions
 
-(Proposed) A repair cycle ([UC-F25-35](../use-cases/08-team-builds-a-ticket/uc-f25-35-repair-a-rejected-candidate.md))
+A repair cycle ([UC-F25-35](../use-cases/08-team-builds-a-ticket/uc-f25-35-repair-a-rejected-candidate.md))
 starts the repairing worker from the rejected candidate commit, recorded as the starting commit of that cycle.
 
 ## Configurable

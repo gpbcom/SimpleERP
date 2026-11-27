@@ -2,7 +2,7 @@
 
 # 💰 Treasurer: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -11,7 +11,7 @@ density: comfortable ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Receipts to issue; Grant reports due; Expenses to approve.
 - Widgets: Cash and dedicated funds.
@@ -37,16 +37,16 @@ density: comfortable ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Navigation
 
-(Proposed) Home · Members · Donations · Grants · Accounts · Assistant.
+Home · Members · Donations · Grants · Accounts · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U31-01 | [Thank donors and close the accounts](journeys/j-u31-01-thank-donors-and-close-the-accounts.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U31-01 | [Thank donors and close the accounts](journeys/j-u31-01-thank-donors-and-close-the-accounts.md) | ✅ |
 
 ---
 

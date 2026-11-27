@@ -4,7 +4,7 @@
 
 # 📏 BR-F10-21 Tax-free only for eligible visitors above the minimum
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,7 +13,8 @@ VAT is refunded only after the export is validated.
 
 ## Why
 
-(Proposed) to read: CGI article 262-0 bis.
+(⚖️ lawyer review before launch, D574) to read: CGI article 262-0 bis until 2026-12-31, and the CIBS article that takes it over
+from 2027-01-01; no France-pack rule reads it.
 
 ## Examples
 

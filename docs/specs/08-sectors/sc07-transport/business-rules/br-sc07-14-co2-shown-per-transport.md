@@ -7,12 +7,15 @@
 
 ## Statement
 
-(Proposed) Each transport's emissions are computed and given to the client; in France:
+Each transport's emissions are computed and given to the client; in France:
 [CR-FR-120 CO2 information to clients](../../../10-country-packs/france/transport/cr-fr-120-co2-information.md).
 
 ## Why
 
-(Proposed) The method is still to read.
+The emissions are computed per segment of one means of transport, from the energy used (consumption rate times
+distance) times the emission factor set by order, upstream production included, with values of level 1 to 4; for goods
+they are given on the date agreed with the client, otherwise within 2 months of the end of the service
+([CR-FR-120](../../../10-country-packs/france/transport/cr-fr-120-co2-information.md)).
 
 ## Examples
 

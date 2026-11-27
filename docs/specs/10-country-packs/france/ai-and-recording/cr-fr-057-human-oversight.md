@@ -26,7 +26,10 @@ this article's duty.
 
 ## Effective dates
 
-High-risk duties: application dates to be checked at build.
+- Until 2027-12-01: the high-risk duties do not apply yet to Annex III uses (employment included); the AI Omnibus,
+  in force since 2026-07-27, extended their date.
+- From 2027-12-02: they apply to Annex III uses; from 2028-08-02 to Annex I systems
+  ([European Commission, AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai), read 2026-11-27).
 
 ## Enforced by
 
@@ -42,7 +45,9 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Administrative fine up to 15 000 000 EUR or, for an undertaking, 3 % of its worldwide yearly turnover, whichever is
+higher; for an SME, whichever is lower for a breach of the provider's (art. 16) or the deployer's (art. 26)
+obligations ([AI Act Service Desk, art. 99(4) and (6)](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99), read 2026-11-27).
 
 ## Exceptions
 

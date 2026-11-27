@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -21,7 +21,7 @@ One file per rule.
 | 📏 | BR-F5-08 | [Marketing messages need consent](br-f05-08-marketing-needs-consent.md) | ✅ |
 | 📏 | BR-F5-09 | [Segments are evaluated at send time](br-f05-09-segments-are-evaluated-at-send-time.md) | ✅ |
 | 📏 | BR-F5-10 | [Consent is proven and withdrawn at once](br-f05-10-consent-is-proven-and-withdrawn-at-once.md) | ✅ |
-| 📏 | BR-F5-11 | [Bounces and complaints are suppressed](br-f05-11-bounces-and-complaints-are-suppressed.md) | 🔄 |
+| 📏 | BR-F5-11 | [Bounces and complaints are suppressed](br-f05-11-bounces-and-complaints-are-suppressed.md) | ✅ |
 | 📏 | BR-F5-12 | [One seat, one ticket, across every channel](br-f05-12-one-seat-one-ticket-across-every-channel.md) | ✅ |
 | 📏 | BR-F5-13 | [A ticket opens the door once](br-f05-13-a-ticket-opens-the-door-once.md) | ✅ |
 | 📏 | BR-F5-14 | [Forms collect only what they declare, with consent](br-f05-14-forms-collect-only-what-they-declare-with-consent.md) | ✅ |
@@ -29,11 +29,11 @@ One file per rule.
 | 📏 | BR-F5-16 | [Assets carry their rights](br-f05-16-assets-carry-their-rights.md) | ✅ |
 | 📏 | BR-F5-17 | [An A/B winner needs its sample](br-f05-17-an-a-b-winner-needs-its-sample.md) | ✅ |
 | 📏 | BR-F5-18 | [Return counts only traced revenue](br-f05-18-return-counts-only-traced-revenue.md) | ✅ |
-| 📏 | BR-F5-19 | [Cards use only consented personal data](br-f05-19-cards-use-only-consented-personal-data.md) | 🔄 |
-| 📏 | BR-F5-20 | [Referral rewards wait until the referred sale is paid](br-f05-20-referral-rewards-wait-until-the-referred-sale-is-paid.md) | 🔄 |
-| 📏 | BR-F5-21 | [Push needs the device's opt-in](br-f05-21-push-needs-the-devices-opt-in.md) | 🔄 |
-| 📏 | BR-F5-22 | [Listening collects public content only](br-f05-22-listening-collects-public-content-only.md) | 🔄 |
-| 📏 | BR-F5-23 | [Postal campaigns honour opt-outs](br-f05-23-postal-campaigns-honour-opt-outs.md) | 🔄 |
+| 📏 | BR-F5-19 | [Cards use only consented personal data](br-f05-19-cards-use-only-consented-personal-data.md) | ✅ |
+| 📏 | BR-F5-20 | [Referral rewards wait until the referred sale is paid](br-f05-20-referral-rewards-wait-until-the-referred-sale-is-paid.md) | ✅ |
+| 📏 | BR-F5-21 | [Push needs the device's opt-in](br-f05-21-push-needs-the-devices-opt-in.md) | ✅ |
+| 📏 | BR-F5-22 | [Listening collects public content only](br-f05-22-listening-collects-public-content-only.md) | ✅ |
+| 📏 | BR-F5-23 | [Postal campaigns honour opt-outs](br-f05-23-postal-campaigns-honour-opt-outs.md) | ✅ |
 
 ---
 

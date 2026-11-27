@@ -4,13 +4,14 @@
 
 # 📝 UC-SC12-21 Run an apprentice training centre
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
 An apprentice training centre (CFA) trains apprentices who work for an employer under an apprenticeship contract. The
 coordinator records each contract, with its diploma and its dates; the centre is paid by the skills operator (OPCO) of
-the employer at the support level set for the diploma, month by month, and the apprentice follows their schedule on the
+the employer at the support level set for the diploma, counted pro rata of the days done and paid in
+instalments, and the apprentice follows their schedule on the
 phone.
 
 ## Personas
@@ -25,11 +26,11 @@ the period the apprentice follows.
 
 ## Trigger
 
-An employer and an apprentice sign a contract, a month ends, or a contract is broken or ends.
+An employer and an apprentice sign a contract, an instalment falls due, or a contract is broken or ends.
 
 ## Frequency
 
-Dozens to hundreds of contracts a year per centre; one funding claim a month per OPCO.
+Dozens to hundreds of contracts a year per centre; a few funding claims a year per contract, on the OPCO's instalment dates.
 
 ## Preconditions
 
@@ -44,7 +45,7 @@ Dozens to hundreds of contracts a year per centre; one funding claim a month per
 
 - **Succeeded:** the contract is saved
   ([E-SC12-20 Apprenticeship contract](../../data/e-sc12-20-apprenticeship-contract.md)) with its diploma, dates, OPCO
-  and support level; the funding claimed each month follows the months followed.
+  and support level; the funding claimed follows the instalments and the days done.
 - **Failed:** no funding is claimed for a contract with no support level; the missing level or dates are shown.
 
 ## Main flow
@@ -55,7 +56,8 @@ Dozens to hundreds of contracts a year per centre; one funding claim a month per
 2. SimpleERP reads the support level for the diploma from the country pack or the branch's table and shows it on the
    contract ([BR-SC12-16](../../business-rules/br-sc12-16-funding-follows-the-contracts-support-level.md)).
 3. The contract is sent to the OPCO for its agreement; the contract becomes Registered when the OPCO accepts.
-4. Each month, the centre counts the months the apprentice followed and prepares the funding claim for the OPCO
+4. At each instalment (40 % within 30 days of the first invoice, 30 % in the seventh month, 20 % in the tenth month,
+   then the balance), the centre counts the days done under the contract and prepares the funding claim for the OPCO
    ([UC-SC12-10](../02-enrol-and-fund/uc-sc12-10-bill-learners-employers-and-funders.md)).
 5. The apprentice sees their schedule and their absences on the phone; the employer sees the attendance.
 6. At the end of the contract, the last claim is prepared and the contract is Ended.
@@ -64,13 +66,15 @@ Dozens to hundreds of contracts a year per centre; one funding claim a month per
 
 - 3a. The OPCO asks for a correction: the contract is changed and sent again, the history is kept.
 - 4a. The apprentice changes employer: the contract is ended and a new one is recorded for the rest of the course.
-- 4b. The contract is broken during the first months: the funding stops at the break date.
+- 4b. The contract is broken: while the apprentice stays in the centre to find a new employer, the funding goes on pro
+  rata of the days for up to six months or until the new contract, then stops.
 
 ## Error flows
 
 - 2e. No support level exists for the diploma: the contract stays Draft and the level is asked from the branch or
   entered by hand with its source.
-- 4e. A month is claimed for a period after the break date: the claim is cut and the reason is shown.
+- 4e. A claim covers days after the funding's end (six months after the break, or the new contract): the claim is cut
+  and the reason is shown.
 - 3e. The OPCO rejects the contract: the reason is shown and the centre corrects it.
 - Any step: a service does not answer; the call is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
@@ -87,7 +91,7 @@ Dozens to hundreds of contracts a year per centre; one funding claim a month per
 ## Entities
 
 - [E-SC12-20 Apprenticeship contract](../../data/e-sc12-20-apprenticeship-contract.md): created, changed, closed
-- [E-SC12-05 Training funding](../../data/e-sc12-05-training-funding.md): created, the funding line of each month
+- [E-SC12-05 Training funding](../../data/e-sc12-05-training-funding.md): created, the funding line of each instalment
 - [E-SC12-03 Enrolment](../../data/e-sc12-03-enrolment.md): read, the apprentice's enrolment
 - [E-F6-01](../../../../02-functional/f06-customers-and-sales/data/e-f06-01-customer-record.md): read, the employer
 
@@ -103,7 +107,7 @@ on the phone: a change of schedule.
 
 ## Audit events
 
-Each contract created, registered, changed, broken or ended; each claim with its months, support level and amount; who
+Each contract created, registered, changed, broken or ended; each claim with its days, support level and amount; who
 and when.
 
 ## AI involvement
@@ -138,16 +142,16 @@ sequenceDiagram
   T-->>C: Support level 7,500.00 a year
   T->>O: Send the contract
   O-->>T: Contract accepted
-  T->>O: Claim for October, 1 month followed
+  T->>O: First claim, 40 % of the yearly amount
   A->>T: Read the schedule on the phone
 ```
 
 ## Acceptance criteria
 
-1. **Given** a contract with a support level of 7,500.00 EUR a year **when** a month is claimed **then** the claim is
-   625.00 EUR.
-2. **Given** a contract broken on 2026-12-15 **when** the January claim is prepared **then** it is refused for that
-   contract.
+1. **Given** a two-year contract with a support level of 7,500.00 EUR a year **when** the first instalment is claimed
+   **then** the claim is 3,000.00 EUR (40 %).
+2. **Given** a contract broken on 2026-12-15 and a new contract on 2027-02-01 **when** a claim for February is prepared
+   **then** it is refused for the old contract.
 3. **Given** a diploma with no support level **when** the contract is saved **then** it stays Draft and asks for the
    level.
 4. **Given** a contract rejected by the OPCO **when** the answer arrives **then** the reason is shown and the contract
@@ -161,13 +165,15 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 An apprenticeship contract is signed between an employer and an apprentice; the training centre is paid by
 the employer's skills operator, which sets a support level for each diploma, and the contract is registered with it.
-Funding follows the months the apprentice follows, and a break stops it. The levels are data of the France pack and the
-branches, written later. Related:
+The OPCO pays a yearly amount by diploma, counted pro rata of the days done and paid in instalments (40 %, 30 %, 20 %,
+then the balance, for contracts from 2025-07-01); after a break, payment goes on pro rata of the days for up to six
+months while the apprentice looks for a new employer (Code du travail R6332-25). The levels are data of the France
+pack and the branches. Related:
 [CR-FR-155](../../../../10-country-packs/france/education/cr-fr-155-training-provider-declaration.md),
 [CR-FR-157](../../../../10-country-packs/france/education/cr-fr-157-qualiopi.md),
 [CR-FR-158](../../../../10-country-packs/france/education/cr-fr-158-training-agreement.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-244 Apprenticeship funding by the OPCO](../../../../10-country-packs/france/education/cr-fr-244-apprenticeship-funding.md)
 
 ## Related use cases

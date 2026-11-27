@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-13 Company-law deadlines kept
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,10 @@ changes of beneficial owners are declared.
 
 ## Why
 
-Company law sets these duties; their values are (Proposed) to read for the France pack (approval within six months of
-the year end, beneficial-owner declaration).
+Company law sets these duties. The approval of the accounts within six months of the year end, which the court can
+extend, is read in [CR-FR-221 Shareholders' general meetings](../../../10-country-packs/france/company/cr-fr-221-general-meetings.md) (SARL);
+(⚖️ lawyer review before launch, D574) the beneficial-owner declaration is still to read: Code monétaire et financier L561-45-1 and
+L561-46.
 
 ## Examples
 

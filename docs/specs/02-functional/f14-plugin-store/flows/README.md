@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -18,7 +18,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F14-05 | [Store operations](fl-f14-05-store-operations.md) | ✅ |
 | 🔀 | FL-F14-06 | [Release channels and rollback](fl-f14-06-release-channels-and-rollback.md) | ✅ |
 | 🔀 | FL-F14-07 | [Plugin end of life](fl-f14-07-plugin-end-of-life.md) | ✅ |
-| 🔀 | FL-F14-08 | [Trials, test instances, partners and themes](fl-f14-08-trials-instances-and-partners.md) | 🔄 |
+| 🔀 | FL-F14-08 | [Trials, test instances, partners and themes](fl-f14-08-trials-instances-and-partners.md) | ✅ |
 
 ---
 

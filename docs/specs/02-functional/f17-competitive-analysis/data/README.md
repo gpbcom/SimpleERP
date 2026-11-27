@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -27,8 +27,8 @@ One file per entity.
 | 🗃️ | E-F17-14 | [Market estimate](e-f17-14-market-estimate.md) | ✅ |
 | 🗃️ | E-F17-15 | [Collection rule](e-f17-15-collection-rule.md) | ✅ |
 | 🗃️ | E-F17-16 | [Tender opportunity](e-f17-16-tender-opportunity.md) | ✅ |
-| 🗃️ | E-F17-17 | [Price index](e-f17-17-price-index.md) | 🔄 |
-| 🗃️ | E-F17-18 | [Price suggestion](e-f17-18-price-suggestion.md) | 🔄 |
+| 🗃️ | E-F17-17 | [Price index](e-f17-17-price-index.md) | ✅ |
+| 🗃️ | E-F17-18 | [Price suggestion](e-f17-18-price-suggestion.md) | ✅ |
 | 🗃️ | E-F17-19 | [Data cost line](e-f17-19-data-cost-line.md) | ✅ |
 | 🗃️ | E-F17-20 | [Call topic signal](e-f17-20-call-topic-signal.md) | ✅ |
 | 🗃️ | E-F17-21 | [Ad record](e-f17-21-ad-record.md) | ✅ |

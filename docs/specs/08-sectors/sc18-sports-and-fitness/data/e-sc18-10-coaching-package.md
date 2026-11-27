@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-10 Coaching package
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

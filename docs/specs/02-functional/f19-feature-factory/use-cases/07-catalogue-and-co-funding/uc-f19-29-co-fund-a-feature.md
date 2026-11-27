@@ -175,7 +175,8 @@ and status as for any service sold to a business
 [CR-FR-015](../../../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md)), and a refund is a
 credit note ([CR-FR-200](../../../../10-country-packs/france/invoicing/cr-fr-200-credit-notes.md)). Charging only when
 the goal is met is a condition of the offer, stated before the pledge. The wording for consumers, if ever offered, is
-not covered. The France-pack rule on VAT on co-funded features is written later.
+not covered. The France-pack rule on VAT on co-funded features is
+[CR-FR-272 VAT on advance payments for services](../../../../10-country-packs/france/tax-and-vat/cr-fr-272-vat-on-advance-payments-for-services.md).
 
 ## Related use cases
 

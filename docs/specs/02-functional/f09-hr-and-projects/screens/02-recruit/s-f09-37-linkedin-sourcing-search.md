@@ -4,7 +4,7 @@
 
 # 🖥️ S-F9-37 LinkedIn sourcing search
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -55,7 +55,8 @@ HR and projects › Recruitment › a job position › LinkedIn sourcing; the AI
 | Label | Data | Format | Editable | Required |
 |---|---|---|---|---|
 | Criteria | E-F9-44 criteria | lists, ranges, text with AND, OR, NOT | yes | titles or keywords |
-| LinkedIn account | E-F24-02 | name and state | link or sign in again | yes |
+| Applied by | E-F9-44 criteria applied by the AI assistant | "LinkedIn" or "AI assistant" beside each criterion (D571) | no | yes |
+| LinkedIn account | E-F24-02 | name, state and its search: the account's own, Sales Navigator or Recruiter (D571) | link or sign in again | yes |
 | Score and reason | E-F9-45 score, reason, criteria met and missed | 0 to 100 and a sentence | no | yes |
 | Keep | E-F9-45 state | check box | yes | no |
 
@@ -63,7 +64,7 @@ HR and projects › Recruitment › a job position › LinkedIn sourcing; the AI
 
 | Action | Where | Who may use it | Result |
 |---|---|---|---|
-| Run search | header | HR | the search runs through Unipile (UC-F9-40) |
+| Run search | header | HR | the search runs through Unipile on the account's own search; the criteria it lacks are applied by the AI assistant (UC-F9-40, D571) |
 | Keep | row | HR | the profile is shortlisted |
 | Add a profile | results | HR | a profile added by its LinkedIn address and scored |
 | Build the sequence | results | HR | opens S-F9-38 with the shortlist |

@@ -3,7 +3,7 @@
 
 # 📝 UC-F5-27 Listen to brand mentions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -152,8 +152,9 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Public content is still personal data when it names a person:
 [CR-FR-050](../../../../10-country-packs/france/data-protection/cr-fr-050-privacy-by-design.md),
-[CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md). (Proposed) The
-France-pack rule on collecting public posts is written later.
+[CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md). (⚖️ lawyer review before launch, D574) The
+France-pack rule on collecting public posts is still to write: to read the CNIL guidance on collecting publicly
+available data from social networks.
 
 ## Related use cases
 

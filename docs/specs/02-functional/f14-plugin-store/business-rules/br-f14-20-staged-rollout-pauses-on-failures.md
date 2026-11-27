@@ -3,7 +3,7 @@
 
 # 📏 BR-F14-20 Staged rollout pauses on failures
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -18,7 +18,7 @@ A faulty release reaches few companies before it is stopped (D471).
 
 | Case | Result |
 |---|---|
-| Stage 5 % of 1 240 companies, 1 failure in 62 | passes: next stage (Proposed) limit 2 % |
+| Stage 5 % of 1 240 companies, 1 failure in 62 | passes: next stage limit 2 % |
 | Stage 25 %, 9 failures in 310 | fails: paused at 2.9 % |
 | Publisher forces the next stage while paused | fails: refused |
 
@@ -33,7 +33,7 @@ The store operator may stop any rollout.
 
 ## Configurable
 
-The publisher sets the stages; the store sets the limit, (Proposed) 2 % of failed installs.
+The publisher sets the stages; the store sets the limit, 2 % of failed installs.
 
 ## Open questions
 

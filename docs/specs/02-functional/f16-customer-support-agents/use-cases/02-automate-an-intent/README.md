@@ -14,4 +14,4 @@ The use cases of this flow.
 |---|---|---|---|
 | 📝 | UC-F16-02 | [Write and test a procedure for an intent](uc-f16-02-write-and-test-a-procedure.md) | ✅ |
 | 📝 | UC-F16-03 | [Roll an intent out: shadow, then automatic](uc-f16-03-roll-an-intent-out.md) | ✅ |
-| 📝 | UC-F16-14 | [Discover intents from past requests](uc-f16-14-discover-intents-from-past-requests.md) | 🔄 |
+| 📝 | UC-F16-14 | [Discover intents from past requests](uc-f16-14-discover-intents-from-past-requests.md) | ✅ |

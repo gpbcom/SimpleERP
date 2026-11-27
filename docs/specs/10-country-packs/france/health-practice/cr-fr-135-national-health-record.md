@@ -23,7 +23,7 @@ least once a year, unless the patient objected.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+In force in its current version since 2024-01-01 ([Code de la santé publique, art. L1111-15](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043908072), read 2026-11-27); it sets the yearly summary by the attending doctor.
 
 ## Enforced by
 

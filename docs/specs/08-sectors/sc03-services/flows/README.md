@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -15,7 +15,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC03-03 | [Deliver and record](fl-sc03-03-deliver-and-record.md) | ✅ |
 | 🔀 | FL-SC03-04 | [Bill and recognise](fl-sc03-04-bill-and-recognise.md) | ✅ |
 | 🔀 | FL-SC03-05 | [Client and people](fl-sc03-05-client-and-people.md) | ✅ |
-| 🔀 | FL-SC03-06 | [Staffing, agencies, certification and tender library](fl-sc03-06-staffing-agencies-and-certification.md) | 🔄 |
+| 🔀 | FL-SC03-06 | [Staffing, agencies, certification and tender library](fl-sc03-06-staffing-agencies-and-certification.md) | ✅ |
 
 ---
 

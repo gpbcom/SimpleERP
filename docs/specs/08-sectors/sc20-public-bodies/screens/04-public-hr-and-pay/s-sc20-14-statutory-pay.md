@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-14 Statutory pay
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

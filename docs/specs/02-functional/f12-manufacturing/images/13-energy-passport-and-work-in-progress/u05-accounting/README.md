@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F12-13 Energy, passport and work in progress
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F12-13 Energy, passport and work in progress](../../../flows/fl-f12-13-energy-passport-and-work-in-progress.md) for

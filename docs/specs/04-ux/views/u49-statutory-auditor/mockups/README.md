@@ -3,7 +3,7 @@
 
 # 🖼️ Mockups
 
-**Status:** 🔄 drawn from the specification
+**Status:** ✅ drawn from the specification
 
 The images of this persona's flows (D120).
 

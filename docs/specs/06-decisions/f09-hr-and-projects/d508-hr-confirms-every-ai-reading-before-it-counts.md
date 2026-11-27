@@ -3,7 +3,7 @@
 
 # 📜 D508 HR confirms every AI reading before it counts
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-26 / D508)
+**Status:** ✅ decided
 
 ## Context
 
@@ -21,8 +21,8 @@ ignores it.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-26).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-26).
 
 ## Consequences
 
@@ -43,7 +43,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
   verify](../../02-functional/f09-hr-and-projects/screens/13-keep-qualifications/s-f09-36-readings-to-verify.md)
 - [D507 Attributes entered by hand or read by the AI from
   documents](d507-attributes-entered-by-hand-or-read-by-the-ai-from-documents.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

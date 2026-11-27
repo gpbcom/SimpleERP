@@ -3,7 +3,7 @@
 
 # ⚖️ CR-FR-061 Food traceability
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -19,7 +19,7 @@ For food and feed, every move records where it came from and where it went, one 
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Article 18 applies from 2005-01-01 (art. 65) ([Regulation (EC) 178/2002, consolidated text, Publications Office](http://publications.europa.eu/resource/cellar/8d28edd7-e435-11e9-9c4e-01aa75ed71a1.0006.03/DOC_1), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +33,8 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Member States set effective, proportionate and dissuasive penalties (art. 17(2)) ([Regulation (EC) 178/2002](http://publications.europa.eu/resource/cellar/8d28edd7-e435-11e9-9c4e-01aa75ed71a1.0006.03/DOC_1), read 2026-11-27).
+(⚖️ lawyer review before launch, D574) The French penalty for a breach of art. 18.
 
 ## Exceptions
 

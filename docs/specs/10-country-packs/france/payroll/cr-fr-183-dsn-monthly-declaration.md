@@ -24,7 +24,8 @@ employees), and event declarations within 5 working days.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2026-07-01: L133-5-3 in force since 2025-02-28, R133-14 since 2026-07-01 (Décret n° 2026-425), R243-6
+since 2018-01-01 ([Code de la sécurité sociale, art. L133-5-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051287164), [art. R133-14](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054167679), [art. R243-6](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034668597), read 2026-11-27).
 
 ## Enforced by
 

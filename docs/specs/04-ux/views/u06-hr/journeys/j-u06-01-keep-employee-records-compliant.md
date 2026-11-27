@@ -4,7 +4,7 @@
 
 # 🧭 J-U06-01 Keep employee records compliant
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Persona
 
@@ -16,8 +16,8 @@ Keep every employee record complete and compliant, and answer employees' questio
 
 ## Journey
 
-Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are a proposal (Proposed), drawn from the
-specs, for the owner to confirm.
+Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are drawn from the
+specs and confirmed by the owner (D572).
 
 ```mermaid
 journey
@@ -57,7 +57,7 @@ flowchart TD
   E4 -. fixed .-> S4
   S3 -- done --> S4
   S5["5. Publishes an answer in the knowledge base for employees"]
-  S5 -- problem --> E5["A file not readable (scanned without text, protected): (Proposed) text is recognised (OCR) when possible, otherwise the editor is told, with the error message pattern (D122)."]
+  S5 -- problem --> E5["A file not readable (scanned without text, protected): text is recognised (OCR) when possible, otherwise the editor is told, with the error message pattern (D122)."]
   E5 -. fixed .-> S5
   S4 -- done --> S5
 ```

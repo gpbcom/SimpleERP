@@ -5,7 +5,7 @@
 
 # 📝 UC-F20-30 Share the screen or a time-limited view
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -170,7 +170,8 @@ time, under the processor terms already agreed
 ([CR-FR-049](../../../../10-country-packs/france/data-protection/cr-fr-049-processors-and-transfers.md)); what an
 engineer sees is kept to what is needed
 ([CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md)) and every access is
-recorded. The France-pack rule on remote access consent is written later.
+recorded. (⚖️ lawyer review before launch, D574) The France-pack rule on remote access consent is still to write: to read the
+GDPR (articles 6 and 32) and the CNIL's guidance on remote support of a workstation.
 
 ## Related use cases
 

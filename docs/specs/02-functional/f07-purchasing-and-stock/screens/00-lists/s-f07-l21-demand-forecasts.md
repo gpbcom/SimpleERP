@@ -35,10 +35,14 @@ find, filter, total and act on many demand forecasts at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Demand forecasts    Purchasing and stock › Demand forecasts   [+ New]                                        |
-| [count]   [chart: count by state]                                                                            |
+| [count] [due in 7 days]   [chart: count by state]                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] DEMAND FORECAST   STATE                                                              |
+| state             | [ ] DEMAND FOREC   ITEM   PERIOD   FORECAST QUA   STOCK-OUT DA   METHOD   STATE          |
+| item              | [ ] ...                                                  Open >                          |
+| period            | [ ] ...                                                  Open >                          |
+| method            | [ ] ...                                                  Open >                          |
+| location          | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -49,6 +53,11 @@ find, filter, total and act on many demand forecasts at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | Demand forecast | the record's title | text | yes |
+| Item | item | link to the record | yes |
+| Period | period | label | yes |
+| Forecast quantity | forecast quantity | number, right-aligned | yes |
+| Stock-out date | forecast stock-out date | date | yes |
+| Method | method | label | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -58,16 +67,24 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Item | each linked item | the visible rows (D488) |
+| Period | week, month, quarter, season | the visible rows (D488) |
+| Method | AI model, rules only | the visible rows (D488) |
+| Location | each linked location | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: demand forecasts link to no other record type in their fields.
+- Demand forecasts of a chosen item, or of the items that match a filter.
+- From the other side: the items that have demand forecasts, or none.
+- Demand forecasts of a chosen location, or of the locations that match a filter.
+- From the other side: the locations that have demand forecasts, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Due in 7 days, by forecast stock-out date.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -85,7 +102,12 @@ Each persona's default saved view is set in its workspace (see Shown in).
 
 ## Map layout
 
-None: no place.
+- **Place:** location.
+- **Layout:** a plan, [C-18](../../../../04-ux/design-system/components/c-18-plan.md).
+- **Marker:** the location and the state.
+- **Layers:** by state.
+- **Who sees the switch:** the roles with the map right, the planner roles and U02 and U13 (BR-F1-32, D502); the others
+  see the table with the place as a column.
 
 ## Actions
 
@@ -126,15 +148,18 @@ The records also show on: [S-F7-21 Stock levels](../03-replenish/s-f07-21-stock-
 - **Selected:** the bulk bar with the actions allowed on every selected row.
 - **Error:** the query failed, with Retry.
 
+On the map layout, Listed also shows the count of rows without a place.
+
 ## Responsive behaviour
 
 On a phone the table keeps its columns and scrolls sideways, the facet panel becomes a drawer and the KPI strip stays
-(VR-14, D491).
+(VR-14, D491); the map takes the full width.
 
 ## Accessibility
 
 The KPI strip, the facet panel, the toolbar and the table are named landmarks; the result count is announced when the
-filters change; each chip has its remove button; the facet drawer returns the focus to its button.
+filters change; each chip has its remove button; the facet drawer returns the focus to its button. The table holds the
+same rows as the map.
 
 ## Example images
 
@@ -156,7 +181,8 @@ Drawn in step S8 (36k) from this page: one row per persona and device for each s
 [C-03 Data table](../../../../04-ux/design-system/components/c-03-data-table.md),
 [C-15 Facet panel](../../../../04-ux/design-system/components/c-15-facet-panel.md),
 [C-16 KPI strip](../../../../04-ux/design-system/components/c-16-kpi-strip.md),
-[C-09 Chart](../../../../04-ux/design-system/components/c-09-chart.md).
+[C-09 Chart](../../../../04-ux/design-system/components/c-09-chart.md),
+[C-18 Plan](../../../../04-ux/design-system/components/c-18-plan.md).
 
 ## Shown in
 

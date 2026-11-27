@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC09-24 Dental quotes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -13,8 +13,8 @@
 
 ## Purpose
 
-Prepare the regulated quote for prosthetic work, see the shares of each payer and have the patient sign it before the
-care.
+Prepare the regulated quote for prosthetic work on the official model, show the complementary cover's share and the
+remaining cost apart, as information, and have the patient sign it before the care.
 
 ## Entry points
 
@@ -25,10 +25,12 @@ Health practice › Dental quotes; the patient's file; the portal for the patien
 ```text
 +--------------------------------------------------------------------------------------------------+
 | Quote DQ-2026-031: Mrs Lopez                                     Sent   [Send]   [New version]   |
-| Act                 Tooth  Price     Basis    Insurance  Cover    Patient   Package              |
-| Ceramic crown       26     120.00    120.00   70.00      50.00    0.00      no remaining cost    |
-| Metal inlay core    26      60.00     60.00   42.00      18.00    0.00      no remaining cost    |
-| Total               180.00    Patient 0.00 EUR                                                   |
+| Act               Tooth  Materials  Made in  Fees     Base     Insurance  Basket                 |
+| Ceramic crown     26     ceramic    EU       120.00   120.00   70.00      no remaining cost      |
+| Metal inlay core  26     metal      EU        60.00    60.00   42.00      no remaining cost      |
+| Total                                        180.00   180.00  112.00                             |
+| Alternatives: none needed, both acts have no remaining cost      Valid until 2027-05-14          |
+| Information, not on the regulated quote: cover 68.00 EUR, remaining cost 0.00 EUR                |
 | Signed on  -      Reminder in 7 days                                                             |
 +--------------------------------------------------------------------------------------------------+
 ```
@@ -49,10 +51,13 @@ Health practice › Dental quotes; the patient's file; the portal for the patien
 | Label | Data | Format | Editable | Required |
 |---|---|---|---|---|
 | Patient | E-SC09-17 patient | link | no | yes |
-| Acts and teeth | E-SC09-17 acts | list | yes while Draft | yes |
-| Prices and bases | E-SC09-17 prices | amounts | yes while Draft | yes |
-| Shares of the payers | E-SC09-17 shares | amounts | no | no |
-| Package with no remaining cost | E-SC09-17 package | yes or no per act | no | no |
+| Acts and teeth | E-SC09-17 acts | act, code, tooth, fees, device and materials | yes while Draft | yes |
+| Place of manufacture | E-SC09-17 place of manufacture | EU or outside the EU, per device | yes while Draft | yes |
+| Base and insurance | E-SC09-17 basis, insurance share | amounts | no | yes |
+| Cover and remaining cost | E-SC09-17 cover share, patient remaining cost | amounts, shown apart as information, not part of the regulated quote | no | no |
+| Basket | E-SC09-17 basket | no remaining cost, moderate, free, per act | no | yes |
+| Alternatives | E-SC09-17 alternatives | acts with no or a moderate remaining cost | yes while Draft | for each act concerned |
+| Valid until | E-SC09-17 valid until | date | yes while Draft | yes |
 | Signed on | E-SC09-17 signed on | date and time | no | no |
 
 ## Actions
@@ -66,7 +71,9 @@ Health practice › Dental quotes; the patient's file; the portal for the patien
 
 ## States
 
-- Normal: the acts with prices, shares and package marks, the total and the signature.
+- Normal: the regulated quote on the official model (each act with its code, fees, materials and place of manufacture,
+  the base, the insurance's amount, the basket, the alternatives and the validity), then apart, as information, the
+  cover's share and the remaining cost, and the signature.
 - Empty: No quote yet, with New quote.
 - Loading: the headings and the table as placeholders; the values follow.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); an act with no

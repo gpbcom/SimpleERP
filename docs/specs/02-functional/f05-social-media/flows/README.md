@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -20,7 +20,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F5-07 | [Events and ticketing](fl-f05-07-events-and-ticketing.md) | ✅ |
 | 🔀 | FL-F5-08 | [Pages, forms, surveys and WhatsApp](fl-f05-08-pages-forms-surveys-and-whatsapp.md) | ✅ |
 | 🔀 | FL-F5-09 | [Brand, tests and return on investment](fl-f05-09-brand-tests-and-return-on-investment.md) | ✅ |
-| 🔀 | FL-F5-10 | [Cards, referrals, push and listening](fl-f05-10-referrals-push-and-listening.md) | 🔄 |
+| 🔀 | FL-F5-10 | [Cards, referrals, push and listening](fl-f05-10-referrals-push-and-listening.md) | ✅ |
 
 ---
 

@@ -14,7 +14,11 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc04-05-care-log-e-sc04-06-care-log-entry-recorded-phone.html`
 - `s-sc04-07-family-access-e-sc04-06-care-log-entry-recorded-phone.html`
 - `s-sc04-07-family-access-e-sc04-07-care-incident-active-phone.html`
-- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-phone.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-phone.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-phone.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-phone.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-phone.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-phone.html`
 
 - `s-sc04-17-cesu-e-sc04-15-cesu-voucher-received-phone.html`
 - `s-sc04-17-cesu-e-sc04-15-cesu-voucher-reimbursed-phone.html`

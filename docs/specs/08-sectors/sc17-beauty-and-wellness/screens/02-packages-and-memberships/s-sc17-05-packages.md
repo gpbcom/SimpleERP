@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-05 Packages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

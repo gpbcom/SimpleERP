@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-34 Run the automatic scheduling
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-33 / D515)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -60,7 +60,7 @@ Enabled rarely; runs on every ready work request of those teams.
 ## Alternative flows
 
 - 3a. The manager switches it off: from then on the engine only proposes; assignments already made stay.
-- 5a. Publishing: the round is published as the team's round setting says, as in UC-F9-30 (Proposed: published at once
+- 5a. Publishing: the round is published as the team's round setting says, as in UC-F9-30 (published at once
   in automatic mode).
 
 ## Error flows
@@ -95,7 +95,7 @@ setting.
 
 - The planners named in the setting: the engine stopped on a work request, with the problem and a link to the proposal,
   at once, in the app
-  and by email (Proposed: SMS as an option).
+  and by email (SMS as an option).
 - The manager: the mode switched on or off.
 
 ## Audit events
@@ -113,7 +113,7 @@ can be stopped at any time.
 ## API, MCP and A2A exposure
 
 T5 operations of F9 with the caller's rights (read and change the setting); the MCP tool of F9 may read it but never
-switch it on (Proposed); no A2A skill.
+switch it on; no A2A skill.
 
 ## Screens
 
@@ -151,12 +151,12 @@ sequenceDiagram
    not assigned, its proposal is "Stopped", and the dispatcher is notified.
 4. **Given** a request type that does not allow the automatic mode **when** the manager opens the settings **then** that
    type cannot be ticked.
-5. **Given** WR-3151 stopped **when** WR-3152 becomes ready with an eligible driver **then** it is assigned (Proposed:
-   the setting stays on).
+5. **Given** WR-3151 stopped **when** WR-3152 becomes ready with an eligible driver **then** it is assigned (the setting
+   stays on).
 
 ## Non-functional notes
 
-The stop and its notification within 1 minute of the problem (Proposed).
+The stop and its notification within 1 minute of the problem.
 
 ## Regulatory references
 

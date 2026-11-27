@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F1-11 Team, delegation and access review
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F1-11 Team, delegation and access review](../../../flows/fl-f01-11-team-delegation-and-access-review.md)
 for this persona, in light and dark mode (D120, D121). Errors follow the

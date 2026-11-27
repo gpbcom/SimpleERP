@@ -4,7 +4,7 @@
 
 # 📝 UC-F1-18 Run an access review campaign
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -23,11 +23,11 @@ Rights that match each person's job, with a dated proof that they were reviewed.
 
 ## Trigger
 
-The quarterly date (Proposed), an audit, or a security incident.
+The quarterly date, an audit, or a security incident.
 
 ## Frequency
 
-Quarterly per company (Proposed).
+Quarterly per company.
 
 ## Preconditions
 
@@ -53,7 +53,7 @@ Quarterly per company (Proposed).
 
 ## Alternative flows
 
-- 2a. A right unused for 90 days (Proposed) is marked so that the manager can remove it.
+- 2a. A right unused for 90 days is marked so that the manager can remove it.
 - 3a. The manager delegated during an absence: the deputy reviews
   ([UC-F1-16](uc-f01-16-delegate-approvals-during-an-absence.md)).
 
@@ -81,7 +81,7 @@ The administrator launches and closes; managers review their team; the owner rea
 
 ## Notifications
 
-- Managers are told at launch, then reminded 3 days before the deadline (Proposed).
+- Managers are told at launch, then reminded 3 days before the deadline.
 - Users are told when a right is removed.
 
 ## Audit events
@@ -136,11 +136,11 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A campaign of 500 users and 5,000 lines stays usable (Proposed).
+A campaign of 500 users and 5,000 lines stays usable.
 
 ## Regulatory references
 
-(Proposed) to read: ISO/IEC 27001:2022 Annex A 5.18, access rights review.
+Design reference, not a law: ISO/IEC 27001:2022 Annex A 5.18 (access rights) ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Related use cases
 

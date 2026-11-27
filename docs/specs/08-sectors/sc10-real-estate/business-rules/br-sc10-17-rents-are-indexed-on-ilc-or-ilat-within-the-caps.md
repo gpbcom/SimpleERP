@@ -3,7 +3,7 @@
 
 # 📏 BR-SC10-17 Rents are indexed on ILC or ILAT within the caps
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -16,7 +16,7 @@ difference is shown.
 An index or a rise the lease does not allow can be challenged by the tenant, and the landlord may have to repay the
 excess. The owner asked for commercial leases
 ([D554](../../../06-decisions/sectors/d554-benchmark-gaps-sc10-real-estate.md)). The indices and the caps
-come from the France pack, written later.
+come from the France pack ([CR-FR-239](../../../10-country-packs/france/real-estate/cr-fr-239-commercial-leases.md)).
 
 ## Examples
 
@@ -33,7 +33,7 @@ come from the France pack, written later.
 - [UC-SC10-22](../use-cases/07-short-stays-commercial-and-coworking/uc-sc10-22-manage-commercial-leases.md)
 - [E-SC10-18 Commercial lease](../data/e-sc10-18-commercial-lease.md)
 - [E-SC10-09 Rent call](../data/e-sc10-09-rent-call.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-239 Commercial leases (3-6-9, ILC/ILAT)](../../../10-country-packs/france/real-estate/cr-fr-239-commercial-leases.md)
 
 ## Exceptions

@@ -3,7 +3,7 @@
 
 # 🗃️ E-T13-02 Route
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-32 / D501, D514)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -26,7 +26,7 @@ scheduling engine reads travel times to rank candidates and order rounds; the pl
 | state | list | yes | the lifecycle below | computed | computed | no | no |
 | computed at | date and time | yes | - | now | 2026-12-01 14:02 | no | no |
 
-(Proposed) Travel times come from the road graph without live traffic in the first version.
+Travel times come from the road graph without live traffic in the first version.
 
 ## Relations
 
@@ -68,7 +68,7 @@ None of its own; the round or the proposal records what changed.
 
 ## Import and export
 
-(Proposed) Export of a round's route as GPX for drivers' own navigation apps.
+Export of a round's route as GPX for drivers' own navigation apps.
 
 ## Used by
 

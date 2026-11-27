@@ -4,12 +4,12 @@
 
 # 📏 BR-F21-16 Employees onboard on the phone
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 An employee's first sign-in on the phone walks through profile, password and two-factor, notifications and one first
-task of their role, can be done in (Proposed) 5 minutes, and resumes where it stopped.
+task of their role, can be done in 5 minutes, and resumes where it stopped.
 
 ## Why
 

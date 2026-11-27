@@ -19,8 +19,8 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-089 Works near networks (DT-DICT)](../../10-country-packs/france/construction/cr-fr-089-works-near-networks.md),
 [CR-FR-091 Public contracts: payment period and Chorus Pro](../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md),
 [CR-FR-036 Consumer withdrawal right](../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md),
-[CR-FR-016 Electronic invoicing](../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md). Four are
-(Proposed): their official pages could not be read yet.
+[CR-FR-016 Electronic invoicing](../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md). All are read in
+their official sources (2026-11-27); the rates of the construction paid-leave funds wait for the lawyer review.
 
 ## Country pack
 

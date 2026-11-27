@@ -22,7 +22,11 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f24-19-requests-e-f24-12-integration-icon-withdrawn-desktop.html`
 - `s-f24-19-requests-e-f24-12-integration-icon-withdrawn-phone.html`
 - `s-f24-19-requests-e-f24-16-connector-request-active-desktop.html`
+- `s-f24-19-requests-e-f24-16-connector-request-ready-desktop.html`
+- `s-f24-19-requests-e-f24-16-connector-request-refused-desktop.html`
 - `s-f24-19-requests-e-f24-16-connector-request-active-phone.html`
+- `s-f24-19-requests-e-f24-16-connector-request-ready-phone.html`
+- `s-f24-19-requests-e-f24-16-connector-request-refused-phone.html`
 - `s-f24-20-rights-and-costs-e-f24-02-tool-connection-active-desktop.html`
 - `s-f24-20-rights-and-costs-e-f24-02-tool-connection-active-phone.html`
 - `s-f24-20-rights-and-costs-e-f24-02-tool-connection-proposed-desktop.html`

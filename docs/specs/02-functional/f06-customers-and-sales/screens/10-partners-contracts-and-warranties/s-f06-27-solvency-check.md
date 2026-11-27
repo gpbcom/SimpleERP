@@ -3,7 +3,7 @@
 
 # 🖥️ S-F6-27 Solvency check
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

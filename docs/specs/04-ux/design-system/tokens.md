@@ -2,7 +2,7 @@
 
 # 🎟️ Tokens
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Colour tokens
 
@@ -46,7 +46,7 @@ From the [typography scale](../visual-identity/typography.md): `font-display`, `
 Radius 8 px for cards and fields, 12 px for panels, full for badges. Two shadows: `elevation-1` for cards,
 `elevation-2` for panels and modals; in dark mode, elevation is shown by lighter surfaces rather than shadows.
 
-(Proposed) Values used by the mockup images since 2026-11-12:
+Values used by the mockup images since 2026-11-12:
 
 | Token | Value |
 |---|---|

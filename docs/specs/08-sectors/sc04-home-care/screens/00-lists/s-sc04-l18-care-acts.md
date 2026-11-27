@@ -55,7 +55,7 @@ total and act on many care acts at once
 | Performed by | performed by | text | yes |
 | Performed at | performed at | date and time | yes |
 | Prescription | prescription | date | yes |
-| State | state | badge: Planned, Done, Billed, Cancelled | yes |
+| State | state | badge: Planned, Done, Reported, Cancelled | yes |
 
 Secrets are never a column (VR-4).
 
@@ -65,7 +65,7 @@ Secrets are never a column (VR-4).
 |---|---|---|
 | Act | each value | the visible rows (D488) |
 | Performed by | each value | the visible rows (D488) |
-| State | Planned, Done, Billed, Cancelled | the visible rows (D488) |
+| State | Planned, Done, Reported, Cancelled | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -180,8 +180,7 @@ Not drawn yet: step S8 draws them from this page, one row per persona and device
 
 ## Open questions
 
-This list waits for the owner's confirmation: its entity was created in the benchmark-gap interview of
-2026-11-14.
+None.
 
 ---
 

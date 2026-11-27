@@ -4,7 +4,7 @@
 
 # 📝 UC-F25-35 Repair a rejected candidate
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -101,7 +101,7 @@ Zero to two times per ticket.
 ## Permissions
 
 The architect assigns the findings. Each worker writes only in its own worktree and its own files. The release engineer
-integrates. Maintainers read every cycle and decide after the second. (Proposed) Only a maintainer may change the
+integrates. Maintainers read every cycle and decide after the second. Only a maintainer may change the
 contract during a repair.
 
 ## Notifications
@@ -121,7 +121,7 @@ person decides once the cycles are used
 
 ## API, MCP and A2A exposure
 
-(Proposed) The repair cycles are read through the API (T5). The maintainer's decision after the second cycle is written
+The repair cycles are read through the API (T5). The maintainer's decision after the second cycle is written
 only by a maintainer. No A2A skill.
 
 ## Screens
@@ -163,7 +163,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-(Proposed) The screen answers within 2 seconds for 10,000 records; every change is audited.
+The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 

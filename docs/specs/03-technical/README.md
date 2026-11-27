@@ -2,7 +2,7 @@
 
 # ⚙️ Technical capabilities
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 What the platform provides, invisible to business users.
 
@@ -64,7 +64,7 @@ topic is written in the
 | 🌐 | T10 | [Translations and notifications](t10-translations-and-notifications/README.md) | ✅ |
 | 🏛️ | T11 | [Legal corpora](t11-legal-corpora/README.md) | ✅ |
 | 🕸️ | T12 | [Connectors and scrapers](t12-connectors-and-scrapers/README.md) | ✅ |
-| 🗺️ | T13 | [Maps and geodata](t13-maps-and-geodata/README.md) | 🔄 |
+| 🗺️ | T13 | [Maps and geodata](t13-maps-and-geodata/README.md) | ✅ |
 
 ---
 

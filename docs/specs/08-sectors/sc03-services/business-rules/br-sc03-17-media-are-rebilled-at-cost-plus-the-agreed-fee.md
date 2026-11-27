@@ -3,7 +3,7 @@
 
 # 📏 BR-SC03-17 Media are rebilled at cost plus the agreed fee
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,8 +15,8 @@ approval is recorded.
 
 A client who sees only a lump sum cannot check the agency, and a purchase before approval is a cost the client can
 refuse. The owner asked for marketing agencies
-([D547](../../../06-decisions/sectors/d547-benchmark-gaps-sc03-services.md)). The mandate duty is written
-when its law is read.
+([D547](../../../06-decisions/sectors/d547-benchmark-gaps-sc03-services.md)). The mandate duty is
+[CR-FR-254 Advertising agent mandate and media prices](../../../10-country-packs/france/professional-firms/cr-fr-254-advertising-agent-mandate.md).
 
 ## Examples
 
@@ -32,7 +32,7 @@ when its law is read.
 - [UC-SC03-17](../use-cases/06-staffing-agencies-and-certification/uc-sc03-17-get-creative-work-approved-and-rebill-media.md)
 - [E-SC03-18 Creative proof](../data/e-sc03-18-creative-proof.md)
 - [E-SC03-06 Rebillable cost](../data/e-sc03-06-rebillable-cost.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-254 Advertising agent mandate and media prices](../../../10-country-packs/france/professional-firms/cr-fr-254-advertising-agent-mandate.md)
 
 ## Exceptions

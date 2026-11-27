@@ -3,7 +3,7 @@
 
 # 🧵 Bulk actions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -44,7 +44,7 @@ the AI assistant prepares a change on many records
 
 ## Behaviour
 
-- (Proposed) The bar appears as soon as one record is selected; it lists only the actions the user may take on all of
+- The bar appears as soon as one record is selected; it lists only the actions the user may take on all of
   them.
 - Every change shows the full list before it is made, and the button states the number
   ([D140](../../../06-decisions/f03-assistant/d140-assistant-confirms-changes.md)).
@@ -57,7 +57,7 @@ the AI assistant prepares a change on many records
 ## Accessibility
 
 - Each selection box is named after its record; the count is announced when it changes.
-- The bar is reachable by keyboard right after the table (Proposed).
+- The bar is reachable by keyboard right after the table.
 - The confirmation is a table with headers, as on
   [S-F3-02 Change confirmation card](../../../02-functional/f03-assistant/screens/03-act-through-the-assistant/s-f03-02-change-confirmation-card.md).
 

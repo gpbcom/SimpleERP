@@ -4,7 +4,7 @@
 
 # 📝 UC-F14-27 Set and honour support terms of a paid plan
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -71,7 +71,7 @@ Publisher: terms and answers; administrator: requests for their company.
 
 ## Notifications
 
-- The publisher at each new request; the administrator when answered; (Proposed) the publisher 2 business hours before a
+- The publisher at each new request; the administrator when answered; the publisher 2 business hours before a
   term is missed.
 
 ## Audit events

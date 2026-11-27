@@ -3,24 +3,28 @@
 
 # ⚖️ CR-FR-145 Recoverable service charges
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) The landlord recovers only the listed charges and settles them once a year against the provisions, with the
-documents kept available to the tenant.
+The landlord recovers only the listed charges and settles them once a year against the provisions, with the
+documents kept available to the tenant ([loi n° 89-462, art. 23](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041587263), read 2026-11-27).
 
 ## Values
 
-- (Proposed) The list and the settlement deadline.
+- The list: services linked to the use of the home, routine upkeep and small repairs of common parts, and taxes for
+  services the tenant uses, detailed by a decree (décret n° 87-713), local collective agreements may depart from it.
+- The settlement: yearly; one month before it the landlord sends the breakdown of charges, the documents stay
+  available for six months after; if it is not made before the end of the calendar year after the charges were due,
+  the tenant may pay it by twelfths ([loi n° 89-462, art. 23](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041587263), read 2026-11-27).
 
 ## Legal references
 
-- Décret n° 87-713 (not read yet).
+- Loi n° 89-462 art. 23; décret n° 87-713 (its annex not read).
 
 ## Effective dates
 
-(Proposed) To read.
+Article 23 in its current version since 2021-07-01 ([loi n° 89-462, art. 23](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041587263), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +37,7 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+None stated in article 23 (read 2026-11-27).
 
 ## Exceptions
 
@@ -41,7 +45,7 @@ None.
 
 ## Open questions
 
-The tenant-charges page was not read.
+The annex of décret n° 87-713 is not read.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

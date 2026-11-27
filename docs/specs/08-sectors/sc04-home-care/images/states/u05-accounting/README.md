@@ -29,11 +29,35 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc04-09-tax-certificates-e-sc04-09-tax-credit-certificate-held-desktop, light](s-sc04-09-tax-certificates-e-sc04-09-tax-credit-certificate-held-desktop-light.png) | ![s-sc04-09-tax-certificates-e-sc04-09-tax-credit-certificate-held-desktop, dark](s-sc04-09-tax-certificates-e-sc04-09-tax-credit-certificate-held-desktop-dark.png) |
 
-## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-desktop
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-desktop, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-desktop-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-desktop, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-desktop-dark.png) |
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-desktop, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-desktop-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-desktop, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-desktop-dark.png) |
+
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-desktop, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-desktop-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-desktop, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-desktop-dark.png) |
+
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-desktop, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-desktop-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-desktop, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-desktop-dark.png) |
+
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-desktop, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-desktop-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-desktop, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-desktop-dark.png) |
+
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-desktop, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-desktop-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-desktop, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-desktop-dark.png) |
 
 ---
 

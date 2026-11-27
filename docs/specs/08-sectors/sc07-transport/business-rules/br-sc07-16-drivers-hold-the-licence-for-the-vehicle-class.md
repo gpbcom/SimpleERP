@@ -3,7 +3,7 @@
 
 # 📏 BR-SC07-16 Drivers hold the licence for the vehicle class
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -15,7 +15,7 @@ qualified drivers are listed.
 
 Driving a vehicle for which the driver has no licence makes the trip illegal and the insurance void. The owner asked for
 passenger transport ([D551](../../../06-decisions/sectors/d551-benchmark-gaps-sc07-transport.md)). The
-France-pack rule is written later.
+France-pack rule is listed below.
 
 ## Examples
 
@@ -32,7 +32,8 @@ France-pack rule is written later.
 - [UC-SC07-21](../use-cases/07-passengers-removals-courier-and-freight/uc-sc07-21-run-passenger-transport.md)
 - [E-SC07-18 Passenger trip](../data/e-sc07-18-passenger-trip.md)
 - [E-SC07-04 Driver document](../data/e-sc07-04-driver-document.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule, (⚖️ lawyer review before launch, D574) until the coach, bus and taxi regimes of the Code des transports and the
+  driving-licence categories of the Code de la route are read:
   [CR-FR-236 Passenger transport registration and licences](../../../10-country-packs/france/transport/cr-fr-236-passenger-transport-licences.md)
 
 ## Exceptions

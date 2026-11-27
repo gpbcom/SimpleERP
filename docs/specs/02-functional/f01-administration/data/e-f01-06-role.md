@@ -18,8 +18,8 @@ a map (D502), and the planner mark says that the role's holders plan other peopl
 | ready-made | yes or no | yes | - | no | no | no | - |
 | copied from | role | no | - | - | Sales | no | - |
 | matrix | rows of See, Create, Change, Delete, Approve, Export | yes | - | the source role's | see the role editor | no | - |
-| map right | yes or no | yes | (Proposed) a warning when given to a role that is neither a planner nor a manager role ([BR-F1-32](../business-rules/br-f01-32-map-right-for-planners-and-managers.md)) | the source role's | yes | no | - |
-| planner | yes or no | yes | (Proposed) marks the roles whose holders plan other people's work | the source role's | yes | no | - |
+| map right | yes or no | yes | a warning when given to a role that is neither a planner nor a manager role ([BR-F1-32](../business-rules/br-f01-32-map-right-for-planners-and-managers.md)) | the source role's | yes | no | - |
+| planner | yes or no | yes | marks the roles whose holders plan other people's work | the source role's | yes | no | - |
 | default density | comfortable or compact | yes | - | the source role's (D42) | compact | no | - |
 
 The ready-made roles that are planner roles, and hold the map right (D517): Dispatcher (U29), Care coordinator

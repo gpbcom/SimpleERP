@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-17 Add a kanban, calendar, map, Gantt or timeline view
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -55,7 +55,7 @@ A few times per record type, at setup and when work changes.
 
 - 2a. The kanban's columns are the statuses: moving a card follows the transitions
   ([BR-F2-05](../../business-rules/br-f02-05-core-statuses-are-locked.md)).
-- 5a. On a phone, the map and the calendar show; the Gantt chart shows as a list of dates (Proposed).
+- 5a. On a phone, the map and the calendar show; the Gantt chart shows as a list of dates.
 
 ## Error flows
 
@@ -135,7 +135,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A view of 2,000 records opens within 2 seconds (Proposed).
+A view of 2,000 records opens within 2 seconds.
 
 ## Regulatory references
 

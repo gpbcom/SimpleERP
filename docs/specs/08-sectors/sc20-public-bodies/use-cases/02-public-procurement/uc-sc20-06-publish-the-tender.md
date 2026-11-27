@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-06 Publish the tender
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -136,11 +136,13 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A public buyer publishes the notice in the media the procedure requires, such as the official bulletin and
-the national buyers' platform, and puts the documents on its buyer profile; the deadline for bids has a minimum by
-procedure, and the answers to questions go to all bidders. The media and minimum delays are data of the France pack.
+A public buyer publishes the notice in the media the procedure requires (the BOAMP or an approved legal-notices outlet
+for an adapted procedure, the BOAMP and the JOUE for a formal one) and puts the documents on its buyer profile; the
+deadline for bids has a minimum by procedure, and the answers to questions go to all bidders. The media and minimum
+delays are data of the France pack. (⚖️ lawyer review before launch, D574) The minimum delays are still to read: Code de la commande
+publique R2143-1 and following, R2161-1 and following.
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule (the media read; the minimum delays on the lawyer's list):
   [CR-FR-251 Public procurement thresholds](../../../../10-country-packs/france/trade/cr-fr-251-public-procurement-thresholds.md)
 
 ## Related use cases

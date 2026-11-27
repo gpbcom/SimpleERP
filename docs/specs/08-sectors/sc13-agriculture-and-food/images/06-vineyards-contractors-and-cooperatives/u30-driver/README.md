@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC13-06 Vineyards, contractors, cooperatives, baskets, forests
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC13-06 Vineyards, contractors, cooperatives, baskets, forests](../../../flows/fl-sc13-06-vineyards-contractors-and-cooperatives.md)

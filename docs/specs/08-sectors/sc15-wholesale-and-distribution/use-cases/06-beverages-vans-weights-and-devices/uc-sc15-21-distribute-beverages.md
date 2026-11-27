@@ -164,10 +164,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 Alcoholic drinks sold in France carry an excise duty and a social security levy that depend on the category
-and strength, and the invoice shows the goods and the duty so that the buyer can account for them. Returnable packaging
+(per hectolitre for wines, ciders and intermediate products, per hectolitre and degree for beers, per hectolitre of pure
+alcohol for spirits, CR-FR-234), and the invoice shows the goods and the duty so that the buyer can account for them. Returnable packaging
 is charged as a deposit, refundable on return. Selling alcohol to a bar requires the buyer to hold the matching licence,
 and an exclusive supply tie must stay within the limits set by competition rules. The rates and the licence classes are
-data of the France pack, written later. Related:
+data of the France pack. Related:
 [CR-FR-109](../../../../10-country-packs/france/hospitality/cr-fr-109-alcohol-licences.md),
 [CR-FR-015](../../../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md),
 [CR-FR-171](../../../../10-country-packs/france/trade/cr-fr-171-supplier-distributor-agreement.md),

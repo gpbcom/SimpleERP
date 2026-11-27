@@ -3,7 +3,7 @@
 
 # 📜 D492 View content derived by rules, reviewed per capability
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-09 / D492)
+**Status:** ✅ decided
 
 ## Context
 
@@ -23,23 +23,23 @@ by capability.
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 9).
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 9).
 
 ## Consequences
 
-- The [view rules](../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md#view-rules) and the [view
-  cards](../../../tickets/GH-2/resources/flowcharts-screens/view-cards/README.md) live in GH-2's working folder.
+- The view rules (the owner's interview notes of 2026-11 for the specifications, not kept in the repository) and the view
+  cards (the owner's interview notes of 2026-11 for the specifications, not kept in the repository) live in GH-2's working folder.
 - A rule found wrong is fixed in the generator and the cards made again, never patched by hand.
-- The review runs in step S5 (36h) of the [plan](../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md).
+- The review runs in step S5 (36h) of the plan (the owner's interview notes of 2026-11 for the specifications, not kept in the repository).
 
 ## Related
 
-- [View rules VR-1 to VR-15](../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md#view-rules)
-- [View cards](../../../tickets/GH-2/resources/flowcharts-screens/view-cards/README.md)
+- View rules VR-1 to VR-15 (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
+- View cards (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 - [D484 Aggregated list view per record type and persona
   workspaces](d484-aggregated-list-view-per-record-type-and-persona-workspaces.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

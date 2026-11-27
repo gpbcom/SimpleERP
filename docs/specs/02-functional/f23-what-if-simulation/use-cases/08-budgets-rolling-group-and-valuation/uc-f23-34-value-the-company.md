@@ -154,7 +154,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A valuation made here is an internal estimate under stated assumptions, not a certified valuation or an
 expert's report; where a valuation is required by law or by a contract (for example a transfer of shares), the competent
-professional makes it, and this screen only prepares the inputs. The France-pack rule on valuations is written later.
+professional makes it, and this screen only prepares the inputs. The France-pack rule on valuations is
+[CR-FR-273 Valuations the law requires](../../../../10-country-packs/france/company/cr-fr-273-valuations-required-by-law.md).
 
 ## Related use cases
 

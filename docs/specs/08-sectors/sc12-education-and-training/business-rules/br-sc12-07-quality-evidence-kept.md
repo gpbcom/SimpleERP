@@ -7,7 +7,7 @@
 
 ## Statement
 
-(Proposed) The evidence each quality criterion needs (needs assessments, satisfaction, complaints, trainers' skills) is
+The evidence each quality criterion needs (needs assessments, satisfaction, complaints, trainers' skills) is
 kept per session; in France:
 [CR-FR-157 Qualiopi quality certification](../../../10-country-packs/france/education/cr-fr-157-qualiopi.md). A trainer
 is offered for a session only with the skills the session's request type requires, from their trainer profile
@@ -17,7 +17,9 @@ assignment proposal is kept as the evidence of the trainer's skills.
 
 ## Why
 
-(Proposed) The criteria are still to read.
+The certification checks 7 criteria and the indicators of the national framework: 32 indicators until 2026-10-31
+(décret n° 2019-565), 33 from 2026-11-01 (décret n° 2026-728); the evidence of each is kept for the certifier's
+audits (CR-FR-157).
 
 ## Examples
 

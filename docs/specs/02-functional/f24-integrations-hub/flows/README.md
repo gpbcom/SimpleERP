@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -18,7 +18,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F24-05 | [Keep the catalogue](fl-f24-05-keep-the-catalogue.md) | ✅ |
 | 🔀 | FL-F24-06 | [Business tools](fl-f24-06-business-tools.md) | ✅ |
 | 🔀 | FL-F24-07 | [Employees and their tools](fl-f24-07-employees-and-their-tools.md) | ✅ |
-| 🔀 | FL-F24-08 | [AI connectors, office suites, warehouse and firms](fl-f24-08-ai-connectors-suites-and-warehouse.md) | 🔄 |
+| 🔀 | FL-F24-08 | [AI connectors, office suites, warehouse and firms](fl-f24-08-ai-connectors-suites-and-warehouse.md) | ✅ |
 
 ---
 

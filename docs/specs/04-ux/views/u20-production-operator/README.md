@@ -3,7 +3,7 @@
 
 # 🧑‍🏭 Production operator: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ centre. Default density: comfortable, large touch targets ([D42](../../../06-dec
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Next operation; Checks to do.
 - Widgets: My work centre today.
@@ -36,16 +36,16 @@ centre. Default density: comfortable, large touch targets ([D42](../../../06-dec
 
 ## Navigation
 
-(Proposed) Work orders · Quality · Me.
+Work orders · Quality · Me.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U20-01 | [Make the next order](journeys/j-u20-01-make-the-next-order.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U20-01 | [Make the next order](journeys/j-u20-01-make-the-next-order.md) | ✅ |
 
 ---
 

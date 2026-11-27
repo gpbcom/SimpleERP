@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-30 Live position only as a team option, during working hours
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-22, VD-23 / D504, D505)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -53,7 +53,7 @@ None.
 ## Configurable
 
 Per team, off by default, for drivers' and carers' teams only; switching it on needs the purpose and the impact
-assessment. (Proposed) The staff committee is consulted and the employees told before it is switched on (CR-FR-206).
+assessment. The staff committee is consulted and the employees told before it is switched on (CR-FR-206).
 
 ## Open questions
 

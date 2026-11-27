@@ -9,7 +9,7 @@
 
 The 2026-11-14 benchmark-gaps interview compared the specifications with the point-of-sale features of the benchmarked
 suites and offered each gap as an option
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F10 Point of sale").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F10 Point of sale").
 
 ## Options
 
@@ -31,7 +31,7 @@ The owner selected all four gaps; each becomes a use case of F10, drawn in
 ## Decided by
 
 The owner, on 2026-11-14, in the benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "Block by block").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "Block by block").
 
 ## Consequences
 
@@ -60,7 +60,7 @@ The owner, on 2026-11-14, in the benchmark-gaps interview
 
 - [FL-F10-12 Takeaway, tap to pay, labels and layaway](../../02-functional/f10-point-of-sale/flows/fl-f10-12-takeaway-softpos-and-labels.md)
 - [D458 F1 Administration: gaps and improvements](../f01-administration/d458-f01-gaps-and-improvements.md)
-- [Interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)
+- Interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)
 
 ---
 

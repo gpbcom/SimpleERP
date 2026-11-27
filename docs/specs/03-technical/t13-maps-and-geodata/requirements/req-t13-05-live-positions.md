@@ -4,7 +4,7 @@
 
 # 📌 REQ-T13-05 Live positions: ingest, pause, retention
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-21, VD-22, VD-23 / D503, D504, D505)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -38,7 +38,7 @@ hours:
 
 ## Priority
 
-Must (Proposed)
+Must
 
 ## Capabilities served
 

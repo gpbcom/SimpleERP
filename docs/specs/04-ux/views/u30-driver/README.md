@@ -2,7 +2,7 @@
 
 # 🚚 Driver: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -11,7 +11,7 @@ density: comfortable, large touch targets ([D42](../../../06-decisions/ux/d42-de
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Next stop; Proofs to sign.
 - Widgets: Today's trip.
@@ -35,16 +35,16 @@ density: comfortable, large touch targets ([D42](../../../06-decisions/ux/d42-de
 
 ## Navigation
 
-(Proposed) Trip · Stops · Documents · Me.
+Trip · Stops · Documents · Me.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U30-01 | [Deliver the day's loads](journeys/j-u30-01-deliver-the-day.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U30-01 | [Deliver the day's loads](journeys/j-u30-01-deliver-the-day.md) | ✅ |
 
 ---
 

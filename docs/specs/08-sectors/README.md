@@ -34,10 +34,10 @@ workflows, roles, documents and dashboards through F2 (D113).
 | 💻 | SC14 | [IT and software](sc14-it-and-software/README.md) | ✅ |
 | 📦 | SC15 | [Wholesale and distribution](sc15-wholesale-and-distribution/README.md) | ✅ |
 | 🎭 | SC16 | [Events and culture](sc16-events-and-culture/README.md) | ✅ |
-| 💅 | SC17 | [Beauty and wellness](sc17-beauty-and-wellness/README.md) | 🔄 |
-| 🏃 | SC18 | [Sports and fitness](sc18-sports-and-fitness/README.md) | 🔄 |
-| 🔧 | SC19 | [Trades and home services](sc19-trades-and-home-services/README.md) | 🔄 |
-| 🏛️ | SC20 | [Public bodies](sc20-public-bodies/README.md) | 🔄 |
+| 💅 | SC17 | [Beauty and wellness](sc17-beauty-and-wellness/README.md) | ✅ |
+| 🏃 | SC18 | [Sports and fitness](sc18-sports-and-fitness/README.md) | ✅ |
+| 🔧 | SC19 | [Trades and home services](sc19-trades-and-home-services/README.md) | ✅ |
+| 🏛️ | SC20 | [Public bodies](sc20-public-bodies/README.md) | ✅ |
 
 ---
 

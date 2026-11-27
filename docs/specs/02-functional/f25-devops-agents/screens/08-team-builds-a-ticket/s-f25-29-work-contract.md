@@ -3,7 +3,7 @@
 
 # 🖥️ S-F25-29 Work contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

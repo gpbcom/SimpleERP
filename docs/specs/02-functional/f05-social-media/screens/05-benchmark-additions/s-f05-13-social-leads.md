@@ -58,7 +58,13 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-F6-20 Lead | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U03 | `u03-sales/s-f05-13-social-leads-e-f06-20-lead-active-{desktop,phone,tablet}-{light,dark}.png` |
+| E-F6-20 Lead | Active | Badge "Active"; a new record starts here; next: Qualified or Disqualified (UC-F6-01); fields editable within the role | U03 | `u03-sales/s-f05-13-social-leads-e-f06-20-lead-active-{desktop,phone,tablet}-{light,dark}.png` |
+| E-F6-20 Lead | Qualified | Badge "Qualified"; next: Disqualified or Converted (UC-F6-01, UC-F6-02); fields editable within the role | U03 | `u03-sales/s-f05-13-social-leads-e-f06-20-lead-qualified-{desktop,phone,tablet}-{light,dark}.png` |
+| E-F6-20 Lead | Disqualified | Badge "Disqualified"; final: read-only, no next state; the history shows how it got here | U03 | `u03-sales/s-f05-13-social-leads-e-f06-20-lead-disqualified-{desktop,phone,tablet}-{light,dark}.png` |
+| E-F6-20 Lead | Converted | Badge "Converted"; final: read-only, no next state; the history shows how it got here | U03 | `u03-sales/s-f05-13-social-leads-e-f06-20-lead-converted-{desktop,phone,tablet}-{light,dark}.png` |
+| E-F6-20 Lead | Qualified | Badge "Qualified"; next: Disqualified or Converted (UC-F6-01, UC-F6-02); fields editable within the role | U03 | `u03-sales/s-f05-13-social-leads-e-f06-20-lead-qualified-{desktop,phone,tablet}-{light,dark}.png` |
+| E-F6-20 Lead | Disqualified | Badge "Disqualified"; final: read-only, no next state; the history shows how it got here | U03 | `u03-sales/s-f05-13-social-leads-e-f06-20-lead-disqualified-{desktop,phone,tablet}-{light,dark}.png` |
+| E-F6-20 Lead | Converted | Badge "Converted"; final: read-only, no next state; the history shows how it got here | U03 | `u03-sales/s-f05-13-social-leads-e-f06-20-lead-converted-{desktop,phone,tablet}-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

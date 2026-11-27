@@ -9,6 +9,8 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f19-01-feature-chat-e-f19-01-feature-request-active-desktop.html`
 - `s-f19-07-try-out-e-f19-06-try-out-copy-active-desktop.html`
 - `s-f19-10-defects-e-f19-16-feature-defect-active-desktop.html`
+- `s-f19-10-defects-e-f19-16-feature-defect-fixed-desktop.html`
+- `s-f19-10-defects-e-f19-16-feature-defect-credited-desktop.html`
 - `s-f19-24-security-and-privacy-e-f19-14-security-and-privacy-review-changes-desktop.html`
 - `s-f19-24-security-and-privacy-e-f19-14-security-and-privacy-review-open-desktop.html`
 - `s-f19-24-security-and-privacy-e-f19-14-security-and-privacy-review-passed-desktop.html`

@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F24-06 Business tools
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F24-06 Business tools](../../../flows/fl-f24-06-business-tools.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

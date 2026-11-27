@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC20-05 Council, civil registry, permits and assets
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC20-05 Council, civil registry, permits and assets](../../../flows/fl-sc20-05-council-registry-permits-and-assets.md)

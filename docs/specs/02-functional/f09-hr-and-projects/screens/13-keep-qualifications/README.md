@@ -4,7 +4,7 @@
 
 # 🖥️ Screens: FL-F9-13 Keep employees' qualifications
 
-**Status:** 🔄 draft (GH-2 step S4b)
+**Status:** ✅ specified
 
 The screens of this flow.
 
@@ -12,5 +12,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-F9-35 | [Employee qualifications](s-f09-35-employee-qualifications.md) | 🔄 |
-| 🖥️ | S-F9-36 | [Readings to verify](s-f09-36-readings-to-verify.md) | 🔄 |
+| 🖥️ | S-F9-35 | [Employee qualifications](s-f09-35-employee-qualifications.md) | ✅ |
+| 🖥️ | S-F9-36 | [Readings to verify](s-f09-36-readings-to-verify.md) | ✅ |

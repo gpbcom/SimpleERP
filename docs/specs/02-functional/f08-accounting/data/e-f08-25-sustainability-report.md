@@ -3,7 +3,7 @@
 
 # 🗃️ E-F8-25 Sustainability report
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -37,7 +37,8 @@ By year.
 
 ## Retention
 
-10 years (Proposed).
+10 years, like the accounting records and the management report (Code de commerce L123-22), for the voluntary VSME
+report too ([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Audit
 

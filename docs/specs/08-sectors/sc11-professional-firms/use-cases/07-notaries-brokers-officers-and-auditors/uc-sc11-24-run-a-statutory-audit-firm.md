@@ -5,7 +5,7 @@
 
 # 📝 UC-SC11-24 Run a statutory audit firm
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -156,12 +156,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A statutory auditor is appointed for a mandate of several financial years; the firm must check its
 independence before accepting, and for public-interest entities the signing partner must rotate after a set number of
-years, and the firm itself after a longer period. The values are data of the France pack, to confirm from the official
-texts, and are written later. Related:
+years, and the firm itself after a longer period: a mandate lasts six financial years, the key audit partners of a
+public-interest entity leave the audit at the latest seven years after their appointment and come back only three
+years after, and the firm stays at most 10 years alone (up to 24 with joint auditors). The values are data of the
+France pack. Related:
 [CR-FR-149](../../../../10-country-packs/france/professional-firms/cr-fr-149-aml-vigilance.md),
 [CR-FR-152](../../../../10-country-packs/france/professional-firms/cr-fr-152-accountant-engagement-letter.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-243 Statutory auditor rotation](../../../../10-country-packs/france/professional-firms/cr-fr-243-statutory-audit-rotation.md)
 
 ## Related use cases

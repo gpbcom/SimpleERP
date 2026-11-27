@@ -4,7 +4,7 @@
 
 # 🔀 FL-F20-08 Engineers, screen sharing, reports and languages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

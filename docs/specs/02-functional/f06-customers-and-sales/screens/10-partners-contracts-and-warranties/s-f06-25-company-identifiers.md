@@ -3,7 +3,7 @@
 
 # 🖥️ S-F6-25 Company identifiers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

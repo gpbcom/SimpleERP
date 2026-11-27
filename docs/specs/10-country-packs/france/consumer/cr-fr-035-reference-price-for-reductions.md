@@ -37,7 +37,8 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+A reduction announced against another reference price is a misleading commercial practice: two years' imprisonment
+and a 300 000 EUR fine ([DGCCRF, Annonces de réduction de prix, written 2026-08-25](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/annonces-de-reduction-de-prix-ce-que-vous-devez-savoir), read 2026-11-27).
 
 ## Exceptions
 

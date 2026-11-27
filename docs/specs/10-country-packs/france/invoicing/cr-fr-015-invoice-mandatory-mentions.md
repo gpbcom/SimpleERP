@@ -25,7 +25,9 @@ Every invoice carries the mentions the law requires; templates may place and sty
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2025-01-01: 242 nonies A in force since 2025-01-01, L441-9 since 2019-04-26 ([CGI annex II, art. 242 nonies A](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050811276), [Code de commerce, art. L441-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414397), read 2026-11-27). Until 2026-12-31, the L441-9 version of 2019-04-26; from 2027-01-01, the version amended by Ordonnance n° 2026-671
+art. 2, with the same list of mentions and fines, its exemptions now referring to CIBS L216-28 and L216-33 ([Code de commerce, art. L441-9, version of 2027-01-01](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414397/2027-01-02), read 2026-11-27). From 2027-01-01 too, CGI 1737 keeps the same
+fines for the mentions, the duties now in the CIBS ([CGI, art. 1737, version of 2027-01-01](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053546686/2027-01-02), read 2026-11-27).
 
 ## Enforced by
 
@@ -41,7 +43,10 @@ administrators; the corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet (CGI art. 1737 sets fines for missing mentions).
+Tax: 15 EUR per missing or wrong mention, at most a quarter of the invoice amount; not applied to a
+first breach corrected on the company's own initiative or within 30 days (CGI 1737 II, V) ([CGI, art. 1737](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053546686), read 2026-11-27).
+Commercial: an administrative fine up to 75 000 EUR (natural person) or 375 000 EUR (legal person), doubled on a
+repeat within 2 years (L441-9 II) ([Code de commerce, art. L441-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414397), read 2026-11-27).
 
 ## Exceptions
 

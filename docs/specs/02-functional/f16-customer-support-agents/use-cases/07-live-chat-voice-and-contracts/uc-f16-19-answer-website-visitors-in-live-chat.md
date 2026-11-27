@@ -5,7 +5,7 @@
 
 # 📝 UC-F16-19 Answer website visitors in live chat
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -164,8 +164,9 @@ The AI agent must say it is an AI:
 [CR-FR-056](../../../../10-country-packs/france/ai-and-recording/cr-fr-056-people-know-they-deal-with-an-ai.md). A chat
 stores the visitor's words:
 [CR-FR-050](../../../../10-country-packs/france/data-protection/cr-fr-050-privacy-by-design.md),
-[CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md). (Proposed) The
-France-pack rule on chat transcripts and the visitor's information is written later.
+[CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).
+(⚖️ lawyer review before launch, D574) The France-pack rule on the visitor's information is still to write: to read GDPR article 13
+(information when the data is collected).
 
 ## Related use cases
 

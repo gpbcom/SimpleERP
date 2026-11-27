@@ -3,7 +3,7 @@
 
 # 🧭 J-U03-01 From lead to order
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Persona
 
@@ -15,8 +15,8 @@ Send a correct quote fast, even at the customer's site, and know the customer's 
 
 ## Journey
 
-Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are a proposal (Proposed), drawn from the
-specs, for the owner to confirm.
+Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are drawn from the
+specs and confirmed by the owner (D572).
 
 ```mermaid
 journey
@@ -47,7 +47,7 @@ flowchart TD
   E2 -. fixed .-> S2
   S1 -- done --> S2
   S3["3. Moves the deal along the pipeline"]
-  S3 -- problem --> E3["An opportunity with no next activity for 14 days: (Proposed) flagged."]
+  S3 -- problem --> E3["An opportunity with no next activity for 14 days: flagged."]
   E3 -. fixed .-> S3
   S2 -- done --> S3
   S4["4. Creates and sends the quote"]

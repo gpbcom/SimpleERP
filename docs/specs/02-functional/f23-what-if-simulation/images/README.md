@@ -20,4 +20,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F23-07 Accuracy and drivers](07-accuracy-and-drivers/README.md) | 16 images |
 | 🖼️ |  | [Images: FL-F23-08 Budgets, rolling forecasts, group and valuation](08-budgets-rolling-group-and-valuation/README.md) | 22 images |
 | 🖼️ |  | [Screen states](states/README.md) | 192 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

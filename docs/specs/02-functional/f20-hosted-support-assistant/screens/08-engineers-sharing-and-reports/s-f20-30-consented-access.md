@@ -4,7 +4,7 @@
 
 # 🖥️ S-F20-30 Consented access
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

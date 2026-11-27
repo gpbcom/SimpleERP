@@ -79,15 +79,15 @@ and the gym with its contracts and access (D562).
 
 |  | ID | Page | Status |
 |---|---|---|---|
-| 📝 |  | [Use cases](use-cases/README.md) | 🔄 |
-| 🔀 |  | [Flows](flows/README.md) | 🔄 |
-| 📏 |  | [Business rules](business-rules/README.md) | 🔄 |
-| 🗃️ |  | [Data](data/README.md) | 🔄 |
-| 🖥️ |  | [Screens](screens/README.md) | 🔄 |
+| 📝 |  | [Use cases](use-cases/README.md) | ✅ |
+| 🔀 |  | [Flows](flows/README.md) | ✅ |
+| 📏 |  | [Business rules](business-rules/README.md) | ✅ |
+| 🗃️ |  | [Data](data/README.md) | ✅ |
+| 🖥️ |  | [Screens](screens/README.md) | ✅ |
 | 🎁 |  | [Sector pack](sector-pack.md) | ✅ |
 | ⚖️ |  | [Regulatory](regulatory.md) | ✅ |
 | ❓ |  | [Open questions](open-questions.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
 ---
 

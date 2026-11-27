@@ -2,19 +2,19 @@
 
 # 🎭 Events and culture
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Company
 
-(Proposed) Scènes du Fleuve, a fictional company that runs a 600-seat theatre season and a summer music festival.
+Scènes du Fleuve, a fictional company that runs a 600-seat theatre season and a summer music festival.
 
 ## Activity
 
-(Proposed) Theatre and concert seasons, a three-day festival with bars, stands and sponsors, and season memberships.
+Theatre and concert seasons, a three-day festival with bars, stands and sponsors, and season memberships.
 
 ## Size
 
-(Proposed) 14 permanent staff (the director, 3 event producers, 3 box-office agents, accounting, technical and
+14 permanent staff (the director, 3 event producers, 3 box-office agents, accounting, technical and
 communication), about 40 intermittent performers and technicians a season and 150 volunteers at the festival; about
 30,000 tickets a year. The sector's profile goes from one-off events to full seasons. Several locations are possible
 ([D32](../../06-decisions/technical/d32-several-locations.md)).

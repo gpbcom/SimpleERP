@@ -85,10 +85,13 @@ see: to find, filter, total and act on many ai assistant requests at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | AI assistant requests    Assistant › AI assistant requests   [+ New]                                         |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] AI ASSISTANT REQUEST   STATE                                                         |
+| state             | [ ] AI ASSISTANT   KIND   USER   CONVERSATION   ASKED AT   RESULT   STATE                |
+| kind              | [ ] ...                                                  Open >                          |
+| user              | [ ] ...                                                  Open >                          |
+| conversation      | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -98,7 +101,12 @@ see: to find, filter, total and act on many ai assistant requests at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| AI assistant request | the record's title | text | yes |
+| AI assistant request | text | text | yes |
+| Kind | kind | label | yes |
+| User | user | person's name | yes |
+| Conversation | conversation | link to the record | yes |
+| Asked at | asked at | date and time | yes |
+| Result | result | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -108,16 +116,21 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Kind | create, change, delete, irreversible, outward act, summary, draft, outside tool | the visible rows (D488) |
+| User | each person, the user first | the visible rows (D488) |
+| Conversation | each linked conversation | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: ai assistant requests link to no other record type in their fields.
+- AI assistant requests of a chosen conversation, or of the conversations that match a filter.
+- From the other side: the conversations that have ai assistant requests, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by asked at.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -129,6 +142,7 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: user.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -157,7 +171,10 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| text | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| user | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

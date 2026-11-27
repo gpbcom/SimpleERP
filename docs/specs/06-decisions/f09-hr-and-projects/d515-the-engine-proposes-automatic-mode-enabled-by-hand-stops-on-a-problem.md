@@ -3,7 +3,7 @@
 
 # 📜 D515 The engine proposes; automatic mode enabled by hand, stops on a problem
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-33 / D515)
+**Status:** ✅ decided
 
 ## Context
 
@@ -23,8 +23,8 @@ engine assigns and re-plans on its own, and stops and notifies the planner at th
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-33).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-33).
 
 ## Consequences
 
@@ -48,7 +48,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [S-F9-31 Proposal
   review](../../02-functional/f09-hr-and-projects/screens/12-schedule-customer-requests/s-f09-31-proposal-review.md)
 - [D514 Scheduling objectives](d514-scheduling-objectives.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

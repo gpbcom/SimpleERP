@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC20-01 Public accounting
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

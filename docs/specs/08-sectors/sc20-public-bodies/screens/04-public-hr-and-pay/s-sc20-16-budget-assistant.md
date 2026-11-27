@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC20-16 Budget assistant
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

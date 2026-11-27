@@ -37,7 +37,7 @@ pages say so.
 - [Positioning](../../00-vision/product/positioning.md)
 - [D374](d374-revenue-and-pricing.md)
 - [D373](d373-sovereign-ai-native-suite.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

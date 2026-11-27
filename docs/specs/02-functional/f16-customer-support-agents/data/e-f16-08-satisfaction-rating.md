@@ -3,7 +3,7 @@
 
 # 🗃️ E-F16-08 Satisfaction rating
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -31,7 +31,7 @@ erDiagram
 stateDiagram-v2
   [*] --> Asked : UC-F16-04
   Asked --> Answered : UC-F16-01
-  Asked --> Expired : (Proposed) after 7 days, UC-F16-09
+  Asked --> Expired : after 7 days, UC-F16-09
   Answered --> [*] : UC-F16-01
   Expired --> [*] : UC-F16-01
 ```

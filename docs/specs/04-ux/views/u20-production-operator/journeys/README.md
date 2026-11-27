@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U20-01 | [Make the next order](j-u20-01-make-the-next-order.md) | 🔄 |
+| 🧭 | J-U20-01 | [Make the next order](j-u20-01-make-the-next-order.md) | ✅ |
 
 ---
 

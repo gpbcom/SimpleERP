@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC14-11 | [Processor agreements](s-sc14-11-processor-agreements.md) | 🔄 |
-| 🖥️ | S-SC14-12 | [Vulnerabilities](s-sc14-12-vulnerabilities.md) | 🔄 |
-| 🖥️ | S-SC14-13 | [Incident reports](s-sc14-13-incident-reports.md) | 🔄 |
-| 🖥️ | S-SC14-14 | [Data export](s-sc14-14-data-export.md) | 🔄 |
+| 🖥️ | S-SC14-11 | [Processor agreements](s-sc14-11-processor-agreements.md) | ✅ |
+| 🖥️ | S-SC14-12 | [Vulnerabilities](s-sc14-12-vulnerabilities.md) | ✅ |
+| 🖥️ | S-SC14-13 | [Incident reports](s-sc14-13-incident-reports.md) | ✅ |
+| 🖥️ | S-SC14-14 | [Data export](s-sc14-14-data-export.md) | ✅ |

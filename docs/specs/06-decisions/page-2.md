@@ -7,7 +7,7 @@
 | | ID | Page | Status |
 |---|---|---|---|
 | 🎨 |  | [Decisions: Users and UX](ux/README.md) | 45 pages |
-| 🎯 |  | [Decisions: Vision](vision/README.md) | 19 pages |
+| 🎯 |  | [Decisions: Vision](vision/README.md) | 20 pages |
 
 Pages: [1](README.md) · **2**
 

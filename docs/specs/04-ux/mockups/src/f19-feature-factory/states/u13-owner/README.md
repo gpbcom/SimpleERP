@@ -70,7 +70,11 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f19-22-refunds-e-f19-12-feature-refund-refused-desktop.html`
 - `s-f19-22-refunds-e-f19-12-feature-refund-refused-phone.html`
 - `s-f19-22-refunds-e-f19-16-feature-defect-active-desktop.html`
+- `s-f19-22-refunds-e-f19-16-feature-defect-fixed-desktop.html`
+- `s-f19-22-refunds-e-f19-16-feature-defect-credited-desktop.html`
 - `s-f19-22-refunds-e-f19-16-feature-defect-active-phone.html`
+- `s-f19-22-refunds-e-f19-16-feature-defect-fixed-phone.html`
+- `s-f19-22-refunds-e-f19-16-feature-defect-credited-phone.html`
 - `s-f19-23-ownership-e-f19-13-code-handover-available-desktop.html`
 - `s-f19-23-ownership-e-f19-13-code-handover-available-phone.html`
 - `s-f19-23-ownership-e-f19-13-code-handover-downloaded-desktop.html`

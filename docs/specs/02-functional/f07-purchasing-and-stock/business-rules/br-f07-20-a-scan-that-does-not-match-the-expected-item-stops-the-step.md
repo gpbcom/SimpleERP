@@ -4,7 +4,7 @@
 
 # 📏 BR-F7-20 A scan that does not match the expected item stops the step
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -45,10 +45,10 @@ Home · Accounting · Legal assistant · Administration · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U49-01 | [Audit a client](journeys/j-u49-01-audit-a-client.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U49-01 | [Audit a client](journeys/j-u49-01-audit-a-client.md) | ✅ |
 
 ---
 

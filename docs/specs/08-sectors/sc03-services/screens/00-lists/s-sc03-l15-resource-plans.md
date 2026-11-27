@@ -35,7 +35,8 @@ filter, total and act on many resource plans at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] RESOURCE PLAN   STATE                                                                |
+| state             | [ ] NAME   FROM, TO   UTILISATION   UTILISATION    BENCH   STATE                         |
+|                   | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -45,7 +46,11 @@ filter, total and act on many resource plans at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Resource plan | the record's title | text | yes |
+| Name | name | text | yes |
+| From, to | from, to | text | yes |
+| Utilisation | utilisation | percent | yes |
+| Utilisation target | utilisation target | percent | yes |
+| Bench | bench | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -100,11 +105,14 @@ Each action is offered within the role and checked again on the server (VR-10).
 
 ## Inline edit
 
-None: no field is editable in a cell.
+- utilisation target: editable in its cell unless the record's state locks it.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| bookings | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| leave | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

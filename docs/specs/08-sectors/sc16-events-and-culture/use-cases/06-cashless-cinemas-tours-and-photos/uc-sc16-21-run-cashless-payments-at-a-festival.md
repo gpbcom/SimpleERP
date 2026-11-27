@@ -158,7 +158,7 @@ Money loaded on a wristband that can be spent only at the stands of one event is
 but if it can be spent at other merchants it may be electronic money, which needs an authorisation and safeguarding of
 the funds. The visitor can ask for the unused balance back at face value, and a fee on the refund is limited by the
 country pack. Cash loaded at the gate follows the cash payment limit. VAT is due when the drink or the meal is sold, not
-when the money is loaded. The France-pack rule is written later. Related:
+when the money is loaded. The France-pack rules are [CR-FR-289 Closed-loop payment wristbands](../../../../10-country-packs/france/payments/cr-fr-289-closed-loop-payment-wristbands.md), [CR-FR-013 VAT on gift cards and vouchers](../../../../10-country-packs/france/tax-and-vat/cr-fr-013-vouchers-vat.md), [CR-FR-022 Cash payment limit](../../../../10-country-packs/france/payments/cr-fr-022-cash-payment-limit.md) and [CR-FR-128 Temporary bars of associations](../../../../10-country-packs/france/hospitality/cr-fr-128-temporary-bars.md). Related:
 [CR-FR-022](../../../../10-country-packs/france/payments/cr-fr-022-cash-payment-limit.md),
 [CR-FR-097](../../../../10-country-packs/france/consumer/cr-fr-097-gift-card-validity.md),
 [CR-FR-128](../../../../10-country-packs/france/hospitality/cr-fr-128-temporary-bars.md),

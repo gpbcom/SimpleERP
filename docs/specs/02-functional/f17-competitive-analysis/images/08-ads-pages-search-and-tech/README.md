@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F17-08 Ads, pages, search and technologies
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

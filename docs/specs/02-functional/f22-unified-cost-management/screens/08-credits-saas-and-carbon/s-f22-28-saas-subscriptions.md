@@ -4,7 +4,7 @@
 
 # 🖥️ S-F22-28 SaaS subscriptions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

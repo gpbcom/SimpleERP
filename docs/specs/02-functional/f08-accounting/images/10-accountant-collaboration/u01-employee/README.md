@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F8-10 Accountant collaboration
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F8-10 Accountant collaboration](../../../flows/fl-f08-10-accountant-collaboration.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

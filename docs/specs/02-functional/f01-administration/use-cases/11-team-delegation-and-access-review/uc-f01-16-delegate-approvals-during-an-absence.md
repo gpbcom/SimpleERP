@@ -4,7 +4,7 @@
 
 # 📝 UC-F1-16 Delegate approvals during an absence
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -53,7 +53,7 @@ A few times a year per manager.
 
 - 1a. The owner sets a delegation for an absent manager who could not
   ([U13](../../../../01-users/personas/u13-owner.md)).
-- 4a. The deputy is away too: the requests go to the manager's own manager (Proposed).
+- 4a. The deputy is away too: the requests go to the manager's own manager.
 - 5a. The manager comes back early and ends the delegation at once.
 
 ## Error flows
@@ -134,7 +134,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Routing changes at 00:00 in the company's time zone on the start and end dates (Proposed).
+Routing changes at 00:00 in the company's time zone on the start and end dates.
 
 ## Regulatory references
 

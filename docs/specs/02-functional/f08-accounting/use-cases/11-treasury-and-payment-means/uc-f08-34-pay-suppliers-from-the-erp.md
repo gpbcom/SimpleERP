@@ -3,7 +3,7 @@
 
 # 📝 UC-F8-34 Pay suppliers from the ERP
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -159,7 +159,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-SEPA credit transfers: [CR-FR-023](../../../../10-country-packs/france/payments/cr-fr-023-sepa-formats.md). (Proposed)
+SEPA credit transfers: [CR-FR-023](../../../../10-country-packs/france/payments/cr-fr-023-sepa-formats.md).
 Payment initiation needs the bank's strong authentication and the company's consent, as the bank's service requires.
 
 ## Related use cases

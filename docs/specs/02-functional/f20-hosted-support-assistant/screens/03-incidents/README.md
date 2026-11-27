@@ -16,4 +16,4 @@ The screens of this flow.
 | 🖥️ | S-F20-10 | [Status page](s-f20-10-status-page.md) | ✅ |
 | 🖥️ | S-F20-11 | [Proactive alerts](s-f20-11-proactive-alerts.md) | ✅ |
 | 🖥️ | S-F20-15 | [Security incident](s-f20-15-security-incident.md) | ✅ |
-| 🖥️ | S-F20-28 | [Incident handling](s-f20-28-incident-handling.md) | 🔄 |
+| 🖥️ | S-F20-28 | [Incident handling](s-f20-28-incident-handling.md) | ✅ |

@@ -3,26 +3,30 @@
 
 # ⚖️ CR-FR-072 Accessible online shops
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) Online shops meet the accessibility requirements of the European Accessibility Act.
+Online shops meet the accessibility requirements of the European Accessibility Act: e-commerce is a listed service
+([Code de la consommation, art. D412-50 I 5° and D412-57](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000048180103/), read 2026-11-27).
 
 ## Values
 
-- (Proposed) In force from 2025-06-28; micro-enterprises providing services exempt.
+- In force for services provided after 2025-06-28; businesses providing services with fewer than 10 persons and a
+  turnover or balance sheet of 2 MEUR or less are exempt ([Loi n° 2023-171, art. 16](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000047281814), read 2026-11-27).
 - Read on [Service-public R77385](https://entreprendre.service-public.gouv.fr/vosdroits/R77385) (verified 11 June 2026):
   micro-enterprises (2 MEUR or less, fewer than 10 employees) are exempt from the DGCCRF declaration unless asked; the
   requirements not on the page.
 
 ## Legal references
 
-- Directive (EU) 2019/882 and its French transposition (not read yet).
+- Directive (EU) 2019/882, transposed by [loi n° 2023-171, art. 16](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000047281814)
+  (Code de la consommation L412-13) and décret n° 2023-931 (art. D412-49 to D412-62).
 
 ## Effective dates
 
-(Proposed) To read.
+Services provided after 2025-06-28; contracts concluded before then may run unchanged until they end, at the
+latest 2030-06-28 ([Loi n° 2023-171, art. 16 VIII](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000047281814), read 2026-11-27).
 
 ## Enforced by
 
@@ -35,11 +39,12 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Fine of a 5th-class contravention for a service provider who breaches D412-57 1°, 2°, 4° or 5° ([Code de la consommation, art. R451-4 10°](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048180406/), read 2026-11-27),
+up to 1 500 EUR ([Code pénal, art. 131-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417259/), read 2026-11-27).
 
 ## Exceptions
 
-(Proposed) Micro-enterprises.
+Micro-enterprises providing services (fewer than 10 persons, turnover or balance sheet of 2 MEUR or less) ([Code de la consommation, art. D412-60](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000048180103/), read 2026-11-27).
 
 ## Open questions
 

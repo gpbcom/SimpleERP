@@ -23,7 +23,7 @@ within one month of the keys if the exit inventory matches the entry one, two mo
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Loi n° 89-462 art. 22 in its current version since 2014-03-27 ([loi n° 89-462, chapter III](https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000509310/LEGISCTA000006118908/), read 2026-11-27).
 
 ## Enforced by
 

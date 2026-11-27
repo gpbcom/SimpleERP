@@ -3,24 +3,43 @@
 
 # 🗃️ E-F4-18 Recording notice
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
-(Proposed) The recording notice the flow charts name with the words "Spoken message", "message", "notice"
+The recording notice the flow charts name with the words "Spoken message", "message", "notice"
 ([FL-F4-01](../flows/fl-f04-01-record-an-online-meeting.md),
 [FL-F4-02](../flows/fl-f04-02-record-in-person-or-by-phone.md),
 [FL-F4-07](../flows/fl-f04-07-prepare-and-capture-anywhere.md)). The owner decided to create it
-([D516](../../../06-decisions/foundations/d516-naming-rules-and-the-seven-classes-of-names.md)); what it holds waits for
-the owner's confirmation.
+([D516](../../../06-decisions/foundations/d516-naming-rules-and-the-seven-classes-of-names.md)); its fields are derived
+from the specifications and confirmed by the owner (D572).
 
 ## Fields
 
-(Proposed) To define with the owner: the flow charts name the record, not its fields.
+| Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
+|---|---|---|---|---|---|---|---|
+| name | text | yes | - | - | Notice for client calls | no | no |
+| channel | bot chat, spoken message, call chat, in-person confirmation | yes | BR-F4-01, BR-F4-19 | - | spoken message | no | no |
+| language | language | yes | - | - | English | no | no |
+| words | text | yes | - | - | This call is recorded and transcribed. | no | no |
+| state | active | yes | the lifecycle below | active | active | no | no |
+
+Derived from [BR-F4-01](../business-rules/br-f04-01-every-recording-is-announced.md) (the bot's notice, the spoken
+message whose words are set per language, the in-person confirmation),
+[BR-F4-11](../business-rules/br-f04-11-business-calls-are-recorded.md),
+[BR-F4-19](../business-rules/br-f04-19-desktop-capture-is-announced-too.md) (the notice posted in the call's chat),
+[UC-F4-01](../use-cases/01-record-an-online-meeting/uc-f04-01-record-an-online-meeting-with-the-bot.md),
+[UC-F4-04](../use-cases/02-record-in-person-or-by-phone/uc-f04-04-record-a-phone-call.md),
+[UC-F4-10](../use-cases/07-prepare-and-capture-anywhere/uc-f04-10-capture-from-the-desktop-a-file-or-dictation.md),
+[S-F4-04 Call](../screens/02-record-in-person-or-by-phone/s-f04-04-call.md) and the list
+[S-F4-L18](../screens/00-lists/s-f04-l18-recording-notices.md).
 
 ## Relations
 
-(Proposed) To define with the owner, from the use cases below.
+Posted or played at the start of each recorded [meeting](e-f04-01-meeting.md) or call; the bot's name, "SimpleERP recorder"
+([BR-F4-01](../business-rules/br-f04-01-every-recording-is-announced.md)), is held by the
+[meeting recording setting](e-f04-25-meeting-recording-setting.md). The time it was posted shows on the
+[desktop recorder](../screens/07-prepare-and-capture-anywhere/s-f04-09-desktop-recorder.md).
 
 ## Lifecycle
 
@@ -31,19 +50,20 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) To define with the owner.
+By name, channel, language, state.
 
 ## Retention
 
-(Proposed) As the other records of its capability, to confirm with the owner.
+As the other records of its capability.
 
 ## Audit
 
-(Proposed) Every change, as the other records of its capability.
+Every change, as the other records of its capability.
 
 ## Import and export
 
-(Proposed) To define with the owner.
+CSV or XLSX of the visible rows and columns from [S-F4-L18](../screens/00-lists/s-f04-l18-recording-notices.md); no
+import.
 
 ## Used by
 
@@ -53,7 +73,7 @@ stateDiagram-v2
 
 ## Open questions
 
-(Proposed) Its fields, relations and states wait for the owner (waiting list, step 36e).
+None.
 
 ---
 

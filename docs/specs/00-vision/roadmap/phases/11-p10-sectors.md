@@ -1,9 +1,9 @@
-# 🛣️ P10: Sectors (Proposed)
+# 🛣️ P10: Sectors
 
-**Status:** 🟡 Draft · **Sprints:** S47 to S52 · **Dates:** 9 Oct 2028 to 19 Jan 2029 · **Tickets:** 70
+**Status:** ✅ specified (D569) · **Sprints:** S47 to S52 · **Dates:** 9 Oct 2028 to 19 Jan 2029 · **Tickets:** 70
 
 > [!NOTE]
-> P10 builds the twenty sector packs SC01 to SC20 as data on the capabilities of P3 to P9 (record types, rules, documents, screens and a seeded demo company per sector), because every business capability a sector needs exists by then and the roadmap's exit criterion for sectors is that each sector's example company runs its use cases end to end. The placement is (Proposed), waiting for the owner.
+> P10 builds the twenty sector packs SC01 to SC20 as data on the capabilities of P3 to P9 (record types, rules, documents, screens and a seeded demo company per sector), because every business capability a sector needs exists by then and the roadmap's exit criterion for sectors is that each sector's example company runs its use cases end to end. The placement is adopted with option A ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md)).
 
 ## <a id="goal"></a>🎯 Goal
 
@@ -16,7 +16,7 @@ At the end of P9 every business capability is built, but a construction firm, a 
 
 ## <a id="scope"></a>🧺 Scope
 
-**Sectors** (all placements (Proposed))
+**Sectors**
 
 | Sector | Use cases | Business rules | Entities | Screens | Decisions |
 | --- | --- | --- | --- | --- | --- |
@@ -251,7 +251,7 @@ The capability epics assumed: F1 E3.1, F2 E3.2, F3 E3.3, F4 E3.4, F21 E3.5, F24 
 
 - **Large tickets.** The owner's cut of two to four tickets per sector gives five to nine use cases per ticket (size L); a ticket that does not fit is split before it is planned, inside the 99-ticket limit.
 - **Missing capability.** A sector rule F2 cannot express as configuration (formulas, workflows, record rules) needs code in its business service; it is raised as a gap of the capability's epic, not coded in the pack.
-- **Country rules still (Proposed).** Several sector rules wait for their France-pack rule (D545 to D564); the ticket uses the plain-words rule and marks it (Proposed) until `packs/countries/fr` has it.
+- **Country rules still for a lawyer.** A few sector rules keep a France-pack point for a lawyer's review (D545 to D564, the [waiting list](../../../09-waiting/README.md)); the ticket uses the plain-words rule and keeps the point marked until the lawyer's reading is in `packs/countries/fr`.
 - **No example company for SC17 to SC20.** Their demo companies are built from their use cases' acceptance criteria until example-company pages are written.
 - **SC20 and F18.** The council website needs F18 (P11); SC20's acceptance in P10 leaves it out.
-- **Placement (Proposed).** The owner may move sectors earlier (for example a pilot sector), which moves their tickets but not their content ([Q20](../../../07-questions/q20-which-roadmap-option-orders-v1.md)).
+- **Placement.** Option A places every sector here ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md), [Q20](../../../07-questions/q20-which-roadmap-option-orders-v1.md)); a later decision that moves a sector earlier moves its tickets, not their content.

@@ -41,8 +41,8 @@ Several a week per technician.
 
 - **Succeeded:** the quote ([E-F6-03 Quote](../../../../02-functional/f06-customers-and-sales/data/e-f06-03-quote.md))
   is signed on the phone, carries the withdrawal notice and form, and the customer has received a copy.
-- **Failed:** a quote signed at home is not valid without the notice, no payment is taken in the withdrawal delay except
-  for an urgent repair the customer asked for in writing, and the copy is always sent.
+- **Failed:** a quote signed at home is not valid without the notice, no payment is taken for 7 days from the
+  signature except for an urgent repair the customer expressly asked for, and the copy is always sent.
 
 ## Main flow
 
@@ -59,8 +59,10 @@ Several a week per technician.
 
 ## Alternative flows
 
-- 6a. The customer asks for an urgent repair: the written request is recorded and the urgent part starts at once, and
-  only that part.
+- 6a. The customer expressly asks for an urgent repair: the request is recorded and the urgent part starts at once,
+  limited to the parts and work strictly needed; that part may be paid at once and has no withdrawal right.
+- 6b. A payment is asked for within 7 days of the signature for anything else: it is refused; from day 8 it may be
+  taken, and the withdrawal right still runs to day 14.
 - 4a. The customer prefers to think: the quote is sent and the signature is requested later by link.
 - 3a. The quote is over the amount for which the pack requires more information: the missing lines are asked.
 
@@ -89,8 +91,8 @@ Several a week per technician.
 
 ## Permissions
 
-Technician makes and signs quotes on site; office reads them; customer signs and withdraws. A technician
-cannot take a payment in the withdrawal delay.
+Technician makes and signs quotes on site; office reads them; customer signs and withdraws. Nobody can take a payment
+for 7 days from the signature, except for the urgent part of an urgent repair.
 
 ## Notifications
 
@@ -139,10 +141,11 @@ sequenceDiagram
 
 1. **Given** a quote made at the customer's home **when** the technician sends it for signature **then** it carries the
    withdrawal notice and form.
-2. **Given** a customer who signed **when** the technician asks for a deposit in the withdrawal delay **then** it is
-   refused.
-3. **Given** an urgent repair asked in writing **when** the customer signs the request **then** the urgent part starts
-   at once.
+2. **Given** a customer who signed 5 days ago **when** the technician asks for a deposit **then** it is refused.
+3. **Given** an urgent repair the customer expressly asked for **when** the customer signs the request **then** the
+   urgent part starts at once and may be paid.
+4. **Given** a customer who signed 8 days ago and has not withdrawn **when** the office asks for a deposit **then** it
+   is taken and the withdrawal form stays valid until day 14.
 
 ## Non-functional notes
 
@@ -150,9 +153,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A consumer who signs a contract away from the company's premises, such as at home, has a delay to withdraw,
-and the quote must carry the withdrawal notice and form; no payment may be taken in the first days, except for an
-immediate repair the consumer asked for in writing, limited to what is needed. The delays are data of the France pack.
+A consumer who signs a contract away from the company's premises, such as at home, has 14 days to withdraw, and the
+quote must carry the withdrawal notice and form. No payment or consideration may be taken for 7 days from the signature
+(Code de la consommation L221-10), except for an urgent repair the consumer expressly asked for, limited to the parts
+and work strictly needed, which also has no withdrawal right (L221-28). The owner chose to follow the law
+([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)). The delays are data of the France pack.
 Related: [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md),
 [CR-FR-020](../../../../10-country-packs/france/invoicing/cr-fr-020-electronic-acceptance-and-signature.md),
 [CR-FR-015](../../../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md).

@@ -3,7 +3,7 @@
 
 # 🗃️ E-F6-12 Credit limit
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -15,7 +15,7 @@ The credit a customer or group may use, and its holds.
 |---|---|---|---|---|---|---|---|
 | customer or group | customer | yes | - | - | Brasserie du Parc group | no | - |
 | limit | amount | yes | 0 or more | - | 20,000 EUR | no | - |
-| overdue days | number | no | - | 30 (Proposed) | 30 | no | - |
+| overdue days | number | no | - | 30 | 30 | no | - |
 | review date | date | no | - | - | 2027-06-30 | no | - |
 | holds | orders with reason and release | no | - | - | Order 3381 held | no | - |
 
@@ -48,7 +48,8 @@ Credit control list.
 
 ## Retention
 
-10 years with the accounts (Proposed).
+10 years with the accounts
+([CR-FR-002 Accounting records kept 10 years](../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md)).
 
 ## Audit
 

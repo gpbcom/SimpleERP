@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F1-15 Security and group data
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F1-15 Security and group data](../../../flows/fl-f01-15-security-and-group-data.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC06-17 Catering quotes list allergens
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

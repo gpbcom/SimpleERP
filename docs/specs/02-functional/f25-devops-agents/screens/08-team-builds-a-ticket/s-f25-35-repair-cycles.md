@@ -3,7 +3,7 @@
 
 # 🖥️ S-F25-35 Repair cycles
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

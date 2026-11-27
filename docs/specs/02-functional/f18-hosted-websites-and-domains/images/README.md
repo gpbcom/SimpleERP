@@ -19,4 +19,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F18-06 Content and search](06-content-and-search/README.md) | 20 images |
 | 🖼️ |  | [Images: FL-F18-07 A/B tests, visitors, accessibility and members](07-tests-visitors-and-accessibility/README.md) | 28 images |
 | 🖼️ |  | [Screen states](states/README.md) | 216 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

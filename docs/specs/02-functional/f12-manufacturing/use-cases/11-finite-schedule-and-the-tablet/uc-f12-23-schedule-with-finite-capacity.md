@@ -4,7 +4,7 @@
 
 # 📝 UC-F12-23 Schedule with finite capacity
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -118,7 +118,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Scheduling 500 operations within 30 seconds (Proposed).
+Scheduling 500 operations within 30 seconds.
 
 ## Regulatory references
 

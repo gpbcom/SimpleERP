@@ -3,24 +3,28 @@
 
 # ⚖️ CR-FR-193 Database producer's right
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) Extracting or reusing a substantial part of a database whose making needed a substantial investment is
-forbidden without its producer's consent.
+Extracting or reusing a substantial part of a database whose making needed a substantial investment is forbidden
+without its producer's consent ([CPI, art. L341-1 and L342-1](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069414/LEGISCTA000006146357/), read 2026-11-27).
 
 ## Values
 
-- (Proposed) What counts as substantial, to read.
+- A substantial investment, financial, material or human, in obtaining, verifying or presenting the contents
+  (L341-1).
+- The whole or a qualitatively or quantitatively substantial part of the contents (L342-1).
+- The right lasts 15 years from 1 January after completion, restarting with a new substantial investment (L342-5)
+  ([CPI, art. L341-1 to L343-7](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069414/LEGISCTA000006146357/), read 2026-11-27).
 
 ## Legal references
 
-- Code de la propriété intellectuelle L341-1, L342-1 (not read yet).
+- [Code de la propriété intellectuelle](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069414/LEGISCTA000006146357/) L341-1, L342-1, L342-5, L343-4.
 
 ## Effective dates
 
-(Proposed) To read.
+L341-1 and L342-1 in force since 1998-01-01 ([CPI, art. L341-1 to L343-7](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069414/LEGISCTA000006146357/), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +37,8 @@ in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Three years' imprisonment and a 300 000 EUR fine; seven years when committed by an organised group
+([CPI, art. L343-4](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069414/LEGISCTA000006146357/), read 2026-11-27).
 
 ## Exceptions
 

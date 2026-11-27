@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -31,8 +31,8 @@ One file per rule.
 | 📏 | BR-F10-18 | [Cash moves are counted by two](br-f10-18-cash-moves-are-counted-by-two.md) | ✅ |
 | 📏 | BR-F10-19 | [Settlements match sessions and the bank](br-f10-19-settlements-match-sessions-and-the-bank.md) | ✅ |
 | 📏 | BR-F10-20 | [Recognised customers agreed, transferred items are reserved](br-f10-20-recognised-customers-agreed-transferred-items-are-reserved.md) | ✅ |
-| 📏 | BR-F10-21 | [Tax-free only for eligible visitors above the minimum](br-f10-21-tax-free-only-for-eligible-visitors-above-the-minimum.md) | 🔄 |
-| 📏 | BR-F10-22 | [Staff figures go to their managers](br-f10-22-staff-figures-go-to-their-managers.md) | 🔄 |
+| 📏 | BR-F10-21 | [Tax-free only for eligible visitors above the minimum](br-f10-21-tax-free-only-for-eligible-visitors-above-the-minimum.md) | ✅ |
+| 📏 | BR-F10-22 | [Staff figures go to their managers](br-f10-22-staff-figures-go-to-their-managers.md) | ✅ |
 | 📏 | BR-F10-23 | [Online orders stay within kitchen capacity](br-f10-23-online-orders-stay-within-kitchen-capacity.md) | ✅ |
 | 📏 | BR-F10-24 | [Tap to pay follows the card-terminal rules and the till log](br-f10-24-tap-to-pay-follows-the-card-terminal-rules-and-the-till-log.md) | ✅ |
 | 📏 | BR-F10-25 | [Label prices always match the till price](br-f10-25-label-prices-always-match-the-till-price.md) | ✅ |

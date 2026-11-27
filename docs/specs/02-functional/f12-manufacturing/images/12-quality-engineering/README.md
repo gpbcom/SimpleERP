@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-F12-12 Quality engineering
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

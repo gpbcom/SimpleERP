@@ -24,7 +24,8 @@ equipment and zone.
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12 (the page was verified on 20 February 2026).
+The sale's technical diagnostics file (CCH L271-4) in its current version since 2024-04-11 ([Code de la construction et
+de l'habitation, art. L271-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049398848), read 2026-11-27).
 
 ## Enforced by
 

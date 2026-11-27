@@ -43,10 +43,10 @@ Home · Suppliers · Purchase orders · Stock · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U04-01 | [Order the right quantity](journeys/j-u04-01-order-the-right-quantity.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U04-01 | [Order the right quantity](journeys/j-u04-01-order-the-right-quantity.md) | ✅ |
 
 ---
 

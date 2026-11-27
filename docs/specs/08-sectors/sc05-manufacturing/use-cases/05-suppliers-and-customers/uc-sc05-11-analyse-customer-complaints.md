@@ -4,7 +4,7 @@
 
 # 📝 UC-SC05-11 Analyse customer complaints
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -56,7 +56,7 @@ A few a month.
 
 ## Error flows
 
-- 2e. A step late: the quality manager is alerted ((Proposed) containment D3 within 24 hours).
+- 2e. A step late: the quality manager is alerted (containment D3 within 24 hours).
 - 1e. A complaint about a lot: the lot's other deliveries are listed.
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
@@ -131,7 +131,7 @@ sequenceDiagram
 1. **Given** the example factory's complaint CC-12 at D4 **when** D5 to D8 are filled **then** the report is sent to the
    customer.
 2. **Given** complaint CC-12 without D3 after 2 days **when** the delay passes **then** the quality manager is alerted
-   ((Proposed) containment D3 within 24 hours).
+   (containment D3 within 24 hours).
 
 ## Non-functional notes
 
@@ -150,7 +150,7 @@ None specific to this use case; the sector's legal rules are listed in [SC05 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

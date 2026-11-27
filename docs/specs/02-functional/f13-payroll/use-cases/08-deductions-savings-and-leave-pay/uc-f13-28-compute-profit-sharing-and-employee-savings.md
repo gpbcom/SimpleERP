@@ -5,7 +5,7 @@
 
 # 📝 UC-F13-28 Compute profit-sharing and employee savings
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -52,7 +52,8 @@ Once a year.
 
 ## Alternative flows
 
-- 4a. An employee makes no choice by the deadline: the share is invested by default (Proposed) to read.
+- 4a. An employee makes no choice by the deadline: the share is invested by default (⚖️ lawyer review before launch, D574: Code
+  du travail L3324-12).
 - 3a. A leaver of the year: their share is computed on their time and pay, and sent to the address on file.
 
 ## Error flows
@@ -80,7 +81,7 @@ choice.
 ## Notifications
 
 - The owner is told the reserve is ready to sign off; each employee of their share and the deadline, by email and push;
-  reminders (Proposed) 5 days before the deadline.
+  reminders 5 days before the deadline.
 
 ## Audit events
 
@@ -142,7 +143,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 Headcount:
 [CR-FR-046 Headcount thresholds](../../../../10-country-packs/france/labour/cr-fr-046-headcount-thresholds.md);
-participation and savings plans: (Proposed) to read (Code du travail L3322-2, L3324-1, L3332-1).
+participation and savings plans: (⚖️ lawyer review before launch, D574) to read: Code du travail L3322-2, L3324-1,
+L3332-1.
 
 ## Related use cases
 

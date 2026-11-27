@@ -35,10 +35,13 @@ find, filter, total and act on many field worksheets at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Field worksheets    HR and projects › Field worksheets   [+ New]                                             |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Active] [new this month]   [chart: count by state]                                                  |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] FIELD WORKSHEET   STATE                                                              |
+| state             | [ ] FIELD WORKSH   TASK   FILLED BY   CUSTOMER   DATE   TIME SPENT   STATE               |
+| task              | [ ] ...                                                  Open >                          |
+| filled by         | [ ] ...                                                  Open >                          |
+| customer          | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,8 +51,13 @@ find, filter, total and act on many field worksheets at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Field worksheet | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Field worksheet | title | text | yes |
+| Task | task | link to the record | yes |
+| Filled by | filled by | person's name | yes |
+| Customer | customer | link to the record | yes |
+| Date | date | date | yes |
+| Time spent | time spent | number, right-aligned | yes |
+| State | state | badge: Active, Signed | yes |
 
 Secrets are never a column (VR-4).
 
@@ -57,17 +65,25 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, Signed | the visible rows (D488) |
+| Task | each linked task | the visible rows (D488) |
+| Filled by | each person, the user first | the visible rows (D488) |
+| Customer | each linked customer | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: field worksheets link to no other record type in their fields.
+- Field worksheets of a chosen task, or of the tasks that match a filter.
+- From the other side: the tasks that have field worksheets, or none.
+- Field worksheets of a chosen customer, or of the customers that match a filter.
+- From the other side: the customers that have field worksheets, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Active.
+- New this month, by date.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -79,19 +95,28 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: filled by.
+- Open: Active.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
 
 ## Map layout
 
-None: no place.
+- **Place:** place.
+- **Layout:** a map, [C-17](../../../../04-ux/design-system/components/c-17-map.md).
+- **Marker:** the worksheet and the state.
+- **Layers:** by state.
+- **Who sees the switch:** the roles with the map right, the planner roles and U02 and U13 (BR-F1-32, D502); the others
+  see the table with the place as a column.
 
 ## Actions
 
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New field worksheet | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -103,11 +128,16 @@ Each action is offered within the role and checked again on the server (VR-10).
 
 ## Inline edit
 
-None: no field is editable in a cell.
+- time spent: editable in its cell unless the record's state locks it.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| filled by | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| customer | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| place | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| customer signature | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 
@@ -123,15 +153,18 @@ Open › goes to [S-F9-18 Field service](../06-plan-and-deliver-work/s-f09-18-fi
 - **Selected:** the bulk bar with the actions allowed on every selected row.
 - **Error:** the query failed, with Retry.
 
+On the map layout, Listed also shows the count of rows without a place.
+
 ## Responsive behaviour
 
 On a phone the table keeps its columns and scrolls sideways, the facet panel becomes a drawer and the KPI strip stays
-(VR-14, D491).
+(VR-14, D491); the map takes the full width.
 
 ## Accessibility
 
 The KPI strip, the facet panel, the toolbar and the table are named landmarks; the result count is announced when the
-filters change; each chip has its remove button; the facet drawer returns the focus to its button.
+filters change; each chip has its remove button; the facet drawer returns the focus to its button. The table holds the
+same rows as the map.
 
 ## Example images
 
@@ -153,7 +186,8 @@ Drawn in step S8 (36k) from this page: one row per persona and device for each s
 [C-03 Data table](../../../../04-ux/design-system/components/c-03-data-table.md),
 [C-15 Facet panel](../../../../04-ux/design-system/components/c-15-facet-panel.md),
 [C-16 KPI strip](../../../../04-ux/design-system/components/c-16-kpi-strip.md),
-[C-09 Chart](../../../../04-ux/design-system/components/c-09-chart.md).
+[C-09 Chart](../../../../04-ux/design-system/components/c-09-chart.md),
+[C-17 Map](../../../../04-ux/design-system/components/c-17-map.md).
 
 ## Shown in
 

@@ -18,4 +18,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC11-06 Firm management](06-firm-management/README.md) | 26 images |
 | 🖼️ |  | [Images: FL-SC11-07 Notaries, brokers, judicial officers and audit firms](07-notaries-brokers-officers-and-auditors/README.md) | 26 images |
 | 🖼️ |  | [Screen states](states/README.md) | 160 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

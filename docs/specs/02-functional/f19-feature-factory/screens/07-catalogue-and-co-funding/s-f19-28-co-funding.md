@@ -4,7 +4,7 @@
 
 # 🖥️ S-F19-28 Co-funding
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F3-13 Voice, agents and briefings
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F3-13 Voice, agents and briefings](../../../flows/fl-f03-13-voice-agents-and-briefings.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

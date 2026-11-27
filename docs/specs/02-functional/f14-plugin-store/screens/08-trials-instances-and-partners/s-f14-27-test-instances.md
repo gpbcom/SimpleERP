@@ -4,7 +4,7 @@
 
 # 🖥️ S-F14-27 Test instances
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

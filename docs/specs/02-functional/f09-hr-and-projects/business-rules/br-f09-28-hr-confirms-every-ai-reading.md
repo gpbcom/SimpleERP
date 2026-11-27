@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-28 HR confirms every AI reading
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-25, VD-26 / D507, D508)
+**Status:** ✅ specified
 
 ## Statement
 

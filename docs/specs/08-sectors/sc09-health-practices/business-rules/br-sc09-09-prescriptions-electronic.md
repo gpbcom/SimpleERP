@@ -7,12 +7,14 @@
 
 ## Statement
 
-(Proposed) Prescriptions are issued through the national e-prescription service; in France:
+Prescriptions are issued through the national e-prescription service; in France:
 [CR-FR-134 E-prescription](../../../10-country-packs/france/health-practice/cr-fr-134-e-prescription.md).
 
 ## Why
 
-(Proposed) The start date of the obligation is still to read.
+Prescribers issue their prescriptions electronically through the national service and comply by 2024-12-31 at the
+latest (doctors, dentists, midwives, nurses, physiotherapists, speech therapists, podiatrists)
+([CR-FR-134 E-prescription](../../../10-country-packs/france/health-practice/cr-fr-134-e-prescription.md)).
 
 ## Examples
 

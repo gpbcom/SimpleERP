@@ -4,7 +4,7 @@
 
 # 🖥️ S-F2-30 Custom report
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -12,18 +12,18 @@
 
 ## Purpose
 
-(Proposed) A report built with no-code configuration: a record type, its filters, columns and chart. The impact of a
+A report built with no-code configuration: a record type, its filters, columns and chart. The impact of a
 change lists the custom reports it touches
 ([UC-F2-23](../../use-cases/10-change-safely/uc-f02-23-see-the-impact-of-a-change-before-publishing.md), answer S2-11 of
 2026-11-13).
 
 ## Entry points
 
-(Proposed) Configuration › Reports; the impact of a change (S-F2-22).
+Configuration › Reports; the impact of a change (S-F2-22).
 
 ## Wireframe
 
-(Proposed) As drawn here, to confirm with the owner.
+As drawn here.
 
 ```text
 +------------------------------------------------------------------+
@@ -48,23 +48,23 @@ change lists the custom reports it touches
 
 ## Fields and columns
 
-(Proposed) Record type, filters, columns, grouping and chart, as the wireframe shows.
+Record type, filters, columns, grouping and chart, as the wireframe shows.
 
 ## Actions
 
 | Action | Who | Result |
 |---|---|---|
-| Save | administrator | (Proposed) The report, in its menu |
-| Preview | administrator | (Proposed) The first rows and the chart |
+| Save | administrator | The report, in its menu |
+| Preview | administrator | The first rows and the chart |
 
 ## States
 
-- Normal: (Proposed) the report being built, as the wireframe shows.
+- Normal: the report being built, as the wireframe shows.
 - Empty: no record matches the filters: the report says so, with the filters shown.
 - Loading: skeleton rows in place of the list ([C-03](../../../../04-ux/design-system/components/c-03-data-table.md));
   actions are disabled until it has loaded.
 - Error: the error message pattern (D122).
-- Read-only: (Proposed) for a user who may run the report but not change it.
+- Read-only: for a user who may run the report but not change it.
 - Offline: Not available offline: a back-office screen on live, shared data
   ([D38](../../../../06-decisions/ux/d38-offline-field-tasks.md)); the app shows that it is offline and reloads the
   screen when the network is back.
@@ -77,7 +77,9 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-F2-26 Configuration draft | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U07 | `u07-administrator/s-f02-30-custom-report-e-f02-26-configuration-draft-active-desktop-{light,dark}.png` |
+| E-F2-26 Configuration draft | Open | Badge "Open"; a new record starts here; next: Published or Discarded (UC-F2-09); fields editable within the role | U07 | `u07-administrator/s-f02-30-custom-report-e-f02-26-configuration-draft-open-desktop-{light,dark}.png` |
+| E-F2-26 Configuration draft | Published | Badge "Published"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f02-30-custom-report-e-f02-26-configuration-draft-published-desktop-{light,dark}.png` |
+| E-F2-26 Configuration draft | Discarded | Badge "Discarded"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f02-30-custom-report-e-f02-26-configuration-draft-discarded-desktop-{light,dark}.png` |
 | E-F2-10 Configuration version | Published | Badge "Published"; a new record starts here; next: Superseded (UC-F2-09); fields editable within the role | U07 | `u07-administrator/s-f02-30-custom-report-e-f02-10-configuration-version-published-desktop-{light,dark}.png` |
 | E-F2-01 Custom field | Draft | Badge "Draft"; a new record starts here; next: Live (UC-F2-01); fields editable within the role | U07 | `u07-administrator/s-f02-30-custom-report-e-f02-01-custom-field-draft-desktop-{light,dark}.png` |
 | E-F2-01 Custom field | Live | Badge "Live"; next: Archived (UC-F2-01); fields editable within the role | U07 | `u07-administrator/s-f02-30-custom-report-e-f02-01-custom-field-live-desktop-{light,dark}.png` |

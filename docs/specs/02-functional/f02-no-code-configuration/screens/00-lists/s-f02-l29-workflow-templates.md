@@ -36,7 +36,8 @@ find, filter, total and act on many workflow templates at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] WORKFLOW TEMPLATE   STATE                                                            |
+| state             | [ ] NAME   TRIGGER   BLOCKS   STATE                                                      |
+|                   | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,7 +47,9 @@ find, filter, total and act on many workflow templates at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Workflow template | the record's title | text | yes |
+| Name | name | text | yes |
+| Trigger | trigger | text | yes |
+| Blocks | blocks | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).

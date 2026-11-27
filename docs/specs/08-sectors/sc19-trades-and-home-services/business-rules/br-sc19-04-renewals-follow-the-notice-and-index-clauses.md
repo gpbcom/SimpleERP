@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-04 Renewals follow the notice and index clauses
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,9 @@ renewal notice is sent before the notice date, and a notice date that has passed
 ## Why
 
 A price change without a clause, or a renewal without a reminder, is a dispute the company loses
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (⚖️ lawyer review before launch, D574)
+The France-pack rule is still to write: to read the tacit renewal of consumer contracts (Code de la consommation L215-1
+to L215-5).
 
 ## Examples
 

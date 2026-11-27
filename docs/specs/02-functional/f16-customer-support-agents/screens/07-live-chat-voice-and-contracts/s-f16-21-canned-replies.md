@@ -4,7 +4,7 @@
 
 # 🖥️ S-F16-21 Canned replies
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

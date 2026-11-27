@@ -4,7 +4,7 @@
 
 # 🖥️ S-F18-28 Page A/B test
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four situations
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four situations
 that distribution suites handle and SC15 did not: beverage distribution, van sales, catch weight and medical devices.
 Each carries a duty (duty and deposits shown on the invoice, a count at each reload, the weighed quantity invoiced, a
 traceable lot).
@@ -28,7 +28,8 @@ traceable lot).
 
 SC15 gets four use cases in one new flow, FL-SC15-06, each with its screen and its rule, and an entity and a list for
 three of them: catch weight needs no entity of its own, because the weights live on the order line. All at full depth
-now. Each legal duty is written in plain words and marked (Proposed) until the France-pack rule is written.
+now. Each legal duty is written in plain words and marked as proposed until its France-pack rule was written (the
+rules now exist).
 
 | Gap | Point | Decision | The owner's answer |
 |---|---|---|---|
@@ -40,7 +41,7 @@ now. Each legal duty is written in plain words and marked (Proposed) until the F
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC15 Wholesale and
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC15 Wholesale and
 distribution").
 
 ## Consequences

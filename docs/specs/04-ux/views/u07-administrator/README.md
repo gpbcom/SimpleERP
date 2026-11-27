@@ -42,10 +42,10 @@ Home · Users and roles · Sites · Configuration · Plugins · Connections · A
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U07-01 | [Set up SimpleERP without a consultant](journeys/j-u07-01-set-up-simpleerp.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U07-01 | [Set up SimpleERP without a consultant](journeys/j-u07-01-set-up-simpleerp.md) | ✅ |
 
 ---
 

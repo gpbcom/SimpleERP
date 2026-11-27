@@ -20,4 +20,4 @@ The decisions of this theme, in number order.
 | 📜 | D442 | [The DevOps agents' runners in an isolated cluster](d442-devops-runners-isolated-cluster.md) | ✅ |
 | 📜 | D482 | [F25 DevOps agents (hosted edition): gaps and improvements](d482-f25-gaps-and-improvements.md) | ✅ |
 | 📜 | D544 | [Benchmark gaps of F25 DevOps agents](d544-benchmark-gaps-f25-devops-agents.md) | ✅ |
-| 📜 | D567 | [The agent team: roles, contract, worktrees, one-commit verification](d567-the-agent-team-roles-contract-worktrees-one-commit-verification.md) | 🔄 |
+| 📜 | D567 | [The agent team: roles, contract, worktrees, one-commit verification](d567-the-agent-team-roles-contract-worktrees-one-commit-verification.md) | ✅ |

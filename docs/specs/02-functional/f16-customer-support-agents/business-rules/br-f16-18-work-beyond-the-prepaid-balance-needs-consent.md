@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-18 Work beyond the prepaid balance needs consent
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

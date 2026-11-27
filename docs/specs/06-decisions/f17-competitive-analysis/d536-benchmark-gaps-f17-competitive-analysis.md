@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four
 market-intelligence features that F17 did not cover: competitors' ads, changes on competitors' web pages,
 search-position overlap and technology detection. F17 already follows registers, prices, jobs, tenders, patents, reviews
 and news under lawful collection rules; these add the advertising, web and search sides.
@@ -40,7 +40,7 @@ full depth now.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F17 Competitive analysis").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F17 Competitive analysis").
 
 ## Consequences
 

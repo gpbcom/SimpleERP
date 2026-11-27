@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC16-23 Tour
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

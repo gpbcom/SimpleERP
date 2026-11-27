@@ -4,7 +4,7 @@
 
 # 📝 UC-F14-21 Check a plugin's bill of materials and licences
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -27,7 +27,7 @@ A version submitted (UC-F14-08); a vulnerability database update for published v
 
 ## Frequency
 
-At each submission; nightly rescans of published versions (Proposed).
+At each submission; nightly rescans of published versions.
 
 ## Preconditions
 
@@ -140,7 +140,7 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 ## Regulatory references
 
 [CR-FR-168 Cyber Resilience Act reporting](../../../../10-country-packs/france/digital/cr-fr-168-cyber-resilience-reporting.md);
-the bill-of-materials duty itself: (Proposed) to read.
+the bill-of-materials duty itself: (⚖️ lawyer review before launch, D574) to read: Regulation (EU) 2024/2847, annex I part II.
 
 ## Related use cases
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC08-18 Dues follow each club's headcount
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

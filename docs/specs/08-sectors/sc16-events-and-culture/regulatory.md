@@ -17,7 +17,10 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-037 Hiring declaration before the first day](../../10-country-packs/france/labour/cr-fr-037-dpae-before-the-first-day.md),
 [CR-FR-036 Consumer withdrawal right](../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md),
 [CR-FR-063 Consent for email and SMS marketing](../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md).
-Music copyright and ticket VAT are (Proposed): their official pages could not be read yet.
+Music copyright and ticket VAT are read in CR-FR-179 and CR-FR-181 (the VAT rates at the CGI articles until 2026-12-31,
+at the CIBS rate articles from 2027-01-01); the cinema tax is read in
+[CR-FR-248](../../10-country-packs/france/events/cr-fr-248-cinema-box-office.md), with the receipts declared each week through
+Cinedi per film, version and screen; the distributor's share waits for the lawyer's review (D574).
 
 ## Country pack
 

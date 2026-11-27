@@ -8,8 +8,8 @@
 ## Rules that apply
 
 Every billing and rights rule comes from the country pack (D293): VAT and reverse charge, credit notes, price
-reductions, self-billing, invoice mentions, software and AI-generated works, AI transparency; four still (Proposed); see
-the list below.
+reductions, self-billing, invoice mentions, software and AI-generated works, AI transparency; see the list below: CR-FR-204
+and CR-FR-205 still wait for a lawyer's or a tax adviser's reading in the country pack.
 
 ## Country pack
 

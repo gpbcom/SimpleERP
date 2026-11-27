@@ -34,10 +34,11 @@ filter, total and act on many waiting lists at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Waiting lists    Social media and marketing › Waiting lists   [+ New]                                        |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] WAITING LIST   STATE                                                                 |
+| state             | [ ] NAME   EVENT   SESSION   PEOPLE WAITI   OPENED AT   STATE                            |
+| event             | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,7 +48,11 @@ filter, total and act on many waiting lists at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Waiting list | the record's title | text | yes |
+| Name | name | text | yes |
+| Event | event | link to the record | yes |
+| Session | session | date and time | yes |
+| People waiting | people waiting (count) | number, right-aligned | yes |
+| Opened at | opened at | date and time | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -57,16 +62,19 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Event | each linked event | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: waiting lists link to no other record type in their fields.
+- Waiting lists of a chosen registration event, or of the registration events that match a filter.
+- From the other side: the registration events that have waiting lists, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by opened at.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -106,7 +114,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| people waiting | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-13 Installation project
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC08-19 Funds go to the association, never the page owner
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,8 +15,9 @@ donor.
 
 Money that passes through a supporter's hands cannot be receipted and exposes the association and the donor to abuse.
 The owner asked for peer-to-peer fundraising
-([D552](../../../06-decisions/sectors/d552-benchmark-gaps-sc08-non-profit.md)). (Proposed) The France-pack rule is
-written later.
+([D552](../../../06-decisions/sectors/d552-benchmark-gaps-sc08-non-profit.md)). The France-pack rule on the
+receipt is [CR-FR-124 Tax receipts for gifts and their yearly declaration](../../../10-country-packs/france/non-profit/cr-fr-124-gift-tax-receipts.md):
+the association entitled to issue receipts gives each donor a receipt on the official model.
 
 ## Examples
 

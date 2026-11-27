@@ -3,7 +3,7 @@
 
 # 🏢 Property manager: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Unpaid rents; Deposits to return; Assemblies to convene.
 - Widgets: Rents collected this month.
@@ -38,16 +38,16 @@ density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Navigation
 
-(Proposed) Home · Leases · Rents · Buildings · Co-ownerships · Assistant.
+Home · Leases · Rents · Buildings · Co-ownerships · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U34-01 | [Collect rents and pay landlords](journeys/j-u34-01-collect-rents.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U34-01 | [Collect rents and pay landlords](journeys/j-u34-01-collect-rents.md) | ✅ |
 
 ---
 

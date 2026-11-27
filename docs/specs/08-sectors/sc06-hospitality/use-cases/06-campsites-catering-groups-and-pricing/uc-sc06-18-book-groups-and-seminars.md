@@ -162,7 +162,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A group contract is signed and states the rate, the deposit, the cut-off date, the attrition and the
 cancellation terms. The tourist tax is due per guest and night for each named guest. Accommodation carries the reduced
-VAT rate and meals and meeting rooms may carry others. The France-pack rule is written later. Related:
+VAT rate and meals and meeting rooms may carry others. The France-pack rules are [CR-FR-111 Tourist tax (taxe de séjour)](../../../../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md), [CR-FR-020 Proof of acceptance and e-signature](../../../../10-country-packs/france/invoicing/cr-fr-020-electronic-acceptance-and-signature.md) and [CR-FR-008 VAT rates](../../../../10-country-packs/france/tax-and-vat/cr-fr-008-vat-rates.md). Related:
 [CR-FR-020](../../../../10-country-packs/france/invoicing/cr-fr-020-electronic-acceptance-and-signature.md),
 [CR-FR-111](../../../../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md),
 [CR-FR-008 VAT rates](../../../../10-country-packs/france/tax-and-vat/cr-fr-008-vat-rates.md).

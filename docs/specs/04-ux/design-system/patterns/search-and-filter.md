@@ -3,7 +3,7 @@
 
 # 🧵 Search and filter
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -37,20 +37,20 @@ the other way to find, in plain words ([D49](../../../06-decisions/ux/d49-assist
 
 ## Behaviour
 
-- The search runs as the user types (Proposed: after 300 ms or on Enter) and on the server
+- The search runs as the user types (after 300 ms or on Enter) and on the server
   ([Performance](../../../05-non-functional/performance.md)).
 - Results never include what the user may not see ([D12](../../../06-decisions/foundations/d12-permissions-model.md)).
-- (Proposed) Filters show as chips that can be removed one by one; the result count updates.
+- Filters show as chips that can be removed one by one; the result count updates.
 - A user saves the current set as a personal view; a configurator shares it with roles, as on
   [S-F2-04 List view settings](../../../02-functional/f02-no-code-configuration/screens/01-configure-a-record-type/s-f02-04-list-view-settings.md).
 - No result shows the [C-10 Empty state](../components/c-10-empty-state.md) with "Clear filters".
-- The global search groups results by kind of record (Proposed).
+- The global search groups results by kind of record.
 
 ## Accessibility
 
 - The search field has a label; the result count is announced when it changes.
 - Each filter chip's remove button is named ("Remove filter Status").
-- The global search can be reached by a keyboard shortcut (Proposed: "/").
+- The global search can be reached by a keyboard shortcut ("/").
 
 ## Used in
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F12-31 Define a recipe and produce in batches
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -62,7 +62,7 @@ Daily in food workshops and kitchens.
 ## Error flows
 
 - 3e. An ingredient out of tolerance: adjust within the rule, or the batch is held.
-- 5e. Yield far from the expected (Proposed: over 10 %): flagged for the planner.
+- 5e. Yield far from the expected (over 10 %): flagged for the planner.
 
 ## Business rules
 
@@ -132,7 +132,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Tablet screens answer within 300 ms (Proposed), offline included,
+Tablet screens answer within 300 ms, offline included,
 [UC-F12-26](../11-finite-schedule-and-the-tablet/uc-f12-26-keep-working-on-the-tablet-without-the-network.md).
 
 ## Regulatory references

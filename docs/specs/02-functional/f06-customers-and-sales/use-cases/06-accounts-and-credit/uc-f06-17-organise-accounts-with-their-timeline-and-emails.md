@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-17 Organise accounts with their timeline and emails
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -126,7 +126,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-The timeline of 5 years opens within 2 seconds (Proposed).
+The timeline of 5 years opens within 2 seconds.
 
 ## Regulatory references
 

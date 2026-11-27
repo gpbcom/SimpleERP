@@ -46,7 +46,9 @@ Forgery or use of forged documents: up to 3 years' imprisonment and 45 000 EUR (
 
 ## Exceptions
 
-(Proposed) Professions that opt for accrual accounting.
+Professions that opt for accrual accounting: under the controlled-declaration regime, the result may be the
+receivables acquired less the expenses of the year, on a request before 1 February of the tax year, kept until
+revoked (CGI 93 A) ([CGI, art. 93 A](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048847605), read 2026-11-27).
 
 ## Open questions
 

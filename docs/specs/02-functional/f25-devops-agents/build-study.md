@@ -104,7 +104,7 @@ Dated estimates, to re-read before building: models and prices as the Claude API
 
 ## The agent team
 
-(Proposed) An approved ticket is built by a team of agent roles ([FL-F25-08](flows/fl-f25-08-team-builds-a-ticket.md),
+An approved ticket is built by a team of agent roles ([FL-F25-08](flows/fl-f25-08-team-builds-a-ticket.md),
 [D567](../../06-decisions/f25-devops-agents/d567-the-agent-team-roles-contract-worktrees-one-commit-verification.md)):
 each role is an agent definition of the repository with its own instructions and tools, and the architect runs the
 workflow and delegates to the others.
@@ -118,7 +118,7 @@ workflow and delegates to the others.
 | Code reviewer | Reads the candidate commit and the evidence, answers PASS or CHANGES_REQUESTED for that commit | read only | none |
 | Release engineer | Integrates the workers' commits in dependency order, opens or updates the draft pull request | read, write, run | the integration checkout |
 
-(Proposed) Run controls: one active run per repository (a workflow concurrency group, queued, never cancelled in
+Run controls: one active run per repository (a workflow concurrency group, queued, never cancelled in
 progress); a 30-minute timeout, a turn limit and the request's money budget per run; at most two repair cycles;
 checkpoints (starting commit, worker branches, integration, verified commit, verdict, draft pull request) kept on GitHub
 apart from the code, so a rerun resumes without a second pull request. Per ticket the dashboards keep the elapsed time,
@@ -136,7 +136,7 @@ the AI cost, the repair cycles and the maintainer's interventions.
   private security advisory (BR-F25-12).
 - **Tests first:** a fix starts with a failing test, recorded as for any ticket (TEST-7).
 - **Everything audited and metered:** each run keeps what it read, wrote and cost (BR-F25-11).
-- **Approval belongs to a commit:** (Proposed) the test role's results and the reviewer's verdict name the candidate
+- **Approval belongs to a commit:** the test role's results and the reviewer's verdict name the candidate
   commit; any change after them needs a new verification, and the draft pull request's head must be that commit
   ([FL-F25-08](flows/fl-f25-08-team-builds-a-ticket.md)).
 
@@ -148,7 +148,7 @@ the AI cost, the repair cycles and the maintainer's interventions.
 2. **Feature study:** spec pull requests and SPECS features, approved by maintainers.
 3. **Bug reproduction and fixes:** read-only reproduction, failing test, fix pull request, PRODUCT ticket.
 4. **Quality:** the evaluation set from past requests, approval rate, rework and cost per request on the dashboards.
-5. **Agent team:** (Proposed) the roles, the work contract, worktrees, integration, verification on one commit and the
+5. **Agent team:** the roles, the work contract, worktrees, integration, verification on one commit and the
    draft pull request ([FL-F25-08](flows/fl-f25-08-team-builds-a-ticket.md)), once steps 1 to 3 run.
 
 ## Questions for the technical interviews

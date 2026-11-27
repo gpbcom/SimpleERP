@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F16-06 Take in every request
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F16-06 Take in every request](../../../flows/fl-f16-06-take-in-every-request.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

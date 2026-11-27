@@ -3,12 +3,12 @@
 
 # 📏 BR-F13-20 Advances recovered from the next pay
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 A pay advance never exceeds the net already earned in the month and is recovered from the next pay; a loan beyond that
-is a separate repayment plan approved by the owner (Proposed).
+is a separate repayment plan approved by the owner.
 
 ## Why
 
@@ -28,11 +28,11 @@ An advance is pay already earned; a larger sum is a loan the employee repays (D4
 
 ## Exceptions
 
-The owner may approve a loan with its repayment plan (Proposed).
+The owner may approve a loan with its repayment plan.
 
 ## Configurable
 
-The company may cap advances at a lower amount (Proposed).
+The company may cap advances at a lower amount.
 
 ## Open questions
 

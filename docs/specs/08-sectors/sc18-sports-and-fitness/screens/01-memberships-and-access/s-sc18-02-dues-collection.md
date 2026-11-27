@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC18-02 Dues collection
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

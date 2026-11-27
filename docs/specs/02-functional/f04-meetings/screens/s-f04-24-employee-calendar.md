@@ -3,7 +3,7 @@
 
 # 🖥️ S-F4-24 Employee calendar
 
-**Status:** 🔄 (Proposed) drawn in step 36j from its entity and list page; waits for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -48,19 +48,19 @@
 - [U44 Box-office agent](../../../01-users/personas/u44-box-office-agent.md)
 - [U45 Payroll officer](../../../01-users/personas/u45-payroll-officer.md)
 
-(Proposed) Each persona sees the fields and the actions its roles allow, as on
+Each persona sees the fields and the actions its roles allow, as on
 [S-F4-L26 Employee calendars](00-lists/s-f04-l26-employee-calendars.md): the record rules and field rules of T2.
 
 ## Purpose
 
-(Proposed) See one [E-F4-26 Employee calendar](../data/e-f04-26-employee-calendar.md) and act on it: its fields, its
+See one [E-F4-26 Employee calendar](../data/e-f04-26-employee-calendar.md) and act on it: its fields, its
 state and the changes its state allows. It is the page the rows of
 [S-F4-L26 Employee calendars](00-lists/s-f04-l26-employee-calendars.md) open (VR-13).
 
 ## Entry points
 
 - [S-F4-L26 Employee calendars](00-lists/s-f04-l26-employee-calendars.md) › a row's Open ›.
-- (Proposed) A link to the record wherever another page names it, and global search.
+- A link to the record wherever another page names it, and global search.
 - The flows of Shown in.
 
 ## Wireframe
@@ -93,7 +93,7 @@ state and the changes its state allows. It is the page the rows of
 
 ## Fields and columns
 
-As [E-F4-26 Employee calendar](../data/e-f04-26-employee-calendar.md#fields). (Proposed) A field is read-only when the
+As [E-F4-26 Employee calendar](../data/e-f04-26-employee-calendar.md#fields). A field is read-only when the
 record's state is final or the role's field rules lock it; personal-data fields show only to the roles that may read
 them (VR-12); secrets never show.
 
@@ -101,9 +101,9 @@ them (VR-12); secrets never show.
 
 | Action | Who | Result |
 |---|---|---|
-| Edit | the personas whose roles may change it | (Proposed) saves the fields; audited |
-| Change state | the personas whose roles may change it | (Proposed) one of the Lifecycle's transitions: Active to Archived (UC-F9-02) |
-| Ask the AI assistant | every persona of the page | (Proposed) an answer about this record from the data the user may see, with its sources |
+| Edit | the personas whose roles may change it | saves the fields; audited |
+| Change state | the personas whose roles may change it | one of the Lifecycle's transitions: Active to Archived (UC-F9-02) |
+| Ask the AI assistant | every persona of the page | an answer about this record from the data the user may see, with its sources |
 | Back to the list | every persona of the page | [S-F4-L26 Employee calendars](00-lists/s-f04-l26-employee-calendars.md) |
 
 ## States
@@ -132,7 +132,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop and tablet; on a phone the fields stack in one column and the actions move to a menu.
+Desktop and tablet; on a phone the fields stack in one column and the actions move to a menu.
 
 ## Accessibility
 

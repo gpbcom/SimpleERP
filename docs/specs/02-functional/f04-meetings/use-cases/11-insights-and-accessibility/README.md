@@ -11,6 +11,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F4-20 | [Analyse topics and trends across calls](uc-f04-20-analyse-topics-and-trends-across-calls.md) | 🔄 |
-| 📝 | UC-F4-22 | [Turn on live captions and translation](uc-f04-22-turn-on-live-captions-and-translation.md) | 🔄 |
-| 📝 | UC-F4-24 | [Track transcription accuracy per language and model](uc-f04-24-track-transcription-accuracy-per-language-and-model.md) | 🔄 |
+| 📝 | UC-F4-20 | [Analyse topics and trends across calls](uc-f04-20-analyse-topics-and-trends-across-calls.md) | ✅ |
+| 📝 | UC-F4-22 | [Turn on live captions and translation](uc-f04-22-turn-on-live-captions-and-translation.md) | ✅ |
+| 📝 | UC-F4-24 | [Track transcription accuracy per language and model](uc-f04-24-track-transcription-accuracy-per-language-and-model.md) | ✅ |

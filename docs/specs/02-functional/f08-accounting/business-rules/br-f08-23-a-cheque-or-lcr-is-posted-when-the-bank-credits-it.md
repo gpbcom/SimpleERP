@@ -3,7 +3,7 @@
 
 # 📏 BR-F8-23 A cheque or LCR is posted when the bank credits it
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -16,7 +16,9 @@ credit.
 A cheque in hand is not money in the bank until the bank credits it, and it may come back unpaid. The owner asked for
 French payment means ([D527](../../../06-decisions/f08-accounting/d527-benchmark-gaps-f08-accounting.md));
 [BR-F8-03 Every bank line is reconciled](br-f08-03-every-bank-line-is-reconciled.md) requires every bank line to be
-reconciled. (Proposed) The France-pack rule on LCR and cheque remittances is written later.
+reconciled. The France-pack rule on LCR and cheque remittances is
+[CR-FR-212 LCR and cheque remittances](../../../10-country-packs/france/payments/cr-fr-212-lcr-and-cheque-remittances.md): a cheque or an LCR is a
+claim until the bank credits it.
 
 ## Examples
 
@@ -34,7 +36,7 @@ reconciled. (Proposed) The France-pack rule on LCR and cheque remittances is wri
 - [E-F8-35 Remittance slip](../data/e-f08-35-remittance-slip.md)
 - [E-F8-04 Bank line](../data/e-f08-04-bank-line.md)
 - [E-F6-06 Customer payment](../../f06-customers-and-sales/data/e-f06-06-customer-payment.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-212 LCR and cheque remittances](../../../10-country-packs/france/payments/cr-fr-212-lcr-and-cheque-remittances.md)
 
 ## Exceptions

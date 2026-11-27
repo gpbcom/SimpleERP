@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F25-07 Roadmap, beta, credits and changelog
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

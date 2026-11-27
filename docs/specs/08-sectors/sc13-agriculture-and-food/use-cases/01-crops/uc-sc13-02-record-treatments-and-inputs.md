@@ -7,8 +7,8 @@
 
 ## Summary
 
-The farmer or a field worker records each plant-protection treatment with product, dose, plot, date and operator on the
-phone, offline in the field.
+The farmer or a field worker records each plant-protection treatment with product, dose, area, plot and date, and the operator if
+wanted, on the phone, offline in the field.
 
 ## Personas
 
@@ -45,7 +45,7 @@ Many in season.
 
 1. The field worker chooses plot and product on [S-SC13-02 Treatments](../../screens/01-crops/s-sc13-02-treatments.md),
    [UC-F2-22](../../../../02-functional/f02-no-code-configuration/use-cases/09-portals-and-offline-forms/uc-f02-22-fill-a-form-offline-on-the-phone.md).
-2. Dose, date and operator are recorded ([BR-SC13-02](../../business-rules/br-sc13-02-every-treatment-recorded.md)).
+2. Dose, area treated and date are recorded, and the operator if known ([BR-SC13-02](../../business-rules/br-sc13-02-every-treatment-recorded.md)).
 3. The record is kept on the phone and synced,
    [BR-F2-21](../../../../02-functional/f02-no-code-configuration/business-rules/br-f02-21-offline-forms-keep-only-what-is-needed-and-sync-in-order.md).
 4. The farmer checks the register.
@@ -57,7 +57,8 @@ Many in season.
 ## Error flows
 
 - 2e. A product not allowed in organic: it is refused on organic plots.
-- 2f. The operator missing: it is flagged.
+- 2f. The dose or the area treated missing: it is flagged; a missing operator is accepted, as the register does not
+  require it.
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
   error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)) says what failed; what was
@@ -117,14 +118,14 @@ sequenceDiagram
   actor A2 as Farmer
   participant P1 as Treatments
   A1->>P1: Choose plot and product
-  A1->>P1: Record dose and operator
+  A1->>P1: Record dose, area and date
   A1->>P1: Save
   P1-->>A1: Synced
   A2->>P1: Check the register
   alt a product not allowed in organic
     P1-->>A1: It is refused on organic plots
   end
-  alt the operator missing
+  alt the dose or the area missing
     P1-->>A1: It is flagged
   end
 ```

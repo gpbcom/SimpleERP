@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC10-23 Furnished rentals
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

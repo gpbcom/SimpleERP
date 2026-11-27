@@ -108,11 +108,35 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f24-19-requests-e-f24-16-connector-request-active-desktop, light](s-f24-19-requests-e-f24-16-connector-request-active-desktop-light.png) | ![s-f24-19-requests-e-f24-16-connector-request-active-desktop, dark](s-f24-19-requests-e-f24-16-connector-request-active-desktop-dark.png) |
 
+## s-f24-19-requests-e-f24-16-connector-request-ready-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f24-19-requests-e-f24-16-connector-request-ready-desktop, light](s-f24-19-requests-e-f24-16-connector-request-ready-desktop-light.png) | ![s-f24-19-requests-e-f24-16-connector-request-ready-desktop, dark](s-f24-19-requests-e-f24-16-connector-request-ready-desktop-dark.png) |
+
+## s-f24-19-requests-e-f24-16-connector-request-refused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f24-19-requests-e-f24-16-connector-request-refused-desktop, light](s-f24-19-requests-e-f24-16-connector-request-refused-desktop-light.png) | ![s-f24-19-requests-e-f24-16-connector-request-refused-desktop, dark](s-f24-19-requests-e-f24-16-connector-request-refused-desktop-dark.png) |
+
 ## s-f24-19-requests-e-f24-16-connector-request-active-phone
 
 | Light | Dark |
 |---|---|
 | ![s-f24-19-requests-e-f24-16-connector-request-active-phone, light](s-f24-19-requests-e-f24-16-connector-request-active-phone-light.png) | ![s-f24-19-requests-e-f24-16-connector-request-active-phone, dark](s-f24-19-requests-e-f24-16-connector-request-active-phone-dark.png) |
+
+## s-f24-19-requests-e-f24-16-connector-request-ready-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f24-19-requests-e-f24-16-connector-request-ready-phone, light](s-f24-19-requests-e-f24-16-connector-request-ready-phone-light.png) | ![s-f24-19-requests-e-f24-16-connector-request-ready-phone, dark](s-f24-19-requests-e-f24-16-connector-request-ready-phone-dark.png) |
+
+## s-f24-19-requests-e-f24-16-connector-request-refused-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f24-19-requests-e-f24-16-connector-request-refused-phone, light](s-f24-19-requests-e-f24-16-connector-request-refused-phone-light.png) | ![s-f24-19-requests-e-f24-16-connector-request-refused-phone, dark](s-f24-19-requests-e-f24-16-connector-request-refused-phone-dark.png) |
 
 ## s-f24-19-requests-e-f24-12-integration-icon-proposed-desktop
 

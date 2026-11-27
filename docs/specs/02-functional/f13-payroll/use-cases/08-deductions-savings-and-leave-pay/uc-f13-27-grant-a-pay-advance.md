@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-27 Grant a pay advance
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -51,7 +51,7 @@ A few a month in companies with hourly staff, such as the restaurant example com
 
 - 3a. The payroll officer refuses: the employee is told the reason.
 - 1a. The amount is above the net earned: SimpleERP offers a loan request instead, for the owner to approve with a
-  repayment plan (BR-F13-20, Proposed).
+  repayment plan (BR-F13-20).
 
 ## Error flows
 
@@ -72,7 +72,7 @@ A few a month in companies with hourly staff, such as the restaurant example com
 
 ## Permissions
 
-Employee: asks for their own advance. Payroll officer: approves or refuses. Owner: approves loans (Proposed).
+Employee: asks for their own advance. Payroll officer: approves or refuses. Owner: approves loans.
 
 ## Notifications
 
@@ -134,11 +134,11 @@ sequenceDiagram
 D408's targets ([Performance](../../../../05-non-functional/performance.md)): 95 % of screens within 1 second; lists
 paged on the server, the first page within 1 second; reports within 5 seconds or in the background.
 
-The request works on a phone (D34) and is answered within the same business day (Proposed).
+The request works on a phone (D34) and is answered within the same business day.
 
 ## Regulatory references
 
-Advances on pay: (Proposed) to read for the France pack (Code du travail L3251-3).
+Advances on pay: (⚖️ lawyer review before launch, D574) to read for the France pack: Code du travail L3251-3.
 
 ## Related use cases
 

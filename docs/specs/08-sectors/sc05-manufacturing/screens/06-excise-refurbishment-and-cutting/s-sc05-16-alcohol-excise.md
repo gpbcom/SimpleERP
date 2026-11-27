@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC05-16 Alcohol excise
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -26,11 +26,11 @@ Manufacturing › Bonded stock; a finished batch's page; the reminder of the mon
 ```text
 +--------------------------------------------------------------------------------------------------+
 | Bonded warehouse: Brewery site 1                           Month 2026-10   [Review declaration]  |
-| Lot     Item          Litres   Strength  Category  Hl pure   State        Movement               |
-| B-204   Pale ale      1,000    5.0 %     Beer      0.50      Released     Release 2026-10-03     |
-| B-205   Pale ale      2,400    5.0 %     Beer      1.20      Bonded       -                      |
-| S-031   Whisky        600      42.0 %    Spirits   2.52      Shipped      Suspension to FR-0123  |
-| Month: 14 releases, 41.6 hl pure alcohol, duty 6,812.40 EUR       [Release] [Send] [Export]      |
+| Lot    Item      Litres  Strength  Category  Duty base              State     Movement           |
+| B-204  Pale ale  1,000   5.0 %     Beer      50 hl-degrees          Released  Release 2026-10-03 |
+| B-205  Pale ale  2,400   5.0 %     Beer      120 hl-degrees         Bonded    -                  |
+| S-031  Whisky    600     42.0 %    Spirits   2.52 hl pure alcohol   Shipped   Suspension         |
+| Month: 14 releases, duty 6,812.40 EUR on each category's base     [Release] [Send] [Export]      |
 +--------------------------------------------------------------------------------------------------+
 ```
 
@@ -52,8 +52,8 @@ Manufacturing › Bonded stock; a finished batch's page; the reminder of the mon
 | Lot and item | E-SC05-15 lot, item | links | no | yes |
 | Litres | E-SC05-15 volume | number in litres | yes while Bonded | yes |
 | Strength | E-SC05-15 strength | percent with one decimal | yes while Bonded | yes |
-| Category | E-SC05-15 category | beer, wine, spirits or other | yes while Bonded | yes |
-| Hectolitres of pure alcohol | E-SC05-15 pure alcohol | number | no | no |
+| Category | E-SC05-15 category | wine, cider, intermediate product, beer, spirits | yes while Bonded | yes |
+| Duty base | E-SC05-15 duty base, with its unit | hectolitres for wines, ciders and intermediate products, hectolitres and degree for beers, hectolitres of pure alcohol for spirits (BR-SC05-16) | no | no |
 | Movement | E-SC05-15 movement | release, suspension, export, loss, destruction | yes | no |
 | Duty | E-SC05-15 duty | amount in EUR | no | no |
 

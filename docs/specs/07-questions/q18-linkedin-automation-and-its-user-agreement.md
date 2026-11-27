@@ -2,7 +2,7 @@
 
 # ❓ Q18 LinkedIn automation and its user agreement
 
-**Status:** ❓ open question
+**Status:** ✅ answered
 
 ## Question
 
@@ -21,7 +21,7 @@ decided the feature; this question decides how far it goes.
 
 ## Options
 
-- (Proposed) Automatic sending within the limits Unipile reports and the administrator's caps; the administrator accepts
+- Automatic sending within the limits Unipile reports and the administrator's caps; the administrator accepts
   the risk when connecting Unipile, and the HR user when linking their account.
 - Prepared only: SimpleERP prepares each invitation and follow-up and HR sends each one with a click.
 - Only through LinkedIn's own partner programmes for recruitment tools, once SimpleERP qualifies.
@@ -32,7 +32,10 @@ The owner of SimpleERP; a lawyer reads LinkedIn's user agreement before the buil
 
 ## Answer
 
-Open.
+The owner, 2026-11-27: by default SimpleERP prepares each invitation and follow-up and the HR user sends each one with
+one click; automatic sending within Unipile's limits and the administrator's caps is an option an administrator turns
+on, accepting the risk when connecting Unipile
+([D570](../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)).
 
 ---
 

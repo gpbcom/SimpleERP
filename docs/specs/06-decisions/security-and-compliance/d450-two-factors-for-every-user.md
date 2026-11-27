@@ -35,7 +35,7 @@ Revises D414 and confirms D13 and D37. The security chapter, REQ-T02-01 and Secu
 - [D13](../foundations/d13-sign-in.md)
 - [D37](d37-remote-access.md)
 - [D414](../technical/d414-security-design.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

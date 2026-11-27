@@ -3,11 +3,11 @@
 
 # 📏 BR-SC14-11 VAT by the customer's country
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) Digital services to consumers elsewhere in the EU bear the customer country's VAT, declared through the
+Digital services to consumers elsewhere in the EU bear the customer country's VAT, declared through the
 one-stop shop above the threshold; business customers per
 [CR-FR-100 VAT on services to clients abroad](../../../10-country-packs/france/tax-and-vat/cr-fr-100-vat-on-services-abroad.md);
 in France:
@@ -15,7 +15,9 @@ in France:
 
 ## Why
 
-(Proposed) The threshold is still to read.
+The 10 000 EUR yearly threshold, excluding VAT, is read for distance sales of goods (CR-FR-071).
+(⚖️ lawyer review before launch, D574) Its application to digital services supplied to consumers in other EU countries is still
+to read in CGI art. 259 D until 2026-12-31, and in the CIBS place-of-supply articles L211-64 to L211-98 from 2027-01-01.
 
 ## Examples
 

@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-07 Bid analysis
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

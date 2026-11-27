@@ -4,7 +4,7 @@
 
 # 📝 UC-F15-08 Track contract renewal and notice dates
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -74,7 +74,7 @@ Owner and purchasing record and decide; accounting reads; other roles do not see
 
 ## Notifications
 
-- The owner and the person who recorded the contract (Proposed) 60 and 15 days before the last notice day.
+- The owner and the person who recorded the contract 60 and 15 days before the last notice day.
 
 ## Audit events
 
@@ -129,8 +129,9 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 ## Regulatory references
 
-Tacit renewal and notice: (Proposed) to read for the France pack (Code de la consommation L215-1 for consumer contracts,
-commercial leases in the Code de commerce).
+Commercial leases: [CR-FR-239 Commercial leases (3-6-9, ILC/ILAT)](../../../../10-country-packs/france/real-estate/cr-fr-239-commercial-leases.md).
+Tacit renewal and notice of other contracts: (⚖️ lawyer review before launch, D574) to read for the France pack: Code de la
+consommation L215-1 for consumer contracts.
 
 ## Related use cases
 

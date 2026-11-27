@@ -18,4 +18,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC13-05 Food processing](05-food-processing/README.md) | 44 images |
 | 🖼️ |  | [Images: FL-SC13-06 Vineyards, contractors, cooperatives, baskets, forests](06-vineyards-contractors-and-cooperatives/README.md) | 30 images |
 | 🖼️ |  | [Screen states](states/README.md) | 160 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

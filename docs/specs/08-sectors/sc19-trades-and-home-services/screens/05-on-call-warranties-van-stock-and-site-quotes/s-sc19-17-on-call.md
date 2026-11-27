@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-17 On-call
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

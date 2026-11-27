@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U07-01 | [Set up SimpleERP without a consultant](j-u07-01-set-up-simpleerp.md) | 🔄 |
+| 🧭 | J-U07-01 | [Set up SimpleERP without a consultant](j-u07-01-set-up-simpleerp.md) | ✅ |
 
 ---
 

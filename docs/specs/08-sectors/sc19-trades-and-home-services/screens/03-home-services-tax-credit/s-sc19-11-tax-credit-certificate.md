@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-11 Tax credit certificate
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

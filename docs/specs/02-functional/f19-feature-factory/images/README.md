@@ -19,4 +19,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F19-06 Delivery and refunds](06-delivery-and-refunds/README.md) | 18 images |
 | 🖼️ |  | [Images: FL-F19-07 Similar features, catalogue, co-funding and maintenance](07-catalogue-and-co-funding/README.md) | 22 images |
 | 🖼️ |  | [Screen states](states/README.md) | 200 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

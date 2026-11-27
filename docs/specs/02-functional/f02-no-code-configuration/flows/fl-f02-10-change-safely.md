@@ -42,7 +42,7 @@ flowchart TD
 | 2 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F2-23](../screens/10-change-safely/s-f02-23-test-cases.md) | [UC-F2-24](../use-cases/10-change-safely/uc-f02-24-test-rules-and-workflows-with-test-cases.md) | Write test cases and replay them |
 | 3 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F2-24](../screens/10-change-safely/s-f02-24-pack-upgrade-merge.md) | [UC-F2-25](../use-cases/10-change-safely/uc-f02-25-merge-a-sector-pack-upgrade-with-local-changes.md) | Merge a sector pack update |
 | 4 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F2-25](../screens/10-change-safely/s-f02-25-unused-configuration-report.md) | [UC-F2-26](../use-cases/10-change-safely/uc-f02-26-find-unused-configuration.md) | Archive configuration nobody uses |
-| 5 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F2-30](../screens/10-change-safely/s-f02-30-custom-report.md) | [UC-F2-23](../use-cases/10-change-safely/uc-f02-23-see-the-impact-of-a-change-before-publishing.md) | (Proposed) Open a custom report the change touches |
+| 5 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F2-30](../screens/10-change-safely/s-f02-30-custom-report.md) | [UC-F2-23](../use-cases/10-change-safely/uc-f02-23-see-the-impact-of-a-change-before-publishing.md) | Open a custom report the change touches |
 
 ### Entities and screens
 

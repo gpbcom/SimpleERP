@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-19 Grants follow the plan approved by shareholders
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -16,7 +16,8 @@ to the grant.
 Equity changes the capital: only the shareholders may open a pool, and a grant outside it would be void and costly. The
 owner asked for full equity
 ([D534](../../../06-decisions/f15-legal-assistant/d534-benchmark-gaps-f15-legal-assistant.md)). The
-France-pack rule on the conditions of each instrument is written later.
+France-pack rule on the conditions of each instrument is CR-FR-215 (BSPCE: at least 15 % held by individuals for
+warrants granted from 2026-01-01; free shares: at most 38 months of authorisation, vesting at least 1 year).
 
 ## Examples
 
@@ -33,7 +34,7 @@ France-pack rule on the conditions of each instrument is written later.
 - [UC-F15-15](../use-cases/07-equity-contracts-and-disputes/uc-f15-15-grant-and-vest-employee-equity.md)
 - [E-F15-16 Equity grant](../data/e-f15-16-equity-grant.md)
 - [E-F15-07 Corporate decision](../data/e-f15-07-corporate-decision.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-215 BSPCE and free shares](../../../10-country-packs/france/company/cr-fr-215-bspce-and-free-shares.md)
 
 ## Exceptions

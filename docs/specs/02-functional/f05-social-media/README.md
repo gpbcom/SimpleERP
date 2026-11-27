@@ -4,7 +4,7 @@
 
 **Status:** ✅ specified
 
-Build step: 8. Growth and insight (Proposed).
+Build step: 8. Growth and insight.
 
 ## Summary
 
@@ -55,18 +55,18 @@ mode for routine events, replies and statistics ([D242](../../06-decisions/f05-s
 ## Build step
 
 Step 8, Growth and insight, of the [roadmap](../../00-vision/roadmap/roadmap.md)
-([D483](../../06-decisions/vision/d483-roadmap-devops-agents-first.md)) (Proposed): in V1, like everything the
+([D483](../../06-decisions/vision/d483-roadmap-devops-agents-first.md)): in V1, like everything the
 specifications hold.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 |  | [Use cases](use-cases/README.md) | 🔄 |
-| 🔀 |  | [Flows](flows/README.md) | 🔄 |
-| 📏 |  | [Business rules](business-rules/README.md) | 🔄 |
-| 🗃️ |  | [Data](data/README.md) | 🔄 |
-| 🖥️ |  | [Screens](screens/README.md) | 🔄 |
+| 📝 |  | [Use cases](use-cases/README.md) | ✅ |
+| 🔀 |  | [Flows](flows/README.md) | ✅ |
+| 📏 |  | [Business rules](business-rules/README.md) | ✅ |
+| 🗃️ |  | [Data](data/README.md) | ✅ |
+| 🖥️ |  | [Screens](screens/README.md) | ✅ |
 | 🔑 |  | [Permissions](permissions.md) | ✅ |
 | 🔔 |  | [Notifications](notifications.md) | ✅ |
 | 📈 |  | [Reports](reports.md) | ✅ |
@@ -74,7 +74,7 @@ specifications hold.
 | 🤖 |  | [AI](ai.md) | ✅ |
 | ⚖️ |  | [Regulatory](regulatory.md) | ✅ |
 | ❓ |  | [Open questions](open-questions.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
 ---
 

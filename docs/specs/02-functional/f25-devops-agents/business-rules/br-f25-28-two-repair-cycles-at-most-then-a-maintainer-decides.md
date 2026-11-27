@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-28 Two repair cycles at most, then a maintainer decides
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -43,7 +43,7 @@ None.
 
 ## Configurable
 
-(Proposed) A maintainer may set fewer cycles for a repository, never more than two.
+A maintainer may set fewer cycles for a repository, never more than two.
 
 ## Open questions
 

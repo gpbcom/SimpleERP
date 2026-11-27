@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F6-08 Collect and settle
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F6-08 Collect and settle](../../../flows/fl-f06-08-collect-and-settle.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

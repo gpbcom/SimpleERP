@@ -167,7 +167,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 Operators who import or export goods outside the EU use an EORI number, which every customs declaration
 carries for the declarant and the parties it names. The duty depends on the tariff code, the origin and the value. VAT
 on imports is paid at customs or, when authorised, declared on the monthly return. Trade between EU countries is
-reported in statistics. The France-pack rule is written later. Related:
+reported in statistics. The France-pack rules are [CR-FR-172 EORI number and import declarations](../../../../10-country-packs/france/trade/cr-fr-172-eori-and-imports.md) and [CR-FR-173 EU trade statistics on goods](../../../../10-country-packs/france/trade/cr-fr-173-eu-trade-statistics.md). Related:
 [CR-FR-172](../../../../10-country-packs/france/trade/cr-fr-172-eori-and-imports.md),
 [CR-FR-173](../../../../10-country-packs/france/trade/cr-fr-173-eu-trade-statistics.md),
 [CR-FR-071](../../../../10-country-packs/france/tax-and-vat/cr-fr-071-distance-sales-vat-oss.md).

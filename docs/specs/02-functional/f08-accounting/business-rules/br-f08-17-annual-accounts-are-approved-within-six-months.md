@@ -8,7 +8,7 @@
 ## Statement
 
 The annual accounts are approved within six months of the year's end with the earnings allocation, then filed; the owner
-is reminded before the deadline (Proposed: 15 days).
+is reminded before the deadline (default: 15 days).
 
 ## Why
 

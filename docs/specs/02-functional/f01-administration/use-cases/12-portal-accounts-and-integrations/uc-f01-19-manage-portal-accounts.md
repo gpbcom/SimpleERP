@@ -4,7 +4,7 @@
 
 # 📝 UC-F1-19 Manage portal accounts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -53,7 +53,7 @@ sector record types:
 3. The person accepts, sets a password and, if the portal requires it, two-factor authentication; they see only the
    records linked to them.
 4. The administrator blocks an account, resets its password or two-factor, or reads its sign-ins and actions.
-5. When the record ends (a lease, a contract, a course), the account is deactivated on that date (Proposed).
+5. When the record ends (a lease, a contract, a course), the account is deactivated on that date.
 
 ## Alternative flows
 
@@ -139,7 +139,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Portal pages work on a phone; a portal of 5,000 accounts keeps its list searchable (Proposed).
+Portal pages work on a phone; a portal of 5,000 accounts keeps its list searchable.
 
 ## Regulatory references
 

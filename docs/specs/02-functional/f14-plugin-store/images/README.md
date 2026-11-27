@@ -20,4 +20,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F14-07 Plugin end of life](07-plugin-end-of-life/README.md) | 12 images |
 | 🖼️ |  | [Images: FL-F14-08 Trials, test instances, partners and themes](08-trials-instances-and-partners/README.md) | 18 images |
 | 🖼️ |  | [Screen states](states/README.md) | 208 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC07-07 Passengers, removals, courier and freight
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

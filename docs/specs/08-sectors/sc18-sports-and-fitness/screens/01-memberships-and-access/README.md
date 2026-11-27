@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC18-01 | [Membership sale](s-sc18-01-membership-sale.md) | 🔄 |
-| 🖥️ | S-SC18-02 | [Dues collection](s-sc18-02-dues-collection.md) | 🔄 |
-| 🖥️ | S-SC18-03 | [Door access](s-sc18-03-door-access.md) | 🔄 |
-| 🖥️ | S-SC18-04 | [Membership changes](s-sc18-04-membership-changes.md) | 🔄 |
+| 🖥️ | S-SC18-01 | [Membership sale](s-sc18-01-membership-sale.md) | ✅ |
+| 🖥️ | S-SC18-02 | [Dues collection](s-sc18-02-dues-collection.md) | ✅ |
+| 🖥️ | S-SC18-03 | [Door access](s-sc18-03-door-access.md) | ✅ |
+| 🖥️ | S-SC18-04 | [Membership changes](s-sc18-04-membership-changes.md) | ✅ |

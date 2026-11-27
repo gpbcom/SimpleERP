@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-07 Parts used lower the van's stock
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

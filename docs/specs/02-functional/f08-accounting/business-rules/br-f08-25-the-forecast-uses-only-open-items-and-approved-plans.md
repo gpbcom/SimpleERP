@@ -3,7 +3,7 @@
 
 # 📏 BR-F8-25 The forecast uses only open items and approved plans
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

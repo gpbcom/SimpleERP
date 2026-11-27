@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -16,7 +16,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC14-04 | [Product delivery](fl-sc14-04-product-delivery.md) | ✅ |
 | 🔀 | FL-SC14-05 | [Security and data compliance](fl-sc14-05-security-and-data-compliance.md) | ✅ |
 | 🔀 | FL-SC14-06 | [Portal and metrics](fl-sc14-06-portal-and-metrics.md) | ✅ |
-| 🔀 | FL-SC14-07 | [Hardware, licences, research tax credit and sponsorship](fl-sc14-07-hardware-licences-and-tax-credits.md) | 🔄 |
+| 🔀 | FL-SC14-07 | [Hardware, licences, research tax credit and sponsorship](fl-sc14-07-hardware-licences-and-tax-credits.md) | ✅ |
 
 ---
 

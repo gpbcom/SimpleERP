@@ -3,7 +3,7 @@
 
 # 🧩 C-02 Form field
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -34,10 +34,10 @@ Due date *                        <- label, required mark
 ## Variants
 
 One per field type of F2 ([D101](../../../06-decisions/f02-no-code-configuration/d101-custom-field-types.md)): text,
-string, number, date, yes or no (a switch or a checkbox), list (a select, or radio buttons up to five choices
-(Proposed)), money (with its currency), percentage, duration, link to a record (a search with suggestions), files and
+string, number, date, yes or no (a switch or a checkbox), list (a select, or radio buttons up to five choices), money
+(with its currency), percentage, duration, link to a record (a search with suggestions), files and
 images ([C-12 File upload](c-12-file-upload.md)), computed (read-only), location (address with suggestions), phone
-number. A **locked** variant shows a value the user may see but not change, with a lock icon (Proposed: as drawn, on
+number. A **locked** variant shows a value the user may see but not change, with a lock icon (as drawn, on
 `color-surface-alt` with a dashed edge).
 
 ## States
@@ -45,12 +45,12 @@ number. A **locked** variant shows a value the user may see but not change, with
 | State | Look |
 |---|---|
 | Default | 1 px `color-border-strong` edge (3.98:1, WCAG 1.4.11, [Colours](../../visual-identity/colours.md)) |
-| Hover | (Proposed) The edge in `color-text-muted` |
+| Hover | The edge in `color-text-muted` |
 | Focus | 2 px `color-primary` edge |
 | Filled | As default, with the value |
-| Disabled or read-only | `color-surface-alt` fill and `color-text-muted` text (Proposed) |
+| Disabled or read-only | `color-surface-alt` fill and `color-text-muted` text |
 | Error | 2 px `color-error` edge and the message under it ([error message pattern](../patterns/error-messages.md)) |
-| Loading | (Proposed) A spinner inside, during a lookup such as SIRENE ([S-F1-01 Setup wizard](../../../02-functional/f01-administration/screens/01-guided-setup/s-f01-01-setup-wizard.md)) |
+| Loading | A spinner inside, during a lookup such as SIRENE ([S-F1-01 Setup wizard](../../../02-functional/f01-administration/screens/01-guided-setup/s-f01-01-setup-wizard.md)) |
 
 ## Tokens
 

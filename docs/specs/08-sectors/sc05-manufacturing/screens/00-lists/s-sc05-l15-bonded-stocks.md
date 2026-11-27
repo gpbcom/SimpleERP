@@ -39,7 +39,7 @@ filter, total and act on many bonded stocks at once
 | [count] [Bonded] [new this month]   [chart: count by state]                                                  |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                              n of N results                      |
-| category          | [ ] LOT   ITEM   VOLUME   STRENGTH   CATEGORY   DUTY                                     |
+| category          | [ ] LOT   ITEM   VOLUME   STRENGTH   CATEGORY   DUTY BASE   DUTY                         |
 | movement          | [ ] ...                                              Open >                              |
 | Related records   | [ ] ...                                              Open >                              |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
@@ -52,10 +52,11 @@ filter, total and act on many bonded stocks at once
 |---|---|---|---|
 | Lot | lot | text | yes |
 | Item | item | text | yes |
-| Volume | volume | number | yes |
-| Strength | strength | number | yes |
+| Volume | volume | number in litres | yes |
+| Strength | strength | percent with one decimal | yes |
 | Category | category | text | yes |
-| Duty | duty | amount with currency | yes |
+| Duty base | duty base, with its unit | hl for wines, ciders and intermediate products, hl and degree for beers, hl of pure alcohol for spirits (BR-SC05-16) | yes |
+| Duty | duty | amount with currency, set at release; none under suspension | yes |
 | State | state | badge: Bonded, Released, Shipped, Declared | yes |
 
 Secrets are never a column (VR-4).
@@ -64,7 +65,7 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| Category | each value | the visible rows (D488) |
+| Category | wine, cider, intermediate product, beer, spirits | the visible rows (D488) |
 | Movement | each value | the visible rows (D488) |
 | State | Bonded, Released, Shipped, Declared | the visible rows (D488) |
 
@@ -179,8 +180,7 @@ Not drawn yet: step S8 draws them from this page, one row per persona and device
 
 ## Open questions
 
-This list waits for the owner's confirmation: its entity was created in the benchmark-gap interview of
-2026-11-14.
+None.
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 📏 BR-F5-19 Cards use only consented personal data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

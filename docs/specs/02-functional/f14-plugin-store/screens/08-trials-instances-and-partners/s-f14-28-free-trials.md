@@ -4,7 +4,7 @@
 
 # 🖥️ S-F14-28 Free trials
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

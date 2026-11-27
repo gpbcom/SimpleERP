@@ -4,7 +4,7 @@
 
 # 🖥️ Screens: FL-F16-06 Take in every request
 
-**Status:** 🔄 draft (GH-2 step S4b)
+**Status:** ✅ specified
 
 The screens of this flow.
 
@@ -12,5 +12,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-F16-14 | [Work requests](s-f16-14-work-requests.md) | 🔄 |
-| 🖥️ | S-F16-15 | [Arrival of your visit](s-f16-15-arrival-of-your-visit.md) | 🔄 |
+| 🖥️ | S-F16-14 | [Work requests](s-f16-14-work-requests.md) | ✅ |
+| 🖥️ | S-F16-15 | [Arrival of your visit](s-f16-15-arrival-of-your-visit.md) | ✅ |

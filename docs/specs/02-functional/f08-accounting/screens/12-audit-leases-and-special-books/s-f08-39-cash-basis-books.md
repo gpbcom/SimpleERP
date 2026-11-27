@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-39 Cash-basis books
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -32,14 +32,14 @@ One file per rule.
 | 📏 | BR-F8-19 | [Flux comments are drafts until reviewed](br-f08-19-flux-comments-are-drafts-until-reviewed.md) | ✅ |
 | 📏 | BR-F8-20 | [Sustainability figures carry their source](br-f08-20-sustainability-figures-carry-their-source.md) | ✅ |
 | 📏 | BR-F8-21 | [Open questions are listed at closing](br-f08-21-open-questions-are-listed-at-closing.md) | ✅ |
-| 📏 | BR-F8-22 | [Loan interest is accrued each period](br-f08-22-loan-interest-is-accrued-each-period.md) | 🔄 |
-| 📏 | BR-F8-23 | [A cheque or LCR is posted when the bank credits it](br-f08-23-a-cheque-or-lcr-is-posted-when-the-bank-credits-it.md) | 🔄 |
-| 📏 | BR-F8-24 | [Unrealised differences are reversed next period](br-f08-24-unrealised-differences-are-reversed-next-period.md) | 🔄 |
-| 📏 | BR-F8-25 | [The forecast uses only open items and approved plans](br-f08-25-the-forecast-uses-only-open-items-and-approved-plans.md) | 🔄 |
-| 📏 | BR-F8-26 | [Payments above the limit need two approvals](br-f08-26-payments-above-the-limit-need-two-approvals.md) | 🔄 |
-| 📏 | BR-F8-27 | [Recurring entries stop at their end date](br-f08-27-recurring-entries-stop-at-their-end-date.md) | 🔄 |
-| 📏 | BR-F8-28 | [The auditor reads only and every view is logged](br-f08-28-the-auditor-reads-only-and-every-view-is-logged.md) | 🔄 |
-| 📏 | BR-F8-29 | [Leases follow the book's standard](br-f08-29-leases-follow-the-books-standard.md) | 🔄 |
+| 📏 | BR-F8-22 | [Loan interest is accrued each period](br-f08-22-loan-interest-is-accrued-each-period.md) | ✅ |
+| 📏 | BR-F8-23 | [A cheque or LCR is posted when the bank credits it](br-f08-23-a-cheque-or-lcr-is-posted-when-the-bank-credits-it.md) | ✅ |
+| 📏 | BR-F8-24 | [Unrealised differences are reversed next period](br-f08-24-unrealised-differences-are-reversed-next-period.md) | ✅ |
+| 📏 | BR-F8-25 | [The forecast uses only open items and approved plans](br-f08-25-the-forecast-uses-only-open-items-and-approved-plans.md) | ✅ |
+| 📏 | BR-F8-26 | [Payments above the limit need two approvals](br-f08-26-payments-above-the-limit-need-two-approvals.md) | ✅ |
+| 📏 | BR-F8-27 | [Recurring entries stop at their end date](br-f08-27-recurring-entries-stop-at-their-end-date.md) | ✅ |
+| 📏 | BR-F8-28 | [The auditor reads only and every view is logged](br-f08-28-the-auditor-reads-only-and-every-view-is-logged.md) | ✅ |
+| 📏 | BR-F8-29 | [Leases follow the book's standard](br-f08-29-leases-follow-the-books-standard.md) | ✅ |
 | 📏 | BR-F8-30 | [Peppol serves only flows outside the French platforms](br-f08-30-peppol-serves-only-flows-outside-the-french-platforms.md) | ✅ |
 
 Pages: **1** · [2](page-2.md)

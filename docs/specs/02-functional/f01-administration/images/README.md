@@ -27,4 +27,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F1-14 Close a company](14-close-a-company/README.md) | 16 images |
 | 🖼️ |  | [Images: FL-F1-15 Security and group data](15-security-and-group-data/README.md) | 22 images |
 | 🖼️ |  | [Screen states](states/README.md) | 208 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

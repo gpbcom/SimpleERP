@@ -12,4 +12,4 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-SC08-08 | [Apply for grants and follow their conditions](uc-sc08-08-apply-for-grants-and-follow-their-conditions.md) | ✅ |
-| 📝 | UC-SC08-09 | [Report to funders on grants](uc-sc08-09-report-to-funders-on-grants.md) | 🔄 |
+| 📝 | UC-SC08-09 | [Report to funders on grants](uc-sc08-09-report-to-funders-on-grants.md) | ✅ |

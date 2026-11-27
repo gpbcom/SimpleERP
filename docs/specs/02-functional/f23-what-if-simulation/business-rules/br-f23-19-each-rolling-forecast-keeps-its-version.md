@@ -4,7 +4,7 @@
 
 # 📏 BR-F23-19 Each rolling forecast keeps its version
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

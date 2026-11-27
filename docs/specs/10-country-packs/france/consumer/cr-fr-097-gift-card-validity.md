@@ -3,15 +3,15 @@
 
 # ⚖️ CR-FR-097 Gift cards
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) A gift card shows its validity and remaining balance, and the shop honours it until it expires.
+(⚖️ lawyer review before launch, D574) A gift card shows its validity and remaining balance, and the shop honours it until it expires.
 
 ## Values
 
-- (Proposed) Minimum validity and mentions to read.
+- (⚖️ lawyer review before launch, D574) Minimum validity and mentions to read.
 
 ## Legal references
 
@@ -19,11 +19,12 @@
 
 ## Effective dates
 
-(Proposed) To read.
+(⚖️ lawyer review before launch, D574) To read.
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc02-retail/regulatory.md)
+- [UC-SC17-07 Sell and redeem gift vouchers](../../../08-sectors/sc17-beauty-and-wellness/use-cases/02-packages-and-memberships/uc-sc17-07-sell-and-redeem-gift-vouchers.md)
 
 ## When the law changes
 
@@ -32,7 +33,7 @@ pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read yet.
 
 ## Exceptions
 

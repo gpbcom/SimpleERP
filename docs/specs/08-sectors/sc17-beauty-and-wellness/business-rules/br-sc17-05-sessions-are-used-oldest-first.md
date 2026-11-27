@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-05 Sessions are used oldest first
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

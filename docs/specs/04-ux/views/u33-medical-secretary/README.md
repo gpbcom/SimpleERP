@@ -3,7 +3,7 @@
 
 # 📋 Medical secretary: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ Default density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Appointments to confirm; Rejections to handle; Results to file.
 - Widgets: Today's agenda.
@@ -37,16 +37,16 @@ Default density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md
 
 ## Navigation
 
-(Proposed) Home · Agenda · Patients · Billing · Assistant.
+Home · Agenda · Patients · Billing · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U33-01 | [Book and bill a patient](journeys/j-u33-01-book-and-bill-a-patient.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U33-01 | [Book and bill a patient](journeys/j-u33-01-book-and-bill-a-patient.md) | ✅ |
 
 ---
 

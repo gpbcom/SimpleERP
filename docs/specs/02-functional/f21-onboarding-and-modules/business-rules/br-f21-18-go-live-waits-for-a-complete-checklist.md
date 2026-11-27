@@ -4,7 +4,7 @@
 
 # 📏 BR-F21-18 Go-live waits for a complete checklist
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

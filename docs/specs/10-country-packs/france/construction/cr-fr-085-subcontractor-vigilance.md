@@ -23,7 +23,8 @@ registration documents at signature and every 6 months.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code du travail L8222-1 in its current version since 2011-06-18 ([Code du travail, art. L8222-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024197683), read 2026-11-27); the
+6-monthly documents (D8222-5) since 2023-01-01 ([Code du travail, art. D8222-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046078939), read 2026-11-27).
 
 ## Enforced by
 

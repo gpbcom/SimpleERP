@@ -3,7 +3,7 @@
 
 # 📝 UC-F8-37 Account for leases
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -161,10 +161,10 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Lease accounting differs by standard: IFRS 16 for IFRS books, the French chart of accounts for the French GAAP book
 ([CR-FR-064](../../../../10-country-packs/france/accounting/cr-fr-064-accounting-frameworks.md),
-[CR-FR-006](../../../../10-country-packs/france/accounting/cr-fr-006-chart-of-accounts.md)). (Proposed) The France-pack
-rule on leases in French GAAP is written later; this page states only the effect on each book.
+[CR-FR-006](../../../../10-country-packs/france/accounting/cr-fr-006-chart-of-accounts.md)). In the French GAAP
+book a lease is rent with a commitment note and no right-of-use asset, as the France-pack rule below states.
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-216 Leases in French GAAP](../../../../10-country-packs/france/accounting/cr-fr-216-leases-in-french-gaap.md)
 
 ## Related use cases

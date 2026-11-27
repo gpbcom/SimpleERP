@@ -3,7 +3,7 @@
 
 # 🔀 FL-F8-11 Treasury and payment means
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

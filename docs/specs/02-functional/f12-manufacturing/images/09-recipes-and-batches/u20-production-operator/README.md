@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F12-09 Recipes and batches
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F12-09 Recipes and batches](../../../flows/fl-f12-09-recipes-and-batches.md) for this persona, in light
 and dark mode (D120, D121). Errors follow the

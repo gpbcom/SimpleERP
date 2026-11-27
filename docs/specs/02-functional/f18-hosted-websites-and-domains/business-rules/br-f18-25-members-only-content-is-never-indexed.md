@@ -4,7 +4,7 @@
 
 # 📏 BR-F18-25 Members-only content is never indexed
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-18 The share-movement register is written before a transfer is final
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -16,7 +16,7 @@ corrected by a new line.
 The register is the company's proof of who owns it. A transfer that counted before it was written would let two tables
 disagree. The owner asked for full equity
 ([D534](../../../06-decisions/f15-legal-assistant/d534-benchmark-gaps-f15-legal-assistant.md)). The
-France-pack rule on the register is written later.
+France-pack rule on the register is CR-FR-214: a transfer is enforceable against the company from its entry.
 
 ## Examples
 
@@ -33,7 +33,7 @@ France-pack rule on the register is written later.
 - [UC-F15-14](../use-cases/07-equity-contracts-and-disputes/uc-f15-14-keep-the-cap-table-and-share-movements.md)
 - [E-F15-15 Shareholding](../data/e-f15-15-shareholding.md)
 - [E-F15-07 Corporate decision](../data/e-f15-07-corporate-decision.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-214 The share-movement register](../../../10-country-packs/france/company/cr-fr-214-share-movement-register.md)
 
 ## Exceptions

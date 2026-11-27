@@ -3,7 +3,7 @@
 
 # 🧩 C-18 Plan
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-19 / D501)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -49,7 +49,7 @@ state: the floor and venue plans of
   Floor](../../../02-functional/f10-point-of-sale/screens/04-restaurant-service/s-f10-09-floor.md) (F10).
 - **Venue:** rooms, areas and staff posts of a venue or a festival site (SC16).
 - **Shop floor:** work centres and their operations (F12, SC05).
-- **Seat map:** (Proposed) the seat map of [E-F5-11 Ticket type and seat
+- **Seat map:** the seat map of [E-F5-11 Ticket type and seat
   map](../../../02-functional/f05-social-media/data/e-f05-11-ticket-type-and-seat-map.md) becomes one of its uses, as on
   [S-F5-17 Ticketing
   setup](../../../02-functional/f05-social-media/screens/07-events-and-ticketing/s-f05-17-ticketing-setup.md).
@@ -61,10 +61,10 @@ state: the floor and venue plans of
 | State | Look |
 |---|---|
 | No plan yet | [C-10](c-10-empty-state.md): "No plan for this floor yet"; "Draw or import a plan" for a configurator |
-| Loading | (Proposed) The frame and the floor picker |
+| Loading | The frame and the floor picker |
 | Normal | The items and their states |
 | Selected | The item outlined and its card open |
-| Editing the plan | (Proposed) A configurator moves, adds or names places; the records keep their place |
+| Editing the plan | A configurator moves, adds or names places; the records keep their place |
 | Error | The [error message pattern](../patterns/error-messages.md) |
 
 ## Tokens
@@ -77,8 +77,7 @@ Shapes on `color-surface` with `color-border-strong` outlines; states with `colo
 ## Accessibility
 
 - "List view" shows the same places as a table with the same states: the plan is never the only way.
-- Each place is a button named after its name and state ("Room 202, to do"); arrow keys move between neighbours
-  (Proposed).
+- Each place is a button named after its name and state ("Room 202, to do"); arrow keys move between neighbours.
 - States show by word and icon, never by colour alone.
 - Zoom controls are labelled; no animation when reduced motion is asked ([Motion](../../visual-identity/motion.md)).
 

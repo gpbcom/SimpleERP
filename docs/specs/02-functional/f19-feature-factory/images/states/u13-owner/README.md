@@ -468,11 +468,35 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f19-22-refunds-e-f19-16-feature-defect-active-desktop, light](s-f19-22-refunds-e-f19-16-feature-defect-active-desktop-light.png) | ![s-f19-22-refunds-e-f19-16-feature-defect-active-desktop, dark](s-f19-22-refunds-e-f19-16-feature-defect-active-desktop-dark.png) |
 
+## s-f19-22-refunds-e-f19-16-feature-defect-fixed-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f19-22-refunds-e-f19-16-feature-defect-fixed-desktop, light](s-f19-22-refunds-e-f19-16-feature-defect-fixed-desktop-light.png) | ![s-f19-22-refunds-e-f19-16-feature-defect-fixed-desktop, dark](s-f19-22-refunds-e-f19-16-feature-defect-fixed-desktop-dark.png) |
+
+## s-f19-22-refunds-e-f19-16-feature-defect-credited-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f19-22-refunds-e-f19-16-feature-defect-credited-desktop, light](s-f19-22-refunds-e-f19-16-feature-defect-credited-desktop-light.png) | ![s-f19-22-refunds-e-f19-16-feature-defect-credited-desktop, dark](s-f19-22-refunds-e-f19-16-feature-defect-credited-desktop-dark.png) |
+
 ## s-f19-22-refunds-e-f19-16-feature-defect-active-phone
 
 | Light | Dark |
 |---|---|
 | ![s-f19-22-refunds-e-f19-16-feature-defect-active-phone, light](s-f19-22-refunds-e-f19-16-feature-defect-active-phone-light.png) | ![s-f19-22-refunds-e-f19-16-feature-defect-active-phone, dark](s-f19-22-refunds-e-f19-16-feature-defect-active-phone-dark.png) |
+
+## s-f19-22-refunds-e-f19-16-feature-defect-fixed-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f19-22-refunds-e-f19-16-feature-defect-fixed-phone, light](s-f19-22-refunds-e-f19-16-feature-defect-fixed-phone-light.png) | ![s-f19-22-refunds-e-f19-16-feature-defect-fixed-phone, dark](s-f19-22-refunds-e-f19-16-feature-defect-fixed-phone-dark.png) |
+
+## s-f19-22-refunds-e-f19-16-feature-defect-credited-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f19-22-refunds-e-f19-16-feature-defect-credited-phone, light](s-f19-22-refunds-e-f19-16-feature-defect-credited-phone-light.png) | ![s-f19-22-refunds-e-f19-16-feature-defect-credited-phone, dark](s-f19-22-refunds-e-f19-16-feature-defect-credited-phone-dark.png) |
 
 ## s-f19-27-fixed-price-catalogue-e-f19-17-catalogue-change-ordered-desktop
 

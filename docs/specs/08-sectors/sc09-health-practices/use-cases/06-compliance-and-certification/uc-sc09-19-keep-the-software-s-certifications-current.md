@@ -9,7 +9,7 @@
 ## Summary
 
 The IT provider administrator tracks the certified modules' versions and approvals, renews them, and updates practices;
-an expired module is disabled.
+a module whose required approval expired is disabled, and a lapsed Ségur referencing only warns.
 
 ## Personas
 
@@ -38,7 +38,7 @@ Yearly.
 ## Postconditions
 
 - **Success:** the module is approved and practices updated.
-- **Failed:** the module is disabled.
+- **Failed:** the module is disabled when a required approval has expired; a lapsed Ségur referencing only warns.
 
 ## Main flow
 
@@ -55,7 +55,13 @@ Yearly.
 
 ## Error flows
 
-- 2e. Expired: the module is disabled ([BR-SC09-15](../../business-rules/br-sc09-15-certifications-kept-current.md)).
+- 2e. A required approval (such as SESAM-Vitale,
+  [CR-FR-132](../../../../10-country-packs/france/health-practice/cr-fr-132-sesam-vitale-approval.md)) has expired: the
+  module is disabled ([BR-SC09-15](../../business-rules/br-sc09-15-certifications-kept-current.md)).
+- 2f. A Ségur referencing has lapsed: the provider is warned and the module stays on, as the referencing is a State
+  funding scheme and not an obligation of the practice
+  ([BR-SC09-15](../../business-rules/br-sc09-15-certifications-kept-current.md),
+  [CR-FR-136](../../../../10-country-packs/france/health-practice/cr-fr-136-segur-labels.md)).
 - 3e. An update fails: it is rolled back,
   [UC-F14-28](../../../../02-functional/f14-plugin-store/use-cases/06-release-channels-and-rollback/uc-f14-28-roll-back-to-the-previous-version.md).
 - Any step: a call to a service or an outside system fails: it is retried first
@@ -119,8 +125,11 @@ sequenceDiagram
   A2->>P1: Update practices
   A2->>P1: Check
   P1-->>A2: Approved
-  alt expired
+  alt a required approval expired
     P1-->>A1: The module is disabled (BR-SC09-15)
+  end
+  alt a Ségur referencing lapsed
+    P1-->>A1: Warning, the module stays on (BR-SC09-15)
   end
   alt an update fails
     P1-->>A2: It is rolled back (UC-F14-28)
@@ -131,8 +140,10 @@ sequenceDiagram
 
 1. **Given** the example health centre's care sheets module 1.4 valid to 2027-11 **when** it is renewed **then** the new
    date shows.
-2. **Given** the care sheets module valid to 2027-11 **when** it is December 2027 **then** the module is disabled
-   ([BR-SC09-15](../../business-rules/br-sc09-15-certifications-kept-current.md)).
+2. **Given** the care sheets module with its SESAM-Vitale approval valid to 2027-11 **when** it is December 2027
+   **then** the module is disabled ([BR-SC09-15](../../business-rules/br-sc09-15-certifications-kept-current.md)).
+3. **Given** a module whose Ségur referencing lapsed in December 2027 **when** the provider opens the certifications
+   **then** a warning shows and the module stays on.
 
 ## Non-functional notes
 

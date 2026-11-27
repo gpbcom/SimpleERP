@@ -3,7 +3,7 @@
 
 # 📜 D510 Attributes chosen per request type, adjustable per request
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-28 / D510)
+**Status:** ✅ decided
 
 ## Context
 
@@ -20,8 +20,8 @@ logged.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-28).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-28).
 
 ## Consequences
 
@@ -44,7 +44,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [D509 Four attribute families for scheduling](d509-four-attribute-families-for-scheduling.md)
 - [D511 Required or preferred attributes; legal ones always
   required](d511-required-or-preferred-attributes-legal-ones-always-required.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

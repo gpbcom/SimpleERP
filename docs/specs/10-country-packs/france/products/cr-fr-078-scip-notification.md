@@ -3,23 +3,28 @@
 
 # ⚖️ CR-FR-078 SCIP notification of articles
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A supplier of such articles notifies them to the European Chemicals Agency's SCIP database.
+A supplier of such articles notifies them to the European Chemicals Agency's SCIP database ([Avis aux opérateurs économiques, JORF of 2024-02-11](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049122408), read 2026-11-27).
 
 ## Values
 
-- (Proposed) One notification per article placed on the market.
+- Every article placed on the EU
+  market with a Candidate List substance above 0.1 % w/w is notified, but quasi-identical articles may be grouped in
+  one notification, a simplified notification may refer to data already submitted, and retailers supplying only
+  consumers are not covered ([ECHA, SCIP: suppliers of articles](https://echa.europa.eu/scip-suppliers-of-articles), read 2026-11-27).
 
 ## Legal references
 
-- Directive 2008/98/EC art. 9(1)(i); Code de l'environnement L541-9-1 (not read yet).
+- Directive 2008/98/EC art. 9(1)(i); Code de l'environnement
+  L521-5, the national basis the notice names; L541-9-1 is the separate duty to inform consumers of
+  dangerous substances in waste-generating products, since 2023-01-01 ([Avis aux opérateurs économiques](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049122408), read 2026-11-27).
 
 ## Effective dates
 
-(Proposed) To read.
+Since 2021-01-05 ([Avis aux opérateurs économiques](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049122408), read 2026-11-27).
 
 ## Enforced by
 
@@ -32,7 +37,8 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Fine of a 5th-class contravention for failing to communicate the information, as the notice applies
+Code de l'environnement R521-2-14 18° ([Avis aux opérateurs économiques](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049122408), read 2026-11-27); up to 1 500 EUR ([Code pénal, art. 131-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417259/), read 2026-11-27).
 
 ## Exceptions
 
@@ -40,7 +46,7 @@ None.
 
 ## Open questions
 
-The articles and the French transposition are not read yet.
+The ECHA page was read on 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

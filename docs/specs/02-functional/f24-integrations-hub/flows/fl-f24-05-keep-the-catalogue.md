@@ -39,7 +39,7 @@ See each use case.
 
 | Entity | States in this flow | Shown at step and screen | Aggregated view |
 |---|---|---|---|
-| [E-F24-15 Connector catalogue review](../data/e-f24-15-connector-catalogue-review.md) | Active | 1 [S-F24-18](../screens/05-keep-the-catalogue/s-f24-18-yearly-review.md) | Connector catalogue reviews |
+| [E-F24-15 Connector catalogue review](../data/e-f24-15-connector-catalogue-review.md) | Active, Published | 1 [S-F24-18](../screens/05-keep-the-catalogue/s-f24-18-yearly-review.md) | Connector catalogue reviews |
 | [E-F24-01 Connector](../data/e-f24-01-connector.md) | Active | 1 [S-F24-18](../screens/05-keep-the-catalogue/s-f24-18-yearly-review.md); 2 [S-F24-19](../screens/05-keep-the-catalogue/s-f24-19-requests.md) | Connectors |
 | [E-F24-16 Connector request](../data/e-f24-16-connector-request.md) | Active | 2 [S-F24-19](../screens/05-keep-the-catalogue/s-f24-19-requests.md) | Connector requests |
 | [E-F24-12 Integration icon](../data/e-f24-12-integration-icon.md) | Proposed, Approved, Replaced, Withdrawn | 2 [S-F24-19](../screens/05-keep-the-catalogue/s-f24-19-requests.md); 3 [S-F24-25](../screens/05-keep-the-catalogue/s-f24-25-icon-library.md) | Integration icons |

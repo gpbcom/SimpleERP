@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-01 Record an online meeting with the bot
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -133,7 +133,7 @@ sequenceDiagram
    starts at 08:30 **then** the bot "SimpleERP recorder" joins and posts its notice in the chat.
 2. **Given** the same meeting switched off the day before **when** it starts **then** nothing joins.
 3. **Given** Paul Morel, an internal participant, pastes a Teams link at 10:02 **when** he starts the bot **then** it
-   joins within a minute (Proposed).
+   joins within a minute.
 4. **Given** a recorded meeting **when** the site's subcontractor says "stop recording" **then** recording stops and the
    transcript says so.
 5. **Given** a live meeting **when** Lea opens it in SimpleERP **then** the transcript shows as spoken, within 3

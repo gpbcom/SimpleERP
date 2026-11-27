@@ -4,7 +4,7 @@
 
 # 📝 UC-F10-02 Sell at the counter
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -112,7 +112,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A scan answers within 300 ms (Proposed); Works offline as
+A scan answers within 300 ms; Works offline as
 [BR-F10-06](../../business-rules/br-f10-06-offline-keeps-selling.md).
 
 ## Regulatory references

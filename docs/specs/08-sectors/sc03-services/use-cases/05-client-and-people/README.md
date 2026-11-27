@@ -11,6 +11,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-SC03-11 | [Share with the client in the portal](uc-sc03-11-share-with-the-client-in-the-portal.md) | 🔄 |
+| 📝 | UC-SC03-11 | [Share with the client in the portal](uc-sc03-11-share-with-the-client-in-the-portal.md) | ✅ |
 | 📝 | UC-SC03-12 | [Measure client satisfaction](uc-sc03-12-measure-client-satisfaction.md) | ✅ |
 | 📝 | UC-SC03-13 | [Manage consultants' skills and certifications](uc-sc03-13-manage-consultants-skills-and-certifications.md) | ✅ |

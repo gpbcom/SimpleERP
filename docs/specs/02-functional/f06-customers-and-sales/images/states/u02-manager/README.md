@@ -36,11 +36,47 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f06-11-lead-scoring-e-f06-20-lead-active-desktop, light](s-f06-11-lead-scoring-e-f06-20-lead-active-desktop-light.png) | ![s-f06-11-lead-scoring-e-f06-20-lead-active-desktop, dark](s-f06-11-lead-scoring-e-f06-20-lead-active-desktop-dark.png) |
 
+## s-f06-11-lead-scoring-e-f06-20-lead-qualified-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f06-11-lead-scoring-e-f06-20-lead-qualified-desktop, light](s-f06-11-lead-scoring-e-f06-20-lead-qualified-desktop-light.png) | ![s-f06-11-lead-scoring-e-f06-20-lead-qualified-desktop, dark](s-f06-11-lead-scoring-e-f06-20-lead-qualified-desktop-dark.png) |
+
+## s-f06-11-lead-scoring-e-f06-20-lead-disqualified-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f06-11-lead-scoring-e-f06-20-lead-disqualified-desktop, light](s-f06-11-lead-scoring-e-f06-20-lead-disqualified-desktop-light.png) | ![s-f06-11-lead-scoring-e-f06-20-lead-disqualified-desktop, dark](s-f06-11-lead-scoring-e-f06-20-lead-disqualified-desktop-dark.png) |
+
+## s-f06-11-lead-scoring-e-f06-20-lead-converted-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f06-11-lead-scoring-e-f06-20-lead-converted-desktop, light](s-f06-11-lead-scoring-e-f06-20-lead-converted-desktop-light.png) | ![s-f06-11-lead-scoring-e-f06-20-lead-converted-desktop, dark](s-f06-11-lead-scoring-e-f06-20-lead-converted-desktop-dark.png) |
+
 ## s-f06-11-lead-scoring-e-f06-20-lead-active-phone
 
 | Light | Dark |
 |---|---|
 | ![s-f06-11-lead-scoring-e-f06-20-lead-active-phone, light](s-f06-11-lead-scoring-e-f06-20-lead-active-phone-light.png) | ![s-f06-11-lead-scoring-e-f06-20-lead-active-phone, dark](s-f06-11-lead-scoring-e-f06-20-lead-active-phone-dark.png) |
+
+## s-f06-11-lead-scoring-e-f06-20-lead-qualified-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f06-11-lead-scoring-e-f06-20-lead-qualified-phone, light](s-f06-11-lead-scoring-e-f06-20-lead-qualified-phone-light.png) | ![s-f06-11-lead-scoring-e-f06-20-lead-qualified-phone, dark](s-f06-11-lead-scoring-e-f06-20-lead-qualified-phone-dark.png) |
+
+## s-f06-11-lead-scoring-e-f06-20-lead-disqualified-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f06-11-lead-scoring-e-f06-20-lead-disqualified-phone, light](s-f06-11-lead-scoring-e-f06-20-lead-disqualified-phone-light.png) | ![s-f06-11-lead-scoring-e-f06-20-lead-disqualified-phone, dark](s-f06-11-lead-scoring-e-f06-20-lead-disqualified-phone-dark.png) |
+
+## s-f06-11-lead-scoring-e-f06-20-lead-converted-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f06-11-lead-scoring-e-f06-20-lead-converted-phone, light](s-f06-11-lead-scoring-e-f06-20-lead-converted-phone-light.png) | ![s-f06-11-lead-scoring-e-f06-20-lead-converted-phone, dark](s-f06-11-lead-scoring-e-f06-20-lead-converted-phone-dark.png) |
 
 ## s-f06-21-targets-and-commissions-e-f06-18-commission-plan-and-target-draft-desktop
 

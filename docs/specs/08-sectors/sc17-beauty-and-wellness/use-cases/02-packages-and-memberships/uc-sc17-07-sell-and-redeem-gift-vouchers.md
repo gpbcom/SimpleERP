@@ -151,7 +151,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A gift voucher shows its value and its end date, and the salon honours it until then; how long the validity
 must be at least, and the VAT treatment of a voucher for a given service or for an amount, are rules of the France pack
-to read. The France-pack rule is written later. Related:
+to read. The France-pack rules are [CR-FR-097 Gift cards](../../../../10-country-packs/france/consumer/cr-fr-097-gift-card-validity.md) and [CR-FR-013 VAT on gift cards and vouchers](../../../../10-country-packs/france/tax-and-vat/cr-fr-013-vouchers-vat.md). Related:
 [CR-FR-097](../../../../10-country-packs/france/consumer/cr-fr-097-gift-card-validity.md),
 [CR-FR-013](../../../../10-country-packs/france/tax-and-vat/cr-fr-013-vouchers-vat.md).
 

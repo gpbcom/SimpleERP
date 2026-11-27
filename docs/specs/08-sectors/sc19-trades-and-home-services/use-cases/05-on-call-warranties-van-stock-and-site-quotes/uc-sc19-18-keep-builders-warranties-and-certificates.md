@@ -5,7 +5,7 @@
 
 # 📝 UC-SC19-18 Keep builders' warranties and certificates
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -154,7 +154,8 @@ and invoices; its legal warranties start at the handover. The warranty durations
 [CR-FR-082](../../../../10-country-packs/france/construction/cr-fr-082-ten-year-insurance.md),
 [CR-FR-090](../../../../10-country-packs/france/construction/cr-fr-090-builders-warranties.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule (the insurance in place before work starts, its certificate given to the client and attached to
+  quotes and invoices):
   [CR-FR-259 Builders' ten-year insurance certificate](../../../../10-country-packs/france/construction/cr-fr-259-builders-warranty-insurance.md)
 
 ## Related use cases

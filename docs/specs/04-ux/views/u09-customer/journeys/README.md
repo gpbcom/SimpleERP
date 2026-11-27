@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U09-01 | [Accept a quote and pay](j-u09-01-accept-a-quote-and-pay.md) | 🔄 |
+| 🧭 | J-U09-01 | [Accept a quote and pay](j-u09-01-accept-a-quote-and-pay.md) | ✅ |
 
 ---
 

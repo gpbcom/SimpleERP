@@ -4,7 +4,7 @@
 
 # 📌 REQ-T13-07 Scheduling engine
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-27 to VD-33 / D509 to D515)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -49,7 +49,7 @@ re-planned within 60 seconds. Proposals breaking a required or legal attribute: 
 
 ## Priority
 
-Must (Proposed)
+Must
 
 ## Capabilities served
 

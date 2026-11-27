@@ -3,7 +3,7 @@
 
 # 🏭 Option E: the factory first
 
-**Status:** 🔄 waiting for the owner
+**Status:** 🚫 not adopted ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md))
 
 ## Principle
 
@@ -55,7 +55,7 @@ The pilot starts after step 4, so the factory is on its critical path: if the fa
 | [D16](../../../06-decisions/foundations/d16-platform-first.md) | ✅ kept |  |
 | [D380](../../../06-decisions/vision/d380-every-capability-first-confirmed.md) | ✅ kept |  |
 | [D451](../../../06-decisions/vision/d451-dated-pilot-before-the-release.md) | ⚠️ bent | the factory sits before the pilot |
-| [D483](../../../06-decisions/vision/d483-roadmap-devops-agents-first.md) | ✅ kept | F14 and F19 (Proposed placements) move to step 3 |
+| [D483](../../../06-decisions/vision/d483-roadmap-devops-agents-first.md) | ✅ kept | F14 and F19 move to step 3 |
 
 ## Strengths
 

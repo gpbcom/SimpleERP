@@ -3,21 +3,23 @@
 
 # ⚖️ CR-FR-234 Alcohol excise and bonded warehouses
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) Alcoholic drinks are held in a bonded warehouse approved by the customs authority, where no excise is due;
-the duty becomes due when the goods leave it for consumption and is declared every month by the warehousekeeper, at a
-rate per volume of pure alcohol that depends on the category of the drink. Movements under suspension travel with an
-electronic accompanying document.
+Alcoholic drinks are held in a bonded warehouse approved by the customs authority, where no excise
+is due; the duty becomes due when the goods leave it for consumption and is declared every month by the
+warehousekeeper, at a rate that depends on the category of the drink: per hectolitre for wines, ciders and
+intermediate products, per hectolitre and degree for beers, per hectolitre of pure alcohol for spirits ([Service-public F32101](https://entreprendre.service-public.gouv.fr/vosdroits/F32101), read 2026-11-27). Movements under suspension travel with an electronic accompanying document ([douane.gouv.fr, Obtenir l'agrément d'entrepositaire agréé](https://www.douane.gouv.fr/demarche/obtenir-lagrement-dentrepositaire-agree), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Rates by category, and reduced rates for small producers, kept as data.
-- (Proposed) Monthly declaration.
-- (Proposed) Electronic accompanying document.
-- (Proposed) SimpleERP enforces: excise is due when goods leave the bonded warehouse.
+- Rates by category, and reduced rates for small producers (breweries up to 200 000 hl), kept as data; set each year
+  by ministerial order ([Service-public F32101](https://entreprendre.service-public.gouv.fr/vosdroits/F32101), read 2026-11-27).
+- Monthly summary declaration by the warehousekeeper ([douane.gouv.fr, Obtenir l'agrément d'entrepositaire agréé](https://www.douane.gouv.fr/demarche/obtenir-lagrement-dentrepositaire-agree), read 2026-11-27; the page is undated).
+- Accompanying documents for movements: the DAE (electronic) and the DSA ([douane.gouv.fr, Obtenir l'agrément d'entrepositaire agréé](https://www.douane.gouv.fr/demarche/obtenir-lagrement-dentrepositaire-agree), read 2026-11-27; the page cites
+  CGI 302 M and 302 M ter).
+- SimpleERP enforces: excise is due when goods leave the bonded warehouse.
 - Read on [Service-public F32101](https://entreprendre.service-public.gouv.fr/vosdroits/F32101) (verified 20 July 2026);
   the suspension regime, declarations, losses and the guarantee exemption are not on the page:
 - Read: excise is paid by producers or importers outside suspension, by whoever releases goods from suspension and by
@@ -32,11 +34,16 @@ electronic accompanying document.
 
 ## Legal references
 
-- Law to read: excise on alcohol and bonded warehouses (not read yet).
+- Code des impositions sur les biens et services L313-15 to L313-17 (categories), as [Service-public F32101](https://entreprendre.service-public.gouv.fr/vosdroits/F32101)
+  cites it.
+- [douane.gouv.fr, Obtenir l'agrément d'entrepositaire agréé](https://www.douane.gouv.fr/demarche/obtenir-lagrement-dentrepositaire-agree).
+- CIBS L313-15 in force since 2022-01-01 ([CIBS, art. L313-15](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044603543), read 2026-11-27).
+- The suspension regime, losses and guarantee articles of the CIBS: not read (penalty below).
 
 ## Effective dates
 
-(Proposed) To read.
+The 2026 rates, set each year by ministerial order ([Service-public F32101](https://entreprendre.service-public.gouv.fr/vosdroits/F32101), read 2026-11-27); CIBS L313-15 in force
+since 2022-01-01 ([CIBS, art. L313-15](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044603543), read 2026-11-27).
 
 ## Enforced by
 
@@ -50,11 +57,14 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Until 2025-07-01, CGI 1791: a fine of 100 to 750 EUR and a penalty of one to three times the duties
+evaded, with confiscation ([CGI, art. 1791, version of 2023-07-20](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047861246/2025-03-01), read 2026-11-27). (⚖️ lawyer review before launch, D574) The later version and its replacement after
+its repeal from 2026-05-01 (Ordonnance n° 2026-265): not read.
 
 ## Exceptions
 
-(Proposed) Small producers, to read.
+Small producers: breweries producing up to 200 000 hl a year pay 4.12 EUR/hl/degree in 2026; the home distillers'
+reduced rate is abolished since 2024-01-01 ([Service-public F32101](https://entreprendre.service-public.gouv.fr/vosdroits/F32101), read 2026-11-27).
 
 ## Open questions
 

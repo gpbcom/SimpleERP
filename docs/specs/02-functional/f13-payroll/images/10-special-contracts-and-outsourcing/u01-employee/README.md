@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F13-10 Special contracts and outsourced payroll
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F13-10 Special contracts and outsourced payroll](../../../flows/fl-f13-10-special-contracts-and-outsourcing.md) for

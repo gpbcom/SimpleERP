@@ -22,7 +22,9 @@ agreed.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2021-02-27: L441-10 in force since 2019-04-26, D441-5 since 2021-02-27 ([Code de commerce, art. L441-10](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414392), [art. D441-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043197457), read 2026-11-27). Until 2026-12-31, the L441-10 version of 2019-04-26; from 2027-01-01, the version amended by Ordonnance n° 2026-671
+art. 2 keeps the 30-day default, the 60-day and 45-days-end-of-month caps, the penalty rate and the fixed indemnity,
+and caps periodic invoices of CIBS L216-34 at 45 days ([Code de commerce, art. L441-10, version of 2027-01-01](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414392/2027-01-02), read 2026-11-27).
 
 ## Enforced by
 
@@ -37,7 +39,9 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+An administrative fine up to 75 000 EUR (natural person) or 2 000 000 EUR (legal person), doubled
+on a repeat within 2 years, for terms of sale without the L441-10 II mentions or with a penalty rate that does
+not comply (L441-16) ([Code de commerce, art. L441-16](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043750778), read 2026-11-27).
 
 ## Exceptions
 

@@ -3,7 +3,7 @@
 
 # 🗃️ E-F15-08 Data-subject request
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -46,7 +46,8 @@ By person, kind, due date and status.
 
 ## Retention
 
-(Proposed) 5 years after the answer, without the copy itself.
+5 years after the answer, without the copy itself (⚖️ lawyer review before launch, D574: the CNIL's guidance on keeping the
+proof of a rights request).
 
 ## Audit
 

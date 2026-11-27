@@ -18,12 +18,15 @@ detected, and a closed period cannot be reopened.
 
 ## Legal references
 
-- Plan comptable général (règlement ANC 2014-03), art. 420-5 (irreversible entries, closing procedure).
+- Plan comptable général (règlement ANC 2014-03), art. 1031-3 (definitive entries) and 1031-4 (closing procedure),
+  consolidated version of 1 January 2026 ([ANC, PCG consolidated at 1 January 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf), read 2026-11-27).
 - [Code de commerce](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000005634379/) art. L123-12 to L123-28.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+L123-12 in force since 2000-09-21 ([Code de commerce, art. L123-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006219304), read 2026-11-27); the PCG rules on definitive entries and the closing
+procedure are art. 1031-3 and 1031-4 of the consolidated version of 1 January 2026 ([ANC, PCG consolidated at 1 January 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf), read 2026-11-27),
+which gives no date per article.
 
 ## Enforced by
 
@@ -34,7 +37,7 @@ Start date to read in the official source; in force when read on 2026-11-11, the
 
 ## When the law changes
 
-Watched in the law corpus: PCG art. 420-5; CCom L123-12 to L123-28. A change flags this rule and warns the
+Watched in the law corpus: PCG art. 1031-3, 1031-4; CCom L123-12 to L123-28. A change flags this rule and warns the
 administrators; the corrected rule ships in a pack update (D294).
 
 ## Penalty

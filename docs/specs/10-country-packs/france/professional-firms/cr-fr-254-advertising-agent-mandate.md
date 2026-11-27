@@ -3,18 +3,21 @@
 
 # ⚖️ CR-FR-254 Advertising agent mandate and media prices
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) An agency that buys advertising space for a client acts with a written mandate, and the media purchase is
-shown to the client with its real price and the agency's fee apart.
+An agency that buys advertising space for a client acts with a written mandate, and the media purchase is
+shown to the client with its real price and the agency's fee apart
+([loi n° 93-122, art. 20 and 21](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000031011011), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Written mandate.
-- (Proposed) Real price and fee shown apart.
-- (Proposed) SimpleERP enforces: media are rebilled at cost plus the agreed fee.
+- Written mandate ([loi n° 93-122, art. 20](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000031011011), in force since 2015-08-08, read 2026-11-27).
+- Real price and fee shown apart: the mandate sets the agent's pay, service by service; any discount from the seller
+  is on the invoice to the advertiser, which the seller sends directly to the advertiser; the agent is paid only by its
+  principal ([loi n° 93-122, art. 20 and 21](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000031011011), read 2026-11-27).
+- SimpleERP enforces: media are rebilled at cost plus the agreed fee.
 - Read on Legifrance, [law 93-122 of 29 January 1993](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000711604)
   articles 20 to 26, as originally published in the Journal officiel (not a consolidated text; read 15 November 2026);
   the consolidated current text and its penalties were not read, so no amount of the 1993 text is applied here:
@@ -38,11 +41,12 @@ shown to the client with its real price and the agency's fee apart.
 
 ## Legal references
 
-- Law to read: advertising agents and media purchasing (not read yet).
+- Loi n° 93-122 du 29 janvier 1993, art. 20 to 29.
 
 ## Effective dates
 
-(Proposed) To read.
+Article 20 in its current version since 2015-08-08 ([loi n° 93-122, art. 20](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000031011011)); article 25 since 2019-07-05
+([loi n° 93-122, art. 25](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000038725925), read 2026-11-27).
 
 ## Enforced by
 
@@ -56,7 +60,9 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+No compliant written contract: 30 000 EUR; an agent paid by anyone but its principal, or a seller paying the agent:
+300 000 EUR; a seller not invoicing the advertiser directly: the penalties of Code de commerce L441-9; legal persons
+may be excluded from public contracts for up to 5 years ([loi n° 93-122, art. 25](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000038725925), read 2026-11-27).
 
 ## Exceptions
 
@@ -64,7 +70,7 @@ None stated.
 
 ## Open questions
 
-The law on advertising agents and media purchasing is not read yet; the values are to read before launch.
+None, read on 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

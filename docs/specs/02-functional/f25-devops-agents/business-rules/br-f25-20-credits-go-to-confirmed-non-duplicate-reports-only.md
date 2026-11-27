@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-20 Credits go to confirmed, non-duplicate reports only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

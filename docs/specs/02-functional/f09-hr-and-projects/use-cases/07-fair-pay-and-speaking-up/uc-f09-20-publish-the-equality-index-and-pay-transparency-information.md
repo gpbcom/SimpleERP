@@ -5,7 +5,7 @@
 
 # 📝 UC-F9-20 Publish the equality index and pay-transparency information
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -60,7 +60,7 @@ Yearly; requests occasionally.
 
 ## Error flows
 
-- 2e. A category with fewer than 3 people of a gender (Proposed): left out of the gap, said so.
+- 2e. A category with fewer than 3 people of a gender: left out of the gap, said so.
 - 5e. A request from someone else than the employee: refused.
 
 ## Business rules
@@ -133,8 +133,8 @@ None.
 
 ## Regulatory references
 
-[CR-FR-187](../../../../10-country-packs/france/payroll/cr-fr-187-equal-pay-index.md); (Proposed) to read: directive
-(EU) 2023/970 on pay transparency.
+[CR-FR-187](../../../../10-country-packs/france/payroll/cr-fr-187-equal-pay-index.md); (⚖️ lawyer review before launch, D574) to read:
+directive (EU) 2023/970 on pay transparency and its French transposition.
 
 ## Related use cases
 

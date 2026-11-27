@@ -23,4 +23,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F11-10 Fulfil from stores and report](10-fulfil-from-stores-and-report/README.md) | 16 images |
 | 🖼️ |  | [Images: FL-F11-11 Donations, wishlists, gift cards and cross-border](11-donations-gift-cards-and-cross-border/README.md) | 24 images |
 | 🖼️ |  | [Screen states](states/README.md) | 224 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

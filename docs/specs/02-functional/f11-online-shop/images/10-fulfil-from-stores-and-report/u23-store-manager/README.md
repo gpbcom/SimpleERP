@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F11-10 Fulfil from stores and report
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F11-10 Fulfil from stores and report](../../../flows/fl-f11-10-fulfil-from-stores-and-report.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

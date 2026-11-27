@@ -36,10 +36,12 @@ find, filter, total and act on many record of processing activities at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Record of processing activities    Administration › Record of processing activities   [+ New]                |
-| [count]   [chart: count by state]                                                                            |
+| [count] [To review]   [chart: count by state]                                                                |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] RECORD OF PROCESSING ACTIVITIES   STATE                                              |
+| state             | [ ] ACTIVITY   CAPABILITY   LEGAL BASIS   RETENTION   LAST EXPORT   STATE                |
+| capability        | [ ] ...                                                  Open >                          |
+| legal basis       | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -49,8 +51,12 @@ find, filter, total and act on many record of processing activities at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Record of processing activities | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Activity | activity | text | yes |
+| Capability | capability | label | yes |
+| Legal basis | legal basis | label | yes |
+| Retention | retention | text | yes |
+| Last export | last export | file name | yes |
+| State | state | badge: Active, To review | yes |
 
 Secrets are never a column (VR-4).
 
@@ -58,7 +64,9 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, To review | the visible rows (D488) |
+| Capability | each value | the visible rows (D488) |
+| Legal basis | each value | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -69,6 +77,7 @@ None: record of processing activities link to no other record type in their fiel
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state To review.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -80,6 +89,7 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -93,6 +103,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New record of processing activities | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -108,7 +119,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| controller's contact | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

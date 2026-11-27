@@ -41,3 +41,6 @@ infra/helm/*/charts/
 # Playwright output (reports are uploaded by CI and kept in the ticket folders)
 playwright-report/
 test-results/
+
+# Personal Claude Code settings stay local
+.claude/settings.local.json

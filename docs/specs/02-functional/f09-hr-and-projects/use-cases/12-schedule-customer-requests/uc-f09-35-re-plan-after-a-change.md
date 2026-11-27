@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-35 Re-plan after a change
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-30, VD-33 / D512, D515)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -65,7 +65,7 @@ Several times a day in field teams.
 
 - 1a. The customer cancels: the work request is cancelled, not re-planned; only the round is ordered again.
 - 1b. An urgent request: it is ready at once and placed first on the board; the engine may propose to move a visit
-  that is not urgent to make room, which the planner confirms (Proposed).
+  that is not urgent to make room, which the planner confirms.
 - 3a. The automatic mode is on: the engine assigns on its own, and stops at the first problem (UC-F9-34).
 
 ## Error flows
@@ -154,7 +154,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Re-planning one person's day within 1 minute (Proposed).
+Re-planning one person's day within 1 minute.
 
 ## Regulatory references
 

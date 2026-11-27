@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-09 Only eligible services carry the tax credit
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,11 @@ declaration or approval is valid.
 ## Why
 
 Claiming a credit on ineligible work exposes the household to a correction and the company to a penalty
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The France-pack rules are
+[CR-FR-103 Tax credit for home services and its yearly certificate](../../../10-country-packs/france/tax-and-vat/cr-fr-103-home-services-tax-credit.md)
+(50 % of what the household paid, within the yearly ceilings) and
+[CR-FR-102 Personal-services declaration, approval and authorisation](../../../10-country-packs/france/home-care/cr-fr-102-personal-services-registration.md)
+(the declaration, or the approval for some services).
 
 ## Examples
 

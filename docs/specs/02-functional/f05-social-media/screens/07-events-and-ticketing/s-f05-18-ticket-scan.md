@@ -4,7 +4,7 @@
 
 # 🖥️ S-F5-18 Ticket scan
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -61,8 +61,8 @@ Events › Doors, on a phone.
 - Loading: "Loading the session's tickets" before the first scan.
 - Error: the error message pattern (D122).
 - Read-only: always: a scan only reads and marks.
-- Offline: Scans are checked against the ticket list loaded before the doors opened and synced when the network is back
-  (Proposed); the screen shows Offline and the count waiting.
+- Offline: Scans are checked against the ticket list loaded before the doors opened and synced when the network is
+ back; the screen shows Offline and the count waiting.
 
 Shown entities (VD-15): [E-F5-11 Ticket type and seat map](../../data/e-f05-11-ticket-type-and-seat-map.md),
 [E-F5-12 Event ticket](../../data/e-f05-12-event-ticket.md).

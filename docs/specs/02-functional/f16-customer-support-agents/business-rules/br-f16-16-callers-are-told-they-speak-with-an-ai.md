@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-16 Callers are told they speak with an AI
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -18,7 +18,7 @@ People must know when they speak with a machine, and a caller may refuse to
 ([CR-FR-056](../../../10-country-packs/france/ai-and-recording/cr-fr-056-people-know-they-deal-with-an-ai.md)). The
 owner asked for a phone voice agent
 ([D535](../../../06-decisions/f16-customer-support-agents/d535-benchmark-gaps-f16-customer-support-agents.md)).
-(Proposed) The France-pack rule on the wording is written later.
+The France-pack rule is CR-FR-056: AI calls say they are AI; the wording itself is SimpleERP's.
 
 ## Examples
 

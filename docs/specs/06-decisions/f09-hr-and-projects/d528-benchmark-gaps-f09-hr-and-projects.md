@@ -9,7 +9,7 @@
 
 The 2026-11-14 benchmark-gaps interview compared the specifications with the HR, learning and project features of the
 benchmarked suites and offered each gap as an option
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F9 HR and projects").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F9 HR and projects").
 
 ## Options
 
@@ -32,7 +32,7 @@ The owner selected all five gaps; each becomes a use case of F9, drawn in
 ## Decided by
 
 The owner, on 2026-11-14, in the benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "Block by block").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "Block by block").
 
 ## Consequences
 
@@ -60,7 +60,7 @@ The owner, on 2026-11-14, in the benchmark-gaps interview
 
 - [FL-F9-15 Work location, headcount, careers and learning](../../02-functional/f09-hr-and-projects/flows/fl-f09-15-work-location-headcount-and-learning.md)
 - [D458 F1 Administration: gaps and improvements](../f01-administration/d458-f01-gaps-and-improvements.md)
-- [Interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)
+- Interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)
 
 ---
 

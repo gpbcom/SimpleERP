@@ -34,10 +34,13 @@ and act on many pallets at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Pallets    Wholesale and distribution › Pallets   [+ New]                                                    |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Open] [new this month]   [chart: count by state]                                                    |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] PALLET   STATE                                                                       |
+| state             | [ ] PALLET   SSCC   CUSTOMER   ORDER   LABEL PRINTE   STATE                              |
+| customer          | [ ] ...                                                  Open >                          |
+| order             | [ ] ...                                                  Open >                          |
+| location          | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,8 +50,12 @@ and act on many pallets at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Pallet | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Pallet | title | text | yes |
+| SSCC | SSCC | text | yes |
+| Customer | customer | link to the record | yes |
+| Order | order | link to the record | yes |
+| Label printed on | label printed on | date and time | yes |
+| State | state | badge: Open, Closed, Loaded | yes |
 
 Secrets are never a column (VR-4).
 
@@ -56,17 +63,25 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Open, Closed, Loaded | the visible rows (D488) |
+| Customer | each linked customer | the visible rows (D488) |
+| Order | each linked order | the visible rows (D488) |
+| Location | each linked location | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: pallets link to no other record type in their fields.
+- Pallets of a chosen customer, or of the customers that match a filter.
+- From the other side: the customers that have pallets, or none.
+- Pallets of a chosen sales order, or of the sales orders that match a filter.
+- From the other side: the sales orders that have pallets, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Open.
+- New this month, by label printed on.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -78,19 +93,27 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Open: Open, Closed.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
 
 ## Map layout
 
-None: no place.
+- **Place:** location.
+- **Layout:** a plan, [C-18](../../../../04-ux/design-system/components/c-18-plan.md).
+- **Marker:** the pallet and the state.
+- **Layers:** by state.
+- **Who sees the switch:** the roles with the map right, the planner roles and U02 and U13 (BR-F1-32, D502); the others
+  see the table with the place as a column.
 
 ## Actions
 
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New pallet | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -124,15 +147,18 @@ The records also show on: [S-SC05-06 Labels](../../../sc05-manufacturing/screens
 - **Selected:** the bulk bar with the actions allowed on every selected row.
 - **Error:** the query failed, with Retry.
 
+On the map layout, Listed also shows the count of rows without a place.
+
 ## Responsive behaviour
 
 On a phone the table keeps its columns and scrolls sideways, the facet panel becomes a drawer and the KPI strip stays
-(VR-14, D491).
+(VR-14, D491); the map takes the full width.
 
 ## Accessibility
 
 The KPI strip, the facet panel, the toolbar and the table are named landmarks; the result count is announced when the
-filters change; each chip has its remove button; the facet drawer returns the focus to its button.
+filters change; each chip has its remove button; the facet drawer returns the focus to its button. The table holds the
+same rows as the map.
 
 ## Example images
 
@@ -152,7 +178,8 @@ Drawn in step S8 (36k) from this page: one row per persona and device for each s
 [C-03 Data table](../../../../04-ux/design-system/components/c-03-data-table.md),
 [C-15 Facet panel](../../../../04-ux/design-system/components/c-15-facet-panel.md),
 [C-16 KPI strip](../../../../04-ux/design-system/components/c-16-kpi-strip.md),
-[C-09 Chart](../../../../04-ux/design-system/components/c-09-chart.md).
+[C-09 Chart](../../../../04-ux/design-system/components/c-09-chart.md),
+[C-18 Plan](../../../../04-ux/design-system/components/c-18-plan.md).
 
 ## Shown in
 

@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F6-07 Special invoicing
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F6-07 Special invoicing](../../../flows/fl-f06-07-special-invoicing.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

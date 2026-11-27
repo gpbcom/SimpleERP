@@ -162,7 +162,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A veterinary practice keeps a register of the medicines it gives or sells to animals, with the animal, the
 medicine, the lot, the quantity, the date and the vet, kept for a set number of years; some animals must carry an
-identification. Vets are registered with their professional order. The France-pack rule is written later. Related:
+identification. Vets are registered with their professional order. The France-pack rule is [CR-FR-279 Veterinary medicines dispensing register](../../../../10-country-packs/france/health-practice/cr-fr-279-veterinary-dispensing-register.md). Related:
 [CR-FR-137](../../../../10-country-packs/france/health-practice/cr-fr-137-medical-secrecy.md),
 [CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md).
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-35 Default order of the scheduling objectives
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-32 / D514; the order proposed)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -30,7 +30,7 @@ limits, and a configurator may change the order or the weights per request type.
 | Both on time and 10 minutes away; A is the usual carer | A first: continuity |
 | Both equal on lateness, travel and preferences; A has worked 6 more hours this week | B first: fair workload |
 | The request type "Urgent repair" puts travel first | The nearest eligible person first |
-| The customer refused carer C | (Proposed) C is ranked last, as a customer preference |
+| The customer refused carer C | C is ranked last, as a customer preference |
 
 ## Applies to
 
@@ -42,7 +42,7 @@ limits, and a configurator may change the order or the weights per request type.
 
 ## Exceptions
 
-None. (Proposed) The legal limits of working time and rest are hard limits, not part of the fair-workload objective
+None. The legal limits of working time and rest are hard limits, not part of the fair-workload objective
 ([BR-F9-09 Shifts respect people and rules](br-f09-09-shifts-respect-people-and-rules.md)).
 
 ## Configurable

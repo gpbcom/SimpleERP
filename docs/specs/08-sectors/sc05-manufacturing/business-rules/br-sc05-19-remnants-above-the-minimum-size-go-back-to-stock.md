@@ -3,7 +3,7 @@
 
 # 📏 BR-SC05-19 Remnants above the minimum size go back to stock
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

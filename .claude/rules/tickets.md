@@ -251,6 +251,21 @@ icons**:
 The session relays each report to the person in full, keeping the icons, and a last one when the run ends, fails or
 stalls (⚠️ no change for 20 minutes). The same script with `once` gives the report on demand.
 
+**Every sub-agent, not only the ticket workflows.** Whenever the main session runs work in the background (sub-agents
+of the Agent tool, a Workflow, a long shell job, a Monitor), the same 2-minute update lists **each of them, one line
+each**:
+
+| Field | Holds |
+| --- | --- |
+| State | 🔄 working, ✅ finished, ❌ failed, ⚠️ silent (no file changed and no output for 10 minutes) |
+| Task | What it was asked to do, in a few words, and the files or folders it owns |
+| 🔧 Doing now | Its latest visible action: the last file it changed (path, and how long ago), or the last line of its log |
+| 📊 Results so far | Its own counts (items done, confirmed, corrected, left), or the step reached |
+
+and ends with the machine's **🖥️ CPU** (percentage and load) and **🧠 RAM** (used of total, swap), naming any process
+that takes more than half the CPU. A sub-agent's activity is read from the files it owns and its own report file,
+never by reading its transcript.
+
 **Why:** a ticket run takes from minutes to hours in the background; the person must see it moving without asking.
 
 **Check:** the conversation shows an update at least every 2 minutes for the whole run.
@@ -430,14 +445,18 @@ the same code, so their pull requests merge without conflicts.
 **Rule:**
 
 - The GitHub project **SimpleERP roadmap** (`.claude/harness.json`) mirrors the roadmap: one issue per phase (P0 to
-  P10), epic and ticket, the tickets as
+  P11), epic and ticket, the tickets as
   sub-issues of their epic and the epics of their phase, one milestone per phase, a **Blocked by** link per
-  prerequisite of the ticket graph, the labels `phase:P0` to `phase:P10`. `python3 .claude/scripts/github/board.py
+  prerequisite of the ticket graph, the labels `phase:P0` to `phase:P11`. `python3 .claude/scripts/github/board.py
   bootstrap` creates them once (resumable) and records them in `.claude/github.json`; it finds the phases from the
   phase pages, however many there are, and stops with a clear message while the roadmap has none.
 - Every ticket sits in one column: 📥 Backlog (a prerequisite is open), ✅ Ready, 📝 Planned (`/ticket-plan`),
   🔄 Running (`/ticket-run`), 👀 In review (pull request open), 🏁 Done (merged). The workflows move the card;
   `board.py sync` recomputes every column from the repository.
+- **The board follows the specifications.** Whenever the roadmap pages, the ticket graph or the specifications they
+  cite change on `develop`, `python3 .claude/scripts/github/board.py refresh` is run (`--dry-run` first): it creates
+  the new issues and links, and updates every issue whose title, body or roadmap labels differ from the pages, and
+  every milestone's dates, keeping the labels a person added.
 - The board shows in three places: the project's board view on GitHub, `python3 .claude/scripts/github/board.py show` (and
   `/board`) in a terminal, and the Claude Code status line (`.claude/scripts/reports/statusline.py`), which reads the local
   cache `.git/erp/board.json` and never waits for GitHub.

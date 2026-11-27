@@ -3,7 +3,7 @@
 
 # 🗃️ E-F23-13 Driver accuracy
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -43,7 +43,7 @@ By driver and month.
 
 ## Retention
 
-(Proposed) 5 years.
+5 years.
 
 ## Audit
 

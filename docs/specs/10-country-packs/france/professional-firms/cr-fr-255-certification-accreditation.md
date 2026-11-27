@@ -3,19 +3,24 @@
 
 # ⚖️ CR-FR-255 Certification body accreditation
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A certification body works under an accreditation that requires qualified and impartial auditors, a decision
-separate from the audit, and a surveillance programme between certifications.
+A certification body certifies only under an accreditation (Code de la consommation L433-4); qualified and impartial
+auditors, a decision separate from the audit and a surveillance programme between certifications are taken from the
+accreditation standard NF EN ISO/IEC 17065, a product design reference, not a law text ([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Values
 
-- (Proposed) Qualified and impartial auditors.
-- (Proposed) Decision separate from the audit.
-- (Proposed) Surveillance audits.
-- (Proposed) SimpleERP enforces: certificates lapse without their surveillance audit.
+- Qualified and impartial auditors: design reference, NF EN ISO/IEC 17065 ([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
+- Decision separate from the audit: design reference, NF EN ISO/IEC 17065 ([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
+- The certification programme states how the evaluation, review and decision are repeated to check that the certified
+  object still conforms; surveillance is required when the product carries a mark (ISO/IEC 17065, 7.9.3 and 7.9.4); a
+  programme without surveillance states at least how the certification is reviewed when the object or the requirements
+  change; a certification decision is taken only when the requirements are met (7.7.3) ([Cofrac, CERT REF 09, revision
+  01](https://tools.cofrac.fr/documentation/CERT-REF-09), read 2026-11-27).
+- SimpleERP enforces: certificates lapse without their surveillance audit.
 - Read on Legifrance,
   [Code de la consommation L433-3 to L433-10](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032222803/)
   (read 15 November 2026); qualified and impartial auditors, the decision separate from the audit and surveillance
@@ -36,11 +41,12 @@ separate from the audit, and a surveillance programme between certifications.
 
 ## Legal references
 
-- Law to read: accreditation of certification bodies (not read yet).
+- Code de la consommation L433-3 to L433-10, R433-1, R433-2; standard NF EN ISO/IEC 17065, cited as a product design reference, not a law text ([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Effective dates
 
-(Proposed) To read.
+L433-3 to L433-6, L433-9 and L433-10 since 2016-07-01; L433-7 and L433-8 since 2019-12-15 ([Code de la
+consommation](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032222803/), read 2026-11-27).
 
 ## Enforced by
 
@@ -62,7 +68,8 @@ None stated.
 
 ## Open questions
 
-The law on accreditation of certification bodies is not read yet; the values are to read before launch.
+None: the auditors' qualification and impartiality and the separate decision follow ISO/IEC 17065 as a product design
+reference ([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

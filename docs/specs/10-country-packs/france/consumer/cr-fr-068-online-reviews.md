@@ -35,7 +35,7 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Administrative fine up to 75 000 EUR (natural person) or 375 000 EUR (legal person) for breaches of L111-7-2 ([Code de la consommation, art. L131-4](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221077/), read 2026-11-27).
 
 ## Exceptions
 

@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F19-01 Describe and order
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F19-01 Describe and order](../../../flows/fl-f19-01-describe-and-order.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

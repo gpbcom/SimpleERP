@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-40 Search and rank LinkedIn profiles
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -62,9 +62,11 @@ A few searches per open position, run again when the shortlist runs short.
 3. SimpleERP checks every criterion and refuses one the law forbids in hiring
    ([BR-F9-40](../../business-rules/br-f09-40-no-criterion-the-law-forbids-in-hiring.md)).
 4. HR runs the search; SimpleERP sends it through Unipile on HR's LinkedIn account, within the account's limits
-   ([BR-F9-41](../../business-rules/br-f09-41-linkedin-account-limits-respected.md)). (Proposed) The criteria the
-   account's LinkedIn search does not offer are applied by the AI assistant to the profiles returned, and the screen
-   says which ([Q19](../../../../07-questions/q19-which-linkedin-search-sourcing-uses.md)).
+   ([BR-F9-41](../../business-rules/br-f09-41-linkedin-account-limits-respected.md)). It runs on the search HR's own
+   account offers, as Unipile reports it; when the account has LinkedIn Recruiter or Sales Navigator, that search and
+   its extra criteria are used. The criteria the account's search does not offer are applied by the AI assistant to
+   the profiles returned, and the screen says which criteria LinkedIn applied and which the AI assistant applied
+   ([D571](../../../../06-decisions/f09-hr-and-projects/d571-linkedin-sourcing-uses-the-users-search.md)).
 5. The AI assistant scores each profile from 0 to 100 against the job position's criteria, with a short reason per score
    and the criteria met or missed; the profiles are listed by score.
 6. HR reads the scores and reasons, opens a profile when needed, and shortlists the people to contact; a score never
@@ -115,7 +117,7 @@ A few searches per open position, run again when the shortlist runs short.
 
 ## Permissions
 
-HR only. (Proposed) The hiring manager of the job position reads the shortlist, never the profiles left out. The
+HR only. The hiring manager of the job position reads the shortlist, never the profiles left out. The
 administrator connects Unipile and sets its caps but sees no profile.
 
 ## Notifications
@@ -124,23 +126,25 @@ HR, in the app: a search run in the background has finished, with the number of 
 
 ## Audit events
 
-Search run (criteria, account, profiles found, limit reached); each score (model, score, reason, criteria version); each
-profile shortlisted, removed or added by hand, by whom and when.
+Search run (criteria, account, the LinkedIn search used, the criteria the AI assistant applied, profiles found, limit
+reached); each score (model, score, reason, criteria version); each profile shortlisted, removed or added by hand, by
+whom and when.
 
 ## AI involvement
 
-The AI assistant fills criteria for HR to check, scores and explains; it never shortlists, contacts or rejects anyone.
+The AI assistant fills criteria for HR to check, applies to the profiles returned the criteria the account's LinkedIn
+search lacks, scores and explains; it never shortlists, contacts or rejects anyone.
 Ranking candidates is a high-risk AI use (EU AI Act, Annex III, point 4(a)):
 [BR-F4-21](../../../f04-meetings/business-rules/br-f04-21-candidate-scoring-is-high-risk-ai.md) and the
 [AI governance](../../../../05-non-functional/ai-governance.md) page apply, and HR's approval of the shortlist
 ([BR-F9-36](../../business-rules/br-f09-36-hr-approves-before-the-first-message.md)) is the human oversight. Scores use
 only job-related criteria, never a ground the law forbids, a photo or a name
-([BR-F9-40](../../business-rules/br-f09-40-no-criterion-the-law-forbids-in-hiring.md)). (Proposed) The model is the
+([BR-F9-40](../../business-rules/br-f09-40-no-criterion-the-law-forbids-in-hiring.md)). The model is the
 "Profile ranking" AI feature setting in F1.
 
 ## API, MCP and A2A exposure
 
-T5 operations of F9 for HR (run a search, list the ranked profiles, shortlist). (Proposed) The MCP tool of F9 may run a
+T5 operations of F9 for HR (run a search, list the ranked profiles, shortlist). The MCP tool of F9 may run a
 search and list the ranked profiles for HR, never shortlist alone. No A2A skill.
 
 ## Screens
@@ -183,10 +187,15 @@ sequenceDiagram
    shortlisted.
 6. **Given** the account's search limit reached **when** the search runs **then** it stops with the profiles found so
    far and says when it can go on.
+7. **Given** an account whose search has no years-of-experience filter and the criterion "5 to 15 years" **when** the
+   search runs **then** the AI assistant applies it to the profiles returned and the screen shows it as applied by the
+   AI assistant, the other criteria as applied by LinkedIn.
+8. **Given** an account with Sales Navigator or LinkedIn Recruiter **when** the search runs **then** that search and its
+   extra criteria are used.
 
 ## Non-functional notes
 
-(Proposed) 100 profiles found and scored within 2 minutes, in the background with its progress. Profiles not shortlisted
+100 profiles found and scored within 2 minutes, in the background with its progress. Profiles not shortlisted
 are not kept beyond the search ([BR-F9-39](../../business-rules/br-f09-39-prospects-kept-only-as-long-as-needed.md)).
 
 ## Regulatory references
@@ -206,8 +215,12 @@ hiring: [CR-FR-194](../../../../10-country-packs/france/labour/cr-fr-194-job-off
 
 ## Open questions
 
-- [Q18 LinkedIn automation and its user agreement](../../../../07-questions/q18-linkedin-automation-and-its-user-agreement.md)
-- [Q19 Which LinkedIn search sourcing uses](../../../../07-questions/q19-which-linkedin-search-sourcing-uses.md)
+- [Q18 LinkedIn automation and its user agreement](../../../../07-questions/q18-linkedin-automation-and-its-user-agreement.md),
+  answered by
+  [D570 LinkedIn sending prepared by default](../../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)
+- [Q19 Which LinkedIn search sourcing uses](../../../../07-questions/q19-which-linkedin-search-sourcing-uses.md),
+  answered by
+  [D571 LinkedIn sourcing uses the user's search](../../../../06-decisions/f09-hr-and-projects/d571-linkedin-sourcing-uses-the-users-search.md)
 
 ---
 

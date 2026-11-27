@@ -4,7 +4,7 @@
 
 # 📝 UC-F8-11 Read financial reports
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -112,7 +112,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Reports within 3 seconds (Proposed).
+Reports within 3 seconds.
 
 ## Regulatory references
 

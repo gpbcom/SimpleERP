@@ -3,7 +3,7 @@
 
 # 🖥️ S-F6-24 Partner programme
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

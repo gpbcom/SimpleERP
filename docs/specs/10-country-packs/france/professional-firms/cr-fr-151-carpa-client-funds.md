@@ -22,7 +22,8 @@ escrow agreement.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Deposit on a CARPA account (décret n° 91-1197, art. 240) in its current version since 1996-07-09
+([décret n° 91-1197, art. 236 to 242](https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000356568/LEGISCTA000006145648/), read 2026-11-27).
 
 ## Enforced by
 

@@ -35,10 +35,13 @@ find, filter, total and act on many follow-up emails at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Follow-up emails    Meetings › Follow-up emails   [+ New]                                                    |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Change asked] [new this month]   [chart: count by state]                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] FOLLOW-UP EMAIL   STATE                                                              |
+| state             | [ ] SUBJECT   MEETING   TO   SENT BY   SENT ON   LINK VALID U   STATE                    |
+| meeting           | [ ] ...                                                  Open >                          |
+| to                | [ ] ...                                                  Open >                          |
+| sent by           | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,8 +51,13 @@ find, filter, total and act on many follow-up emails at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Follow-up email | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Subject | subject | text | yes |
+| Meeting | meeting | link to the record | yes |
+| To | to | person's name | yes |
+| Sent by | sent by | person's name | yes |
+| Sent on | sent on | date and time | yes |
+| Link valid until | link valid until | date | yes |
+| State | state | badge: Draft, Sent, Confirmed, Change asked | yes |
 
 Secrets are never a column (VR-4).
 
@@ -57,17 +65,23 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Draft, Sent, Confirmed, Change asked | the visible rows (D488) |
+| Meeting | each linked meeting | the visible rows (D488) |
+| To | each person, the user first | the visible rows (D488) |
+| Sent by | each person, the user first | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: follow-up emails link to no other record type in their fields.
+- Follow-up emails of a chosen meeting, or of the meetings that match a filter.
+- From the other side: the meetings that have follow-up emails, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Change asked.
+- New this month, by sent on.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -79,6 +93,9 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: sent by.
+- Open: Draft, Sent.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -92,6 +109,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New follow-up email | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -107,7 +125,12 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| to | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| body | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| actions | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| sent by | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

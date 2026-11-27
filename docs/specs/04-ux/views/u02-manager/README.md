@@ -42,10 +42,10 @@ Home · Approvals · Sales · Purchasing · HR and projects · Meetings · Assis
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U02-01 | [Approve requests and follow the team](journeys/j-u02-01-approve-and-follow-the-team.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U02-01 | [Approve requests and follow the team](journeys/j-u02-01-approve-and-follow-the-team.md) | ✅ |
 
 ---
 

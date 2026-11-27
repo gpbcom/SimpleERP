@@ -24,7 +24,8 @@ food, hygiene and cleaning products also show their unit price and net quantity.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CConso L112-1 in force since 2016-07-01 ([Code de la consommation, chapter L112-1 to L112-9](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032220919/), read 2026-11-27); the start dates of the
+other texts not read.
 
 ## Enforced by
 

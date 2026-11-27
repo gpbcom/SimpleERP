@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-23 Handle an outside speaker's objection or erasure
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -57,7 +57,7 @@ Rare: a few a year.
 ## Error flows
 
 - 2e. The person cannot be found in any meeting: the answer says so.
-- 4e. The deadline nears (one month): the administrator is reminded a week before (Proposed).
+- 4e. The deadline nears (one month): the administrator is reminded a week before.
 
 ## Business rules
 

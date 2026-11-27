@@ -171,8 +171,7 @@ Not drawn yet: step S8 draws them from this page, one row per persona and device
 
 ## Open questions
 
-This list waits for the owner's confirmation: its entity was created in the benchmark-gap interview of
-2026-11-14.
+None.
 
 ---
 

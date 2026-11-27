@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F1-13 Security and audit
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F1-13 Security and audit](../../../flows/fl-f01-13-security-and-audit.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-34 Every override is logged with its reason
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-28, VD-33 / D510, D515)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -46,7 +46,7 @@ None.
 
 ## Configurable
 
-No. (Proposed) A company may keep a list of common reasons to pick from, beside the free text.
+No. A company may keep a list of common reasons to pick from, beside the free text.
 
 ## Open questions
 

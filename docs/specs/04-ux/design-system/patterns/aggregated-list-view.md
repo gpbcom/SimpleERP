@@ -3,7 +3,7 @@
 
 # 🧵 Aggregated list view
 
-**Status:** 🔄 draft (GH-2 step S4 and S4b, from VD-01 to VD-12, VD-18 to VD-20 / D484 to D495, D501, D502)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -24,8 +24,8 @@ detail pattern](list-detail.md).
   ([D495](../../../06-decisions/ux/d495-views-listed-under-each-capabilitys-menu.md)).
 - Each list page is written from the [list view template](../../../_templates/list-view.md); its content comes from the
   view rules VR-1 to VR-15 and the owner's review
-  ([D492](../../../06-decisions/ux/d492-view-content-derived-by-rules-reviewed-per-capability.md), [view
-  rules](../../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md#view-rules)).
+  ([D492](../../../06-decisions/ux/d492-view-content-derived-by-rules-reviewed-per-capability.md), view rules (the
+  owner's interview notes of 2026-11 for the specifications, not kept in the repository)).
 - Not for a task done in steps (use the [wizard pattern](wizard.md)) or a single settings page.
 - A pipeline, a planning or a delivery round stays a table in its aggregated view; a board screen such as [S-F6-01
   Pipeline](../../../02-functional/f06-customers-and-sales/screens/01-lead-to-quote/s-f06-01-pipeline.md) stays the
@@ -84,23 +84,23 @@ detail pattern](list-detail.md).
    [D488](../../../06-decisions/ux/d488-totals-facets-charts-ai-answers-and-exports-on-visible-rows-only.md).
 
 **Example images** (drawn with GH-2's mockup kit, light and dark, D120). They show how the same view differs per persona
-([D490](../../../06-decisions/ux/d490-example-images-for-every-persona-that-can-open-a-view.md)). (Proposed) They move
+([D490](../../../06-decisions/ux/d490-example-images-for-every-persona-that-can-open-a-view.md)). They move
 next to this page, in `../images/`, in step S8
 ([D500](../../../06-decisions/ux/d500-images-live-in-the-specs-folders.md)); the map layout and the "Eligible for" facet
 are drawn then.
 
 | Shows | Device | Light | Dark |
 |---|---|---|---|
-| Opportunities, U03 Sales: own records, no Owner column | desktop | ![Opportunities, U03 Sales: own records, no Owner column, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u03-sales-desktop-light.png) | ![Opportunities, U03 Sales: own records, no Owner column, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u03-sales-desktop-dark.png) |
-| Opportunities, U03 Sales | phone | ![Opportunities, U03 Sales, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u03-sales-phone-light.png) | ![Opportunities, U03 Sales, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u03-sales-phone-dark.png) |
-| Opportunities, U02 Manager: the team, two rows selected, bulk bar | desktop | ![Opportunities, U02 Manager: the team, two rows selected, bulk bar, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u02-manager-desktop-light.png) | ![Opportunities, U02 Manager: the team, two rows selected, bulk bar, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u02-manager-desktop-dark.png) |
-| Opportunities, U02 Manager | phone | ![Opportunities, U02 Manager, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u02-manager-phone-light.png) | ![Opportunities, U02 Manager, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u02-manager-phone-dark.png) |
-| Opportunities, U03 Sales, plain-words filter and the AI assistant's answer | desktop | ![Opportunities, U03 Sales, plain-words filter and the AI assistant's answer, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u03-sales-ai-filter-desktop-light.png) | ![Opportunities, U03 Sales, plain-words filter and the AI assistant's answer, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u03-sales-ai-filter-desktop-dark.png) |
-| Opportunities, U03 Sales, plain-words filter | phone | ![Opportunities, U03 Sales, plain-words filter, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u03-sales-ai-filter-phone-light.png) | ![Opportunities, U03 Sales, plain-words filter, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/opportunities-u03-sales-ai-filter-phone-dark.png) |
-| Employee records, U06 Human resources: all employees, pay and contract columns | desktop | ![Employee records, U06 Human resources: all employees, pay and contract columns, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/employee-records-u06-hr-desktop-light.png) | ![Employee records, U06 Human resources: all employees, pay and contract columns, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/employee-records-u06-hr-desktop-dark.png) |
-| Employee records, U06 Human resources | phone | ![Employee records, U06 Human resources, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/employee-records-u06-hr-phone-light.png) | ![Employee records, U06 Human resources, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/employee-records-u06-hr-phone-dark.png) |
-| Employee records, U02 Manager: own team only, no pay or contract columns | desktop | ![Employee records, U02 Manager: own team only, no pay or contract columns, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/employee-records-u02-manager-desktop-light.png) | ![Employee records, U02 Manager: own team only, no pay or contract columns, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/employee-records-u02-manager-desktop-dark.png) |
-| Employee records, U02 Manager | phone | ![Employee records, U02 Manager, light](../../../../tickets/GH-2/resources/flowcharts-screens/examples/employee-records-u02-manager-phone-light.png) | ![Employee records, U02 Manager, dark](../../../../tickets/GH-2/resources/flowcharts-screens/examples/employee-records-u02-manager-phone-dark.png) |
+| Opportunities, U03 Sales: own records, no Owner column | desktop | ![Opportunities, U03 Sales: own records, no Owner column, light](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u03-sales-desktop-light.png) | ![Opportunities, U03 Sales: own records, no Owner column, dark](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u03-sales-desktop-dark.png) |
+| Opportunities, U03 Sales | phone | ![Opportunities, U03 Sales, light](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u03-sales-phone-light.png) | ![Opportunities, U03 Sales, dark](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u03-sales-phone-dark.png) |
+| Opportunities, U02 Manager: the team, two rows selected, bulk bar | desktop | ![Opportunities, U02 Manager: the team, two rows selected, bulk bar, light](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u02-manager-desktop-light.png) | ![Opportunities, U02 Manager: the team, two rows selected, bulk bar, dark](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u02-manager-desktop-dark.png) |
+| Opportunities, U02 Manager | phone | ![Opportunities, U02 Manager, light](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u02-manager-phone-light.png) | ![Opportunities, U02 Manager, dark](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u02-manager-phone-dark.png) |
+| Opportunities, U03 Sales, plain-words filter and the AI assistant's answer | desktop | ![Opportunities, U03 Sales, plain-words filter and the AI assistant's answer, light](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u03-sales-desktop-light.png) | ![Opportunities, U03 Sales, plain-words filter and the AI assistant's answer, dark](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u03-sales-desktop-dark.png) |
+| Opportunities, U03 Sales, plain-words filter | phone | ![Opportunities, U03 Sales, plain-words filter, light](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u03-sales-phone-light.png) | ![Opportunities, U03 Sales, plain-words filter, dark](../../../02-functional/f06-customers-and-sales/images/lists/s-f06-l02-opportunities-u03-sales-phone-dark.png) |
+| Employee records, U06 Human resources: all employees, pay and contract columns | desktop | ![Employee records, U06 Human resources: all employees, pay and contract columns, light](../../../02-functional/f09-hr-and-projects/images/lists/s-f09-l01-employee-records-u06-hr-desktop-light.png) | ![Employee records, U06 Human resources: all employees, pay and contract columns, dark](../../../02-functional/f09-hr-and-projects/images/lists/s-f09-l01-employee-records-u06-hr-desktop-dark.png) |
+| Employee records, U06 Human resources | phone | ![Employee records, U06 Human resources, light](../../../02-functional/f09-hr-and-projects/images/lists/s-f09-l01-employee-records-u06-hr-phone-light.png) | ![Employee records, U06 Human resources, dark](../../../02-functional/f09-hr-and-projects/images/lists/s-f09-l01-employee-records-u06-hr-phone-dark.png) |
+| Employee records, U02 Manager: own team only, no pay or contract columns | desktop | ![Employee records, U02 Manager: own team only, no pay or contract columns, light](../../../02-functional/f09-hr-and-projects/images/lists/s-f09-l01-employee-records-u02-manager-desktop-light.png) | ![Employee records, U02 Manager: own team only, no pay or contract columns, dark](../../../02-functional/f09-hr-and-projects/images/lists/s-f09-l01-employee-records-u02-manager-desktop-dark.png) |
+| Employee records, U02 Manager | phone | ![Employee records, U02 Manager, light](../../../02-functional/f09-hr-and-projects/images/lists/s-f09-l01-employee-records-u02-manager-phone-light.png) | ![Employee records, U02 Manager, dark](../../../02-functional/f09-hr-and-projects/images/lists/s-f09-l01-employee-records-u02-manager-phone-dark.png) |
 
 The figures and names are examples drawn from the example companies, not real data.
 
@@ -129,7 +129,7 @@ flowchart TD
   A -- switches to Map --> M[Map layout of the same visible rows]
 ```
 
-- The first page and the KPI strip show within 1 second on 100,000 records (Proposed); facets are computed on the server
+- The first page and the KPI strip show within 1 second on 100,000 records; facets are computed on the server
   ([Performance](../../../05-non-functional/performance.md)).
 - The plain-words filter is a request to the AI assistant ([F3](../../../02-functional/f03-assistant/README.md)): its
   answer is a set of filter chips the user sees and can edit, never a hidden query.
@@ -170,9 +170,9 @@ table, for the roles that hold the map right
 [D502](../../../06-decisions/ux/d502-records-on-a-map-for-planners-and-managers-only.md),
 [BR-F1-32](../../../02-functional/f01-administration/business-rules/br-f01-32-map-right-for-planners-and-managers.md).
 About 40 record types hold a real place, such as stops, care recipients, construction sites, plots, properties and
-stores ([maps and eligibility](../../../../tickets/GH-2/resources/flowcharts-screens/maps-and-eligibility.md)). A record
-type whose places are inside a building (warehouse bins, hotel rooms, tables, venue areas, work centres) shows a [C-18
-Plan](../components/c-18-plan.md) in place of the map.
+stores (maps and eligibility (the owner's interview notes of 2026-11 for the specifications, not kept in the
+repository)). A record type whose places are inside a building (warehouse bins, hotel rooms, tables, venue areas, work
+centres) shows a [C-18 Plan](../components/c-18-plan.md) in place of the map.
 
 ```mermaid
 flowchart TD
@@ -195,7 +195,7 @@ flowchart TD
 - **Rows without a place:** "12 of these records have no place on the map", counted on visible rows, with a link that
   filters the table to them.
 - **Selection:** pins selected on the map are the rows selected in the table; the bulk bar is the same.
-- **(Proposed) Map extent as a filter:** "Only what the map shows" adds a chip that limits the table, the KPI strip and
+- **Map extent as a filter:** "Only what the map shows" adds a chip that limits the table, the KPI strip and
   the facets to the area on screen.
 - **Saved views** keep the layout, the map's area and its layers ([E-F2-04 List
   view](../../../02-functional/f02-no-code-configuration/data/e-f02-04-list-view.md), change note).
@@ -204,7 +204,7 @@ flowchart TD
   [BR-F9-32](../../../02-functional/f09-hr-and-projects/business-rules/br-f09-32-who-sees-a-position.md), on planning
   screens such as [S-F9-33 Planning
   map](../../../02-functional/f09-hr-and-projects/screens/12-schedule-customer-requests/s-f09-33-planning-map.md).
-- **Without the map right** the view shows no Map switch at all; the records stay a table with their address. (Proposed)
+- **Without the map right** the view shows no Map switch at all; the records stay a table with their address.
   On a field worker's phone an address shows a "Directions" button that opens their own navigation app.
 - **Phone:** the switch stays; the map takes the full width and the facet drawer is unchanged.
 
@@ -218,7 +218,7 @@ On the views where scheduling attributes apply, the facet panel adds an **"Eligi
 - **On the views of people who can be scheduled** (employee records, carers, drivers, crews, trainers): one value per
   request type or operation that has required attributes, such as "Home visit: personal care"; its count is the number
   of people who hold every required attribute, verified and current.
-- **(Proposed) On the work requests view**
+- **On the work requests view**
   [S-F16-14](../../../02-functional/f16-customer-support-agents/screens/06-take-in-every-request/s-f16-14-work-requests.md);
   "Someone eligible" and "Nobody eligible", the requests with at least one, or no, eligible person in their window.
 

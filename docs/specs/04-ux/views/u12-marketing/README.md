@@ -44,10 +44,10 @@ Home · Posts · Calendar · Statistics · Meetings · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U12-01 | [Publish on every network](journeys/j-u12-01-publish-on-every-network.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U12-01 | [Publish on every network](journeys/j-u12-01-publish-on-every-network.md) | ✅ |
 
 ---
 

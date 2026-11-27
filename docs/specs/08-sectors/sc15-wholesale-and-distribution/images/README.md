@@ -18,4 +18,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC15-05 Sales force and performance](05-sales-force-and-performance/README.md) | 48 images |
 | 🖼️ |  | [Images: FL-SC15-06 Beverages, van sales, catch weight and medical devices](06-beverages-vans-weights-and-devices/README.md) | 32 images |
 | 🖼️ |  | [Screen states](states/README.md) | 160 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

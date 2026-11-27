@@ -3,24 +3,28 @@
 
 # ⚖️ CR-FR-157 Qualiopi quality certification
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) Providers funded by public or pooled money, or the personal training account, hold the Qualiopi certification
-and keep the evidence of its criteria.
+Providers funded by public or pooled money, or the personal training account, hold the Qualiopi certification
+and keep the evidence of its criteria: the funders are a skills operator (OPCO), the commission of L6323-17-6, the
+State, the regions, the Caisse des dépôts, France Travail and the Agefiph; the certification is issued by an accredited
+certifier or a labelling body recognised by France compétences ([Code du travail, art. L6316-1 to L6316-5](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037385712), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Criteria and indicators to read.
+- Criteria and indicators: 7 criteria (R6316-1) and 33 indicators in the national framework
+  ([décret n° 2026-728 du 1er août 2026](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054608509), in force 2026-11-01, read 2026-11-27).
 
 ## Legal references
 
-- Code du travail L6316-1 (not read yet).
+- Code du travail L6316-1 to L6316-5, R6316-1 and its annex; décret n° 2026-728 du 1er août 2026.
 
 ## Effective dates
 
-(Proposed) To read.
+L6316-1 in its current version since 2024-01-01 ([Code du travail](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037385712), read 2026-11-27); the national framework: until 2026-10-31, 7 criteria and 32 indicators ([décret n° 2019-565 du 6 juin 2019](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038565259),
+certification mandatory from 2021-01-01); from 2026-11-01, 7 criteria and 33 indicators ([décret n° 2026-728, art. 2](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054608509), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +37,8 @@ in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+No sanction is stated; without the certification the listed funders do not fund the provider, and they check
+the quality of the training ([Code du travail, art. L6316-1 and L6316-3](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000037385712), read 2026-11-27).
 
 ## Exceptions
 
@@ -41,7 +46,7 @@ None.
 
 ## Open questions
 
-No official page was read.
+None, read on 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

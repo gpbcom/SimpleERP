@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-18 Regulated care
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -24,10 +24,10 @@ Beauty and wellness › Care records; the booking's page; the AI assistant.
 ```text
 +--------------------------------------------------------------------------------------------------+
 | Care record CR-2026-0412: Noor A., piercing                         Prepared                     |
-| Activity declared: yes (studio)   Practitioner Ines B.  Hygiene training valid to 2028-02        |
-| Consent   Signed 2026-11-21 10:12 by the client   Guardian: not needed                           |
+| Activity declared to the ARS: yes   Practitioner Ines B.  Hygiene training valid to 2028-02      |
+| Consent   Risks given in writing, signed 2026-11-21 10:12 by the client   Guardian: not needed   |
 | Place on the body: ear, helix   Needle batch N-220   Jewel batch J-17                            |
-| Aftercare given: yes, leaflet and advice recorded 2026-11-21                                     |
+| Aftercare given in writing: leaflet and advice recorded 2026-11-21                               |
 | [Start]  [Close the record]  [Add a follow-up]                                                   |
 +--------------------------------------------------------------------------------------------------+
 ```
@@ -50,9 +50,9 @@ Beauty and wellness › Care records; the booking's page; the AI assistant.
 | Client | E-SC17-12 client | link | no | yes |
 | Kind | E-SC17-12 kind | tattoo, piercing, laser | yes while Prepared | yes |
 | Practitioner | E-SC17-12 practitioner | employee or renter | yes while Prepared | yes |
-| Consent | E-SC17-12 consent signed on | date and document | yes while Prepared | yes |
-| Batches | E-SC17-12 batches | product and needle batches | yes while Prepared | yes |
-| Aftercare | E-SC17-12 aftercare given on | date and text | yes while Performed | yes |
+| Consent | E-SC17-12 consent signed on | date and document: the risks given in writing before the act (CSP R1311-12); for a minor, the written consent of a parent or guardian, its proof kept 3 years (R1311-11) | yes while Prepared | yes |
+| Batches | E-SC17-12 batches | the ink's batch from its label (Regulation (EU) 2020/2081); needle batches recorded as a product choice | yes while Prepared | yes |
+| Aftercare | E-SC17-12 aftercare given on | date and text, given in writing (R1311-12) | yes while Performed | yes |
 
 ## Actions
 

@@ -21,7 +21,9 @@ accounts, journals and taxes.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+ANC regulation 2014-03 has no first financial year of its own: it applies from 2014-10-16, the day after the
+homologating arrêté was published ([Arrêté of 8 September 2014](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029583307), [ANC regulation 2014-03, art. 1 and 2](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2014/Reglt2014-03/Reglt%202014-03_Plan%20comptable%20general.pdf), read 2026-11-27); the consolidated version of
+1 January 2026 gives no date per article ([ANC, PCG consolidated at 1 January 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf), read 2026-11-27).
 
 ## Enforced by
 

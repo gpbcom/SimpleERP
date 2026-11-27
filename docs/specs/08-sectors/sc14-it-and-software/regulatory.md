@@ -16,8 +16,10 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-100 VAT on services to clients abroad](../../10-country-packs/france/tax-and-vat/cr-fr-100-vat-on-services-abroad.md),
 [CR-FR-051 Access and erasure requests](../../10-country-packs/france/data-protection/cr-fr-051-access-and-erasure.md),
 [CR-FR-019 Late-payment penalties](../../10-country-packs/france/invoicing/cr-fr-019-late-payment-penalties.md),
-[CR-FR-023 SEPA payment formats](../../10-country-packs/france/payments/cr-fr-023-sepa-formats.md). NIS2 and VAT on
-digital services to consumers are (Proposed): their official pages could not be read yet.
+[CR-FR-023 SEPA payment formats](../../10-country-packs/france/payments/cr-fr-023-sepa-formats.md). NIS2 is read at EU
+level in CR-FR-169 and applies in France only once its transposition texts are in force (none promulgated on
+2026-11-27); the 10 000 EUR distance-selling threshold is read in CR-FR-071. The French NIS2 values and the threshold
+for digital services wait for the lawyer's review.
 
 ## Country pack
 

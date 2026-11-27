@@ -27,7 +27,8 @@ A personal-services company declares its activities; services to fragile people 
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Approval (Code du travail L7232-1) in its current version since 2010-07-25; declaration (L7232-1-1) and its exceptions
+(L7232-1-2) since 2025-01-01 ([Code du travail, art. L7232-1 to L7232-1-2](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006189973/), read 2026-11-27).
 
 ## Enforced by
 

@@ -49,10 +49,10 @@ training, SC13 Agriculture and food, SC14 IT and software, SC15 Wholesale and di
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U09-01 | [Accept a quote and pay](journeys/j-u09-01-accept-a-quote-and-pay.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U09-01 | [Accept a quote and pay](journeys/j-u09-01-accept-a-quote-and-pay.md) | ✅ |
 
 ---
 

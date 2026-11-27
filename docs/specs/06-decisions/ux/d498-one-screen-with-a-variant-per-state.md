@@ -3,7 +3,7 @@
 
 # 📜 D498 One screen with a variant per state
 
-**Status:** 🔄 draft (GH-2 step S7, from VD-15 / D498)
+**Status:** ✅ decided
 
 ## Context
 
@@ -22,8 +22,8 @@ that flow, with its images per persona, device and theme.
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 15).
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 15).
 
 ## Consequences
 
@@ -39,7 +39,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer
 - [D490 Example images for every persona that can open a
   view](d490-example-images-for-every-persona-that-can-open-a-view.md)
 - [D500 Images live in the specs folders](d500-images-live-in-the-specs-folders.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

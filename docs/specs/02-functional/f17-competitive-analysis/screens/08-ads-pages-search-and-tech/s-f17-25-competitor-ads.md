@@ -4,7 +4,7 @@
 
 # 🖥️ S-F17-25 Competitor ads
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

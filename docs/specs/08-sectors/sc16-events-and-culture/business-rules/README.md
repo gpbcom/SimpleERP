@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -26,10 +26,10 @@ One file per rule.
 | 📏 | BR-SC16-13 | [Bars within the licence](br-sc16-13-bars-within-the-licence.md) | ✅ |
 | 📏 | BR-SC16-14 | [Ticket VAT by category](br-sc16-14-ticket-vat-by-category.md) | ✅ |
 | 📏 | BR-SC16-15 | [Attendees contacted with consent](br-sc16-15-attendees-contacted-with-consent.md) | ✅ |
-| 📏 | BR-SC16-16 | [Unused balances are refundable after the event](br-sc16-16-unused-balances-are-refundable-after-the-event.md) | 🔄 |
-| 📏 | BR-SC16-17 | [Box-office figures are reported to the CNC](br-sc16-17-box-office-figures-are-reported-to-the-cnc.md) | 🔄 |
-| 📏 | BR-SC16-18 | [Each show is settled per its contract](br-sc16-18-each-show-is-settled-per-its-contract.md) | 🔄 |
-| 📏 | BR-SC16-19 | [Images are sold only with the model's release](br-sc16-19-images-are-sold-only-with-the-models-release.md) | 🔄 |
+| 📏 | BR-SC16-16 | [Unused balances are refundable after the event](br-sc16-16-unused-balances-are-refundable-after-the-event.md) | ✅ |
+| 📏 | BR-SC16-17 | [Box-office figures are reported to the CNC](br-sc16-17-box-office-figures-are-reported-to-the-cnc.md) | ✅ |
+| 📏 | BR-SC16-18 | [Each show is settled per its contract](br-sc16-18-each-show-is-settled-per-its-contract.md) | ✅ |
+| 📏 | BR-SC16-19 | [Images are sold only with the model's release](br-sc16-19-images-are-sold-only-with-the-models-release.md) | ✅ |
 
 ---
 

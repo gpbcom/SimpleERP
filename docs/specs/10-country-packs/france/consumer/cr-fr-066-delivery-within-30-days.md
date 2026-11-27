@@ -26,6 +26,7 @@ Since 2022-01-01 for contracts concluded from that date.
 ## Enforced by
 
 - [Regulatory](../../../02-functional/f11-online-shop/regulatory.md)
+- [UC-SC07-23 Run last-mile rounds](../../../08-sectors/sc07-transport/use-cases/07-passengers-removals-courier-and-freight/uc-sc07-23-run-last-mile-rounds.md)
 
 ## When the law changes
 
@@ -34,7 +35,8 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Administrative fine up to 3 000 EUR (natural person) or 15 000 EUR (legal person) for breaches of L216-1 to L216-6, for
+contracts concluded from 2022-01-01 ([Code de la consommation, art. L241-8](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221767/), read 2026-11-27).
 
 ## Exceptions
 

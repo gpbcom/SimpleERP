@@ -9,7 +9,7 @@
 
 The 2026-11-14 benchmark-gaps interview compared the specifications with the voice, agent and briefing features of the
 benchmarked suites and offered each gap as an option
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F3 Assistant").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F3 Assistant").
 
 ## Options
 
@@ -33,7 +33,7 @@ The owner selected all five gaps; each becomes a use case of F3, drawn in
 ## Decided by
 
 The owner, on 2026-11-14, in the benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "Block by block").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "Block by block").
 
 ## Consequences
 
@@ -63,7 +63,7 @@ The owner, on 2026-11-14, in the benchmark-gaps interview
 
 - [FL-F3-13 Voice, agents and briefings](../../02-functional/f03-assistant/flows/fl-f03-13-voice-agents-and-briefings.md)
 - [D460 F3 Assistant: gaps and improvements](d460-f03-gaps-and-improvements.md)
-- [Interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)
+- Interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)
 
 ---
 

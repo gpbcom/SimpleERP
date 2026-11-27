@@ -4,7 +4,7 @@
 
 # 🖥️ S-F25-26 Beta programme
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

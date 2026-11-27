@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U11-01 | [Run many client companies](j-u11-01-run-client-companies.md) | 🔄 |
+| 🧭 | J-U11-01 | [Run many client companies](j-u11-01-run-client-companies.md) | ✅ |
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-01 Maintenance contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

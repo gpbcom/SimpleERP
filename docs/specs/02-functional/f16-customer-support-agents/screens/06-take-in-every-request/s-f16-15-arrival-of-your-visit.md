@@ -4,7 +4,7 @@
 
 # 🖥️ S-F16-15 Arrival of your visit
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-20, VD-21 / D502, D503)
+**Status:** ✅ specified
 
 ## Personas
 

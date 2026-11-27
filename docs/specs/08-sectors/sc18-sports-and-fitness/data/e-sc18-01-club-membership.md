@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-01 Club membership
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

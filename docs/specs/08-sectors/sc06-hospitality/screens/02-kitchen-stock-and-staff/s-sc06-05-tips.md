@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC06-05 Tips
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -13,7 +13,9 @@
 
 ## Purpose
 
-Used to share tips ([UC-SC06-05](../../use-cases/02-kitchen-stock-and-staff/uc-sc06-05-share-tips.md)).
+Share the period's card and cash tips, in full, among the staff in contact with customers, by the key the company set
+([UC-SC06-05](../../use-cases/02-kitchen-stock-and-staff/uc-sc06-05-share-tips.md),
+[CR-FR-113](../../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md)).
 
 ## Entry points
 
@@ -49,7 +51,8 @@ with their examples.
 
 ## States
 
-- Normal: the period's tips, the key and each person's share.
+- Normal: the period's tips, the key and the share of each person in contact with customers; staff without contact
+  with customers, such as the kitchen, are not in the list.
 - Empty: "No tips this period".
 - Loading: the frame and titles show at once with placeholder rows; within 1 second
   ([D408](../../../../06-decisions/technical/d408-performance-and-profiles.md)) the data replaces them, and a longer
@@ -78,7 +81,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

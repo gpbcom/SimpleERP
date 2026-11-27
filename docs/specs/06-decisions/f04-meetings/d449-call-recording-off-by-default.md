@@ -38,7 +38,7 @@ CR-FR-206 and CR-FR-207 are written, their values until read.
 - [AI governance](../../05-non-functional/ai-governance.md)
 - [D222](d222-business-calls-recorded.md)
 - [D234](d234-scoring-calls-and-candidates.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

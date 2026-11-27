@@ -4,7 +4,7 @@
 
 # 📏 BR-F6-19 Forwarded leads leave their owner's pipeline
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -43,7 +43,7 @@ None.
 
 ## Configurable
 
-Yes: the time before a lead returns and the protection period, per tier, by sales (Proposed defaults: 14 and 90 days).
+Yes: the time before a lead returns and the protection period, per tier, by sales (defaults: 14 and 90 days).
 
 ## Open questions
 

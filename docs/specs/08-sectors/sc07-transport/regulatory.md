@@ -2,7 +2,7 @@
 
 # ⚖️ Regulatory
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Rules that apply
 
@@ -18,9 +18,10 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-123 Fuel price indexation](../../10-country-packs/france/transport/cr-fr-123-fuel-indexation.md),
 [CR-FR-085 Vigilance over subcontractors](../../10-country-packs/france/construction/cr-fr-085-subcontractor-vigilance.md),
 [CR-FR-054 Location only when needed and announced](../../10-country-packs/france/data-protection/cr-fr-054-location-with-consent.md).
-Five are (Proposed): their official pages could not be read yet.
+All are read in their official sources (2026-11-27), except the ADR documents and thresholds of
+CR-FR-121, (⚖️ lawyer review before launch, D574) to read in the ADR edition in force.
 
-(Proposed) International conventions and standards, licensed or free, listed with their sources in the
+International conventions and standards, licensed or free, listed with their sources in the
 [sector standards](../../05-non-functional/sector-technical-standards.md#8-sc07-transport-and-logistics): the CMR
 convention and e-CMR, ADR (with RID, IMDG and IATA DGR for other modes), ATP, TIR, eFTI, ISO 14083 and the GLEC
 Framework for CO2, GS1 labels and EDI, UN/EDIFACT transport messages, Incoterms 2020, ISO 9001, ISO 28000 and ISO 39001.

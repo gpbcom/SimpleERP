@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-02 Direct debits need a signed mandate
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

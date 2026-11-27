@@ -33,10 +33,12 @@ total and act on many job offers at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Job offers    HR and projects › Job offers   [+ New]                                                         |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Sent] [new this month]   [chart: count by state]                                                    |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] JOB OFFER   STATE                                                                    |
+| state             | [ ] JOB OFFER   APPLICANT   JOB POSITION   GROSS SALARY   START   SENT ON   STATE        |
+| applicant         | [ ] ...                                                  Open >                          |
+| job position      | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,8 +48,13 @@ total and act on many job offers at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Job offer | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Job offer | title | text | yes |
+| Applicant | applicant | person's name | yes |
+| Job position | job position | link to the record | yes |
+| Gross salary | gross salary | amount, right-aligned | yes |
+| Start | start | date | yes |
+| Sent on | sent on | date | yes |
+| State | state | badge: Sent, Signed, Refused, Hired | yes |
 
 Secrets are never a column (VR-4).
 
@@ -55,17 +62,22 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Sent, Signed, Refused, Hired | the visible rows (D488) |
+| Applicant | each person, the user first | the visible rows (D488) |
+| Job position | each linked job position | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: job offers link to no other record type in their fields.
+- Job offers of a chosen job position, or of the job positions that match a filter.
+- From the other side: the job positions that have job offers, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Sent.
+- New this month, by sent on.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -77,6 +89,8 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Open: Sent, Signed.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -90,6 +104,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New job offer | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -105,7 +120,13 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| applicant | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| gross salary | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| package | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| signature | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| employee | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

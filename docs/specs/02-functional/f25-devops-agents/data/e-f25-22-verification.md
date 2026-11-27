@@ -3,7 +3,7 @@
 
 # 🗃️ E-F25-22 Verification
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -61,7 +61,7 @@ stateDiagram-v2
   Superseded --> [*] : kept as history, BR-F25-27
 ```
 
-(Proposed) A Blocked verification does not use a repair cycle: repairing the code does not repair a test stack.
+A Blocked verification does not use a repair cycle: repairing the code does not repair a test stack.
 
 ## Indexes and search
 
@@ -69,7 +69,7 @@ By ticket, candidate commit, cycle, verdict and state.
 
 ## Retention
 
-(Proposed) Kept as long as the ticket's agent runs ([E-F25-10 Agent run](e-f25-10-agent-run.md)), with the evidence
+Kept as long as the ticket's agent runs ([E-F25-10 Agent run](e-f25-10-agent-run.md)), with the evidence
 files.
 
 ## Audit

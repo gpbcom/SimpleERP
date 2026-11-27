@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC20-18 Civil registry
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -29,7 +29,9 @@ Public bodies › Civil registry; a citizen's extract request.
 | 2027-B-18  Birth    Roux, Camille     12 Feb      0       Registered                             |
 | 2027-M-04  Marriage Faure / Martin    5 Mar       1       Annotated                              |
 | 2027-D-07  Death    Garcia, Henri     9 Mar       0       Drafted                                |
-| Edit of a registered act: not allowed. Use [Add a margin note]                                   |
+| Edit of a registered act: not allowed. A later event is added as a margin note within 3 days; a  |
+| rectification follows the tribunal's order, or the officer's for a material error.               |
+| [Add a margin note]                                                                              |
 +--------------------------------------------------------------------------------------------------+
 ```
 
@@ -59,8 +61,9 @@ Public bodies › Civil registry; a citizen's extract request.
 | Action | Where | Who may use it | Result |
 |---|---|---|---|
 | Record an act | header | office worker | a drafted act is created |
-| Sign | row | civil-status officer | the act is signed and registered |
-| Add a margin note | row | office worker | a note with its basis is attached |
+| Sign | row | civil-status officer | the act is signed by the officer, the parties and the witnesses, and registered |
+| Add a margin note | row | office worker | a note with its basis is attached: a later event within 3 days (Code civil 49), or a rectification ordered by the president of the tribunal, or made by the officer or on the prosecutor's order for a purely material error (99, 99-1) |
+| Extract | header | office worker | a full copy only to those entitled (the person, close family, the legal representative, a mandated person, the prosecutor, the officer, the notary, the authorised administrations), a death act to anyone, the others with the prosecutor's leave; a copy carries its margin notes; every extract is logged ([BR-SC20-18](../../business-rules/br-sc20-18-civil-records-are-corrected-only-by-a-margin-note.md)) |
 
 ## States
 

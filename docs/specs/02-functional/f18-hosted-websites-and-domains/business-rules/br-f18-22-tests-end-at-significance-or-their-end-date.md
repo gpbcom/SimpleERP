@@ -4,7 +4,7 @@
 
 # 📏 BR-F18-22 Tests end at significance or their end date
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

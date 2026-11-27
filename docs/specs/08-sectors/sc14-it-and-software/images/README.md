@@ -18,4 +18,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC14-06 Portal and metrics](06-portal-and-metrics/README.md) | 20 images |
 | 🖼️ |  | [Images: FL-SC14-07 Hardware, licences, research tax credit and sponsorship](07-hardware-licences-and-tax-credits/README.md) | 32 images |
 | 🖼️ |  | [Screen states](states/README.md) | 168 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

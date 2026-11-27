@@ -26,6 +26,8 @@ Marketing › Consent.
 | Contact        Channel   Status     Source            Date       |
 | lea@mail.fr    email     given      form Autumn v3    2026-11-12 |
 | lea@mail.fr    SMS       withdrawn  STOP reply        2026-11-14 |
+| lea@mail.fr    postal    withdrawn  objection letter  2026-11-18 |
+| lea@mail.fr    push      given      app opt-in        2026-11-20 |
 |                                         [Export proof]           |
 +------------------------------------------------------------------+
 ```

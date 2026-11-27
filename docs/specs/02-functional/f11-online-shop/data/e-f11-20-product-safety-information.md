@@ -3,7 +3,7 @@
 
 # 🗃️ E-F11-20 Product safety information
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -37,7 +37,8 @@ By product.
 
 ## Retention
 
-10 years after the product's last sale (Proposed).
+10 years after the product's last sale (⚖️ lawyer review before launch, D574: Regulation (EU) 2023/988, articles 9 and 19; no
+France-pack rule reads the retention).
 
 ## Audit
 

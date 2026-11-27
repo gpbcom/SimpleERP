@@ -4,12 +4,12 @@
 
 # 📏 BR-F20-14 Maintenance announced ahead
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-Planned maintenance that may interrupt a customer's service is announced at least (Proposed) 7 days ahead with its
-window, expected effect and contact, and runs outside the customer's business hours (Proposed) unless urgent for
+Planned maintenance that may interrupt a customer's service is announced at least 7 days ahead with its
+window, expected effect and contact, and runs outside the customer's business hours unless urgent for
 security.
 
 ## Why
@@ -34,7 +34,7 @@ Urgent security fixes follow the incident rules.
 
 ## Configurable
 
-The notice delay and the default window per region (Proposed).
+The notice delay and the default window per region.
 
 ## Open questions
 

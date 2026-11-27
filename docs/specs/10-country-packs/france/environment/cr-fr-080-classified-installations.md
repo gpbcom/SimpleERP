@@ -24,7 +24,8 @@ A site with classified installations records each installation's regime and rubr
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12.
+Code de l'environnement L512-1 in its current version in force since 2017-03-01 (ordonnance n° 2017-80, the
+environmental authorisation) ([Code de l'environnement, art. L512-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033933233), read 2026-11-27).
 
 ## Enforced by
 

@@ -5,7 +5,7 @@
 
 # 🖥️ S-F19-27 Fixed-price catalogue
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

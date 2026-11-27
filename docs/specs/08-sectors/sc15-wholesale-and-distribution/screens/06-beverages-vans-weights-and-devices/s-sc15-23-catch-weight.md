@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC15-23 Catch weight
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

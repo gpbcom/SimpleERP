@@ -45,7 +45,7 @@ product policy being this decision. The sampling rate is in AI governance.
 - [AI governance](../../05-non-functional/ai-governance.md)
 - [D157](d157-assistant-actions.md)
 - [D246](../f05-social-media/d246-social-auto-mode.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

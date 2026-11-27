@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC07-21 Passenger transport
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

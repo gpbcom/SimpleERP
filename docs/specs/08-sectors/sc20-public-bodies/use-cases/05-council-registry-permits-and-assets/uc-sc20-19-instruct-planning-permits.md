@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-19 Instruct planning permits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -146,13 +146,15 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A planning-permit request is acknowledged with the delay the law gives, which depends on the kind of permit;
-a missing document must be asked for within a short time after filing, and the delay starts or restarts when the file is
-complete; consultations may extend it; and when no decision is notified in the delay, the law gives silence an effect
-that depends on the kind of permit, usually an approval, sometimes a refusal. Bodies of a size must accept requests
-electronically. The kinds, delays and effects are data of the France pack.
+A planning-permit request is acknowledged with the delay the law gives, which depends on the kind of permit: 1 month for
+a prior declaration, 2 months for a house or demolition permit, 3 months for other permits, extended in a heritage site
+or for some consultations; a missing document must be asked for within 1 month of filing, the applicant then has 3
+months to supply it, and the delay starts or restarts when the file is complete; and when no decision is notified in the
+delay, silence is a tacit permit or a non-opposition, and an implied refusal in the cases of R*424-2 to R*424-3. In
+communes of more than 3 500 inhabitants every legal person files its request electronically, for requests filed from
+2025-01-01: the size that counts is the commune's. The kinds, delays and effects are data of the France pack.
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-261 Planning permit instruction delays](../../../../10-country-packs/france/real-estate/cr-fr-261-planning-permit-delays.md)
 
 ## Related use cases

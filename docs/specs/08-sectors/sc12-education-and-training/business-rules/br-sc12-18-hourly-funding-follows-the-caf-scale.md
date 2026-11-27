@@ -3,7 +3,7 @@
 
 # 📏 BR-SC12-18 Hourly funding follows the CAF scale
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,10 +13,11 @@ used until it is.
 
 ## Why
 
-The fund pays the nursery on the basis of the scale; a wrong rate means the nursery or the family is paid wrongly, and
-the fund can reclaim. The owner asked for nurseries
+The fund pays the nursery on the basis of the scale: 66 % of the cost price, within a ceiling price, for the hours
+billed to families, minus the families' share, times the share of families in the general scheme. A wrong rate means
+the nursery or the family is paid wrongly, and the fund can reclaim. The owner asked for nurseries
 ([D556](../../../06-decisions/sectors/d556-benchmark-gaps-sc12-education-and-training.md)). The percentages,
-the floor and the ceiling come from the France pack, written later.
+the floor and the ceiling come from the France pack by date (CNAF PSU guide, September 2025).
 
 ## Examples
 
@@ -33,7 +34,7 @@ the floor and the ceiling come from the France pack, written later.
 - [UC-SC12-23](../use-cases/06-apprentices-driving-nurseries-and-canteens/uc-sc12-23-run-a-nursery.md)
 - [E-SC12-22 Childcare place](../data/e-sc12-22-childcare-place.md)
 - [E-SC12-05 Training funding](../data/e-sc12-05-training-funding.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-245 Nursery hourly funding (PSU)](../../../10-country-packs/france/education/cr-fr-245-nursery-psu.md)
 
 ## Exceptions

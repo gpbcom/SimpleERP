@@ -18,9 +18,8 @@
   [CR-FR-159](../../10-country-packs/france/education/cr-fr-159-personal-training-account.md),
   [CR-FR-160](../../10-country-packs/france/education/cr-fr-160-private-school-declaration.md), which this sector
   applies, is still to read in the official source.
-- Proposals waiting for the owner ([waiting list](../../09-waiting/README.md), the SC12 groups): pages of business rules
-  (2), data (18), screens (20), summary pages (1) hold values marked as proposed, not confirmed in this round (the
-  sectors' proposals were not asked on 2026-11-12).
+- The proposals of this sector were confirmed by the owner on 2026-11-27 ([D572](../../06-decisions/foundations/d572-proposals-confirmed-in-bulk.md)); the legal
+  values still to read are listed in the [waiting list](../../09-waiting/README.md), the SC12 groups.
 
 ---
 

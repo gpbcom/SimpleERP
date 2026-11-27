@@ -3,7 +3,7 @@
 
 # ✅ Quality manager: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ audits. Default density: compact ([D42](../../../06-decisions/ux/d42-density-per
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Actions overdue; Documents to approve; Calibrations due.
 - Widgets: Quality objectives this year.
@@ -38,16 +38,16 @@ audits. Default density: compact ([D42](../../../06-decisions/ux/d42-density-per
 
 ## Navigation
 
-(Proposed) Home · Quality · Documents · Audits · Suppliers · Assistant.
+Home · Quality · Documents · Audits · Suppliers · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U27-01 | [Pass the certification audit](journeys/j-u27-01-pass-the-certification-audit.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U27-01 | [Pass the certification audit](journeys/j-u27-01-pass-the-certification-audit.md) | ✅ |
 
 ---
 

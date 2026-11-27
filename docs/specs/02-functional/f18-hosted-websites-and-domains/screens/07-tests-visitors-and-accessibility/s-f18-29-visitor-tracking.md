@@ -4,7 +4,7 @@
 
 # 🖥️ S-F18-29 Visitor tracking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

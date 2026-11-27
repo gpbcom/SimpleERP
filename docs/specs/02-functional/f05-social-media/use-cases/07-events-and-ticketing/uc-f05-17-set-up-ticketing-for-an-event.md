@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-17 Set up ticketing for an event
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -125,7 +125,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Seat map of 2,000 seats usable on a tablet (Proposed).
+Seat map of 2,000 seats usable on a tablet.
 
 ## Regulatory references
 

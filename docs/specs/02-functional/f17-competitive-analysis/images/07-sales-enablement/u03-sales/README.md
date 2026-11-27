@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F17-07 Sales enablement
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F17-07 Sales enablement](../../../flows/fl-f17-07-sales-enablement.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

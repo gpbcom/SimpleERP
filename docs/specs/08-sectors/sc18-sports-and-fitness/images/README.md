@@ -2,7 +2,7 @@
 
 # 🖼️ Images
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 The images of this capability's flows, by flow and persona (D120).
 
@@ -10,13 +10,13 @@ The images of this capability's flows, by flow and persona (D120).
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖼️ |  | [Images: FL-SC18-01 Memberships and access](01-memberships-and-access/README.md) | 🔄 |
-| 🖼️ |  | [Images: FL-SC18-02 Classes and waiting lists](02-classes-and-waiting-lists/README.md) | 🔄 |
-| 🖼️ |  | [Images: FL-SC18-03 Licences and competitions](03-licences-and-competitions/README.md) | 🔄 |
-| 🖼️ |  | [Images: FL-SC18-04 Personal training](04-personal-training/README.md) | 🔄 |
-| 🖼️ |  | [Images: FL-SC18-05 Facilities, events, camps and rentals](05-facilities-events-camps-and-rentals/README.md) | 🔄 |
-| 🖼️ |  | [Screen states](states/README.md) | 🔄 |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Images: FL-SC18-01 Memberships and access](01-memberships-and-access/README.md) | ✅ |
+| 🖼️ |  | [Images: FL-SC18-02 Classes and waiting lists](02-classes-and-waiting-lists/README.md) | ✅ |
+| 🖼️ |  | [Images: FL-SC18-03 Licences and competitions](03-licences-and-competitions/README.md) | ✅ |
+| 🖼️ |  | [Images: FL-SC18-04 Personal training](04-personal-training/README.md) | ✅ |
+| 🖼️ |  | [Images: FL-SC18-05 Facilities, events, camps and rentals](05-facilities-events-camps-and-rentals/README.md) | ✅ |
+| 🖼️ |  | [Screen states](states/README.md) | ✅ |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |
 
 ---
 

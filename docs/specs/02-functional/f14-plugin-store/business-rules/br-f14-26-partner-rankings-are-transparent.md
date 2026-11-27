@@ -3,7 +3,7 @@
 
 # 📏 BR-F14-26 Partner rankings are transparent
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -5,7 +5,7 @@
 
 # 📝 UC-F10-26 Look up and transfer stock between stores
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -123,7 +123,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Stock answers within 1 second (Proposed).
+Stock answers within 1 second.
 
 ## Regulatory references
 

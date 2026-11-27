@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-19 Book a resource
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -78,7 +78,7 @@ limit whose bookings a user sees.
 
 ## Notifications
 
-- The booker gets the confirmation, the changes and a reminder the day before (Proposed).
+- The booker gets the confirmation, the changes and a reminder the day before.
 - The resource's owner sees the booking in their calendar.
 
 ## Audit events
@@ -93,7 +93,7 @@ The AI assistant can find a free slot and prepare the booking for confirmation
 ## API, MCP and A2A exposure
 
 T5 booking operations (availability, book, change, cancel); the MCP tool of F2 with the caller's rights; the A2A booking
-skill for partner agents (Proposed).
+skill for partner agents.
 
 ## Screens
 
@@ -132,7 +132,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Availability answers within 1 second (Proposed); two bookings of the same slot at the same time: one wins, the other is
+Availability answers within 1 second; two bookings of the same slot at the same time: one wins, the other is
 refused.
 
 ## Regulatory references

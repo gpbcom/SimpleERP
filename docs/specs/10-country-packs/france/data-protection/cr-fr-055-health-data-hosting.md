@@ -19,7 +19,7 @@ Health data of patients is hosted only by a certified health data host (HDS).
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CSP L1111-8 in its current version in force since 2025-07-01 (loi n° 2024-449) ([Code de la santé publique, art. L1111-8](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049577902), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +33,10 @@ in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Three years' imprisonment and a 45 000 EUR fine for hosting health data without the approval or certificate of
+L1111-8, or outside its conditions ([Code de la santé publique, art. L1115-1, in force since 2018-04-01](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033862544), read 2026-11-27). L1111-8 also binds the host's staff to
+professional secrecy under the penalties of Code pénal art. 226-13, and forbids selling identifying health data under
+those of art. 226-21 ([Code de la santé publique, art. L1111-8](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049577902), read 2026-11-27).
 
 ## Exceptions
 

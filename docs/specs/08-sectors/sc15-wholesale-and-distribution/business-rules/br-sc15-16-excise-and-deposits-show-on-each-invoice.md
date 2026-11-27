@@ -16,7 +16,9 @@ customer.
 A buyer who cannot see the duty and the deposits cannot account for them, and a credit above the deposits charged is a
 loss. The owner asked for beverage distribution
 ([D559](../../../06-decisions/sectors/d559-benchmark-gaps-sc15-wholesale-and-distribution.md)). The
-France-pack rule is written later.
+excise is due when the drinks leave the bonded warehouse, at a rate per hectolitre for wines, ciders and intermediate
+products, per hectolitre and degree for beers and per hectolitre of pure alcohol for spirits
+([CR-FR-234](../../../10-country-packs/france/tax-and-vat/cr-fr-234-alcohol-excise.md)).
 
 ## Examples
 

@@ -3,20 +3,20 @@
 
 # 📜 D501 Maps: planning, list views, record pages, dashboards, in four domains
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-19 / D501)
+**Status:** ✅ decided
 
 ## Context
 
 The owner asked on 2026-11-13 where maps should be and who can see them. The specs had no geographic map: 83 entities
 held a place field, about 40 of them real places, and [D101](../f02-no-code-configuration/d101-custom-field-types.md)
 already offers a location field type; the aggregated views had no map layout
-([D486](d486-plain-words-filter-facets-with-counts-related-record-filters.md)). The findings are in [maps and
-eligibility](../../../tickets/GH-2/resources/flowcharts-screens/maps-and-eligibility.md).
+([D486](d486-plain-words-filter-facets-with-counts-related-record-filters.md)). The findings are in maps and
+eligibility (the owner's interview notes of 2026-11 for the specifications, not kept in the repository).
 
 ## Options
 
-The first proposal of 2026-11-13 ([maps and
-eligibility](../../../tickets/GH-2/resources/flowcharts-screens/maps-and-eligibility.md)):
+The first proposal of 2026-11-13 (maps and
+eligibility (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)):
 - geographic maps for the sectors and capabilities of high or very high value, plus F6;
 - a map layout on the list views of place-bearing entities;
 - one plan component for floors and venues.
@@ -34,8 +34,8 @@ mini-map on record pages and as area maps on dashboards, in four domains:
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-18 and VD-19).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-18 and VD-19).
 
 ## Consequences
 
@@ -61,7 +61,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [D486 Plain-words filter, facets with counts, related-record
   filters](d486-plain-words-filter-facets-with-counts-related-record-filters.md)
 - [D502 Records on a map for planners and managers only](d502-records-on-a-map-for-planners-and-managers-only.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

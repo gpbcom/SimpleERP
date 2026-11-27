@@ -4,7 +4,7 @@
 
 # 🖥️ S-F23-27 Group scenario
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

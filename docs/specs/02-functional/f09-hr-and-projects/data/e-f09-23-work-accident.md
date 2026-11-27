@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-23 Work accident
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -39,7 +39,8 @@ By employee, site, year.
 
 ## Retention
 
-(Proposed) to read: as HR records.
+(⚖️ lawyer review before launch, D574) to read: as HR records; the retention of the declaration and of the register of benign
+accidents (Code de la sécurité sociale L441-2 to L441-4) is not in a France-pack rule yet.
 
 ## Audit
 

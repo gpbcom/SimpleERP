@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-32 Cash position
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -70,7 +70,7 @@ Secrets are never a column (VR-4).
 |---|---|---|
 | State | Given, Withdrawn, Suppressed | the visible rows (D488) |
 | Contact | each person, the user first | the visible rows (D488) |
-| Channel | email, SMS, WhatsApp | the visible rows (D488) |
+| Channel | email, SMS, WhatsApp, postal, push | the visible rows (D488) |
 | Status | Given, Withdrawn, Suppressed | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).

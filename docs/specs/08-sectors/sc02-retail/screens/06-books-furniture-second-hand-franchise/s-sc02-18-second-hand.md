@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC02-18 Second-hand
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

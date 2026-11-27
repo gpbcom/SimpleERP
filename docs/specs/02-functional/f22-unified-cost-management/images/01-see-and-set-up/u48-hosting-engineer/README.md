@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F22-01 See and set up
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F22-01 See and set up](../../../flows/fl-f22-01-see-and-set-up.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

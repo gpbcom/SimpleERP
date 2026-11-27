@@ -3,7 +3,7 @@
 
 # 🖥️ S-F5-26 Push campaign
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

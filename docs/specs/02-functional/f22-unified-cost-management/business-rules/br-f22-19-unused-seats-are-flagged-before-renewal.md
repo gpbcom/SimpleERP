@@ -4,7 +4,7 @@
 
 # 📏 BR-F22-19 Unused seats are flagged before renewal
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

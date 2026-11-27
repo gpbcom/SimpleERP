@@ -4,7 +4,7 @@
 
 # 📏 BR-F21-15 Languages per company and per user
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -21,7 +21,7 @@ Teams are mixed (D478); legal documents follow the country.
 |---|---|
 | Company default French, user chooses English | passes: interface in English |
 | French invoice for a French customer | passes: French |
-| Payslip in English only | fails: French payslip, English copy offered (Proposed) |
+| Payslip in English only | fails: French payslip, English copy offered |
 
 ## Applies to
 

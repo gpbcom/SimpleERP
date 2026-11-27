@@ -3,13 +3,14 @@
 
 # 🧱 Option A: ten steps in a row
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ adopted ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md))
 
 ## Principle
 
 The adopted roadmap, completed: one step at a time, each starting when the one before passes its exit criteria. T13
 joins the platform and SC17 to SC20 join the sectors; nothing else moves. It is the plan the owner approved
-([D483](../../../06-decisions/vision/d483-roadmap-devops-agents-first.md)).
+([D483](../../../06-decisions/vision/d483-roadmap-devops-agents-first.md)), and the option the owner adopted on 2026-11-27, cut into the
+twelve phases of the [Phases](../phases/README.md) page ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md)).
 
 ## Steps
 
@@ -49,7 +50,8 @@ flowchart LR
 
 ## The dated pilot
 
-The pilot can start once step 6 is built, but F5 is in step 8: as written, the pilot runs F1 to F4 and F6 to F9 only, or
+The owner adopted this option on 2026-11-27: the phase calendar supersedes D451's date, and the pilot starts once P7 (step 6)
+is built ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md)). The pilot can start once step 6 is built, but F5 is in step 8: as written, the pilot runs F1 to F4 and F6 to F9 only, or
 F5 moves before it. Steps 1 to 6 must all be built, one after the other, before 1 September 2027.
 
 ## Decisions
@@ -61,7 +63,7 @@ F5 moves before it. Steps 1 to 6 must all be built, one after the other, before 
 | [D15](../../../06-decisions/foundations/d15-industry-areas-as-plugins.md) | ✅ kept | plugins after the business areas |
 | [D16](../../../06-decisions/foundations/d16-platform-first.md) | ✅ kept | the whole platform first |
 | [D380](../../../06-decisions/vision/d380-every-capability-first-confirmed.md) | ✅ kept | one release once everything is built |
-| [D451](../../../06-decisions/vision/d451-dated-pilot-before-the-release.md) | ⚠️ bent | F5 comes after the pilot's start |
+| [D451](../../../06-decisions/vision/d451-dated-pilot-before-the-release.md) | ⚠️ superseded for its date (D569) | the pilot starts once P7 is built; F5 comes after the pilot's start |
 | [D483](../../../06-decisions/vision/d483-roadmap-devops-agents-first.md) | ✅ kept | the DevOps agents first |
 
 ## Strengths

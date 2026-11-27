@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U04-01 | [Order the right quantity](j-u04-01-order-the-right-quantity.md) | 🔄 |
+| 🧭 | J-U04-01 | [Order the right quantity](j-u04-01-order-the-right-quantity.md) | ✅ |
 
 ---
 

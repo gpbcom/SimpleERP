@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC06-17 Catering
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -166,7 +166,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 A foundation gives grants for its general-interest purpose in the statutes, and keeps who decided and why.
 The members who decide declare their interests and do not vote on applications where they have one. A grant is paid
 under an agreement that states its use and its report. Gifts the foundation receives give tax receipts to the donors,
-and its accounts are published above the thresholds of the country pack. The France-pack rule is written later. Related:
+and its accounts are published above the thresholds of the country pack. The France-pack rules are [CR-FR-277 Conflicts of interest in associations and foundations](../../../../10-country-packs/france/non-profit/cr-fr-277-conflicts-of-interest-in-foundations.md), [CR-FR-127 Grant agreement and financial report](../../../../10-country-packs/france/non-profit/cr-fr-127-grant-agreement-and-report.md), [CR-FR-124 Tax receipts for gifts and their yearly declaration](../../../../10-country-packs/france/non-profit/cr-fr-124-gift-tax-receipts.md) and [CR-FR-126 Publication of accounts above the grant threshold](../../../../10-country-packs/france/non-profit/cr-fr-126-accounts-publication.md). Related:
 [CR-FR-127](../../../../10-country-packs/france/non-profit/cr-fr-127-grant-agreement-and-report.md),
 [CR-FR-124](../../../../10-country-packs/france/non-profit/cr-fr-124-gift-tax-receipts.md),
 [CR-FR-126](../../../../10-country-packs/france/non-profit/cr-fr-126-accounts-publication.md).

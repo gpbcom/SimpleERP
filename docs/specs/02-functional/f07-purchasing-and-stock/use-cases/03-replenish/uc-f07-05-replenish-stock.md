@@ -4,7 +4,7 @@
 
 # 📝 UC-F7-05 Replenish stock
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -119,7 +119,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Report within 30 seconds for 6,000 items (Proposed).
+Report within 30 seconds for 6,000 items.
 
 ## Regulatory references
 

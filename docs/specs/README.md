@@ -1,6 +1,6 @@
 # 🏠 SimpleERP specifications
 
-**Status:** 🔄 being written, from the owner's interview (ticket GH-2)
+**Status:** ✅ specified, ⚖️ lawyer review before launch on the items of [Waiting for the owner](09-waiting/README.md) (D572, D573, D574, D575)
 
 ## Vision
 
@@ -19,16 +19,17 @@ extendable, and AI-native. Read the whole vision in [🎯 Vision](00-vision/READ
 | 📏 | [Non-functional requirements](05-non-functional/README.md) | Performance, security, privacy, backups, accessibility, legal rules |
 | 📜 | [Decisions](06-decisions/README.md) | Every decision taken, one file each |
 | ❓ | [Questions](07-questions/README.md) | Every open or answered question, one file each |
-| 🏷️ | [Sectors](08-sectors/README.md) | The 16 company types: what each adds, and its sector pack |
-| ⏳ | [Waiting for the owner](09-waiting/README.md) | Pages waiting for the owner's confirmation, and the open questions |
+| 🏷️ | [Sectors](08-sectors/README.md) | The 20 company types: what each adds, and its sector pack |
+| ⏳ | [Waiting for the owner](09-waiting/README.md) | The lawyer's checklist (D574), and any open question |
 | 🌍 | [Country packs](10-country-packs/README.md) | Each country's law and the legal rules SimpleERP enforces there |
 | 🧱 | [Templates](_templates/README.md) | The shape of each kind of page |
 
 ## Status board
 
-Updated after every interview round. Build steps ([roadmap](00-vision/roadmap/roadmap.md), D483): 1 DevOps agents, 2
-platform, 3 customers and sales, 4 purchasing and stock, 5 accounting, 6 HR, projects and the legal assistant, 7
-plugins and the store, 8 growth and insight, 9 sectors, 10 hosted services. Everything is in V1.
+Updated after every interview round, last on 2026-11-27. Build steps ([roadmap](00-vision/roadmap/roadmap.md), D483,
+option A adopted in twelve phases by [D569](06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md)): 1 DevOps
+agents, 2 platform, 3 customers and sales, 4 purchasing and stock, 5 accounting, 6 HR, projects and the legal
+assistant, 7 plugins and the store, 8 growth and insight, 9 sectors, 10 hosted services. Everything is in V1.
 
 ### Users and UX
 
@@ -92,6 +93,10 @@ Interviewed after F12 (D115).
 | 💻 | SC14 | [IT and software](08-sectors/sc14-it-and-software/README.md) | ✅ |
 | 📦 | SC15 | [Wholesale and distribution](08-sectors/sc15-wholesale-and-distribution/README.md) | ✅ |
 | 🎭 | SC16 | [Events and culture](08-sectors/sc16-events-and-culture/README.md) | ✅ |
+| 💇 | SC17 | [Beauty and wellness](08-sectors/sc17-beauty-and-wellness/README.md) | ✅ |
+| 🏋️ | SC18 | [Sports and fitness](08-sectors/sc18-sports-and-fitness/README.md) | ✅ |
+| 🔧 | SC19 | [Trades and home services](08-sectors/sc19-trades-and-home-services/README.md) | ✅ |
+| 🏛️ | SC20 | [Public bodies](08-sectors/sc20-public-bodies/README.md) | ✅ |
 
 ### Technical capabilities
 
@@ -109,12 +114,19 @@ Interviewed after F12 (D115).
 | 🌐 | T10 | [Translations and notifications](03-technical/t10-translations-and-notifications/README.md) | ✅ |
 | 🏛️ | T11 | [Legal corpora](03-technical/t11-legal-corpora/README.md) | ✅ |
 | 🕸️ | T12 | [Connectors and scrapers](03-technical/t12-connectors-and-scrapers/README.md) | ✅ |
-| 🗺️ | T13 | [Maps and geodata](03-technical/t13-maps-and-geodata/README.md) | 🔄 |
+| 🗺️ | T13 | [Maps and geodata](03-technical/t13-maps-and-geodata/README.md) | ✅ |
 
 ## Waiting for the owner
 
-1638 pages hold items waiting for the owner's confirmation, and the open questions: see
-[Waiting for the owner](09-waiting/README.md).
+The owner confirmed every proposal outside the country pack on 2026-11-27, except the legal and tax values
+([D572](06-decisions/foundations/d572-proposals-confirmed-in-bulk.md)); the legal and tax values were then read against
+official sources, and the contradictions between pages settled by a precedence rule
+([D573](06-decisions/foundations/d573-precedence-between-spec-pages.md)). What no official source settles is reviewed by
+a lawyer before launch ([D574](06-decisions/foundations/d574-lawyer-review-before-launch.md)): 88 items on 55 rules of
+the France country pack and 146 items on 138 product pages, marked "(⚖️ lawyer review before launch, D574)". The
+owner's last answers ([D575](06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)) took the
+standards and the mailbox providers' rules off that list, as design references. No question is open: see
+[Waiting for the owner](09-waiting/README.md), the lawyer's checklist.
 
 ## How to read
 
@@ -137,6 +149,7 @@ Interviewed after F12 (D115).
 |---|---|
 | ✅ | Specified: confirmed by the owner |
 | 🔄 | Being interviewed, or waiting for the owner's confirmation of its "(Proposed)" items (listed in [Waiting for the owner](09-waiting/README.md)) |
+| ⚖️ | Specified, with legal items a lawyer reviews before launch ([D574](06-decisions/foundations/d574-lawyer-review-before-launch.md), listed in [Waiting for the owner](09-waiting/README.md)) |
 | ⬜ | To specify |
 | ❓ | Open question (legend) |
 | 🚫 | Out of scope, or withdrawn |
@@ -147,15 +160,15 @@ Interviewed after F12 (D115).
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧱 |  | [Templates](_templates/README.md) | ⬜ |
+| 🧱 |  | [Templates](_templates/README.md) | ✅ |
 | 🎯 |  | [Vision](00-vision/README.md) | ✅ |
 | 👤 |  | [Users](01-users/README.md) | ✅ |
 | 🧩 |  | [Functional capabilities](02-functional/README.md) | ✅ |
-| ⚙️ |  | [Technical capabilities](03-technical/README.md) | 🔄 |
+| ⚙️ |  | [Technical capabilities](03-technical/README.md) | ✅ |
 | 🎨 |  | [UX](04-ux/README.md) | ✅ |
-| 📏 |  | [Non-functional requirements](05-non-functional/README.md) | ⬜ |
+| 📏 |  | [Non-functional requirements](05-non-functional/README.md) | ✅ |
 | 📜 |  | [Decisions](06-decisions/README.md) | ✅ |
 | ❓ |  | [Questions](07-questions/README.md) | ✅ |
 | 🏷️ |  | [Sectors](08-sectors/README.md) | ✅ |
-| ⏳ |  | [Waiting for the owner](09-waiting/README.md) | 🔄 |
+| ⏳ |  | [Waiting for the owner](09-waiting/README.md) | ✅ |
 | 🌍 |  | [Country packs](10-country-packs/README.md) | ✅ |

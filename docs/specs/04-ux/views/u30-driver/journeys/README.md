@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U30-01 | [Deliver the day's loads](j-u30-01-deliver-the-day.md) | 🔄 |
+| 🧭 | J-U30-01 | [Deliver the day's loads](j-u30-01-deliver-the-day.md) | ✅ |
 
 ---
 

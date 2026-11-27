@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U33-01 | [Book and bill a patient](j-u33-01-book-and-bill-a-patient.md) | 🔄 |
+| 🧭 | J-U33-01 | [Book and bill a patient](j-u33-01-book-and-bill-a-patient.md) | ✅ |
 
 ---
 

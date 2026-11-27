@@ -3,7 +3,7 @@
 
 # 📏 BR-SC04-16 Residents' care records follow health-data rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,7 +15,8 @@ or their representative shares.
 
 A care record tells the most private facts about a person; a leak harms the resident and exposes the home. The owner
 asked for community care ([D548](../../../06-decisions/sectors/d548-benchmark-gaps-sc04-home-care.md)). The
-care-home contract rule is written later.
+care-home contract rule is
+[CR-FR-256 Care-home resident contract](../../../10-country-packs/france/home-care/cr-fr-256-care-home-resident-contract.md).
 
 ## Examples
 
@@ -31,7 +32,7 @@ care-home contract rule is written later.
 - [UC-SC04-16](../use-cases/06-care-homes-cesu-and-nursing/uc-sc04-16-run-a-care-home.md)
 - [E-SC04-14 Resident](../data/e-sc04-14-resident.md)
 - [E-SC04-06 Care log entry](../data/e-sc04-06-care-log-entry.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-256 Care-home resident contract](../../../10-country-packs/france/home-care/cr-fr-256-care-home-resident-contract.md)
 
 ## Exceptions

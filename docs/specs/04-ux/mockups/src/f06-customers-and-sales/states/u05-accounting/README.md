@@ -25,6 +25,8 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f06-08-reminders-e-f06-05-invoice-received-desktop.html`
 - `s-f06-08-reminders-e-f06-05-invoice-sent-desktop.html`
 - `s-f06-08-reminders-e-f06-21-payment-reminder-active-desktop.html`
+- `s-f06-08-reminders-e-f06-21-payment-reminder-paused-desktop.html`
+- `s-f06-08-reminders-e-f06-21-payment-reminder-stopped-desktop.html`
 - `s-f06-08-reminders-e-f06-22-formal-notice-active-desktop.html`
 - `s-f06-09-subscriptions-e-f06-07-subscription-contract-active-desktop.html`
 - `s-f06-14-usage-billing-e-f06-10-rate-plan-and-meter-active-desktop.html`
@@ -49,6 +51,8 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f06-20-instalments-and-disputes-e-f06-17-invoice-dispute-open-desktop.html`
 - `s-f06-20-instalments-and-disputes-e-f06-17-invoice-dispute-settled-desktop.html`
 - `s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-active-desktop.html`
+- `s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-paused-desktop.html`
+- `s-f06-20-instalments-and-disputes-e-f06-21-payment-reminder-stopped-desktop.html`
 - `s-f06-23-pro-forma-invoice-e-f06-05-invoice-paid-desktop.html`
 - `s-f06-23-pro-forma-invoice-e-f06-05-invoice-received-desktop.html`
 - `s-f06-23-pro-forma-invoice-e-f06-05-invoice-sent-desktop.html`

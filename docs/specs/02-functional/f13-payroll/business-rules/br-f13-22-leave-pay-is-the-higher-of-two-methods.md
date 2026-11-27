@@ -3,18 +3,18 @@
 
 # 📏 BR-F13-22 Leave pay is the higher of two methods
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
 Pay for paid leave taken is the higher of the pay the employee would have earned at work (maintained pay) and one tenth
-of the gross earned during the reference period, compared at least at the end of the period (Proposed) and each time
+of the gross earned during the reference period, compared at least at the end of the period and each time
 leave is taken.
 
 ## Why
 
-The law requires the most favourable method (D470); the leave count follows CR-FR-044, the comparison is (Proposed) to
-read (Code du travail L3141-24).
+The law requires the most favourable method (D470); the leave count follows CR-FR-044, the comparison is
+(⚖️ lawyer review before launch, D574) to read: Code du travail L3141-24.
 
 ## Examples
 

@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC18-01 Memberships and access
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

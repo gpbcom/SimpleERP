@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-08 Sports team
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

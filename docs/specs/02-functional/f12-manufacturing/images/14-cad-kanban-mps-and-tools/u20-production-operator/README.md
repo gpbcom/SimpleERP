@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F12-14 CAD, kanban, MPS and tools
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F12-14 CAD, kanban, MPS and tools](../../../flows/fl-f12-14-cad-kanban-mps-and-tools.md) for this persona,
 in light and dark mode (D120, D121). Errors follow the

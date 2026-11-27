@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC12-22 Driving school
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

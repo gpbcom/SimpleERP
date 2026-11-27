@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC19-02 On-site intervention
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC19-02 On-site intervention](../../../flows/fl-sc19-02-on-site-intervention.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

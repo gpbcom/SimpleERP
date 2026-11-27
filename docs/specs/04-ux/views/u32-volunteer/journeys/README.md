@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U32-01 | [Take a mission](j-u32-01-take-a-mission.md) | 🔄 |
+| 🧭 | J-U32-01 | [Take a mission](j-u32-01-take-a-mission.md) | ✅ |
 
 ---
 

@@ -26,7 +26,7 @@ courses; this one is signed with an employer and drives the OPCO funding
 | OPCO | choice | yes | an operator of the pack | from the employer | OPCO Commerce | no | no |
 | support level | amount a year | yes | from the pack or the branch | from the diploma | 7,500.00 EUR | no | no |
 | break date | date | no | within the contract | - | - | no | no |
-| months claimed | list | no | one line per month followed | - | 2026-09, 2026-10 | no | no |
+| instalments claimed | list | no | one line per instalment, with the days counted | - | 40 % on 2026-09-30 | no | no |
 | state | Draft, Registered, Broken, Ended | yes | the lifecycle below | Draft | Registered | no | no |
 | owner | user | yes | a user of the company | the creator | Claire P. | yes | no |
 

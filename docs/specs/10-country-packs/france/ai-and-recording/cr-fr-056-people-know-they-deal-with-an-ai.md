@@ -38,7 +38,8 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Administrative fine up to 15 000 000 EUR or, for an undertaking, 3 % of its worldwide yearly turnover, whichever is
+higher; for an SME, whichever is lower for a breach of art. 50 ([AI Act Service Desk, art. 99(4) and (6)](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99), read 2026-11-27).
 
 ## Exceptions
 

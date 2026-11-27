@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-16 Call from the softphone
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -124,7 +124,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Ringing within 2 seconds of the click (Proposed).
+Ringing within 2 seconds of the click.
 
 ## Regulatory references
 

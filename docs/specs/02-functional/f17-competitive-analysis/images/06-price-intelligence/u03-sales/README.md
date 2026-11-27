@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F17-06 Price intelligence
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F17-06 Price intelligence](../../../flows/fl-f17-06-price-intelligence.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

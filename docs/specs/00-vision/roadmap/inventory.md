@@ -2,7 +2,7 @@
 
 # 📦 What V1 holds
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 Everything V1 holds, counted from the specifications tree, with the step of the [adopted roadmap](roadmap.md) each part
 sits in. It is the common ground of the [roadmap options](options/README.md): every option places each line of these
@@ -33,20 +33,22 @@ The dated pilot ([D451](../../06-decisions/vision/d451-dated-pilot-before-the-re
 
 ## Gaps of the adopted roadmap
 
-The adopted roadmap was written on 2026-11-12. Five points of it no longer match the specifications:
+The adopted roadmap was written on 2026-11-12. Five points of it no longer matched the specifications; the owner
+settled them on 2026-11-27 by adopting option A in twelve phases ([D569](../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md)):
 
 - [T13 Maps and geodata](../../03-technical/t13-maps-and-geodata/README.md) (2026-11-13) has no step. It is part of the
-  platform, so it belongs in step 2 ([D16](../../06-decisions/foundations/d16-platform-first.md)). (Proposed)
+  platform, so it belongs in step 2 ([D16](../../06-decisions/foundations/d16-platform-first.md)): it is built in P2.
 - SC17 to SC20 (step 36n, 2026-11-14) have no step: [SC17](../../08-sectors/sc17-beauty-and-wellness/README.md),
   [SC18](../../08-sectors/sc18-sports-and-fitness/README.md),
   [SC19](../../08-sectors/sc19-trades-and-home-services/README.md),
-  [SC20](../../08-sectors/sc20-public-bodies/README.md). They belong in step 9 with the other sectors. (Proposed)
+  [SC20](../../08-sectors/sc20-public-bodies/README.md). They belong in step 9 with the other sectors: they are built in P10.
 - The pilot ([D451](../../06-decisions/vision/d451-dated-pilot-before-the-release.md)) runs F1 to F9 once step 6 is
   built, but [F5](../../02-functional/f05-social-media/README.md) sits in step 8: either F5 moves before the pilot, or
-  the pilot runs without it. (Proposed: F5 moves into the pilot's steps.)
+  the pilot runs without it. Option A keeps F5 in step 8 (P9), so the pilot runs without it, and the phase calendar
+  supersedes D451's date (D569).
 - The [data migration](../../../technical/data/data-migration.md) chapter is not linked to any step, though the pilot
-  company has to import its data first (D379, working in one day). (Proposed: before the pilot.)
-- The text of the adopted roadmap still says T1 to T12 and 16 sectors.
+  company has to import its data first (D379, working in one day). It is built before the pilot, with the platform.
+- The text of the adopted roadmap said T1 to T12 and 16 sectors; it now says T1 to T13 and 20 sectors.
 
 ## Functional capabilities
 
@@ -94,12 +96,12 @@ The adopted roadmap was written on 2026-11-12. Five points of it no longer match
 | [T10 Translations and notifications](../../03-technical/t10-translations-and-notifications/README.md) | 6 | 3 | 6 | [F1](../../02-functional/f01-administration/README.md), [F18](../../02-functional/f18-hosted-websites-and-domains/README.md), [F21](../../02-functional/f21-onboarding-and-modules/README.md) | 2 |
 | [T11 Legal corpora](../../03-technical/t11-legal-corpora/README.md) | 6 | 4 | 8 | [F10](../../02-functional/f10-point-of-sale/README.md), [F11](../../02-functional/f11-online-shop/README.md), [F12](../../02-functional/f12-manufacturing/README.md), [F13](../../02-functional/f13-payroll/README.md), [F14](../../02-functional/f14-plugin-store/README.md), [F15](../../02-functional/f15-legal-assistant/README.md), [F17](../../02-functional/f17-competitive-analysis/README.md), [F21](../../02-functional/f21-onboarding-and-modules/README.md), [F23](../../02-functional/f23-what-if-simulation/README.md) | 2 |
 | [T12 Connectors and scrapers](../../03-technical/t12-connectors-and-scrapers/README.md) | 19 | 7 | 14 | [F5](../../02-functional/f05-social-media/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F10](../../02-functional/f10-point-of-sale/README.md), [F11](../../02-functional/f11-online-shop/README.md), [F12](../../02-functional/f12-manufacturing/README.md), [F13](../../02-functional/f13-payroll/README.md), [F14](../../02-functional/f14-plugin-store/README.md), [F16](../../02-functional/f16-customer-support-agents/README.md), [F17](../../02-functional/f17-competitive-analysis/README.md), [F18](../../02-functional/f18-hosted-websites-and-domains/README.md), [F22](../../02-functional/f22-unified-cost-management/README.md), [F24](../../02-functional/f24-integrations-hub/README.md) | 2 |
-| [T13 Maps and geodata](../../03-technical/t13-maps-and-geodata/README.md) | 8 | 4 | 5 | the whole suite (planning, maps, places) | none, belongs in 2 (D16) |
+| [T13 Maps and geodata](../../03-technical/t13-maps-and-geodata/README.md) | 8 | 4 | 5 | the whole suite (planning, maps, places) | 2 (D16, D569) |
 
 ## Technical challenges
 
 The 24 hard problems of [03-technical/challenges](../../03-technical/challenges/README.md), with the capabilities that
-cannot pass their acceptance criteria until each is solved, and the earliest adopted step that needs it. (Proposed)
+cannot pass their acceptance criteria until each is solved, and the earliest adopted step that needs it.
 
 | Challenge | Needed by | Earliest step |
 |---|---|---|
@@ -153,14 +155,14 @@ also needs manufacturing.
 | [SC14 IT and software](../../08-sectors/sc14-it-and-software/README.md) | 25 | 19 | 20 | 44 | [F1](../../02-functional/f01-administration/README.md), [F2](../../02-functional/f02-no-code-configuration/README.md), [F3](../../02-functional/f03-assistant/README.md), [F4](../../02-functional/f04-meetings/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F13](../../02-functional/f13-payroll/README.md), [F14](../../02-functional/f14-plugin-store/README.md), [F16](../../02-functional/f16-customer-support-agents/README.md), [F24](../../02-functional/f24-integrations-hub/README.md) | 1 | 9 |
 | [SC15 Wholesale and distribution](../../08-sectors/sc15-wholesale-and-distribution/README.md) | 24 | 19 | 17 | 40 | [F1](../../02-functional/f01-administration/README.md), [F2](../../02-functional/f02-no-code-configuration/README.md), [F3](../../02-functional/f03-assistant/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F11](../../02-functional/f11-online-shop/README.md), [F13](../../02-functional/f13-payroll/README.md), [F14](../../02-functional/f14-plugin-store/README.md) | 2 | 9 |
 | [SC16 Events and culture](../../08-sectors/sc16-events-and-culture/README.md) | 24 | 19 | 22 | 46 | [F1](../../02-functional/f01-administration/README.md), [F2](../../02-functional/f02-no-code-configuration/README.md), [F3](../../02-functional/f03-assistant/README.md), [F5](../../02-functional/f05-social-media/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F10](../../02-functional/f10-point-of-sale/README.md), [F13](../../02-functional/f13-payroll/README.md), [F14](../../02-functional/f14-plugin-store/README.md) | 2 | 9 |
-| [SC17 Beauty and wellness](../../08-sectors/sc17-beauty-and-wellness/README.md) | 20 | 20 | 13 | 33 | [F4](../../02-functional/f04-meetings/README.md), [F5](../../02-functional/f05-social-media/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F10](../../02-functional/f10-point-of-sale/README.md), [F11](../../02-functional/f11-online-shop/README.md), [F13](../../02-functional/f13-payroll/README.md) | 2 | none, belongs in 9 |
-| [SC18 Sports and fitness](../../08-sectors/sc18-sports-and-fitness/README.md) | 20 | 20 | 16 | 36 | [F4](../../02-functional/f04-meetings/README.md), [F5](../../02-functional/f05-social-media/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F10](../../02-functional/f10-point-of-sale/README.md), [F13](../../02-functional/f13-payroll/README.md) | 2 | none, belongs in 9 |
-| [SC19 Trades and home services](../../08-sectors/sc19-trades-and-home-services/README.md) | 20 | 20 | 13 | 33 | [F2](../../02-functional/f02-no-code-configuration/README.md), [F4](../../02-functional/f04-meetings/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F13](../../02-functional/f13-payroll/README.md) | 1 | none, belongs in 9 |
-| [SC20 Public bodies](../../08-sectors/sc20-public-bodies/README.md) | 20 | 20 | 15 | 35 | [F2](../../02-functional/f02-no-code-configuration/README.md), [F3](../../02-functional/f03-assistant/README.md), [F4](../../02-functional/f04-meetings/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F11](../../02-functional/f11-online-shop/README.md), [F13](../../02-functional/f13-payroll/README.md), [F18](../../02-functional/f18-hosted-websites-and-domains/README.md) | 2 | none, belongs in 9 |
+| [SC17 Beauty and wellness](../../08-sectors/sc17-beauty-and-wellness/README.md) | 20 | 20 | 13 | 33 | [F4](../../02-functional/f04-meetings/README.md), [F5](../../02-functional/f05-social-media/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F10](../../02-functional/f10-point-of-sale/README.md), [F11](../../02-functional/f11-online-shop/README.md), [F13](../../02-functional/f13-payroll/README.md) | 2 | 9 (D569) |
+| [SC18 Sports and fitness](../../08-sectors/sc18-sports-and-fitness/README.md) | 20 | 20 | 16 | 36 | [F4](../../02-functional/f04-meetings/README.md), [F5](../../02-functional/f05-social-media/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F10](../../02-functional/f10-point-of-sale/README.md), [F13](../../02-functional/f13-payroll/README.md) | 2 | 9 (D569) |
+| [SC19 Trades and home services](../../08-sectors/sc19-trades-and-home-services/README.md) | 20 | 20 | 13 | 33 | [F2](../../02-functional/f02-no-code-configuration/README.md), [F4](../../02-functional/f04-meetings/README.md), [F6](../../02-functional/f06-customers-and-sales/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F13](../../02-functional/f13-payroll/README.md) | 1 | 9 (D569) |
+| [SC20 Public bodies](../../08-sectors/sc20-public-bodies/README.md) | 20 | 20 | 15 | 35 | [F2](../../02-functional/f02-no-code-configuration/README.md), [F3](../../02-functional/f03-assistant/README.md), [F4](../../02-functional/f04-meetings/README.md), [F7](../../02-functional/f07-purchasing-and-stock/README.md), [F8](../../02-functional/f08-accounting/README.md), [F9](../../02-functional/f09-hr-and-projects/README.md), [F11](../../02-functional/f11-online-shop/README.md), [F13](../../02-functional/f13-payroll/README.md), [F18](../../02-functional/f18-hosted-websites-and-domains/README.md) | 2 | 9 (D569) |
 
 ## Non-functional requirements
 
-The earliest adopted step that must meet each requirement. (Proposed)
+The earliest adopted step that must meet each requirement.
 
 | Requirement | Earliest step |
 |---|---|
@@ -222,7 +224,7 @@ designs are built when that step starts.
 
 Every legal rule comes from the pack ([D8](../../06-decisions/foundations/d08-france-first.md), France first); a
 capability passes its acceptance criteria only with the rules of its themes. The sector themes come with their sector
-packs. (Proposed)
+packs.
 
 | Theme | Rules | Needed by |
 |---|---|---|

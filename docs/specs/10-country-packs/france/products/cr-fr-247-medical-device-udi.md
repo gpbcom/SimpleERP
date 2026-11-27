@@ -3,21 +3,27 @@
 
 # ⚖️ CR-FR-247 Medical device UDI traceability
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A distributor of medical devices checks that each device bears its conformity marking, its label with the
-unique device identifier (UDI) and the instructions in the required language, keeps the devices under the manufacturer's
-storage conditions, and keeps records that allow it to identify the customer of each device. It passes complaints and
-incidents to the manufacturer and, for serious incidents, to the authority.
+A distributor of medical devices checks, before
+making a device available, that it is CE marked with its EU declaration of conformity, comes with the manufacturer's
+information and, where applicable, has a UDI assigned; keeps it under the manufacturer's storage and transport
+conditions; can identify who supplied it and whom it supplied; passes complaints and suspected incidents to the
+manufacturer; and informs the competent authority when a device presents a serious risk or is falsified (art. 14
+and 25) ([Regulation (EU) 2017/745, consolidated text, Publications Office](http://publications.europa.eu/resource/cellar/81b29f1b-502a-11ef-acbc-01aa75ed71a1.0007.02/DOC_1), read 2026-11-27).
 
 ## Values
 
-- (Proposed) UDI recorded for each lot.
-- (Proposed) Delays and retention period to read.
-- (Proposed) Field safety corrective actions.
-- (Proposed) SimpleERP enforces: every lot is traceable by its UDI.
+- The UDI is stored for class III implantable devices and the
+  devices the Commission designates (art. 27(8)) ([Regulation (EU) 2017/745](http://publications.europa.eu/resource/cellar/81b29f1b-502a-11ef-acbc-01aa75ed71a1.0007.02/DOC_1), read 2026-11-27).
+- Suppliers and customers identifiable for at least 10 years after the last device is placed on the market, 15 for
+  implantable devices (art. 25(2) and 10(8)) ([Regulation (EU) 2017/745](http://publications.europa.eu/resource/cellar/81b29f1b-502a-11ef-acbc-01aa75ed71a1.0007.02/DOC_1), read 2026-11-27).
+- Field safety corrective actions: the distributor cooperates in bringing a device into conformity, withdrawing or
+  recalling it, and keeps a register of complaints, non-conforming devices, recalls and withdrawals (art. 14(4) and
+  (5)) ([Regulation (EU) 2017/745](http://publications.europa.eu/resource/cellar/81b29f1b-502a-11ef-acbc-01aa75ed71a1.0007.02/DOC_1), read 2026-11-27).
+- SimpleERP enforces: every lot is traceable by its UDI.
 - Read in the
   [ANSM FAQ on the obligations of economic operators](https://ansm.sante.fr/documents/reference/faq-reglement-dm-obligations-des-operateurs-economiques)
   (no date on the page), distributor checks only; UDI checks and storage conditions are not on the page:
@@ -34,11 +40,11 @@ incidents to the manufacturer and, for serious incidents, to the authority.
 
 ## Legal references
 
-- Law to read: medical devices and their traceability (not read yet).
+- [Regulation (EU) 2017/745](http://publications.europa.eu/resource/cellar/81b29f1b-502a-11ef-acbc-01aa75ed71a1.0007.02/DOC_1) art. 10, 14, 25, 27, 123.
 
 ## Effective dates
 
-(Proposed) To read.
+Regulation (EU) 2017/745 applies from 2021-05-26 (art. 123(2)) ([Regulation (EU) 2017/745](http://publications.europa.eu/resource/cellar/81b29f1b-502a-11ef-acbc-01aa75ed71a1.0007.02/DOC_1), read 2026-11-27).
 
 ## Enforced by
 
@@ -52,7 +58,11 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+One year's imprisonment and a 150 000 EUR fine for not informing the ANSM at once of a device presenting a serious
+risk or falsified (L5461-2-1); five years and 375 000 EUR for making available a non-conforming device or not
+keeping the manufacturer's storage and transport conditions (L5461-3 III), seven years and 750 000 EUR when the
+risk is serious, in an organised group or online (L5461-3 IV); both in force since 2022-04-22
+([Code de la santé publique, art. L5461-2 to L5461-8](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000028350340/), read 2026-11-27).
 
 ## Exceptions
 
@@ -60,7 +70,7 @@ None stated.
 
 ## Open questions
 
-The law on medical devices and their traceability is not read yet; the values are to read before launch.
+None: the regulation and the French penalties were read on 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

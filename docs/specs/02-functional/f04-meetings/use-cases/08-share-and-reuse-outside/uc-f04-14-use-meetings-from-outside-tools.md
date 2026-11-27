@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-14 Use meetings from outside tools
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -45,7 +45,7 @@ F4 set up (UC-F4-08).
    client, a webhook (Zapier, Make, n8n), a document store or a task tool.
 2. They choose what may leave: summary, transcript, actions, recording
    ([BR-F4-22](../../business-rules/br-f04-22-only-chosen-content-leaves.md)).
-3. When a meeting is checked, the chosen content is sent within 5 minutes (Proposed).
+3. When a meeting is checked, the chosen content is sent within 5 minutes.
 4. Actions synced to a task tool stay in step both ways.
 
 ## Alternative flows

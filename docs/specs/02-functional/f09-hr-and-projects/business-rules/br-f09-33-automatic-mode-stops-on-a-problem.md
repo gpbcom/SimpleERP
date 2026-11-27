@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-33 Automatic mode enabled by hand, stops on a problem
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-33 / D515)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -48,7 +48,7 @@ Yes:
 - per team and per request type, switched on by hand; the request type says whether the automatic mode is allowed;
 - by the administrator or the planners' manager (D517);
 - who is notified when it stops;
-- (Proposed) the cost limit, per request type.
+- the cost limit, per request type.
 
 When it stops on one work request, it goes on for the others (D517).
 

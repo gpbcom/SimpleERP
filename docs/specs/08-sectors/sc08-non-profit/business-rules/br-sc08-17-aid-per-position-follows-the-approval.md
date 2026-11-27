@@ -3,27 +3,28 @@
 
 # 📏 BR-SC08-17 Aid per position follows the approval
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-The aid claimed for a month follows the approval: it covers only people with a valid approval on that month, at most the
-structure's approved positions, and in proportion to the time worked. A person with no valid approval brings no aid.
+The aid claimed for a month follows the structure's agreement with the State: it covers only people with a valid eligibility on that month, at most the
+structure's agreed positions, and in proportion to the contract hours below 35 and to the post's occupation. A person with no valid eligibility brings no aid.
 
 ## Why
 
-Aid claimed beyond the approval is recovered with penalties and puts the structure's approval at risk. The owner asked
+Aid claimed beyond the agreement is recovered with penalties and puts the structure's agreement at risk. The owner asked
 for work-integration enterprises ([D552](../../../06-decisions/sectors/d552-benchmark-gaps-sc08-non-profit.md)).
-(Proposed) The France-pack rule is written later.
+The France-pack rule is
+[CR-FR-237 Work-integration enterprises (IAE)](../../../10-country-packs/france/non-profit/cr-fr-237-work-integration-iae.md).
 
 ## Examples
 
 | Case | Result |
 |---|---|
-| Person approved, full month | 1.00 position |
-| Person approved, 104 of 151.67 hours | 0.69 position |
-| Approval ended last week | no aid after the end date |
-| 22 people for 20 approved positions | capped at 20 |
+| Person eligible, full month | 1.00 position |
+| Person eligible, 104 of 151.67 hours | 0.69 position |
+| Eligibility ended last week | no aid after the end date |
+| 22 people for 20 agreed positions | capped at 20 |
 | Early exit on the 12th | aid stops at the exit date |
 
 ## Applies to
@@ -31,7 +32,7 @@ for work-integration enterprises ([D552](../../../06-decisions/sectors/d552-benc
 - [UC-SC08-22](../use-cases/07-foundations-integration-and-federations/uc-sc08-22-run-a-work-integration-enterprise.md)
 - [E-SC08-17 Integration pathway](../data/e-sc08-17-integration-pathway.md)
 - [E-F9-02 Contract](../../../02-functional/f09-hr-and-projects/data/e-f09-02-contract.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-237 Work-integration enterprises (IAE)](../../../10-country-packs/france/non-profit/cr-fr-237-work-integration-iae.md)
 
 ## Exceptions

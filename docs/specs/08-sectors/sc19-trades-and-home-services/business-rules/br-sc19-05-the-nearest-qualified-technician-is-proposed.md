@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-05 The nearest qualified technician is proposed
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,10 @@ stays open and the dispatcher is told.
 ## Why
 
 A wrong technician wastes a visit and may break the law on qualified work
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The France-pack rule is
+[CR-FR-210 Qualifications the law ties to tasks](../../../10-country-packs/france/labour/cr-fr-210-qualifications-tied-to-tasks.md):
+a task the law reserves to the holder of a qualification, such as electrical work, is given only to someone who holds
+it, current.
 
 ## Examples
 

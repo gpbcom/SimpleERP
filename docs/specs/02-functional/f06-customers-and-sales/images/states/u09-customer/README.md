@@ -72,6 +72,18 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f06-04-customer-portal-e-f06-21-payment-reminder-active-phone, light](s-f06-04-customer-portal-e-f06-21-payment-reminder-active-phone-light.png) | ![s-f06-04-customer-portal-e-f06-21-payment-reminder-active-phone, dark](s-f06-04-customer-portal-e-f06-21-payment-reminder-active-phone-dark.png) |
 
+## s-f06-04-customer-portal-e-f06-21-payment-reminder-paused-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f06-04-customer-portal-e-f06-21-payment-reminder-paused-phone, light](s-f06-04-customer-portal-e-f06-21-payment-reminder-paused-phone-light.png) | ![s-f06-04-customer-portal-e-f06-21-payment-reminder-paused-phone, dark](s-f06-04-customer-portal-e-f06-21-payment-reminder-paused-phone-dark.png) |
+
+## s-f06-04-customer-portal-e-f06-21-payment-reminder-stopped-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f06-04-customer-portal-e-f06-21-payment-reminder-stopped-phone, light](s-f06-04-customer-portal-e-f06-21-payment-reminder-stopped-phone-light.png) | ![s-f06-04-customer-portal-e-f06-21-payment-reminder-stopped-phone, dark](s-f06-04-customer-portal-e-f06-21-payment-reminder-stopped-phone-dark.png) |
+
 ## s-f06-04-customer-portal-e-f06-17-invoice-dispute-open-phone
 
 | Light | Dark |

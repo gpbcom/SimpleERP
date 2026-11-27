@@ -5,7 +5,7 @@
 
 # 📝 UC-F11-29 Read the funnel, customer value and return reasons
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -114,7 +114,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Reports within 3 seconds (Proposed).
+Reports within 3 seconds.
 
 ## Regulatory references
 

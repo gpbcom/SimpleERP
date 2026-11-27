@@ -9,7 +9,7 @@
 
 The 2026-11-14 benchmark-gaps interview compared the specifications with administration, identity and group features of
 the benchmarked suites and offered each gap as an option
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F1 Administration").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F1 Administration").
 
 ## Options
 
@@ -31,7 +31,7 @@ The owner selected all four gaps; each becomes a use case of F1, drawn in
 ## Decided by
 
 The owner, on 2026-11-14, in the benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "Block by block").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "Block by block").
 
 ## Consequences
 
@@ -58,7 +58,7 @@ The owner, on 2026-11-14, in the benchmark-gaps interview
 
 - [FL-F1-15 Security and group data](../../02-functional/f01-administration/flows/fl-f01-15-security-and-group-data.md)
 - [D458 F1 Administration: gaps and improvements](d458-f01-gaps-and-improvements.md)
-- [Interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)
+- Interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)
 
 ---
 

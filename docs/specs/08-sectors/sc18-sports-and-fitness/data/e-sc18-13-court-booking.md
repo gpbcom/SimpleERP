@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-13 Court booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

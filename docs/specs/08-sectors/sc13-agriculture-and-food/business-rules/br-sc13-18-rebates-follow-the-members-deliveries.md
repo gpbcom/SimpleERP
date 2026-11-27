@@ -3,7 +3,7 @@
 
 # 📏 BR-SC13-18 Rebates follow the members' deliveries
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -15,7 +15,9 @@ surplus decided.
 
 A rebate that follows anything but the business done with the cooperative breaks its statutes and its tax treatment. The
 owner asked for cooperatives ([D557](../../../06-decisions/sectors/d557-benchmark-gaps-sc13-agriculture-and-food.md)).
-(Proposed) The France-pack rule is written later.
+(⚖️ lawyer review before launch, D574) The France-pack rule is still to write: to read the Code rural et de la pêche maritime on
+agricultural cooperatives (L521-1 and following) and loi n° 47-1775 art. 15 on rebates in proportion to the business
+done.
 
 ## Examples
 

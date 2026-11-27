@@ -36,7 +36,9 @@ find, filter, total and act on many reception kiosks at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] RECEPTION KIOSK   STATE                                                              |
+| state             | [ ] NAME   SITE   RECEPTION   STATE                                                      |
+| site              | [ ] ...                                                  Open >                          |
+| reception         | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,7 +48,9 @@ find, filter, total and act on many reception kiosks at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Reception kiosk | the record's title | text | yes |
+| Name | name | text | yes |
+| Site | site | link to the record | yes |
+| Reception | reception | person's name | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -56,12 +60,15 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Site | each linked site | the visible rows (D488) |
+| Reception | each person, the user first | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: reception kiosks link to no other record type in their fields.
+- Reception kiosks of a chosen company site, or of the company sites that match a filter.
+- From the other side: the company sites that have reception kiosks, or none.
 
 ## KPI strip
 
@@ -105,7 +112,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| reception | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

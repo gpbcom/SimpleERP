@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC15-21 Beverage distribution
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-16 Every answer shows its confidence
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -36,7 +36,7 @@ Referral topics (BR-F15-02) always offer the hand-off whatever the confidence.
 
 ## Configurable
 
-No; (Proposed) the thresholds between levels are set by the quality test set (D200).
+No; the thresholds between levels are set by the quality test set (D200).
 
 ## Open questions
 

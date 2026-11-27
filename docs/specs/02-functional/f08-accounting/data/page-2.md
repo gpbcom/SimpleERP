@@ -7,9 +7,9 @@
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🗃️ | E-F8-31 | [Closing checklist](e-f08-31-closing-checklist.md) | 🔄 |
+| 🗃️ | E-F8-31 | [Closing checklist](e-f08-31-closing-checklist.md) | ✅ |
 | 🗃️ | E-F8-32 | [Supplier payment](e-f08-32-supplier-payment.md) | ✅ |
-| 🗃️ | E-F8-33 | [Tax rate](e-f08-33-tax-rate.md) | 🔄 |
+| 🗃️ | E-F8-33 | [Tax rate](e-f08-33-tax-rate.md) | ✅ |
 | 🗃️ | E-F8-34 | [Loan](e-f08-34-loan.md) | ✅ |
 | 🗃️ | E-F8-35 | [Remittance slip](e-f08-35-remittance-slip.md) | ✅ |
 | 🗃️ | E-F8-36 | [Revaluation run](e-f08-36-revaluation-run.md) | ✅ |

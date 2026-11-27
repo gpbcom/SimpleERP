@@ -1,6 +1,6 @@
 # 🛣️ P0: Foundations
 
-**Status:** 🟡 Draft · **Sprints:** S01 to S04 · **Dates:** 7 Dec 2026 to 12 Feb 2027 · **Tickets:** 25
+**Status:** ✅ specified (D569) · **Sprints:** S01 to S04 · **Dates:** 7 Dec 2026 to 12 Feb 2027 · **Tickets:** 25
 
 > [!NOTE]
 > P0 builds what every later ticket stands on: the D438 folders and workspaces, the shared models and the service kit of `backend/shared/`, a first service with its image and its generated OpenAPI, the Compose, Helm and Terraform skeletons, and the back-office shell with its design tokens, languages and test scaffolds; it comes first because no capability can be built, tested or shipped without them.
@@ -98,7 +98,7 @@ and supplier portals and the mobile app: P2 and later phases. The back-office sh
 
 The folder names of the libraries under `backend/shared/` (`lifecycle`, `logging`, `config`, `context`, `outbox`,
 `metering`, `country-rules`, `testing`) and of the packages under `frontend/packages/` (`config`, `tokens`, `ui`,
-`i18n`, `api-client`) are (Proposed): the specifications name what they hold, not their folders.
+`i18n`, `api-client`) are Claude's names, confirmed by the owner (D572): the specifications name what they hold, not their folders.
 
 | ID | Epic | Delivers | Where | Tickets | Parallel tasks for the agents |
 | --- | --- | --- | --- | --- | --- |

@@ -4,7 +4,7 @@
 
 # 📝 UC-SC14-04 Manage licences, keys and renewals
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -126,7 +126,7 @@ sequenceDiagram
 ## Acceptance criteria
 
 1. **Given** the example software company's Acme Desk Pro valid to 2027-03 **when** the lead time comes **then** a
-   renewal task and quote are created ((Proposed) 90 days before).
+   renewal task and quote are created (90 days before).
 2. **Given** Acme's Desk Pro valid to 2027-03 **when** it is April 2027 **then** the key is disabled.
 
 ## Non-functional notes
@@ -146,7 +146,7 @@ None specific to this use case; the sector's legal rules are listed in [SC14 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

@@ -17,7 +17,6 @@ recalibration, and sector drivers (occupancy, utilisation, fill rate) make the f
 - [U13 Owner](../../../01-users/personas/u13-owner.md)
 - [U02 Manager](../../../01-users/personas/u02-manager.md)
 - [U08 External accountant](../../../01-users/personas/u08-external-accountant.md), acting in the chart, step 36i
-  (Proposed)
 
 ## Flowchart
 

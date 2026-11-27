@@ -21,7 +21,7 @@ year after acceptance of the works or against a bank guarantee.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2020-01-01: art. 1 of Loi n° 71-584 as amended by Ordonnance n° 2019-964 ([Loi n° 71-584, art. 1](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039280616), read 2026-11-27).
 
 ## Enforced by
 

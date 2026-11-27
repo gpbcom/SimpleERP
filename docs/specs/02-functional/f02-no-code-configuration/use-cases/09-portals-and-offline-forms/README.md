@@ -13,5 +13,5 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-F2-20 | [Expose a record type on a portal](uc-f02-20-expose-a-record-type-on-a-portal.md) | ✅ |
-| 📝 | UC-F2-21 | [Make a phone form work offline](uc-f02-21-make-a-phone-form-work-offline.md) | 🔄 |
-| 📝 | UC-F2-22 | [Fill a form offline on the phone](uc-f02-22-fill-a-form-offline-on-the-phone.md) | 🔄 |
+| 📝 | UC-F2-21 | [Make a phone form work offline](uc-f02-21-make-a-phone-form-work-offline.md) | ✅ |
+| 📝 | UC-F2-22 | [Fill a form offline on the phone](uc-f02-22-fill-a-form-offline-on-the-phone.md) | ✅ |

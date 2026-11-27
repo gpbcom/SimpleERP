@@ -9,8 +9,8 @@ The images of this capability's screens (D120).
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖼️ |  | [Screen states](states/README.md) | 🔄 |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Screen states](states/README.md) | ✅ |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |
 
 ---
 

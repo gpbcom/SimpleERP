@@ -3,7 +3,7 @@
 
 # 🧩 C-05 Modal
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -21,7 +21,7 @@ Asks for a decision or a short task without leaving the page: a confirmation, a 
 +------------------------------------------------+
 ```
 
-The page behind is dimmed by a veil (Proposed: `color-text` at 45 %, as drawn).
+The page behind is dimmed by a veil (`color-text` at 45 %, as drawn).
 
 **Example images** (its variants and states, light and dark, D120):
 
@@ -37,7 +37,7 @@ The page behind is dimmed by a veil (Proposed: `color-text` at 45 %, as drawn).
   reference.
 - **Form:** a short form of a few fields, as on
   [S-F1-05 Offboarding](../../../02-functional/f01-administration/screens/03-user-lifecycle/s-f01-05-offboarding.md).
-- **Phone:** full width from the bottom of the screen, with the buttons stacked, the primary first (Proposed: as drawn).
+- **Phone:** full width from the bottom of the screen, with the buttons stacked, the primary first.
 
 ## States
 
@@ -47,13 +47,13 @@ submitting (the primary button loading), error (the message inside the dialog), 
 ## Tokens
 
 `color-surface`, `elevation-2` for panels and modals, radius 12 px for panels ([Tokens](../tokens.md)); title in
-`font-h3` (Proposed); `color-error` icon for errors and `color-primary` icon for information; width 520 px on a desktop
-(Proposed: as drawn), at most the 8 middle columns of the [Layout grid](../layout-grid.md) (Proposed).
+`font-h3`; `color-error` icon for errors and `color-primary` icon for information; width 520 px on a desktop, at most
+the 8 middle columns of the [Layout grid](../layout-grid.md).
 
 ## Accessibility
 
 - `role="dialog"` (or `alertdialog` for an error) with `aria-modal`, named by its title.
-- Focus moves to the first field, or to the dialog; (Proposed) it stays inside while the modal is open and returns to
+- Focus moves to the first field, or to the dialog; it stays inside while the modal is open and returns to
   what opened it on closing.
 - Escape cancels, as on
   [S-F1-05 Offboarding](../../../02-functional/f01-administration/screens/03-user-lifecycle/s-f01-05-offboarding.md);

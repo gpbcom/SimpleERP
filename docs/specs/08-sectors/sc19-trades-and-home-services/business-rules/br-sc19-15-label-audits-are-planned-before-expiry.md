@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-15 Label audits are planned before expiry
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,8 +13,9 @@ refused and the grants of those quotes are dropped. A scope with no qualified pe
 ## Why
 
 A lapsed label makes the customer lose a grant and the company liable
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The France-pack rule is
+[CR-FR-226 Renovation grants and the RGE label](../../../10-country-packs/france/construction/cr-fr-226-renovation-grants-and-rge.md):
+only an RGE professional's works carry the grant, so a lapsed label covers nothing.
 
 ## Examples
 

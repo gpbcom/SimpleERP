@@ -3,7 +3,7 @@
 
 # 📏 BR-SC13-17 Jobs are billed by hectare or hour as agreed
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,7 +15,8 @@ not invoiced.
 
 A farm that agreed on hectares should not pay for hours, and a job without a quantity cannot be billed. The owner asked
 for farm contractors ([D557](../../../06-decisions/sectors/d557-benchmark-gaps-sc13-agriculture-and-food.md)).
-(Proposed) The France-pack rule is written later.
+No France-pack rule sets the basis: it is the one agreed with the farm, and the invoice follows the usual mentions and
+VAT rates of the pack.
 
 ## Examples
 

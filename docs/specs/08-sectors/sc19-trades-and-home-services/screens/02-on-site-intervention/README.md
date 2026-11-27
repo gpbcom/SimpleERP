@@ -12,7 +12,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC19-05 | [Dispatch](s-sc19-05-dispatch.md) | 🔄 |
-| 🖥️ | S-SC19-06 | [Site report](s-sc19-06-site-report.md) | 🔄 |
-| 🖥️ | S-SC19-07 | [Parts used](s-sc19-07-parts-used.md) | 🔄 |
-| 🖥️ | S-SC19-08 | [Sign and invoice](s-sc19-08-sign-and-invoice.md) | 🔄 |
+| 🖥️ | S-SC19-05 | [Dispatch](s-sc19-05-dispatch.md) | ✅ |
+| 🖥️ | S-SC19-06 | [Site report](s-sc19-06-site-report.md) | ✅ |
+| 🖥️ | S-SC19-07 | [Parts used](s-sc19-07-parts-used.md) | ✅ |
+| 🖥️ | S-SC19-08 | [Sign and invoice](s-sc19-08-sign-and-invoice.md) | ✅ |

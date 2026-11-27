@@ -5,17 +5,17 @@
 
 # 🖥️ S-SC08-22 Work integration
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
-- [U06 Human resources](../../../../01-users/personas/u06-hr.md): the pathways, approvals, steps and the monthly aid
+- [U06 Human resources](../../../../01-users/personas/u06-hr.md): the pathways, eligibilities, steps and the monthly aid
   claim.
 - [U01 Employee](../../../../01-users/personas/u01-employee.md): their own steps and appointments.
 
 ## Purpose
 
-Follow each person's approval and pathway and compute the aid the approved positions allow.
+Follow each person's eligibility and pathway and compute the aid the positions agreed with the State allow.
 
 ## Entry points
 
@@ -25,12 +25,12 @@ Non-profit association › Integration pathways; an employee's file; the monthly
 
 ```text
 +--------------------------------------------------------------------------------------------------+
-| Work integration   Structure type: EI   Approved positions 20   In post 21     [Month claim]     |
-| Person        Approval to  Hours/month  Step                 State      Aid                      |
+| Work integration   Structure type: EI   Agreed positions 20   In post 21       [Month claim]     |
+| Person        Eligible to  Hours/month  Step                 State      Aid                      |
 | Ms Diallo     2027-05      104          Training Jan         Active     0.69 pos.                |
 | M. Laurent    2026-12      151          Work experience      Active     1.00 pos.                |
 | Ms Kone       2026-11-05   0            Exit: job            Completed  0.00 pos.                |
-| Month: 20.00 positions claimed of 20 approved. 1 person beyond the approval, listed.             |
+| Month: 20.00 positions claimed of 20 agreed. 1 person beyond the agreement, listed.              |
 | Steps for Ms Diallo: [x] Support interview  [ ] Driving theory 14 Jan  [ ] CV workshop           |
 +--------------------------------------------------------------------------------------------------+
 ```
@@ -50,7 +50,7 @@ Non-profit association › Integration pathways; an employee's file; the monthly
 | Label | Data | Format | Editable | Required |
 |---|---|---|---|---|
 | Person | E-SC08-17 person | link | no | yes |
-| Approval | E-SC08-17 approval from, to | dates | yes while Draft | yes |
+| Eligibility | E-SC08-17 eligible from, to | dates, as found by a listed prescriber or the structure through the Plateforme de l'inclusion | yes while Draft | yes |
 | Steps | E-SC08-17 steps | list with dates | yes | no |
 | Hours | E-SC08-17 hours | number per month | no | no |
 | Aid | E-SC08-17 aid | share of a position | no | no |
@@ -61,18 +61,18 @@ Non-profit association › Integration pathways; an employee's file; the monthly
 
 | Action | Where | Who may use it | Result |
 |---|---|---|---|
-| New pathway | header | HR | a pathway in Draft with the person's approval |
+| New pathway | header | HR | a pathway in Draft with the person's eligibility |
 | Confirm step | person's phone | employee | the step is marked done |
 | Claim the month | header | HR | the aid per position with the cap shown |
 | Record exit | pathway | HR | the pathway is Completed with its result |
 
 ## States
 
-- Normal: the pathways with their approval, steps, hours, aid and exit.
+- Normal: the pathways with their eligibility, steps, hours, aid and exit.
 - Empty: No pathway yet, with New pathway.
 - Loading: the headings and the table as placeholders; the values follow.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); a missing
-  approval or an exit with no result, with the field to complete.
+  eligibility or an exit with no result, with the field to complete.
 - Read-only: the record in a locked state: values shown, no action offered.
 - Offline: Not available offline: a back-office screen on live, shared data
   ([D38](../../../../06-decisions/ux/d38-offline-field-tasks.md): only today's schedule, time and intervention records

@@ -8,8 +8,14 @@
 
 ## Purpose
 
-The accessibility statement of a hosted site: the standard, the level reached, the known gaps, the contact and the dates
+The accessibility statement of a hosted site, the page that holds its accessibility information: the requirements that
+apply and how the site meets them, which the law asks
+([CR-FR-222](../../../10-country-packs/france/digital/cr-fr-222-accessibility-statement.md)), then the standard, the
+level reached, the known gaps, the contact and the dates, which SimpleERP adds
 [D537](../../../06-decisions/f18-hosted-websites-and-domains/d537-benchmark-gaps-f18-hosted-websites-and-domains.md). It
+holds what the law asks in two fields of their own, as
+[UC-F18-30](../use-cases/07-tests-visitors-and-accessibility/uc-f18-30-check-and-declare-accessibility.md) and
+[BR-F18-24](../business-rules/br-f18-24-an-e-shop-publishes-its-accessibility-statement.md) say. It
 differs from the publication check report ([E-F18-10 Publication check report](e-f18-10-publication-check-report.md)),
 which is one run of checks, not the public statement.
 
@@ -18,6 +24,8 @@ which is one run of checks, not the public statement.
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
 | site | hosted website (E-F18-01) | yes | a site of the company | - | atelier-nord.example | no | no |
+| requirements that apply | list of text | yes | the accessibility requirements of the country pack for this service | from the country pack | perceivable, operable, understandable, robust | no | no |
+| how the site meets them | text per requirement | yes | not empty for each requirement that applies | - | images described, keyboard navigation, contrast checked | no | no |
 | standard | text | yes | the standard of the country pack | - | the web accessibility criteria | no | no |
 | level | accessible, partly accessible, not accessible | yes | one of the three | - | partly accessible | no | no |
 | gaps | list of text and reason | no | required when the level is not accessible | - | shop images without descriptions | no | no |

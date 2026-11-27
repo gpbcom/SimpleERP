@@ -4,7 +4,7 @@
 
 # 📝 UC-F10-10 Prepare orders on kitchen screens
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -105,7 +105,7 @@ sequenceDiagram
 ## Acceptance criteria
 
 1. **Given** an order of 4 mains **when** it arrives **then** it shows on the kitchen screen with its time.
-2. **Given** an order waiting 20 minutes (Proposed) **when** the time passes **then** it turns red.
+2. **Given** an order waiting 20 minutes **when** the time passes **then** it turns red.
 3. **Given** the screen offline **when** an order arrives **then** it prints on the station's printer.
 
 ## Non-functional notes

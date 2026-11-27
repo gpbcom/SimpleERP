@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC14-07 | [Sprints](s-sc14-07-sprints.md) | 🔄 |
-| 🖥️ | S-SC14-08 | [Release notes](s-sc14-08-release-notes.md) | 🔄 |
-| 🖥️ | S-SC14-21 | [Features](s-sc14-21-features.md) | 🔄 |
+| 🖥️ | S-SC14-07 | [Sprints](s-sc14-07-sprints.md) | ✅ |
+| 🖥️ | S-SC14-08 | [Release notes](s-sc14-08-release-notes.md) | ✅ |
+| 🖥️ | S-SC14-21 | [Features](s-sc14-21-features.md) | ✅ |

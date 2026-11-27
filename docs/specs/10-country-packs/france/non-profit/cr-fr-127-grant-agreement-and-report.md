@@ -22,11 +22,13 @@ followed by a financial report within 6 months of the year end.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Loi n° 2000-321 art. 10 in its current version since 2022-02-23 (loi n° 2022-217) ([loi n° 2000-321, art. 10](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000045213404), read 2026-11-27);
+the 23 000 EUR threshold is set by décret n° 2001-495.
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc08-non-profit/regulatory.md)
+- [UC-SC08-21 Give grants as a foundation](../../../08-sectors/sc08-non-profit/use-cases/07-foundations-integration-and-federations/uc-sc08-21-give-grants-as-a-foundation.md)
 
 ## When the law changes
 

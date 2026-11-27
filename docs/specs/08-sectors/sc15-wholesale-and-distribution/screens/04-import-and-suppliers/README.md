@@ -12,7 +12,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC15-12 | [Imports](s-sc15-12-imports.md) | 🔄 |
-| 🖥️ | S-SC15-13 | [EU statistics](s-sc15-13-eu-statistics.md) | 🔄 |
-| 🖥️ | S-SC15-17 | [Buying](s-sc15-17-buying.md) | 🔄 |
-| 🖥️ | S-SC15-19 | [Supplier performance](s-sc15-19-supplier-performance.md) | 🔄 |
+| 🖥️ | S-SC15-12 | [Imports](s-sc15-12-imports.md) | ✅ |
+| 🖥️ | S-SC15-13 | [EU statistics](s-sc15-13-eu-statistics.md) | ✅ |
+| 🖥️ | S-SC15-17 | [Buying](s-sc15-17-buying.md) | ✅ |
+| 🖥️ | S-SC15-19 | [Supplier performance](s-sc15-19-supplier-performance.md) | ✅ |

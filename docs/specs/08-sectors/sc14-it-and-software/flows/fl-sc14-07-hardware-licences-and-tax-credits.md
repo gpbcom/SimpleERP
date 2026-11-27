@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC14-07 Hardware, licences, research tax credit and sponsorship
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

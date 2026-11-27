@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC19-02 On-site intervention
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

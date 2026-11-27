@@ -75,8 +75,12 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f04-06-meetings-e-f04-02-transcript-live-phone.html`
 - `s-f04-06-meetings-e-f04-04-action-item-open-desktop.html`
 - `s-f04-06-meetings-e-f04-04-action-item-open-phone.html`
-- `s-f04-06-meetings-e-f04-17-meeting-summary-active-desktop.html`
-- `s-f04-06-meetings-e-f04-17-meeting-summary-active-phone.html`
+- `s-f04-06-meetings-e-f04-17-meeting-summary-draft-desktop.html`
+- `s-f04-06-meetings-e-f04-17-meeting-summary-published-desktop.html`
+- `s-f04-06-meetings-e-f04-17-meeting-summary-not-checked-desktop.html`
+- `s-f04-06-meetings-e-f04-17-meeting-summary-draft-phone.html`
+- `s-f04-06-meetings-e-f04-17-meeting-summary-published-phone.html`
+- `s-f04-06-meetings-e-f04-17-meeting-summary-not-checked-phone.html`
 - `s-f04-06-meetings-e-f04-22-meeting-agenda-active-desktop.html`
 - `s-f04-06-meetings-e-f04-22-meeting-agenda-active-phone.html`
 - `s-f04-08-meeting-prep-brief-e-f04-01-meeting-checked-desktop.html`
@@ -181,7 +185,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f04-06-meetings-e-f04-02-transcript-complete-tablet.html`
 - `s-f04-06-meetings-e-f04-02-transcript-live-tablet.html`
 - `s-f04-06-meetings-e-f04-04-action-item-open-tablet.html`
-- `s-f04-06-meetings-e-f04-17-meeting-summary-active-tablet.html`
+- `s-f04-06-meetings-e-f04-17-meeting-summary-draft-tablet.html`
+- `s-f04-06-meetings-e-f04-17-meeting-summary-published-tablet.html`
+- `s-f04-06-meetings-e-f04-17-meeting-summary-not-checked-tablet.html`
 - `s-f04-06-meetings-e-f04-22-meeting-agenda-active-tablet.html`
 - `s-f04-08-meeting-prep-brief-e-f04-01-meeting-checked-tablet.html`
 - `s-f04-08-meeting-prep-brief-e-f04-01-meeting-ended-tablet.html`

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-11 Certificates list paid amounts only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,8 +13,10 @@ advance already paid, and a corrected payment gives a corrected certificate that
 ## Why
 
 A certificate with unpaid or ineligible amounts makes the household claim too much
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The France-pack rule is
+[CR-FR-103 Tax credit for home services and its yearly certificate](../../../10-country-packs/france/tax-and-vat/cr-fr-103-home-services-tax-credit.md):
+the certificate states the amount actually paid after the immediate advance, allowances or prepaid vouchers, before 31
+March.
 
 ## Examples
 

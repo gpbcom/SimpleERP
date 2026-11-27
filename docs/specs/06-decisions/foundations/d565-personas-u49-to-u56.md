@@ -9,7 +9,7 @@
 
 The 2026-11-14 benchmark-gaps interview added gaps for audit firms, shareholders, partners and three new sectors (beauty
 and wellness, sports and fitness, public bodies) whose users are not in the list of personas U01 to U48
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "New personas").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "New personas").
 
 ## Options
 
@@ -36,7 +36,7 @@ on both."). U31 Treasurer is reused for loans and cash.
 ## Decided by
 
 The owner, on 2026-11-14, in the benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "Block by block").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "Block by block").
 
 ## Consequences
 
@@ -49,7 +49,7 @@ The owner, on 2026-11-14, in the benchmark-gaps interview
 
 - [U31 Treasurer](../../01-users/personas/u31-treasurer.md)
 - [D33 Design for an office worker](../ux/d33-design-for-an-office-worker.md)
-- [Interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)
+- Interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)
 
 ---
 

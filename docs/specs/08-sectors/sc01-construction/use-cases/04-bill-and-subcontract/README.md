@@ -13,4 +13,4 @@ The use cases of this flow.
 |---|---|---|---|
 | 📝 | UC-SC01-06 | [Bill progress with the retention guarantee](uc-sc01-06-bill-progress-with-the-retention-guarantee.md) | ✅ |
 | 📝 | UC-SC01-07 | [Subcontract](uc-sc01-07-subcontract.md) | ✅ |
-| 📝 | UC-SC01-14 | [Follow site profitability](uc-sc01-14-follow-site-profitability.md) | 🔄 |
+| 📝 | UC-SC01-14 | [Follow site profitability](uc-sc01-14-follow-site-profitability.md) | ✅ |

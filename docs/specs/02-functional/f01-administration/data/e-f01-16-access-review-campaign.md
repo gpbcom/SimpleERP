@@ -3,7 +3,7 @@
 
 # 🗃️ E-F1-16 Access review campaign
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -36,7 +36,7 @@ By quarter and status; the report per campaign.
 
 ## Retention
 
-Kept 3 years as evidence (Proposed).
+Kept 3 years as evidence.
 
 ## Audit
 

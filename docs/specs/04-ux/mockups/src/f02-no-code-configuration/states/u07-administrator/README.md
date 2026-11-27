@@ -14,7 +14,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f02-01-record-type-editor-e-f02-05-record-type-live-desktop.html`
 - `s-f02-02-status-designer-e-f02-02-status-and-transition-draft-desktop.html`
 - `s-f02-02-status-designer-e-f02-02-status-and-transition-published-desktop.html`
-- `s-f02-02-status-designer-e-f02-26-configuration-draft-active-desktop.html`
+- `s-f02-02-status-designer-e-f02-26-configuration-draft-open-desktop.html`
+- `s-f02-02-status-designer-e-f02-26-configuration-draft-published-desktop.html`
+- `s-f02-02-status-designer-e-f02-26-configuration-draft-discarded-desktop.html`
 - `s-f02-03-form-designer-e-f02-03-form-layout-draft-desktop.html`
 - `s-f02-03-form-designer-e-f02-03-form-layout-published-desktop.html`
 - `s-f02-03-form-designer-e-f02-04-list-view-draft-desktop.html`
@@ -38,9 +40,13 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f02-10-publish-and-versions-e-f02-25-request-type-draft-desktop.html`
 - `s-f02-10-publish-and-versions-e-f02-25-request-type-published-desktop.html`
 - `s-f02-10-publish-and-versions-e-f02-25-request-type-retired-desktop.html`
-- `s-f02-10-publish-and-versions-e-f02-26-configuration-draft-active-desktop.html`
+- `s-f02-10-publish-and-versions-e-f02-26-configuration-draft-open-desktop.html`
+- `s-f02-10-publish-and-versions-e-f02-26-configuration-draft-published-desktop.html`
+- `s-f02-10-publish-and-versions-e-f02-26-configuration-draft-discarded-desktop.html`
 - `s-f02-11-packs-e-f02-11-configuration-pack-published-desktop.html`
-- `s-f02-11-packs-e-f02-26-configuration-draft-active-desktop.html`
+- `s-f02-11-packs-e-f02-26-configuration-draft-open-desktop.html`
+- `s-f02-11-packs-e-f02-26-configuration-draft-published-desktop.html`
+- `s-f02-11-packs-e-f02-26-configuration-draft-discarded-desktop.html`
 - `s-f02-13-documents-workspace-e-f02-13-document-done-desktop.html`
 - `s-f02-13-documents-workspace-e-f02-13-document-to-sort-desktop.html`
 - `s-f02-13-documents-workspace-e-f02-13-document-to-validate-desktop.html`
@@ -68,7 +74,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f02-21-offline-form-e-f02-20-offline-form-setting-published-desktop.html`
 - `s-f02-21-offline-form-e-f02-28-offline-change-queue-active-desktop.html`
 - `s-f02-22-impact-analysis-e-f02-10-configuration-version-published-desktop.html`
-- `s-f02-22-impact-analysis-e-f02-26-configuration-draft-active-desktop.html`
+- `s-f02-22-impact-analysis-e-f02-26-configuration-draft-open-desktop.html`
+- `s-f02-22-impact-analysis-e-f02-26-configuration-draft-published-desktop.html`
+- `s-f02-22-impact-analysis-e-f02-26-configuration-draft-discarded-desktop.html`
 - `s-f02-23-test-cases-e-f02-08-automation-rule-draft-desktop.html`
 - `s-f02-23-test-cases-e-f02-08-automation-rule-paused-desktop.html`
 - `s-f02-23-test-cases-e-f02-08-automation-rule-published-desktop.html`
@@ -91,7 +99,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f02-30-custom-report-e-f02-01-custom-field-draft-desktop.html`
 - `s-f02-30-custom-report-e-f02-01-custom-field-live-desktop.html`
 - `s-f02-30-custom-report-e-f02-10-configuration-version-published-desktop.html`
-- `s-f02-30-custom-report-e-f02-26-configuration-draft-active-desktop.html`
+- `s-f02-30-custom-report-e-f02-26-configuration-draft-open-desktop.html`
+- `s-f02-30-custom-report-e-f02-26-configuration-draft-published-desktop.html`
+- `s-f02-30-custom-report-e-f02-26-configuration-draft-discarded-desktop.html`
 
 - `s-f02-31-script-step-editor-e-f02-30-script-step-draft-desktop.html`
 - `s-f02-31-script-step-editor-e-f02-30-script-step-failed-desktop.html`

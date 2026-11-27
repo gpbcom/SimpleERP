@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-01 Expenditure stays within voted credits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,8 +13,11 @@ until the council votes more credit. A budget is voted only when each section is
 ## Why
 
 Spending beyond the voted credits is irregular for the authorising officer and the public accountant
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The France-pack rule is
+[CR-FR-250 Public accounting M57](../../../10-country-packs/france/accounting/cr-fr-250-public-accounting-m57.md): each
+section, operation and investment, is voted in balance with sincere estimates (CGCT L1612-4), and the budget is voted by
+15 April (30 April in a renewal year, L1612-2). Spending stays within the voted credits:
+the mayor or the president keeps the commitment accounts, under a joint ministerial order, since the budget year 2026 (CGCT L1612-38, created by Ordonnance n° 2025-526, which repealed L2342-2), and the accountant pays only within the credits opened (L1612-39).
 
 ## Examples
 
@@ -32,7 +35,7 @@ written later.
 - [E-SC20-01 Budget](../data/e-sc20-01-budget.md)
 - [E-SC20-01 Budget](../data/e-sc20-01-budget.md)
 - [E-F8-08](../../../02-functional/f08-accounting/data/e-f08-08-accounting-budget.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-250 Public accounting M57](../../../10-country-packs/france/accounting/cr-fr-250-public-accounting-m57.md)
 
 ## Exceptions

@@ -137,7 +137,10 @@ server, the first page within 1 second; reports within 5 seconds or in the backg
 ## Regulatory references
 
 Legal values from the France country pack:
-[CR-FR-163 Livestock health register and withdrawal periods](../../../../10-country-packs/france/agriculture/cr-fr-163-livestock-health-register.md).
+[CR-FR-163 Livestock health register and withdrawal periods](../../../../10-country-packs/france/agriculture/cr-fr-163-livestock-health-register.md):
+each veterinary treatment of a food animal is recorded with its withdrawal period, even when it is nil, and kept at least
+5 years after the year of the last entry; the texts state no sales ban as such, so refusing the sale of a product under
+withdrawal is SimpleERP's way to keep food from being obtained before the period ends.
 
 ## Related use cases
 

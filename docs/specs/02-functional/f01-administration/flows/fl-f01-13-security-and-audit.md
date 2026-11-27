@@ -52,7 +52,7 @@ flowchart TD
 | [E-T02-04 Federated identity provider](../../../03-technical/t02-identity-and-access/data/e-t02-04-federated-identity-provider.md) | Active | Shown elsewhere: [S-T02-04 Federated identity provider](../../../03-technical/t02-identity-and-access/screens/s-t02-04-federated-identity-provider.md), from the admin list [S-T02-L04](../../../03-technical/t02-identity-and-access/screens/00-lists/s-t02-l04-federated-identity-providers.md) | Federated identity providers |
 | [E-T03-03 Chain checkpoint](../../../03-technical/t03-audit-trail/data/e-t03-03-chain-checkpoint.md) | Recorded | Shown elsewhere: [S-T03-03 Chain checkpoint](../../../03-technical/t03-audit-trail/screens/s-t03-03-chain-checkpoint.md), from the admin list [S-T03-L03](../../../03-technical/t03-audit-trail/screens/00-lists/s-t03-l03-chain-checkpoints.md) | Chain checkpoints |
 | [E-F1-20 SIEM destination](../data/e-f01-20-siem-destination.md) | Off, On, Failing | 2, 3, 4 [S-F1-22](../screens/13-security-and-audit/s-f01-22-audit-trail.md) | SIEM destinations |
-| [E-T03-01 Audit entry](../../../03-technical/t03-audit-trail/data/e-t03-01-audit-entry.md) | Recorded (Proposed) | Shown elsewhere: [S-T03-01 Audit entry](../../../03-technical/t03-audit-trail/screens/s-t03-01-audit-entry.md) | Audit entries |
+| [E-T03-01 Audit entry](../../../03-technical/t03-audit-trail/data/e-t03-01-audit-entry.md) | Recorded | Shown elsewhere: [S-T03-01 Audit entry](../../../03-technical/t03-audit-trail/screens/s-t03-01-audit-entry.md) | Audit entries |
 
 ## Errors
 

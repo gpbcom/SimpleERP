@@ -18,4 +18,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC12-05 Private school](05-private-school/README.md) | 38 images |
 | 🖼️ |  | [Images: FL-SC12-06 Apprentices, driving schools, nurseries, canteens](06-apprentices-driving-nurseries-and-canteens/README.md) | 18 images |
 | 🖼️ |  | [Screen states](states/README.md) | 160 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

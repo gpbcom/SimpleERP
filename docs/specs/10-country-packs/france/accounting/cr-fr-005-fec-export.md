@@ -23,7 +23,9 @@ be imported.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Until 2026-12-31, LPF L47 A in its version of 2018-10-25 ([Livre des procédures fiscales, art. L47 A](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037526053), read 2026-11-27); from 2027-01-01, the version amended by
+Ordonnance n° 2025-1247 art. 12, on the same subject (computerised accounts and copies of the accounting files)
+([LPF, art. L47 A, version of 2027-01-01](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037526053/2027-01-02), read 2026-11-27).
 
 ## Enforced by
 
@@ -41,7 +43,8 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet (CGI art. 1729 D sets the fine for a missing FEC).
+Accounts not presented in the form of LPF L47 A I: a 5 000 EUR fine or, when higher and the tax
+is reassessed, a 10 % surcharge on the rights (CGI 1729 D I) ([CGI, art. 1729 D](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033815103), read 2026-11-27).
 
 ## Exceptions
 

@@ -4,7 +4,7 @@
 
 # 📏 BR-F23-21 Valuations show their method and assumptions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

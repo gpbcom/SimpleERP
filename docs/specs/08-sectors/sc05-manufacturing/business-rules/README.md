@@ -2,7 +2,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -25,10 +25,10 @@ One file per rule.
 | 📏 | BR-SC05-13 | [Operators qualified for the operation](br-sc05-13-operators-qualified-for-the-operation.md) | ✅ |
 | 📏 | BR-SC05-14 | [Objectives reviewed yearly](br-sc05-14-objectives-reviewed-yearly.md) | ✅ |
 | 📏 | BR-SC05-15 | [Standards' texts licensed](br-sc05-15-standards-texts-licensed.md) | ✅ |
-| 📏 | BR-SC05-16 | [Excise is due when goods leave the bonded warehouse](br-sc05-16-excise-is-due-when-goods-leave-the-bonded-warehouse.md) | 🔄 |
-| 📏 | BR-SC05-17 | [Every refurbished unit is graded and tested](br-sc05-17-every-refurbished-unit-is-graded-and-tested.md) | 🔄 |
-| 📏 | BR-SC05-18 | [Production starts only after the proof is approved](br-sc05-18-production-starts-only-after-the-proof-is-approved.md) | 🔄 |
-| 📏 | BR-SC05-19 | [Remnants above the minimum size go back to stock](br-sc05-19-remnants-above-the-minimum-size-go-back-to-stock.md) | 🔄 |
+| 📏 | BR-SC05-16 | [Excise is due when goods leave the bonded warehouse](br-sc05-16-excise-is-due-when-goods-leave-the-bonded-warehouse.md) | ✅ |
+| 📏 | BR-SC05-17 | [Every refurbished unit is graded and tested](br-sc05-17-every-refurbished-unit-is-graded-and-tested.md) | ✅ |
+| 📏 | BR-SC05-18 | [Production starts only after the proof is approved](br-sc05-18-production-starts-only-after-the-proof-is-approved.md) | ✅ |
+| 📏 | BR-SC05-19 | [Remnants above the minimum size go back to stock](br-sc05-19-remnants-above-the-minimum-size-go-back-to-stock.md) | ✅ |
 
 ---
 

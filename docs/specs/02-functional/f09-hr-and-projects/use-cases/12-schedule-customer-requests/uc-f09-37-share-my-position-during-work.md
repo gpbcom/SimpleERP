@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-37 Share my position during work
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-21 to VD-23 / D503 to D505)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -47,26 +47,25 @@ Each working day, for the employees of those teams.
 
 1. Working hours start; the phone shows the live indicator
    ([S-F9-34](../../screens/12-schedule-customer-requests/s-f09-34-my-position.md)): "Your position is shared".
-2. The employee opens it: what is recorded (the position, about every few minutes (Proposed)), why (the team's
+2. The employee opens it: what is recorded (the position, about every few minutes), why (the team's
    purpose), who sees it (their planner or dispatcher, their manager, and the customer an arrival time only during the
    visit's window), and how long it is kept.
 3. During a break, the employee taps "Pause"; nothing is recorded until "Resume" or the end of the break.
 4. Working hours end; sharing stops by itself and the indicator goes.
-5. The employee opens their history in their profile: the days, the times shared and paused, and (Proposed) who
+5. The employee opens their history in their profile: the days, the times shared and paused, and who
    opened a map that showed them.
 
 ## Alternative flows
 
 - 1a. The team option is off: no indicator; positions at check-in and check-out only
   ([BR-F9-06](../../business-rules/br-f09-06-location-only-at-check-in.md)).
-- 3a. The break ends without "Resume": sharing resumes at the end of the break planned in the shift (Proposed).
+- 3a. The break ends without "Resume": sharing resumes at the end of the break planned in the shift.
 
 ## Error flows
 
 - 1e. The phone's location is switched off: the indicator says "Not shared"; the planner sees the last check-in only;
   nobody is blamed (no performance use).
-- 4e. Working hours overrun: sharing stops at the planned end; the employee may resume it for the overrun, by choice
-  (Proposed).
+- 4e. Working hours overrun: sharing stops at the planned end; the employee may resume it for the overrun, by choice.
 
 ## Business rules
 
@@ -83,7 +82,7 @@ Each working day, for the employees of those teams.
 ## Permissions
 
 The employee sees everything shared about them. Their planner or dispatcher and their manager see the positions, for
-planning only; never for speed or performance (BR-F9-32). HR does not see live positions (Proposed).
+planning only; never for speed or performance (BR-F9-32). HR does not see live positions.
 
 ## Notifications
 
@@ -143,7 +142,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Battery use kept low: positions every few minutes, not continuously (Proposed). The indicator is a word and an icon,
+Battery use kept low: positions every few minutes, not continuously. The indicator is a word and an icon,
 never only a colour.
 
 ## Regulatory references

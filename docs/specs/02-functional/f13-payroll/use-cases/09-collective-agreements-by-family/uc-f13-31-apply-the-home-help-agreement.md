@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-31 Apply the home-help agreement
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -132,7 +132,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 [CR-FR-106 Home-care travel and split shifts](../../../../10-country-packs/france/labour/cr-fr-106-home-care-travel-and-split-shifts.md),
 [CR-FR-012 Mileage scale](../../../../10-country-packs/france/tax-and-vat/cr-fr-012-mileage-scale.md); the agreement's
-grid: (Proposed) to read.
+grid: (⚖️ lawyer review before launch, D574) to read: the IDCC 2941 classification and pay grid (CR-FR-106 reads
+its art. 7 and 13 only).
 
 ## Related use cases
 

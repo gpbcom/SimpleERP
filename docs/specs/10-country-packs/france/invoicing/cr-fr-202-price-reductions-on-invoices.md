@@ -21,7 +21,8 @@ each item's quantity, unit price excluding VAT and VAT rate.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-12, the date of this specification.
+Since 2019-04-26: L441-9 ([Code de commerce, art. L441-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414397), read 2026-11-27). Until 2026-12-31, the L441-9 version of 2019-04-26; from 2027-01-01, the version amended by Ordonnance n° 2026-671
+art. 2, with the same list of mentions and fines, its exemptions now referring to CIBS L216-28 and L216-33 ([Code de commerce, art. L441-9, version of 2027-01-01](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414397/2027-01-02), read 2026-11-27).
 
 ## Enforced by
 

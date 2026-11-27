@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-20 Salon loyalty
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

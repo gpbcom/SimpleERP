@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC02-17 Furniture orders
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

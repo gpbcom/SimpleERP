@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-25 Pay farm workers under the MSA
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -138,7 +138,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 ## Regulatory references
 
 [CR-FR-167 Seasonal workers exemption](../../../../10-country-packs/france/labour/cr-fr-167-seasonal-workers-exemption.md);
-MSA declarations: (Proposed) to read.
+MSA declarations: (⚖️ lawyer review before launch, D574) to read: Code rural et de la pêche maritime, MSA
+declaration rules.
 
 ## Related use cases
 

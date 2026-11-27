@@ -4,7 +4,7 @@
 
 # 🖥️ S-F6-23 Pro-forma invoice
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -21,7 +21,7 @@ Accounting › Pro-forma invoices.
 
 ## Wireframe
 
-(Proposed) As drawn here, to confirm with the owner.
+As drawn here.
 
 ```text
 +------------------------------------------------------------------+

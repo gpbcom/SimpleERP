@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC03-05 | [Timesheets](s-sc03-05-timesheets.md) | 🔄 |
-| 🖥️ | S-SC03-09 | [Freelancers](s-sc03-09-freelancers.md) | 🔄 |
-| 🖥️ | S-SC03-15 | [Engagement assistant](s-sc03-15-engagement-assistant.md) | 🔄 |
+| 🖥️ | S-SC03-05 | [Timesheets](s-sc03-05-timesheets.md) | ✅ |
+| 🖥️ | S-SC03-09 | [Freelancers](s-sc03-09-freelancers.md) | ✅ |
+| 🖥️ | S-SC03-15 | [Engagement assistant](s-sc03-15-engagement-assistant.md) | ✅ |

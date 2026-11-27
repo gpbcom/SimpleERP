@@ -4,7 +4,7 @@
 
 # 📝 UC-F3-15 Defend against instructions hidden in content
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -77,7 +77,7 @@ Administrators review the alerts.
 
 ## Notifications
 
-The administrator gets a daily digest of alerts (Proposed).
+The administrator gets a daily digest of alerts.
 
 ## Audit events
 
@@ -126,11 +126,11 @@ sequenceDiagram
 
 ## Non-functional notes
 
-The check adds under 300 ms to an answer (Proposed).
+The check adds under 300 ms to an answer.
 
 ## Regulatory references
 
-(Proposed) to read: the AI Act's robustness and cybersecurity duties, Article 15.
+(⚖️ lawyer review before launch, D574) to read: the AI Act's robustness and cybersecurity duties, Article 15.
 
 ## Related use cases
 

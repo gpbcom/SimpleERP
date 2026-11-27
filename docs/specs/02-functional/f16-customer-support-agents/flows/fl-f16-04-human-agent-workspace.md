@@ -3,7 +3,7 @@
 
 # 🔀 FL-F16-04 Human agent workspace
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -71,7 +71,7 @@ sequenceDiagram
 
 E1: a target is missed: the request is marked breached, its priority raised and the lead told; the flow resumes at step
 2. E2: two people open the same request: the second sees it read-only (BR-F16-06). E3: the customer's language has no
-translation available: the answer goes in the company's language with an apology line (Proposed).
+translation available: the answer goes in the company's language with an apology line.
 
 ## Images
 

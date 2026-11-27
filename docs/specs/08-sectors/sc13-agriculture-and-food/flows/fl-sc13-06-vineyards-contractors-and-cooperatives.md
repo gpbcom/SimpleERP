@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC13-06 Vineyards, contractors, cooperatives, baskets, forests
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

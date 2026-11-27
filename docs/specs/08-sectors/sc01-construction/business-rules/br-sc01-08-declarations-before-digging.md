@@ -7,12 +7,15 @@
 
 ## Statement
 
-(Proposed) A phase that digs or works near networks starts once the declarations' answers are recorded; in France:
+A phase that digs or works near networks starts once the declarations' answers are recorded; in France:
 [CR-FR-089 Works near networks (DT-DICT)](../../../10-country-packs/france/construction/cr-fr-089-works-near-networks.md).
 
 ## Why
 
-(Proposed) Safety practice; the legal deadlines are still to read.
+Safety practice, and the law: no work starts before every receipt; DT answers come within 9 days online (15 otherwise),
+DICT answers within 7 days online (9 otherwise), an operator that must locate its network gets 15 more days, and the
+declarations are renewed after 3 months without contract or start
+([CR-FR-089 Works near networks (DT-DICT)](../../../10-country-packs/france/construction/cr-fr-089-works-near-networks.md)).
 
 ## Examples
 

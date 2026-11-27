@@ -11,7 +11,7 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-SC13-21 | [Run the vineyard and the cellar](uc-sc13-21-run-the-vineyard-and-the-cellar.md) | 🔄 |
+| 📝 | UC-SC13-21 | [Run the vineyard and the cellar](uc-sc13-21-run-the-vineyard-and-the-cellar.md) | ✅ |
 | 📝 | UC-SC13-22 | [Work as an agricultural contractor](uc-sc13-22-work-as-an-agricultural-contractor.md) | ✅ |
 | 📝 | UC-SC13-23 | [Run a cooperative](uc-sc13-23-run-a-cooperative.md) | ✅ |
 | 📝 | UC-SC13-24 | [Sell basket subscriptions](uc-sc13-24-sell-basket-subscriptions.md) | ✅ |

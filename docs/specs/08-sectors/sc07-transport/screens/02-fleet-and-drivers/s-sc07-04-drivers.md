@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC07-04 Drivers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -13,8 +13,9 @@
 
 ## Purpose
 
-Used to manage drivers and their documents
-([UC-SC07-04](../../use-cases/02-fleet-and-drivers/uc-sc07-04-manage-drivers-and-their-documents.md)).
+Keep each driver's documents and their expiries; HR is reminded of each document 60 days before it expires, a default
+the company may change ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md),
+[UC-SC07-04](../../use-cases/02-fleet-and-drivers/uc-sc07-04-manage-drivers-and-their-documents.md)).
 
 ## Entry points
 
@@ -53,7 +54,8 @@ with their examples.
 
 ## States
 
-- Normal: drivers with documents and expiries.
+- Normal: drivers with documents and expiries; a document within the reminder delay (60 days by default, a company
+  setting) is marked, and HR has been reminded.
 - Empty: "No driver".
 - Loading: the frame and titles show at once with placeholder rows; within 1 second
   ([D408](../../../../06-decisions/technical/d408-performance-and-profiles.md)) the data replaces them, and a longer
@@ -82,7 +84,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

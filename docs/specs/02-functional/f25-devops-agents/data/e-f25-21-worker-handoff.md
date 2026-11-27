@@ -3,7 +3,7 @@
 
 # 🗃️ E-F25-21 Worker handoff
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -68,7 +68,7 @@ By run, contract, role, state and commit hash.
 
 ## Retention
 
-(Proposed) Kept as long as the agent run it belongs to, as evidence of the pull request. It holds no personal data.
+Kept as long as the agent run it belongs to, as evidence of the pull request. It holds no personal data.
 
 ## Audit
 
@@ -76,7 +76,7 @@ Every submission, check result, refusal with its reason, blocker decision and in
 
 ## Import and export
 
-No import. (Proposed) Exported as a file with the run's evidence, and summarised in the draft pull request's body
+No import. Exported as a file with the run's evidence, and summarised in the draft pull request's body
 ([UC-F25-36](../use-cases/08-team-builds-a-ticket/uc-f25-36-open-the-draft-pull-request-with-its-evidence.md)).
 
 ## Used by

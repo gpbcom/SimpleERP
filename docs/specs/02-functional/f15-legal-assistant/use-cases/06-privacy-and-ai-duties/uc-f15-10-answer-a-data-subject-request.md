@@ -4,7 +4,7 @@
 
 # 📝 UC-F15-10 Answer a data-subject request
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -75,7 +75,7 @@ Administrator and HR handle; the owner reads; the requester sees their own reque
 
 ## Notifications
 
-- The administrator at each new request and (Proposed) 7 days before the due date; the requester when answered.
+- The administrator at each new request and 7 days before the due date; the requester when answered.
 
 ## Audit events
 

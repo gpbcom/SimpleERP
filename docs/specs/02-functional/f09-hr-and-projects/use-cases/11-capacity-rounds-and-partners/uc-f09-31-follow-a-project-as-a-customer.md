@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-31 Follow a project as a customer
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -55,7 +55,7 @@ Weekly per active project.
 
 ## Error flows
 
-- 3e. No answer in 10 days (Proposed): reminded.
+- 3e. No answer in 10 days: reminded.
 
 ## Business rules
 

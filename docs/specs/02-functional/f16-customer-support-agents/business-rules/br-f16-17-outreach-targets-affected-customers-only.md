@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-17 Outreach targets affected customers only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -54,11 +54,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-assessed-phone, light](s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-assessed-phone-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-assessed-phone, dark](s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-assessed-phone-dark.png) |
 
-## s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-phone
+## s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-phone
 
 | Light | Dark |
 |---|---|
-| ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-phone, light](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-phone-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-phone, dark](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-phone-dark.png) |
+| ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-phone, light](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-phone-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-phone, dark](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-phone-dark.png) |
+
+## s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-phone, light](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-phone-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-phone, dark](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-phone-dark.png) |
+
+## s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-phone, light](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-phone-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-phone, dark](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-phone-dark.png) |
 
 ---
 

@@ -10,7 +10,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four support
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four support
 features that F20 did not cover: calls with a human engineer, consented screen sharing, a monthly health report and
 support in more languages. F20 already diagnoses, fixes and reports incidents with the AI assistant and engineers; these
 add the personal and the periodic sides of hosted support.
@@ -42,7 +42,7 @@ full depth now.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F20 Hosted support
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F20 Hosted support
 assistant").
 
 ## Consequences

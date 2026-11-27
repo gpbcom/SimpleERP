@@ -3,21 +3,31 @@
 
 # ⚖️ CR-FR-221 Shareholders' general meetings
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A general meeting is convened by a notice that respects a minimum delay, sets an agenda and sends the
-documents; it decides only if its quorum is reached and each resolution passes its own majority (simple for ordinary
-decisions, higher for changes of the statutes); its minutes are signed and kept, and some decisions are filed with the
-register of companies.
+A general meeting is convened by a notice that respects a minimum delay, sets an agenda and sends
+the documents; it decides only if its quorum is reached and each resolution passes its own majority (simple for
+ordinary decisions, higher for changes of the statutes); in an SAS the statutes set these rules ([Code de commerce, art. L223-26 to L223-31](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006146044), [art. L225-96 and L225-98](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006161273), [art. L227-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051322706), read 2026-11-27). Its minutes are signed and kept, and some decisions are filed with the register of companies ([Code de commerce, art. R223-24](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020316738), [art. R225-106](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039371637), [art. L232-22](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048535223), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Notice delay and agenda.
-- (Proposed) Quorum and majority by kind of resolution.
-- (Proposed) Minutes and filings.
-- (Proposed) SimpleERP enforces: votes count only within quorum and majority.
+- Notice delay and agenda: SARL, 15 days at least, by registered letter (R223-20), the manager convening and holders
+  of a twentieth of the shares adding items (L223-27); SA, 15 days on the first notice, 10 on the second (R225-69);
+  SAS, as the statutes say (L227-9) ([Code de commerce, art. L223-26 to L223-31](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006146044), [art. R223-20](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036665390), [art. R225-69](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022391100), [art. L227-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051322706), read 2026-11-27).
+- Quorum and majority by kind of resolution: SARL, ordinary decisions by more than half of the shares, then a
+  majority of votes cast; changes of the statutes by three quarters, or for SARL formed after 2 August 2005 a
+  quorum of a quarter then a fifth and two thirds of the shares present or represented (L223-29, L223-30); SA,
+  ordinary meeting a fifth of the voting shares then no quorum, majority of votes cast; extraordinary meeting a
+  quarter then a fifth, two thirds of votes cast (L225-96, L225-98); SAS, as the statutes say, the decisions of
+  L227-9 taken collectively ([Code de commerce, art. L223-26 to L223-31](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006146044), [art. L225-96 and L225-98](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006161273), [art. L227-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051322706), read 2026-11-27).
+- Minutes and filings: SARL minutes give the date, place, chair, partners present and shares, documents, debate,
+  resolutions and votes, signed by the managers and the chair (R223-24); SA minutes the same, on a special register
+  kept at the registered office, signed by the board members (R225-106); an SARL files its accounts, auditors'
+  reports and the profit-allocation decision with the registry within one month of approval, two months online
+  (L232-22) ([Code de commerce, art. R223-24](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020316738), [art. R225-106](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039371637), [art. L232-22](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048535223), read 2026-11-27).
+- SimpleERP enforces: votes count only within quorum and majority.
 - Read on [Service-public F36714](https://entreprendre.service-public.gouv.fr/vosdroits/F36714) (verified 10 October
   2024), SARL only; SA and SAS are not read:
 - Read: an annual approval meeting at least once a year, within 6 months of the close; the court can extend the
@@ -33,11 +43,13 @@ register of companies.
 
 ## Legal references
 
-- Law to read: general meetings of shareholders (not read yet).
+- Code de commerce art. L223-26 to L223-31 (SARL) ([Code de commerce, art. L223-26 to L223-31](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006146044), read 2026-11-27).
+- Code de commerce R223-20, R225-69, L225-96, L225-98, L227-9 ([art. R223-20](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036665390), [art. R225-69](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022391100), [art. L225-96 and L225-98](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006161273), [art. L227-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051322706), read 2026-11-27).
 
 ## Effective dates
 
-(Proposed) To read.
+L223-26 in force since 2025-01-01 ([Code de commerce, art. L223-26](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048535091), read 2026-11-27); R223-20 since 2018-04-01, R225-69 since 2010-06-26, L225-96 and L225-98 since
+2021-01-01, L227-9 since 2025-10-01 ([art. R223-20](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036665390), [art. R225-69](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022391100), [art. L225-96 and L225-98](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006161273), [art. L227-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051322706), read 2026-11-27).
 
 ## Enforced by
 
@@ -51,11 +63,13 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Managers of an SARL who do not submit the accounts and the management report for approval: a 9 000 EUR
+fine (L241-5); the president or directors of an SA: a 9 000 EUR fine (L242-10, version of 2026-05-28); L244-1
+extends L242-1 to L242-6, L242-8 and L242-17 to L242-24 to SAS ([Code de commerce, art. L241-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025559695), [art. L242-10](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054141267), [art. L244-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048539531), read 2026-11-27).
 
 ## Exceptions
 
-(Proposed) Sole shareholders decide in writing.
+Sole shareholders decide alone and record each decision in a register: EURL (L223-31), SASU (L227-9) ([Code de commerce, art. L223-26 to L223-31](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006146044), [art. L227-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051322706), read 2026-11-27).
 
 ## Open questions
 

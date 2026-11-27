@@ -12,9 +12,9 @@ The admin list pages of this technical capability (D494), and the record page ea
 | | ID | Page | Status |
 |---|---|---|---|
 | 🗂️ |  | [Views: Translations and notifications menu](00-lists/README.md) | 3 pages |
-| 🖥️ | S-T10-01 | [Translation string](s-t10-01-translation-string.md) | 🔄 |
-| 🖥️ | S-T10-02 | [Notification](s-t10-02-notification.md) | 🔄 |
-| 🖥️ | S-T10-03 | [User preferences](s-t10-03-user-preferences.md) | 🔄 |
+| 🖥️ | S-T10-01 | [Translation string](s-t10-01-translation-string.md) | ✅ |
+| 🖥️ | S-T10-02 | [Notification](s-t10-02-notification.md) | ✅ |
+| 🖥️ | S-T10-03 | [User preferences](s-t10-03-user-preferences.md) | ✅ |
 
 ---
 

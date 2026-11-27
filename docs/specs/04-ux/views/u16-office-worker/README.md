@@ -44,10 +44,10 @@ Home · Documents · Customers · Suppliers · Meetings · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U16-01 | [Work on documents anywhere](journeys/j-u16-01-work-on-documents-anywhere.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U16-01 | [Work on documents anywhere](journeys/j-u16-01-work-on-documents-anywhere.md) | ✅ |
 
 ---
 

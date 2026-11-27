@@ -3,7 +3,7 @@
 
 # 📝 UC-F8-31 Issue LCR and deposit cheques
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -159,11 +159,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Cheques and LCR are French payment means with their own remittance and rejection rules: (Proposed) the France-pack rule
+Cheques and LCR are French payment means with their own remittance and rejection rules: the France-pack rule
 is listed below ([CR-FR-023](../../../../10-country-packs/france/payments/cr-fr-023-sepa-formats.md) covers only SEPA).
 This page states only that a cheque or an LCR is a claim until the bank credits it.
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-212 LCR and cheque remittances](../../../../10-country-packs/france/payments/cr-fr-212-lcr-and-cheque-remittances.md)
 
 ## Related use cases

@@ -30,7 +30,7 @@ None.
 
 ## Configurable
 
-The bar (Proposed: 100).
+The bar (default: 100).
 
 ## Open questions
 

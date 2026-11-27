@@ -26,10 +26,10 @@ One file per question. IDs never change. Answered questions keep their ID, and t
 | ❓ | Q14 | [A law pack refresh that fails its test set](q14-failing-law-pack-refresh.md) | ✅ |
 | ❓ | Q15 | [Copyrighted technical standards](q15-copyrighted-standards.md) | ✅ |
 | ❓ | Q16 | [How does a pilot company work before the first release?](q16-pilot-before-the-first-release.md) | ✅ |
-| ❓ | Q17 | [Country-rule penalties and start dates still to read](q17-unread-penalties-and-dates.md) | ❓ |
-| ❓ | Q18 | [LinkedIn automation and its user agreement](q18-linkedin-automation-and-its-user-agreement.md) | ❓ |
-| ❓ | Q19 | [Which LinkedIn search sourcing uses](q19-which-linkedin-search-sourcing-uses.md) | ❓ |
-| ❓ | Q20 | [Which roadmap option orders V1](q20-which-roadmap-option-orders-v1.md) | ❓ |
+| ❓ | Q17 | [Country-rule penalties and start dates still to read](q17-unread-penalties-and-dates.md) | ✅ |
+| ❓ | Q18 | [LinkedIn automation and its user agreement](q18-linkedin-automation-and-its-user-agreement.md) | ✅ |
+| ❓ | Q19 | [Which LinkedIn search sourcing uses](q19-which-linkedin-search-sourcing-uses.md) | ✅ |
+| ❓ | Q20 | [Which roadmap option orders V1](q20-which-roadmap-option-orders-v1.md) | ✅ |
 
 ---
 

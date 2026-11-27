@@ -4,7 +4,7 @@
 
 # 📌 REQ-T13-02 Geocoding of every address
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-19 / D501)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -36,7 +36,7 @@ addresses within 10 minutes.
 
 ## Priority
 
-Must (Proposed)
+Must
 
 ## Capabilities served
 

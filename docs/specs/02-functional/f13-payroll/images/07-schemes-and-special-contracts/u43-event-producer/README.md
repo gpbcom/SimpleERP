@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F13-07 Schemes and special contracts
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F13-07 Schemes and special contracts](../../../flows/fl-f13-07-schemes-and-special-contracts.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

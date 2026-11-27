@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U52-01 | [Run the salon day](j-u52-01-run-the-salon-day.md) | 🔄 |
+| 🧭 | J-U52-01 | [Run the salon day](j-u52-01-run-the-salon-day.md) | ✅ |
 
 ---
 

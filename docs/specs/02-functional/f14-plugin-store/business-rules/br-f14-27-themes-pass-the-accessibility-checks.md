@@ -3,7 +3,7 @@
 
 # 📏 BR-F14-27 Themes pass the accessibility checks
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

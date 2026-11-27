@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC13-25 Forestry
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

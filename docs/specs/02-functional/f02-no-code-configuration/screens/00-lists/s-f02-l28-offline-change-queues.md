@@ -37,10 +37,12 @@ see: to find, filter, total and act on many offline change queues at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Offline change queues    No-code configuration › Offline change queues   [+ New]                             |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] OFFLINE CHANGE QUEUE   STATE                                                         |
+| state             | [ ] OFFLINE CHAN   USER   PHONE   CHANGE STATU   WAITING   LAST SYNC   STATE             |
+| user              | [ ] ...                                                  Open >                          |
+| change status     | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -50,7 +52,12 @@ see: to find, filter, total and act on many offline change queues at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Offline change queue | the record's title | text | yes |
+| Offline change queue | title | text | yes |
+| User | user | person's name | yes |
+| Phone | phone | text | yes |
+| Change status | change status | label | yes |
+| Waiting | waiting | number, right-aligned | yes |
+| Last sync | last sync | date and time | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -60,6 +67,8 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| User | each person, the user first | the visible rows (D488) |
+| Change status | waiting, sent, refused, to choose | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -70,6 +79,7 @@ None: offline change queues link to no other record type in their fields.
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by last sync.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -81,6 +91,7 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: user.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -109,7 +120,10 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| user | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| changes | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

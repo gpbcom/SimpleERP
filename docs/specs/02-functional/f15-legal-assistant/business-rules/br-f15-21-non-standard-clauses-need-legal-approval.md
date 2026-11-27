@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-21 Non-standard clauses need legal approval
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

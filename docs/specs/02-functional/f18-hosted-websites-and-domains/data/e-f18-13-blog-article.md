@@ -3,7 +3,7 @@
 
 # 🗃️ E-F18-13 Blog article
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -43,7 +43,7 @@ By title, date and tag.
 
 ## Retention
 
-As long as the site; removed articles kept (Proposed) 1 year.
+As long as the site; removed articles kept 1 year.
 
 ## Audit
 

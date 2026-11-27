@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-27 Subcontractor assignment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -40,7 +40,8 @@ By project and supplier.
 
 ## Retention
 
-10 years (Proposed).
+10 years from the end of the fiscal year, as a supporting document of the invoices
+([CR-FR-002](../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md)).
 
 ## Audit
 

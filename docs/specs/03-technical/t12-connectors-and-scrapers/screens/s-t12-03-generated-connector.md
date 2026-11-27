@@ -3,25 +3,25 @@
 
 # 🖥️ S-T12-03 Generated connector
 
-**Status:** 🔄 (Proposed) drawn in step 36j from its entity and list page; waits for the owner
+**Status:** ✅ specified
 
 ## Personas
 
 - [U07 Administrator](../../../01-users/personas/u07-administrator.md)
 
-(Proposed) Each persona sees the fields and the actions its roles allow, as on
+Each persona sees the fields and the actions its roles allow, as on
 [S-T12-L03 Generated connectors](00-lists/s-t12-l03-generated-connectors.md): the record rules and field rules of T2.
 
 ## Purpose
 
-(Proposed) See one [E-T12-03 Generated connector](../data/e-t12-03-generated-connector.md) and act on it: its fields,
+See one [E-T12-03 Generated connector](../data/e-t12-03-generated-connector.md) and act on it: its fields,
 its state and the changes its state allows. It is the page the rows of
 [S-T12-L03 Generated connectors](00-lists/s-t12-l03-generated-connectors.md) open (VR-13).
 
 ## Entry points
 
 - [S-T12-L03 Generated connectors](00-lists/s-t12-l03-generated-connectors.md) › a row's Open ›.
-- (Proposed) A link to the record wherever another page names it, and global search.
+- A link to the record wherever another page names it, and global search.
 - The flows of Shown in.
 
 ## Wireframe
@@ -54,7 +54,7 @@ its state and the changes its state allows. It is the page the rows of
 
 ## Fields and columns
 
-As [E-T12-03 Generated connector](../data/e-t12-03-generated-connector.md#fields). (Proposed) A field is read-only when
+As [E-T12-03 Generated connector](../data/e-t12-03-generated-connector.md#fields). A field is read-only when
 the record's state is final or the role's field rules lock it; personal-data fields show only to the roles that may read
 them (VR-12); secrets never show.
 
@@ -62,9 +62,9 @@ them (VR-12); secrets never show.
 
 | Action | Who | Result |
 |---|---|---|
-| Edit | the personas whose roles may change it | (Proposed) saves the fields; audited |
-| Change state | the personas whose roles may change it | (Proposed) one of the Lifecycle's transitions: New to Available (REQ-T12-01) |
-| Ask the AI assistant | every persona of the page | (Proposed) an answer about this record from the data the user may see, with its sources |
+| Edit | the personas whose roles may change it | saves the fields; audited |
+| Change state | the personas whose roles may change it | one of the Lifecycle's transitions: New to Available (REQ-T12-01) |
+| Ask the AI assistant | every persona of the page | an answer about this record from the data the user may see, with its sources |
 | Back to the list | every persona of the page | [S-T12-L03 Generated connectors](00-lists/s-t12-l03-generated-connectors.md) |
 
 ## States
@@ -93,7 +93,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop and tablet; on a phone the fields stack in one column and the actions move to a menu.
+Desktop and tablet; on a phone the fields stack in one column and the actions move to a menu.
 
 ## Accessibility
 

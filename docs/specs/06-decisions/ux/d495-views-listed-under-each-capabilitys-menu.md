@@ -3,7 +3,7 @@
 
 # 📜 D495 Views listed under each capability's menu
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-12 / D495)
+**Status:** ✅ decided
 
 ## Context
 
@@ -22,15 +22,15 @@ sit on each persona's home screen.
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 12).
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 12).
 
 ## Consequences
 
 - [C-08 Navigation](../../04-ux/design-system/components/c-08-navigation.md): each capability's menu lists its views
   (change of step S4).
 - A view's menu path is "<capability> › <view>", or "Administration › <view>" for an admin list (rule VR-1 of the
-  [plan](../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md#view-rules)).
+  plan (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)).
 - [D47 App shell](d47-app-shell.md) and [D49 Assistant side panel](d49-assistant-side-panel.md) stay as they are.
 
 ## Related
@@ -39,7 +39,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer
 - [D47 App shell](d47-app-shell.md)
 - [D493 Persona workspaces from the use cases](d493-persona-workspaces-from-the-use-cases.md)
 - [D494 Settings and technical records as admin lists](d494-settings-and-technical-records-as-admin-lists.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

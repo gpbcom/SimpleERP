@@ -17,7 +17,8 @@ timesheets, projects and field service, covering every HR feature of the benchma
 
 - **Employees:** records, departments, org chart, contracts, documents, equipment, onboarding and offboarding plans,
   self-service (D288).
-- **French duties:** register, DPAE, professional interviews, health visits, displays, BDESE (D287).
+- **French duties:** register, DPAE, career-path interviews (every 4 years, review every 8), health visits, displays,
+  BDESE (D287).
 - **Recruitment:** jobs, career site, boards, sourcing and campaigns (D235), LinkedIn sourcing through Unipile with
   ranked profiles and outreach sequences (D518), pipeline, AI CV reading, AI voice pre-screening, interviews (F4),
   offers, e-signature, referrals.
@@ -72,11 +73,11 @@ Step 6, HR and projects, and the legal assistant, of the [roadmap](../../00-visi
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 |  | [Use cases](use-cases/README.md) | 🔄 |
-| 🔀 |  | [Flows](flows/README.md) | 🔄 |
-| 📏 |  | [Business rules](business-rules/README.md) | 🔄 |
-| 🗃️ |  | [Data](data/README.md) | 🔄 |
-| 🖥️ |  | [Screens](screens/README.md) | 🔄 |
+| 📝 |  | [Use cases](use-cases/README.md) | ✅ |
+| 🔀 |  | [Flows](flows/README.md) | ✅ |
+| 📏 |  | [Business rules](business-rules/README.md) | ✅ |
+| 🗃️ |  | [Data](data/README.md) | ✅ |
+| 🖥️ |  | [Screens](screens/README.md) | ✅ |
 | 🔑 |  | [Permissions](permissions.md) | ✅ |
 | 🔔 |  | [Notifications](notifications.md) | ✅ |
 | 📈 |  | [Reports](reports.md) | ✅ |
@@ -84,7 +85,7 @@ Step 6, HR and projects, and the legal assistant, of the [roadmap](../../00-visi
 | 🤖 |  | [AI](ai.md) | ✅ |
 | ⚖️ |  | [Regulatory](regulatory.md) | ✅ |
 | ❓ |  | [Open questions](open-questions.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
 ---
 

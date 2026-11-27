@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC18-04 Personal training
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC18-04 Personal training](../../../flows/fl-sc18-04-personal-training.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

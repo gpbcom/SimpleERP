@@ -10,7 +10,10 @@
 A person living in the care home: their room, admission, dependency level, representative, stay contract and daily rates
 ([D548](../../../06-decisions/sectors/d548-benchmark-gaps-sc04-home-care.md)). The resident is a care recipient
 ([E-SC04-01 Care recipient](e-sc04-01-care-recipient.md)) of the home and adds what only a stay in a home needs: a room,
-a contract and rates by the day.
+a contract and rates by the day. The contract delays follow
+[CR-FR-256 Care-home resident contract](../../../10-country-packs/france/home-care/cr-fr-256-care-home-resident-contract.md),
+which wins over the earlier "required to be Admitted"
+([D573](../../../06-decisions/foundations/d573-precedence-between-spec-pages.md)).
 
 ## Fields
 
@@ -21,7 +24,9 @@ a contract and rates by the day.
 | admitted on | date | no | set at admission | - | 2026-09-01 | no | no |
 | dependency level | level 1 to 6 | yes | from the assessment | - | 2 | yes | no |
 | representative | person | no | - | - | Paul L. | yes | no |
-| contract signed on | date | no | required to be Admitted | - | 2026-09-01 | no | no |
+| social-aid home | yes or no | yes | the home is entitled to social aid (ASH) | from the home's settings | yes | no | no |
+| contract handed over on | date | no | in a social-aid home, within 15 days of admission | - | 2026-09-10 | no | no |
+| contract signed on | date | no | in a social-aid home, within 1 month of admission; in another home, before admission | - | 2026-09-25 | no | no |
 | daily rates | amounts per day | yes | 0 or more | from the home's rates | 68.40 EUR | no | no |
 | absent from | date | no | within a stay | - | 2026-12-02 | no | no |
 | left on | date | no | after admission | - | - | no | no |
@@ -46,7 +51,7 @@ erDiagram
 ```mermaid
 stateDiagram-v2
   [*] --> Waiting : the person is put on the waiting list, UC-SC04-16
-  Waiting --> Admitted : a room is offered and the contract signed, UC-SC04-16
+  Waiting --> Admitted : a room is offered, the contract signed first unless the home is a social-aid home, UC-SC04-16
   Admitted --> Absent : a hospital stay starts, UC-SC04-16
   Absent --> Admitted : the resident is back, UC-SC04-16
   Admitted --> Left : the resident leaves or dies, UC-SC04-16

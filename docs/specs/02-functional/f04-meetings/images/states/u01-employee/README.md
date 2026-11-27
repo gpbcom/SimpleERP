@@ -54,17 +54,41 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f04-01-meeting-e-f04-02-transcript-checked-phone, light](s-f04-01-meeting-e-f04-02-transcript-checked-phone-light.png) | ![s-f04-01-meeting-e-f04-02-transcript-checked-phone, dark](s-f04-01-meeting-e-f04-02-transcript-checked-phone-dark.png) |
 
-## s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop
+## s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop, light](s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop, dark](s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop-dark.png) |
+| ![s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop, light](s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop, dark](s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop-dark.png) |
 
-## s-f04-01-meeting-e-f04-17-meeting-summary-active-phone
+## s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f04-01-meeting-e-f04-17-meeting-summary-active-phone, light](s-f04-01-meeting-e-f04-17-meeting-summary-active-phone-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-active-phone, dark](s-f04-01-meeting-e-f04-17-meeting-summary-active-phone-dark.png) |
+| ![s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop, light](s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop, dark](s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop-dark.png) |
+
+## s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop, light](s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop, dark](s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop-dark.png) |
+
+## s-f04-01-meeting-e-f04-17-meeting-summary-draft-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f04-01-meeting-e-f04-17-meeting-summary-draft-phone, light](s-f04-01-meeting-e-f04-17-meeting-summary-draft-phone-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-draft-phone, dark](s-f04-01-meeting-e-f04-17-meeting-summary-draft-phone-dark.png) |
+
+## s-f04-01-meeting-e-f04-17-meeting-summary-published-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f04-01-meeting-e-f04-17-meeting-summary-published-phone, light](s-f04-01-meeting-e-f04-17-meeting-summary-published-phone-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-published-phone, dark](s-f04-01-meeting-e-f04-17-meeting-summary-published-phone-dark.png) |
+
+## s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-phone, light](s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-phone-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-phone, dark](s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-phone-dark.png) |
 
 ## s-f04-15-chat-e-f04-10-chat-channel-active-desktop
 

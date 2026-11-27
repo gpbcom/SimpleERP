@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC07-07 Passengers, removals, courier and freight
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC07-07 Passengers, removals, courier and freight](../../../flows/fl-sc07-07-passengers-removals-courier-and-freight.md)

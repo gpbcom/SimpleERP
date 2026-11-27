@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-04 Deposits and no-shows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

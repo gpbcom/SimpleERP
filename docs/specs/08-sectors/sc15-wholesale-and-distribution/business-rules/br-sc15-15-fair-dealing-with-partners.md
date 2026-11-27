@@ -7,12 +7,14 @@
 
 ## Statement
 
-(Proposed) Ending an established relationship gives written notice; in France:
+Ending an established relationship gives written notice; in France:
 [CR-FR-175 Unfair practices between businesses](../../../10-country-packs/france/trade/cr-fr-175-unfair-b2b-practices.md).
 
 ## Why
 
-(Proposed) The notice periods are still to read.
+The law sets no fixed period: the written notice takes account of the length of the relationship, trade usage and
+market conditions, and a notice of 18 months protects the party ending it from a claim of insufficient notice; no
+notice is due for the other party's non-performance or force majeure (CR-FR-175, Code de commerce L442-1 II).
 
 ## Examples
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-17 Court booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

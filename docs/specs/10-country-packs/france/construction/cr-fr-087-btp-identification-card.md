@@ -24,7 +24,7 @@ on a site, and gets their identification card.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+The fine of L8291-2 in its current version since 2019-08-23 ([Code du travail, art. L8291-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038951536), read 2026-11-27).
 
 ## Enforced by
 
@@ -37,7 +37,8 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Up to 4 000 EUR per employee, 8 000 EUR for a repeat within 2 years.
+Up to 4 000 EUR per employee, 8 000 EUR for a repeat within 2 years, 500 000 EUR in total ([Code du travail, art.
+L8291-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038951536), read 2026-11-27).
 
 ## Exceptions
 

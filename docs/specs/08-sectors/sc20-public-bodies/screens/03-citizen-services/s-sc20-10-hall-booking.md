@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-10 Hall booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

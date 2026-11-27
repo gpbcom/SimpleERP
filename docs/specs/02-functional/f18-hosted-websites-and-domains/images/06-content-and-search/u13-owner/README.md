@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F18-06 Content and search
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F18-06 Content and search](../../../flows/fl-f18-06-content-and-search.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

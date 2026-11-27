@@ -22,7 +22,8 @@ the set dates, and light vans over 2.5 t on international haulage since 2026-07-
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Smart tachographs mandatory on vehicles registered from 2019-06-15; version 2 on all new vehicles since 2023-08-21
+([Ministère de la Transition écologique, tachygraphe intelligent, updated 2025-05-06](https://www.ecologie.gouv.fr/tachygraphe-numerique-et-nouveau-tachygraphe-intelligent-2019), read 2026-11-27).
 
 ## Enforced by
 

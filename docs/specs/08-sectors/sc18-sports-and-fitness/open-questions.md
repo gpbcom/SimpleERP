@@ -14,8 +14,8 @@
   sources.
 - The notice and the information duties of a gym subscription that renews itself: to read in the official
   sources.
-- Every use case, screen, rule and entity of this sector waits for the owner's confirmation: the sector was interviewed
-  on 2026-11-14 and its pages are written at full depth.
+- Every use case, screen, rule and entity of this sector was confirmed by the owner on 2026-11-27 (D572); the sector
+  was interviewed on 2026-11-14 and its pages are written at full depth.
 
 ---
 

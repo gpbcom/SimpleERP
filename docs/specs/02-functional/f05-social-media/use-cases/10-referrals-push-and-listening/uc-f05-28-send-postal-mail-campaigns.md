@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-28 Send postal mail campaigns
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -87,6 +87,8 @@ A few mailings a year, from hundreds to tens of thousands of letters.
 - [E-F5-25 Postal campaign](../../data/e-f05-25-postal-campaign.md): created, changed
 - [E-F5-15 Brand asset](../../data/e-f05-15-brand-asset.md): read, the template
 - [E-F5-09 Contact segment](../../data/e-f05-09-contact-segment.md): read, the segment
+- [E-F5-10 Consent and suppression record](../../data/e-f05-10-consent-and-suppression-record.md): read, the postal
+  objections
 - [E-F5-17 Campaign budget](../../data/e-f05-17-campaign-budget.md): changed, the cost
 - [E-F5-18 Contact](../../data/e-f05-18-contact.md): changed, the address status
 
@@ -156,8 +158,9 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 The right to object to direct marketing applies to paper as well:
 [CR-FR-050](../../../../10-country-packs/france/data-protection/cr-fr-050-privacy-by-design.md),
-[CR-FR-051](../../../../10-country-packs/france/data-protection/cr-fr-051-access-and-erasure.md). (Proposed) The
-France-pack rule on postal marketing opt-outs is written later.
+[CR-FR-051](../../../../10-country-packs/france/data-protection/cr-fr-051-access-and-erasure.md). (⚖️ lawyer review before launch, D574) The
+France-pack rule on postal marketing opt-outs is still to write: to read GDPR article 21 (2) and (3), the right to
+object to direct marketing.
 
 ## Related use cases
 

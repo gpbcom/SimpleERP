@@ -3,7 +3,7 @@
 
 # 🗃️ E-F2-18 Resource booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -41,7 +41,7 @@ By resource, date, booker and status; the booking calendar.
 
 ## Retention
 
-As the record it serves; otherwise 3 years (Proposed).
+As the record it serves; otherwise 3 years.
 
 ## Audit
 

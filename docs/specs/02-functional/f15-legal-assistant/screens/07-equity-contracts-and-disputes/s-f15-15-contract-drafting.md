@@ -4,7 +4,7 @@
 
 # 🖥️ S-F15-15 Contract drafting
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

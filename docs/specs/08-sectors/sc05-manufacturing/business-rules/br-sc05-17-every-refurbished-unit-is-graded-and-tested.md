@@ -3,7 +3,7 @@
 
 # 📏 BR-SC05-17 Every refurbished unit is graded and tested
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,7 +15,8 @@ tests allow.
 
 A unit sold as tested that was not, or that still holds the previous owner's data, harms the customer and the company.
 The owner asked for refurbishment ([D549](../../../06-decisions/sectors/d549-benchmark-gaps-sc05-manufacturing.md)).
-(Proposed) The France-pack rule is written later.
+The France-pack rule on refurbished products is
+[CR-FR-278 Refurbished products](../../../10-country-packs/france/products/cr-fr-278-refurbished-products.md).
 
 ## Examples
 

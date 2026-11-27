@@ -39,7 +39,7 @@ Several a week in a renovation trade.
 ## Postconditions
 
 - **Success:** the quote and the VAT certificate are signed; the works are scheduled after the withdrawal period.
-- **Failed:** the quote is refused or withdrawn; no works are planned and any deposit is refunded.
+- **Failed:** the quote is refused or withdrawn; no works are planned, and a deposit taken from day 8 is refunded.
 
 ## Main flow
 
@@ -48,7 +48,8 @@ Several a week in a renovation trade.
 2. Sales adds the reduced VAT certificate for the customer to sign with the quote
    ([BR-SC01-05](../../business-rules/br-sc01-05-reduced-vat-needs-the-certificate.md)).
 3. The customer signs both on the tablet; the withdrawal form is given and the withdrawal period starts
-   ([BR-SC01-13](../../business-rules/br-sc01-13-consumer-works-off-premises.md)).
+   ([BR-SC01-13](../../business-rules/br-sc01-13-consumer-works-off-premises.md)). No deposit can be asked for 7 days
+   from the signature.
 4. Sales sees the earliest start date, the day after the withdrawal period ends, and books the works in
    [S-SC01-03 Site planning](../../screens/02-prepare-the-site/s-sc01-03-site-planning.md).
 
@@ -56,11 +57,12 @@ Several a week in a renovation trade.
 
 - 3a. The customer asks in writing for works to start earlier: the express request is recorded and signed and the works
   can be planned before the end.
-- 3b. The customer withdraws within the period: the quote is cancelled and any deposit refunded,
+- 3b. The customer withdraws within the period: the quote is cancelled and a deposit taken from day 8 is refunded,
   [UC-F6-09](../../../../02-functional/f06-customers-and-sales/use-cases/03-invoice-and-get-paid/uc-f06-09-credit-note-and-refund.md).
 
 ## Error flows
 
+- 3e. A deposit asked within 7 days of the signature: it is refused with the first day it may be taken.
 - 2e. The customer does not sign the certificate: the lines go to the normal VAT rate and the total is shown again
   before signing.
 - 4e. A start date inside the withdrawal period without an express request: the date is refused with the first possible
@@ -144,6 +146,8 @@ sequenceDiagram
    lines go to the normal VAT rate and the total is shown again before signing.
 4. **Given** a quote signed off premises on 3 November **when** sales books the works on 10 November **then** the date
    is refused with the first possible date.
+5. **Given** a quote signed off premises on 3 November **when** sales asks for a deposit on 7 November **then** it is
+   refused and 11 November is offered as the first day.
 
 ## Non-functional notes
 
@@ -156,7 +160,9 @@ server, the first page within 1 second; reports within 5 seconds or in the backg
 
 Legal values from the France country pack:
 [CR-FR-084 Reduced VAT on housing renovation](../../../../10-country-packs/france/tax-and-vat/cr-fr-084-renovation-reduced-vat.md),
-[CR-FR-036 Consumer withdrawal right](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md).
+[CR-FR-036 Consumer withdrawal right](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md):
+14 days to withdraw, no payment for 7 days from the signature (Code de la consommation L221-10), and no withdrawal right
+for urgent repair work the consumer expressly asked for (L221-28), as the owner chose ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Related use cases
 

@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC20-05 Council, civil registry, permits and assets
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

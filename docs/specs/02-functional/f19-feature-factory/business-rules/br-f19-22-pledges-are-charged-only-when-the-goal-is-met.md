@@ -4,7 +4,7 @@
 
 # 📏 BR-F19-22 Pledges are charged only when the goal is met
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -15,7 +15,9 @@ if the goal is not met by then, or the funding is closed, every pledge lapses an
 
 Customers must not pay for a feature that is never built, and a goal not met must cost nobody anything. The owner asked
 for co-funded features ([D538](../../../06-decisions/f19-feature-factory/d538-benchmark-gaps-f19-feature-factory.md)).
-(Proposed) The France-pack rule on VAT on pledges is written later.
+(⚖️ lawyer review before launch, D574) The France-pack rule on VAT on pledges is still to write, with a tax adviser:
+to read how [CR-FR-010 When VAT is due](../../../10-country-packs/france/tax-and-vat/cr-fr-010-vat-due-date.md) applies to a pledge
+charged once the goal is met.
 
 ## Examples
 

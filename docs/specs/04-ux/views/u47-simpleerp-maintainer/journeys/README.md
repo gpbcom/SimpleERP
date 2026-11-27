@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U47-01 | [Review the agents' work](j-u47-01-review-the-agents-work.md) | 🔄 |
+| 🧭 | J-U47-01 | [Review the agents' work](j-u47-01-review-the-agents-work.md) | ✅ |
 
 ---
 

@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC15-24 Medical devices
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

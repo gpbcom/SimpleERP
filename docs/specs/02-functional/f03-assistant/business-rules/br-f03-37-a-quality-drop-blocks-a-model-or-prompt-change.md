@@ -3,7 +3,7 @@
 
 # 📏 BR-F3-37 A quality drop blocks a model or prompt change
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -18,7 +18,7 @@ As F15 blocks its updates on a quality drop (BR-F15-06), the AI assistant must n
 
 | Case | Result |
 |---|---|
-| Score 88 %, bar 90 % (Proposed) | Blocked |
+| Score 88 %, bar 90 % | Blocked |
 | Score 96 % | Live |
 | A refusal question now answered | Blocked, whatever the score |
 
@@ -32,7 +32,7 @@ None.
 
 ## Configurable
 
-The bar (Proposed: 90 %).
+The bar (default: 90 %).
 
 ## Open questions
 

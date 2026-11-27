@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC11-15 | [Vigilance](s-sc11-15-vigilance.md) | 🔄 |
-| 🖥️ | S-SC11-16 | [Access walls](s-sc11-16-access-walls.md) | 🔄 |
+| 🖥️ | S-SC11-15 | [Vigilance](s-sc11-15-vigilance.md) | ✅ |
+| 🖥️ | S-SC11-16 | [Access walls](s-sc11-16-access-walls.md) | ✅ |

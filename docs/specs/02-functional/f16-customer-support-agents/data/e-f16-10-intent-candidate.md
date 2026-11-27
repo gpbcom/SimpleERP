@@ -3,7 +3,7 @@
 
 # 🗃️ E-F16-10 Intent candidate
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -45,7 +45,7 @@ By size and status.
 
 ## Retention
 
-(Proposed) 1 year after its decision.
+1 year after its decision.
 
 ## Audit
 

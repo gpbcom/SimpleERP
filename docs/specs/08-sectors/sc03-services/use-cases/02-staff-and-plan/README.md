@@ -12,4 +12,4 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-SC03-03 | [Staff the engagement](uc-sc03-03-staff-the-engagement.md) | ✅ |
-| 📝 | UC-SC03-04 | [Plan resources and utilisation](uc-sc03-04-plan-resources-and-utilisation.md) | 🔄 |
+| 📝 | UC-SC03-04 | [Plan resources and utilisation](uc-sc03-04-plan-resources-and-utilisation.md) | ✅ |

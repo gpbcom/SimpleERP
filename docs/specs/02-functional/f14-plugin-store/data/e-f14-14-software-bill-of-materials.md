@@ -3,7 +3,7 @@
 
 # 🗃️ E-F14-14 Software bill of materials
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -18,7 +18,7 @@ The list of a plugin version's dependencies with their versions, licences and kn
 | licence | text | yes | an SPDX identifier | - | MIT | no | no |
 | compatible | yes or no | yes | AGPL-3.0 compatibility (BR-F14-16) | computed | yes | no | no |
 | vulnerabilities | list | no | identifiers | - | CVE-2026-1234 | no | no |
-| format | choice | yes | CycloneDX or SPDX (Proposed) | CycloneDX | CycloneDX | no | no |
+| format | choice | yes | CycloneDX or SPDX | CycloneDX | CycloneDX | no | no |
 
 ## Relations
 
@@ -45,7 +45,8 @@ By plugin and version; by component across all plugins (to find who uses a vulne
 
 ## Retention
 
-As long as the version is installable, then (Proposed) 10 years for vulnerability handling (CR-FR-168).
+As long as the version is installable, then 10 years for vulnerability handling (CR-FR-168)
+(⚖️ lawyer review before launch, D574: Regulation (EU) 2024/2847, article 13, retention of the technical documentation).
 
 ## Audit
 

@@ -40,4 +40,5 @@ The owner, on 2026-11-27.
 
 ---
 
-⬅️ [D567](../f25-devops-agents/d567-the-agent-team-roles-contract-worktrees-one-commit-verification.md) · ⬆️ [Up](README.md)
+⬅️ [D567](../f25-devops-agents/d567-the-agent-team-roles-contract-worktrees-one-commit-verification.md) · ⬆️ [Up](README.md) ·
+➡️ [D569](d569-roadmap-option-a-in-twelve-phases.md)

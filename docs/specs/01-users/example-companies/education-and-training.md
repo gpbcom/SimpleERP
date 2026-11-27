@@ -2,21 +2,21 @@
 
 # 🎓 Education and training
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Company
 
-(Proposed) Atelier Compétences, a fictional training provider for working adults that also runs a small private
+Atelier Compétences, a fictional training provider for working adults that also runs a small private
 vocational school.
 
 ## Activity
 
-(Proposed) Short courses in management, office software and safety, in its rooms, at clients' sites and online; a
+Short courses in management, office software and safety, in its rooms, at clients' sites and online; a
 two-year vocational school course.
 
 ## Size
 
-(Proposed) 9 permanent staff (the director, 3 training coordinators, an accountant, 4 in administration), 30 employed
+9 permanent staff (the director, 3 training coordinators, an accountant, 4 in administration), 30 employed
 and freelance trainers, about 1,800 learners a year and 120 school students; two training sites. The sector's profile
 covers providers of 1 to 500 trainers. Several locations are possible
 ([D32](../../06-decisions/technical/d32-several-locations.md)).

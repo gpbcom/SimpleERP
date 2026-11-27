@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC14-07 Hardware, licences, research tax credit and sponsorship
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC14-07 Hardware, licences, research tax credit and sponsorship](../../../flows/fl-sc14-07-hardware-licences-and-tax-credits.md)

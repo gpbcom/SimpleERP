@@ -17,4 +17,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC05-05 Suppliers and customers](05-suppliers-and-customers/README.md) | 34 images |
 | 🖼️ |  | [Images: FL-SC05-06 Excise, refurbishment, personalisation and cutting](06-excise-refurbishment-and-cutting/README.md) | 28 images |
 | 🖼️ |  | [Screen states](states/README.md) | 120 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

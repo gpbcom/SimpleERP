@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F16-04 Human agent workspace
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F16-04 Human agent workspace](../../../flows/fl-f16-04-human-agent-workspace.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

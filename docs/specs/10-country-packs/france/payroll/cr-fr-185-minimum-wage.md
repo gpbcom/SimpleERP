@@ -23,7 +23,8 @@ base pay, benefits in kind and productivity bonuses only.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2008-05-01: L3231-2 ([Code du travail, art. L3231-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902832), read 2026-11-27); the amount, from each
+yearly revaluation.
 
 ## Enforced by
 

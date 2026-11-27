@@ -4,7 +4,7 @@
 
 # 🖥️ S-F1-26 Security events dashboard
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -22,7 +22,7 @@ Administration › Reports › Security events.
 
 ## Wireframe
 
-(Proposed) As drawn here, to confirm with the owner.
+As drawn here.
 
 ```text
 +------------------------------------------------------------------+

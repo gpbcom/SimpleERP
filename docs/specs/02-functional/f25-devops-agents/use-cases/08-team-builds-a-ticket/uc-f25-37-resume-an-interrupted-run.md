@@ -4,7 +4,7 @@
 
 # 📝 UC-F25-37 Resume an interrupted run
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -107,7 +107,7 @@ A few times a week, when runners or limits stop a run.
 ## Permissions
 
 The hosting engineer reads every checkpoint, reruns an interrupted run and changes the queue order. Maintainers abandon
-a run and raise budgets. Agents write their run's checkpoint only. (Proposed) No one edits a checkpoint by hand: a wrong
+a run and raise budgets. Agents write their run's checkpoint only. No one edits a checkpoint by hand: a wrong
 checkpoint is abandoned.
 
 ## Notifications
@@ -127,7 +127,7 @@ are those of the contract ([E-F25-20 Agent role](../../data/e-f25-20-agent-role.
 
 ## API, MCP and A2A exposure
 
-(Proposed) The checkpoints are read through the API (T5) by the hosting engineer and the maintainers; the rerun is a
+The checkpoints are read through the API (T5) by the hosting engineer and the maintainers; the rerun is a
 workflow run started from GitHub Actions. No A2A skill.
 
 ## Screens
@@ -170,7 +170,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-(Proposed) The screen answers within 2 seconds for 10,000 records; every change is audited.
+The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 

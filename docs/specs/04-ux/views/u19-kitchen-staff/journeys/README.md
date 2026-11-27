@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U19-01 | [Prepare the orders](j-u19-01-prepare-the-orders.md) | 🔄 |
+| 🧭 | J-U19-01 | [Prepare the orders](j-u19-01-prepare-the-orders.md) | ✅ |
 
 ---
 

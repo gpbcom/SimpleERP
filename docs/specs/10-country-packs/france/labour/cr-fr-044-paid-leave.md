@@ -19,7 +19,7 @@ Employees earn paid leave each month and public holidays are counted by the rule
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2016-08-10: L3141-3 ([Code du travail, art. L3141-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020826), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +33,8 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+The fine of a 5th-class contravention, up to 1 500 EUR, once per employee concerned; repeat
+punished under Code pénal 132-11 and 132-15 (R3143-1) ([Code du travail, art. R3143-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033471401), [Code pénal, art. 131-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417259), read 2026-11-27).
 
 ## Exceptions
 

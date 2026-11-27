@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-21 The changelog shows installed modules only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

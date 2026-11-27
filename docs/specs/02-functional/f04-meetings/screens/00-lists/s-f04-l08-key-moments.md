@@ -3,7 +3,7 @@
 
 # 🗂️ S-F4-L08 Key moments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -21,7 +21,7 @@
 | [U33 Medical secretary](../../../../01-users/personas/u33-medical-secretary.md) | the records their roles' record rules allow (T2) | columns, facets and actions as their roles' field rules allow (D488) |
 
 - The owner's review (VC-10, D519): "Create persona(s) related to this enitity."
-- (Proposed) The meeting's participants are the personas of the meeting use cases (the E-F4-01 Meeting list) and their
+- The meeting's participants are the personas of the meeting use cases (the E-F4-01 Meeting list) and their
   managers U02; UC-F4-11 names no persona.
 
 ## Purpose
@@ -194,7 +194,7 @@ Drawn in step S8 (36k) from this page: one row per persona and device for each s
 
 ## Open questions
 
-(Proposed) This list waits for the owner's confirmation: its personas are derived, as said under Personas.
+None.
 
 ---
 

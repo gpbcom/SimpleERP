@@ -4,7 +4,7 @@
 
 # 📝 UC-SC04-16 Run a care home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -73,7 +73,10 @@ A few admissions a month in a home of 60 beds; the care record is written severa
 
 ## Error flows
 
-- 3e. The stay contract is not signed on the admission date: the admission is held and the coordinator is alerted.
+- 3e. The stay contract is late, as [CR-FR-256](../../../../10-country-packs/france/home-care/cr-fr-256-care-home-resident-contract.md) sets the delays: in a home entitled to social aid, the contract
+  not handed over within 15 days of admission, or not signed within 1 month, alerts the coordinator; in another home,
+  a contract not signed before admission holds the admission and alerts the coordinator. The law wins over the earlier
+  wording ([D573](../../../../06-decisions/foundations/d573-precedence-between-spec-pages.md)).
 - 5e. A user without a care role opens a care record: access is refused and logged.
 - 2e. The funding file is incomplete: the admission can go ahead but the invoice is held and the gap is listed.
 - Any step: a service does not answer; the call is retried first
@@ -102,7 +105,7 @@ A relative sees only what the resident shares; the home's owner sees counts, not
 
 ## Notifications
 
-The coordinator, in the app: a room is free, a contract is unsigned on admission, a resident is back from hospital. The
+The coordinator, in the app: a room is free, a stay contract is late (CR-FR-256), a resident is back from hospital. The
 carers: a care plan changed.
 
 ## Audit events
@@ -148,14 +151,17 @@ sequenceDiagram
 
 ## Acceptance criteria
 
-1. **Given** a resident admitted on 2026-09-01 **when** the stay contract is unsigned that day **then** the admission is
-   held and the coordinator is alerted.
+1. **Given** a home not entitled to social aid and a resident to admit on 2026-09-01 **when** the stay contract is
+   unsigned that day **then** the admission is held and the coordinator is alerted.
 2. **Given** a user without a care role **when** they open a resident's care record **then** access is refused and
    logged.
 3. **Given** a resident's hospital stay from 2026-12-02 to 2026-12-09 **when** the invoice is prepared **then** the days
    away are shown as the contract's rule says.
 4. **Given** two persons on the waiting list for one room **when** the room is free **then** the person with the earlier
    date and the higher urgency is offered it first.
+5. **Given** a home entitled to social aid and a resident admitted on 2026-09-01 **when** the contract is handed over on
+   2026-09-10 and still unsigned on 2026-10-02 **then** the resident stays Admitted and the coordinator is alerted that
+   the 1-month delay has passed.
 
 ## Non-functional notes
 
@@ -165,13 +171,13 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A care home signs a written stay contract with the resident or their representative; the contract states the
 services and their prices. The care record is health data and must be hosted by an approved health-data host; access is
-limited to those who need it and is logged. The France-pack rule on care-home contracts is not in the waiting list yet
-and is written when its law is read. Related:
+limited to those who need it and is logged. The France-pack rule on care-home contracts is listed below.
+Related:
 [CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md),
 [CR-FR-131](../../../../10-country-packs/france/health-practice/cr-fr-131-medical-record-access.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-256 Care-home resident contract](../../../../10-country-packs/france/home-care/cr-fr-256-care-home-resident-contract.md)
 
 ## Related use cases

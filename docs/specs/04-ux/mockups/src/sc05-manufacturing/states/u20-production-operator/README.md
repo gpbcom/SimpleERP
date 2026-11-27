@@ -8,7 +8,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 
 - `s-sc05-02-recipes-e-sc05-02-batch-recipe-active-tablet.html`
 - `s-sc05-06-labels-e-sc05-06-label-template-active-tablet.html`
-- `s-sc05-06-labels-e-sc15-14-pallet-active-tablet.html`
+- `s-sc05-06-labels-e-sc15-14-pallet-open-tablet.html`
+- `s-sc05-06-labels-e-sc15-14-pallet-closed-tablet.html`
+- `s-sc05-06-labels-e-sc15-14-pallet-loaded-tablet.html`
 - `s-sc05-07-documents-e-sc05-07-controlled-document-approved-tablet.html`
 - `s-sc05-07-documents-e-sc05-07-controlled-document-draft-tablet.html`
 - `s-sc05-07-documents-e-sc05-07-controlled-document-withdrawn-tablet.html`

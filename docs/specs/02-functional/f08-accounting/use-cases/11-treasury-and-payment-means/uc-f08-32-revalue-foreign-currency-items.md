@@ -3,7 +3,7 @@
 
 # 📝 UC-F8-32 Revalue foreign-currency items
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -151,8 +151,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Foreign-currency items are valued at the closing rate at the period end: (Proposed) the France-pack rule on conversion
-differences is written later; posted entries are inalterable
+Foreign-currency items are valued at the closing rate at the period end: (⚖️ lawyer review before launch, D574) the France-pack rule on
+conversion differences is still to write, to read: PCG articles 420-5 and following; posted entries are inalterable
 ([CR-FR-003](../../../../10-country-packs/france/accounting/cr-fr-003-posted-entries-are-inalterable.md)).
 
 ## Related use cases

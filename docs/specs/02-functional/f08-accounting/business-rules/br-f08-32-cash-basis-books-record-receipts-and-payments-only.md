@@ -3,7 +3,7 @@
 
 # 📏 BR-F8-32 Cash-basis books record receipts and payments only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,7 +15,9 @@ accrual, deferral or stock entry, and an invoice or a bill creates an entry in i
 A cash-basis book follows the money, not the invoices; mixing accruals into it would make it neither kind of book. The
 owner asked for cash-basis books ([D527](../../../06-decisions/f08-accounting/d527-benchmark-gaps-f08-accounting.md));
 [BR-F8-10 Several books share one source](br-f08-10-books-share-one-source.md) lets several books share one source
-without sharing their treatment. (Proposed) The France-pack rule is written later.
+without sharing their treatment. The France-pack rule is
+[CR-FR-217 Cash-basis books for BNC professions](../../../10-country-packs/france/accounting/cr-fr-217-cash-basis-books-for-bnc.md): a
+chronological book of receipts and payments and a register of fixed assets.
 
 ## Examples
 
@@ -32,7 +34,7 @@ without sharing their treatment. (Proposed) The France-pack rule is written late
 - [UC-F8-40](../use-cases/12-audit-leases-and-special-books/uc-f08-40-keep-cash-basis-books.md)
 - [E-F8-13 Book](../data/e-f08-13-book.md)
 - [E-F8-03 Journal entry](../data/e-f08-03-journal-entry.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-217 Cash-basis books for BNC professions](../../../10-country-packs/france/accounting/cr-fr-217-cash-basis-books-for-bnc.md)
 
 ## Exceptions

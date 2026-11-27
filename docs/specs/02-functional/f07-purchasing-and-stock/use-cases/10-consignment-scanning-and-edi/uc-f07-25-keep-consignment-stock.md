@@ -3,7 +3,7 @@
 
 # 📝 UC-F7-25 Keep consignment stock
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -165,8 +165,9 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Consigned goods are not an asset of the company while the supplier owns them; stock valued and counted at year end only
 covers what the company owns
-([CR-FR-007](../../../../10-country-packs/france/accounting/cr-fr-007-annual-stock-count.md)). (Proposed) The
-France-pack rule on consignment accounting is written later.
+([CR-FR-007](../../../../10-country-packs/france/accounting/cr-fr-007-annual-stock-count.md)). (⚖️ lawyer review before launch, D574) The
+France-pack rule on consignment accounting is still to write: to read the PCG's treatment of goods held for a third
+party.
 
 ## Related use cases
 

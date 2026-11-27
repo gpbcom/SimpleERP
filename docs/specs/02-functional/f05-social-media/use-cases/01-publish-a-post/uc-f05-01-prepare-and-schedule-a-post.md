@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-01 Prepare and schedule a post
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -125,7 +125,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Composer opens within 2 seconds (Proposed).
+Composer opens within 2 seconds.
 
 ## Regulatory references
 

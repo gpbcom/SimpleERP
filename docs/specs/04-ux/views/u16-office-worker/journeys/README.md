@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U16-01 | [Work on documents anywhere](j-u16-01-work-on-documents-anywhere.md) | 🔄 |
+| 🧭 | J-U16-01 | [Work on documents anywhere](j-u16-01-work-on-documents-anywhere.md) | ✅ |
 
 ---
 

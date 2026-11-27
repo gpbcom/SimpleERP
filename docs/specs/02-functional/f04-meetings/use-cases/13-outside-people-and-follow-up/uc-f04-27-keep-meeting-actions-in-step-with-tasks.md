@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-27 Keep meeting actions in step with tasks
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -55,7 +55,7 @@ After every reviewed meeting with actions.
 
 ## Error flows
 
-- 4e. Both changed at once: the task's change wins and the organiser is told (Proposed).
+- 4e. Both changed at once: the task's change wins and the organiser is told.
 - 3e. The task was deleted: the action shows "task removed" and stays open.
 
 ## Business rules
@@ -121,7 +121,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Sync within a minute (Proposed).
+Sync within a minute.
 
 ## Regulatory references
 

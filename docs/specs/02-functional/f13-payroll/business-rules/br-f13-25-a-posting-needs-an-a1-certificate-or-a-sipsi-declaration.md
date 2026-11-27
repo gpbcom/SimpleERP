@@ -3,7 +3,7 @@
 
 # 📏 BR-F13-25 A posting needs an A1 certificate or a SIPSI declaration
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,8 +15,9 @@ for a worker posted to France.
 
 The paper is what makes the posting lawful and decides which social security scheme applies; paying posting allowances
 without it exposes the company to back contributions and fines. The owner asked for posted workers
-([D532](../../../06-decisions/f13-payroll/d532-benchmark-gaps-f13-payroll.md)). (Proposed) The France-pack rule is
-written later.
+([D532](../../../06-decisions/f13-payroll/d532-benchmark-gaps-f13-payroll.md)). The France-pack rule is
+[CR-FR-218 Posted workers and the SIPSI declaration](../../../10-country-packs/france/labour/cr-fr-218-posted-workers-sipsi.md): an A1
+certificate for up to 24 months out, a SIPSI declaration before a posting to France starts.
 
 ## Examples
 
@@ -33,7 +34,7 @@ written later.
 - [UC-F13-35](../use-cases/10-special-contracts-and-outsourcing/uc-f13-35-pay-posted-workers.md)
 - [E-F13-28 Posting](../data/e-f13-28-posting.md)
 - [E-F13-18 Special pay regime](../data/e-f13-18-special-pay-regime.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-218 Posted workers and the SIPSI declaration](../../../10-country-packs/france/labour/cr-fr-218-posted-workers-sipsi.md)
 
 ## Exceptions

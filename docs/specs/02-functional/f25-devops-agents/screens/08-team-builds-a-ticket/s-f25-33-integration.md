@@ -3,7 +3,7 @@
 
 # 🖥️ S-F25-33 Integration
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

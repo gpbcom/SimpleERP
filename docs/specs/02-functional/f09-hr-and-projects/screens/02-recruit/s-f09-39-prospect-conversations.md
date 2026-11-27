@@ -16,13 +16,16 @@ Read each prospect's thread with the AI assistant's class of each reply, and act
 
 ## Entry points
 
-S-F9-38 › Threads; the notification of a question or a positive reply.
+S-F9-38 › Threads; the notification of a question or a positive reply; the task of a prepared message in HR's task
+list ([S-F9-17 Projects](../06-plan-and-deliver-work/s-f09-17-projects.md),
+[S-F9-L18](../00-lists/s-f09-l18-project-and-tasks.md)), or its notification, which opens the thread on that message
+([D570](../../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)).
 
 ## Wireframe
 
 ```text
 +---------------------------------------------------------------------------------------------+
-| Prospect conversations: site manager   Waiting for HR (1)  Applicants (3)  No answer (4)     |
+| Prospect conversations: site manager   To send (2)  Waiting for HR (1)  Applicants (3)      |
 |---------------------------------------------------------------------------------------------|
 | THREADS                  | Julien R.  site manager at BTP Rhône  score 92                    |
 | > Julien R.  question    | Day 0  Invitation with a note sent                                |
@@ -57,6 +60,7 @@ S-F9-38 › Threads; the notification of a question or a positive reply.
 
 | Action | Where | Who may use it | Result |
 |---|---|---|---|
+| Send | prepared message | HR | the prepared message goes out through Unipile, one click per message, within the limits (D570, BR-F9-41); its task in HR's task list closes |
 | Reply | thread | HR | a message written by HR, sent in the thread |
 | Mark positive | thread | HR | the applicant created and the booking link sent (UC-F9-42) |
 | Mark negative | thread | HR | declined, erased at the end of the sequence |
@@ -64,7 +68,9 @@ S-F9-38 › Threads; the notification of a question or a positive reply.
 
 ## States
 
-- Normal: the threads on the left, the chosen thread on the right with each reply's class.
+- Normal: the threads on the left, the chosen thread on the right with each reply's class; in prepared mode, each
+  message due shows its text, the date it expires and Send, and "To send" counts them, until HR sends it, it expires
+  after 7 days or day 60 cancels it (D570). The same Send is in the message's task; sending from either closes both.
 - Empty: No reply yet, with Open the sequence.
 - Loading: The threads load first; the messages follow.
 - Error: the error message pattern (D122); a message not sent shows why and when it is tried again.
@@ -90,9 +96,11 @@ Entity states shown (VD-15):
 | E-F9-45 Prospect | No answer | the thread's badge and actions | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-45-prospect-no-answer-desktop-{light,dark}.png` |
 | E-F9-45 Prospect | Erased | the thread's badge and actions | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-45-prospect-erased-desktop-{light,dark}.png` |
 | E-F9-47 Outreach message | Planned | each line of the thread | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-47-outreach-message-planned-desktop-{light,dark}.png` |
+| E-F9-47 Outreach message | Prepared | the line shows its text, the date it expires and Send | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-47-outreach-message-prepared-desktop-{light,dark}.png` |
 | E-F9-47 Outreach message | Sent | each line of the thread | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-47-outreach-message-sent-desktop-{light,dark}.png` |
 | E-F9-47 Outreach message | Failed | each line of the thread | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-47-outreach-message-failed-desktop-{light,dark}.png` |
 | E-F9-47 Outreach message | Cancelled | each line of the thread | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-47-outreach-message-cancelled-desktop-{light,dark}.png` |
+| E-F9-47 Outreach message | Expired | the line shows "expired, not sent", without Send | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-47-outreach-message-expired-desktop-{light,dark}.png` |
 | E-F9-47 Outreach message | Received | each line of the thread | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-47-outreach-message-received-desktop-{light,dark}.png` |
 | E-F9-47 Outreach message | Classified | each line of the thread | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-47-outreach-message-classified-desktop-{light,dark}.png` |
 | E-F9-47 Outreach message | Reviewed | each line of the thread | U06 | `u06-hr/s-f09-39-prospect-conversations-e-f09-47-outreach-message-reviewed-desktop-{light,dark}.png` |

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC07-23 Last mile
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 📜 D513 One work request whatever the channel
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-31 / D513)
+**Status:** ✅ decided
 
 ## Context
 
@@ -20,8 +20,8 @@ drafts it from free text and a person confirms when the AI is unsure.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-31).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-31).
 
 ## Consequences
 
@@ -41,7 +41,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [FL-F16-06 Take in every customer
   request](../../02-functional/f16-customer-support-agents/flows/fl-f16-06-take-in-every-request.md)
 - [D512 Every customer request feeds scheduling](d512-every-customer-request-feeds-scheduling.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

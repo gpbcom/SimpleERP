@@ -47,7 +47,7 @@ A few a month.
 3. The customer accepts the plan (portal or signed letter); reminders of
    [UC-F6-08](../03-invoice-and-get-paid/uc-f06-08-remind-late-payers.md) pause.
 4. Each instalment is reminded before its date and matched when paid.
-5. A missed instalment resumes the reminders on the whole balance after the grace days (Proposed: 7).
+5. A missed instalment resumes the reminders on the whole balance after the grace days (default: 7).
 
 ## Alternative flows
 

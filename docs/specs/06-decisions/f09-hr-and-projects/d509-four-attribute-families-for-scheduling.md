@@ -3,13 +3,13 @@
 
 # 📜 D509 Four attribute families for scheduling
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-27 / D509)
+**Status:** ✅ decided
 
 ## Context
 
 Which employees' attributes scheduling may take into account. The law and common practice tie some tasks to an age, a
-medical fitness, a licence, an operator certificate, an authorisation or a professional registration ([maps and
-eligibility](../../../tickets/GH-2/resources/flowcharts-screens/maps-and-eligibility.md), part 2).
+medical fitness, a licence, an operator certificate, an authorisation or a professional registration (maps and
+eligibility (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), part 2).
 
 ## Options
 
@@ -21,8 +21,8 @@ Four families: degrees and qualifications; skills and languages; place and trave
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-27).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-27).
 
 ## Consequences
 
@@ -48,7 +48,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [CR-FR-210 Qualifications the law ties to tasks](../../10-country-packs/france/labour/cr-fr-210-qualifications-tied-to-tasks.md)
 - [D510 Attributes chosen per request type, adjustable per request](d510-attributes-chosen-per-request-type-adjustable-per-request.md)
 - [D511 Required or preferred attributes; legal ones always required](d511-required-or-preferred-attributes-legal-ones-always-required.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

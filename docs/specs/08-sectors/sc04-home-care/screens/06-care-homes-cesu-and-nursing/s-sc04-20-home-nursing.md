@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC04-20 Home nursing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -14,7 +14,9 @@
 
 ## Purpose
 
-Record prescriptions, plan and perform acts against them, and prepare the bill for the health insurance.
+Record prescriptions and the care the coordinating nurse assessed on them, plan and perform acts against them, and
+count the acts done in the activity reported to the ARS, which funds the care by a yearly global allowance: no act is
+billed ([CR-FR-233](../../../../10-country-packs/france/health-practice/cr-fr-233-home-nursing-ssiad.md)).
 
 ## Entry points
 
@@ -28,7 +30,7 @@ Home care › Care acts; the carer's day list on the phone; the AI assistant.
 | Acts  Dressing, daily     From 2026-11-01 to 2026-11-28     Acts 28   Done 12   Left 16          |
 | Act of 2026-11-12  09:10  Aisha T. (nursing assistant), nurse Lea F.   Signed by the patient     |
 | Act of 2026-11-13  09:05  Aisha T.   Done     Act of 2026-11-14  planned                         |
-| Bill  12 acts ready for the health insurance                       [Prepare the bill]            |
+| Activity  12 acts done, counted in the activity reported to the ARS  [Report the activity]       |
 | Renewal needed in 14 days   [Ask the doctor]                                                     |
 +--------------------------------------------------------------------------------------------------+
 ```
@@ -49,7 +51,7 @@ Home care › Care acts; the carer's day list on the phone; the AI assistant.
 | Label | Data | Format | Editable | Required |
 |---|---|---|---|---|
 | Patient | E-SC04-18 patient | link | no | yes |
-| Prescription | E-SC04-18 prescription | prescriber, date, acts, period | yes while Planned | yes |
+| Prescription | E-SC04-18 prescription | prescriber, date, and the care assessed by the coordinating nurse (acts, period, a product rule kept by the owner, BR-SC04-20) | yes while Planned | yes |
 | Act | E-SC04-18 act | choice | yes while Planned | yes |
 | Performed by | E-SC04-18 performer | carer and coordinating nurse | yes while Planned | yes |
 | Time and note | E-SC04-18 time, note | date, time and text | yes while Planned | no |
@@ -62,7 +64,7 @@ Home care › Care acts; the carer's day list on the phone; the AI assistant.
 | Add prescription | header | coordinator | a prescription with its acts and period |
 | Plan act | prescription | coordinator | an act as a visit, if the prescription allows |
 | Record act | act | carer | the act becomes Done |
-| Prepare the bill | header | coordinator | the acts done go to the health insurance bill |
+| Report the activity | header | coordinator | the acts done are counted in the activity reported to the ARS ([UC-SC04-14](../../use-cases/05-people-and-quality/uc-sc04-14-report-activity-to-funders-and-authorities.md)); they become Reported |
 
 ## States
 
@@ -83,8 +85,8 @@ Entity states shown (VD-15):
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
 | E-SC04-18 Care act | Planned | Badge "Planned"; a new record starts here; next: Done or Cancelled (UC-SC04-20); fields editable within the role | U25, U26 | `u25-care-coordinator/s-sc04-20-home-nursing-e-sc04-18-care-act-planned-{desktop,phone}-{light,dark}.png`, `u26-carer/s-sc04-20-home-nursing-e-sc04-18-care-act-planned-phone-{light,dark}.png` |
-| E-SC04-18 Care act | Done | Badge "Done"; next: Billed (UC-SC04-20); fields editable within the role | U25, U26 | `u25-care-coordinator/s-sc04-20-home-nursing-e-sc04-18-care-act-done-{desktop,phone}-{light,dark}.png`, `u26-carer/s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone-{light,dark}.png` |
-| E-SC04-18 Care act | Billed | Badge "Billed"; final: read-only, no next state; the history shows how it got here | U25, U26 | `u25-care-coordinator/s-sc04-20-home-nursing-e-sc04-18-care-act-billed-{desktop,phone}-{light,dark}.png`, `u26-carer/s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone-{light,dark}.png` |
+| E-SC04-18 Care act | Done | Badge "Done"; next: Reported (UC-SC04-20, UC-SC04-14); fields editable within the role | U25, U26 | `u25-care-coordinator/s-sc04-20-home-nursing-e-sc04-18-care-act-done-{desktop,phone}-{light,dark}.png`, `u26-carer/s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone-{light,dark}.png` |
+| E-SC04-18 Care act | Reported | Badge "Reported"; final: read-only, no next state; the history shows how it got here | U25, U26 | `u25-care-coordinator/s-sc04-20-home-nursing-e-sc04-18-care-act-reported-{desktop,phone}-{light,dark}.png`, `u26-carer/s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone-{light,dark}.png` |
 | E-SC04-18 Care act | Cancelled | Badge "Cancelled"; final: read-only, no next state; the history shows how it got here | U25, U26 | `u25-care-coordinator/s-sc04-20-home-nursing-e-sc04-18-care-act-cancelled-{desktop,phone}-{light,dark}.png`, `u26-carer/s-sc04-20-home-nursing-e-sc04-18-care-act-cancelled-phone-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces

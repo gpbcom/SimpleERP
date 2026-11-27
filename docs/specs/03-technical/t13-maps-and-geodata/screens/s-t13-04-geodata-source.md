@@ -3,25 +3,25 @@
 
 # 🖥️ S-T13-04 Geodata source
 
-**Status:** 🔄 (Proposed) drawn in step 36j from its entity and list page; waits for the owner
+**Status:** ✅ specified
 
 ## Personas
 
 - [U07 Administrator](../../../01-users/personas/u07-administrator.md)
 
-(Proposed) Each persona sees the fields and the actions its roles allow, as on
+Each persona sees the fields and the actions its roles allow, as on
 [S-T13-L04 Geodata sources](00-lists/s-t13-l04-geodata-sources.md): the record rules and field rules of T2.
 
 ## Purpose
 
-(Proposed) See one [E-T13-04 Geodata source](../data/e-t13-04-geodata-source.md) and act on it: its fields, its state
+See one [E-T13-04 Geodata source](../data/e-t13-04-geodata-source.md) and act on it: its fields, its state
 and the changes its state allows. It is the page the rows of
 [S-T13-L04 Geodata sources](00-lists/s-t13-l04-geodata-sources.md) open (VR-13).
 
 ## Entry points
 
 - [S-T13-L04 Geodata sources](00-lists/s-t13-l04-geodata-sources.md) › a row's Open ›.
-- (Proposed) A link to the record wherever another page names it, and global search.
+- A link to the record wherever another page names it, and global search.
 - The flows of Shown in.
 
 ## Wireframe
@@ -58,7 +58,7 @@ and the changes its state allows. It is the page the rows of
 
 ## Fields and columns
 
-As [E-T13-04 Geodata source](../data/e-t13-04-geodata-source.md#fields). (Proposed) A field is read-only when the
+As [E-T13-04 Geodata source](../data/e-t13-04-geodata-source.md#fields). A field is read-only when the
 record's state is final or the role's field rules lock it; personal-data fields show only to the roles that may read
 them (VR-12); secrets never show.
 
@@ -66,9 +66,9 @@ them (VR-12); secrets never show.
 
 | Action | Who | Result |
 |---|---|---|
-| Edit | the personas whose roles may change it | (Proposed) saves the fields; audited |
-| Change state | the personas whose roles may change it | (Proposed) one of the Lifecycle's transitions: Importing to Active (REQ-T13-01); Importing to Failed (REQ-T13-01); Failed to Importing (REQ-T13-01); Active to Outdated (REQ-T13-01); Outdated to Importing (REQ-T13-01); Active to Retired (REQ-T13-01); Outdated to Retired (REQ-T13-01) |
-| Ask the AI assistant | every persona of the page | (Proposed) an answer about this record from the data the user may see, with its sources |
+| Edit | the personas whose roles may change it | saves the fields; audited |
+| Change state | the personas whose roles may change it | one of the Lifecycle's transitions: Importing to Active (REQ-T13-01); Importing to Failed (REQ-T13-01); Failed to Importing (REQ-T13-01); Active to Outdated (REQ-T13-01); Outdated to Importing (REQ-T13-01); Active to Retired (REQ-T13-01); Outdated to Retired (REQ-T13-01) |
+| Ask the AI assistant | every persona of the page | an answer about this record from the data the user may see, with its sources |
 | Back to the list | every persona of the page | [S-T13-L04 Geodata sources](00-lists/s-t13-l04-geodata-sources.md) |
 
 ## States
@@ -100,7 +100,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop and tablet; on a phone the fields stack in one column and the actions move to a menu.
+Desktop and tablet; on a phone the fields stack in one column and the actions move to a menu.
 
 ## Accessibility
 

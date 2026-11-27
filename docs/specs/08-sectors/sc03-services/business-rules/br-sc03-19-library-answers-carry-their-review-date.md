@@ -3,7 +3,7 @@
 
 # 📏 BR-SC03-19 Library answers carry their review date
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

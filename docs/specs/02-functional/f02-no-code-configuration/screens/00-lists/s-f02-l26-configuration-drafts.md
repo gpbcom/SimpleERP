@@ -35,10 +35,12 @@ to find, filter, total and act on many configuration drafts at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Configuration drafts    Administration › Configuration drafts   [+ New]                                      |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Open]   [chart: count by state]                                                                     |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] CONFIGURATION DRAFT   STATE                                                          |
+| state             | [ ] CONFIGURATIO   AUTHOR   ORIGIN   AREAS   PUBLISHED AS   STATE                        |
+| author            | [ ] ...                                                  Open >                          |
+| origin            | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,8 +50,12 @@ to find, filter, total and act on many configuration drafts at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Configuration draft | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Configuration draft | title | text | yes |
+| Author | author | person's name | yes |
+| Origin | origin | label | yes |
+| Areas | areas | text | yes |
+| Published as | published as | number, right-aligned | yes |
+| State | state | badge: Open, Published, Discarded | yes |
 
 Secrets are never a column (VR-4).
 
@@ -57,7 +63,9 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Open, Published, Discarded | the visible rows (D488) |
+| Author | each person, the user first | the visible rows (D488) |
+| Origin | change, pack import | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -68,6 +76,7 @@ None: configuration drafts link to no other record type in their fields.
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Open.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -79,6 +88,9 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: author.
+- Open: Open.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -92,6 +104,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New configuration draft | header | U07 and the administration roles | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
 | Ask about this list | toolbar | every persona of the list | an answer from the visible rows only, with its sources (D489) |
@@ -106,7 +119,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| author | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

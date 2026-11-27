@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-29 Value paid-leave pay
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -136,7 +136,7 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 [CR-FR-044 Paid leave](../../../../10-country-packs/france/labour/cr-fr-044-paid-leave.md),
 [CR-FR-088 BTP paid-leave fund](../../../../10-country-packs/france/labour/cr-fr-088-btp-paid-leave-fund.md); the
-one-tenth comparison: (Proposed) to read (Code du travail L3141-24).
+one-tenth comparison: (⚖️ lawyer review before launch, D574) to read: Code du travail L3141-24.
 
 ## Related use cases
 

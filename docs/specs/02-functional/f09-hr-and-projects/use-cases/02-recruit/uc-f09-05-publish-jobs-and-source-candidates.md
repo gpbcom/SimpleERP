@@ -43,9 +43,11 @@ F9 set up for the company.
    ([CR-FR-194](../../../../10-country-packs/france/labour/cr-fr-194-job-offer-rules.md)).
 3. Candidates are sourced from boards, LinkedIn and files
    ([D235](../../../../06-decisions/f04-meetings/d235-recruitment-split.md)); on LinkedIn, through Unipile, HR searches
-   and ranks profiles ([UC-F9-40](uc-f09-40-search-and-rank-linkedin-profiles.md)), runs an outreach sequence
-   ([UC-F9-41](uc-f09-41-run-a-linkedin-outreach-sequence.md)) and turns positive replies into applicants
-   ([UC-F9-42](uc-f09-42-turn-a-positive-reply-into-an-applicant.md)), as
+   and ranks profiles ([UC-F9-40](uc-f09-40-search-and-rank-linkedin-profiles.md)), runs an outreach sequence whose
+   messages HR sends with one click each, or which sends on its own when the administrator turned automatic sending on
+   ([UC-F9-41](uc-f09-41-run-a-linkedin-outreach-sequence.md),
+   [D570](../../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)), and turns
+   positive replies into applicants ([UC-F9-42](uc-f09-42-turn-a-positive-reply-into-an-applicant.md)), as
    [D518](../../../../06-decisions/f09-hr-and-projects/d518-linkedin-sourcing-through-unipile.md) decided.
 4. Campaigns stop when the candidate replies.
 

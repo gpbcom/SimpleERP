@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-21 Book a meeting room and equipment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -52,7 +52,7 @@ Several times a week per office.
 ## Alternative flows
 
 - 3a. No room fits: the nearest free times and the rooms of another site are offered.
-- 5a. Nobody checked in 15 minutes after the start (Proposed): the room is freed.
+- 5a. Nobody checked in 15 minutes after the start: the room is freed.
 
 ## Error flows
 

@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -20,8 +20,8 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F8-08 | [Year-end duties](fl-f08-08-year-end-duties.md) | ✅ |
 | 🔀 | FL-F8-09 | [Pay, analyse and report](fl-f08-09-pay-analyse-and-report.md) | ✅ |
 | 🔀 | FL-F8-10 | [Accountant collaboration](fl-f08-10-accountant-collaboration.md) | ✅ |
-| 🔀 | FL-F8-11 | [Treasury and payment means](fl-f08-11-treasury-and-payment-means.md) | 🔄 |
-| 🔀 | FL-F8-12 | [Audit, leases and special books](fl-f08-12-audit-leases-and-special-books.md) | 🔄 |
+| 🔀 | FL-F8-11 | [Treasury and payment means](fl-f08-11-treasury-and-payment-means.md) | ✅ |
+| 🔀 | FL-F8-12 | [Audit, leases and special books](fl-f08-12-audit-leases-and-special-books.md) | ✅ |
 
 ---
 

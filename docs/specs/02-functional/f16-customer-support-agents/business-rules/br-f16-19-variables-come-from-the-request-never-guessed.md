@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-19 Variables come from the request, never guessed
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

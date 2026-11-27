@@ -163,8 +163,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A reseller of cloud services contracts with the distributor under a reseller agreement that sets prices,
 minimum commitments and the way seats are counted and credited, and with its customers under its own terms. Services
-sold to businesses in other countries follow the place-of-supply rules of VAT. The France-pack rule is written later.
-Related: [CR-FR-100](../../../../10-country-packs/france/tax-and-vat/cr-fr-100-vat-on-services-abroad.md),
+sold to businesses in other countries follow the place-of-supply rules of VAT. The France-pack rules that apply are listed
+below. Related: [CR-FR-100](../../../../10-country-packs/france/tax-and-vat/cr-fr-100-vat-on-services-abroad.md),
 [CR-FR-171](../../../../10-country-packs/france/trade/cr-fr-171-supplier-distributor-agreement.md),
 [CR-FR-015](../../../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md),
 [CR-FR-011](../../../../10-country-packs/france/tax-and-vat/cr-fr-011-vat-returns-and-filings.md).

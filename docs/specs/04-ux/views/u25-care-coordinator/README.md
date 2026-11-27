@@ -3,7 +3,7 @@
 
 # 🗂️ Care coordinator: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Visits without a carer; Incidents to read; Care plans to review.
 - Widgets: Visits done today.
@@ -38,16 +38,16 @@ density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Navigation
 
-(Proposed) Home · Recipients · Rounds · Carers · Billing · Assistant.
+Home · Recipients · Rounds · Carers · Billing · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U25-01 | [Plan a new recipient's visits](journeys/j-u25-01-plan-a-new-recipient.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U25-01 | [Plan a new recipient's visits](journeys/j-u25-01-plan-a-new-recipient.md) | ✅ |
 
 ---
 

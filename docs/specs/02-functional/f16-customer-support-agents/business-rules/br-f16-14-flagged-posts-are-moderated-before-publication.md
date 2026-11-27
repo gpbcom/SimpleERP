@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-14 Flagged posts are moderated before publication
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -17,7 +17,8 @@ until reviewed.
 A public forum shows the company's name next to every post, and a post with another person's data or abuse cannot be
 undone once read. The owner asked for a community forum
 ([D535](../../../06-decisions/f16-customer-support-agents/d535-benchmark-gaps-f16-customer-support-agents.md)).
-(Proposed) The France-pack rule on moderation is written later.
+(⚖️ lawyer review before launch, D574) The France-pack rule on moderation is still to write: to read the LCEN (loi
+2004-575) art. 6 and Regulation (EU) 2022/2065 (Digital Services Act), art. 16.
 
 ## Examples
 

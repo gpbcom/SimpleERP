@@ -3,7 +3,7 @@
 
 # 🏬 Store manager: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -13,7 +13,7 @@ the back office. Default density: comfortable on the floor, compact in the offic
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Deliveries to receive; Transfers to send; Labels to print.
 - Widgets: Today's sales against target.
@@ -40,16 +40,16 @@ the back office. Default density: comfortable on the floor, compact in the offic
 
 ## Navigation
 
-(Proposed) Home · Store · Stock · Team · Reports · Assistant.
+Home · Store · Stock · Team · Reports · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U23-01 | [Run the store](journeys/j-u23-01-run-the-store.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U23-01 | [Run the store](journeys/j-u23-01-run-the-store.md) | ✅ |
 
 ---
 

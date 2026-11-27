@@ -159,7 +159,7 @@ activities, uses only the data needed, and any destination outside the EU follow
 [CR-FR-049](../../../../10-country-packs/france/data-protection/cr-fr-049-processors-and-transfers.md)). Data the
 company must keep for its books is not deleted by an export
 ([CR-FR-002](../../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md)). The
-France-pack wording is written later.
+France-pack wording is [CR-FR-275 Copying personal data for analytics](../../../../10-country-packs/france/data-protection/cr-fr-275-copying-personal-data-for-analytics.md).
 
 ## Related use cases
 

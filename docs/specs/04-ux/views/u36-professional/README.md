@@ -3,7 +3,7 @@
 
 # ⚖️ Professional: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a laptop an
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Deadlines this week; Time to enter; Bills to approve.
 - Widgets: Work in progress.
@@ -38,16 +38,16 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a laptop an
 
 ## Navigation
 
-(Proposed) Home · Matters · Time · Deadlines · Billing · Assistant.
+Home · Matters · Time · Deadlines · Billing · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U36-01 | [Work a matter](journeys/j-u36-01-work-a-matter.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U36-01 | [Work a matter](journeys/j-u36-01-work-a-matter.md) | ✅ |
 
 ---
 

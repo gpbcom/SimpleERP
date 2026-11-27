@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC20-20 Public assets
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

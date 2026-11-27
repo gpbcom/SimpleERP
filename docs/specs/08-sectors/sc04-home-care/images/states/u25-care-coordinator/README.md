@@ -437,11 +437,11 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc04-20-home-nursing-e-sc04-18-care-act-done-desktop, light](s-sc04-20-home-nursing-e-sc04-18-care-act-done-desktop-light.png) | ![s-sc04-20-home-nursing-e-sc04-18-care-act-done-desktop, dark](s-sc04-20-home-nursing-e-sc04-18-care-act-done-desktop-dark.png) |
 
-## s-sc04-20-home-nursing-e-sc04-18-care-act-billed-desktop
+## s-sc04-20-home-nursing-e-sc04-18-care-act-reported-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-sc04-20-home-nursing-e-sc04-18-care-act-billed-desktop, light](s-sc04-20-home-nursing-e-sc04-18-care-act-billed-desktop-light.png) | ![s-sc04-20-home-nursing-e-sc04-18-care-act-billed-desktop, dark](s-sc04-20-home-nursing-e-sc04-18-care-act-billed-desktop-dark.png) |
+| ![s-sc04-20-home-nursing-e-sc04-18-care-act-reported-desktop, light](s-sc04-20-home-nursing-e-sc04-18-care-act-reported-desktop-light.png) | ![s-sc04-20-home-nursing-e-sc04-18-care-act-reported-desktop, dark](s-sc04-20-home-nursing-e-sc04-18-care-act-reported-desktop-dark.png) |
 
 ## s-sc04-20-home-nursing-e-sc04-18-care-act-cancelled-desktop
 
@@ -557,11 +557,11 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone, light](s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone-light.png) | ![s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone, dark](s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone-dark.png) |
 
-## s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone
+## s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone
 
 | Light | Dark |
 |---|---|
-| ![s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone, light](s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone-light.png) | ![s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone, dark](s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone-dark.png) |
+| ![s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone, light](s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone-light.png) | ![s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone, dark](s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone-dark.png) |
 
 ## s-sc04-20-home-nursing-e-sc04-18-care-act-cancelled-phone
 

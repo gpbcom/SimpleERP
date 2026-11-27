@@ -37,7 +37,8 @@ filter, total and act on many trigger events at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] TRIGGER EVENT   STATE                                                                |
+| state             | [ ] NAME   ORIGIN   SOURCE   FIELDS CARRI   STATE                                        |
+| origin            | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,7 +48,10 @@ filter, total and act on many trigger events at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Trigger event | the record's title | text | yes |
+| Name | name | text | yes |
+| Origin | origin | label | yes |
+| Source | source | text | yes |
+| Fields carried | fields carried | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -57,6 +61,7 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Origin | internal, external | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 

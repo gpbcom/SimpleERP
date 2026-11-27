@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-36 Leases
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

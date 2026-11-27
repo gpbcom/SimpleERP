@@ -3,7 +3,7 @@
 
 # 🗃️ E-T13-03 Map layer
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-19, VD-20 / D501, D502)
+**Status:** ✅ specified
 
 ## Purpose
 

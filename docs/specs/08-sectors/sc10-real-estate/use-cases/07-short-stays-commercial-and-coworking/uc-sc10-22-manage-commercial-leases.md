@@ -4,7 +4,7 @@
 
 # 📝 UC-SC10-22 Manage commercial leases
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -163,7 +163,7 @@ below. Related: [CR-FR-142](../../../../10-country-packs/france/real-estate/cr-f
 of home rents, a different index),
 [CR-FR-141](../../../../10-country-packs/france/real-estate/cr-fr-141-rent-receipts.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-239 Commercial leases (3-6-9, ILC/ILAT)](../../../../10-country-packs/france/real-estate/cr-fr-239-commercial-leases.md)
 
 ## Related use cases

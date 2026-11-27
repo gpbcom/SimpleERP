@@ -4,7 +4,7 @@
 
 # 🖥️ S-F23-26 Rolling forecast
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

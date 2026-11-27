@@ -76,7 +76,7 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc04-19-childcare-e-sc04-17-childcare-contract-draft-desktop.html`
 - `s-sc04-19-childcare-e-sc04-17-childcare-contract-ended-desktop.html`
 - `s-sc04-19-childcare-e-sc04-17-childcare-contract-suspended-desktop.html`
-- `s-sc04-20-home-nursing-e-sc04-18-care-act-billed-desktop.html`
+- `s-sc04-20-home-nursing-e-sc04-18-care-act-reported-desktop.html`
 - `s-sc04-20-home-nursing-e-sc04-18-care-act-cancelled-desktop.html`
 - `s-sc04-20-home-nursing-e-sc04-18-care-act-done-desktop.html`
 - `s-sc04-20-home-nursing-e-sc04-18-care-act-planned-desktop.html`
@@ -97,7 +97,7 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc04-19-childcare-e-sc04-17-childcare-contract-draft-phone.html`
 - `s-sc04-19-childcare-e-sc04-17-childcare-contract-ended-phone.html`
 - `s-sc04-19-childcare-e-sc04-17-childcare-contract-suspended-phone.html`
-- `s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone.html`
+- `s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone.html`
 - `s-sc04-20-home-nursing-e-sc04-18-care-act-cancelled-phone.html`
 - `s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone.html`
 - `s-sc04-20-home-nursing-e-sc04-18-care-act-planned-phone.html`

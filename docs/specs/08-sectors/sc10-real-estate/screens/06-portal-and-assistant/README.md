@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC10-19 | [Portal](s-sc10-19-portal.md) | 🔄 |
-| 🖥️ | S-SC10-20 | [Portfolio assistant](s-sc10-20-portfolio-assistant.md) | 🔄 |
+| 🖥️ | S-SC10-19 | [Portal](s-sc10-19-portal.md) | ✅ |
+| 🖥️ | S-SC10-20 | [Portfolio assistant](s-sc10-20-portfolio-assistant.md) | ✅ |

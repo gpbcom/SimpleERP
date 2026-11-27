@@ -23,7 +23,8 @@ decision can be challenged within two months of them.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Loi n° 65-557 art. 42 (minutes within 1 month, challenge within 2 months) in its current version since 2020-06-01
+([loi n° 65-557, art. 42](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039329680), read 2026-11-27).
 
 ## Enforced by
 

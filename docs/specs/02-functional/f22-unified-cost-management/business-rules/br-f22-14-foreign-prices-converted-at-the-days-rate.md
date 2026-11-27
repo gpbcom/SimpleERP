@@ -4,7 +4,7 @@
 
 # 📏 BR-F22-14 Foreign prices converted at the day's rate
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -36,7 +36,7 @@ None.
 
 ## Configurable
 
-The rate source, (Proposed) the European Central Bank's reference rates.
+The rate source, the European Central Bank's reference rates.
 
 ## Open questions
 

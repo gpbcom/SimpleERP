@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-44 Sourcing search
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -23,11 +23,11 @@ A saved LinkedIn search for a job position: its criteria, the LinkedIn account i
 | location and radius | place and km | no | - | the job's site | Lyon, 40 km | no | no |
 | languages | list with levels | no | - | - | French, English B2 | no | no |
 | industries | list | no | - | - | construction | no | no |
-| employers to include, to exclude | lists | no | - | (Proposed) the company itself excluded | exclude Acme Bâtiment | no | no |
+| employers to include, to exclude | lists | no | - | the company itself excluded | exclude Acme Bâtiment | no | no |
 | education | list | no | - | - | civil engineering | no | no |
 | keywords | text with AND, OR, NOT and quotes | no | balanced quotes and brackets | - | "gros oeuvre" AND NOT intern | no | no |
 | open to work | yes or no | no | - | no | yes | no | no |
-| criteria applied by the AI assistant | list | no | those the account's search lacks (Q19) | - | years of experience | no | no |
+| criteria applied by the AI assistant | list | no | those the account's search lacks, as Unipile reports it (D571) | - | years of experience | no | no |
 | state | draft, running, ranked, failed, closed | yes | the lifecycle below | draft | ranked | no | no |
 | runs | list of date, profiles found, limit reached | no | - | - | 2026-11-03, 48, no | no | no |
 | owner | user | yes | HR | the creator | Claire P. | yes | no |
@@ -71,7 +71,7 @@ By job position, owner, state and date of the last run.
 
 ## Retention
 
-(Proposed) The criteria are kept while the job position is open and 2 years after, as the applicants' term
+The criteria are kept while the job position is open and 2 years after, as the applicants' term
 ([BR-F9-11](../business-rules/br-f09-11-candidate-data-has-a-term.md)); the profiles never shortlisted are dropped when
 the search closes ([BR-F9-39](../business-rules/br-f09-39-prospects-kept-only-as-long-as-needed.md)).
 
@@ -81,7 +81,7 @@ Every change of the criteria and every run, with who, when, the old and the new 
 
 ## Import and export
 
-No import. (Proposed) The criteria are exported with the job position.
+No import. The criteria are exported with the job position.
 
 ## Used by
 
@@ -90,7 +90,9 @@ No import. (Proposed) The criteria are exported with the job position.
 
 ## Open questions
 
-- [Q19 Which LinkedIn search sourcing uses](../../../07-questions/q19-which-linkedin-search-sourcing-uses.md)
+- [Q19 Which LinkedIn search sourcing uses](../../../07-questions/q19-which-linkedin-search-sourcing-uses.md),
+  answered by
+  [D571 LinkedIn sourcing uses the user's search](../../../06-decisions/f09-hr-and-projects/d571-linkedin-sourcing-uses-the-users-search.md)
 
 ---
 

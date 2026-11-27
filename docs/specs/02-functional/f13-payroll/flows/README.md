@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -20,7 +20,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F13-07 | [Schemes and special contracts](fl-f13-07-schemes-and-special-contracts.md) | ✅ |
 | 🔀 | FL-F13-08 | [Deductions, savings and leave pay](fl-f13-08-deductions-savings-and-leave-pay.md) | ✅ |
 | 🔀 | FL-F13-09 | [Collective agreements by family](fl-f13-09-collective-agreements-by-family.md) | ✅ |
-| 🔀 | FL-F13-10 | [Special contracts and outsourced payroll](fl-f13-10-special-contracts-and-outsourcing.md) | 🔄 |
+| 🔀 | FL-F13-10 | [Special contracts and outsourced payroll](fl-f13-10-special-contracts-and-outsourcing.md) | ✅ |
 
 ---
 

@@ -13,4 +13,4 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-F7-18 | [Manage supplier contracts and price agreements](uc-f07-18-manage-supplier-contracts-and-price-agreements.md) | ✅ |
-| 📝 | UC-F7-19 | [Follow supplier performance](uc-f07-19-follow-supplier-performance.md) | 🔄 |
+| 📝 | UC-F7-19 | [Follow supplier performance](uc-f07-19-follow-supplier-performance.md) | ✅ |

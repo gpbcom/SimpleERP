@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F7-10 Consignment, scanning, packaging and EDI
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F7-10 Consignment, scanning, packaging and EDI](../../../flows/fl-f07-10-consignment-scanning-and-edi.md)
 for this persona, in light and dark mode (D120, D121). Errors follow the

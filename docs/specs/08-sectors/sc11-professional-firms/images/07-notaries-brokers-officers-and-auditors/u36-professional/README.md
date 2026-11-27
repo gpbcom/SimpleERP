@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC11-07 Notaries, brokers, judicial officers and audit firms
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC11-07 Notaries, brokers, judicial officers and audit firms](../../../flows/fl-sc11-07-notaries-brokers-officers-and-auditors.md)

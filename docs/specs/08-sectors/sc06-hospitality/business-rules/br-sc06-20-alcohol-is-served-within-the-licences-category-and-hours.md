@@ -3,7 +3,7 @@
 
 # 📏 BR-SC06-20 Alcohol is served within the licence's category and hours
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -15,8 +15,8 @@ is refused and recorded.
 
 Serving outside the licence exposes the owner to fines and to the loss of the licence, and the till is the only place
 that can stop the sale. The owner asked for alcohol licences
-([D550](../../../06-decisions/sectors/d550-benchmark-gaps-sc06-hospitality.md)). (Proposed) The France-pack rule is
-written later.
+([D550](../../../06-decisions/sectors/d550-benchmark-gaps-sc06-hospitality.md)). The France-pack rule is
+[CR-FR-235 Alcohol licences and opening hours](../../../10-country-packs/france/hospitality/cr-fr-235-alcohol-licences.md).
 
 ## Examples
 
@@ -33,7 +33,8 @@ written later.
 - [UC-SC06-20](../use-cases/06-campsites-catering-groups-and-pricing/uc-sc06-20-keep-alcohol-licences-current.md)
 - [E-SC06-17 Licence](../data/e-sc06-17-licence.md)
 - [E-F10-16 Age check](../../../02-functional/f10-point-of-sale/data/e-f10-16-age-check.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule, (⚖️ lawyer review before launch, D574) for the general hours of service, set locally by the prefect, until the
+  prefectoral orders are read:
   [CR-FR-235 Alcohol licences and opening hours](../../../10-country-packs/france/hospitality/cr-fr-235-alcohol-licences.md)
 
 ## Exceptions

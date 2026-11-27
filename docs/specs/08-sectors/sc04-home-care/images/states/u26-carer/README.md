@@ -137,11 +137,11 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone, light](s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone-light.png) | ![s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone, dark](s-sc04-20-home-nursing-e-sc04-18-care-act-done-phone-dark.png) |
 
-## s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone
+## s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone
 
 | Light | Dark |
 |---|---|
-| ![s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone, light](s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone-light.png) | ![s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone, dark](s-sc04-20-home-nursing-e-sc04-18-care-act-billed-phone-dark.png) |
+| ![s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone, light](s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone-light.png) | ![s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone, dark](s-sc04-20-home-nursing-e-sc04-18-care-act-reported-phone-dark.png) |
 
 ## s-sc04-20-home-nursing-e-sc04-18-care-act-cancelled-phone
 

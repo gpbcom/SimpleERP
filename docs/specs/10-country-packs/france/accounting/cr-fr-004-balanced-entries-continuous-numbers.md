@@ -21,7 +21,8 @@ Every entry is balanced and each journal numbers its entries continuously within
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+L123-12 in force since 2000-09-21 ([Code de commerce, art. L123-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006219304), read 2026-11-27); the PCG as consolidated at 1 January 2026 ([ANC, PCG consolidated at 1 January 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf), read
+2026-11-27).
 
 ## Enforced by
 

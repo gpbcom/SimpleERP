@@ -36,10 +36,13 @@ to find, filter, total and act on many proof of deliveries at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Proof of deliveries    Transport and logistics › Proof of deliveries   [+ New]                               |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] PROOF OF DELIVERY   STATE                                                            |
+| state             | [ ] PROOF OF DEL   ORDER   STOP   KIND   RESERVATIONS   COLLECTED AT   STATE             |
+| order             | [ ] ...                                                  Open >                          |
+| stop              | [ ] ...                                                  Open >                          |
+| kind              | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -49,7 +52,12 @@ to find, filter, total and act on many proof of deliveries at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Proof of delivery | the record's title | text | yes |
+| Proof of delivery | title | text | yes |
+| Order | order | link to the record | yes |
+| Stop | stop | link to the record | yes |
+| Kind | kind | label | yes |
+| Reservations | reservations | text | yes |
+| Collected at | collected at | date and time | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -59,16 +67,23 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Order | each linked order | the visible rows (D488) |
+| Stop | each linked stop | the visible rows (D488) |
+| Kind | signature, photo, code, neighbour's name | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: proof of deliveries link to no other record type in their fields.
+- Proof of deliveries of a chosen transport order, or of the transport orders that match a filter.
+- From the other side: the transport orders that have proof of deliveries, or none.
+- Proof of deliveries of a chosen stop, or of the stops that match a filter.
+- From the other side: the stops that have proof of deliveries, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by collected at.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -108,7 +123,10 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| signed by | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| signature | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

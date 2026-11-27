@@ -12,6 +12,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F12-21 | [Calibrate measuring equipment](uc-f12-21-calibrate-measuring-equipment.md) | 🔄 |
-| 📝 | UC-F12-22 | [Require operator qualifications per work centre](uc-f12-22-require-operator-qualifications-per-work-centre.md) | 🔄 |
-| 📝 | UC-F12-28 | [Publish versioned work instructions](uc-f12-28-publish-versioned-work-instructions.md) | 🔄 |
+| 📝 | UC-F12-21 | [Calibrate measuring equipment](uc-f12-21-calibrate-measuring-equipment.md) | ✅ |
+| 📝 | UC-F12-22 | [Require operator qualifications per work centre](uc-f12-22-require-operator-qualifications-per-work-centre.md) | ✅ |
+| 📝 | UC-F12-28 | [Publish versioned work instructions](uc-f12-28-publish-versioned-work-instructions.md) | ✅ |

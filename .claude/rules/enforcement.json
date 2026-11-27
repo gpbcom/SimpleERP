@@ -348,6 +348,11 @@
         "kind": "script",
         "path": ".claude/scripts/reports/roadmap_gantt.py",
         "what": "the phase pages, the ticket graph and the parallel plan the board mirrors"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/board/test_board_refresh.py",
+        "what": "refresh updates only the issues whose text or roadmap labels changed"
       }
     ],
     "TKT-18": [

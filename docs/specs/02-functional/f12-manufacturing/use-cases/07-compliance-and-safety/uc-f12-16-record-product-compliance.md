@@ -118,7 +118,9 @@ None.
 
 [CR-FR-074](../../../../10-country-packs/france/products/cr-fr-074-machinery-conformity.md);
 [CR-FR-077](../../../../10-country-packs/france/products/cr-fr-077-reach-svhc-information.md);
-[CR-FR-078](../../../../10-country-packs/france/products/cr-fr-078-scip-notification.md).
+[CR-FR-078](../../../../10-country-packs/france/products/cr-fr-078-scip-notification.md): quasi-identical articles
+may be grouped in one SCIP notification, a simplified notification may refer to data already submitted, and retailers
+supplying only consumers do not notify.
 
 ## Related use cases
 

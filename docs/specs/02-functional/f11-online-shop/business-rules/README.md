@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -27,11 +27,11 @@ One file per rule.
 | 📏 | BR-F11-14 | [Payment keys in the vault](br-f11-14-payment-keys-in-the-vault.md) | ✅ |
 | 📏 | BR-F11-15 | [Accepted terms are kept](br-f11-15-accepted-terms-are-kept.md) | ✅ |
 | 📏 | BR-F11-16 | [Risky orders are authenticated or held](br-f11-16-risky-orders-are-authenticated-or-held.md) | ✅ |
-| 📏 | BR-F11-17 | [Chargebacks are answered before their deadline](br-f11-17-chargebacks-are-answered-before-their-deadline.md) | 🔄 |
+| 📏 | BR-F11-17 | [Chargebacks are answered before their deadline](br-f11-17-chargebacks-are-answered-before-their-deadline.md) | ✅ |
 | 📏 | BR-F11-18 | [A channel shows only complete products](br-f11-18-a-channel-shows-only-complete-products.md) | ✅ |
 | 📏 | BR-F11-19 | [Feeds hold in-stock items at the shop's price](br-f11-19-feeds-hold-in-stock-items-at-the-shops-price.md) | ✅ |
-| 📏 | BR-F11-20 | [No listing without its safety information](br-f11-20-no-listing-without-its-safety-information.md) | 🔄 |
-| 📏 | BR-F11-21 | [Pre-orders show their date and can be cancelled](br-f11-21-pre-orders-show-their-date-and-can-be-cancelled.md) | 🔄 |
+| 📏 | BR-F11-20 | [No listing without its safety information](br-f11-20-no-listing-without-its-safety-information.md) | ✅ |
+| 📏 | BR-F11-21 | [Pre-orders show their date and can be cancelled](br-f11-21-pre-orders-show-their-date-and-can-be-cancelled.md) | ✅ |
 | 📏 | BR-F11-22 | [B2B requests become F6 quotes; punch-out carts go back](br-f11-22-b2b-requests-become-f6-quotes-punch-out-carts-go-back.md) | ✅ |
 | 📏 | BR-F11-23 | [Stores fulfil only with stock and capacity](br-f11-23-stores-fulfil-only-with-stock-and-capacity.md) | ✅ |
 | 📏 | BR-F11-24 | [Shop reports respect tracker consent](br-f11-24-shop-reports-respect-tracker-consent.md) | ✅ |

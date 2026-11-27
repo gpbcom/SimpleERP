@@ -4,7 +4,7 @@
 
 # 🖥️ S-F16-18 Voice agent
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

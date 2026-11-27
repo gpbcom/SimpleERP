@@ -59,11 +59,35 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc04-07-family-access-e-sc04-07-care-incident-active-phone, light](s-sc04-07-family-access-e-sc04-07-care-incident-active-phone-light.png) | ![s-sc04-07-family-access-e-sc04-07-care-incident-active-phone, dark](s-sc04-07-family-access-e-sc04-07-care-incident-active-phone-dark.png) |
 
-## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-phone
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-phone
 
 | Light | Dark |
 |---|---|
-| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-phone, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-phone-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-phone, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-phone-dark.png) |
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-phone, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-phone-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-phone, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-phone-dark.png) |
+
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-phone, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-phone-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-phone, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-phone-dark.png) |
+
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-phone, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-phone-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-phone, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-phone-dark.png) |
+
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-phone, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-phone-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-phone, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-phone-dark.png) |
+
+## s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-phone, light](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-phone-light.png) | ![s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-phone, dark](s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-phone-dark.png) |
 
 ## s-sc04-17-cesu-e-sc04-15-cesu-voucher-received-phone
 

@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC18-01 Membership sale
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

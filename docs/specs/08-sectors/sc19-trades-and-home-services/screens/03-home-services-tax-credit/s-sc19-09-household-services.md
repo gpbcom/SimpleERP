@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-09 Household services
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

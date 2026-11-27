@@ -44,10 +44,10 @@ Home · Accounting · Purchasing and stock · HR and projects · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U54-01 | [Buy and pay for the commune](journeys/j-u54-01-buy-and-pay-for-the-commune.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U54-01 | [Buy and pay for the commune](journeys/j-u54-01-buy-and-pay-for-the-commune.md) | ✅ |
 
 ---
 

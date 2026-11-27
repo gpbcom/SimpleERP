@@ -26,6 +26,8 @@ In force; CGI art. 256 ter changes on 2027-01-01 (to be read then).
 ## Enforced by
 
 - [Regulatory](../../../02-functional/f10-point-of-sale/regulatory.md)
+- [UC-SC16-21 Run cashless payments at a festival](../../../08-sectors/sc16-events-and-culture/use-cases/06-cashless-cinemas-tours-and-photos/uc-sc16-21-run-cashless-payments-at-a-festival.md)
+- [UC-SC17-07 Sell and redeem gift vouchers](../../../08-sectors/sc17-beauty-and-wellness/use-cases/02-packages-and-memberships/uc-sc17-07-sell-and-redeem-gift-vouchers.md)
 
 ## When the law changes
 

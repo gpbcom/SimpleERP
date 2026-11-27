@@ -4,7 +4,7 @@
 
 # 🖥️ S-F15-12 Cap table
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

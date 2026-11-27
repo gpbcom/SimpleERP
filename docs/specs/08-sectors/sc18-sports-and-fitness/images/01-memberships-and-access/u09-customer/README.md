@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC18-01 Memberships and access
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC18-01 Memberships and access](../../../flows/fl-sc18-01-memberships-and-access.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

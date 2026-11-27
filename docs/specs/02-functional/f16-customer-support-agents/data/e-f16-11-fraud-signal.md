@@ -3,7 +3,7 @@
 
 # 🗃️ E-F16-11 Fraud signal
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -42,7 +42,7 @@ By customer, kind and decision.
 
 ## Retention
 
-(Proposed) 3 years, then anonymised.
+3 years, then anonymised.
 
 ## Audit
 

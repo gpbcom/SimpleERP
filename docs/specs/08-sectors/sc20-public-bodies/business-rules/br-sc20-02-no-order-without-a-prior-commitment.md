@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-02 No order without a prior commitment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,8 +13,10 @@ covers it. An order without a commitment is refused.
 ## Why
 
 Committing before ordering keeps spending within the credits voted and keeps the officer's and accountant's controls in
-order ([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule
-is written later.
+order ([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The
+France-pack rule is
+[CR-FR-250 Public accounting M57](../../../10-country-packs/france/accounting/cr-fr-250-public-accounting-m57.md):
+the mayor or the president keeps the commitment accounts, under a joint ministerial order, since the budget year 2026 (CGCT L1612-38, created by Ordonnance n° 2025-526, which repealed L2342-2), and the accountant pays only within the credits opened (L1612-39).
 
 ## Examples
 

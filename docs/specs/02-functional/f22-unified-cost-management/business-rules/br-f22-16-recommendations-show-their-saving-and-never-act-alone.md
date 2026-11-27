@@ -4,7 +4,7 @@
 
 # 📏 BR-F22-16 Recommendations show their saving and never act alone
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -33,7 +33,7 @@ None.
 
 ## Configurable
 
-The minimum saving to show, (Proposed) 5.00 EUR a month.
+The minimum saving to show, 5.00 EUR a month.
 
 ## Open questions
 

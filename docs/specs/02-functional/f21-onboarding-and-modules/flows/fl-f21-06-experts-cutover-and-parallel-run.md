@@ -4,7 +4,7 @@
 
 # 🔀 FL-F21-06 Experts, cutover, parallel run and set-up from documents
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

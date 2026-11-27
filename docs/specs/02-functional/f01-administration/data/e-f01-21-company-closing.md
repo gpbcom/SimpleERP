@@ -3,7 +3,7 @@
 
 # 🗃️ E-F1-21 Company closing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -17,7 +17,7 @@ The request to close a company or leave the hosted edition, its export and its d
 | asked by | user | yes | the owner | - | Claire Acme | yes | - |
 | open items accepted | list | no | - | - | 2 unpaid invoices | no | - |
 | export | file and counts | no | - | - | acme-export-2026-11-30.zip | no | - |
-| read-only until | date | no | confirmation + 30 days (Proposed) | - | 2026-12-30 | no | - |
+| read-only until | date | no | confirmation + 30 days | - | 2026-12-30 | no | - |
 | status | list | yes | asked, exported, confirmed, reopened, closed | asked | confirmed | no | - |
 
 ## Relations

@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC01-11 Warranties
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -80,7 +80,8 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-SC01-13 As-built file | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U09, U22 | `u09-customer/s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone-{light,dark}.png`, `u22-site-manager/s-sc01-11-warranties-e-sc01-13-as-built-file-active-{desktop,phone,tablet}-{light,dark}.png` |
+| E-SC01-13 As-built file | Active | Badge "Active"; a new record starts here; next: Handed over (UC-SC01-11); fields editable within the role | U09, U22 | `u09-customer/s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone-{light,dark}.png`, `u22-site-manager/s-sc01-11-warranties-e-sc01-13-as-built-file-active-{desktop,phone,tablet}-{light,dark}.png` |
+| E-SC01-13 As-built file | Handed over | Badge "Handed over"; final: read-only, no next state; the history shows how it got here | U09, U22 | `u09-customer/s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone-{light,dark}.png`, `u22-site-manager/s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-{desktop,phone,tablet}-{light,dark}.png` |
 | E-SC01-11 Warranty | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U09, U22 | `u09-customer/s-sc01-11-warranties-e-sc01-11-warranty-active-phone-{light,dark}.png`, `u22-site-manager/s-sc01-11-warranties-e-sc01-11-warranty-active-{desktop,phone,tablet}-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
@@ -90,7 +91,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

@@ -28,7 +28,7 @@ wants to see their whole history creates a portal account, with two-factor authe
 | | ID | Page | Status |
 |---|---|---|---|
 | 👥 |  | [Personas](personas/README.md) | ✅ |
-| 🔑 |  | [Roles](roles.md) | 🔄 |
+| 🔑 |  | [Roles](roles.md) | ✅ |
 | 🏢 |  | [Example companies](example-companies/README.md) | ✅ |
 
 ---

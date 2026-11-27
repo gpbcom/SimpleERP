@@ -3,7 +3,7 @@
 
 # 📏 BR-F8-26 Payments above the limit need two approvals
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

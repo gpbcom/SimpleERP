@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-22 Turn on live captions and translation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -117,11 +117,12 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Captions within 3 seconds of speech, as the live transcript (Proposed).
+Captions within 3 seconds of speech, as the live transcript.
 
 ## Regulatory references
 
-(Proposed) to read: the European Accessibility Act for services.
+(⚖️ lawyer review before launch, D574) to read: the European Accessibility Act for services (Directive (EU) 2019/882, Annex I) and
+whether a meeting tool falls in its scope; CR-FR-222 reads only the consumer services of the Code de la consommation.
 
 ## Related use cases
 

@@ -43,10 +43,10 @@ Home · Meetings · Customers and sales · HR and projects · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U53-01 | [Coach a member](journeys/j-u53-01-coach-a-member.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U53-01 | [Coach a member](journeys/j-u53-01-coach-a-member.md) | ✅ |
 
 ---
 

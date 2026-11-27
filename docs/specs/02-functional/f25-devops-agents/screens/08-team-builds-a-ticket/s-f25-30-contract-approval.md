@@ -3,7 +3,7 @@
 
 # 🖥️ S-F25-30 Contract approval
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

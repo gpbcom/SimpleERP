@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-14 Salon tips
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -12,7 +12,9 @@
 
 ## Purpose
 
-Record tips, share them by the posted rule and give each person a statement.
+Record tips, share them in full among the staff in contact with customers by the rule the salon posted, and give each
+person a statement ([BR-SC17-14](../../business-rules/br-sc17-14-tips-are-shared-per-the-posted-rule.md),
+[CR-FR-113](../../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md): the law sets no sharing key).
 
 ## Entry points
 
@@ -22,7 +24,7 @@ Beauty and wellness › Tips; the sale's page; the AI assistant.
 
 ```text
 +--------------------------------------------------------------------------------------------------+
-| Tips: week 46                                                        Rule: by hours worked       |
+| Tips: week 46            Rule: by hours worked, among the staff in contact with customers        |
 | Date        Amount   Sale         Given to      State                                            |
 | 2026-11-16  5.00     O-2026-5601  the team      Received                                         |
 | 2026-11-17  3.00     O-2026-5632  Ines B.       Received                                         |
@@ -52,7 +54,7 @@ Beauty and wellness › Tips; the sale's page; the AI assistant.
 | Sale | E-SC17-10 sale | link | no | yes |
 | Given to | E-SC17-10 given to | the team or a person | yes while Received | no |
 | Share | E-SC17-10 share | amount per person | no | no |
-| Rule | E-SC17-10 rule | text | no | no |
+| Rule | E-SC17-10 rule | text: the salon's posted key, among the staff in contact with customers only | no | no |
 
 ## Actions
 

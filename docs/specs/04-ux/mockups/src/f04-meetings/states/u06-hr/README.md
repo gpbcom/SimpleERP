@@ -9,14 +9,19 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f04-01-meeting-e-f04-02-transcript-checked-desktop.html`
 - `s-f04-01-meeting-e-f04-02-transcript-complete-desktop.html`
 - `s-f04-01-meeting-e-f04-02-transcript-live-desktop.html`
-- `s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop.html`
+- `s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop.html`
+- `s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop.html`
+- `s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop.html`
 - `s-f04-02-live-transcript-e-f04-02-transcript-checked-desktop.html`
 - `s-f04-05-meeting-review-e-f04-01-meeting-planned-desktop.html`
 - `s-f04-05-meeting-review-e-f04-03-summary-template-draft-desktop.html`
 - `s-f04-05-meeting-review-e-f04-03-summary-template-published-desktop.html`
-- `s-f04-05-meeting-review-e-f04-17-meeting-summary-active-desktop.html`
+- `s-f04-05-meeting-review-e-f04-17-meeting-summary-draft-desktop.html`
+- `s-f04-05-meeting-review-e-f04-17-meeting-summary-published-desktop.html`
+- `s-f04-05-meeting-review-e-f04-17-meeting-summary-not-checked-desktop.html`
 - `s-f04-12-interview-evaluation-e-f04-07-evaluation-grid-active-desktop.html`
-- `s-f04-12-interview-evaluation-e-f04-21-interview-debrief-active-desktop.html`
+- `s-f04-12-interview-evaluation-e-f04-21-interview-debrief-to-validate-desktop.html`
+- `s-f04-12-interview-evaluation-e-f04-21-interview-debrief-sent-desktop.html`
 - `s-f04-24-employee-calendar-e-f04-26-employee-calendar-active-desktop.html`
 - `s-f04-24-employee-calendar-e-f04-26-employee-calendar-archived-desktop.html`
 

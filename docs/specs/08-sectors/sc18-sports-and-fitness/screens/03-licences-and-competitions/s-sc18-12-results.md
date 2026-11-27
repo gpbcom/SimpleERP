@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC18-12 Results
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

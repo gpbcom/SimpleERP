@@ -50,7 +50,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc01-11-warranties-e-sc01-11-warranty-active-desktop.html`
 - `s-sc01-11-warranties-e-sc01-11-warranty-active-phone.html`
 - `s-sc01-11-warranties-e-sc01-13-as-built-file-active-desktop.html`
+- `s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-desktop.html`
 - `s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone.html`
+- `s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone.html`
 - `s-sc01-14-site-margin-e-sc01-01-construction-site-accepted-desktop.html`
 - `s-sc01-14-site-margin-e-sc01-01-construction-site-accepted-phone.html`
 - `s-sc01-14-site-margin-e-sc01-01-construction-site-planned-desktop.html`
@@ -133,6 +135,7 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc01-10-acceptance-e-sc01-11-warranty-active-tablet.html`
 - `s-sc01-11-warranties-e-sc01-11-warranty-active-tablet.html`
 - `s-sc01-11-warranties-e-sc01-13-as-built-file-active-tablet.html`
+- `s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-tablet.html`
 - `s-sc01-14-site-margin-e-sc01-01-construction-site-accepted-tablet.html`
 - `s-sc01-14-site-margin-e-sc01-01-construction-site-planned-tablet.html`
 - `s-sc01-14-site-margin-e-sc01-01-construction-site-running-tablet.html`

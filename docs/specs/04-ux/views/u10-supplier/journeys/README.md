@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U10-01 | [Answer a tender and confirm an order](j-u10-01-answer-and-confirm-an-order.md) | 🔄 |
+| 🧭 | J-U10-01 | [Answer a tender and confirm an order](j-u10-01-answer-and-confirm-an-order.md) | ✅ |
 
 ---
 

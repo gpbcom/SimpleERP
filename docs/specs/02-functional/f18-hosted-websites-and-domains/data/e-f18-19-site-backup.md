@@ -3,7 +3,7 @@
 
 # 🗃️ E-F18-19 Site backup
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -16,7 +16,7 @@ A daily copy of a site that can be restored to its preview.
 | site | link | yes | a site | - | restaurant site | no | no |
 | taken | date and time | yes | daily | - | 2026-11-10 03:00 | no | no |
 | size | number | yes | - | - | 84 MB | no | no |
-| expires | date | yes | (Proposed) 30 days after | computed | 2026-12-10 | no | no |
+| expires | date | yes | 30 days after | computed | 2026-12-10 | no | no |
 
 ## Relations
 
@@ -42,7 +42,7 @@ By site and date.
 
 ## Retention
 
-(Proposed) 30 days.
+30 days.
 
 ## Audit
 

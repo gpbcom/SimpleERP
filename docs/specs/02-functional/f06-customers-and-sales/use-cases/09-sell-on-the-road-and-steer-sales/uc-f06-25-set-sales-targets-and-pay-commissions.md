@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-25 Set sales targets and pay commissions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -130,7 +130,8 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: rules on variable pay in the employment contract.
+(⚖️ lawyer review before launch, D574) to read: the Code du travail and the Cour de cassation case law on variable pay set by
+objectives in the employment contract (objectives known, achievable and set in time).
 
 ## Related use cases
 

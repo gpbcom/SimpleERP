@@ -20,7 +20,10 @@ Transfers and direct debits in euro use the SEPA formats, and direct debits need
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+In force the day after its publication (art. 18); credit transfers and direct debits in euro
+meet its technical requirements from 2014-02-01 (art. 6): the ISO 20022 XML message standard (Annex, point 1(b))
+and, for a direct debit, the payer's consent given to the payee and to the payer's bank, the mandates kept by
+the payee (art. 5(3)(a)) ([Regulation (EU) 260/2012, consolidated text of 2024-04-08, Publications Office](http://publications.europa.eu/resource/cellar/ff7a3e82-f6bc-11ee-a251-01aa75ed71a1.0001.02/DOC_1), read 2026-11-27).
 
 ## Enforced by
 

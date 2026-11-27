@@ -11,11 +11,11 @@ One file per flow, its steps linked to screens and use cases.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🔀 | FL-SC19-01 | [Maintenance contracts](fl-sc19-01-maintenance-contracts.md) | 🔄 |
-| 🔀 | FL-SC19-02 | [On-site intervention](fl-sc19-02-on-site-intervention.md) | 🔄 |
-| 🔀 | FL-SC19-03 | [Home services tax credit](fl-sc19-03-home-services-tax-credit.md) | 🔄 |
-| 🔀 | FL-SC19-04 | [Installations and labels](fl-sc19-04-installations-and-labels.md) | 🔄 |
-| 🔀 | FL-SC19-05 | [On-call, warranties, van stock and site quotes](fl-sc19-05-on-call-warranties-van-stock-and-site-quotes.md) | 🔄 |
+| 🔀 | FL-SC19-01 | [Maintenance contracts](fl-sc19-01-maintenance-contracts.md) | ✅ |
+| 🔀 | FL-SC19-02 | [On-site intervention](fl-sc19-02-on-site-intervention.md) | ✅ |
+| 🔀 | FL-SC19-03 | [Home services tax credit](fl-sc19-03-home-services-tax-credit.md) | ✅ |
+| 🔀 | FL-SC19-04 | [Installations and labels](fl-sc19-04-installations-and-labels.md) | ✅ |
+| 🔀 | FL-SC19-05 | [On-call, warranties, van stock and site quotes](fl-sc19-05-on-call-warranties-van-stock-and-site-quotes.md) | ✅ |
 
 ---
 

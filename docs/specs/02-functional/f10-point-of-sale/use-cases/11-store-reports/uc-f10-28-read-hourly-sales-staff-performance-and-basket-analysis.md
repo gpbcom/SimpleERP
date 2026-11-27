@@ -4,7 +4,7 @@
 
 # 📝 UC-F10-28 Read hourly sales, staff performance and basket analysis
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -118,7 +118,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Reports within 3 seconds (Proposed).
+Reports within 3 seconds.
 
 ## Regulatory references
 

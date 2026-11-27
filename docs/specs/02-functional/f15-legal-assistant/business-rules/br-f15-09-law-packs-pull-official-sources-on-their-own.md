@@ -7,8 +7,9 @@
 
 ## Statement
 
-A law pack lists its official sources and how to read them (APIs, official downloads); SimpleERP pulls them on a
-schedule, with no human validation, so that the corpus stays current: national law (for France, Légifrance through
+The T11 legal corpora list each country's official sources and how to read them (APIs, official downloads,
+[REQ-T11-03](../../../03-technical/t11-legal-corpora/requirements/req-t11-03-law-ingestion.md)), and a law pack points
+to its country's corpora; SimpleERP pulls them on a schedule, with no human validation, so that the corpus stays current: national law (for France, Légifrance through
 PISTE), EU regulation (EUR-Lex), official guidance, case law, and the sector technical rules published as law;
 copyrighted standards are not pulled, only their register entries from open sources (BR-F15-10,
 [D448](../../../06-decisions/f15-legal-assistant/d448-law-texts-and-signed-rule-packs.md)).

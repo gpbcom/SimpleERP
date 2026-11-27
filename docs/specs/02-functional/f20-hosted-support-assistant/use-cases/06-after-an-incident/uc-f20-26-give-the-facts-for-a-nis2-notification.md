@@ -116,7 +116,9 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 ## Regulatory references
 
-[CR-FR-169](../../../../10-country-packs/france/digital/cr-fr-169-nis2-incident-notification.md).
+[CR-FR-169](../../../../10-country-packs/france/digital/cr-fr-169-nis2-incident-notification.md): the directive's early
+warning within 24 hours, notification within 72 hours and final report within one month; NIS2 is not in force in France
+until its transposition texts are, none being promulgated on 2026-11-27.
 
 ## Related use cases
 

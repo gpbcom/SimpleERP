@@ -153,7 +153,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 Players in an official competition hold a valid licence and, where required, a certificate; the rules of the
-draw and the schedule are those of the federation. The France-pack rule is written later.
+draw and the schedule are those of the federation. The France-pack rule is [CR-FR-284 Sports licences and medical certificates](../../../../10-country-packs/france/non-profit/cr-fr-284-sports-licences-and-medical-certificates.md).
 
 ## Related use cases
 

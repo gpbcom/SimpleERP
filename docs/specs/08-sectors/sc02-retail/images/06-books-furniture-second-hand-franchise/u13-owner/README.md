@@ -3,7 +3,7 @@
 
 # 🖼️ FL-SC02-06 Books, furniture, second-hand and franchise
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC02-06 Books, furniture, second-hand and franchise](../../../flows/fl-sc02-06-books-furniture-second-hand-franchise.md)

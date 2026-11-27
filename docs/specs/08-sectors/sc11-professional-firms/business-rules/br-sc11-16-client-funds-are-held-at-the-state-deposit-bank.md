@@ -3,7 +3,7 @@
 
 # 📏 BR-SC11-16 Client funds are held at the state deposit bank
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -15,8 +15,10 @@ above the deed's balance or before the signature is refused.
 
 The funds belong to the parties, and the notary answers for them; mixing them or paying early causes losses that the
 profession's guarantee fund has to cover. The owner asked for notaries
-([D555](../../../06-decisions/sectors/d555-benchmark-gaps-sc11-professional-firms.md)). (Proposed) The France-pack rule
-is written later.
+([D555](../../../06-decisions/sectors/d555-benchmark-gaps-sc11-professional-firms.md)). The France-pack rule is CR-FR-241:
+third-party funds held on Caisse des dépôts accounts and debited only to settle their own affair are read (décret
+n° 45-0117 art. 15); (⚖️ lawyer review before launch, D574) a cash account per deed and payment only once the deed is signed are
+still to read in décret n° 45-0117 as rewritten by décret n° 2026-1083 and in ordonnance n° 45-2590.
 
 ## Examples
 
@@ -33,7 +35,7 @@ is written later.
 - [UC-SC11-21](../use-cases/07-notaries-brokers-officers-and-auditors/uc-sc11-21-run-a-notarys-office.md)
 - [E-SC11-16 Deed](../data/e-sc11-16-deed.md)
 - [E-SC11-08 Trust movement](../data/e-sc11-08-trust-movement.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule, (⚖️ lawyer review before launch, D574) for the account per deed and the payment after signing:
   [CR-FR-241 Notaries' client funds](../../../10-country-packs/france/professional-firms/cr-fr-241-notaries-client-funds.md)
 
 ## Exceptions

@@ -42,10 +42,10 @@ Home · Employees · Absences · Payroll · Legal assistant · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U06-01 | [Keep employee records compliant](journeys/j-u06-01-keep-employee-records-compliant.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U06-01 | [Keep employee records compliant](journeys/j-u06-01-keep-employee-records-compliant.md) | ✅ |
 
 ---
 

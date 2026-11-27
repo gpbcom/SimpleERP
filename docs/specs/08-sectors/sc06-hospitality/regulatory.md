@@ -17,8 +17,9 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-114 Staff meals as a benefit in kind](../../10-country-packs/france/labour/cr-fr-114-staff-meals-benefit.md),
 [CR-FR-061 Food traceability](../../10-country-packs/france/products/cr-fr-061-food-traceability.md),
 [CR-FR-032 Restaurant and bar bills](../../10-country-packs/france/point-of-sale/cr-fr-032-restaurant-bill.md),
-[CR-FR-095 Donation of unsold food](../../10-country-packs/france/environment/cr-fr-095-unsold-food-donation.md). Meal
-vouchers, tips and staff meals are (Proposed): their official pages could not be read yet.
+[CR-FR-095 Donation of unsold food](../../10-country-packs/france/environment/cr-fr-095-unsold-food-donation.md). All are
+read in their official sources (2026-11-27); the general hours of service the prefect sets for alcohol wait for the
+lawyer review.
 
 ## Country pack
 

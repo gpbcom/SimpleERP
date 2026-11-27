@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-18 Sell at the box office and scan tickets
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -59,8 +59,7 @@ Every event day.
 
 - 3e. A ticket already scanned: refused with the time of the first scan
   ([BR-F5-13](../../business-rules/br-f05-13-a-ticket-opens-the-door-once.md)).
-- 3e. No network at the door: scans are checked against the list loaded before the doors opened, and synced after
-  (Proposed).
+- 3e. No network at the door: scans are checked against the list loaded before the doors opened, and synced after.
 
 ## Business rules
 
@@ -127,7 +126,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A scan answers within 300 ms (Proposed).
+A scan answers within 300 ms.
 
 ## Regulatory references
 

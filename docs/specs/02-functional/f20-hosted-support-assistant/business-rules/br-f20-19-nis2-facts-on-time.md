@@ -4,17 +4,22 @@
 
 # 📏 BR-F20-19 NIS2 facts on time
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
 A customer that declares itself subject to NIS2 receives, after an incident affecting it, a fact sheet with what it
-needs for its own notification (start, nature, services, data, measures) within (Proposed) 24 hours, then updates.
+needs for its own notification (start, nature, services, data, measures) within 24 hours, the directive's
+early-warning deadline, then updates in time for its 72-hour notification and its final report within one month.
 
 ## Why
 
-[CR-FR-169 NIS2 incident notification](../../../10-country-packs/france/digital/cr-fr-169-nis2-incident-notification.md);
-the customer's deadlines are (Proposed) to read.
+[CR-FR-169 NIS2 incident notification](../../../10-country-packs/france/digital/cr-fr-169-nis2-incident-notification.md):
+Directive (EU) 2022/2555 (art. 23) sets an early warning within 24 hours, a notification within 72 hours and a final
+report within one month. In France NIS2 applies only once its transposition texts are in force, and none was
+promulgated on 2026-11-27: until then the facts serve customers that declare themselves subject, for instance in
+another EU country. (⚖️ lawyer review before launch, D574) The French authority, deadlines and thresholds: to read in the French
+NIS2 law once it is published.
 
 ## Examples
 

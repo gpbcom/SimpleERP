@@ -5,7 +5,7 @@
 
 # 📝 UC-SC03-17 Get creative work approved and rebill media
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -162,11 +162,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 An agency that buys advertising space for a client acts with a written mandate and the media purchase is
-shown to the client with its real price and the agency's fee apart. This duty is not in the France-pack waiting list
-yet; it is written when its law is read. Related:
+shown to the client with its real price and the agency's fee apart. The France-pack rule is listed below.
+Related:
 [CR-FR-198](../../../../10-country-packs/france/consumer/cr-fr-198-comparative-advertising.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-254 Advertising agent mandate and media prices](../../../../10-country-packs/france/professional-firms/cr-fr-254-advertising-agent-mandate.md)
 
 ## Related use cases

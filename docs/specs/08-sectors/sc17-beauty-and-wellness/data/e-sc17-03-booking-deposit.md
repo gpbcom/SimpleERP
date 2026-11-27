@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-03 Booking deposit
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

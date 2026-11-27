@@ -2,19 +2,19 @@
 
 # ⚖️ Professional firms
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Company
 
-(Proposed) Delorme Conseil, a fictional firm of business lawyers and chartered accountants.
+Delorme Conseil, a fictional firm of business lawyers and chartered accountants.
 
 ## Activity
 
-(Proposed) Business law advice and litigation, and bookkeeping, tax filings and advice for small companies.
+Business law advice and litigation, and bookkeeping, tax filings and advice for small companies.
 
 ## Size
 
-(Proposed) 22 people: 3 partners, 12 professionals (lawyers and accountants), 5 assistants and 2 in the back office; two
+22 people: 3 partners, 12 professionals (lawyers and accountants), 5 assistants and 2 in the back office; two
 offices; about 400 open matters and 250 accounting clients. The sector's profile covers firms of 1 to 500 professionals.
 Several locations are possible ([D32](../../06-decisions/technical/d32-several-locations.md)).
 

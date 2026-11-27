@@ -3,7 +3,7 @@
 
 # 🗃️ E-F25-20 Agent role
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -29,7 +29,7 @@ tools are read-only. A role's record narrows the rights of the agents' GitHub Ap
 | state | Active, Suspended, Retired | yes | the lifecycle below | Active | Suspended | no | no |
 | owner | user | yes | a user of the company | the creator | Claire P. | yes | no |
 
-(Proposed) The tools of each role:
+The tools of each role:
 
 | Role | Tools | Writes |
 |---|---|---|
@@ -65,7 +65,7 @@ stateDiagram-v2
   Retired --> [*] : kept for the audit of past runs, BR-F25-11
 ```
 
-(Proposed) A suspended role starts no new worker. Workers already running finish their turn and hand over, and a run
+A suspended role starts no new worker. Workers already running finish their turn and hand over, and a run
 whose contract needs the role waits.
 
 ## Indexes and search
@@ -74,7 +74,7 @@ By name, state and tool.
 
 ## Retention
 
-(Proposed) Kept while any run that used it is kept, so that each run shows the tools its workers had.
+Kept while any run that used it is kept, so that each run shows the tools its workers had.
 
 ## Audit
 
@@ -83,7 +83,7 @@ Every change of tools, limits and state, with the maintainer or the hosting engi
 
 ## Import and export
 
-No import. (Proposed) The roles and their tools are kept as a file in the repository's agent settings, reviewed like any
+No import. The roles and their tools are kept as a file in the repository's agent settings, reviewed like any
 other change.
 
 ## Used by

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC03-17 Agency approvals
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

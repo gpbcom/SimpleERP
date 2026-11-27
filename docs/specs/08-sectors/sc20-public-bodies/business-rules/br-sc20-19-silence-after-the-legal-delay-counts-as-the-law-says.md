@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-19 Silence after the legal delay counts as the law says
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,11 @@ its kind.
 ## Why
 
 A delay that passes without a decision may give the citizen the permit by silence, so the body must see it coming
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The France-pack rule is
+[CR-FR-261 Planning permit instruction delays](../../../10-country-packs/france/real-estate/cr-fr-261-planning-permit-delays.md):
+1 month for a prior declaration, 2 months for a house or demolition permit, 3 months for other permits, missing
+documents asked within 1 month, and silence is a tacit permit except in the cases of R*424-2 to R*424-3; in communes of
+more than 3 500 inhabitants every legal person files electronically, for requests from 2025-01-01.
 
 ## Examples
 
@@ -33,7 +36,7 @@ written later.
 - [E-SC20-14 Permit request](../data/e-sc20-14-permit-request.md)
 - [E-SC20-14 Permit request](../data/e-sc20-14-permit-request.md)
 - [E-SC20-10 Council decision](../data/e-sc20-10-council-decision.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-261 Planning permit instruction delays](../../../10-country-packs/france/real-estate/cr-fr-261-planning-permit-delays.md)
 
 ## Exceptions

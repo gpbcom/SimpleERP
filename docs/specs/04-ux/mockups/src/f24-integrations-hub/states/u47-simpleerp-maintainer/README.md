@@ -17,7 +17,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f24-18-yearly-review-e-f24-01-connector-active-desktop.html`
 - `s-f24-18-yearly-review-e-f24-01-connector-active-phone.html`
 - `s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-desktop.html`
+- `s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-desktop.html`
 - `s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-phone.html`
+- `s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-phone.html`
 - `s-f24-25-icon-library-e-f24-12-integration-icon-approved-desktop.html`
 - `s-f24-25-icon-library-e-f24-12-integration-icon-approved-phone.html`
 - `s-f24-25-icon-library-e-f24-12-integration-icon-proposed-desktop.html`

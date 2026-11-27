@@ -32,7 +32,7 @@ None.
 
 ## Configurable
 
-Weights; minimum receipts (Proposed: 5).
+Weights; minimum receipts (default: 5).
 
 ## Open questions
 

@@ -26,7 +26,8 @@ matching its vehicles.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code des transports R3211-7 in force since 2017-01-01; R3211-8 in its current version since 2023-01-01; R3211-12
+since 2022-08-13 ([Code des transports, art. R3211-7 to R3211-12](https://www.legifrance.gouv.fr/codes/id/LEGIARTI000046074431), read 2026-11-27).
 
 ## Enforced by
 

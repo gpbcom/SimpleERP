@@ -29,8 +29,14 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc13-07-aid-declaration-e-sc13-01-plot-refused-phone.html`
 - `s-sc13-07-aid-declaration-e-sc13-05-animal-active-desktop.html`
 - `s-sc13-07-aid-declaration-e-sc13-05-animal-active-phone.html`
-- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-desktop.html`
-- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-phone.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-desktop.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-desktop.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-desktop.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-desktop.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-phone.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-phone.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-phone.html`
+- `s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-phone.html`
 - `s-sc13-08-machinery-e-sc13-07-machine-flagged-desktop.html`
 - `s-sc13-08-machinery-e-sc13-07-machine-flagged-phone.html`
 - `s-sc13-08-machinery-e-sc13-07-machine-overdue-desktop.html`

@@ -3,7 +3,7 @@
 
 # 🔀 FL-F2-12 Set up request types
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-27 to VD-29, VD-32, VD-33 / D509 to D511, D514, D515)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -31,7 +31,7 @@ flowchart TD
   REQ --> OBJ[Objective weights: lateness, travel, preferences, fairness, cost]
   WGT --> OBJ
   OBJ --> AUTO{Automatic mode allowed for this type?}
-  AUTO --> PRE[Preview, Proposed: people eligible today]
+  AUTO --> PRE[Preview: people eligible today]
   PRE --> PUB[Publish: FL-F2-05]
   PUB --> USE[Used by every new work request of this type]
   USE --> ADJ{Planner adjusts one attribute on a request?}
@@ -52,7 +52,7 @@ sequenceDiagram
   K-->>S: None for this type
   A->>S: Carer qualification required, French preferred, weight 4
   A->>S: Lateness first, then travel
-  S->>E: Preview with today's staff, Proposed
+  S->>E: Preview with today's staff
   E-->>S: 9 of 14 carers eligible
   A->>S: Publish
 ```
@@ -82,7 +82,7 @@ The states are those of the entity draft.
   remove it: refused with the text it comes from
   ([BR-F9-26](../../f09-hr-and-projects/business-rules/br-f09-26-legal-requirements-never-relaxed.md)), step 1.
 - **E2 Nobody is eligible.** The preview finds no one with every required attribute: a warning, and publishing asks
-  for a confirmation (Proposed), step 1.
+  for a confirmation, step 1.
 - **E3 A planner relaxes a legal attribute on a request.** Refused, the request keeps it (step 3).
 
 ## Images

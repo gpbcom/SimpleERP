@@ -3,20 +3,26 @@
 
 # ⚖️ CR-FR-258 Youth holiday camps declaration
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) A holiday camp for minors is declared to the authority before it opens, its animators hold the required
-qualifications, the number of children per animator follows the age of the children, and the children's health sheets
-are kept private and for a short time.
+(⚖️ lawyer review before launch, D574) A holiday camp for minors is declared to the authority before it opens, its animators hold the
+required qualifications, the number of children per animator follows the age of the children, and the children's health
+sheets are kept private and for a short time.
 
 ## Values
 
-- (Proposed) Declaration before opening.
-- (Proposed) Qualifications of animators.
-- (Proposed) Ratios by age band, kept as data.
-- (Proposed) SimpleERP enforces: supervision ratios follow the youth rules.
+- Declaration before opening, to the State's representative in the département ([Code de l'action sociale et des
+  familles, art. R227-2](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006190050/), in force since 2006-09-01, read 2026-11-27).
+- Qualifications of animators: at least half of the required staff hold the animator diploma or an equivalent, at
+  most 20 % are unqualified (one person when the staff is 3 or 4) (R227-12, since 2016-10-16); directors hold the
+  director diploma or an equivalent (R227-14) ([Code de l'action sociale et des familles](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006190050/), read 2026-11-27).
+- Ratios by age band, kept as data: holiday stays and leisure centres 1 animator for 8 minors under 6 and 1 for 12 from
+  6 (R227-15, since 2006-09-01); out-of-school care 1 for 8 or 10 under 6 and 1 for 12 or 14 from 6, depending on
+  whether the session lasts over 5 hours, lower under a local education project (R227-16, since 2018-09-03)
+  ([Code de l'action sociale et des familles](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006190050/), read 2026-11-27).
+- SimpleERP enforces: supervision ratios follow the youth rules.
 - Read on
   [jeunes.gouv.fr](https://www.jeunes.gouv.fr/organisateurs-ce-qu-il-faut-savoir-sur-les-accueils-collectifs-de-mineurs-217)
   (no date on the page); supervision ratios and the qualified share are not on the page:
@@ -31,11 +37,12 @@ are kept private and for a short time.
 
 ## Legal references
 
-- Law to read: holiday camps for minors (not read yet).
+- Code de l'action sociale et des familles L227-1 to L227-4, R227-1 to R227-22.
 
 ## Effective dates
 
-(Proposed) To read.
+R227-2 and R227-15 since 2006-09-01, R227-12 and R227-14 since 2016-10-16, R227-16 since 2018-09-03, R227-7
+(health information kept confidential) since 2018-01-27 ([Code de l'action sociale et des familles](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006190050/), read 2026-11-27).
 
 ## Enforced by
 
@@ -57,7 +64,7 @@ None stated.
 
 ## Open questions
 
-The law on holiday camps for minors is not read yet; the values are to read before launch.
+How long the health information may be kept is in no text read: lawyer review.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

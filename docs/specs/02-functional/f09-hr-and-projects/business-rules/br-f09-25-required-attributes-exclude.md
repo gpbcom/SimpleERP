@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-25 Required attributes exclude a candidate
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-27, VD-28, VD-29 / D509, D510, D511)
+**Status:** ✅ specified
 
 ## Statement
 

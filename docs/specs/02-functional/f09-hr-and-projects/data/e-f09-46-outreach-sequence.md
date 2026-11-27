@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-46 Outreach sequence
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -18,7 +18,8 @@ The messages a sourcing search sends: its steps and their days, its templates, H
 | LinkedIn account | tool connection (E-F24-02) | yes | the search's account | - | Claire P. on LinkedIn | yes | no |
 | steps | list of day and kind | yes | day 0 first; every step by day 60 (BR-F9-37) | invitation day 0, follow-ups days 7 and 21, end day 60 | 0, 7, 21, 60 | no | no |
 | templates | invitation note, direct message, follow-up 1, follow-up 2, booking-link reply, thank-you | yes | the first message links the privacy notice (BR-F9-38) | the AI assistant's draft | Hello {first name}, I am Claire... | no | no |
-| reply check | interval | yes | every few hours | (Proposed) 4 hours | 4 hours | no | no |
+| sending mode | prepared, automatic | yes | automatic only when the administrator turned it on for the company's Unipile connection; fixed when the sequence starts, a later change of the company's setting applies only to sequences started after it (D570) | the company's setting when HR approves and the sequence starts, prepared by default | prepared | no | no |
+| reply check | interval | yes | every few hours | 4 hours | 4 hours | no | no |
 | privacy notice link | web address | yes | reachable | the company's notice for candidates | acme-batiment.fr/candidates-privacy | no | no |
 | approved by, at | user, date and time | before the first message | HR (BR-F9-36) | - | Claire P., 2026-11-03 09:00 | yes | no |
 | approved shortlist | list of prospects | before the first message | - | - | 12 prospects | yes | no |
@@ -44,14 +45,20 @@ erDiagram
 ```mermaid
 stateDiagram-v2
   [*] --> Draft : HR prepares it, UC-F9-41
-  Draft --> Running : HR approves the shortlist and the templates, BR-F9-36
-  Running --> Draft : HR changes a template, BR-F9-36
+  Draft --> Running : HR approves the shortlist and the templates, the sending mode fixed, BR-F9-36, D570
+  Running --> Draft : HR changes a template, the sending mode kept, BR-F9-36
   Running --> Paused : a limit reached or a sign-in needed, BR-F9-41
   Paused --> Running : the next day or HR signs in again, BR-F9-41
   Running --> Ended : every prospect ended or day 60, BR-F9-37
   Paused --> Ended : day 60, BR-F9-37
   Ended --> [*] : BR-F9-39
 ```
+
+The sending mode is read from the company's Unipile connection
+([E-F24-02](../../f24-integrations-hub/data/e-f24-02-tool-connection.md)) when HR first approves the sequence, and the
+sequence keeps it until it ends, through every pause, return to draft and new approval. When the administrator changes
+the company's setting, only the sequences started after the change use the new mode
+([D570](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)).
 
 ## Indexes and search
 
@@ -63,11 +70,12 @@ The sequence and its templates are kept as long as its search ([E-F9-44 Sourcing
 
 ## Audit
 
-Approval with the shortlist and the templates' versions; each change of step, template or state, with who and when.
+Approval with the shortlist, the templates' versions and the sending mode fixed at the start; each change of step,
+template or state, with who and when.
 
 ## Import and export
 
-(Proposed) Templates copied from another sequence of the company; no export.
+Templates copied from another sequence of the company; no export.
 
 ## Used by
 
@@ -76,7 +84,9 @@ Approval with the shortlist and the templates' versions; each change of step, te
 
 ## Open questions
 
-- [Q18 LinkedIn automation and its user agreement](../../../07-questions/q18-linkedin-automation-and-its-user-agreement.md)
+- [Q18 LinkedIn automation and its user agreement](../../../07-questions/q18-linkedin-automation-and-its-user-agreement.md),
+  answered by
+  [D570 LinkedIn sending prepared by default](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)
 
 ---
 

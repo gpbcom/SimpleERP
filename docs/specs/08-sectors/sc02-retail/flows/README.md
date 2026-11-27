@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -15,7 +15,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC02-03 | [Sell and return across channels](fl-sc02-03-sell-and-return-across-channels.md) | ✅ |
 | 🔀 | FL-SC02-04 | [Customers and staff](fl-sc02-04-customers-and-staff.md) | ✅ |
 | 🔀 | FL-SC02-05 | [Unsold goods and performance](fl-sc02-05-unsold-goods-and-performance.md) | ✅ |
-| 🔀 | FL-SC02-06 | [Books, furniture, second-hand and franchise](fl-sc02-06-books-furniture-second-hand-franchise.md) | 🔄 |
+| 🔀 | FL-SC02-06 | [Books, furniture, second-hand and franchise](fl-sc02-06-books-furniture-second-hand-franchise.md) | ✅ |
 
 ---
 

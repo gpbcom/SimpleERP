@@ -32,11 +32,15 @@ filter, total and act on many legal sources at once
 
 ```text
 +--------------------------------------------------------------------------------------------------------------+
-| Legal sources    Legal assistant › Legal sources   [+ New]                                                   |
+| Legal sources    Legal assistant › Legal sources                                                           |
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] LEGAL SOURCE   STATE                                                                 |
+| state             | [ ] NAME   LAW PACK   KIND   PULL SCHEDUL   LAST PULL   PULL RESULT   STATE              |
+| law pack          | [ ] ...                                                  Open >                          |
+| kind              | [ ] ...                                                  Open >                          |
+| pull schedule     | [ ] ...                                                  Open >                          |
+| pull result       | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,7 +50,12 @@ filter, total and act on many legal sources at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Legal source | the record's title | text | yes |
+| Name | name | text | yes |
+| Law pack | law pack | link to the record | yes |
+| Kind | kind | label | yes |
+| Pull schedule | pull schedule | label | yes |
+| Last pull | last pull | date and time | yes |
+| Pull result | pull result | label | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -56,12 +65,17 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Law pack | each linked law pack | the visible rows (D488) |
+| Kind | each value | the visible rows (D488) |
+| Pull schedule | each value | the visible rows (D488) |
+| Pull result | each value | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: legal sources link to no other record type in their fields.
+- Legal sources of a chosen law pack, or of the law packs that match a filter.
+- From the other side: the law packs that have legal sources, or none.
 
 ## KPI strip
 
@@ -89,9 +103,7 @@ None: no place.
 
 | Action | Where | Who | Result |
 |---|---|---|---|
-| New legal source | header | the personas whose roles may create it | the record's own page (Row opens) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
-| Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
 | Ask about this list | toolbar | every persona of the list | an answer from the visible rows only, with its sources (D489) |
 | Chart | toolbar | every persona of the list | a C-09 chart of the filtered rows, pinnable |
@@ -99,9 +111,14 @@ None: no place.
 
 Each action is offered within the role and checked again on the server (VR-10).
 
+No legal source is created or deleted here: the T11 legal corpora own the sources, their licences and their schedule
+(REQ-T11-03), and a technical capability prevails over a feature page
+([D573](../../../../06-decisions/foundations/d573-precedence-between-spec-pages.md)).
+
 ## Inline edit
 
-None: no field is editable in a cell.
+None: the pull schedule belongs to the T11 legal corpora (REQ-T11-03), and pulls run with no human validation
+(BR-F15-09).
 
 ## Hidden fields
 

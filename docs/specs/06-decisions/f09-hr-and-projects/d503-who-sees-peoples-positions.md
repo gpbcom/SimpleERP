@@ -3,7 +3,7 @@
 
 # 📜 D503 Who sees people's positions
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-21 / D503)
+**Status:** ✅ decided
 
 ## Context
 
@@ -29,8 +29,8 @@ the visit's window.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-21).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-21).
 
 ## Consequences
 
@@ -39,7 +39,8 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - The customer sees an arrival time near their address during the visit's window, and nothing is kept
   [UC-F16-17](../../02-functional/f16-customer-support-agents/use-cases/06-take-in-every-request/uc-f16-17-follow-the-arrival-of-a-visit.md),
   [S-F16-15](../../02-functional/f16-customer-support-agents/screens/06-take-in-every-request/s-f16-15-arrival-of-your-visit.md).
-- (Proposed) to read: the CNIL's guidance on the geolocation of employees, in
+- The CNIL's guidance on the geolocation of employees (stated purpose, working hours only, the employee told
+  beforehand, positions kept 2 months by default) is read in
   [CR-FR-211](../../10-country-packs/france/data-protection/cr-fr-211-live-geolocation-of-employees.md).
 
 ## Related
@@ -54,7 +55,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [D504 Positions at check-in by default, live as a team option for drivers and
   carers](d504-positions-at-check-in-by-default-live-as-a-team-option-for-drivers-and-carers.md)
 - [D505 The employee sees their own position live](d505-the-employee-sees-their-own-position-live.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

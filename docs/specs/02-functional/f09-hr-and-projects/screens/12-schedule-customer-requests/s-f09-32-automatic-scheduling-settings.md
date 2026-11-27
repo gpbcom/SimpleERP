@@ -4,7 +4,7 @@
 
 # 🖥️ S-F9-32 Automatic scheduling settings
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-33 / D515)
+**Status:** ✅ specified
 
 ## Personas
 
@@ -60,7 +60,7 @@ HR and projects › Scheduling › Settings; "Settings" on the scheduling board 
 | Team | E-F9-33 team | name | no | yes |
 | Mode | E-F9-33 state | off, on | switch, with a confirmation | yes |
 | Request types | E-F9-33 request types (E-F2-25 allowing it) | ticks | yes | when on |
-| Stops on | E-F9-33 stopping problems | ticks; every problem ticked by default | each may be unticked except the legal conflict (Proposed) | yes |
+| Stops on | E-F9-33 stopping problems | ticks; every problem ticked by default | each may be unticked except the legal conflict | yes |
 | Cost limit | E-F9-33 cost limit | amount | yes | when "cost over" is ticked |
 | Notify | E-F9-33 planners notified, notice channel | people; in the app, email, phone | yes | yes, one at least |
 | Last stop | the latest E-F9-28 proposal Stopped for the team | date, work request, problem | no | no |

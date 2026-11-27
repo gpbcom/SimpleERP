@@ -4,7 +4,7 @@
 
 # 🖥️ S-F17-27 Search overlap
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

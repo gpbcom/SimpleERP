@@ -7,12 +7,13 @@
 
 ## Statement
 
-(Proposed) Every mandate gets the next number of the agency's mandates register before any action; in France:
+Every mandate gets the next number of the agency's mandates register before any action; in France:
 [CR-FR-139 Agents' card, client-funds guarantee and mandates register](../../../10-country-packs/france/real-estate/cr-fr-139-hoguet-card-and-guarantee.md).
 
 ## Why
 
-(Proposed) The register's rules are still to read.
+An agent holds a professional card for each activity (transactions, management, trusteeship), renewed every 3 years,
+and numbers each mandate in its register before acting ([CR-FR-139](../../../10-country-packs/france/real-estate/cr-fr-139-hoguet-card-and-guarantee.md)).
 
 ## Examples
 

@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F24-08 AI connectors, office suites, warehouse and firms
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F24-08 AI connectors, office suites, warehouse and firms](../../../flows/fl-f24-08-ai-connectors-suites-and-warehouse.md)

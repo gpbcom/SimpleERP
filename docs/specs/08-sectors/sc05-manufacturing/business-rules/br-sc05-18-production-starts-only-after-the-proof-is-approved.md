@@ -3,7 +3,7 @@
 
 # 📏 BR-SC05-18 Production starts only after the proof is approved
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

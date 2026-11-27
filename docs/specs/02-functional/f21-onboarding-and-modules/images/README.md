@@ -18,4 +18,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F21-05 Migration from another tool](05-migration-from-another-tool/README.md) | 10 images |
 | 🖼️ |  | [Images: FL-F21-06 Experts, cutover, parallel run and set-up from documents](06-experts-cutover-and-parallel-run/README.md) | 20 images |
 | 🖼️ |  | [Screen states](states/README.md) | 200 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

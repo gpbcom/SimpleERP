@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC13-05 | [Herd](s-sc13-05-herd.md) | 🔄 |
-| 🖥️ | S-SC13-06 | [Veterinary](s-sc13-06-veterinary.md) | 🔄 |
+| 🖥️ | S-SC13-05 | [Herd](s-sc13-05-herd.md) | ✅ |
+| 🖥️ | S-SC13-06 | [Veterinary](s-sc13-06-veterinary.md) | ✅ |

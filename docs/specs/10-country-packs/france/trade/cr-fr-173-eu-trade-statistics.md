@@ -22,11 +22,13 @@ the VAT recapitulative statement of its EU deliveries.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Regulation (EU) 2019/2152 applies from 2021-01-01; its art. 5(2) to (4) and 11 to 15 from 2022-01-01 (art. 26)
+([Regulation (EU) 2019/2152, EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019R2152), read 2026-11-27).
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc15-wholesale-and-distribution/regulatory.md)
+- [UC-SC07-24 Forward freight and clear customs](../../../08-sectors/sc07-transport/use-cases/07-passengers-removals-courier-and-freight/uc-sc07-24-forward-freight-and-clear-customs.md)
 
 ## When the law changes
 

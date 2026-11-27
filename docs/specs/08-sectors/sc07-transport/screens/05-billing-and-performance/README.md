@@ -12,7 +12,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC07-10 | [Fuel and tolls](s-sc07-10-fuel-and-tolls.md) | 🔄 |
-| 🖥️ | S-SC07-13 | [Transport billing](s-sc07-13-transport-billing.md) | 🔄 |
-| 🖥️ | S-SC07-17 | [CO2 information](s-sc07-17-co2-information.md) | 🔄 |
-| 🖥️ | S-SC07-18 | [Margins](s-sc07-18-margins.md) | 🔄 |
+| 🖥️ | S-SC07-10 | [Fuel and tolls](s-sc07-10-fuel-and-tolls.md) | ✅ |
+| 🖥️ | S-SC07-13 | [Transport billing](s-sc07-13-transport-billing.md) | ✅ |
+| 🖥️ | S-SC07-17 | [CO2 information](s-sc07-17-co2-information.md) | ✅ |
+| 🖥️ | S-SC07-18 | [Margins](s-sc07-18-margins.md) | ✅ |

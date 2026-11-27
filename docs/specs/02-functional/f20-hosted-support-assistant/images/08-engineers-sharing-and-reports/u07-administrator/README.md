@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F20-08 Engineers, screen sharing, reports and languages
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F20-08 Engineers, screen sharing, reports and languages](../../../flows/fl-f20-08-engineers-sharing-and-reports.md)

@@ -4,7 +4,7 @@
 
 # 📝 UC-SC03-11 Share with the client in the portal
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -60,7 +60,7 @@ Weekly per engagement.
 - 1e. A client trying another engagement: it is not shown,
   [BR-SC03-12](../../business-rules/br-sc03-12-client-sees-only-their-engagements.md),
   [BR-F6-03](../../../../02-functional/f06-customers-and-sales/business-rules/br-f06-03-portal-shows-only-the-customer-s-own.md).
-- 2e. No answer: the client is reminded ((Proposed) after 5 working days).
+- 2e. No answer: the client is reminded (after 5 working days).
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
   error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)) says what failed; what was
@@ -156,7 +156,7 @@ None specific to this use case; the sector's legal rules are listed in [SC03 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

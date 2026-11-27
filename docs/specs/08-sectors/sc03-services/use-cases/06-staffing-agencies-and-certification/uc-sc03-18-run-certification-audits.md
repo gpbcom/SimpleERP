@@ -5,13 +5,14 @@
 
 # 📝 UC-SC03-18 Run certification audits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
 A certification body audits its clients and issues certificates. The engagement manager plans the initial audit, assigns
 qualified auditors, and after a positive decision issues the certificate. The certificate lives three years with a
-surveillance audit each year; a certificate whose surveillance audit is not done by its due date lapses.
+surveillance audit each year when its programme has one (always when the certified product carries a mark); a
+certificate whose surveillance audit is not done by its due date lapses.
 
 ## Personas
 
@@ -159,11 +160,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A certification body works under an accreditation that requires qualified and impartial auditors, a decision
-separate from the audit, and a surveillance programme between certifications. This is not in the France-pack waiting
-list yet; it is written when its law is read.
+A certification body works under an accreditation (Code de la consommation L433-4). Its certification programme states
+how the evaluation, review and decision are repeated; surveillance is required when the certified product carries a
+mark, and a programme without surveillance states how the certification is reviewed when the object or the requirements
+change (ISO/IEC 17065, 7.9.3 and 7.9.4, Cofrac CERT REF 09). Qualified and impartial auditors and a decision separate
+from the audit follow NF EN ISO/IEC 17065, a design reference and not a law ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)); décret n° 2008-1401 names
+COFRAC as the accreditation body.
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-255 Certification body accreditation](../../../../10-country-packs/france/professional-firms/cr-fr-255-certification-accreditation.md)
 
 ## Related use cases

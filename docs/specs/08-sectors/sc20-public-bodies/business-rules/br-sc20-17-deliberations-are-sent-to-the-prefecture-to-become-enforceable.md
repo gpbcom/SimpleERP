@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-17 Deliberations are sent to the prefecture to become enforceable
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,8 +13,11 @@ published. The convocation is sent within the legal delay, and the council delib
 ## Why
 
 A deliberation adopted without a valid convocation or quorum, or not transmitted, can be cancelled
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The France-pack rule is
+[CR-FR-262 Deliberations and the legality check](../../../10-country-packs/france/company/cr-fr-262-deliberations-legality-check.md):
+the councillors are convened 3 clear days (under 3 500 inhabitants) or 5 clear days before, the council deliberates with
+the majority of its members in office, the list of the deliberations is posted and published within one week (L2121-25),
+and the acts the law lists are enforceable once sent to the State representative (L2131-1).
 
 ## Examples
 
@@ -32,7 +35,7 @@ written later.
 - [E-SC20-12 Deliberation](../data/e-sc20-12-deliberation.md)
 - [E-SC20-12 Deliberation](../data/e-sc20-12-deliberation.md)
 - [E-SC20-10 Council decision](../data/e-sc20-10-council-decision.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-262 Deliberations and the legality check](../../../10-country-packs/france/company/cr-fr-262-deliberations-legality-check.md)
 
 ## Exceptions

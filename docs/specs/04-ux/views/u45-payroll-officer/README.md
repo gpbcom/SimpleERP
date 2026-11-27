@@ -3,7 +3,7 @@
 
 # 🧮 Payroll officer: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a desktop. 
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Inputs missing; Anomalies to check; Declaration due.
 - Widgets: This month's pay run.
@@ -37,16 +37,16 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a desktop. 
 
 ## Navigation
 
-(Proposed) Home · Pay run · Employees · Declarations · Assistant.
+Home · Pay run · Employees · Declarations · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U45-01 | [Run the monthly pay](journeys/j-u45-01-run-the-monthly-pay.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U45-01 | [Run the monthly pay](journeys/j-u45-01-run-the-monthly-pay.md) | ✅ |
 
 ---
 

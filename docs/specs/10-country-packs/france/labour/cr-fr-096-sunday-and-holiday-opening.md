@@ -24,7 +24,7 @@ tourist and commercial zones, stations, and prefect's exemptions.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2016-08-10: L3132-3 in force since 2009-08-12, L3132-13 since 2015-08-08, L3132-26 since 2016-08-10 ([Code du travail, art. L3132-3](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006189640), [art. L3132-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031013514), [art. L3132-26](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020907), read 2026-11-27).
 
 ## Enforced by
 

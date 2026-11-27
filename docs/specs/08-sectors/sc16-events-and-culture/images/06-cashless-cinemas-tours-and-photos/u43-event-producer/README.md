@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC16-06 Cashless, cinemas, tours and photographers
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC16-06 Cashless, cinemas, tours and photographers](../../../flows/fl-sc16-06-cashless-cinemas-tours-and-photos.md)

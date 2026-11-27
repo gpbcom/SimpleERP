@@ -4,7 +4,7 @@
 
 # 📏 BR-F17-15 Price suggestions need approval
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -34,7 +34,7 @@ None.
 
 ## Configurable
 
-The threshold that triggers a suggestion, (Proposed) a gap of 5 %.
+The threshold that triggers a suggestion, a gap of 5 %.
 
 ## Open questions
 

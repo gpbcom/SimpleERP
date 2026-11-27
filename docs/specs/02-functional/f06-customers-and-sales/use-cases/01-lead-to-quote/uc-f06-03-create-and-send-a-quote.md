@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-03 Create and send a quote
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -121,7 +121,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Totals recompute within 300 ms (Proposed).
+Totals recompute within 300 ms.
 
 ## Regulatory references
 

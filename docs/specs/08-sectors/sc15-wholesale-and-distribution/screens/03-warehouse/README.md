@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC15-09 | [Pallets](s-sc15-09-pallets.md) | 🔄 |
-| 🖥️ | S-SC15-10 | [Returns](s-sc15-10-returns.md) | 🔄 |
+| 🖥️ | S-SC15-09 | [Pallets](s-sc15-09-pallets.md) | ✅ |
+| 🖥️ | S-SC15-10 | [Returns](s-sc15-10-returns.md) | ✅ |

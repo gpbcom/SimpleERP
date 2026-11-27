@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found that the legal
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found that the legal
 assistant kept the company's registers and approved its accounts but had no equity, no contract drafting, no shareholder
 meetings, no IP portfolio and no litigation register. Equity (G05) is the one the owner asked for in full: share
 register, employee equity and fundraising dilution. The shareholder is the new persona U50.
@@ -34,7 +34,7 @@ register, employee equity and fundraising dilution. The shareholder is the new p
 
 F15 gets seven use cases in one new flow, FL-F15-07, each with its screen, its rule, its entity and its list. Equity is
 written in full (three use cases). All at full depth now. Every legal duty is written in plain words and marked
-(Proposed) until the France-pack rule is written.
+as proposed until its France-pack rule was written (the rules now exist).
 
 | Gap | Point | Decision | The owner's answer |
 |---|---|---|---|
@@ -49,7 +49,7 @@ written in full (three use cases). All at full depth now. Every legal duty is wr
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F15 Legal assistant").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F15 Legal assistant").
 
 ## Consequences
 

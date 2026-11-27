@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-14 Compute statutory pay
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -142,13 +142,15 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-The basic pay of a civil servant is the index number of their grade and step multiplied by the value of the
-index point, which changes by a public decision, plus supplements such as the family supplement and the indemnities set
-by the body within the statute. The values and the supplements are data of the France pack. Related:
+The basic pay of a civil servant is the index number of their grade and step multiplied by the value of the index point,
+which changes by a public decision (the yearly pay of the majored index 100 is 5 907.34 EUR since 2023-07-01, décret n°
+85-1148, art. 3), plus supplements such as the family supplement and the indemnities set by the body within the statute.
+The values and the supplements are data of the France pack. (⚖️ lawyer review before launch, D574) The supplements are still to read:
+décret n° 85-1148 and the bonus texts of each cadre. Related:
 [CR-FR-182 The payslip](../../../../10-country-packs/france/payroll/cr-fr-182-payslip.md),
 [CR-FR-185](../../../../10-country-packs/france/payroll/cr-fr-185-minimum-wage.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule (the index point read; the supplements on the lawyer's list):
   [CR-FR-252 Public-sector contributions](../../../../10-country-packs/france/payroll/cr-fr-252-public-sector-contributions.md)
 
 ## Related use cases

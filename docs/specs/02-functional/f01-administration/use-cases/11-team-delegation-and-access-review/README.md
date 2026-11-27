@@ -12,6 +12,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F1-16 | [Delegate approvals during an absence](uc-f01-16-delegate-approvals-during-an-absence.md) | 🔄 |
-| 📝 | UC-F1-17 | [See my team's accounts and pending requests](uc-f01-17-see-my-teams-accounts-and-pending-requests.md) | 🔄 |
-| 📝 | UC-F1-18 | [Run an access review campaign](uc-f01-18-run-an-access-review-campaign.md) | 🔄 |
+| 📝 | UC-F1-16 | [Delegate approvals during an absence](uc-f01-16-delegate-approvals-during-an-absence.md) | ✅ |
+| 📝 | UC-F1-17 | [See my team's accounts and pending requests](uc-f01-17-see-my-teams-accounts-and-pending-requests.md) | ✅ |
+| 📝 | UC-F1-18 | [Run an access review campaign](uc-f01-18-run-an-access-review-campaign.md) | ✅ |

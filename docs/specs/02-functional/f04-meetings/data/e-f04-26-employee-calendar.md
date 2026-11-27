@@ -3,7 +3,7 @@
 
 # 🗃️ E-F4-26 Employee calendar
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -11,12 +11,10 @@ Every employee's calendar ([D519](../../../06-decisions/ux/d519-view-cards-revie
 VC-13: "All employes MUST have one. Provide the ability to compare one employee agenda to others", clarified "both"):
 the meetings, appointments and absences of one employee, so that several employees' calendars can be compared side by
 side, each user seeing what [BR-F4-32](../business-rules/br-f04-32-who-sees-a-colleagues-calendar.md) lets them see.
-(Proposed) It is synced with the employee's own calendar when they connect one
+It is synced with the employee's own calendar when they connect one
 ([E-F4-05 Calendar sync](e-f04-05-calendar-sync.md)).
 
 ## Fields
-
-(Proposed) The fields wait for the owner's confirmation.
 
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
@@ -29,7 +27,7 @@ side, each user seeing what [BR-F4-32](../business-rules/br-f04-32-who-sees-a-co
 ## Relations
 
 One per [employee record](../../f09-hr-and-projects/data/e-f09-01-employee-record.md); shows the
-[meetings](e-f04-01-meeting.md) the employee takes part in, with their [agendas](e-f04-22-meeting-agenda.md); (Proposed)
+[meetings](e-f04-01-meeting.md) the employee takes part in, with their [agendas](e-f04-22-meeting-agenda.md);
 kept in step with the employee's own calendar through a calendar sync.
 
 ## Lifecycle
@@ -46,15 +44,15 @@ By employee, status and time zone.
 
 ## Retention
 
-(Proposed) While the employee is active; archived when they leave, then kept as their employee record is.
+While the employee is active; archived when they leave, then kept as their employee record is.
 
 ## Audit
 
-(Proposed) Created, archived, and every change of its working hours or time zone.
+Created, archived, and every change of its working hours or time zone.
 
 ## Import and export
 
-(Proposed) Exported as an iCalendar file of the events the user may see.
+Exported as an iCalendar file of the events the user may see.
 
 ## Used by
 
@@ -62,7 +60,7 @@ By employee, status and time zone.
 
 ## Open questions
 
-(Proposed) Its fields, its sync and its retention wait for the owner (waiting list, step 36h).
+None.
 
 ---
 

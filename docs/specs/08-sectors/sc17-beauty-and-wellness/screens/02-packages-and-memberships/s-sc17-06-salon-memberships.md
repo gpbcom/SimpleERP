@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-06 Salon memberships
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 🛠️ SimpleERP maintainer: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Pull requests to review; Agent tickets to approve.
 - Widgets: Agent work waiting for a maintainer.
@@ -37,16 +37,16 @@ density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Navigation
 
-(Proposed) Pull requests · Agent tickets · Agents' quality · Connectors · Assistant.
+Pull requests · Agent tickets · Agents' quality · Connectors · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U47-01 | [Review the agents' work](journeys/j-u47-01-review-the-agents-work.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U47-01 | [Review the agents' work](journeys/j-u47-01-review-the-agents-work.md) | ✅ |
 
 ---
 

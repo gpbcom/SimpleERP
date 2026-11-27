@@ -5,7 +5,7 @@
 
 # 📝 UC-SC11-21 Run a notary's office
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -159,12 +159,16 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A notary receives the funds of the parties and the taxes due to the state for a deed, holds them at the state
 deposit bank apart from the office's own money, and pays them out only as the deed requires, once it is signed. The
-office keeps an account per deed and the regulator may inspect it. The France-pack rule is listed below. Related:
+office keeps an account per deed and the regulator may inspect it. Until 2026-11-26 the office kept the journals,
+registers and numbered receipt book of décret n° 45-0117 art. 15 to 16 A; from 2026-11-27 (décret n° 2026-1083) it
+keeps day-by-day books closed each day and an account per client for securities, and the receipt book is repealed.
+(⚖️ lawyer review before launch, D574) A cash account per deed and payment only once the deed is signed are still to read in the
+rewritten décret n° 45-0117. The France-pack rule is listed below. Related:
 [CR-FR-149](../../../../10-country-packs/france/professional-firms/cr-fr-149-aml-vigilance.md),
 [CR-FR-151](../../../../10-country-packs/france/professional-firms/cr-fr-151-carpa-client-funds.md) (lawyers' funds, a
 different regime).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule, (⚖️ lawyer review before launch, D574) for the account per deed and the payment after signing:
   [CR-FR-241 Notaries' client funds](../../../../10-country-packs/france/professional-firms/cr-fr-241-notaries-client-funds.md)
 
 ## Related use cases

@@ -11,4 +11,4 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC05-06 | [Labels](s-sc05-06-labels.md) | 🔄 |
+| 🖥️ | S-SC05-06 | [Labels](s-sc05-06-labels.md) | ✅ |

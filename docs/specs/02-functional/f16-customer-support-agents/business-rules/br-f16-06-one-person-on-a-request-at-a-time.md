@@ -4,12 +4,12 @@
 
 # 📏 BR-F16-06 One person on a request at a time
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 When an office worker opens a request to answer it, the request is locked to them; another person sees who has it and
-can only read, until it is released, sent or (Proposed) 15 minutes pass without activity.
+can only read, until it is released, sent or 15 minutes pass without activity.
 
 ## Why
 
@@ -33,7 +33,7 @@ The support lead may take over a locked request.
 
 ## Configurable
 
-The idle time (Proposed) 15 minutes.
+The idle time 15 minutes.
 
 ## Open questions
 

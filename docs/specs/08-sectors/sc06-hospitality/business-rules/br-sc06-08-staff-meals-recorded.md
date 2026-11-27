@@ -7,12 +7,14 @@
 
 ## Statement
 
-(Proposed) Staff meals are recorded per person and sent to payroll as a benefit in kind; in France:
+Staff meals are recorded per person and sent to payroll as a benefit in kind; in France:
 [CR-FR-114 Staff meals as a benefit in kind](../../../10-country-packs/france/labour/cr-fr-114-staff-meals-benefit.md).
 
 ## Why
 
-(Proposed) The value per meal is still to read.
+The meal is a benefit in kind at the legal value per meal: in hotels, cafés, restaurants and bars 4.25 EUR from
+1 January to 31 May 2026 and 4.35 EUR from 1 June 2026, unless the collective agreement sets more
+([CR-FR-114 Staff meals as a benefit in kind](../../../10-country-packs/france/labour/cr-fr-114-staff-meals-benefit.md)).
 
 ## Examples
 

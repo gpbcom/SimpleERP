@@ -27,7 +27,7 @@ flowchart TD
   S --> N1["1. Bill recipients and funders"]
   N1 -. 2e .-> N1E1["A visit without check-out"]
   N1 --> N2["2. Use the immediate advance"]
-  N2 -. 3e .-> N2E1["Not validated in time"]
+  N2 -. 3e .-> N2E1["Not validated within 48 hours"]
   N2 --> N3["3. Issue the yearly tax-credit certificate"]
   N3 -. 3e .-> N3E1["A missing address"]
   N3 --> N4["4. Pay carers' travel time and split shifts"]
@@ -44,7 +44,7 @@ See each use case.
 | Step | Persona | Screen | Use case | What happens |
 |---|---|---|---|---|
 | 1 | U05, U25 | [S-SC04-08](../screens/04-bill-and-fund/s-sc04-08-billing.md) | [UC-SC04-08](../use-cases/04-bill-and-fund/uc-sc04-08-bill-recipients-and-funders.md) | Accounting closes the month, checks the visits done, and bills each payer its share through the shared multi-payer invoicing |
-| 2 | U05, U09 | [S-SC04-10](../screens/04-bill-and-fund/s-sc04-10-immediate-advance.md) | [UC-SC04-10](../use-cases/04-bill-and-fund/uc-sc04-10-use-the-immediate-advance.md) | A client who chose the immediate advance of the tax credit pays only their share |
+| 2 | U05, U09 | [S-SC04-10](../screens/04-bill-and-fund/s-sc04-10-immediate-advance.md) | [UC-SC04-10](../use-cases/04-bill-and-fund/uc-sc04-10-use-the-immediate-advance.md) | A client who chose the immediate advance of the tax credit validates each request within 48 hours, or it is validated automatically; URSSAF pays the whole service and debits the client's share |
 | 3 | U05 | [S-SC04-09](../screens/04-bill-and-fund/s-sc04-09-tax-certificates.md) | [UC-SC04-09](../use-cases/04-bill-and-fund/uc-sc04-09-issue-the-yearly-tax-credit-certificate.md) | Accounting generates each client's yearly certificate of amounts paid for home services, checks the amounts and sends them before 31 March |
 | 4 | U25, U05 | [S-SC04-11](../screens/04-bill-and-fund/s-sc04-11-travel-time.md) | [UC-SC04-11](../use-cases/04-bill-and-fund/uc-sc04-11-pay-carers-travel-time-and-split-shifts.md) | The care coordinator computes travel time and split shifts per carer from the rounds, checks them and sends them to payroll as pay inputs under the home-help agreement |
 
@@ -52,7 +52,7 @@ See each use case.
 
 | Entity | States in this flow | Shown at step and screen | Aggregated view |
 |---|---|---|---|
-| [E-SC04-13 Immediate advance claim](../data/e-sc04-13-immediate-advance-claim.md) | Active | 2 [S-SC04-10](../screens/04-bill-and-fund/s-sc04-10-immediate-advance.md) | Immediate advance claims |
+| [E-SC04-13 Immediate advance claim](../data/e-sc04-13-immediate-advance-claim.md) | Sent, Refused, Validated, Cancelled, Paid | 2 [S-SC04-10](../screens/04-bill-and-fund/s-sc04-10-immediate-advance.md) | Immediate advance claims |
 | [E-SC04-09 Tax-credit certificate](../data/e-sc04-09-tax-credit-certificate.md) | Sent, Held | 3 [S-SC04-09](../screens/04-bill-and-fund/s-sc04-09-tax-certificates.md) | Tax-credit certificates |
 | [E-F13-03 Pay input](../../../02-functional/f13-payroll/data/e-f13-03-pay-input.md) | Closed | Shown elsewhere: [S-F13-03 Pay inputs](../../../02-functional/f13-payroll/screens/02-monthly-pay-run/s-f13-03-pay-inputs.md) | Pay inputs |
 | [E-F9-16 Shift](../../../02-functional/f09-hr-and-projects/data/e-f09-16-shift.md) | Draft, Published | Shown elsewhere: [S-F9-30 Scheduling board](../../../02-functional/f09-hr-and-projects/screens/12-schedule-customer-requests/s-f09-30-scheduling-board.md) | Shifts |
@@ -64,8 +64,8 @@ See each use case.
   it is held until the coordinator closes it.
 - [UC-SC04-08](../use-cases/04-bill-and-fund/uc-sc04-08-bill-recipients-and-funders.md) 3e. A funding agreement expired:
   its share goes to the recipient and accounting is warned.
-- [UC-SC04-10](../use-cases/04-bill-and-fund/uc-sc04-10-use-the-immediate-advance.md) 3e. Not validated in time: the
-  client is billed in full.
+- [UC-SC04-10](../use-cases/04-bill-and-fund/uc-sc04-10-use-the-immediate-advance.md) 3e. Not validated within 48 hours:
+  URSSAF validates it automatically and the client's share is debited.
 - [UC-SC04-10](../use-cases/04-bill-and-fund/uc-sc04-10-use-the-immediate-advance.md) 2e. URSSAF refuses the request:
   the reason is shown and accounting corrects it.
 - [UC-SC04-09](../use-cases/04-bill-and-fund/uc-sc04-09-issue-the-yearly-tax-credit-certificate.md) 3e. A missing

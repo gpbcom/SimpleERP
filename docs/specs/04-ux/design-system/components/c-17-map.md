@@ -3,7 +3,7 @@
 
 # 🧩 C-17 Map
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18 to VD-23 / D501 to D505)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -81,12 +81,12 @@ Places inside a building use [C-18 Plan](c-18-plan.md).
 
 | State | Look |
 |---|---|
-| Loading | (Proposed) The frame and the controls; the tiles appear as they load |
+| Loading | The frame and the controls; the tiles appear as they load |
 | Normal | The markers, routes and areas of the visible rows |
 | No place | "n of these records have no place on the map", with a link that lists them |
-| Address not found | (Proposed) "Place to check" in the table, and no marker |
+| Address not found | "Place to check" in the table, and no marker |
 | Selected | The marker enlarged and its card open; the same row ticked in the table |
-| Map unavailable | (Proposed) The tiles cannot load: "The map is unavailable", and the table stays usable |
+| Map unavailable | The tiles cannot load: "The map is unavailable", and the table stays usable |
 | Error | The [error message pattern](../patterns/error-messages.md) |
 
 A person's marker has its own states:

@@ -3,7 +3,7 @@
 
 # 🗃️ E-F16-12 Work request
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-30, VD-31 / D512, D513)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -98,7 +98,7 @@ The screens show the states as: Drafted, To confirm, Ready, Blocked, Proposed, S
 
 ## Retention
 
-(Proposed) As its linked record when it has one; otherwise 3 years after Done or Cancelled, like customer requests
+As its linked record when it has one; otherwise 3 years after Done or Cancelled, like customer requests
 ([E-F16-01](e-f16-01-customer-request.md)), then deleted.
 
 ## Audit
@@ -110,7 +110,7 @@ state change, every assignment and override.
 ## Import and export
 
 - Created through the API (T5) and the connectors (T12) as well as the screens.
-- (Proposed) Export as CSV and XLSX from the list view, audited (D489).
+- Export as CSV and XLSX from the list view, audited (D489).
 
 ## Used by
 

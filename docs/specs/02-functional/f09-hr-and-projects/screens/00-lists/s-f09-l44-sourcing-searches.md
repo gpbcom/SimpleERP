@@ -4,7 +4,7 @@
 
 # 🗂️ S-F9-L44 Sourcing searches
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -204,7 +204,7 @@ Drawn in step S8 (36k) from this page: one row per persona and device for each s
 
 ## Open questions
 
-(Proposed) This list waits for the owner's confirmation: its entity was created after the review of 2026-11-13.
+None.
 
 ---
 

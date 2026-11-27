@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC18-05 Facilities, events, camps and rentals
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC18-05 Facilities, events, camps and rentals](../../../flows/fl-sc18-05-facilities-events-camps-and-rentals.md) for

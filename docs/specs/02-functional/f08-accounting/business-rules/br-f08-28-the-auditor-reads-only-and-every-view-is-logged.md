@@ -3,7 +3,7 @@
 
 # 📏 BR-F8-28 The auditor reads only and every view is logged
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -34,7 +34,7 @@ The owner asked for a statutory auditor workspace
 - [E-F8-40 Audit request](../data/e-f08-40-audit-request.md)
 - [E-F8-03 Journal entry](../data/e-f08-03-journal-entry.md)
 - [E-F8-22 Annual accounts file](../data/e-f08-22-annual-accounts-file.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-213 When a statutory auditor is required](../../../10-country-packs/france/accounting/cr-fr-213-statutory-auditor-thresholds.md)
 
 ## Exceptions

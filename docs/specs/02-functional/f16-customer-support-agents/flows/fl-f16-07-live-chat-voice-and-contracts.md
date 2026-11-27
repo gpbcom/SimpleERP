@@ -4,7 +4,7 @@
 
 # 🔀 FL-F16-07 Forum, live chat, voice and support contracts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

@@ -36,7 +36,8 @@ filter, total and act on many module guides at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] MODULE GUIDE   STATE                                                                 |
+| state             | [ ] MODULE GUIDE   MODULE   STEPS   REQUIRED STE   STATE                                 |
+| module            | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,8 +47,11 @@ filter, total and act on many module guides at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Module guide | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Module guide | title | text | yes |
+| Module | module | link to the record | yes |
+| Steps | steps (count) | number, right-aligned | yes |
+| Required steps | required (count) | number, right-aligned | yes |
+| State | state | badge: Active, Done | yes |
 
 Secrets are never a column (VR-4).
 
@@ -55,13 +59,15 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, Done | the visible rows (D488) |
+| Module | each linked module | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: module guides link to no other record type in their fields.
+- Module guides of a chosen module, or of the modules that match a filter.
+- From the other side: the modules that have module guides, or none.
 
 ## KPI strip
 
@@ -77,6 +83,7 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Open: Active.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -90,6 +97,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New module guide | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |

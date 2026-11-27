@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U41-01 | [Keep a customer](j-u41-01-keep-a-customer.md) | 🔄 |
+| 🧭 | J-U41-01 | [Keep a customer](j-u41-01-keep-a-customer.md) | ✅ |
 
 ---
 

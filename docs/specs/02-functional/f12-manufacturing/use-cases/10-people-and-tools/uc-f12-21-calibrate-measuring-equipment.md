@@ -4,7 +4,7 @@
 
 # 📝 UC-F12-21 Calibrate measuring equipment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -122,7 +122,7 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: ISO 9001:2015 clause 7.1.5.
+Design reference, not a law: ISO 9001:2015 clause 7.1.5 (monitoring and measuring resources) ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Related use cases
 

@@ -150,7 +150,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A health centre works under a health project approved by the regional health agency, employs salaried health
 professionals, applies the third-party payment and sends the agency its activity report on the dates the agency sets.
-The France-pack rule is written later. Related:
+The France-pack rule is [CR-FR-287 Health centres (centres de santé)](../../../../10-country-packs/france/health-practice/cr-fr-287-health-centres.md). Related:
 [CR-FR-133](../../../../10-country-packs/france/health-practice/cr-fr-133-third-party-payment.md),
 [CR-FR-137](../../../../10-country-packs/france/health-practice/cr-fr-137-medical-secrecy.md).
 

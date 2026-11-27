@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-18 Builders' warranties
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

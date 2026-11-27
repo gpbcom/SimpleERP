@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U06-01 | [Keep employee records compliant](j-u06-01-keep-employee-records-compliant.md) | 🔄 |
+| 🧭 | J-U06-01 | [Keep employee records compliant](j-u06-01-keep-employee-records-compliant.md) | ✅ |
 
 ---
 

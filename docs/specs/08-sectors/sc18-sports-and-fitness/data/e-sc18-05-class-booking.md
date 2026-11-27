@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-05 Class booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

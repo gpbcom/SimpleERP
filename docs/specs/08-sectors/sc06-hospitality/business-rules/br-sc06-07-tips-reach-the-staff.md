@@ -7,18 +7,23 @@
 
 ## Statement
 
-(Proposed) Tips, in cash or by card, are recorded apart and shared among staff by the agreed key; in France:
+Tips, in cash or by card, and service charges added to the bill are recorded apart and go in full to the staff in
+contact with customers, shared among them by the key the company sets (by hours or role); in France:
 [CR-FR-113 Tips and their sharing](../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md).
 
 ## Why
 
-(Proposed) The tax and social treatment is still to read.
+The law gives tips and service charges in full to the staff in contact with customers and sets no sharing key; until
+2028-12-31, tips given willingly are exempt from social contributions (monthly pay under 1.6 Smic) and from income
+tax, service charges added to the bill are not; from 2029-01-01, no exemption unless the law extends it
+([CR-FR-113 Tips and their sharing](../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md)).
 
 ## Examples
 
 | Case | Result |
 |---|---|
-| 120 EUR card tips | Shared to 6 staff by hours |
+| 120 EUR card tips | Shared to the 6 staff who served customers, by hours |
+| An office employee who does not serve customers | no share |
 
 ## Applies to
 

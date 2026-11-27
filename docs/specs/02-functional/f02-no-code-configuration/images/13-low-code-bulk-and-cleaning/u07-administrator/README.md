@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F2-13 Low code, bulk work and data cleaning
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F2-13 Low code, bulk work and data cleaning](../../../flows/fl-f02-13-low-code-bulk-and-cleaning.md) for
 this persona, in light and dark mode (D120, D121). Errors follow the

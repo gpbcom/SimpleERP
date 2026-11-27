@@ -2,7 +2,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -27,19 +27,19 @@ One file per entity.
 | 🗃️ | E-F8-15 | [Company card](e-f08-15-company-card.md) | ✅ |
 | 🗃️ | E-F8-16 | [Budget plan](e-f08-16-budget-plan.md) | ✅ |
 | 🗃️ | E-F8-17 | [Client money ledger](e-f08-17-client-money-ledger.md) | ✅ |
-| 🗃️ | E-F8-18 | [Grant](e-f08-18-grant.md) | 🔄 |
+| 🗃️ | E-F8-18 | [Grant](e-f08-18-grant.md) | ✅ |
 | 🗃️ | E-F8-19 | [Dedicated fund](e-f08-19-dedicated-fund.md) | ✅ |
 | 🗃️ | E-F8-20 | [Volunteer contribution](e-f08-20-volunteer-contribution.md) | ✅ |
 | 🗃️ | E-F8-21 | [Corporate tax computation](e-f08-21-corporate-tax-computation.md) | ✅ |
 | 🗃️ | E-F8-22 | [Annual accounts file](e-f08-22-annual-accounts-file.md) | ✅ |
 | 🗃️ | E-F8-23 | [Doubtful debt provision](e-f08-23-doubtful-debt-provision.md) | ✅ |
-| 🗃️ | E-F8-24 | [Variance comment](e-f08-24-variance-comment.md) | 🔄 |
-| 🗃️ | E-F8-25 | [Sustainability report](e-f08-25-sustainability-report.md) | 🔄 |
+| 🗃️ | E-F8-24 | [Variance comment](e-f08-24-variance-comment.md) | ✅ |
+| 🗃️ | E-F8-25 | [Sustainability report](e-f08-25-sustainability-report.md) | ✅ |
 | 🗃️ | E-F8-26 | [Accountant request](e-f08-26-accountant-request.md) | ✅ |
-| 🗃️ | E-F8-27 | [FEC file](e-f08-27-fec-file.md) | 🔄 |
-| 🗃️ | E-F8-28 | [Payment run](e-f08-28-payment-run.md) | 🔄 |
-| 🗃️ | E-F8-29 | [Entry annotation](e-f08-29-entry-annotation.md) | 🔄 |
-| 🗃️ | E-F8-30 | [Analytic plan](e-f08-30-analytic-plan.md) | 🔄 |
+| 🗃️ | E-F8-27 | [FEC file](e-f08-27-fec-file.md) | ✅ |
+| 🗃️ | E-F8-28 | [Payment run](e-f08-28-payment-run.md) | ✅ |
+| 🗃️ | E-F8-29 | [Entry annotation](e-f08-29-entry-annotation.md) | ✅ |
+| 🗃️ | E-F8-30 | [Analytic plan](e-f08-30-analytic-plan.md) | ✅ |
 
 Pages: **1** · [2](page-2.md)
 

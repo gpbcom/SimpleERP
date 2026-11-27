@@ -38,7 +38,8 @@ find, filter, total and act on many attendance kiosks at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] ATTENDANCE KIOSK   STATE                                                             |
+| state             | [ ] NAME   SITE   STATE                                                                  |
+| site              | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,7 +49,8 @@ find, filter, total and act on many attendance kiosks at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Attendance kiosk | the record's title | text | yes |
+| Name | name | text | yes |
+| Site | site | link to the record | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -58,12 +60,14 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Site | each linked site | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: attendance kiosks link to no other record type in their fields.
+- Attendance kiosks of a chosen company site, or of the company sites that match a filter.
+- From the other side: the company sites that have attendance kiosks, or none.
 
 ## KPI strip
 

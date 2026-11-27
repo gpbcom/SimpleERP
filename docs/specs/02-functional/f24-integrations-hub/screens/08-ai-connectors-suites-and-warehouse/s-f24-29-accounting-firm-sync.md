@@ -5,7 +5,7 @@
 
 # 🖥️ S-F24-29 Accounting firm sync
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

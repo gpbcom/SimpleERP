@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-16 Keep emails delivered
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -44,8 +44,8 @@ At setup; then continuous.
    ([S-F5-16](../../screens/06-audiences-consent-and-journeys/s-f05-16-deliverability.md)) and checks the sending
    domain: SPF, DKIM and DMARC records, with the records to add if missing.
 2. Each campaign's hard bounces and complaints are added to the suppression list.
-3. Soft bounces are retried, then suppressed after 3 in a row (Proposed).
-4. The screen shows the bounce and complaint rates per campaign; above 0.3 % complaints (Proposed), sending pauses and
+3. Soft bounces are retried, then suppressed after 3 in a row.
+4. The screen shows the bounce and complaint rates per campaign; above 0.3 % complaints, sending pauses and
    marketing is warned.
 
 ## Alternative flows
@@ -121,7 +121,8 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: the large mailbox providers' sender rules.
+Design reference, not a law: the large mailbox providers' sender rules for bulk senders (Gmail, Yahoo, Microsoft),
+for the domain checks and the complaint rate, read as product references ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Related use cases
 

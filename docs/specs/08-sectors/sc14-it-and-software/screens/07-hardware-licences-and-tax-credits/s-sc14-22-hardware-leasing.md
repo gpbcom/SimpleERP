@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC14-22 Hardware leasing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

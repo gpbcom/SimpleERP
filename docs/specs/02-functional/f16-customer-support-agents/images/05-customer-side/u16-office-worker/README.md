@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F16-05 Customer side
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F16-05 Customer side](../../../flows/fl-f16-05-customer-side.md) for this persona, in light and dark mode
 (D120, D121). Errors follow the [error message pattern](../../../../../04-ux/design-system/patterns/error-messages.md).

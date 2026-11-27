@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC08-07 Foundations, integration, federations, peer fundraising
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

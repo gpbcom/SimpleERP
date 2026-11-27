@@ -19,7 +19,7 @@
 
 ## Agent roles
 
-(Proposed) Within the DevOps agents column, each role of the agent team
+Within the DevOps agents column, each role of the agent team
 ([FL-F25-08](flows/fl-f25-08-team-builds-a-ticket.md)) has only what it needs: the code reviewer reads only; the
 implementation roles write only the files the approved work contract gives them, in their own worktree; the release
 engineer integrates and opens draft pull requests; no role merges, deploys, sets Ready or removes the approval label

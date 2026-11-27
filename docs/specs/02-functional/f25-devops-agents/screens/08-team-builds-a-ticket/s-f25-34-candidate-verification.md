@@ -4,7 +4,7 @@
 
 # 🖥️ S-F25-34 Candidate verification
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

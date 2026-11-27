@@ -3,7 +3,7 @@
 
 # 🧳 Sales representative: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ Default density: comfortable ([D42](../../../06-decisions/ux/d42-density-per-rol
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Visits today; Orders to sync.
 - Widgets: Sales against target.
@@ -38,16 +38,16 @@ Default density: comfortable ([D42](../../../06-decisions/ux/d42-density-per-rol
 
 ## Navigation
 
-(Proposed) Today · Visits · Customers · Orders · Assistant.
+Today · Visits · Customers · Orders · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U42-01 | [Visit customers and take orders](journeys/j-u42-01-visit-and-take-orders.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U42-01 | [Visit customers and take orders](journeys/j-u42-01-visit-and-take-orders.md) | ✅ |
 
 ---
 

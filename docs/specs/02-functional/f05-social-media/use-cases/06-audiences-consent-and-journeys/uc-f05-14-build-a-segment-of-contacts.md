@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-14 Build a segment of contacts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -120,7 +120,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Counting 100,000 contacts within 3 seconds (Proposed).
+Counting 100,000 contacts within 3 seconds.
 
 ## Regulatory references
 

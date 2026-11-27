@@ -3,7 +3,7 @@
 
 # 📏 BR-SC07-17 The removal quote binds once signed
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,8 +15,8 @@ the rate the quote states.
 
 A price changed after the signature starts the disputes that removal companies lose, and a customer who cannot see what
 they signed distrusts the crew. The owner asked for removals
-([D551](../../../06-decisions/sectors/d551-benchmark-gaps-sc07-transport.md)). (Proposed) The France-pack rule is
-written later.
+([D551](../../../06-decisions/sectors/d551-benchmark-gaps-sc07-transport.md)). The France-pack rule on removal quotes is
+[CR-FR-276 Removal quotes and delivery reserves](../../../10-country-packs/france/transport/cr-fr-276-removal-quotes.md).
 
 ## Examples
 

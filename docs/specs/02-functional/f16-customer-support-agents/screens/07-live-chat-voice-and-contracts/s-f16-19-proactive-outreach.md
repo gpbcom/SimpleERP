@@ -4,7 +4,7 @@
 
 # 🖥️ S-F16-19 Proactive outreach
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

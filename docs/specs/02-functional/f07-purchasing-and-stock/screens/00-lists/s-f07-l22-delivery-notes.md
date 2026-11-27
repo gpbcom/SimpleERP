@@ -38,10 +38,13 @@ filter, total and act on many delivery notes at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Delivery notes    Purchasing and stock › Delivery notes   [+ New]                                            |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] DELIVERY NOTE   STATE                                                                |
+| state             | [ ] NUMBER   DIRECTION   PARTNER   ORDER   DELIVERY DAT   STATE                          |
+| direction         | [ ] ...                                                  Open >                          |
+| partner           | [ ] ...                                                  Open >                          |
+| order             | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -51,7 +54,11 @@ filter, total and act on many delivery notes at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Delivery note | the record's title | text | yes |
+| Number | number | text | yes |
+| Direction | direction | label | yes |
+| Partner | partner | link to the record | yes |
+| Order | order | link to the record | yes |
+| Delivery date | delivery date | date | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -61,16 +68,23 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Direction | incoming, outgoing | the visible rows (D488) |
+| Partner | each linked partner | the visible rows (D488) |
+| Order | each linked order | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: delivery notes link to no other record type in their fields.
+- Delivery notes of a chosen partner, or of the partners that match a filter.
+- From the other side: the partners that have delivery notes, or none.
+- Delivery notes of a chosen order, or of the orders that match a filter.
+- From the other side: the orders that have delivery notes, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by delivery date.
 
 Recomputed on the filtered visible rows (D487, C-16).
 

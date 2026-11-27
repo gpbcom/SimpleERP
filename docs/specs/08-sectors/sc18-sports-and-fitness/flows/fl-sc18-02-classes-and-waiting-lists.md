@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC18-02 Classes and waiting lists
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

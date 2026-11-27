@@ -22,9 +22,8 @@
   [CR-FR-166](../../10-country-packs/france/agriculture/cr-fr-166-organic-certification.md),
   [CR-FR-167](../../10-country-packs/france/labour/cr-fr-167-seasonal-workers-exemption.md), which this sector applies,
   is still to read in the official source.
-- Proposals waiting for the owner ([waiting list](../../09-waiting/README.md), the SC13 groups): pages of business rules
-  (4), data (15), screens (20), summary pages (1) hold values marked as proposed, not confirmed in this round (the
-  sectors' proposals were not asked on 2026-11-12).
+- The proposals of this sector were confirmed by the owner on 2026-11-27 ([D572](../../06-decisions/foundations/d572-proposals-confirmed-in-bulk.md)); the legal
+  values still to read are listed in the [waiting list](../../09-waiting/README.md), the SC13 groups.
 
 ---
 

@@ -32,7 +32,7 @@ None.
 
 ## Configurable
 
-Grace days (Proposed: 7).
+Grace days (default: 7).
 
 ## Open questions
 

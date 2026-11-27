@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-36 Follow days-based contracts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -162,9 +162,10 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 A days-based contract is possible only under a collective agreement or a written agreement that sets the rest
 rules; the company monitors the workload, keeps a yearly interview and a right to disconnect. The package is counted in
 days, not hours. See [CR-FR-099](../../../../10-country-packs/france/labour/cr-fr-099-day-based-working-time.md) for the
-day-based working time rule; the France-pack rule on the follow-up is written later.
+day-based working time rule; the France-pack rule on the follow-up is
+[CR-FR-219](../../../../10-country-packs/france/labour/cr-fr-219-days-based-contracts.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-219 Days-based contracts (forfait jours)](../../../../10-country-packs/france/labour/cr-fr-219-days-based-contracts.md)
 
 ## Related use cases

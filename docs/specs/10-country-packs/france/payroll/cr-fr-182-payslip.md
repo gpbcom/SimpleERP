@@ -28,7 +28,7 @@ electronically unless the employee refuses; the employer keeps a copy.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2024-01-01: L3243-2 in force since 2017-01-01, R3243-1 since 2024-01-01 (Décret n° 2023-1378) ([Code du travail, art. L3243-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033024092), [art. R3243-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048841718), read 2026-11-27).
 
 ## Enforced by
 

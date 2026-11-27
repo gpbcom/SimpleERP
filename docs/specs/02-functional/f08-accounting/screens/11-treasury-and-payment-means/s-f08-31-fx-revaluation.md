@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-31 FX revaluation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

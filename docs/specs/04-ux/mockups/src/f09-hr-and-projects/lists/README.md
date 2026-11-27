@@ -253,6 +253,8 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f09-l18-project-and-tasks-u02-manager-phone.html`
 - `s-f09-l18-project-and-tasks-u03-sales-desktop.html`
 - `s-f09-l18-project-and-tasks-u03-sales-phone.html`
+- `s-f09-l18-project-and-tasks-u06-hr-desktop.html`
+- `s-f09-l18-project-and-tasks-u06-hr-phone.html`
 - `s-f09-l18-project-and-tasks-u09-customer-desktop.html`
 - `s-f09-l18-project-and-tasks-u09-customer-phone.html`
 - `s-f09-l18-project-and-tasks-u10-supplier-desktop.html`

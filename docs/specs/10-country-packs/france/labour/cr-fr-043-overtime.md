@@ -19,7 +19,7 @@ Hours beyond 35 a week are overtime, approved before payroll, with their legal p
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2016-08-10: L3121-28 and L3121-36 ([Code du travail, art. L3121-28](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020373), [art. L3121-36](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020341), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +33,8 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+The fine of a 4th-class contravention, up to 750 EUR, once per employee concerned, for a
+breach of the overtime premium rules (R3124-7) ([Code du travail, art. R3124-7](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018486532), [Code pénal, art. 131-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417259), read 2026-11-27).
 
 ## Exceptions
 

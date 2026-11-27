@@ -22,7 +22,7 @@ No meeting or call is recorded without everyone being told first, and anyone can
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code pénal 226-1 in its current version in force since 2024-03-23 (loi n° 2024-247) ([Code pénal, art. 226-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049312755), read 2026-11-27).
 
 ## Enforced by
 

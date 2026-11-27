@@ -5,7 +5,7 @@
 
 # 📝 UC-F10-27 Sell tax-free to a visitor from outside the EU
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -123,7 +123,8 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: CGI article 262-0 bis.
+(⚖️ lawyer review before launch, D574) to read: CGI article 262-0 bis until 2026-12-31, and the CIBS article that takes it over
+from 2027-01-01; no France-pack rule reads it.
 
 ## Related use cases
 

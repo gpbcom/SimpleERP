@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F22-07 IT provider re-billing
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F22-07 IT provider re-billing](../../../flows/fl-f22-07-it-provider-re-billing.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

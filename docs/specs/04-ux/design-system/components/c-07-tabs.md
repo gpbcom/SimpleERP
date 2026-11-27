@@ -3,7 +3,7 @@
 
 # 🧩 C-07 Tabs
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -31,7 +31,7 @@ A row of tabs, the selected one underlined; an optional count; the panel under i
 - **Page tabs:** at the top of a record or an editor, as on
   [S-F2-01 Record type editor](../../../02-functional/f02-no-code-configuration/screens/01-configure-a-record-type/s-f02-01-record-type-editor.md)
   and [S-F4-01 Meeting](../../../02-functional/f04-meetings/screens/01-record-an-online-meeting/s-f04-01-meeting.md).
-- **Phone:** (Proposed) the row scrolls sideways; with more than four tabs, a list replaces it.
+- **Phone:** the row scrolls sideways; with more than four tabs, a list replaces it.
 
 Tabs are not the bottom tab bar of phones, which is part of [C-08 Navigation](c-08-navigation.md).
 
@@ -40,12 +40,12 @@ Tabs are not the bottom tab bar of phones, which is part of [C-08 Navigation](c-
 | State | Look |
 |---|---|
 | Default | `color-text-muted` label |
-| Hover | (Proposed) `color-text` label |
+| Hover | `color-text` label |
 | Focus | The `color-primary` focus ring |
-| Selected | `color-primary` label, weight 600 and a 2 px underline (Proposed) |
-| Disabled | (Proposed) `color-text-muted` at reduced emphasis, with a tooltip saying why |
-| Error | (Proposed) A tab whose panel holds an error shows the (!) icon and the count of errors |
-| Loading | (Proposed) The panel loads; the tab row stays |
+| Selected | `color-primary` label, weight 600 and a 2 px underline |
+| Disabled | `color-text-muted` at reduced emphasis, with a tooltip saying why |
+| Error | A tab whose panel holds an error shows the (!) icon and the count of errors |
+| Loading | The panel loads; the tab row stays |
 
 ## Tokens
 
@@ -60,8 +60,8 @@ Tabs are not the bottom tab bar of phones, which is part of [C-08 Navigation](c-
 
 ## Do and don't
 
-- Do keep tabs for parts of the same thing, two to six of them (Proposed).
-- (Proposed) Do keep the order of tabs stable.
+- Do keep tabs for parts of the same thing, two to six of them.
+- Do keep the order of tabs stable.
 - Don't use tabs for steps to follow in order: use the [C-13 Stepper](c-13-stepper.md).
 - Don't nest tabs in tabs.
 

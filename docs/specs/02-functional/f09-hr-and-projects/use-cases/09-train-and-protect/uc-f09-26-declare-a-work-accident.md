@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-26 Declare a work accident
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -128,7 +128,7 @@ Reporting works on a phone, offline included.
 
 ## Regulatory references
 
-(Proposed) to read: Code de la sécurité sociale L441-2 and R441-3;
+(⚖️ lawyer review before launch, D574) to read: Code de la sécurité sociale L441-2 and R441-3;
 [CR-FR-076](../../../../10-country-packs/france/labour/cr-fr-076-occupational-risk-assessment.md).
 
 ## Related use cases

@@ -11,8 +11,8 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC13-21 | [Vineyard](s-sc13-21-vineyard.md) | 🔄 |
-| 🖥️ | S-SC13-22 | [Farm contractor](s-sc13-22-farm-contractor.md) | 🔄 |
-| 🖥️ | S-SC13-23 | [Cooperative](s-sc13-23-cooperative.md) | 🔄 |
-| 🖥️ | S-SC13-24 | [Basket subscriptions](s-sc13-24-baskets.md) | 🔄 |
-| 🖥️ | S-SC13-25 | [Forestry](s-sc13-25-forestry.md) | 🔄 |
+| 🖥️ | S-SC13-21 | [Vineyard](s-sc13-21-vineyard.md) | ✅ |
+| 🖥️ | S-SC13-22 | [Farm contractor](s-sc13-22-farm-contractor.md) | ✅ |
+| 🖥️ | S-SC13-23 | [Cooperative](s-sc13-23-cooperative.md) | ✅ |
+| 🖥️ | S-SC13-24 | [Basket subscriptions](s-sc13-24-baskets.md) | ✅ |
+| 🖥️ | S-SC13-25 | [Forestry](s-sc13-25-forestry.md) | ✅ |

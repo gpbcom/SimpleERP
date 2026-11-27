@@ -45,11 +45,15 @@ Changes: L3141-3 new version from 2026-11-01   flags CR-FR-044      [Open]
 
 | Label | Data | Format | Editable | Required |
 |---|---|---|---|---|
-| Source | E-F15-01 source | name | no | yes |
-| Schedule | E-F15-01 pull schedule | daily, weekly | no | yes |
-| Last pull | E-F15-01 last pull | date and time | no | yes |
-| Changes | computed | count and list | no | no |
-| Rules flagged | country-pack rules | IDs | no | no |
+| Source | E-F15-12 name | name | no | yes |
+| Schedule | E-F15-12 pull schedule | daily, weekly (BR-F15-09) | no | yes |
+| Last pull | E-F15-12 last pull | date and time | no | yes |
+| Changes | E-F15-12 changes | count and list | no | no |
+| State | E-F15-12 pull result | ok, unreachable with the days since the last good pull | no | no |
+| Rules flagged | E-F15-12 rules flagged | country-pack rule IDs | no | no |
+
+The sources, their licences and their schedule belong to the T11 legal corpora (REQ-T11-03); the law pack (E-F15-01)
+points to its country's corpora and keeps no source list of its own.
 
 ## Actions
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F18-24 Protect forms against spam
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -47,7 +47,7 @@ Each message; spam daily on busy sites.
 
 ## Alternative flows
 
-- 4a. Under a repeated attack, a stronger challenge appears for that form (Proposed).
+- 4a. Under a repeated attack, a stronger challenge appears for that form.
 
 ## Error flows
 
@@ -70,7 +70,7 @@ Marketing reviews held messages.
 
 ## Notifications
 
-- Marketing (Proposed) daily of held messages.
+- Marketing daily of held messages.
 
 ## Audit events
 

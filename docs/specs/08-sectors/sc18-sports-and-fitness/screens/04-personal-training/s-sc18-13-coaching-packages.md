@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC18-13 Coaching packages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -33,10 +33,13 @@ filter, total and act on many formal notices at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Formal notices    Customers and sales › Formal notices   [+ New]                                             |
-| [count]   [chart: count by state]                                                                            |
+| [count] [total amount due] [new this month]   [chart: count by state]                                        |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] FORMAL NOTICE   STATE                                                                |
+| state             | [ ] FORMAL NOTIC   CUSTOMER   AMOUNT DUE   CHANNEL   SENT AT   HANDED OVER    STATE      |
+| customer          | [ ] ...                                                  Open >                          |
+| channel           | [ ] ...                                                  Open >                          |
+| handed over to    | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,6 +50,11 @@ filter, total and act on many formal notices at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | Formal notice | the record's title | text | yes |
+| Customer | customer | link to the record | yes |
+| Amount due | amount due | amount, right-aligned | yes |
+| Channel | channel | label | yes |
+| Sent at | sent at | date and time | yes |
+| Handed over to | handed over to | label | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -56,16 +64,24 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Customer | each linked customer | the visible rows (D488) |
+| Channel | email, post | the visible rows (D488) |
+| Handed over to | collection agency, court procedure | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: formal notices link to no other record type in their fields.
+- Formal notices of a chosen customer, or of the customers that match a filter.
+- From the other side: the customers that have formal notices, or none.
+- Formal notices of a chosen invoice, or of the invoices that match a filter.
+- From the other side: the invoices that have formal notices, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Total of amount due.
+- New this month, by sent at.
 
 Recomputed on the filtered visible rows (D487, C-16).
 

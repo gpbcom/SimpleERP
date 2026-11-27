@@ -37,9 +37,9 @@ See
 |---|---|---|---|---|
 | 1 | U07 | [S-F1-12](../screens/09-administration-reports/s-f01-12-users-overview-dashboard.md) | [UC-F1-12](../use-cases/09-administration-reports/uc-f01-12-draft-the-record-of-processing-activities.md) | Open the GDPR register draft |
 | 2 | U07 | [S-F1-12](../screens/09-administration-reports/s-f01-12-users-overview-dashboard.md) | [UC-F1-12](../use-cases/09-administration-reports/uc-f01-12-draft-the-record-of-processing-activities.md) | Complete and export |
-| 3 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F1-24](../screens/09-administration-reports/s-f01-24-access-rights-dashboard.md) | [UC-F1-18](../use-cases/11-team-delegation-and-access-review/uc-f01-18-run-an-access-review-campaign.md) | (Proposed) Read who holds which rights, and export it for an audit |
-| 4 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F1-25](../screens/09-administration-reports/s-f01-25-connections-and-ai-usage-dashboard.md) | [UC-F1-08](../use-cases/06-choose-an-ai-provider/uc-f01-08-choose-the-ai-provider-of-a-feature.md) | (Proposed) Read the calls per connection and the AI requests per feature and provider |
-| 5 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F1-26](../screens/09-administration-reports/s-f01-26-security-events-dashboard.md) | [UC-F1-22](../use-cases/13-security-and-audit/uc-f01-22-search-the-audit-trail-and-export-it-to-a-siem.md) | (Proposed) Read the failed sign-ins, two-factor resets and provider sessions |
+| 3 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F1-24](../screens/09-administration-reports/s-f01-24-access-rights-dashboard.md) | [UC-F1-18](../use-cases/11-team-delegation-and-access-review/uc-f01-18-run-an-access-review-campaign.md) | Read who holds which rights, and export it for an audit |
+| 4 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F1-25](../screens/09-administration-reports/s-f01-25-connections-and-ai-usage-dashboard.md) | [UC-F1-08](../use-cases/06-choose-an-ai-provider/uc-f01-08-choose-the-ai-provider-of-a-feature.md) | Read the calls per connection and the AI requests per feature and provider |
+| 5 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F1-26](../screens/09-administration-reports/s-f01-26-security-events-dashboard.md) | [UC-F1-22](../use-cases/13-security-and-audit/uc-f01-22-search-the-audit-trail-and-export-it-to-a-siem.md) | Read the failed sign-ins, two-factor resets and provider sessions |
 
 ### Entities and screens
 

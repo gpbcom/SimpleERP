@@ -36,10 +36,14 @@ may see: to find, filter, total and act on many plugin security reviews at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Plugin security reviews    Plugin store › Plugin security reviews   [+ New]                                  |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Active]   [chart: count by state]                                                                   |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] PLUGIN SECURITY REVIEW   STATE                                                       |
+| state             | [ ] PLUGIN SECUR   VERSION   REVIEWER   OUTSIDE CALL   NO SECRETS I   SIGNED   STATE     |
+| version           | [ ] ...                                                  Open >                          |
+| reviewer          | [ ] ...                                                  Open >                          |
+| outside calls de  | [ ] ...                                                  Open >                          |
+| no secrets in th  | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -49,8 +53,13 @@ may see: to find, filter, total and act on many plugin security reviews at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Plugin security review | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Plugin security review | title | text | yes |
+| Version | version | link to the record | yes |
+| Reviewer | reviewer | person's name | yes |
+| Outside calls declared | outside calls declared | yes or no | yes |
+| No secrets in the package | no secrets in the package | yes or no | yes |
+| Signed | signed | date and time | yes |
+| State | state | badge: Active, Approved, Changes asked, Rejected | yes |
 
 Secrets are never a column (VR-4).
 
@@ -58,17 +67,23 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, Approved, Changes asked, Rejected | the visible rows (D488) |
+| Version | each linked version | the visible rows (D488) |
+| Reviewer | each person, the user first | the visible rows (D488) |
+| Outside calls declared | yes, no | the visible rows (D488) |
+| No secrets in the package | yes, no | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: plugin security reviews link to no other record type in their fields.
+- Plugin security reviews of a chosen plugin version, or of the plugin versions that match a filter.
+- From the other side: the plugin versions that have plugin security reviews, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Active.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -80,6 +95,9 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: reviewer.
+- Open: Active.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -93,6 +111,8 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New plugin security review | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
+| Assign | bulk bar | the personas whose roles may assign | sets the reviewer; audited |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -108,7 +128,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| reviewer | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

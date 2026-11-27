@@ -4,7 +4,7 @@
 
 # 📝 UC-SC03-05 Record and approve time and expenses
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -61,7 +61,7 @@ Weekly per consultant.
 
 ## Error flows
 
-- 1e. A missing week: the consultant is reminded ((Proposed) on Monday morning).
+- 1e. A missing week: the consultant is reminded (on Monday morning).
 - 1f. Time on an engagement without a signed statement of work: the line is refused
   ([BR-SC03-02](../../business-rules/br-sc03-02-work-only-under-a-signed-statement.md)).
 - Any step: a call to a service or an outside system fails: it is retried first
@@ -142,7 +142,7 @@ sequenceDiagram
 1. **Given** the example consulting firm's S. B. with 7 hours on E-207 on Monday of W46 and a train ticket of 84.00 EUR
    **when** the engagement manager approves **then** both lines are ready to bill, the ticket as rebillable.
 2. **Given** S. B. without a timesheet for W46 **when** it is Monday of W47 **then** the consultant is reminded
-   ((Proposed) on Monday morning).
+   (on Monday morning).
 
 ## Non-functional notes
 
@@ -161,7 +161,7 @@ None specific to this use case; the sector's legal rules are listed in [SC03 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

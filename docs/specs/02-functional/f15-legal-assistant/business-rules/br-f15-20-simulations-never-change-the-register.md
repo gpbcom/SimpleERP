@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-20 Simulations never change the register
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

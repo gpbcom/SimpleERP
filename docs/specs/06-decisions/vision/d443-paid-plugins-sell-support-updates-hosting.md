@@ -38,7 +38,7 @@ UC-F14-06 and E-F14-05 lose seats and licence checks.
 - [D368](../f14-plugin-store/d368-plugin-store-coverage.md)
 - [D377](d377-plugins-agpl-only.md)
 - [D390](../f19-feature-factory/d390-feature-price-and-promotion-credit.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

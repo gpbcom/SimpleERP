@@ -24,7 +24,7 @@ Meal vouchers are part-paid by the employer, exempt within a yearly limit, and u
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12 (the page was verified on 8 July 2026).
+R3262-4 in force since 2010-12-03, CGI 81 in the version in force from 2026-10-31 to 2029-01-01 ([Code du travail, art. R3262-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023155179), [CGI, art. 81](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000055032575), read 2026-11-27); the 2026 exemption of 7.32 EUR per voucher ([URSSAF, Avantages en nature](https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/avantages-en-nature.html), read 2026-11-27).
 
 ## Enforced by
 

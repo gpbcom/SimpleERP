@@ -7,12 +7,14 @@
 
 ## Statement
 
-(Proposed) Music played at events is authorised and declared with its receipts; in France:
+Music played at events is authorised and declared with its receipts; in France:
 [CR-FR-179 Music copyright at events](../../../10-country-packs/france/events/cr-fr-179-music-copyright-authorisation.md).
 
 ## Why
 
-(Proposed) The timing is still to read.
+The organiser asks Sacem's authorisation before the event (a 20 % reduction applies when it is declared before the
+sound system is set up), declares it to the Spré as well, even for royalty-free music, and pays their invoices within
+25 days (CR-FR-179).
 
 ## Examples
 

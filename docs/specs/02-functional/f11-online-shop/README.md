@@ -71,8 +71,8 @@ Step 7, Plugins and the plugin store, of the [roadmap](../../00-vision/roadmap/r
 |---|---|---|---|
 | 📝 |  | [Use cases](use-cases/README.md) | ✅ |
 | 🔀 |  | [Flows](flows/README.md) | ✅ |
-| 📏 |  | [Business rules](business-rules/README.md) | 🔄 |
-| 🗃️ |  | [Data](data/README.md) | 🔄 |
+| 📏 |  | [Business rules](business-rules/README.md) | ✅ |
+| 🗃️ |  | [Data](data/README.md) | ✅ |
 | 🖥️ |  | [Screens](screens/README.md) | ✅ |
 | 🔑 |  | [Permissions](permissions.md) | ✅ |
 | 🔔 |  | [Notifications](notifications.md) | ✅ |
@@ -81,7 +81,7 @@ Step 7, Plugins and the plugin store, of the [roadmap](../../00-vision/roadmap/r
 | 🤖 |  | [AI](ai.md) | ✅ |
 | ⚖️ |  | [Regulatory](regulatory.md) | ✅ |
 | ❓ |  | [Open questions](open-questions.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
 ---
 

@@ -48,11 +48,29 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f09-02-activity-plan-e-f09-01-employee-record-active-desktop, light](s-f09-02-activity-plan-e-f09-01-employee-record-active-desktop-light.png) | ![s-f09-02-activity-plan-e-f09-01-employee-record-active-desktop, dark](s-f09-02-activity-plan-e-f09-01-employee-record-active-desktop-dark.png) |
 
-## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop
+## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop-dark.png) |
+| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop-dark.png) |
+
+## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop-dark.png) |
+
+## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop-dark.png) |
+
+## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop-dark.png) |
 
 ## s-f09-03-hr-duties-e-f09-01-employee-record-active-desktop
 
@@ -126,11 +144,29 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f09-07-offer-e-f09-07-applicant-active-desktop, light](s-f09-07-offer-e-f09-07-applicant-active-desktop-light.png) | ![s-f09-07-offer-e-f09-07-applicant-active-desktop, dark](s-f09-07-offer-e-f09-07-applicant-active-desktop-dark.png) |
 
-## s-f09-07-offer-e-f09-38-job-offer-active-desktop
+## s-f09-07-offer-e-f09-38-job-offer-sent-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f09-07-offer-e-f09-38-job-offer-active-desktop, light](s-f09-07-offer-e-f09-38-job-offer-active-desktop-light.png) | ![s-f09-07-offer-e-f09-38-job-offer-active-desktop, dark](s-f09-07-offer-e-f09-38-job-offer-active-desktop-dark.png) |
+| ![s-f09-07-offer-e-f09-38-job-offer-sent-desktop, light](s-f09-07-offer-e-f09-38-job-offer-sent-desktop-light.png) | ![s-f09-07-offer-e-f09-38-job-offer-sent-desktop, dark](s-f09-07-offer-e-f09-38-job-offer-sent-desktop-dark.png) |
+
+## s-f09-07-offer-e-f09-38-job-offer-signed-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-07-offer-e-f09-38-job-offer-signed-desktop, light](s-f09-07-offer-e-f09-38-job-offer-signed-desktop-light.png) | ![s-f09-07-offer-e-f09-38-job-offer-signed-desktop, dark](s-f09-07-offer-e-f09-38-job-offer-signed-desktop-dark.png) |
+
+## s-f09-07-offer-e-f09-38-job-offer-refused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-07-offer-e-f09-38-job-offer-refused-desktop, light](s-f09-07-offer-e-f09-38-job-offer-refused-desktop-light.png) | ![s-f09-07-offer-e-f09-38-job-offer-refused-desktop, dark](s-f09-07-offer-e-f09-38-job-offer-refused-desktop-dark.png) |
+
+## s-f09-07-offer-e-f09-38-job-offer-hired-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-07-offer-e-f09-38-job-offer-hired-desktop, light](s-f09-07-offer-e-f09-38-job-offer-hired-desktop-light.png) | ![s-f09-07-offer-e-f09-38-job-offer-hired-desktop, dark](s-f09-07-offer-e-f09-38-job-offer-hired-desktop-dark.png) |
 
 ## s-f09-08-referrals-e-f09-07-applicant-active-desktop
 
@@ -138,11 +174,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f09-08-referrals-e-f09-07-applicant-active-desktop, light](s-f09-08-referrals-e-f09-07-applicant-active-desktop-light.png) | ![s-f09-08-referrals-e-f09-07-applicant-active-desktop, dark](s-f09-08-referrals-e-f09-07-applicant-active-desktop-dark.png) |
 
-## s-f09-08-referrals-e-f09-36-employee-referral-active-desktop
+## s-f09-08-referrals-e-f09-36-employee-referral-tracked-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f09-08-referrals-e-f09-36-employee-referral-active-desktop, light](s-f09-08-referrals-e-f09-36-employee-referral-active-desktop-light.png) | ![s-f09-08-referrals-e-f09-36-employee-referral-active-desktop, dark](s-f09-08-referrals-e-f09-36-employee-referral-active-desktop-dark.png) |
+| ![s-f09-08-referrals-e-f09-36-employee-referral-tracked-desktop, light](s-f09-08-referrals-e-f09-36-employee-referral-tracked-desktop-light.png) | ![s-f09-08-referrals-e-f09-36-employee-referral-tracked-desktop, dark](s-f09-08-referrals-e-f09-36-employee-referral-tracked-desktop-dark.png) |
+
+## s-f09-08-referrals-e-f09-36-employee-referral-not-counted-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-08-referrals-e-f09-36-employee-referral-not-counted-desktop, light](s-f09-08-referrals-e-f09-36-employee-referral-not-counted-desktop-light.png) | ![s-f09-08-referrals-e-f09-36-employee-referral-not-counted-desktop, dark](s-f09-08-referrals-e-f09-36-employee-referral-not-counted-desktop-dark.png) |
+
+## s-f09-08-referrals-e-f09-36-employee-referral-hired-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-08-referrals-e-f09-36-employee-referral-hired-desktop, light](s-f09-08-referrals-e-f09-36-employee-referral-hired-desktop-light.png) | ![s-f09-08-referrals-e-f09-36-employee-referral-hired-desktop, dark](s-f09-08-referrals-e-f09-36-employee-referral-hired-desktop-dark.png) |
 
 ## s-f09-37-linkedin-sourcing-search-e-f09-44-sourcing-search-draft-desktop
 
@@ -306,6 +354,12 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f09-39-prospect-conversations-e-f09-47-outreach-message-planned-desktop, light](s-f09-39-prospect-conversations-e-f09-47-outreach-message-planned-desktop-light.png) | ![s-f09-39-prospect-conversations-e-f09-47-outreach-message-planned-desktop, dark](s-f09-39-prospect-conversations-e-f09-47-outreach-message-planned-desktop-dark.png) |
 
+## s-f09-39-prospect-conversations-e-f09-47-outreach-message-prepared-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-39-prospect-conversations-e-f09-47-outreach-message-prepared-desktop, light](s-f09-39-prospect-conversations-e-f09-47-outreach-message-prepared-desktop-light.png) | ![s-f09-39-prospect-conversations-e-f09-47-outreach-message-prepared-desktop, dark](s-f09-39-prospect-conversations-e-f09-47-outreach-message-prepared-desktop-dark.png) |
+
 ## s-f09-39-prospect-conversations-e-f09-47-outreach-message-sent-desktop
 
 | Light | Dark |
@@ -323,6 +377,12 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 | Light | Dark |
 |---|---|
 | ![s-f09-39-prospect-conversations-e-f09-47-outreach-message-cancelled-desktop, light](s-f09-39-prospect-conversations-e-f09-47-outreach-message-cancelled-desktop-light.png) | ![s-f09-39-prospect-conversations-e-f09-47-outreach-message-cancelled-desktop, dark](s-f09-39-prospect-conversations-e-f09-47-outreach-message-cancelled-desktop-dark.png) |
+
+## s-f09-39-prospect-conversations-e-f09-47-outreach-message-expired-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-39-prospect-conversations-e-f09-47-outreach-message-expired-desktop, light](s-f09-39-prospect-conversations-e-f09-47-outreach-message-expired-desktop-light.png) | ![s-f09-39-prospect-conversations-e-f09-47-outreach-message-expired-desktop, dark](s-f09-39-prospect-conversations-e-f09-47-outreach-message-expired-desktop-dark.png) |
 
 ## s-f09-39-prospect-conversations-e-f09-47-outreach-message-received-desktop
 

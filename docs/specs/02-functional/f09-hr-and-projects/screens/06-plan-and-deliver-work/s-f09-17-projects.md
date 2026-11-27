@@ -11,6 +11,9 @@
 - [U02 Manager](../../../../01-users/personas/u02-manager.md)
 - [U03 Sales](../../../../01-users/personas/u03-sales.md)
 - [U09 Customer](../../../../01-users/personas/u09-customer.md)
+- [U06 Human resources](../../../../01-users/personas/u06-hr.md): only the tasks assigned to them, such as a prepared
+  LinkedIn message to send
+  ([D570](../../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md))
 
 ## Purpose
 
@@ -18,7 +21,8 @@ Manage projects and tasks.
 
 ## Entry points
 
-HR and projects in the menu; the AI assistant (BR-F3-34).
+HR and projects in the menu; the AI assistant (BR-F3-34); for HR, the notification of a prepared LinkedIn message,
+which opens their task list on its task (D570).
 
 ## Wireframe
 
@@ -30,6 +34,8 @@ See the images in the flow page (D120).
 |---|---|---|---|
 | FL-F9-06 step 2, U02 | desktop | ![FL-F9-06 step 2, U02, light](../../images/06-plan-and-deliver-work/u02-manager/2-projects-desktop-light.png) | ![FL-F9-06 step 2, U02, dark](../../images/06-plan-and-deliver-work/u02-manager/2-projects-desktop-dark.png) |
 | FL-F9-06 step 2, U02 | phone | ![FL-F9-06 step 2, U02, light](../../images/06-plan-and-deliver-work/u02-manager/2-projects-phone-light.png) | ![FL-F9-06 step 2, U02, dark](../../images/06-plan-and-deliver-work/u02-manager/2-projects-phone-dark.png) |
+| Prepared LinkedIn messages, U06 | desktop | ![Prepared LinkedIn messages, U06, light](../../images/06-plan-and-deliver-work/u06-hr/2-projects-desktop-light.png) | ![Prepared LinkedIn messages, U06, dark](../../images/06-plan-and-deliver-work/u06-hr/2-projects-desktop-dark.png) |
+| Prepared LinkedIn messages, U06 | phone | ![Prepared LinkedIn messages, U06, light](../../images/06-plan-and-deliver-work/u06-hr/2-projects-phone-light.png) | ![Prepared LinkedIn messages, U06, dark](../../images/06-plan-and-deliver-work/u06-hr/2-projects-phone-dark.png) |
 | Empty | desktop | ![Empty, light](../../images/states/s-f09-17-projects-empty-desktop-light.png) | ![Empty, dark](../../images/states/s-f09-17-projects-empty-desktop-dark.png) |
 | Loading | desktop | ![Loading, light](../../images/states/s-f09-17-projects-loading-desktop-light.png) | ![Loading, dark](../../images/states/s-f09-17-projects-loading-desktop-dark.png) |
 | Read-only | desktop | ![Read-only, light](../../images/states/s-f09-17-projects-read-only-desktop-light.png) | ![Read-only, dark](../../images/states/s-f09-17-projects-read-only-desktop-dark.png) |
@@ -41,11 +47,18 @@ As its entities.
 
 ## Actions
 
-As its use case's main flow.
+As its use case's main flow, and for a task an outreach sequence created:
+
+| Action | Where | Who may use it | Result |
+|---|---|---|---|
+| Send | task carrying a prepared outreach message | the HR user the task is assigned to | the message goes out through Unipile within the account's limits (BR-F9-41), and the task closes as Done, outcome sent (D570) |
+| Open the thread | task carrying a prepared outreach message | the HR user the task is assigned to | [S-F9-39 Prospect conversations](../02-recruit/s-f09-39-prospect-conversations.md) on that message |
 
 ## States
 
-- Normal: Manage projects and tasks, as the wireframe shows.
+- Normal: Manage projects and tasks, as the wireframe shows. A task carrying a prepared outreach message shows the
+  prospect, the kind of message, its text, the date it expires and Send; once sent, expired or cancelled it closes with
+  its outcome ([E-F9-18](../../data/e-f09-18-project-and-task.md)).
 - Empty: No project yet, with New project.
 - Loading: skeleton rows in place of the list ([C-03](../../../../04-ux/design-system/components/c-03-data-table.md));
   actions are disabled until it has loaded.

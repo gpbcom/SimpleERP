@@ -4,12 +4,12 @@
 
 # 📏 BR-F20-16 Written report after a major incident
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 After an incident that interrupted or degraded customers' service, each affected customer receives a written report
-within (Proposed) 5 business days: what happened, when, who was affected, the cause, what was done and what will prevent
+within 5 business days: what happened, when, who was affected, the cause, what was done and what will prevent
 it.
 
 ## Why

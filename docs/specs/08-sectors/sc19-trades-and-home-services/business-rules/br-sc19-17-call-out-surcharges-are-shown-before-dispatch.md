@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-17 Call-out surcharges are shown before dispatch
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,8 +14,10 @@ is refused.
 ## Why
 
 A surcharge announced only on the invoice is a dispute and a breach of the price information the law requires
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The legal rest of the rota
+follows [CR-FR-042 Working time and rest](../../../10-country-packs/france/labour/cr-fr-042-working-time-and-rest.md)
+(11 consecutive hours a day, 24 plus 11 a week). (⚖️ lawyer review before launch, D574) The price information before a call-out is
+still to read: the arrêté of 24 January 2017 on the price information of repair and maintenance services at home.
 
 ## Examples
 

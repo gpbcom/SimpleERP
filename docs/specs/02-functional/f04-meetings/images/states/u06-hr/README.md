@@ -30,11 +30,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f04-01-meeting-e-f04-02-transcript-checked-desktop, light](s-f04-01-meeting-e-f04-02-transcript-checked-desktop-light.png) | ![s-f04-01-meeting-e-f04-02-transcript-checked-desktop, dark](s-f04-01-meeting-e-f04-02-transcript-checked-desktop-dark.png) |
 
-## s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop
+## s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop, light](s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop, dark](s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop-dark.png) |
+| ![s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop, light](s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop, dark](s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop-dark.png) |
+
+## s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop, light](s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop, dark](s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop-dark.png) |
+
+## s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop, light](s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop-light.png) | ![s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop, dark](s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop-dark.png) |
 
 ## s-f04-02-live-transcript-e-f04-02-transcript-checked-desktop
 
@@ -42,11 +54,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f04-02-live-transcript-e-f04-02-transcript-checked-desktop, light](s-f04-02-live-transcript-e-f04-02-transcript-checked-desktop-light.png) | ![s-f04-02-live-transcript-e-f04-02-transcript-checked-desktop, dark](s-f04-02-live-transcript-e-f04-02-transcript-checked-desktop-dark.png) |
 
-## s-f04-05-meeting-review-e-f04-17-meeting-summary-active-desktop
+## s-f04-05-meeting-review-e-f04-17-meeting-summary-draft-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f04-05-meeting-review-e-f04-17-meeting-summary-active-desktop, light](s-f04-05-meeting-review-e-f04-17-meeting-summary-active-desktop-light.png) | ![s-f04-05-meeting-review-e-f04-17-meeting-summary-active-desktop, dark](s-f04-05-meeting-review-e-f04-17-meeting-summary-active-desktop-dark.png) |
+| ![s-f04-05-meeting-review-e-f04-17-meeting-summary-draft-desktop, light](s-f04-05-meeting-review-e-f04-17-meeting-summary-draft-desktop-light.png) | ![s-f04-05-meeting-review-e-f04-17-meeting-summary-draft-desktop, dark](s-f04-05-meeting-review-e-f04-17-meeting-summary-draft-desktop-dark.png) |
+
+## s-f04-05-meeting-review-e-f04-17-meeting-summary-published-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f04-05-meeting-review-e-f04-17-meeting-summary-published-desktop, light](s-f04-05-meeting-review-e-f04-17-meeting-summary-published-desktop-light.png) | ![s-f04-05-meeting-review-e-f04-17-meeting-summary-published-desktop, dark](s-f04-05-meeting-review-e-f04-17-meeting-summary-published-desktop-dark.png) |
+
+## s-f04-05-meeting-review-e-f04-17-meeting-summary-not-checked-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f04-05-meeting-review-e-f04-17-meeting-summary-not-checked-desktop, light](s-f04-05-meeting-review-e-f04-17-meeting-summary-not-checked-desktop-light.png) | ![s-f04-05-meeting-review-e-f04-17-meeting-summary-not-checked-desktop, dark](s-f04-05-meeting-review-e-f04-17-meeting-summary-not-checked-desktop-dark.png) |
 
 ## s-f04-05-meeting-review-e-f04-03-summary-template-draft-desktop
 
@@ -72,11 +96,17 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f04-12-interview-evaluation-e-f04-07-evaluation-grid-active-desktop, light](s-f04-12-interview-evaluation-e-f04-07-evaluation-grid-active-desktop-light.png) | ![s-f04-12-interview-evaluation-e-f04-07-evaluation-grid-active-desktop, dark](s-f04-12-interview-evaluation-e-f04-07-evaluation-grid-active-desktop-dark.png) |
 
-## s-f04-12-interview-evaluation-e-f04-21-interview-debrief-active-desktop
+## s-f04-12-interview-evaluation-e-f04-21-interview-debrief-to-validate-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f04-12-interview-evaluation-e-f04-21-interview-debrief-active-desktop, light](s-f04-12-interview-evaluation-e-f04-21-interview-debrief-active-desktop-light.png) | ![s-f04-12-interview-evaluation-e-f04-21-interview-debrief-active-desktop, dark](s-f04-12-interview-evaluation-e-f04-21-interview-debrief-active-desktop-dark.png) |
+| ![s-f04-12-interview-evaluation-e-f04-21-interview-debrief-to-validate-desktop, light](s-f04-12-interview-evaluation-e-f04-21-interview-debrief-to-validate-desktop-light.png) | ![s-f04-12-interview-evaluation-e-f04-21-interview-debrief-to-validate-desktop, dark](s-f04-12-interview-evaluation-e-f04-21-interview-debrief-to-validate-desktop-dark.png) |
+
+## s-f04-12-interview-evaluation-e-f04-21-interview-debrief-sent-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f04-12-interview-evaluation-e-f04-21-interview-debrief-sent-desktop, light](s-f04-12-interview-evaluation-e-f04-21-interview-debrief-sent-desktop-light.png) | ![s-f04-12-interview-evaluation-e-f04-21-interview-debrief-sent-desktop, dark](s-f04-12-interview-evaluation-e-f04-21-interview-debrief-sent-desktop-dark.png) |
 
 ## s-f04-24-employee-calendar-e-f04-26-employee-calendar-active-desktop
 

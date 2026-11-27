@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC06-20 Alcohol licences
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

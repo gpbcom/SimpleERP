@@ -13,7 +13,7 @@ Covers UC-F16-01, UC-F16-06.
 
 See each use case.
 
-- [U16 Office worker](../../../01-users/personas/u16-office-worker.md), acting in the chart, step 36i (Proposed)
+- [U16 Office worker](../../../01-users/personas/u16-office-worker.md), acting in the chart, step 36i
 
 ## Flowchart
 

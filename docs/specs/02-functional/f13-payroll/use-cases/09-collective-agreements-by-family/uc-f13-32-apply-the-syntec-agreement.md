@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-32 Apply the Syntec agreement
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -129,7 +129,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 ## Regulatory references
 
 [CR-FR-099 Day-based working time](../../../../10-country-packs/france/labour/cr-fr-099-day-based-working-time.md); the
-Syntec grid: (Proposed) to read.
+Syntec grid: (⚖️ lawyer review before launch, D574) to read: the Syntec agreement (IDCC 1486)
+classification and minimum pay grid.
 
 ## Related use cases
 

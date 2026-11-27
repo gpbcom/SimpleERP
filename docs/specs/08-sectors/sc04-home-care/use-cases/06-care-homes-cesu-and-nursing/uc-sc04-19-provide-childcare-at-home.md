@@ -4,7 +4,7 @@
 
 # 📝 UC-SC04-19 Provide childcare at home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -49,7 +49,8 @@ A contract lasts months to years; one statement each month.
 1. The coordinator opens the childcare screen
    ([S-SC04-19 Childcare](../../screens/06-care-homes-cesu-and-nursing/s-sc04-19-childcare.md)) and creates a contract
    with the parents, the child, the carer, the weekly schedule and the hourly rate.
-2. SimpleERP computes the aid from the family's resources, the child's age and the hours, using the table of the
+2. SimpleERP checks the child's age for eligibility and computes the aid from the family's resources, the number of
+   children, the care mode, the paid hours and the net pay, using the table of the
    country pack, and shows the parents' share
    ([BR-SC04-19](../../business-rules/br-sc04-19-family-allowance-aid-follows-the-caf-rules.md)).
 3. The parents sign the contract on the phone
@@ -157,14 +158,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-The family allowance fund pays an aid for childcare at home that depends on the child's age, the family's
-resources and the hours; the table of the aid is kept as data of the France pack, never in the page. The France-pack
-rule is written later. Related:
+The family allowance fund pays an aid for childcare at home computed from the household's resources, the number of
+children, the care mode, the paid hours and the net pay; the child's age decides only who is eligible; the table of the
+aid is kept as data of the France pack, never in the page. The France-pack rule is listed below. Related:
 [CR-FR-102](../../../../10-country-packs/france/home-care/cr-fr-102-personal-services-registration.md),
 [CR-FR-103](../../../../10-country-packs/france/tax-and-vat/cr-fr-103-home-services-tax-credit.md),
 [CR-FR-210](../../../../10-country-packs/france/labour/cr-fr-210-qualifications-tied-to-tasks.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-232 Childcare at home and the PAJE aid](../../../../10-country-packs/france/home-care/cr-fr-232-childcare-paje.md)
 
 ## Related use cases

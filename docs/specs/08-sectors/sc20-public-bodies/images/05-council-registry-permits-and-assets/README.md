@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-SC20-05 Council, civil registry, permits and assets
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

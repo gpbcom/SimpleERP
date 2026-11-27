@@ -10,7 +10,13 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f06-10-price-lists-e-f06-08-sales-price-list-active-desktop.html`
 - `s-f06-10-price-lists-e-f06-08-sales-price-list-active-phone.html`
 - `s-f06-11-lead-scoring-e-f06-20-lead-active-desktop.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-qualified-desktop.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-disqualified-desktop.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-converted-desktop.html`
 - `s-f06-11-lead-scoring-e-f06-20-lead-active-phone.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-qualified-phone.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-disqualified-phone.html`
+- `s-f06-11-lead-scoring-e-f06-20-lead-converted-phone.html`
 - `s-f06-21-targets-and-commissions-e-f06-18-commission-plan-and-target-active-desktop.html`
 - `s-f06-21-targets-and-commissions-e-f06-18-commission-plan-and-target-active-phone.html`
 - `s-f06-21-targets-and-commissions-e-f06-18-commission-plan-and-target-closed-desktop.html`

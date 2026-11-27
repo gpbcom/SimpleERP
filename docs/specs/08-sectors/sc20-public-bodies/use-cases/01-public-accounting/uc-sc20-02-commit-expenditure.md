@@ -3,7 +3,7 @@
 
 # 📝 UC-SC20-02 Commit expenditure
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -144,11 +144,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A local body commits expenditure before ordering: the authorising officer reserves the credit, and the
-commitment is the first step before the order, the service done, the payment order and the payment by the public
-accountant. Commitments above the credit voted are irregular. The chapters and thresholds are data of the France pack.
+A local body commits expenditure before ordering: the authorising officer reserves the credit, and the commitment is the
+first step before the order, the service done, the payment order and the payment by the public accountant. Commitments
+above the credit voted are irregular. The chapters and thresholds are data of the France pack. Since the
+budget year 2026 the mayor or the president keeps the commitment accounts, under a joint ministerial order (CGCT
+L1612-38, created by Ordonnance n° 2025-526, which repealed L2342-2), and the accountant pays only within the credits
+opened (L1612-39, [CR-FR-250](../../../../10-country-packs/france/accounting/cr-fr-250-public-accounting-m57.md)).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule on the budget:
   [CR-FR-250 Public accounting M57](../../../../10-country-packs/france/accounting/cr-fr-250-public-accounting-m57.md)
 
 ## Related use cases

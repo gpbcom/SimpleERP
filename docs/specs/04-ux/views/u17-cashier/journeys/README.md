@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U17-01 | [Serve the queue and close the till](j-u17-01-serve-the-queue.md) | 🔄 |
+| 🧭 | J-U17-01 | [Serve the queue and close the till](j-u17-01-serve-the-queue.md) | ✅ |
 
 ---
 

@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC10-07 Short stays, commercial leases, LMNP and coworking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

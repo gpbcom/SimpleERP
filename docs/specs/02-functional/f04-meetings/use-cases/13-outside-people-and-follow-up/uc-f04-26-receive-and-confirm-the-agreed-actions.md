@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-26 Receive and confirm the agreed actions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -36,7 +36,7 @@ After most customer meetings.
 ## Postconditions
 
 - **Succeeded:** the customer confirmed, or asked a change the organiser handles.
-- **Failed:** no answer: reminded once (Proposed: after 3 days).
+- **Failed:** no answer: reminded once (after 3 days).
 
 ## Main flow
 
@@ -51,7 +51,7 @@ After most customer meetings.
 
 ## Alternative flows
 
-- 2a. The customer has no portal account: the email holds a link valid 30 days (Proposed).
+- 2a. The customer has no portal account: the email holds a link valid 30 days.
 
 ## Error flows
 

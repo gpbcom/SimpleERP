@@ -3,7 +3,7 @@
 
 # 📏 BR-F16-07 Refund limits per intent
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -18,9 +18,9 @@ A block that moves money needs limits (D473).
 
 | Case | Result |
 |---|---|
-| Late-delivery refund 40.00 EUR, limit 50.00 EUR per request (Proposed) | refunded automatically |
+| Late-delivery refund 40.00 EUR, limit 50.00 EUR per request | refunded automatically |
 | Duplicate-charge refund 180.00 EUR, limit 150.00 EUR | prepared, waits for approval |
-| Third refund to the same customer in 30 days, limit 2 (Proposed) | waits for approval |
+| Third refund to the same customer in 30 days, limit 2 | waits for approval |
 
 ## Applies to
 
@@ -35,7 +35,7 @@ None: no setting lets an agent refund without limit.
 
 ## Configurable
 
-The support lead sets the limits per intent; the owner approves limits above (Proposed) 500.00 EUR.
+The support lead sets the limits per intent; the owner approves limits above 500.00 EUR.
 
 ## Open questions
 

@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F12-13 Energy, passport and work in progress
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

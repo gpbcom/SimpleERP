@@ -2,20 +2,20 @@
 
 # 📦 Wholesale and distribution
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Company
 
-(Proposed) Distribution Lemoine, a fictional food and drinks wholesaler supplying restaurants, shops and supermarkets.
+Distribution Lemoine, a fictional food and drinks wholesaler supplying restaurants, shops and supermarkets.
 
 ## Activity
 
-(Proposed) Buying from producers and importers, storing in its warehouse and delivering to its customers; sales reps on
+Buying from producers and importers, storing in its warehouse and delivering to its customers; sales reps on
 the road, retail chains ordering by EDI.
 
 ## Size
 
-(Proposed) 60 employees: 8 sales representatives, 4 inside sales people, 3 buyers, 22 warehouse operators, drivers,
+60 employees: 8 sales representatives, 4 inside sales people, 3 buyers, 22 warehouse operators, drivers,
 accounting and the owner; one warehouse; about 6,000 items and 1,500 customers. The sector's profile covers wholesalers
 of food, building, industrial and consumer goods. Several locations are possible
 ([D32](../../06-decisions/technical/d32-several-locations.md)).

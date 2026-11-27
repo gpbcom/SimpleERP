@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-26 Read sales and margin reports
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -116,7 +116,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A year of 50,000 invoices within 3 seconds (Proposed).
+A year of 50,000 invoices within 3 seconds.
 
 ## Regulatory references
 

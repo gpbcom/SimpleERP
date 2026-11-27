@@ -25,6 +25,7 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc16-05-ticketing-loading-desktop.html`
 - `s-sc16-05-ticketing-offline-phone.html`
 - `s-sc16-05-ticketing-read-only-desktop.html`
+- `s-sc16-05-ticketing-sales-closed-phone.html`
 - `s-sc16-06-access-control-empty-desktop.html`
 - `s-sc16-06-access-control-loading-desktop.html`
 - `s-sc16-06-access-control-offline-phone.html`
@@ -93,6 +94,7 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc16-22-cinema-loading-desktop.html`
 - `s-sc16-22-cinema-offline-phone.html`
 - `s-sc16-22-cinema-read-only-desktop.html`
+- `s-sc16-22-cinema-sales-off-desktop.html`
 - `s-sc16-23-touring-empty-desktop.html`
 - `s-sc16-23-touring-loading-desktop.html`
 - `s-sc16-23-touring-offline-phone.html`

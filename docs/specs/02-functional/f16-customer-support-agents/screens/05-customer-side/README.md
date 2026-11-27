@@ -13,4 +13,4 @@ The screens of this flow.
 |---|---|---|---|
 | 🖥️ | S-F16-09 | [Satisfaction survey](s-f16-09-satisfaction-survey.md) | ✅ |
 | 🖥️ | S-F16-10 | [Help centre](s-f16-10-help-centre.md) | ✅ |
-| 🖥️ | S-F16-11 | [My requests](s-f16-11-my-requests.md) | 🔄 |
+| 🖥️ | S-F16-11 | [My requests](s-f16-11-my-requests.md) | ✅ |

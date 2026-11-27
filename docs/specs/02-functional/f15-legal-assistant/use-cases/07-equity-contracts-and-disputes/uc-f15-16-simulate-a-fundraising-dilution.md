@@ -150,7 +150,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 A capital increase needs a decision of the shareholders and, for the new shares, subscription papers; the
-simulation is not one of them and carries no legal weight. The France-pack rule is written later. Related:
+simulation is not one of them and carries no legal weight. The France-pack rule is
+[CR-FR-264 Capital increase decisions and subscriptions](../../../../10-country-packs/france/company/cr-fr-264-capital-increase.md). Related:
 [CR-FR-203](../../../../10-country-packs/france/digital/cr-fr-203-software-copyright-assignment.md).
 
 ## Related use cases

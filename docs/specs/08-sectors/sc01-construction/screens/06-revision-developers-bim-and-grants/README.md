@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC01-16 | [Price revision](s-sc01-16-price-revision.md) | 🔄 |
-| 🖥️ | S-SC01-17 | [Off-plan sales](s-sc01-17-off-plan-sales.md) | 🔄 |
-| 🖥️ | S-SC01-18 | [BIM quantities](s-sc01-18-bim-quantities.md) | 🔄 |
-| 🖥️ | S-SC01-19 | [Renovation grants](s-sc01-19-renovation-grants.md) | 🔄 |
+| 🖥️ | S-SC01-16 | [Price revision](s-sc01-16-price-revision.md) | ✅ |
+| 🖥️ | S-SC01-17 | [Off-plan sales](s-sc01-17-off-plan-sales.md) | ✅ |
+| 🖥️ | S-SC01-18 | [BIM quantities](s-sc01-18-bim-quantities.md) | ✅ |
+| 🖥️ | S-SC01-19 | [Renovation grants](s-sc01-19-renovation-grants.md) | ✅ |

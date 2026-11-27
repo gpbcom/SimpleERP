@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC18-15 Progress
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

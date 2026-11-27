@@ -3,26 +3,26 @@
 
 # 🖥️ S-T08-03 Index job
 
-**Status:** 🔄 (Proposed) drawn in step 36j from its entity and list page; waits for the owner
+**Status:** ✅ specified
 
 ## Personas
 
 - [U07 Administrator](../../../01-users/personas/u07-administrator.md)
 - [U48 Hosting engineer](../../../01-users/personas/u48-hosting-engineer.md)
 
-(Proposed) Each persona sees the fields and the actions its roles allow, as on
+Each persona sees the fields and the actions its roles allow, as on
 [S-T08-L03 Index jobs](00-lists/s-t08-l03-index-jobs.md): the record rules and field rules of T2.
 
 ## Purpose
 
-(Proposed) See one [E-T08-03 Index job](../data/e-t08-03-index-job.md) and act on it: its fields, its state and the
+See one [E-T08-03 Index job](../data/e-t08-03-index-job.md) and act on it: its fields, its state and the
 changes its state allows. It is the page the rows of [S-T08-L03 Index jobs](00-lists/s-t08-l03-index-jobs.md) open
 (VR-13).
 
 ## Entry points
 
 - [S-T08-L03 Index jobs](00-lists/s-t08-l03-index-jobs.md) › a row's Open ›.
-- (Proposed) A link to the record wherever another page names it, and global search.
+- A link to the record wherever another page names it, and global search.
 - The flows of Shown in.
 
 ## Wireframe
@@ -51,7 +51,7 @@ changes its state allows. It is the page the rows of [S-T08-L03 Index jobs](00-l
 
 ## Fields and columns
 
-As [E-T08-03 Index job](../data/e-t08-03-index-job.md#fields). (Proposed) A field is read-only when the record's state
+As [E-T08-03 Index job](../data/e-t08-03-index-job.md#fields). A field is read-only when the record's state
 is final or the role's field rules lock it; personal-data fields show only to the roles that may read them (VR-12);
 secrets never show.
 
@@ -59,9 +59,9 @@ secrets never show.
 
 | Action | Who | Result |
 |---|---|---|
-| Edit | the personas whose roles may change it | (Proposed) saves the fields; audited |
-| Change state | the personas whose roles may change it | (Proposed) one of the Lifecycle's transitions: none: the record has one state |
-| Ask the AI assistant | every persona of the page | (Proposed) an answer about this record from the data the user may see, with its sources |
+| Edit | the personas whose roles may change it | saves the fields; audited |
+| Change state | the personas whose roles may change it | one of the Lifecycle's transitions: none: the record has one state |
+| Ask the AI assistant | every persona of the page | an answer about this record from the data the user may see, with its sources |
 | Back to the list | every persona of the page | [S-T08-L03 Index jobs](00-lists/s-t08-l03-index-jobs.md) |
 
 ## States
@@ -89,7 +89,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop and tablet; on a phone the fields stack in one column and the actions move to a menu.
+Desktop and tablet; on a phone the fields stack in one column and the actions move to a menu.
 
 ## Accessibility
 

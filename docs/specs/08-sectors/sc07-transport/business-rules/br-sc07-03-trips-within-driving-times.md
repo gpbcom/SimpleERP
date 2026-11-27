@@ -3,11 +3,11 @@
 
 # 📏 BR-SC07-03 Trips within driving times
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A trip is assigned to a driver only if it fits their remaining driving and rest times. Trips are built by the
+A trip is assigned to a driver only if it fits their remaining driving and rest times. Trips are built by the
 shared rounds optimiser, which respects working time,
 [BR-F9-22 Rounds respect travel, skills, continuity and working time](../../../02-functional/f09-hr-and-projects/business-rules/br-f09-22-rounds-respect-travel-skills-continuity-and-working-time.md);
 transport adds the driving and rest times of the country pack; in France:
@@ -15,7 +15,9 @@ transport adds the driving and rest times of the country pack; in France:
 
 ## Why
 
-(Proposed) The limits are still to read.
+The limits are those of [CR-FR-117](../../../10-country-packs/france/transport/cr-fr-117-driving-and-rest-times.md): 9 hours of driving a day (10 hours
+twice a week), 56 hours a week and 90 hours over two weeks; a 45-minute break after 4 h 30 of driving; a daily rest of
+11 hours and a weekly rest of 45 hours, with the reductions the regulation allows.
 
 ## Examples
 

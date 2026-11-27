@@ -4,7 +4,7 @@
 
 # 🖥️ S-F24-28 Warehouse export
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

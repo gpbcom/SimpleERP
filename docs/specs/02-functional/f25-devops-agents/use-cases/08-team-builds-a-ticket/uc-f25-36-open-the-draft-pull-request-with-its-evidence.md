@@ -4,7 +4,7 @@
 
 # 📝 UC-F25-36 Open the draft pull request with its evidence
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -112,7 +112,7 @@ Once per ticket, and again when a later run updates the same branch.
 
 The release engineer opens or updates the draft and writes its body; no agent marks it ready, approves or merges it.
 Maintainers review, approve and merge ([BR-F25-05](../../business-rules/br-f25-05-agents-never-merge-or-deploy.md)). The
-requesting company's owner reads the plain-words status of their own request only. (Proposed) The requester never sees
+requesting company's owner reads the plain-words status of their own request only. The requester never sees
 the code, the commits or the commands.
 
 ## Notifications
@@ -134,7 +134,7 @@ requester is written as for any request ([BR-F25-09](../../business-rules/br-f25
 
 ## API, MCP and A2A exposure
 
-(Proposed) The draft pull request is opened by a workflow step with the per-job App token, as for the agents' other pull
+The draft pull request is opened by a workflow step with the per-job App token, as for the agents' other pull
 requests ([D437](../../../../06-decisions/f25-devops-agents/d437-devops-agents-in-the-ci.md)). The requester's status is
 read through the API (T5). No A2A skill.
 
@@ -177,11 +177,11 @@ sequenceDiagram
 
 ## Non-functional notes
 
-(Proposed) The screen answers within 2 seconds for 10,000 records; every change is audited.
+The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-(Proposed) The body never carries a customer's details: the USER ticket holds a sanitised summary, as the build study
+The body never carries a customer's details: the USER ticket holds a sanitised summary, as the build study
 sets. A vulnerability fix stays in its private advisory until disclosure
 ([BR-F25-12](../../business-rules/br-f25-12-security-reports-stay-private.md),
 [BR-F25-15](../../business-rules/br-f25-15-vulnerabilities-handled-under-the-cra.md)).

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC06-18 Room blocks are released at the cut-off date
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

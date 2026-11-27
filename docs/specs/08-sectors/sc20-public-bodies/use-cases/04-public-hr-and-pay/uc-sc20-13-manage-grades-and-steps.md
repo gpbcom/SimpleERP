@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-13 Manage grades and steps
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -141,12 +141,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Civil servants of a local body belong to a staff category and a grade, with steps; each step has an index
-number that sets the pay, and a step is changed after a time set by the statute. Contract staff follow their contract.
-The grades, steps, index numbers and times are data of the France pack. Related:
+Civil servants of a local body belong to a staff category and a grade, with steps; each step has an index number that
+sets the pay, and a step is changed after a time set by the statute. Contract staff follow their contract. The grades,
+steps, index numbers and times are data of the France pack. (⚖️ lawyer review before launch, D574) The France-pack rule is still to
+write: to read the advancement in step of the Code général de la fonction publique and the statutory decree of each
+cadre d'emplois. Related:
 [CR-FR-210](../../../../10-country-packs/france/labour/cr-fr-210-qualifications-tied-to-tasks.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule on the index point and contributions:
   [CR-FR-252 Public-sector contributions](../../../../10-country-packs/france/payroll/cr-fr-252-public-sector-contributions.md)
 
 ## Related use cases

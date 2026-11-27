@@ -38,7 +38,10 @@ Participants, records, last meetings and emails, open actions and points.
 
 ## Actions
 
-As its use case's main flow.
+| Action | Who | Result |
+|---|---|---|
+| Add a point | the organiser | added to the brief, kept with the meeting (UC-F4-09) |
+| Remove a point | the organiser | removed from the brief (UC-F4-09) |
 
 ## States
 
@@ -47,7 +50,8 @@ As its use case's main flow.
 - Loading: skeleton rows in place of the list ([C-03](../../../../04-ux/design-system/components/c-03-data-table.md));
   actions are disabled until it has loaded.
 - Error: the error message pattern (D122).
-- Read-only: always: the brief is generated.
+- Read-only: for the other participants. The organiser edits the generated brief, adding or removing a point, and
+  it is kept with the meeting ([UC-F4-09](../../use-cases/07-prepare-and-capture-anywhere/uc-f04-09-prepare-a-meeting.md)).
 - Offline: Not available offline (D38): on a phone or a computer, the offline banner replaces the actions and nothing is
   changed until the network is back; nothing is queued.
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F16-16 Forum
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

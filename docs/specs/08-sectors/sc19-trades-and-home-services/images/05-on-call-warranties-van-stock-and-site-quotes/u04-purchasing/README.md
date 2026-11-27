@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC19-05 On-call, warranties, van stock and site quotes
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC19-05 On-call, warranties, van stock and site quotes](../../../flows/fl-sc19-05-on-call-warranties-van-stock-and-site-quotes.md)

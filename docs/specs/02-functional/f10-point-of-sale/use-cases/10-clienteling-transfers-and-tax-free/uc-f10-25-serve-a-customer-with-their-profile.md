@@ -5,7 +5,7 @@
 
 # 📝 UC-F10-25 Serve a customer with their profile
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -123,7 +123,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-The profile opens within 2 seconds (Proposed).
+The profile opens within 2 seconds.
 
 ## Regulatory references
 

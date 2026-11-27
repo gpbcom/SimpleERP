@@ -22,7 +22,7 @@ sequence; before payment, a corrective invoice reads "cancels and replaces invoi
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-12, the date of this specification.
+Since 2025-01-01: 242 nonies A ([CGI annex II, art. 242 nonies A](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050811276), read 2026-11-27).
 
 ## Enforced by
 

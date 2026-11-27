@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC13-22 Farm contractor
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

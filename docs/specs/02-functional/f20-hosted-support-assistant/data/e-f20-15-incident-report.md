@@ -3,7 +3,7 @@
 
 # 🗃️ E-F20-15 Incident report
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -42,7 +42,7 @@ By incident and date.
 
 ## Retention
 
-(Proposed) 5 years.
+5 years.
 
 ## Audit
 

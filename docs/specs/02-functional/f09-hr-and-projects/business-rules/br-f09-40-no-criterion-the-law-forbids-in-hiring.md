@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-40 No search criterion the law forbids in hiring
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -16,8 +16,8 @@ assistant's score never uses them, nor a photo or a name.
 Job offers and hiring may not discriminate
 ([CR-FR-194](../../../10-country-packs/france/labour/cr-fr-194-job-offer-rules.md), which cites the Code pénal, articles
 225-1 to 225-4); candidate scoring needs job-related criteria checked for bias
-([BR-F4-21](../../f04-meetings/business-rules/br-f04-21-candidate-scoring-is-high-risk-ai.md)). (Proposed) The full list
-of grounds is read into the France country pack, as
+([BR-F4-21](../../f04-meetings/business-rules/br-f04-21-candidate-scoring-is-high-risk-ai.md)). (⚖️ lawyer review before launch, D574)
+The full list of grounds is still to read into the France country pack (Code pénal 225-1, Code du travail L1132-1), as
 [CR-FR-194](../../../10-country-packs/france/labour/cr-fr-194-job-offer-rules.md) lists only those of job offers.
 
 ## Examples
@@ -28,7 +28,7 @@ of grounds is read into the France country pack, as
 | Under 35 | fails: an age |
 | No children | fails: a family situation |
 | French and English B2 for a job with English-speaking clients | passes |
-| (Proposed) A graduation year used to guess an age | fails |
+| A graduation year used to guess an age | fails |
 
 ## Applies to
 
@@ -37,7 +37,7 @@ of grounds is read into the France country pack, as
 
 ## Exceptions
 
-(Proposed) A legal condition of the job (a driving licence, a minimum legal age for the work) is a requirement of the
+A legal condition of the job (a driving licence, a minimum legal age for the work) is a requirement of the
 job, not a forbidden criterion.
 
 ## Configurable

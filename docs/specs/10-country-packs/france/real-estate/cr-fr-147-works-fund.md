@@ -23,7 +23,7 @@ A residential co-ownership builds a works fund, from 10 years after construction
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Loi n° 65-557 art. 14-2-1 (10 years, 5 % and 2.5 %) since 2023-01-01 ([loi n° 65-557, art. 14-2-1](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043967792), read 2026-11-27).
 
 ## Enforced by
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-06 Reports carry time, place and photos
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,10 @@ technician.
 ## Why
 
 The report is the proof of the work for the invoice and for a dispute
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The France-pack rule on
+the technician's location is
+[CR-FR-054 Location only when needed and announced](../../../10-country-packs/france/data-protection/cr-fr-054-location-with-consent.md):
+it is used only for the stated purpose, announced, and at arrival and departure only.
 
 ## Examples
 

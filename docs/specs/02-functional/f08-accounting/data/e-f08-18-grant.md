@@ -3,7 +3,7 @@
 
 # 🗃️ E-F8-18 Grant
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -53,7 +53,8 @@ By funder and status.
 
 ## Retention
 
-10 years (Proposed).
+10 years from the end of the fiscal year, as a supporting document of the accounts
+([CR-FR-002 Accounting records kept 10 years](../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md)).
 
 ## Audit
 
