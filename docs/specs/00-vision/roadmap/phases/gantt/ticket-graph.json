@@ -1,0 +1,7310 @@
+{
+ "about": "Ticket graph of the SimpleERP roadmap, read by .claude/scripts/reports/roadmap_gantt.py and board.py. deps: the tickets whose merged output a ticket needs before it can be built and tested (transitively reduced). external: the items its acceptance needs. size: S, M or L. Assembled from the phase pages on 2026-11-27: an estimate, to correct when a ticket is planned.",
+ "hours": {
+  "agent": {
+   "S": 0.4,
+   "M": 0.8,
+   "L": 1.6
+  },
+  "human": {
+   "S": 0.3,
+   "M": 0.5,
+   "L": 1.0
+  },
+  "per_day": 6.0
+ },
+ "lanes": [
+  [
+   "serial",
+   1,
+   1.0
+  ],
+  [
+   "k2",
+   2,
+   1.0
+  ],
+  [
+   "k3",
+   3,
+   1.0
+  ],
+  [
+   "k4",
+   4,
+   1.0
+  ],
+  [
+   "k4_light",
+   4,
+   0.5
+  ],
+  [
+   "k6_light",
+   6,
+   0.5
+  ]
+ ],
+ "external_items": {},
+ "tickets": {
+  "T0.01": {
+   "deps": [],
+   "external": [],
+   "area": "backend/models, backend/shared, backend/services, frontend/backoffice, frontend/mobile, frontend/packages, plugins, sdk, infra/compose, infra/helm, infra/terraform, packs/countries, packs/sectors, docs",
+   "size": "M"
+  },
+  "T0.02": {
+   "deps": [
+    "T0.01"
+   ],
+   "external": [],
+   "area": "tests/conventions, frontend/packages/config",
+   "size": "M"
+  },
+  "T0.03": {
+   "deps": [
+    "T0.01"
+   ],
+   "external": [],
+   "area": "backend/models",
+   "size": "M"
+  },
+  "T0.04": {
+   "deps": [
+    "T0.03"
+   ],
+   "external": [],
+   "area": "backend/models",
+   "size": "M"
+  },
+  "T0.05": {
+   "deps": [
+    "T0.01"
+   ],
+   "external": [],
+   "area": "backend/shared/lifecycle",
+   "size": "M"
+  },
+  "T0.06": {
+   "deps": [
+    "T0.03"
+   ],
+   "external": [],
+   "area": "backend/shared/logging, backend/shared/config",
+   "size": "M"
+  },
+  "T0.07": {
+   "deps": [
+    "T0.01"
+   ],
+   "external": [],
+   "area": "frontend/packages/tokens",
+   "size": "M"
+  },
+  "T0.08": {
+   "deps": [
+    "T0.01"
+   ],
+   "external": [],
+   "area": "infra/terraform",
+   "size": "S"
+  },
+  "T0.09": {
+   "deps": [
+    "T0.04",
+    "T0.05",
+    "T0.06"
+   ],
+   "external": [],
+   "area": "backend/shared/context",
+   "size": "L"
+  },
+  "T0.10": {
+   "deps": [
+    "T0.04",
+    "T0.05",
+    "T0.06"
+   ],
+   "external": [],
+   "area": "backend/shared/outbox",
+   "size": "M"
+  },
+  "T0.11": {
+   "deps": [
+    "T0.10"
+   ],
+   "external": [],
+   "area": "backend/shared/metering",
+   "size": "M"
+  },
+  "T0.12": {
+   "deps": [
+    "T0.04",
+    "T0.06"
+   ],
+   "external": [],
+   "area": "backend/shared/country-rules",
+   "size": "M"
+  },
+  "T0.13": {
+   "deps": [
+    "T0.09"
+   ],
+   "external": [],
+   "area": "backend/shared/testing",
+   "size": "M"
+  },
+  "T0.14": {
+   "deps": [
+    "T0.09"
+   ],
+   "external": [],
+   "area": "backend/services/platform",
+   "size": "L"
+  },
+  "T0.15": {
+   "deps": [
+    "T0.02",
+    "T0.07"
+   ],
+   "external": [],
+   "area": "frontend/packages/ui",
+   "size": "L"
+  },
+  "T0.16": {
+   "deps": [
+    "T0.02"
+   ],
+   "external": [],
+   "area": "frontend/packages/i18n",
+   "size": "M"
+  },
+  "T0.17": {
+   "deps": [
+    "T0.15",
+    "T0.16"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "L"
+  },
+  "T0.18": {
+   "deps": [
+    "T0.14"
+   ],
+   "external": [],
+   "area": "backend/services/platform, .github",
+   "size": "M"
+  },
+  "T0.19": {
+   "deps": [
+    "T0.14",
+    "T0.17"
+   ],
+   "external": [],
+   "area": "infra/helm",
+   "size": "M"
+  },
+  "T0.20": {
+   "deps": [
+    "T0.18"
+   ],
+   "external": [],
+   "area": "frontend/packages/api-client",
+   "size": "M"
+  },
+  "T0.21": {
+   "deps": [
+    "T0.14",
+    "T0.17"
+   ],
+   "external": [],
+   "area": "infra/compose",
+   "size": "M"
+  },
+  "T0.22": {
+   "deps": [
+    "T0.21"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "M"
+  },
+  "T0.23": {
+   "deps": [
+    "T0.20",
+    "T0.22"
+   ],
+   "external": [],
+   "area": "frontend/packages/ui, frontend/backoffice, frontend/packages/i18n",
+   "size": "M"
+  },
+  "T0.24": {
+   "deps": [
+    "T0.18",
+    "T0.21"
+   ],
+   "external": [],
+   "area": "backend/services/platform, .github",
+   "size": "S"
+  },
+  "T0.25": {
+   "deps": [
+    "T0.21"
+   ],
+   "external": [],
+   "area": "infra/compose",
+   "size": "M"
+  },
+  "T1.01": {
+   "deps": [
+    "T0.08",
+    "T0.19",
+    "T0.25"
+   ],
+   "external": [],
+   "area": "infra/terraform, infra/helm",
+   "size": "L"
+  },
+  "T1.02": {
+   "deps": [],
+   "external": [],
+   "area": ".github",
+   "size": "M"
+  },
+  "T1.03": {
+   "deps": [
+    "T1.02"
+   ],
+   "external": [],
+   "area": ".github",
+   "size": "M"
+  },
+  "T1.04": {
+   "deps": [
+    "T1.01",
+    "T1.02"
+   ],
+   "external": [],
+   "area": ".github",
+   "size": "M"
+  },
+  "T1.05": {
+   "deps": [
+    "T0.02"
+   ],
+   "external": [],
+   "area": ".claude",
+   "size": "M"
+  },
+  "T1.06": {
+   "deps": [],
+   "external": [],
+   "area": "backend/services/devops",
+   "size": "L"
+  },
+  "T1.07": {
+   "deps": [
+    "T1.04",
+    "T1.05"
+   ],
+   "external": [],
+   "area": ".claude, .github",
+   "size": "L"
+  },
+  "T1.08": {
+   "deps": [
+    "T1.02",
+    "T1.06"
+   ],
+   "external": [],
+   "area": "backend/services/devops",
+   "size": "L"
+  },
+  "T1.09": {
+   "deps": [
+    "T1.08"
+   ],
+   "external": [],
+   "area": "frontend/devops",
+   "size": "M"
+  },
+  "T1.10": {
+   "deps": [
+    "T1.07"
+   ],
+   "external": [],
+   "area": ".claude",
+   "size": "L"
+  },
+  "T1.11": {
+   "deps": [
+    "T1.08"
+   ],
+   "external": [],
+   "area": "backend/services/devops",
+   "size": "M"
+  },
+  "T1.12": {
+   "deps": [
+    "T1.04",
+    "T1.06"
+   ],
+   "external": [],
+   "area": "backend/services/devops",
+   "size": "M"
+  },
+  "T1.13": {
+   "deps": [
+    "T1.10"
+   ],
+   "external": [],
+   "area": ".claude",
+   "size": "M"
+  },
+  "T1.14": {
+   "deps": [
+    "T1.13"
+   ],
+   "external": [],
+   "area": ".claude",
+   "size": "L"
+  },
+  "T1.15": {
+   "deps": [
+    "T1.03",
+    "T1.14"
+   ],
+   "external": [],
+   "area": ".github, .claude",
+   "size": "L"
+  },
+  "T1.16": {
+   "deps": [
+    "T1.04",
+    "T1.11"
+   ],
+   "external": [],
+   "area": ".github",
+   "size": "M"
+  },
+  "T1.17": {
+   "deps": [
+    "T1.04",
+    "T1.08"
+   ],
+   "external": [],
+   "area": ".github",
+   "size": "M"
+  },
+  "T1.18": {
+   "deps": [
+    "T1.03",
+    "T1.17"
+   ],
+   "external": [],
+   "area": ".github",
+   "size": "L"
+  },
+  "T1.19": {
+   "deps": [
+    "T1.18"
+   ],
+   "external": [],
+   "area": ".github",
+   "size": "M"
+  },
+  "T1.20": {
+   "deps": [
+    "T1.01",
+    "T1.06"
+   ],
+   "external": [],
+   "area": "backend/services/devops, infra/helm",
+   "size": "L"
+  },
+  "T1.21": {
+   "deps": [
+    "T1.04",
+    "T1.20"
+   ],
+   "external": [],
+   "area": ".github",
+   "size": "M"
+  },
+  "T1.22": {
+   "deps": [
+    "T1.03",
+    "T1.21"
+   ],
+   "external": [],
+   "area": ".github",
+   "size": "M"
+  },
+  "T1.23": {
+   "deps": [
+    "T1.03",
+    "T1.12"
+   ],
+   "external": [],
+   "area": ".github",
+   "size": "M"
+  },
+  "T1.24": {
+   "deps": [
+    "T1.09",
+    "T1.16"
+   ],
+   "external": [],
+   "area": "frontend/devops",
+   "size": "M"
+  },
+  "T1.25": {
+   "deps": [
+    "T1.12"
+   ],
+   "external": [],
+   "area": "backend/services/devops",
+   "size": "L"
+  },
+  "T1.26": {
+   "deps": [
+    "T1.08"
+   ],
+   "external": [],
+   "area": "backend/services/devops",
+   "size": "L"
+  },
+  "T1.27": {
+   "deps": [
+    "T1.26"
+   ],
+   "external": [],
+   "area": "backend/services/devops",
+   "size": "M"
+  },
+  "T1.28": {
+   "deps": [
+    "T1.08"
+   ],
+   "external": [],
+   "area": "backend/services/devops, frontend/devops",
+   "size": "L"
+  },
+  "T1.29": {
+   "deps": [
+    "T1.03",
+    "T1.06"
+   ],
+   "external": [],
+   "area": "backend/services/devops, frontend/devops",
+   "size": "L"
+  },
+  "T1.30": {
+   "deps": [
+    "T1.20"
+   ],
+   "external": [],
+   "area": "backend/services/devops, frontend/devops",
+   "size": "L"
+  },
+  "T1.31": {
+   "deps": [
+    "T1.11",
+    "T1.28"
+   ],
+   "external": [],
+   "area": "backend/services/devops, frontend/devops",
+   "size": "M"
+  },
+  "T1.32": {
+   "deps": [
+    "T1.09",
+    "T1.18",
+    "T1.22"
+   ],
+   "external": [],
+   "area": "frontend/devops",
+   "size": "L"
+  },
+  "T1.33": {
+   "deps": [
+    "T1.09",
+    "T1.23",
+    "T1.25"
+   ],
+   "external": [],
+   "area": "frontend/devops",
+   "size": "L"
+  },
+  "T1.34": {
+   "deps": [
+    "T1.09",
+    "T1.12",
+    "T1.15"
+   ],
+   "external": [],
+   "area": "frontend/devops",
+   "size": "L"
+  },
+  "T1.35": {
+   "deps": [
+    "T1.09",
+    "T1.27"
+   ],
+   "external": [],
+   "area": "frontend/devops",
+   "size": "M"
+  },
+  "T1.36": {
+   "deps": [
+    "T1.15",
+    "T1.19",
+    "T1.22",
+    "T1.23"
+   ],
+   "external": [],
+   "area": "docs",
+   "size": "M"
+  },
+  "T2.01": {
+   "deps": [
+    "T0.08",
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.19",
+    "T0.23",
+    "T0.24",
+    "T0.25"
+   ],
+   "external": [],
+   "area": "backend/services/platform, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.02": {
+   "deps": [
+    "T0.08",
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.19",
+    "T0.23",
+    "T0.24",
+    "T0.25"
+   ],
+   "external": [],
+   "area": "backend/services/identity, infra/compose, infra/helm, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.03": {
+   "deps": [
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.23",
+    "T0.24"
+   ],
+   "external": [],
+   "area": "backend/shared/policies, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.04": {
+   "deps": [
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.20",
+    "T0.24"
+   ],
+   "external": [],
+   "area": "backend/services/audit, backend/shared/audit, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.05": {
+   "deps": [
+    "T0.08",
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.19",
+    "T0.20",
+    "T0.24",
+    "T0.25"
+   ],
+   "external": [],
+   "area": "backend/services/gateway, infra/compose, infra/helm",
+   "size": "M"
+  },
+  "T2.06": {
+   "deps": [
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.20",
+    "T0.24"
+   ],
+   "external": [],
+   "area": "backend/shared/api, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.07": {
+   "deps": [
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.20",
+    "T0.24"
+   ],
+   "external": [],
+   "area": "backend/services/legal, packs/countries/fr, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.08": {
+   "deps": [
+    "T0.08",
+    "T0.19",
+    "T0.25"
+   ],
+   "external": [],
+   "area": "infra/helm",
+   "size": "L"
+  },
+  "T2.09": {
+   "deps": [
+    "T0.08",
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.19",
+    "T0.23",
+    "T0.24",
+    "T0.25"
+   ],
+   "external": [],
+   "area": "backend/services/ai, infra/compose, infra/helm, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.10": {
+   "deps": [
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.23",
+    "T0.24"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.11": {
+   "deps": [
+    "T0.08",
+    "T0.19",
+    "T0.23",
+    "T0.24",
+    "T0.25"
+   ],
+   "external": [],
+   "area": "backend/services/maps, infra/compose, infra/helm, frontend/packages/ui",
+   "size": "M"
+  },
+  "T2.12": {
+   "deps": [
+    "T2.01",
+    "T2.03",
+    "T2.05"
+   ],
+   "external": [],
+   "area": "backend/services/gateway, backend/shared/company-context, backend/services/platform",
+   "size": "M"
+  },
+  "T2.13": {
+   "deps": [
+    "T2.02",
+    "T2.03"
+   ],
+   "external": [],
+   "area": "backend/services/identity, backend/shared/policies, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.14": {
+   "deps": [
+    "T2.04"
+   ],
+   "external": [],
+   "area": "backend/services/audit, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.15": {
+   "deps": [
+    "T2.07"
+   ],
+   "external": [],
+   "area": "backend/shared/rules, packs/countries/fr, .github/, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.16": {
+   "deps": [
+    "T2.05",
+    "T2.06"
+   ],
+   "external": [],
+   "area": "backend/services/gateway, .github/, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.17": {
+   "deps": [
+    "T2.08"
+   ],
+   "external": [],
+   "area": "infra/compose, infra/helm, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.18": {
+   "deps": [
+    "T2.09"
+   ],
+   "external": [],
+   "area": "backend/services/ai, backend/shared/metering",
+   "size": "M"
+  },
+  "T2.19": {
+   "deps": [
+    "T2.09"
+   ],
+   "external": [],
+   "area": "backend/services/ai, backend/shared/ai-client",
+   "size": "M"
+  },
+  "T2.20": {
+   "deps": [
+    "T2.09"
+   ],
+   "external": [],
+   "area": "backend/services/ai, infra/compose, infra/helm",
+   "size": "M"
+  },
+  "T2.21": {
+   "deps": [
+    "T2.01",
+    "T2.08"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, backend/shared/vault, infra/helm, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.22": {
+   "deps": [
+    "T0.11",
+    "T0.12",
+    "T0.13",
+    "T0.23",
+    "T0.24"
+   ],
+   "external": [],
+   "area": "backend/services/notifications, backend/shared/i18n, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.23": {
+   "deps": [
+    "T2.01",
+    "T2.11"
+   ],
+   "external": [],
+   "area": "backend/services/maps, infra/compose, infra/helm",
+   "size": "M"
+  },
+  "T2.24": {
+   "deps": [
+    "T2.04",
+    "T2.13"
+   ],
+   "external": [],
+   "area": "backend/services/identity, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.25": {
+   "deps": [
+    "T2.15"
+   ],
+   "external": [],
+   "area": "backend/shared/money, backend/models",
+   "size": "M"
+  },
+  "T2.26": {
+   "deps": [
+    "T2.12"
+   ],
+   "external": [],
+   "area": "backend/services/plugins, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.27": {
+   "deps": [
+    "T2.05",
+    "T2.08",
+    "T2.13"
+   ],
+   "external": [],
+   "area": "backend/services/gateway, infra/helm, infra/compose",
+   "size": "M"
+  },
+  "T2.28": {
+   "deps": [
+    "T2.01",
+    "T2.05",
+    "T2.06"
+   ],
+   "external": [],
+   "area": "backend/services/gateway, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.29": {
+   "deps": [
+    "T2.01",
+    "T2.20"
+   ],
+   "external": [],
+   "area": "backend/services/rag, infra/helm, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.30": {
+   "deps": [
+    "T2.12"
+   ],
+   "external": [],
+   "area": "backend/services/platform, backend/shared/company-context, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.31": {
+   "deps": [
+    "T2.21"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, infra/helm",
+   "size": "M"
+  },
+  "T2.32": {
+   "deps": [
+    "T2.02",
+    "T2.22"
+   ],
+   "external": [],
+   "area": "backend/services/notifications, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.33": {
+   "deps": [
+    "T2.07"
+   ],
+   "external": [],
+   "area": "backend/services/legal, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.34": {
+   "deps": [
+    "T2.23"
+   ],
+   "external": [],
+   "area": "backend/services/maps, infra/helm",
+   "size": "M"
+  },
+  "T2.35": {
+   "deps": [
+    "T2.14",
+    "T2.15"
+   ],
+   "external": [],
+   "area": "backend/services/audit",
+   "size": "M"
+  },
+  "T2.36": {
+   "deps": [
+    "T2.03",
+    "T2.14"
+   ],
+   "external": [],
+   "area": "backend/services/audit, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.37": {
+   "deps": [
+    "T2.04",
+    "T2.12",
+    "T2.13"
+   ],
+   "external": [],
+   "area": "backend/services/platform, backend/services/audit, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.38": {
+   "deps": [
+    "T2.26",
+    "T2.27"
+   ],
+   "external": [],
+   "area": "backend/services/gateway, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.39": {
+   "deps": [
+    "T2.03",
+    "T2.29"
+   ],
+   "external": [],
+   "area": "backend/services/rag",
+   "size": "M"
+  },
+  "T2.40": {
+   "deps": [
+    "T2.26",
+    "T2.30"
+   ],
+   "external": [],
+   "area": "backend/services/plugins, sdk, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.41": {
+   "deps": [
+    "T2.06",
+    "T2.12"
+   ],
+   "external": [],
+   "area": "backend/shared/sync, backend/models",
+   "size": "L"
+  },
+  "T2.42": {
+   "deps": [
+    "T2.10",
+    "T2.31"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "M"
+  },
+  "T2.43": {
+   "deps": [
+    "T2.10",
+    "T2.21"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.44": {
+   "deps": [
+    "T2.32"
+   ],
+   "external": [],
+   "area": "backend/services/notifications",
+   "size": "M"
+  },
+  "T2.45": {
+   "deps": [
+    "T2.15",
+    "T2.33"
+   ],
+   "external": [],
+   "area": "backend/services/legal, packs/countries/fr, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.46": {
+   "deps": [
+    "T2.23"
+   ],
+   "external": [],
+   "area": "backend/services/maps, frontend/packages/ui",
+   "size": "L"
+  },
+  "T2.47": {
+   "deps": [
+    "T2.24"
+   ],
+   "external": [],
+   "area": "backend/services/identity, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.48": {
+   "deps": [
+    "T2.15",
+    "T2.26"
+   ],
+   "external": [],
+   "area": "backend/services/platform",
+   "size": "M"
+  },
+  "T2.49": {
+   "deps": [
+    "T2.04",
+    "T2.38"
+   ],
+   "external": [],
+   "area": "backend/services/gateway, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.50": {
+   "deps": [
+    "T2.38"
+   ],
+   "external": [],
+   "area": "backend/services/gateway, infra/helm, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.51": {
+   "deps": [
+    "T2.13",
+    "T2.40"
+   ],
+   "external": [],
+   "area": "backend/services/plugins, infra/helm",
+   "size": "L"
+  },
+  "T2.52": {
+   "deps": [
+    "T2.41"
+   ],
+   "external": [],
+   "area": "frontend/packages/sync, frontend/mobile",
+   "size": "M"
+  },
+  "T2.53": {
+   "deps": [
+    "T2.09"
+   ],
+   "external": [],
+   "area": "backend/services/ai, .github/, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.54": {
+   "deps": [
+    "T2.18",
+    "T2.53"
+   ],
+   "external": [],
+   "area": "backend/services/ai, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.55": {
+   "deps": [
+    "T2.04",
+    "T2.42"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.56": {
+   "deps": [
+    "T2.31"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, infra/helm",
+   "size": "M"
+  },
+  "T2.57": {
+   "deps": [
+    "T2.03",
+    "T2.46"
+   ],
+   "external": [],
+   "area": "backend/services/maps, backend/shared/policies, frontend/packages/ui",
+   "size": "M"
+  },
+  "T2.58": {
+   "deps": [
+    "T2.01",
+    "T2.08",
+    "T2.14"
+   ],
+   "external": [],
+   "area": "infra/helm, infra/compose, backend/services/platform, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.59": {
+   "deps": [
+    "T2.29",
+    "T2.35"
+   ],
+   "external": [],
+   "area": "backend/services/platform, infra/helm",
+   "size": "L"
+  },
+  "T2.60": {
+   "deps": [
+    "T2.51"
+   ],
+   "external": [],
+   "area": "frontend/backoffice, frontend/packages/ui, backend/services/plugins",
+   "size": "M"
+  },
+  "T2.61": {
+   "deps": [
+    "T2.51"
+   ],
+   "external": [],
+   "area": "backend/services/plugins, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.62": {
+   "deps": [
+    "T2.21",
+    "T2.49",
+    "T2.50"
+   ],
+   "external": [],
+   "area": "backend/services/gateway, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.63": {
+   "deps": [
+    "T2.39",
+    "T2.53"
+   ],
+   "external": [],
+   "area": "backend/services/rag, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.64": {
+   "deps": [
+    "T2.30",
+    "T2.58"
+   ],
+   "external": [],
+   "area": "infra/helm, backend/services/platform, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.65": {
+   "deps": [
+    "T2.18",
+    "T2.42",
+    "T2.49"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "M"
+  },
+  "T2.66": {
+   "deps": [
+    "T2.55",
+    "T2.56"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "L"
+  },
+  "T2.67": {
+   "deps": [
+    "T2.18",
+    "T2.56"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.68": {
+   "deps": [
+    "T2.42",
+    "T2.43"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "L"
+  },
+  "T2.69": {
+   "deps": [
+    "T2.04",
+    "T2.15",
+    "T2.57"
+   ],
+   "external": [],
+   "area": "backend/services/maps, frontend/mobile",
+   "size": "M"
+  },
+  "T2.70": {
+   "deps": [
+    "T2.08",
+    "T2.12"
+   ],
+   "external": [],
+   "area": "infra/helm, backend/services/platform",
+   "size": "M"
+  },
+  "T2.71": {
+   "deps": [
+    "T2.08",
+    "T2.25"
+   ],
+   "external": [],
+   "area": "backend/shared/planning, backend/shared/rules, infra/helm",
+   "size": "L"
+  },
+  "T2.72": {
+   "deps": [
+    "T2.08"
+   ],
+   "external": [],
+   "area": "infra/helm, .github/",
+   "size": "M"
+  },
+  "T2.73": {
+   "deps": [
+    "T2.04",
+    "T2.13",
+    "T2.18",
+    "T2.30"
+   ],
+   "external": [],
+   "area": "backend/services/platform, infra/helm, frontend/backoffice",
+   "size": "M"
+  },
+  "T2.74": {
+   "deps": [
+    "T2.08"
+   ],
+   "external": [],
+   "area": "infra/terraform",
+   "size": "L"
+  },
+  "T2.75": {
+   "deps": [
+    "T2.55",
+    "T2.67"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.76": {
+   "deps": [
+    "T2.42",
+    "T2.43"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "L"
+  },
+  "T2.77": {
+   "deps": [
+    "T2.42",
+    "T2.43"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, frontend/backoffice",
+   "size": "L"
+  },
+  "T2.78": {
+   "deps": [
+    "T2.43",
+    "T2.47"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "M"
+  },
+  "T2.79": {
+   "deps": [
+    "T2.28",
+    "T2.43"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "L"
+  },
+  "T2.80": {
+   "deps": [
+    "T2.30",
+    "T2.39",
+    "T2.57",
+    "T2.59"
+   ],
+   "external": [],
+   "area": "backend/services/platform, .github/",
+   "size": "M"
+  },
+  "T2.81": {
+   "deps": [
+    "T2.74"
+   ],
+   "external": [],
+   "area": "infra/terraform",
+   "size": "M"
+  },
+  "T2.82": {
+   "deps": [
+    "T2.42",
+    "T2.43"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "L"
+  },
+  "T2.83": {
+   "deps": [
+    "T2.75",
+    "T2.77"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "L"
+  },
+  "T2.84": {
+   "deps": [
+    "T2.75",
+    "T2.77"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "L"
+  },
+  "T2.85": {
+   "deps": [
+    "T2.68",
+    "T2.76"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, .github/",
+   "size": "M"
+  },
+  "T2.86": {
+   "deps": [
+    "T2.20",
+    "T2.43"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, infra/helm",
+   "size": "L"
+  },
+  "T2.87": {
+   "deps": [
+    "T2.79"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "M"
+  },
+  "T2.88": {
+   "deps": [
+    "T2.34",
+    "T2.71"
+   ],
+   "external": [],
+   "area": "backend/services/maps, backend/shared/planning",
+   "size": "L"
+  },
+  "T3.01": {
+   "deps": [
+    "T2.36",
+    "T2.37",
+    "T2.45",
+    "T2.48",
+    "T2.65",
+    "T2.66",
+    "T2.70",
+    "T2.78",
+    "T2.80",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87"
+   ],
+   "external": [],
+   "area": "backend/services/admin,backend/services/platform,backend/models,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.02": {
+   "deps": [
+    "T2.25",
+    "T2.35",
+    "T2.36",
+    "T2.44",
+    "T2.47"
+   ],
+   "external": [],
+   "area": "backend/services/admin,backend/services/identity,backend/services/notifications,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.03": {
+   "deps": [
+    "T2.47",
+    "T2.69",
+    "T2.88"
+   ],
+   "external": [],
+   "area": "backend/services/admin,backend/services/identity,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.04": {
+   "deps": [
+    "T2.19",
+    "T2.20",
+    "T2.54"
+   ],
+   "external": [],
+   "area": "backend/services/admin,backend/services/ai,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.05": {
+   "deps": [
+    "T2.47"
+   ],
+   "external": [],
+   "area": "backend/services/identity,backend/services/admin,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.06": {
+   "deps": [
+    "T2.16",
+    "T2.28",
+    "T2.35",
+    "T2.36",
+    "T2.44",
+    "T2.52",
+    "T2.60",
+    "T2.61",
+    "T2.71"
+   ],
+   "external": [],
+   "area": "backend/services/config,backend/models,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.07": {
+   "deps": [
+    "T2.19",
+    "T2.35",
+    "T2.36",
+    "T2.47",
+    "T2.54",
+    "T2.63"
+   ],
+   "external": [],
+   "area": "backend/services/ai,backend/models",
+   "size": "L"
+  },
+  "T3.08": {
+   "deps": [
+    "T2.62",
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/connectors,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.09": {
+   "deps": [
+    "T2.44",
+    "T2.60",
+    "T2.61",
+    "T2.71"
+   ],
+   "external": [],
+   "area": "backend/services/onboarding,backend/services/plugins,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.10": {
+   "deps": [
+    "T2.19",
+    "T2.54",
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87"
+   ],
+   "external": [],
+   "area": "backend/services/billing,backend/shared/metering,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.11": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,backend/services/connectors,frontend/packages/icons,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.12": {
+   "deps": [
+    "T3.01"
+   ],
+   "external": [],
+   "area": "backend/services/admin,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.13": {
+   "deps": [
+    "T2.62",
+    "T3.03"
+   ],
+   "external": [],
+   "area": "backend/services/admin,backend/services/gateway,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.14": {
+   "deps": [
+    "T3.01"
+   ],
+   "external": [],
+   "area": "backend/services/admin,backend/services/platform,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.15": {
+   "deps": [
+    "T3.02",
+    "T3.05"
+   ],
+   "external": [],
+   "area": "backend/services/identity,backend/services/admin,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.16": {
+   "deps": [
+    "T3.06"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.17": {
+   "deps": [
+    "T3.06"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice,frontend/packages/forms",
+   "size": "L"
+  },
+  "T3.18": {
+   "deps": [
+    "T3.07"
+   ],
+   "external": [],
+   "area": "frontend/packages/assistant,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.19": {
+   "deps": [
+    "T2.19",
+    "T2.54",
+    "T3.08"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.20": {
+   "deps": [
+    "T3.07",
+    "T3.10"
+   ],
+   "external": [],
+   "area": "backend/services/billing,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.21": {
+   "deps": [
+    "T3.10"
+   ],
+   "external": [],
+   "area": "backend/services/billing,backend/shared/metering,backend/services/notifications,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.22": {
+   "deps": [
+    "T3.05",
+    "T3.11"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,backend/services/connectors,backend/services/identity,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.23": {
+   "deps": [
+    "T3.11"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,backend/services/connectors,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.24": {
+   "deps": [
+    "T3.02",
+    "T3.03"
+   ],
+   "external": [],
+   "area": "backend/services/admin,backend/services/identity,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.25": {
+   "deps": [
+    "T2.16",
+    "T2.28",
+    "T2.52",
+    "T3.03"
+   ],
+   "external": [],
+   "area": "backend/services/identity,backend/services/admin,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.26": {
+   "deps": [
+    "T2.45",
+    "T3.16"
+   ],
+   "external": [],
+   "area": "backend/services/config,backend/services/notifications,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.27": {
+   "deps": [
+    "T3.16"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.28": {
+   "deps": [
+    "T3.16"
+   ],
+   "external": [],
+   "area": "backend/services/config,packs/sectors,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.29": {
+   "deps": [
+    "T3.18"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/packages/assistant",
+   "size": "M"
+  },
+  "T3.30": {
+   "deps": [
+    "T3.18"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/packages/assistant,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.31": {
+   "deps": [
+    "T3.19"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,frontend/mobile,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.32": {
+   "deps": [
+    "T3.19"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.33": {
+   "deps": [
+    "T3.01",
+    "T3.09",
+    "T3.18"
+   ],
+   "external": [],
+   "area": "backend/services/onboarding,backend/services/admin,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.34": {
+   "deps": [
+    "T3.21"
+   ],
+   "external": [],
+   "area": "backend/services/billing,backend/shared/metering,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.35": {
+   "deps": [
+    "T3.23"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,backend/services/connectors,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.36": {
+   "deps": [
+    "T2.35",
+    "T2.36",
+    "T3.03",
+    "T3.05"
+   ],
+   "external": [],
+   "area": "backend/services/identity,backend/services/audit,backend/services/admin,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.37": {
+   "deps": [
+    "T2.19",
+    "T2.20",
+    "T2.54",
+    "T3.27"
+   ],
+   "external": [],
+   "area": "backend/services/config,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.38": {
+   "deps": [
+    "T2.69",
+    "T2.88",
+    "T3.17"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice,frontend/packages/maps",
+   "size": "M"
+  },
+  "T3.39": {
+   "deps": [
+    "T3.16"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.40": {
+   "deps": [
+    "T3.18"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/packages/assistant",
+   "size": "M"
+  },
+  "T3.41": {
+   "deps": [
+    "T3.18"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/packages/assistant",
+   "size": "M"
+  },
+  "T3.42": {
+   "deps": [
+    "T3.13",
+    "T3.18"
+   ],
+   "external": [],
+   "area": "backend/services/ai,backend/services/gateway",
+   "size": "M"
+  },
+  "T3.43": {
+   "deps": [
+    "T2.63",
+    "T3.32"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/ai,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.44": {
+   "deps": [
+    "T3.33"
+   ],
+   "external": [],
+   "area": "backend/services/onboarding,backend/services/admin,packs/countries/fr,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.45": {
+   "deps": [
+    "T3.20"
+   ],
+   "external": [],
+   "area": "backend/services/billing,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.46": {
+   "deps": [
+    "T3.18",
+    "T3.22"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,backend/services/connectors,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.47": {
+   "deps": [
+    "T3.11"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,backend/services/connectors,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.48": {
+   "deps": [
+    "T3.36"
+   ],
+   "external": [],
+   "area": "backend/services/identity,backend/services/admin,frontend/backoffice,frontend/mobile",
+   "size": "L"
+  },
+  "T3.49": {
+   "deps": [
+    "T3.01",
+    "T3.36"
+   ],
+   "external": [],
+   "area": "backend/services/admin,backend/services/platform,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.50": {
+   "deps": [
+    "T3.17",
+    "T3.37"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.51": {
+   "deps": [
+    "T3.17",
+    "T3.25",
+    "T3.39"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/portals/customer,frontend/mobile",
+   "size": "L"
+  },
+  "T3.52": {
+   "deps": [
+    "T3.27"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.53": {
+   "deps": [
+    "T3.18"
+   ],
+   "external": [],
+   "area": "backend/services/ai,backend/services/rag,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.54": {
+   "deps": [
+    "T3.18"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/packages/assistant",
+   "size": "M"
+  },
+  "T3.55": {
+   "deps": [
+    "T3.32"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.56": {
+   "deps": [
+    "T3.31",
+    "T3.32"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,frontend/mobile,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.57": {
+   "deps": [
+    "T3.02",
+    "T3.11",
+    "T3.33"
+   ],
+   "external": [],
+   "area": "backend/services/onboarding,backend/services/admin,backend/services/integrations,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.58": {
+   "deps": [
+    "T3.14",
+    "T3.45"
+   ],
+   "external": [],
+   "area": "backend/services/billing,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.59": {
+   "deps": [
+    "T3.20",
+    "T3.30",
+    "T3.47"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,backend/services/ai,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.60": {
+   "deps": [
+    "T3.01",
+    "T3.04",
+    "T3.13"
+   ],
+   "external": [],
+   "area": "backend/services/admin,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.61": {
+   "deps": [
+    "T3.14",
+    "T3.36"
+   ],
+   "external": [],
+   "area": "backend/services/admin,backend/services/platform,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.62": {
+   "deps": [
+    "T3.28",
+    "T3.37"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.63": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87",
+    "T3.17"
+   ],
+   "external": [],
+   "area": "backend/services/config,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.64": {
+   "deps": [
+    "T3.30"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/mobile",
+   "size": "L"
+  },
+  "T3.65": {
+   "deps": [
+    "T3.30",
+    "T3.42"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.66": {
+   "deps": [
+    "T3.42"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/packages/assistant,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.67": {
+   "deps": [
+    "T2.16",
+    "T2.52",
+    "T3.32"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/ai,backend/services/gateway,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.68": {
+   "deps": [
+    "T3.55"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.69": {
+   "deps": [
+    "T3.14",
+    "T3.44"
+   ],
+   "external": [],
+   "area": "backend/services/onboarding,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.70": {
+   "deps": [
+    "T3.45"
+   ],
+   "external": [],
+   "area": "backend/services/billing,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.71": {
+   "deps": [
+    "T3.11"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,frontend/packages/icons,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.72": {
+   "deps": [
+    "T3.30",
+    "T3.62"
+   ],
+   "external": [],
+   "area": "backend/services/config,backend/services/ai,backend/services/platform,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.73": {
+   "deps": [
+    "T3.62"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.74": {
+   "deps": [
+    "T3.06",
+    "T3.65"
+   ],
+   "external": [],
+   "area": "backend/services/ai,backend/services/config,backend/services/connectors",
+   "size": "L"
+  },
+  "T3.75": {
+   "deps": [
+    "T3.34",
+    "T3.53"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/packages/assistant,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.76": {
+   "deps": [
+    "T3.31",
+    "T3.39"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,frontend/portals/customer,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.77": {
+   "deps": [
+    "T3.32"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.78": {
+   "deps": [
+    "T3.39",
+    "T3.46"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/integrations,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.79": {
+   "deps": [
+    "T3.02",
+    "T3.69"
+   ],
+   "external": [],
+   "area": "backend/services/onboarding,frontend/backoffice,frontend/mobile",
+   "size": "L"
+  },
+  "T3.80": {
+   "deps": [
+    "T3.57"
+   ],
+   "external": [],
+   "area": "backend/services/onboarding,packs/countries/fr,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.81": {
+   "deps": [
+    "T3.58"
+   ],
+   "external": [],
+   "area": "backend/services/billing,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.82": {
+   "deps": [
+    "T3.25",
+    "T3.47"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,backend/services/connectors,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.83": {
+   "deps": [
+    "T3.22"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,frontend/mobile,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.84": {
+   "deps": [
+    "T3.50",
+    "T3.73"
+   ],
+   "external": [],
+   "area": "backend/services/config,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.85": {
+   "deps": [
+    "T3.64",
+    "T3.65"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/mobile,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.86": {
+   "deps": [
+    "T3.75"
+   ],
+   "external": [],
+   "area": "backend/services/ai,frontend/packages/assistant,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.87": {
+   "deps": [
+    "T3.32"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,frontend/portals/customer,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.88": {
+   "deps": [
+    "T3.32",
+    "T3.78"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/integrations,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.89": {
+   "deps": [
+    "T3.55",
+    "T3.77"
+   ],
+   "external": [],
+   "area": "backend/services/meetings,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.90": {
+   "deps": [
+    "T3.44"
+   ],
+   "external": [],
+   "area": "backend/services/onboarding,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.91": {
+   "deps": [
+    "T3.80"
+   ],
+   "external": [],
+   "area": "backend/services/onboarding,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.92": {
+   "deps": [
+    "T3.34",
+    "T3.70"
+   ],
+   "external": [],
+   "area": "backend/services/billing,backend/services/ai,backend/shared/metering,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.93": {
+   "deps": [
+    "T3.45"
+   ],
+   "external": [],
+   "area": "backend/services/billing,frontend/backoffice",
+   "size": "M"
+  },
+  "T3.94": {
+   "deps": [
+    "T3.22",
+    "T3.47",
+    "T3.50"
+   ],
+   "external": [],
+   "area": "backend/services/integrations,backend/services/connectors,backend/services/ai,frontend/backoffice",
+   "size": "L"
+  },
+  "T3.95": {
+   "deps": [
+    "T3.49",
+    "T3.82",
+    "T3.84",
+    "T3.86",
+    "T3.89",
+    "T3.91",
+    "T3.92"
+   ],
+   "external": [],
+   "area": ".github/,frontend/backoffice,infra/compose,infra/helm",
+   "size": "M"
+  },
+  "T4.01": {
+   "deps": [
+    "T2.16",
+    "T2.28",
+    "T2.36",
+    "T2.37",
+    "T2.48",
+    "T2.52",
+    "T2.70",
+    "T2.80"
+   ],
+   "external": [],
+   "area": "backend/services/sales,backend/models",
+   "size": "L"
+  },
+  "T4.02": {
+   "deps": [
+    "T4.01"
+   ],
+   "external": [],
+   "area": "backend/services/sales,backend/models",
+   "size": "L"
+  },
+  "T4.03": {
+   "deps": [
+    "T2.16",
+    "T2.28",
+    "T2.36",
+    "T2.37",
+    "T2.48",
+    "T2.52",
+    "T2.70",
+    "T2.80"
+   ],
+   "external": [],
+   "area": "backend/services/support,backend/models",
+   "size": "L"
+  },
+  "T4.04": {
+   "deps": [
+    "T2.45"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "M"
+  },
+  "T4.05": {
+   "deps": [
+    "T3.35",
+    "T3.46",
+    "T3.59",
+    "T3.71",
+    "T3.82",
+    "T3.83",
+    "T3.94",
+    "T4.01",
+    "T4.04"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "L"
+  },
+  "T4.06": {
+   "deps": [
+    "T4.05"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "L"
+  },
+  "T4.07": {
+   "deps": [
+    "T4.05"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "M"
+  },
+  "T4.08": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87",
+    "T4.03"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "M"
+  },
+  "T4.09": {
+   "deps": [
+    "T3.52",
+    "T3.84",
+    "T4.08"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "L"
+  },
+  "T4.10": {
+   "deps": [
+    "T4.09"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "L"
+  },
+  "T4.11": {
+   "deps": [
+    "T4.06",
+    "T4.07"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "M"
+  },
+  "T4.12": {
+   "deps": [
+    "T4.05"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "M"
+  },
+  "T4.13": {
+   "deps": [
+    "T4.12"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "L"
+  },
+  "T4.14": {
+   "deps": [
+    "T4.13"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "M"
+  },
+  "T4.15": {
+   "deps": [
+    "T4.14"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "M"
+  },
+  "T4.16": {
+   "deps": [
+    "T3.26",
+    "T3.28",
+    "T4.14"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "L"
+  },
+  "T4.17": {
+   "deps": [
+    "T4.16"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "M"
+  },
+  "T4.18": {
+   "deps": [
+    "T4.11",
+    "T4.13"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "L"
+  },
+  "T4.19": {
+   "deps": [
+    "T4.07",
+    "T4.15"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "M"
+  },
+  "T4.20": {
+   "deps": [
+    "T2.63",
+    "T3.14",
+    "T3.15",
+    "T3.60",
+    "T4.10"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "L"
+  },
+  "T4.21": {
+   "deps": [
+    "T4.20"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "L"
+  },
+  "T4.22": {
+   "deps": [
+    "T4.21"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "L"
+  },
+  "T4.23": {
+   "deps": [
+    "T4.21"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "L"
+  },
+  "T4.24": {
+   "deps": [
+    "T3.24",
+    "T3.38",
+    "T3.48",
+    "T3.49",
+    "T3.51",
+    "T3.61",
+    "T3.63",
+    "T3.72",
+    "T4.16"
+   ],
+   "external": [],
+   "area": "backend/services/sales,frontend/portals/customer",
+   "size": "L"
+  },
+  "T4.25": {
+   "deps": [
+    "T4.16"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "M"
+  },
+  "T4.26": {
+   "deps": [
+    "T4.16"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "M"
+  },
+  "T4.27": {
+   "deps": [
+    "T4.16"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "M"
+  },
+  "T4.28": {
+   "deps": [
+    "T4.25",
+    "T4.27"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "L"
+  },
+  "T4.29": {
+   "deps": [
+    "T4.16"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "L"
+  },
+  "T4.30": {
+   "deps": [
+    "T3.38",
+    "T3.51",
+    "T3.63",
+    "T3.72",
+    "T4.16"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "M"
+  },
+  "T4.31": {
+   "deps": [
+    "T4.17",
+    "T4.25",
+    "T4.26"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "L"
+  },
+  "T4.32": {
+   "deps": [
+    "T4.28"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "M"
+  },
+  "T4.33": {
+   "deps": [
+    "T4.22"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "L"
+  },
+  "T4.34": {
+   "deps": [
+    "T4.33"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "M"
+  },
+  "T4.35": {
+   "deps": [
+    "T4.23",
+    "T4.33"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "L"
+  },
+  "T4.36": {
+   "deps": [
+    "T4.20"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "M"
+  },
+  "T4.37": {
+   "deps": [
+    "T3.38",
+    "T3.51",
+    "T3.63",
+    "T3.72",
+    "T4.14"
+   ],
+   "external": [],
+   "area": "backend/services/sales,frontend/mobile",
+   "size": "L"
+  },
+  "T4.38": {
+   "deps": [
+    "T4.25",
+    "T4.27"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "L"
+  },
+  "T4.39": {
+   "deps": [
+    "T4.06",
+    "T4.38"
+   ],
+   "external": [],
+   "area": "backend/services/sales",
+   "size": "M"
+  },
+  "T4.40": {
+   "deps": [
+    "T4.24",
+    "T4.25"
+   ],
+   "external": [],
+   "area": "backend/services/sales,frontend/portals/customer,frontend/backoffice",
+   "size": "L"
+  },
+  "T4.41": {
+   "deps": [
+    "T4.29",
+    "T4.30"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "M"
+  },
+  "T4.42": {
+   "deps": [
+    "T4.39"
+   ],
+   "external": [],
+   "area": "frontend/backoffice,frontend/portals/customer",
+   "size": "L"
+  },
+  "T4.43": {
+   "deps": [
+    "T4.33"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "M"
+  },
+  "T4.44": {
+   "deps": [
+    "T3.56",
+    "T3.67",
+    "T3.68",
+    "T3.76",
+    "T3.87",
+    "T3.88",
+    "T3.89",
+    "T4.33"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "L"
+  },
+  "T4.45": {
+   "deps": [
+    "T4.27",
+    "T4.33"
+   ],
+   "external": [],
+   "area": "backend/services/support",
+   "size": "M"
+  },
+  "T4.46": {
+   "deps": [
+    "T4.34",
+    "T4.44",
+    "T4.45"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "L"
+  },
+  "T4.47": {
+   "deps": [
+    "T4.24",
+    "T4.36",
+    "T4.43",
+    "T4.44",
+    "T4.45"
+   ],
+   "external": [],
+   "area": "frontend/portals/customer",
+   "size": "L"
+  },
+  "T4.48": {
+   "deps": [
+    "T3.29",
+    "T3.40",
+    "T3.41",
+    "T3.54",
+    "T3.66",
+    "T3.74",
+    "T3.85",
+    "T3.86",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T4.46",
+    "T4.47"
+   ],
+   "external": [],
+   "area": "infra/compose,docs/",
+   "size": "L"
+  },
+  "T5.01": {
+   "deps": [
+    "T2.16",
+    "T2.28",
+    "T2.36",
+    "T2.37",
+    "T2.48",
+    "T2.52",
+    "T2.70",
+    "T2.80"
+   ],
+   "external": [],
+   "area": "backend/models",
+   "size": "M"
+  },
+  "T5.02": {
+   "deps": [
+    "T2.47",
+    "T5.01"
+   ],
+   "external": [],
+   "area": "backend/services/stock",
+   "size": "L"
+  },
+  "T5.03": {
+   "deps": [
+    "T3.12",
+    "T3.15",
+    "T3.24",
+    "T3.26",
+    "T3.38",
+    "T3.48",
+    "T3.49",
+    "T3.51",
+    "T3.52",
+    "T3.60",
+    "T3.61",
+    "T3.63",
+    "T3.72",
+    "T3.84",
+    "T5.01"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing",
+   "size": "M"
+  },
+  "T5.04": {
+   "deps": [
+    "T5.02"
+   ],
+   "external": [],
+   "area": "backend/services/stock",
+   "size": "M"
+  },
+  "T5.05": {
+   "deps": [
+    "T5.03"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing",
+   "size": "M"
+  },
+  "T5.06": {
+   "deps": [
+    "T5.05"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing,frontend/backoffice",
+   "size": "M"
+  },
+  "T5.07": {
+   "deps": [
+    "T5.05"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "M"
+  },
+  "T5.08": {
+   "deps": [
+    "T5.04"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "M"
+  },
+  "T5.09": {
+   "deps": [
+    "T3.26",
+    "T3.38",
+    "T3.51",
+    "T3.52",
+    "T3.63",
+    "T3.72",
+    "T3.84",
+    "T5.02"
+   ],
+   "external": [],
+   "area": "frontend/mobile,backend/services/stock",
+   "size": "L"
+  },
+  "T5.10": {
+   "deps": [
+    "T2.45",
+    "T5.01"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "M"
+  },
+  "T5.11": {
+   "deps": [
+    "T5.06"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing,backend/services/connectors,frontend/backoffice",
+   "size": "M"
+  },
+  "T5.12": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87",
+    "T5.01"
+   ],
+   "external": [],
+   "area": "backend/services/connectors",
+   "size": "M"
+  },
+  "T5.13": {
+   "deps": [
+    "T5.04",
+    "T5.05"
+   ],
+   "external": [],
+   "area": "backend/services/stock",
+   "size": "L"
+  },
+  "T5.14": {
+   "deps": [
+    "T5.09",
+    "T5.13"
+   ],
+   "external": [],
+   "area": "frontend/mobile",
+   "size": "M"
+  },
+  "T5.15": {
+   "deps": [
+    "T5.10",
+    "T5.14"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/mobile",
+   "size": "M"
+  },
+  "T5.16": {
+   "deps": [
+    "T5.13"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing",
+   "size": "L"
+  },
+  "T5.17": {
+   "deps": [
+    "T5.16"
+   ],
+   "external": [],
+   "area": "frontend/backoffice",
+   "size": "M"
+  },
+  "T5.18": {
+   "deps": [
+    "T5.06",
+    "T5.16"
+   ],
+   "external": [],
+   "area": "frontend/portals/supplier,backend/services/purchasing",
+   "size": "L"
+  },
+  "T5.19": {
+   "deps": [
+    "T3.12",
+    "T3.15",
+    "T3.24",
+    "T3.25",
+    "T3.48",
+    "T3.49",
+    "T3.60",
+    "T3.61",
+    "T5.04"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/backoffice",
+   "size": "L"
+  },
+  "T5.20": {
+   "deps": [
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T5.06",
+    "T5.19"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing,frontend/backoffice",
+   "size": "L"
+  },
+  "T5.21": {
+   "deps": [
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T5.12",
+    "T5.13"
+   ],
+   "external": [],
+   "area": "backend/services/stock",
+   "size": "L"
+  },
+  "T5.22": {
+   "deps": [
+    "T5.09",
+    "T5.21"
+   ],
+   "external": [],
+   "area": "frontend/mobile",
+   "size": "M"
+  },
+  "T5.23": {
+   "deps": [
+    "T5.09",
+    "T5.10"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/mobile",
+   "size": "L"
+  },
+  "T5.24": {
+   "deps": [
+    "T5.10",
+    "T5.21"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/backoffice",
+   "size": "M"
+  },
+  "T5.25": {
+   "deps": [
+    "T5.16",
+    "T5.21",
+    "T5.23"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/backoffice",
+   "size": "L"
+  },
+  "T5.26": {
+   "deps": [
+    "T5.25"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/backoffice",
+   "size": "M"
+  },
+  "T5.27": {
+   "deps": [
+    "T5.22"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/mobile,frontend/backoffice",
+   "size": "L"
+  },
+  "T5.28": {
+   "deps": [
+    "T5.18"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing,frontend/backoffice,frontend/portals/supplier",
+   "size": "L"
+  },
+  "T5.29": {
+   "deps": [
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T5.10",
+    "T5.18"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing,frontend/backoffice",
+   "size": "L"
+  },
+  "T5.30": {
+   "deps": [
+    "T5.25"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/backoffice,frontend/mobile",
+   "size": "L"
+  },
+  "T5.31": {
+   "deps": [
+    "T5.21"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing,frontend/backoffice",
+   "size": "M"
+  },
+  "T5.32": {
+   "deps": [
+    "T5.21"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/mobile",
+   "size": "M"
+  },
+  "T5.33": {
+   "deps": [
+    "T5.16"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing,backend/services/connectors,frontend/backoffice",
+   "size": "L"
+  },
+  "T5.34": {
+   "deps": [
+    "T5.22",
+    "T5.23"
+   ],
+   "external": [],
+   "area": "backend/services/stock,frontend/backoffice",
+   "size": "M"
+  },
+  "T5.35": {
+   "deps": [
+    "T5.20",
+    "T5.21"
+   ],
+   "external": [],
+   "area": "backend/services/purchasing,backend/services/stock",
+   "size": "M"
+  },
+  "T6.01": {
+   "deps": [
+    "T2.45"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "M"
+  },
+  "T6.02": {
+   "deps": [
+    "T2.16",
+    "T2.28",
+    "T2.36",
+    "T2.37",
+    "T2.48",
+    "T2.52",
+    "T2.70",
+    "T2.80"
+   ],
+   "external": [],
+   "area": "backend/models,backend/services/accounting",
+   "size": "L"
+  },
+  "T6.03": {
+   "deps": [
+    "T6.01",
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.04": {
+   "deps": [
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.05": {
+   "deps": [
+    "T5.07",
+    "T5.08",
+    "T5.11",
+    "T5.15",
+    "T5.17",
+    "T5.24",
+    "T5.26",
+    "T5.27",
+    "T5.28",
+    "T5.29",
+    "T5.30",
+    "T5.31",
+    "T5.32",
+    "T5.33",
+    "T5.34",
+    "T5.35",
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting",
+   "size": "M"
+  },
+  "T6.06": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87",
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,backend/services/connectors",
+   "size": "M"
+  },
+  "T6.07": {
+   "deps": [
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.08": {
+   "deps": [
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.09": {
+   "deps": [
+    "T5.07",
+    "T5.08",
+    "T5.11",
+    "T5.15",
+    "T5.17",
+    "T5.24",
+    "T5.26",
+    "T5.27",
+    "T5.28",
+    "T5.29",
+    "T5.30",
+    "T5.31",
+    "T5.32",
+    "T5.33",
+    "T5.34",
+    "T5.35",
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.10": {
+   "deps": [
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.11": {
+   "deps": [
+    "T3.12",
+    "T3.15",
+    "T3.24",
+    "T3.25",
+    "T3.48",
+    "T3.49",
+    "T3.60",
+    "T3.61",
+    "T6.01",
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.12": {
+   "deps": [
+    "T6.01",
+    "T6.02"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.13": {
+   "deps": [
+    "T6.05",
+    "T6.06"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.14": {
+   "deps": [
+    "T6.05",
+    "T6.10"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.15": {
+   "deps": [
+    "T6.13"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.16": {
+   "deps": [
+    "T6.13",
+    "T6.14"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.17": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87",
+    "T6.12"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,backend/services/connectors,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.18": {
+   "deps": [
+    "T6.12",
+    "T6.14",
+    "T6.15"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,backend/services/connectors,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.19": {
+   "deps": [
+    "T6.10",
+    "T6.13"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.20": {
+   "deps": [
+    "T6.13"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.21": {
+   "deps": [
+    "T6.07",
+    "T6.13"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.22": {
+   "deps": [
+    "T4.48",
+    "T6.11"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,backend/services/connectors,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.23": {
+   "deps": [
+    "T6.07",
+    "T6.10"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.24": {
+   "deps": [
+    "T2.47",
+    "T2.62",
+    "T6.03",
+    "T6.04"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.25": {
+   "deps": [
+    "T6.16"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,backend/services/connectors,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.26": {
+   "deps": [
+    "T6.09",
+    "T6.19"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.27": {
+   "deps": [
+    "T6.15"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.28": {
+   "deps": [
+    "T6.13"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.29": {
+   "deps": [
+    "T6.09",
+    "T6.10"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.30": {
+   "deps": [
+    "T6.05"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.31": {
+   "deps": [
+    "T6.10",
+    "T6.17",
+    "T6.24",
+    "T6.27"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.32": {
+   "deps": [
+    "T6.16",
+    "T6.31"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.33": {
+   "deps": [
+    "T6.08",
+    "T6.20"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.34": {
+   "deps": [
+    "T4.48",
+    "T6.08",
+    "T6.31"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "L"
+  },
+  "T6.35": {
+   "deps": [
+    "T6.31"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice",
+   "size": "M"
+  },
+  "T6.36": {
+   "deps": [
+    "T6.18",
+    "T6.21",
+    "T6.22",
+    "T6.23",
+    "T6.25",
+    "T6.26",
+    "T6.28",
+    "T6.29",
+    "T6.30",
+    "T6.32",
+    "T6.33",
+    "T6.34",
+    "T6.35"
+   ],
+   "external": [],
+   "area": "backend/services/accounting,frontend/backoffice,docs/",
+   "size": "L"
+  },
+  "T7.01": {
+   "deps": [
+    "T2.45"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "L"
+  },
+  "T7.02": {
+   "deps": [
+    "T2.45"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "M"
+  },
+  "T7.03": {
+   "deps": [
+    "T2.45"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "M"
+  },
+  "T7.04": {
+   "deps": [
+    "T2.45"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "M"
+  },
+  "T7.05": {
+   "deps": [
+    "T3.12",
+    "T3.15",
+    "T3.24",
+    "T3.25",
+    "T3.48",
+    "T3.49",
+    "T3.60",
+    "T3.61"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T7.06": {
+   "deps": [
+    "T7.01",
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.07": {
+   "deps": [
+    "T3.26",
+    "T3.38",
+    "T3.51",
+    "T3.52",
+    "T3.63",
+    "T3.72",
+    "T3.84",
+    "T7.06"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.08": {
+   "deps": [
+    "T3.26",
+    "T3.38",
+    "T3.51",
+    "T3.52",
+    "T3.63",
+    "T3.72",
+    "T3.84",
+    "T7.01",
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.09": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, backend/models",
+   "size": "M"
+  },
+  "T7.10": {
+   "deps": [
+    "T7.01",
+    "T7.05",
+    "T7.09"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T7.11": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, backend/models",
+   "size": "M"
+  },
+  "T7.12": {
+   "deps": [
+    "T3.35",
+    "T3.46",
+    "T3.59",
+    "T3.71",
+    "T3.82",
+    "T3.83",
+    "T3.94"
+   ],
+   "external": [],
+   "area": "backend/services/connectors, backend/models",
+   "size": "M"
+  },
+  "T7.13": {
+   "deps": [
+    "T7.01",
+    "T7.05",
+    "T7.11"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice, frontend/portals/public",
+   "size": "L"
+  },
+  "T7.14": {
+   "deps": [
+    "T6.36",
+    "T7.13"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.15": {
+   "deps": [
+    "T3.43",
+    "T3.56",
+    "T3.67",
+    "T3.68",
+    "T3.76",
+    "T3.87",
+    "T3.88",
+    "T3.89",
+    "T7.02",
+    "T7.13"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.16": {
+   "deps": [
+    "T7.15"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.17": {
+   "deps": [
+    "T7.07",
+    "T7.10",
+    "T7.15"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice, frontend/portals/public",
+   "size": "M"
+  },
+  "T7.18": {
+   "deps": [
+    "T7.15"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "S"
+  },
+  "T7.19": {
+   "deps": [
+    "T4.48",
+    "T7.02",
+    "T7.12",
+    "T7.13"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T7.20": {
+   "deps": [
+    "T7.15",
+    "T7.19"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T7.21": {
+   "deps": [
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.22": {
+   "deps": [
+    "T7.01",
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T7.23": {
+   "deps": [
+    "T7.22"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.24": {
+   "deps": [
+    "T7.03",
+    "T7.22"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T7.25": {
+   "deps": [
+    "T7.24"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice, frontend/portals/public",
+   "size": "L"
+  },
+  "T7.26": {
+   "deps": [
+    "T7.14",
+    "T7.21",
+    "T7.22"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.27": {
+   "deps": [
+    "T7.10"
+   ],
+   "external": [],
+   "area": "backend/services/hr, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.28": {
+   "deps": [
+    "T7.10"
+   ],
+   "external": [],
+   "area": "backend/services/hr, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.29": {
+   "deps": [
+    "T7.28"
+   ],
+   "external": [],
+   "area": "backend/services/hr, frontend/backoffice",
+   "size": "S"
+  },
+  "T7.30": {
+   "deps": [
+    "T7.07"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.31": {
+   "deps": [
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice, frontend/portals/public",
+   "size": "M"
+  },
+  "T7.32": {
+   "deps": [
+    "T3.26",
+    "T3.38",
+    "T3.51",
+    "T3.52",
+    "T3.63",
+    "T3.72",
+    "T3.84",
+    "T7.01",
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice, frontend/mobile",
+   "size": "M"
+  },
+  "T7.33": {
+   "deps": [
+    "T7.01",
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.34": {
+   "deps": [
+    "T7.02",
+    "T7.08"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.35": {
+   "deps": [
+    "T3.26",
+    "T3.38",
+    "T3.51",
+    "T3.52",
+    "T3.63",
+    "T3.72",
+    "T3.84",
+    "T7.01",
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice, frontend/mobile",
+   "size": "L"
+  },
+  "T7.36": {
+   "deps": [
+    "T7.01",
+    "T7.02",
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice, frontend/mobile",
+   "size": "L"
+  },
+  "T7.37": {
+   "deps": [
+    "T7.36"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.38": {
+   "deps": [
+    "T7.35",
+    "T7.36"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice, frontend/mobile",
+   "size": "M"
+  },
+  "T7.39": {
+   "deps": [
+    "T7.22",
+    "T7.35"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice, frontend/mobile",
+   "size": "L"
+  },
+  "T7.40": {
+   "deps": [
+    "T7.39"
+   ],
+   "external": [],
+   "area": "backend/services/hr, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.41": {
+   "deps": [
+    "T7.06",
+    "T7.35"
+   ],
+   "external": [],
+   "area": "backend/services/hr, frontend/backoffice, frontend/mobile",
+   "size": "M"
+  },
+  "T7.42": {
+   "deps": [
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.43": {
+   "deps": [
+    "T3.26",
+    "T3.38",
+    "T3.51",
+    "T3.52",
+    "T3.63",
+    "T3.72",
+    "T3.84",
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.44": {
+   "deps": [
+    "T7.02",
+    "T7.05"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.45": {
+   "deps": [
+    "T3.12",
+    "T3.15",
+    "T3.24",
+    "T3.26",
+    "T3.38",
+    "T3.48",
+    "T3.49",
+    "T3.51",
+    "T3.52",
+    "T3.60",
+    "T3.61",
+    "T3.63",
+    "T3.72",
+    "T3.84"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T7.46": {
+   "deps": [
+    "T7.45"
+   ],
+   "external": [],
+   "area": "backend/services/projects, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.47": {
+   "deps": [
+    "T7.01",
+    "T7.05",
+    "T7.45"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/models, frontend/backoffice, frontend/mobile",
+   "size": "M"
+  },
+  "T7.48": {
+   "deps": [
+    "T7.47"
+   ],
+   "external": [],
+   "area": "backend/services/projects, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.49": {
+   "deps": [
+    "T6.36",
+    "T7.47"
+   ],
+   "external": [],
+   "area": "backend/services/projects, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.50": {
+   "deps": [
+    "T7.35",
+    "T7.47"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.51": {
+   "deps": [
+    "T7.46",
+    "T7.49"
+   ],
+   "external": [],
+   "area": "backend/services/projects, frontend/portals/customer",
+   "size": "M"
+  },
+  "T7.52": {
+   "deps": [
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T7.03",
+    "T7.47"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.53": {
+   "deps": [
+    "T7.49",
+    "T7.50"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.54": {
+   "deps": [
+    "T7.45"
+   ],
+   "external": [],
+   "area": "backend/services/projects, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.55": {
+   "deps": [
+    "T5.07",
+    "T5.08",
+    "T5.11",
+    "T5.15",
+    "T5.17",
+    "T5.24",
+    "T5.26",
+    "T5.27",
+    "T5.28",
+    "T5.29",
+    "T5.30",
+    "T5.31",
+    "T5.32",
+    "T5.33",
+    "T5.34",
+    "T5.35",
+    "T7.54"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/models, frontend/mobile",
+   "size": "L"
+  },
+  "T7.56": {
+   "deps": [
+    "T2.69",
+    "T2.88"
+   ],
+   "external": [],
+   "area": "backend/services/maps, backend/models",
+   "size": "M"
+  },
+  "T7.57": {
+   "deps": [
+    "T7.01",
+    "T7.03",
+    "T7.45",
+    "T7.56"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/models, frontend/backoffice, frontend/mobile",
+   "size": "L"
+  },
+  "T7.58": {
+   "deps": [
+    "T7.22",
+    "T7.35",
+    "T7.57"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/services/maps, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T7.59": {
+   "deps": [
+    "T7.58"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.60": {
+   "deps": [
+    "T7.58"
+   ],
+   "external": [],
+   "area": "backend/services/projects, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.61": {
+   "deps": [
+    "T7.36"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/services/maps, backend/models, frontend/mobile",
+   "size": "M"
+  },
+  "T7.62": {
+   "deps": [
+    "T7.58",
+    "T7.61"
+   ],
+   "external": [],
+   "area": "backend/services/projects, backend/services/maps, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.63": {
+   "deps": [
+    "T7.15",
+    "T7.35",
+    "T7.36",
+    "T7.42",
+    "T7.49"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/services/projects, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.64": {
+   "deps": [
+    "T4.48",
+    "T7.35",
+    "T7.36",
+    "T7.47"
+   ],
+   "external": [],
+   "area": "backend/services/hr, backend/services/projects, backend/models",
+   "size": "M"
+  },
+  "T7.65": {
+   "deps": [
+    "T3.12",
+    "T4.48"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.66": {
+   "deps": [
+    "T7.65"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.67": {
+   "deps": [
+    "T7.02",
+    "T7.65"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.68": {
+   "deps": [
+    "T7.65"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T7.69": {
+   "deps": [
+    "T7.07",
+    "T7.68"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/services/hr",
+   "size": "M"
+  },
+  "T7.70": {
+   "deps": [
+    "T7.68"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.71": {
+   "deps": [
+    "T6.36",
+    "T7.68"
+   ],
+   "external": [],
+   "area": "backend/services/legal, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.72": {
+   "deps": [
+    "T7.65"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.73": {
+   "deps": [
+    "T7.07",
+    "T7.28",
+    "T7.39",
+    "T7.72"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/services/hr",
+   "size": "M"
+  },
+  "T7.74": {
+   "deps": [
+    "T7.72"
+   ],
+   "external": [],
+   "area": "backend/services/legal",
+   "size": "M"
+  },
+  "T7.75": {
+   "deps": [
+    "T7.06",
+    "T7.68"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/services/hr, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.76": {
+   "deps": [
+    "T7.01",
+    "T7.65"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.77": {
+   "deps": [
+    "T7.76"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.78": {
+   "deps": [
+    "T6.36",
+    "T7.76"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.79": {
+   "deps": [
+    "T7.02",
+    "T7.76"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.80": {
+   "deps": [
+    "T7.02",
+    "T7.76"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.81": {
+   "deps": [
+    "T7.04",
+    "T7.65"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.82": {
+   "deps": [
+    "T7.81"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.83": {
+   "deps": [
+    "T7.81"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.84": {
+   "deps": [
+    "T7.04",
+    "T7.75",
+    "T7.77"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.85": {
+   "deps": [
+    "T7.78",
+    "T7.82"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice, frontend/mobile",
+   "size": "L"
+  },
+  "T7.86": {
+   "deps": [
+    "T7.04",
+    "T7.76"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.87": {
+   "deps": [
+    "T6.36",
+    "T7.76"
+   ],
+   "external": [],
+   "area": "backend/services/legal, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T7.88": {
+   "deps": [
+    "T7.66",
+    "T7.68",
+    "T7.72"
+   ],
+   "external": [],
+   "area": "backend/services/legal, frontend/backoffice",
+   "size": "M"
+  },
+  "T8.01": {
+   "deps": [
+    "T5.07",
+    "T5.08",
+    "T5.11",
+    "T5.15",
+    "T5.17",
+    "T5.24",
+    "T5.26",
+    "T5.27",
+    "T5.28",
+    "T5.29",
+    "T5.30",
+    "T5.31",
+    "T5.32",
+    "T5.33",
+    "T5.34",
+    "T5.35"
+   ],
+   "external": [],
+   "area": "plugins/pos",
+   "size": "L"
+  },
+  "T8.02": {
+   "deps": [
+    "T2.45"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "M"
+  },
+  "T8.03": {
+   "deps": [
+    "T8.01",
+    "T8.02"
+   ],
+   "external": [],
+   "area": "plugins/pos",
+   "size": "L"
+  },
+  "T8.04": {
+   "deps": [
+    "T6.36",
+    "T8.03"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "L"
+  },
+  "T8.05": {
+   "deps": [
+    "T8.04"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "L"
+  },
+  "T8.06": {
+   "deps": [
+    "T8.05"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "M"
+  },
+  "T8.07": {
+   "deps": [
+    "T8.06"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "M"
+  },
+  "T8.08": {
+   "deps": [
+    "T8.06"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "L"
+  },
+  "T8.09": {
+   "deps": [
+    "T8.06"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "M"
+  },
+  "T8.10": {
+   "deps": [
+    "T8.09"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "M"
+  },
+  "T8.11": {
+   "deps": [
+    "T8.10"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile,frontend/portals/customer",
+   "size": "L"
+  },
+  "T8.12": {
+   "deps": [
+    "T8.10"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "M"
+  },
+  "T8.13": {
+   "deps": [
+    "T8.06"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "M"
+  },
+  "T8.14": {
+   "deps": [
+    "T8.04"
+   ],
+   "external": [],
+   "area": "plugins/pos",
+   "size": "M"
+  },
+  "T8.15": {
+   "deps": [
+    "T8.07"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "L"
+  },
+  "T8.16": {
+   "deps": [
+    "T8.04"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "L"
+  },
+  "T8.17": {
+   "deps": [
+    "T8.07"
+   ],
+   "external": [],
+   "area": "plugins/pos,frontend/mobile",
+   "size": "L"
+  },
+  "T8.18": {
+   "deps": [
+    "T5.07",
+    "T5.08",
+    "T5.11",
+    "T5.15",
+    "T5.17",
+    "T5.24",
+    "T5.26",
+    "T5.27",
+    "T5.28",
+    "T5.29",
+    "T5.30",
+    "T5.31",
+    "T5.32",
+    "T5.33",
+    "T5.34",
+    "T5.35"
+   ],
+   "external": [],
+   "area": "plugins/shop",
+   "size": "L"
+  },
+  "T8.19": {
+   "deps": [
+    "T2.45"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "M"
+  },
+  "T8.20": {
+   "deps": [
+    "T8.18"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "L"
+  },
+  "T8.21": {
+   "deps": [
+    "T8.19",
+    "T8.20"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "L"
+  },
+  "T8.22": {
+   "deps": [
+    "T8.21"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "L"
+  },
+  "T8.23": {
+   "deps": [
+    "T8.22"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "M"
+  },
+  "T8.24": {
+   "deps": [
+    "T8.22"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "L"
+  },
+  "T8.25": {
+   "deps": [
+    "T8.21"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "M"
+  },
+  "T8.26": {
+   "deps": [
+    "T8.22"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "M"
+  },
+  "T8.27": {
+   "deps": [
+    "T8.22"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "M"
+  },
+  "T8.28": {
+   "deps": [
+    "T8.18"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "M"
+  },
+  "T8.29": {
+   "deps": [
+    "T8.22"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "M"
+  },
+  "T8.30": {
+   "deps": [
+    "T8.22"
+   ],
+   "external": [],
+   "area": "plugins/shop",
+   "size": "M"
+  },
+  "T8.31": {
+   "deps": [
+    "T8.22"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "M"
+  },
+  "T8.32": {
+   "deps": [
+    "T8.07",
+    "T8.22"
+   ],
+   "external": [],
+   "area": "plugins/shop,frontend/portals/shop",
+   "size": "L"
+  },
+  "T8.33": {
+   "deps": [
+    "T5.07",
+    "T5.08",
+    "T5.11",
+    "T5.15",
+    "T5.17",
+    "T5.24",
+    "T5.26",
+    "T5.27",
+    "T5.28",
+    "T5.29",
+    "T5.30",
+    "T5.31",
+    "T5.32",
+    "T5.33",
+    "T5.34",
+    "T5.35"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing",
+   "size": "L"
+  },
+  "T8.34": {
+   "deps": [
+    "T8.33"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing",
+   "size": "L"
+  },
+  "T8.35": {
+   "deps": [
+    "T8.19",
+    "T8.34"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing,frontend/mobile",
+   "size": "L"
+  },
+  "T8.36": {
+   "deps": [
+    "T8.35"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing,frontend/mobile",
+   "size": "M"
+  },
+  "T8.37": {
+   "deps": [
+    "T8.35"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing,frontend/mobile",
+   "size": "L"
+  },
+  "T8.38": {
+   "deps": [
+    "T6.36",
+    "T8.35"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing",
+   "size": "L"
+  },
+  "T8.39": {
+   "deps": [
+    "T8.35"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing",
+   "size": "M"
+  },
+  "T8.40": {
+   "deps": [
+    "T8.36"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing",
+   "size": "M"
+  },
+  "T8.41": {
+   "deps": [
+    "T8.36"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing,frontend/mobile",
+   "size": "M"
+  },
+  "T8.42": {
+   "deps": [
+    "T7.16",
+    "T7.17",
+    "T7.18",
+    "T7.20",
+    "T7.23",
+    "T7.25",
+    "T7.26",
+    "T7.27",
+    "T7.29",
+    "T7.30",
+    "T7.31",
+    "T7.32",
+    "T7.33",
+    "T7.34",
+    "T7.37",
+    "T7.38",
+    "T7.40",
+    "T7.41",
+    "T7.43",
+    "T7.44",
+    "T7.48",
+    "T7.51",
+    "T7.52",
+    "T7.53",
+    "T7.55",
+    "T7.59",
+    "T7.60",
+    "T7.62",
+    "T7.63",
+    "T7.64",
+    "T8.37"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing,frontend/mobile",
+   "size": "M"
+  },
+  "T8.43": {
+   "deps": [
+    "T8.36"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing,frontend/mobile",
+   "size": "L"
+  },
+  "T8.44": {
+   "deps": [
+    "T8.38",
+    "T8.39"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing",
+   "size": "M"
+  },
+  "T8.45": {
+   "deps": [
+    "T8.34"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing",
+   "size": "L"
+  },
+  "T8.46": {
+   "deps": [
+    "T8.38",
+    "T8.39"
+   ],
+   "external": [],
+   "area": "plugins/manufacturing",
+   "size": "M"
+  },
+  "T8.47": {
+   "deps": [
+    "T7.16",
+    "T7.17",
+    "T7.18",
+    "T7.20",
+    "T7.23",
+    "T7.25",
+    "T7.26",
+    "T7.27",
+    "T7.29",
+    "T7.30",
+    "T7.31",
+    "T7.32",
+    "T7.33",
+    "T7.34",
+    "T7.37",
+    "T7.38",
+    "T7.40",
+    "T7.41",
+    "T7.43",
+    "T7.44",
+    "T7.48",
+    "T7.51",
+    "T7.52",
+    "T7.53",
+    "T7.55",
+    "T7.59",
+    "T7.60",
+    "T7.62",
+    "T7.63",
+    "T7.64"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "L"
+  },
+  "T8.48": {
+   "deps": [
+    "T2.45"
+   ],
+   "external": [],
+   "area": "packs/countries/fr",
+   "size": "L"
+  },
+  "T8.49": {
+   "deps": [
+    "T8.47",
+    "T8.48"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "L"
+  },
+  "T8.50": {
+   "deps": [
+    "T8.49"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "M"
+  },
+  "T8.51": {
+   "deps": [
+    "T8.50"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "M"
+  },
+  "T8.52": {
+   "deps": [
+    "T8.51"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "L"
+  },
+  "T8.53": {
+   "deps": [
+    "T8.52"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "M"
+  },
+  "T8.54": {
+   "deps": [
+    "T8.50"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "L"
+  },
+  "T8.55": {
+   "deps": [
+    "T8.50"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "M"
+  },
+  "T8.56": {
+   "deps": [
+    "T8.50"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "M"
+  },
+  "T8.57": {
+   "deps": [
+    "T8.51"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "L"
+  },
+  "T8.58": {
+   "deps": [
+    "T8.50"
+   ],
+   "external": [],
+   "area": "plugins/payroll,packs/countries/fr",
+   "size": "L"
+  },
+  "T8.59": {
+   "deps": [
+    "T8.52"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "L"
+  },
+  "T8.60": {
+   "deps": [
+    "T8.53"
+   ],
+   "external": [],
+   "area": "plugins/payroll",
+   "size": "L"
+  },
+  "T8.61": {
+   "deps": [
+    "T2.16",
+    "T2.28",
+    "T2.52",
+    "T2.60",
+    "T2.61",
+    "T2.71"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "L"
+  },
+  "T8.62": {
+   "deps": [
+    "T8.61"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "M"
+  },
+  "T8.63": {
+   "deps": [
+    "T8.61"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice,sdk",
+   "size": "L"
+  },
+  "T8.64": {
+   "deps": [
+    "T8.63"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "L"
+  },
+  "T8.65": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87",
+    "T8.19",
+    "T8.61"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "L"
+  },
+  "T8.66": {
+   "deps": [
+    "T8.65"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "M"
+  },
+  "T8.67": {
+   "deps": [
+    "T8.65"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "L"
+  },
+  "T8.68": {
+   "deps": [
+    "T8.62",
+    "T8.64"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "L"
+  },
+  "T8.69": {
+   "deps": [
+    "T8.62",
+    "T8.64"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "M"
+  },
+  "T8.70": {
+   "deps": [
+    "T8.64"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "M"
+  },
+  "T8.71": {
+   "deps": [
+    "T8.20",
+    "T8.65"
+   ],
+   "external": [],
+   "area": "backend/services/store,frontend/backoffice",
+   "size": "L"
+  },
+  "T8.72": {
+   "deps": [
+    "T8.01",
+    "T8.18",
+    "T8.33",
+    "T8.47",
+    "T8.62",
+    "T8.64"
+   ],
+   "external": [],
+   "area": "plugins/pos,plugins/shop,plugins/manufacturing,plugins/payroll,backend/services/store",
+   "size": "M"
+  },
+  "T9.01": {
+   "deps": [
+    "T3.12",
+    "T3.15",
+    "T3.24",
+    "T3.25",
+    "T3.48",
+    "T3.49",
+    "T3.60",
+    "T3.61"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice, backend/services/connectors",
+   "size": "L"
+  },
+  "T9.02": {
+   "deps": [
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T9.01"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice, packs/countries/fr",
+   "size": "M"
+  },
+  "T9.03": {
+   "deps": [
+    "T9.01"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.04": {
+   "deps": [
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T9.01"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T9.05": {
+   "deps": [
+    "T3.12",
+    "T3.15",
+    "T3.24",
+    "T3.25",
+    "T3.48",
+    "T3.49",
+    "T3.60",
+    "T3.61"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice, packs/countries/fr",
+   "size": "L"
+  },
+  "T9.06": {
+   "deps": [
+    "T3.81",
+    "T3.92",
+    "T3.93",
+    "T9.05"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice, backend/services/connectors",
+   "size": "L"
+  },
+  "T9.07": {
+   "deps": [
+    "T9.05"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice, backend/services/connectors",
+   "size": "L"
+  },
+  "T9.08": {
+   "deps": [
+    "T6.36"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.09": {
+   "deps": [
+    "T9.08"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.10": {
+   "deps": [
+    "T9.09"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice, backend/shared/rules, infra/compose, infra/helm",
+   "size": "L"
+  },
+  "T9.11": {
+   "deps": [
+    "T9.03"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.12": {
+   "deps": [
+    "T9.02"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.13": {
+   "deps": [
+    "T9.12"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T9.14": {
+   "deps": [
+    "T9.03",
+    "T9.04"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T9.15": {
+   "deps": [
+    "T8.08",
+    "T8.11",
+    "T8.12",
+    "T8.13",
+    "T8.14",
+    "T8.15",
+    "T8.16",
+    "T8.17",
+    "T9.02"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice, frontend/portals/customer, frontend/mobile",
+   "size": "L"
+  },
+  "T9.16": {
+   "deps": [
+    "T9.02"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice, frontend/portals/customer",
+   "size": "L"
+  },
+  "T9.17": {
+   "deps": [
+    "T9.05"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice, backend/services/connectors",
+   "size": "L"
+  },
+  "T9.18": {
+   "deps": [
+    "T9.06"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice, backend/services/connectors",
+   "size": "L"
+  },
+  "T9.19": {
+   "deps": [
+    "T9.06"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice, backend/services/connectors",
+   "size": "L"
+  },
+  "T9.20": {
+   "deps": [
+    "T9.06",
+    "T9.07"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.21": {
+   "deps": [
+    "T9.10"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.22": {
+   "deps": [
+    "T8.40",
+    "T8.41",
+    "T8.42",
+    "T8.43",
+    "T8.44",
+    "T8.45",
+    "T8.46",
+    "T9.10"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.23": {
+   "deps": [
+    "T3.81",
+    "T3.92",
+    "T3.93",
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T9.10"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice, packs/countries/fr",
+   "size": "L"
+  },
+  "T9.24": {
+   "deps": [
+    "T9.21"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.25": {
+   "deps": [
+    "T9.03",
+    "T9.13"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.26": {
+   "deps": [
+    "T9.04",
+    "T9.13"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.27": {
+   "deps": [
+    "T9.25"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice, backend/services/connectors",
+   "size": "L"
+  },
+  "T9.28": {
+   "deps": [
+    "T9.02"
+   ],
+   "external": [],
+   "area": "backend/services/marketing, backend/models, frontend/backoffice",
+   "size": "M"
+  },
+  "T9.29": {
+   "deps": [
+    "T3.43",
+    "T3.56",
+    "T3.67",
+    "T3.68",
+    "T3.76",
+    "T3.87",
+    "T3.88",
+    "T3.89",
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T9.20"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.30": {
+   "deps": [
+    "T4.48",
+    "T9.20"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice, backend/services/ai",
+   "size": "L"
+  },
+  "T9.31": {
+   "deps": [
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T4.37",
+    "T4.40",
+    "T4.41",
+    "T4.42",
+    "T9.07",
+    "T9.18"
+   ],
+   "external": [],
+   "area": "backend/services/competition, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.32": {
+   "deps": [
+    "T9.21"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice, backend/services/ai",
+   "size": "L"
+  },
+  "T9.33": {
+   "deps": [
+    "T9.24"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.34": {
+   "deps": [
+    "T9.21"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.35": {
+   "deps": [
+    "T9.10"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T9.36": {
+   "deps": [
+    "T9.21",
+    "T9.35"
+   ],
+   "external": [],
+   "area": "backend/services/simulation, backend/models, frontend/backoffice",
+   "size": "L"
+  },
+  "T10.01": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc01-construction",
+   "size": "L"
+  },
+  "T10.02": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.08",
+    "T8.11",
+    "T8.12",
+    "T8.13",
+    "T8.14",
+    "T8.15",
+    "T8.16",
+    "T8.17",
+    "T8.23",
+    "T8.24",
+    "T8.25",
+    "T8.26",
+    "T8.27",
+    "T8.28",
+    "T8.29",
+    "T8.30",
+    "T8.31",
+    "T8.32",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc02-retail",
+   "size": "L"
+  },
+  "T10.03": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc07-transport",
+   "size": "L"
+  },
+  "T10.04": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc08-non-profit",
+   "size": "L"
+  },
+  "T10.05": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc09-health-practices",
+   "size": "L"
+  },
+  "T10.06": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc10-real-estate",
+   "size": "M"
+  },
+  "T10.07": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc11-professional-firms",
+   "size": "L"
+  },
+  "T10.08": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.23",
+    "T8.24",
+    "T8.25",
+    "T8.26",
+    "T8.27",
+    "T8.28",
+    "T8.29",
+    "T8.30",
+    "T8.31",
+    "T8.32",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc12-education-and-training",
+   "size": "L"
+  },
+  "T10.09": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc13-agriculture-and-food",
+   "size": "L"
+  },
+  "T10.10": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.23",
+    "T8.24",
+    "T8.25",
+    "T8.26",
+    "T8.27",
+    "T8.28",
+    "T8.29",
+    "T8.30",
+    "T8.31",
+    "T8.32",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc14-it-and-software",
+   "size": "L"
+  },
+  "T10.11": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc15-wholesale-and-distribution",
+   "size": "L"
+  },
+  "T10.12": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72",
+    "T9.11",
+    "T9.14",
+    "T9.15",
+    "T9.16",
+    "T9.26",
+    "T9.27",
+    "T9.28"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc16-events-and-culture",
+   "size": "L"
+  },
+  "T10.13": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc03-services",
+   "size": "L"
+  },
+  "T10.14": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc04-home-care",
+   "size": "L"
+  },
+  "T10.15": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.23",
+    "T8.24",
+    "T8.25",
+    "T8.26",
+    "T8.27",
+    "T8.28",
+    "T8.29",
+    "T8.30",
+    "T8.31",
+    "T8.32",
+    "T8.40",
+    "T8.41",
+    "T8.42",
+    "T8.43",
+    "T8.44",
+    "T8.45",
+    "T8.46",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc05-manufacturing",
+   "size": "L"
+  },
+  "T10.16": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.08",
+    "T8.11",
+    "T8.12",
+    "T8.13",
+    "T8.14",
+    "T8.15",
+    "T8.16",
+    "T8.17",
+    "T8.40",
+    "T8.41",
+    "T8.42",
+    "T8.43",
+    "T8.44",
+    "T8.45",
+    "T8.46",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc06-hospitality",
+   "size": "L"
+  },
+  "T10.17": {
+   "deps": [
+    "T8.40",
+    "T8.41",
+    "T8.42",
+    "T8.43",
+    "T8.44",
+    "T8.45",
+    "T8.46",
+    "T10.03"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc07-transport",
+   "size": "L"
+  },
+  "T10.18": {
+   "deps": [
+    "T9.11",
+    "T9.14",
+    "T9.15",
+    "T9.16",
+    "T9.26",
+    "T9.27",
+    "T9.28",
+    "T10.04"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc08-non-profit",
+   "size": "L"
+  },
+  "T10.19": {
+   "deps": [
+    "T10.05"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc09-health-practices",
+   "size": "L"
+  },
+  "T10.20": {
+   "deps": [
+    "T10.06"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc10-real-estate",
+   "size": "L"
+  },
+  "T10.21": {
+   "deps": [
+    "T10.07"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc11-professional-firms",
+   "size": "L"
+  },
+  "T10.22": {
+   "deps": [
+    "T10.08"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc12-education-and-training",
+   "size": "M"
+  },
+  "T10.23": {
+   "deps": [
+    "T8.40",
+    "T8.41",
+    "T8.42",
+    "T8.43",
+    "T8.44",
+    "T8.45",
+    "T8.46",
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T10.09"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc13-agriculture-and-food",
+   "size": "L"
+  },
+  "T10.24": {
+   "deps": [
+    "T4.35",
+    "T10.10"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc14-it-and-software",
+   "size": "L"
+  },
+  "T10.25": {
+   "deps": [
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T10.01"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc01-construction",
+   "size": "L"
+  },
+  "T10.26": {
+   "deps": [
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T10.02"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc02-retail",
+   "size": "L"
+  },
+  "T10.27": {
+   "deps": [
+    "T10.13"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc03-services",
+   "size": "L"
+  },
+  "T10.28": {
+   "deps": [
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T10.14"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc04-home-care",
+   "size": "L"
+  },
+  "T10.29": {
+   "deps": [
+    "T10.15"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc05-manufacturing",
+   "size": "L"
+  },
+  "T10.30": {
+   "deps": [
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T10.16"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc06-hospitality",
+   "size": "L"
+  },
+  "T10.31": {
+   "deps": [
+    "T8.23",
+    "T8.24",
+    "T8.25",
+    "T8.26",
+    "T8.27",
+    "T8.28",
+    "T8.29",
+    "T8.30",
+    "T8.31",
+    "T8.32",
+    "T10.11"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc15-wholesale-and-distribution",
+   "size": "L"
+  },
+  "T10.32": {
+   "deps": [
+    "T10.12"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc16-events-and-culture",
+   "size": "L"
+  },
+  "T10.33": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc17-beauty-and-wellness",
+   "size": "L"
+  },
+  "T10.34": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc18-sports-and-fitness",
+   "size": "L"
+  },
+  "T10.35": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc19-trades-and-home-services",
+   "size": "L"
+  },
+  "T10.36": {
+   "deps": [
+    "T3.79",
+    "T3.90",
+    "T3.91",
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc20-public-bodies",
+   "size": "L"
+  },
+  "T10.37": {
+   "deps": [
+    "T10.03"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc07-transport",
+   "size": "L"
+  },
+  "T10.38": {
+   "deps": [
+    "T9.11",
+    "T9.14",
+    "T9.15",
+    "T9.16",
+    "T9.26",
+    "T9.27",
+    "T9.28",
+    "T10.04"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc08-non-profit",
+   "size": "L"
+  },
+  "T10.39": {
+   "deps": [
+    "T10.05"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc09-health-practices",
+   "size": "L"
+  },
+  "T10.40": {
+   "deps": [
+    "T10.06"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc10-real-estate",
+   "size": "L"
+  },
+  "T10.41": {
+   "deps": [
+    "T10.07"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc11-professional-firms",
+   "size": "L"
+  },
+  "T10.42": {
+   "deps": [
+    "T9.11",
+    "T9.14",
+    "T9.15",
+    "T9.16",
+    "T9.26",
+    "T9.27",
+    "T9.28",
+    "T10.08"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc12-education-and-training",
+   "size": "L"
+  },
+  "T10.43": {
+   "deps": [
+    "T8.08",
+    "T8.11",
+    "T8.12",
+    "T8.13",
+    "T8.14",
+    "T8.15",
+    "T8.16",
+    "T8.17",
+    "T8.40",
+    "T8.41",
+    "T8.42",
+    "T8.43",
+    "T8.44",
+    "T8.45",
+    "T8.46",
+    "T10.09"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc13-agriculture-and-food",
+   "size": "L"
+  },
+  "T10.44": {
+   "deps": [
+    "T10.10"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc14-it-and-software",
+   "size": "L"
+  },
+  "T10.45": {
+   "deps": [
+    "T10.11"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc15-wholesale-and-distribution",
+   "size": "L"
+  },
+  "T10.46": {
+   "deps": [
+    "T10.12"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc16-events-and-culture",
+   "size": "L"
+  },
+  "T10.47": {
+   "deps": [
+    "T8.08",
+    "T8.11",
+    "T8.12",
+    "T8.13",
+    "T8.14",
+    "T8.15",
+    "T8.16",
+    "T8.17",
+    "T10.33"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc17-beauty-and-wellness",
+   "size": "L"
+  },
+  "T10.48": {
+   "deps": [
+    "T10.34"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc18-sports-and-fitness",
+   "size": "L"
+  },
+  "T10.49": {
+   "deps": [
+    "T10.01"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc01-construction",
+   "size": "L"
+  },
+  "T10.50": {
+   "deps": [
+    "T10.02"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc02-retail",
+   "size": "L"
+  },
+  "T10.51": {
+   "deps": [
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T9.11",
+    "T9.14",
+    "T9.15",
+    "T9.16",
+    "T9.26",
+    "T9.27",
+    "T9.28",
+    "T10.13"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc03-services",
+   "size": "L"
+  },
+  "T10.52": {
+   "deps": [
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T9.11",
+    "T9.14",
+    "T9.15",
+    "T9.16",
+    "T9.26",
+    "T9.27",
+    "T9.28",
+    "T10.14"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc04-home-care",
+   "size": "L"
+  },
+  "T10.53": {
+   "deps": [
+    "T10.15"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc05-manufacturing",
+   "size": "L"
+  },
+  "T10.54": {
+   "deps": [
+    "T10.30"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc06-hospitality",
+   "size": "L"
+  },
+  "T10.55": {
+   "deps": [
+    "T10.03"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc07-transport",
+   "size": "L"
+  },
+  "T10.56": {
+   "deps": [
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T10.18"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc08-non-profit",
+   "size": "L"
+  },
+  "T10.57": {
+   "deps": [
+    "T10.05"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc09-health-practices",
+   "size": "L"
+  },
+  "T10.58": {
+   "deps": [
+    "T10.06"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc10-real-estate",
+   "size": "L"
+  },
+  "T10.59": {
+   "deps": [
+    "T10.28",
+    "T10.35"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc19-trades-and-home-services",
+   "size": "L"
+  },
+  "T10.60": {
+   "deps": [
+    "T10.36"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc20-public-bodies",
+   "size": "L"
+  },
+  "T10.61": {
+   "deps": [
+    "T10.07"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc11-professional-firms",
+   "size": "L"
+  },
+  "T10.62": {
+   "deps": [
+    "T10.08"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc12-education-and-training",
+   "size": "L"
+  },
+  "T10.63": {
+   "deps": [
+    "T10.09"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc13-agriculture-and-food",
+   "size": "L"
+  },
+  "T10.64": {
+   "deps": [
+    "T10.10"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc14-it-and-software",
+   "size": "L"
+  },
+  "T10.65": {
+   "deps": [
+    "T10.11"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc15-wholesale-and-distribution",
+   "size": "L"
+  },
+  "T10.66": {
+   "deps": [
+    "T8.23",
+    "T8.24",
+    "T8.25",
+    "T8.26",
+    "T8.27",
+    "T8.28",
+    "T8.29",
+    "T8.30",
+    "T8.31",
+    "T8.32",
+    "T10.12"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc16-events-and-culture",
+   "size": "M"
+  },
+  "T10.67": {
+   "deps": [
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T9.11",
+    "T9.14",
+    "T9.15",
+    "T9.16",
+    "T9.26",
+    "T9.27",
+    "T9.28",
+    "T10.33"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc17-beauty-and-wellness",
+   "size": "L"
+  },
+  "T10.68": {
+   "deps": [
+    "T9.11",
+    "T9.14",
+    "T9.15",
+    "T9.16",
+    "T9.26",
+    "T9.27",
+    "T9.28",
+    "T10.34"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc18-sports-and-fitness",
+   "size": "L"
+  },
+  "T10.69": {
+   "deps": [
+    "T10.01",
+    "T10.59"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc19-trades-and-home-services",
+   "size": "L"
+  },
+  "T10.70": {
+   "deps": [
+    "T8.54",
+    "T8.55",
+    "T8.56",
+    "T8.57",
+    "T8.58",
+    "T8.59",
+    "T8.60",
+    "T10.36"
+   ],
+   "external": [],
+   "area": "packs/sectors/sc20-public-bodies",
+   "size": "L"
+  },
+  "T11.01": {
+   "deps": [
+    "T2.16",
+    "T2.28",
+    "T2.52",
+    "T2.62"
+   ],
+   "external": [],
+   "area": "hosted/websites, hosted/factory, hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.02": {
+   "deps": [
+    "T4.48",
+    "T11.01"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "L"
+  },
+  "T11.03": {
+   "deps": [
+    "T2.65",
+    "T2.66",
+    "T2.78",
+    "T2.82",
+    "T2.83",
+    "T2.84",
+    "T2.85",
+    "T2.86",
+    "T2.87",
+    "T11.01"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.04": {
+   "deps": [
+    "T4.48",
+    "T11.01"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.05": {
+   "deps": [
+    "T4.48",
+    "T11.01"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.06": {
+   "deps": [
+    "T2.35",
+    "T2.36",
+    "T2.47",
+    "T11.01"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.07": {
+   "deps": [
+    "T2.17",
+    "T2.64",
+    "T2.72",
+    "T2.73",
+    "T2.81",
+    "T11.06"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "L"
+  },
+  "T11.08": {
+   "deps": [
+    "T11.05",
+    "T11.06"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "S"
+  },
+  "T11.09": {
+   "deps": [
+    "T11.04"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "L"
+  },
+  "T11.10": {
+   "deps": [
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72",
+    "T11.04"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "L"
+  },
+  "T11.11": {
+   "deps": [
+    "T11.02"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.12": {
+   "deps": [
+    "T11.03"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.13": {
+   "deps": [
+    "T4.02",
+    "T4.18",
+    "T4.19",
+    "T4.31",
+    "T4.32",
+    "T11.02"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "L"
+  },
+  "T11.14": {
+   "deps": [
+    "T8.23",
+    "T8.24",
+    "T8.25",
+    "T8.26",
+    "T8.27",
+    "T8.28",
+    "T8.29",
+    "T8.30",
+    "T8.31",
+    "T8.32",
+    "T11.02",
+    "T11.12"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "L"
+  },
+  "T11.15": {
+   "deps": [
+    "T11.14"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.16": {
+   "deps": [
+    "T7.16",
+    "T7.17",
+    "T7.18",
+    "T7.20",
+    "T7.23",
+    "T7.25",
+    "T7.26",
+    "T7.27",
+    "T7.29",
+    "T7.30",
+    "T7.31",
+    "T7.32",
+    "T7.33",
+    "T7.34",
+    "T7.37",
+    "T7.38",
+    "T7.40",
+    "T7.41",
+    "T7.43",
+    "T7.44",
+    "T7.48",
+    "T7.51",
+    "T7.52",
+    "T7.53",
+    "T7.55",
+    "T7.59",
+    "T7.60",
+    "T7.62",
+    "T7.63",
+    "T7.64",
+    "T11.02"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.17": {
+   "deps": [
+    "T3.12",
+    "T3.15",
+    "T3.24",
+    "T3.25",
+    "T3.48",
+    "T3.49",
+    "T3.60",
+    "T3.61",
+    "T11.12"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.18": {
+   "deps": [
+    "T7.67",
+    "T7.69",
+    "T7.70",
+    "T7.71",
+    "T7.73",
+    "T7.74",
+    "T7.79",
+    "T7.80",
+    "T7.83",
+    "T7.84",
+    "T7.85",
+    "T7.86",
+    "T7.87",
+    "T7.88",
+    "T11.09"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.19": {
+   "deps": [
+    "T11.18"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.20": {
+   "deps": [
+    "T11.07"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.21": {
+   "deps": [
+    "T11.20"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.22": {
+   "deps": [
+    "T1.24",
+    "T11.20"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.23": {
+   "deps": [
+    "T11.05"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "S"
+  },
+  "T11.24": {
+   "deps": [
+    "T11.05"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.25": {
+   "deps": [
+    "T11.16"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.26": {
+   "deps": [
+    "T11.11",
+    "T11.15"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.27": {
+   "deps": [
+    "T9.11",
+    "T9.14",
+    "T9.15",
+    "T9.16",
+    "T9.26",
+    "T9.27",
+    "T9.28",
+    "T11.11",
+    "T11.15"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.28": {
+   "deps": [
+    "T11.11",
+    "T11.15"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.29": {
+   "deps": [
+    "T11.19"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.30": {
+   "deps": [
+    "T11.19"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.31": {
+   "deps": [
+    "T11.19"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.32": {
+   "deps": [
+    "T8.66",
+    "T8.67",
+    "T8.68",
+    "T8.69",
+    "T8.70",
+    "T8.71",
+    "T8.72",
+    "T11.31"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.33": {
+   "deps": [
+    "T11.08"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "L"
+  },
+  "T11.34": {
+   "deps": [
+    "T2.25",
+    "T2.44",
+    "T11.07"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.35": {
+   "deps": [
+    "T11.34"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.36": {
+   "deps": [
+    "T11.05"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.37": {
+   "deps": [
+    "T11.13",
+    "T11.15"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.38": {
+   "deps": [
+    "T11.13",
+    "T11.15"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.39": {
+   "deps": [
+    "T11.15"
+   ],
+   "external": [],
+   "area": "hosted/websites",
+   "size": "M"
+  },
+  "T11.40": {
+   "deps": [
+    "T11.19"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.41": {
+   "deps": [
+    "T11.32",
+    "T11.40"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.42": {
+   "deps": [
+    "T11.41"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.43": {
+   "deps": [
+    "T2.17",
+    "T2.64",
+    "T2.72",
+    "T2.73",
+    "T2.81",
+    "T11.19"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.44": {
+   "deps": [
+    "T11.10",
+    "T11.40"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.45": {
+   "deps": [
+    "T11.10",
+    "T11.40"
+   ],
+   "external": [],
+   "area": "hosted/factory",
+   "size": "M"
+  },
+  "T11.46": {
+   "deps": [
+    "T11.34",
+    "T11.36"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.47": {
+   "deps": [
+    "T11.22",
+    "T11.36"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  },
+  "T11.48": {
+   "deps": [
+    "T11.34",
+    "T11.36"
+   ],
+   "external": [],
+   "area": "hosted/support-assistant",
+   "size": "M"
+  }
+ }
+}
