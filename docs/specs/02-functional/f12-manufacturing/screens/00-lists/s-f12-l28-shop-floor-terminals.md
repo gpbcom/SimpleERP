@@ -37,7 +37,11 @@ see: to find, filter, total and act on many shop-floor terminals at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] SHOP-FLOOR TERMINAL   STATE                                                          |
+| state             | [ ] NAME   WORK CENTRE   SIGNED-IN OP   CURRENT OPER   CONNECTION   RECORDS WAIT   STATE |
+| work centre       | [ ] ...                                                  Open >                          |
+| signed-in operat  | [ ] ...                                                  Open >                          |
+| current operatio  | [ ] ...                                                  Open >                          |
+| connection        | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,7 +51,12 @@ see: to find, filter, total and act on many shop-floor terminals at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Shop-floor terminal | the record's title | text | yes |
+| Name | name | text | yes |
+| Work centre | work centre | link to the record | yes |
+| Signed-in operator | signed-in operator | person's name | yes |
+| Current operation | current operation | link to the record | yes |
+| Connection | connection | label | yes |
+| Records waiting | records waiting | number, right-aligned | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -57,12 +66,17 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Work centre | each linked work centre | the visible rows (D488) |
+| Signed-in operator | each person, the user first | the visible rows (D488) |
+| Current operation | each linked current operation | the visible rows (D488) |
+| Connection | online, offline | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: shop-floor terminals link to no other record type in their fields.
+- Shop-floor terminals of a chosen work centre, or of the work centres that match a filter.
+- From the other side: the work centres that have shop-floor terminals, or none.
 
 ## KPI strip
 
@@ -106,7 +120,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| signed-in operator | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

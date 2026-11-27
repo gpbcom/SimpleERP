@@ -3,7 +3,7 @@
 
 # 📝 UC-F8-36 Open the books to the statutory auditor
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -162,10 +162,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 A company above certain thresholds must have its accounts audited by a statutory auditor, who has the right to see the
-books and the supporting documents. The thresholds, the auditor's rights and the engagement rules are written
-later as the France-pack rule on when a statutory auditor is required.
+books and the supporting documents. The thresholds (two of three exceeded, for example a balance sheet of 5 000 000 EUR,
+a turnover of 10 000 000 EUR and 50 employees for an SARL or an SAS) and the 6-year mandate are those of the France-pack
+rule below.
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-213 When a statutory auditor is required](../../../../10-country-packs/france/accounting/cr-fr-213-statutory-auditor-thresholds.md)
 
 ## Related use cases

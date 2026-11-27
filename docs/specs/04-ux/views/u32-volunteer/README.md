@@ -2,7 +2,7 @@
 
 # 🙋 Volunteer: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -11,7 +11,7 @@ targets ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Next mission; Expenses to send.
 - Widgets: My missions.
@@ -35,16 +35,16 @@ targets ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Navigation
 
-(Proposed) Missions · Events · Me.
+Missions · Events · Me.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U32-01 | [Take a mission](journeys/j-u32-01-take-a-mission.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U32-01 | [Take a mission](journeys/j-u32-01-take-a-mission.md) | ✅ |
 
 ---
 

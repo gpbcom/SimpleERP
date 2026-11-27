@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-21 Take orders offline on the road
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -125,7 +125,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Saving offline within 300 ms (Proposed).
+Saving offline within 300 ms.
 
 ## Regulatory references
 

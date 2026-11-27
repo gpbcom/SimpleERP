@@ -13,8 +13,12 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f04-01-meeting-e-f04-02-transcript-complete-phone.html`
 - `s-f04-01-meeting-e-f04-02-transcript-live-desktop.html`
 - `s-f04-01-meeting-e-f04-02-transcript-live-phone.html`
-- `s-f04-01-meeting-e-f04-17-meeting-summary-active-desktop.html`
-- `s-f04-01-meeting-e-f04-17-meeting-summary-active-phone.html`
+- `s-f04-01-meeting-e-f04-17-meeting-summary-draft-desktop.html`
+- `s-f04-01-meeting-e-f04-17-meeting-summary-published-desktop.html`
+- `s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-desktop.html`
+- `s-f04-01-meeting-e-f04-17-meeting-summary-draft-phone.html`
+- `s-f04-01-meeting-e-f04-17-meeting-summary-published-phone.html`
+- `s-f04-01-meeting-e-f04-17-meeting-summary-not-checked-phone.html`
 - `s-f04-15-chat-e-f04-10-chat-channel-active-desktop.html`
 - `s-f04-15-chat-e-f04-10-chat-channel-active-phone.html`
 - `s-f04-19-room-booking-e-f02-17-bookable-resource-setting-archived-desktop.html`

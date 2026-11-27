@@ -18,6 +18,8 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f06-04-customer-portal-e-f06-07-subscription-contract-active-phone.html`
 - `s-f06-04-customer-portal-e-f06-17-invoice-dispute-open-phone.html`
 - `s-f06-04-customer-portal-e-f06-21-payment-reminder-active-phone.html`
+- `s-f06-04-customer-portal-e-f06-21-payment-reminder-paused-phone.html`
+- `s-f06-04-customer-portal-e-f06-21-payment-reminder-stopped-phone.html`
 - `s-f06-07-payments-and-reconciliation-e-f06-06-customer-payment-matched-phone.html`
 - `s-f06-07-payments-and-reconciliation-e-f06-06-customer-payment-refused-phone.html`
 - `s-f06-13-rentals-e-f06-09-rental-booked-phone.html`

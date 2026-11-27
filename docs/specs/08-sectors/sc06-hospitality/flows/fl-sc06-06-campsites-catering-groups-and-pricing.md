@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC06-06 Campsites, catering, groups, pricing and licences
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

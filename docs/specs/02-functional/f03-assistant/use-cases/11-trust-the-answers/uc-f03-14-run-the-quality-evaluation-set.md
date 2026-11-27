@@ -4,7 +4,7 @@
 
 # 📝 UC-F3-14 Run the quality evaluation set
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -26,11 +26,11 @@ A model, provider, prompt or knowledge change; or the administrator runs it by h
 
 ## Frequency
 
-At each change; weekly by schedule (Proposed).
+At each change; weekly by schedule.
 
 ## Preconditions
 
-- At least 20 evaluation questions (Proposed).
+- At least 20 evaluation questions.
 
 ## Postconditions
 
@@ -119,7 +119,7 @@ sequenceDiagram
 
 ## Acceptance criteria
 
-1. **Given** 40 questions and a bar of 90 % (Proposed) **when** a model change scores 88 % **then** the change is
+1. **Given** 40 questions and a bar of 90 % **when** a model change scores 88 % **then** the change is
    blocked and the 3 failed questions are shown.
 2. **Given** the same **when** the score is 96 % **then** the change goes live.
 3. **Given** a question asked as Sales about salaries **when** it is run **then** the expected refusal scores as passed.
@@ -128,7 +128,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A run of 100 questions finishes within 15 minutes (Proposed).
+A run of 100 questions finishes within 15 minutes.
 
 ## Regulatory references
 

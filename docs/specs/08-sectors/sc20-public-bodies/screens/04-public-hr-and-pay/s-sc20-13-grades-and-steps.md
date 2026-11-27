@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC20-13 Grades and steps
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

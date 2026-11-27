@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC17-05 Rentals, care records, client files and loyalty
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

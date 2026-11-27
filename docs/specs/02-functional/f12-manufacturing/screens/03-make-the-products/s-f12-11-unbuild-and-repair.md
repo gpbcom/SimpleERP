@@ -53,8 +53,9 @@ As its use case's main flow.
 - Offline: Not available offline: a back-office screen on live, shared data (D38: only today's schedule, time and
   intervention records work offline). The app shows that it is offline and reloads the screen when the network is back.
 
-Shown entities (VD-15): [E-F12-04 Manufacturing order](../../data/e-f12-04-manufacturing-order.md),
-[E-F12-29 Unbuild order](../../data/e-f12-29-unbuild-order.md).
+Shown entities (VD-15): [E-F12-04 Manufacturing order](../../data/e-f12-04-manufacturing-order.md), of the kind
+unbuild, rework or repair: the unbuild order is not a separate record ([E-F12-29](../../data/e-f12-29-unbuild-order.md),
+D573), so its states are those of E-F12-04 below.
 
 Entity states shown (VD-15):
 
@@ -64,7 +65,6 @@ Entity states shown (VD-15):
 | E-F12-04 Manufacturing order | Confirmed | Badge "Confirmed"; next: In progress or Cancelled (UC-F12-27, BR-F12-02); fields editable within the role | U20, U21 | `u20-production-operator/s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-confirmed-tablet-{light,dark}.png`, `u21-production-planner/s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-confirmed-{desktop,phone}-{light,dark}.png` |
 | E-F12-04 Manufacturing order | In progress | Badge "In progress"; next: Done or Cancelled (UC-F12-04, BR-F12-02); fields editable within the role | U20, U21 | `u20-production-operator/s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-in-progress-tablet-{light,dark}.png`, `u21-production-planner/s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-in-progress-{desktop,phone}-{light,dark}.png` |
 | E-F12-04 Manufacturing order | Done | Badge "Done"; final: read-only, no next state; the history shows how it got here | U20, U21 | `u20-production-operator/s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-tablet-{light,dark}.png`, `u21-production-planner/s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-{desktop,phone}-{light,dark}.png` |
-| E-F12-29 Unbuild order | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U20, U21 | `u20-production-operator/s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-tablet-{light,dark}.png`, `u21-production-planner/s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-{desktop,phone}-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

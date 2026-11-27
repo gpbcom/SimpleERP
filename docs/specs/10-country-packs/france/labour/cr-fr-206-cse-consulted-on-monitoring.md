@@ -3,26 +3,27 @@
 
 # ⚖️ CR-FR-206 Staff committee consulted before monitoring tools
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) The staff committee (CSE) is informed and consulted before the company brings in means or techniques that
-allow employees' activity to be monitored, such as call recording or call scoring; no information about an employee is
-collected by a device not first made known to them.
+The staff committee (CSE) is informed and consulted before the company decides to bring in
+means or techniques that allow employees' activity to be monitored, such as call recording or call scoring
+(L2312-38); no information about an employee is collected by a device not first made known to them (L1222-4) ([Code du travail, art. L2312-38](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035610275), [art. L1222-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Consultation before switching on.
-- (Proposed) Employees told beforehand.
+- Consultation before the decision to switch on ([Code du travail, art. L2312-38](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035610275), read 2026-11-27).
+- Employees told beforehand ([Code du travail, art. L1222-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861), read 2026-11-27).
 
 ## Legal references
 
-- Code du travail L2312-38 and L1222-4 (not read yet).
+- [Code du travail](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050/)
+  art. L2312-38, L1222-4, L2317-1.
 
 ## Effective dates
 
-(Proposed) To read.
+Since 2018-01-01: L2312-38 in force since 2018-01-01, L1222-4 since 2008-05-01 ([Code du travail, art. L2312-38](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035610275), [art. L1222-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900861), read 2026-11-27).
 
 ## Enforced by
 
@@ -31,6 +32,7 @@ collected by a device not first made known to them.
 - [UC-F4-12 Score a sales call](../../../02-functional/f04-meetings/use-cases/09-score-calls-and-interviews/uc-f04-12-score-a-sales-call.md)
 - [AI governance](../../../05-non-functional/ai-governance.md)
 - [Meeting recording](../../../05-non-functional/meeting-recording.md)
+- [UC-F4-31 Analyse time spent in meetings](../../../02-functional/f04-meetings/use-cases/14-video-messages-and-webinars/uc-f04-31-analyse-time-spent-in-meetings.md)
 
 ## When the law changes
 
@@ -39,7 +41,7 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Obstructing the regular functioning of the CSE: a 7 500 EUR fine (L2317-1) ([Code du travail, art. L2317-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035634273), read 2026-11-27).
 
 ## Exceptions
 

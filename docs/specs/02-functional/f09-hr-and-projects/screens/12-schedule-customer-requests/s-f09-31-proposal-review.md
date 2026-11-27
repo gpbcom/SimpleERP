@@ -4,7 +4,7 @@
 
 # 🖥️ S-F9-31 Proposal review
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-28, VD-29, VD-32, VD-33 / D510, D511, D514, D515)
+**Status:** ✅ specified
 
 ## Personas
 
@@ -30,7 +30,7 @@ the travel minutes come from the route optimiser of
 
 ```text
 +-----------------------------------------------------------------------------------------------+
-| WR-2207 Bathing help · Mme Roche, Villeurbanne · Tue 08:00-09:00 · 60 min        (Proposed)    |
+| WR-2207 Bathing help · Mme Roche, Villeurbanne · Tue 08:00-09:00 · 60 min           |
 | Request type: Bathing help v3   Required: carer qualification   Preferred: French (4), zones (3)|
 | [Adjust for this request]                                                                     |
 |-----------------------------------------------------------------------------------------------|

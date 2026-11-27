@@ -4,7 +4,7 @@
 
 # 📝 UC-F10-22 Check age for restricted sales
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -120,8 +120,10 @@ Works offline as [BR-F10-06](../../business-rules/br-f10-06-offline-keeps-sellin
 
 ## Regulatory references
 
-[CR-FR-109](../../../../10-country-packs/france/hospitality/cr-fr-109-alcohol-licences.md); (Proposed) to read: Code de
-la santé publique L3342-1 and L3512-12.
+[CR-FR-109](../../../../10-country-packs/france/hospitality/cr-fr-109-alcohol-licences.md); the sale of alcohol to minors is
+forbidden and the seller asks for proof of age (Code de la santé publique L3342-1, as
+[CR-FR-235 Alcohol licences and opening hours](../../../../10-country-packs/france/hospitality/cr-fr-235-alcohol-licences.md) reads it).
+(⚖️ lawyer review before launch, D574) to read: Code de la santé publique L3512-12 (tobacco and vaping products to minors).
 
 ## Related use cases
 

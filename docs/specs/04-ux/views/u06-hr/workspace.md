@@ -3,7 +3,7 @@
 
 # 🧰 U06 Human resources: workspace
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -14,7 +14,7 @@ The views [U06 Human resources](../../../01-users/personas/u06-hr.md) works with
 [D495](../../../06-decisions/ux/d495-views-listed-under-each-capabilitys-menu.md)): the list of each record type their
 use cases and flow charts work on, with the owner's review of 2026-11-13
 ([D519](../../../06-decisions/ux/d519-view-cards-reviewed-list-pages-and-workspaces.md)). Each view opens on the
-persona's default saved view. (Proposed) The default is the view's "Mine" for a persona who works on their own records,
+persona's default saved view. The default is the view's "Mine" for a persona who works on their own records,
 "Needs attention" for one who oversees others' (managers, the owner, HR, the administrators and the planner roles), else
 "Open", else "All".
 
@@ -61,6 +61,7 @@ persona's default saved view. (Proposed) The default is the view's "Mine" for a 
 | [S-F9-L11 Appraisals](../../../02-functional/f09-hr-and-projects/screens/00-lists/s-f09-l11-appraisals.md) | HR and projects | All | UC-F9-11 |
 | [S-F9-L12 Certifications](../../../02-functional/f09-hr-and-projects/screens/00-lists/s-f09-l12-certifications.md) | HR and projects | Needs attention | UC-F9-11, UC-F9-25, UC-F9-38, UC-F9-39 and more |
 | [S-F9-L13 Company vehicles](../../../02-functional/f09-hr-and-projects/screens/00-lists/s-f09-l13-company-vehicles.md) | HR and projects | All | UC-F9-12 |
+| [S-F9-L18 Project and tasks](../../../02-functional/f09-hr-and-projects/screens/00-lists/s-f09-l18-project-and-tasks.md) | HR and projects | Messages to send | UC-F9-41, D570 |
 | [S-F9-L19 Contract templates](../../../02-functional/f09-hr-and-projects/screens/00-lists/s-f09-l19-contract-templates.md) | HR and projects | Needs attention | UC-F9-19 |
 | [S-F9-L20 Equality indexes](../../../02-functional/f09-hr-and-projects/screens/00-lists/s-f09-l20-equality-indexes.md) | HR and projects | Needs attention | UC-F9-20 |
 | [S-F9-L21 Whistleblowing reports](../../../02-functional/f09-hr-and-projects/screens/00-lists/s-f09-l21-whistleblowing-reports.md) | HR and projects | Open: Received, Acknowledged | UC-F9-24 |

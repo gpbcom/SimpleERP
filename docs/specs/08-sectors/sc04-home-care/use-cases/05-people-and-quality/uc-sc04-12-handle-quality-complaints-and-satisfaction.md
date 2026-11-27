@@ -4,7 +4,7 @@
 
 # 📝 UC-SC04-12 Handle quality, complaints and satisfaction
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -55,7 +55,7 @@ A few a month; one survey a year.
 
 ## Error flows
 
-- 2e. The answer is late: the coordinator and the owner are alerted ((Proposed) after 10 working days).
+- 2e. The answer is late: the coordinator and the owner are alerted (after 10 working days).
 - 3e. A closing without action: it is refused.
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
@@ -130,7 +130,7 @@ sequenceDiagram
 1. **Given** the example home-care service's complaint from M. Petit on 2 November about a late visit **when** it is
    answered and closed **then** it shows its answer and action and counts in the quarter's quality figures.
 2. **Given** a complaint of 2 November unanswered on 17 November **when** the delay passes **then** the coordinator and
-   the owner are alerted ((Proposed) after 10 working days).
+   the owner are alerted (after 10 working days).
 
 ## Non-functional notes
 
@@ -149,7 +149,7 @@ None specific to this use case; the sector's legal rules are listed in [SC04 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

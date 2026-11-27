@@ -5,7 +5,7 @@
 
 # 📝 UC-F19-26 Reconcile feature payments and follow up unpaid invoices
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -51,7 +51,9 @@ Weekly.
 
 ## Error flows
 
-- 3e. Still unpaid after reminders: accounting decides with the hosting provider's policy (Proposed) to read.
+- 3e. Still unpaid after reminders: accounting decides with the hosting provider's collection policy; a business
+  customer owes the late-payment penalties and the 40 EUR indemnity of
+  [CR-FR-019](../../../../10-country-packs/france/invoicing/cr-fr-019-late-payment-penalties.md).
 - Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
   (D122) and what was typed stays on the screen.
 

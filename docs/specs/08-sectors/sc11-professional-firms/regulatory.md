@@ -17,8 +17,10 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-020 Proof of acceptance and e-signature](../../10-country-packs/france/invoicing/cr-fr-020-electronic-acceptance-and-signature.md),
 [CR-FR-052 Personal data kept no longer than needed](../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md),
 [CR-FR-019 Late-payment penalties](../../10-country-packs/france/invoicing/cr-fr-019-late-payment-penalties.md).
-Anti-money-laundering details, accountants' letters and architects' rules are (Proposed): their official pages could not
-be read yet.
+Anti-money-laundering vigilance, accountants' engagement letters and architects' insurance and contract are read in
+CR-FR-149, CR-FR-152 and CR-FR-153; notaries' client funds
+([CR-FR-241](../../10-country-packs/france/professional-firms/cr-fr-241-notaries-client-funds.md)) keep two points for
+the lawyer's review.
 
 ## Country pack
 

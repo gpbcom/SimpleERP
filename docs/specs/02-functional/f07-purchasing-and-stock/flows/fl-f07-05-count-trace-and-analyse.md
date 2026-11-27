@@ -13,7 +13,7 @@ Covers UC-F7-07, UC-F7-08, UC-F7-11.
 
 See each use case.
 
-- [U02 Manager](../../../01-users/personas/u02-manager.md), acting in the chart, step 36i (Proposed)
+- [U02 Manager](../../../01-users/personas/u02-manager.md), acting in the chart, step 36i
 
 ## Flowchart
 

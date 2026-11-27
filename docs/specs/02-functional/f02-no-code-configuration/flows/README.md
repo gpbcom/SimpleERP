@@ -22,7 +22,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F2-09 | [Portals and offline forms](fl-f02-09-portals-and-offline-forms.md) | ✅ |
 | 🔀 | FL-F2-10 | [Change safely](fl-f02-10-change-safely.md) | ✅ |
 | 🔀 | FL-F2-11 | [Rights, translations and approvals](fl-f02-11-rights-translations-and-approvals.md) | ✅ |
-| 🔀 | FL-F2-12 | [Set up request types](fl-f02-12-set-up-request-types.md) | 🔄 |
+| 🔀 | FL-F2-12 | [Set up request types](fl-f02-12-set-up-request-types.md) | ✅ |
 | 🔀 | FL-F2-13 | [Low code, bulk work and data cleaning](fl-f02-13-low-code-bulk-and-cleaning.md) | ✅ |
 
 ---

@@ -3,7 +3,7 @@
 
 # 🗃️ E-F4-15 Accuracy measure
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -29,7 +29,7 @@ stateDiagram-v2
   [*] --> Recorded : UC-F4-24
 ```
 
-Recomputed monthly (Proposed).
+Recomputed monthly.
 
 ## Indexes and search
 
@@ -37,7 +37,7 @@ By language and model.
 
 ## Retention
 
-2 years (Proposed).
+2 years.
 
 ## Audit
 

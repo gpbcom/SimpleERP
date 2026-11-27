@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC16-05 | [Ticketing](s-sc16-05-ticketing.md) | 🔄 |
-| 🖥️ | S-SC16-06 | [Access control](s-sc16-06-access-control.md) | 🔄 |
-| 🖥️ | S-SC16-07 | [Box office](s-sc16-07-box-office.md) | 🔄 |
-| 🖥️ | S-SC16-17 | [Refunds](s-sc16-17-refunds.md) | 🔄 |
+| 🖥️ | S-SC16-05 | [Ticketing](s-sc16-05-ticketing.md) | ✅ |
+| 🖥️ | S-SC16-06 | [Access control](s-sc16-06-access-control.md) | ✅ |
+| 🖥️ | S-SC16-07 | [Box office](s-sc16-07-box-office.md) | ✅ |
+| 🖥️ | S-SC16-17 | [Refunds](s-sc16-17-refunds.md) | ✅ |

@@ -22,7 +22,9 @@ are capped; foreign providers cannot be funded.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Contribution: from 2026-01-01 to 2026-04-01, 103.20 EUR ([arrêté du 30 décembre 2025, art. 1](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053275994), read 2026-11-27); from
+2026-04-02, 150 EUR, for requests after that date ([décret n° 2026-234 du 30 mars 2026](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053742996),
+read 2026-11-27); caps from 2026-02-26 ([travail-emploi.gouv.fr: the CPF](https://travail-emploi.gouv.fr/le-compte-personnel-de-formation-cpf), read 2026-11-27).
 
 ## Enforced by
 

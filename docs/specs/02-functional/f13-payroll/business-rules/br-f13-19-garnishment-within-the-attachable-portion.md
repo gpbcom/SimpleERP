@@ -3,7 +3,7 @@
 
 # 📏 BR-F13-19 Garnishment within the attachable portion
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,8 @@ priority.
 
 ## Why
 
-The law protects part of the pay from seizure; the scale and the protected amount are (Proposed) to read in the France
-pack (Code du travail R3252-2 and following).
+The law protects part of the pay from seizure; the scale and the protected amount are (⚖️ lawyer review before launch, D574) to read in
+the France pack: Code du travail R3252-2 and following.
 
 ## Examples
 

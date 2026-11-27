@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-23 Renewals are warned before their deadline
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

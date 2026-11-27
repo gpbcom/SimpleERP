@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-11 Every dated duty has an owner and reminders
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -19,7 +19,7 @@ Missed filings and registers cost penalties; the calendar makes the company's du
 
 | Case | Result |
 |---|---|
-| Approval of the accounts due 2027-06-30, owner the owner of the company | passes: reminders 30 and 7 days before (Proposed) |
+| Approval of the accounts due 2027-06-30, owner the owner of the company | passes: reminders 30 and 7 days before |
 | Duty with no owner | fails: assigned to the owner of the company by default |
 | Duty past its date undone | passes: overdue, both told |
 
@@ -35,7 +35,7 @@ None.
 
 ## Configurable
 
-The company assigns owners and may add its own duties; reminder lead times per duty (Proposed).
+The company assigns owners and may add its own duties; reminder lead times per duty.
 
 ## Open questions
 

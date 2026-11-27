@@ -31,7 +31,7 @@ None.
 
 ## Configurable
 
-The minimum of meetings and the bar (Proposed: 20 meetings, 90 %).
+The minimum of meetings and the bar (default: 20 meetings, 90 %).
 
 ## Open questions
 

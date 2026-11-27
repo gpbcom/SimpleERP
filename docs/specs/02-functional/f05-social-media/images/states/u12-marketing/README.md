@@ -276,11 +276,47 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f05-05-social-inbox-e-f06-20-lead-active-desktop, light](s-f05-05-social-inbox-e-f06-20-lead-active-desktop-light.png) | ![s-f05-05-social-inbox-e-f06-20-lead-active-desktop, dark](s-f05-05-social-inbox-e-f06-20-lead-active-desktop-dark.png) |
 
+## s-f05-05-social-inbox-e-f06-20-lead-qualified-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f05-05-social-inbox-e-f06-20-lead-qualified-desktop, light](s-f05-05-social-inbox-e-f06-20-lead-qualified-desktop-light.png) | ![s-f05-05-social-inbox-e-f06-20-lead-qualified-desktop, dark](s-f05-05-social-inbox-e-f06-20-lead-qualified-desktop-dark.png) |
+
+## s-f05-05-social-inbox-e-f06-20-lead-disqualified-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f05-05-social-inbox-e-f06-20-lead-disqualified-desktop, light](s-f05-05-social-inbox-e-f06-20-lead-disqualified-desktop-light.png) | ![s-f05-05-social-inbox-e-f06-20-lead-disqualified-desktop, dark](s-f05-05-social-inbox-e-f06-20-lead-disqualified-desktop-dark.png) |
+
+## s-f05-05-social-inbox-e-f06-20-lead-converted-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f05-05-social-inbox-e-f06-20-lead-converted-desktop, light](s-f05-05-social-inbox-e-f06-20-lead-converted-desktop-light.png) | ![s-f05-05-social-inbox-e-f06-20-lead-converted-desktop, dark](s-f05-05-social-inbox-e-f06-20-lead-converted-desktop-dark.png) |
+
 ## s-f05-05-social-inbox-e-f06-20-lead-active-phone
 
 | Light | Dark |
 |---|---|
 | ![s-f05-05-social-inbox-e-f06-20-lead-active-phone, light](s-f05-05-social-inbox-e-f06-20-lead-active-phone-light.png) | ![s-f05-05-social-inbox-e-f06-20-lead-active-phone, dark](s-f05-05-social-inbox-e-f06-20-lead-active-phone-dark.png) |
+
+## s-f05-05-social-inbox-e-f06-20-lead-qualified-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f05-05-social-inbox-e-f06-20-lead-qualified-phone, light](s-f05-05-social-inbox-e-f06-20-lead-qualified-phone-light.png) | ![s-f05-05-social-inbox-e-f06-20-lead-qualified-phone, dark](s-f05-05-social-inbox-e-f06-20-lead-qualified-phone-dark.png) |
+
+## s-f05-05-social-inbox-e-f06-20-lead-disqualified-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f05-05-social-inbox-e-f06-20-lead-disqualified-phone, light](s-f05-05-social-inbox-e-f06-20-lead-disqualified-phone-light.png) | ![s-f05-05-social-inbox-e-f06-20-lead-disqualified-phone, dark](s-f05-05-social-inbox-e-f06-20-lead-disqualified-phone-dark.png) |
+
+## s-f05-05-social-inbox-e-f06-20-lead-converted-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f05-05-social-inbox-e-f06-20-lead-converted-phone, light](s-f05-05-social-inbox-e-f06-20-lead-converted-phone-light.png) | ![s-f05-05-social-inbox-e-f06-20-lead-converted-phone, dark](s-f05-05-social-inbox-e-f06-20-lead-converted-phone-dark.png) |
 
 ## s-f05-07-social-accounts-e-f05-02-social-account-active-desktop
 
@@ -768,11 +804,47 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f05-19-landing-page-editor-e-f06-20-lead-active-desktop, light](s-f05-19-landing-page-editor-e-f06-20-lead-active-desktop-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-active-desktop, dark](s-f05-19-landing-page-editor-e-f06-20-lead-active-desktop-dark.png) |
 
+## s-f05-19-landing-page-editor-e-f06-20-lead-qualified-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f05-19-landing-page-editor-e-f06-20-lead-qualified-desktop, light](s-f05-19-landing-page-editor-e-f06-20-lead-qualified-desktop-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-qualified-desktop, dark](s-f05-19-landing-page-editor-e-f06-20-lead-qualified-desktop-dark.png) |
+
+## s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-desktop, light](s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-desktop-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-desktop, dark](s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-desktop-dark.png) |
+
+## s-f05-19-landing-page-editor-e-f06-20-lead-converted-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f05-19-landing-page-editor-e-f06-20-lead-converted-desktop, light](s-f05-19-landing-page-editor-e-f06-20-lead-converted-desktop-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-converted-desktop, dark](s-f05-19-landing-page-editor-e-f06-20-lead-converted-desktop-dark.png) |
+
 ## s-f05-19-landing-page-editor-e-f06-20-lead-active-phone
 
 | Light | Dark |
 |---|---|
 | ![s-f05-19-landing-page-editor-e-f06-20-lead-active-phone, light](s-f05-19-landing-page-editor-e-f06-20-lead-active-phone-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-active-phone, dark](s-f05-19-landing-page-editor-e-f06-20-lead-active-phone-dark.png) |
+
+## s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone, light](s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone, dark](s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone-dark.png) |
+
+## s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone, light](s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone, dark](s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone-dark.png) |
+
+## s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone, light](s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone, dark](s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone-dark.png) |
 
 ## s-f05-20-whatsapp-business-e-f05-04-social-message-new-desktop
 

@@ -114,17 +114,53 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc13-06-veterinary-e-sc13-06-veterinary-treatment-active-phone, light](s-sc13-06-veterinary-e-sc13-06-veterinary-treatment-active-phone-light.png) | ![s-sc13-06-veterinary-e-sc13-06-veterinary-treatment-active-phone, dark](s-sc13-06-veterinary-e-sc13-06-veterinary-treatment-active-phone-dark.png) |
 
-## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-desktop
+## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-desktop, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-desktop-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-desktop, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-desktop-dark.png) |
+| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-desktop, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-desktop-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-desktop, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-desktop-dark.png) |
 
-## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-phone
+## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-phone, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-phone-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-phone, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-phone-dark.png) |
+| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-desktop, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-desktop-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-desktop, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-desktop-dark.png) |
+
+## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-desktop, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-desktop-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-desktop, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-desktop-dark.png) |
+
+## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-desktop, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-desktop-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-desktop, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-desktop-dark.png) |
+
+## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-phone, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-phone-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-phone, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-phone-dark.png) |
+
+## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-phone, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-phone-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-phone, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-phone-dark.png) |
+
+## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-phone, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-phone-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-phone, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-phone-dark.png) |
+
+## s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-phone, light](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-phone-light.png) | ![s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-phone, dark](s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-phone-dark.png) |
 
 ## s-sc13-07-aid-declaration-e-sc13-01-plot-new-desktop
 

@@ -2,7 +2,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -25,10 +25,10 @@ One file per rule.
 | 📏 | BR-SC14-13 | [Health score from usage](br-sc14-13-health-score-from-usage.md) | ✅ |
 | 📏 | BR-SC14-14 | [Features linked to requests](br-sc14-14-features-linked-to-requests.md) | ✅ |
 | 📏 | BR-SC14-15 | [Partners' commissions from deals](br-sc14-15-partners-commissions-from-deals.md) | ✅ |
-| 📏 | BR-SC14-16 | [Leased devices stay listed until returned](br-sc14-16-leased-devices-stay-listed-until-returned.md) | 🔄 |
-| 📏 | BR-SC14-17 | [Seats billed match the distributor's statement](br-sc14-17-seats-billed-match-the-distributors-statement.md) | 🔄 |
-| 📏 | BR-SC14-18 | [Claimed hours have timesheet evidence](br-sc14-18-claimed-hours-have-timesheet-evidence.md) | 🔄 |
-| 📏 | BR-SC14-19 | [Sponsor tiers are invoiced like subscriptions](br-sc14-19-sponsor-tiers-are-invoiced-like-subscriptions.md) | 🔄 |
+| 📏 | BR-SC14-16 | [Leased devices stay listed until returned](br-sc14-16-leased-devices-stay-listed-until-returned.md) | ✅ |
+| 📏 | BR-SC14-17 | [Seats billed match the distributor's statement](br-sc14-17-seats-billed-match-the-distributors-statement.md) | ✅ |
+| 📏 | BR-SC14-18 | [Claimed hours have timesheet evidence](br-sc14-18-claimed-hours-have-timesheet-evidence.md) | ✅ |
+| 📏 | BR-SC14-19 | [Sponsor tiers are invoiced like subscriptions](br-sc14-19-sponsor-tiers-are-invoiced-like-subscriptions.md) | ✅ |
 
 ---
 

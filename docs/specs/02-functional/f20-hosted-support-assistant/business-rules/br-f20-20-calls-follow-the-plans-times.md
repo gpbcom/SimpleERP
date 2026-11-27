@@ -4,7 +4,7 @@
 
 # 📏 BR-F20-20 Calls follow the plan's times
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

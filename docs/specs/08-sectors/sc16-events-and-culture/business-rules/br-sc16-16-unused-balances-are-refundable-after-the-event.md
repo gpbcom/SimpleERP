@@ -3,7 +3,7 @@
 
 # 📏 BR-SC16-16 Unused balances are refundable after the event
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,8 +14,9 @@ deadline set for the event. Money is never debited from an account that is Close
 
 Money held for visitors belongs to them until they spend it, and keeping it without a way to get it back is a breach of
 trust and of the rules on prepaid instruments. The owner asked for cashless payments
-([D560](../../../06-decisions/sectors/d560-benchmark-gaps-sc16-events-and-culture.md)). (Proposed) The France-pack rule
-is written later.
+([D560](../../../06-decisions/sectors/d560-benchmark-gaps-sc16-events-and-culture.md)). (⚖️ lawyer review before launch, D574) The France-pack
+rule is still to write: to read the Code monétaire et financier on electronic money and the limited-network exemption
+(L525-1 to L525-6) and any limit on refund fees.
 
 ## Examples
 

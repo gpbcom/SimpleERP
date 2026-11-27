@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -24,14 +24,14 @@ One file per rule.
 | 📏 | BR-F22-11 | [Suppliers' invoices matched](br-f22-11-supplier-invoices-matched.md) | ✅ |
 | 📏 | BR-F22-12 | [Costs allocated to accounts](br-f22-12-allocation-to-accounts.md) | ✅ |
 | 📏 | BR-F22-13 | [Anomalies flagged](br-f22-13-anomalies-flagged.md) | ✅ |
-| 📏 | BR-F22-14 | [Foreign prices converted at the day's rate](br-f22-14-foreign-prices-converted-at-the-days-rate.md) | 🔄 |
-| 📏 | BR-F22-15 | [Self-hosted compute has a cost](br-f22-15-self-hosted-compute-has-a-cost.md) | 🔄 |
-| 📏 | BR-F22-16 | [Recommendations show their saving and never act alone](br-f22-16-recommendations-show-their-saving-and-never-act-alone.md) | 🔄 |
+| 📏 | BR-F22-14 | [Foreign prices converted at the day's rate](br-f22-14-foreign-prices-converted-at-the-days-rate.md) | ✅ |
+| 📏 | BR-F22-15 | [Self-hosted compute has a cost](br-f22-15-self-hosted-compute-has-a-cost.md) | ✅ |
+| 📏 | BR-F22-16 | [Recommendations show their saving and never act alone](br-f22-16-recommendations-show-their-saving-and-never-act-alone.md) | ✅ |
 | 📏 | BR-F22-17 | [Re-billing rules per client](br-f22-17-re-billing-rules-per-client.md) | ✅ |
-| 📏 | BR-F22-18 | [Automatic top-ups stay within the budget](br-f22-18-automatic-top-ups-stay-within-the-budget.md) | 🔄 |
-| 📏 | BR-F22-19 | [Unused seats are flagged before renewal](br-f22-19-unused-seats-are-flagged-before-renewal.md) | 🔄 |
-| 📏 | BR-F22-20 | [Carbon figures carry their method and source](br-f22-20-carbon-figures-carry-their-method-and-source.md) | 🔄 |
-| 📏 | BR-F22-21 | [Routing never goes below a task's quality bar](br-f22-21-routing-never-goes-below-a-tasks-quality-bar.md) | 🔄 |
+| 📏 | BR-F22-18 | [Automatic top-ups stay within the budget](br-f22-18-automatic-top-ups-stay-within-the-budget.md) | ✅ |
+| 📏 | BR-F22-19 | [Unused seats are flagged before renewal](br-f22-19-unused-seats-are-flagged-before-renewal.md) | ✅ |
+| 📏 | BR-F22-20 | [Carbon figures carry their method and source](br-f22-20-carbon-figures-carry-their-method-and-source.md) | ✅ |
+| 📏 | BR-F22-21 | [Routing never goes below a task's quality bar](br-f22-21-routing-never-goes-below-a-tasks-quality-bar.md) | ✅ |
 
 ---
 

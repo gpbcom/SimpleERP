@@ -4,7 +4,7 @@
 
 # 📝 UC-F8-28 Prepare the sustainability report
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -122,7 +122,7 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: the EFRAG VSME standard.
+Design reference, not a law: the EFRAG VSME standard (voluntary sustainability reporting standard for SMEs) ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Related use cases
 

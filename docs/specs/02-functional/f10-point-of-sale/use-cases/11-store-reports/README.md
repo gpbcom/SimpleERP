@@ -11,4 +11,4 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F10-28 | [Read hourly sales, staff performance and basket analysis](uc-f10-28-read-hourly-sales-staff-performance-and-basket-analysis.md) | 🔄 |
+| 📝 | UC-F10-28 | [Read hourly sales, staff performance and basket analysis](uc-f10-28-read-hourly-sales-staff-performance-and-basket-analysis.md) | ✅ |

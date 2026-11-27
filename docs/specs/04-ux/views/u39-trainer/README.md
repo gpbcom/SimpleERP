@@ -2,7 +2,7 @@
 
 # 🎤 Trainer: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -11,7 +11,7 @@ comfortable ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Attendance to sign; Assessments to enter.
 - Widgets: My sessions.
@@ -37,16 +37,16 @@ comfortable ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Navigation
 
-(Proposed) Sessions · Attendance · Grades · Me.
+Sessions · Attendance · Grades · Me.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U39-01 | [Teach a session](journeys/j-u39-01-teach-a-session.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U39-01 | [Teach a session](journeys/j-u39-01-teach-a-session.md) | ✅ |
 
 ---
 

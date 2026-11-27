@@ -4,7 +4,7 @@
 
 # 📌 REQ-T13-08 Floor and venue plans
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-19 / D501)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -24,7 +24,7 @@ Decided by the owner on 2026-11-13 (VD-18, VD-19).
 1. A plan is drawn or imported, and each of its places is linked to one record (a bin, a room, a table, a seat).
 2. The plan shows each place's state from its record (free, taken, to clean, blocked).
 3. A user without the map right sees the same records as lists.
-4. (Proposed) A plan imported from an SVG or DXF drawing keeps its scale.
+4. A plan imported from an SVG or DXF drawing keeps its scale.
 
 ## Measure
 
@@ -32,7 +32,7 @@ Decided (D517): A plan of 5,000 places drawn within 1 second.
 
 ## Priority
 
-Should (Proposed)
+Should
 
 ## Capabilities served
 

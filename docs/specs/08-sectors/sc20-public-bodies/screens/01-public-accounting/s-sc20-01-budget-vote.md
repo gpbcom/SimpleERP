@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-01 Budget vote
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

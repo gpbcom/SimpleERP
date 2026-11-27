@@ -4,7 +4,7 @@
 
 # 📏 BR-F22-15 Self-hosted compute has a cost
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -19,7 +19,7 @@ Local models are not free (D479); the owner compares them with paid providers.
 
 | Case | Result |
 |---|---|
-| Server 6 000.00 EUR over 36 months, 400 W at 0.25 EUR per kWh | passes: 0.33 EUR per hour (Proposed) computed |
+| Server 6 000.00 EUR over 36 months, 400 W at 0.25 EUR per kWh | passes: 0.33 EUR per hour computed |
 | Feature using 60 % of the GPU hours | passes: 60 % of the cost |
 | Machine with no purchase price | passes: electricity only, flagged |
 

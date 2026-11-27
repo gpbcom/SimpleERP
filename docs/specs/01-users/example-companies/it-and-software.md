@@ -2,20 +2,20 @@
 
 # 💻 IT and software
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Company
 
-(Proposed) Nuvola Logiciels, a fictional software company that sells an online booking software to small businesses
+Nuvola Logiciels, a fictional software company that sells an online booking software to small businesses
 across the EU and runs an IT services team.
 
 ## Activity
 
-(Proposed) A SaaS sold by subscription with plans and seats, usage billing, set-up and managed services.
+A SaaS sold by subscription with plans and seats, usage billing, set-up and managed services.
 
 ## Size
 
-(Proposed) 45 employees: 18 developers and consultants, 6 customer success managers, 5 sales people, a support team of
+45 employees: 18 developers and consultants, 6 customer success managers, 5 sales people, a support team of
 6, finance and the owners; about 2,500 subscribed customers in 9 EU countries. The sector's profile covers publishers,
 SaaS companies and IT service providers. Several locations are possible
 ([D32](../../06-decisions/technical/d32-several-locations.md)).

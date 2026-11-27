@@ -18,16 +18,16 @@ A person employed by the company.
 | department, manager, coach | records | yes | - | - | Works, Marc Durand | no | no |
 | private data | address, bank, family, emergency contact | no | BR-F9-01, BR-F9-02 | - | (private) | yes | no |
 | skills | list of skill and level | no | skills from the catalogue | - | Wiring, expert | yes | yes |
-| languages | list of language and level | no | (Proposed) CEFR levels A1 to C2 | - | English C1 | yes | no |
+| languages | list of language and level | no | CEFR levels A1 to C2 | - | English C1 | yes | no |
 | resume | document | no | may be read by the AI, confirmed by HR (BR-F9-28) | - | resume-2026.pdf | yes | no |
 | birth date | date | no | used only for the age checks (BR-F9-29) | - | 2008-03-14 | yes | no |
 | medical fitness | fit, fit with restrictions, unfit | no | never a diagnosis (BR-F9-29) | - | fit with restrictions | yes | no |
 | fitness restrictions, from, until | text, dates | no | when fit with restrictions | - | No loads over 15 kg | yes | no |
 | home base | address | no | geocoded (REQ-T13-02) | the site's address | 12 rue Garibaldi, Lyon | yes | no |
 | zones | list of zones | no | - | - | Lyon east | no | yes |
-| maximum travel | minutes | no | - | (Proposed) none | 45 minutes | no | no |
+| maximum travel | minutes | no | - | none | 45 minutes | no | no |
 | vehicle | company vehicle, own vehicle, none | no | - | none | Company vehicle | no | no |
-| cost rate | amount per hour | no | - | (Proposed) from the contract | 32.00 EUR | yes | no |
+| cost rate | amount per hour | no | - | from the contract | 32.00 EUR | yes | no |
 
 The birth date and the medical fitness are seen by HR and the person only; a planner sees whether the person is eligible
 and, when not, a short reason ([BR-F9-29](../business-rules/br-f09-29-planners-see-eligibility-only.md)). Degrees and

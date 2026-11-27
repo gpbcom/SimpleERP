@@ -79,7 +79,9 @@ Entity states shown (VD-15):
 |---|---|---|---|---|
 | E-F2-02 Status and transition | Draft | Badge "Draft"; a new record starts here; next: Published (UC-F2-02); fields editable within the role | U07 | `u07-administrator/s-f02-02-status-designer-e-f02-02-status-and-transition-draft-desktop-{light,dark}.png` |
 | E-F2-02 Status and transition | Published | Badge "Published"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f02-02-status-designer-e-f02-02-status-and-transition-published-desktop-{light,dark}.png` |
-| E-F2-26 Configuration draft | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U07 | `u07-administrator/s-f02-02-status-designer-e-f02-26-configuration-draft-active-desktop-{light,dark}.png` |
+| E-F2-26 Configuration draft | Open | Badge "Open"; a new record starts here; next: Published or Discarded (UC-F2-09); fields editable within the role | U07 | `u07-administrator/s-f02-02-status-designer-e-f02-26-configuration-draft-open-desktop-{light,dark}.png` |
+| E-F2-26 Configuration draft | Published | Badge "Published"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f02-02-status-designer-e-f02-26-configuration-draft-published-desktop-{light,dark}.png` |
+| E-F2-26 Configuration draft | Discarded | Badge "Discarded"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f02-02-status-designer-e-f02-26-configuration-draft-discarded-desktop-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

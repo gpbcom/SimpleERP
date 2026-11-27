@@ -3,7 +3,7 @@
 
 # 🧑‍🏫 Training coordinator: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a desktop. 
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Funding to confirm; Sessions next week; Certificates to issue.
 - Widgets: Fill rate of sessions.
@@ -37,16 +37,16 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a desktop. 
 
 ## Navigation
 
-(Proposed) Home · Catalogue · Sessions · Learners · Funding · Assistant.
+Home · Catalogue · Sessions · Learners · Funding · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U38-01 | [Fill and fund a session](journeys/j-u38-01-fill-and-fund-a-session.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U38-01 | [Fill and fund a session](journeys/j-u38-01-fill-and-fund-a-session.md) | ✅ |
 
 ---
 

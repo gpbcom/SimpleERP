@@ -28,6 +28,7 @@ Since 2018-05-25.
 - [Regulatory](../../../02-functional/f03-assistant/regulatory.md)
 - [UC-F3-09 Use the AI assistant on a phone](../../../02-functional/f03-assistant/use-cases/09-assistant-on-a-phone/uc-f03-09-use-the-assistant-on-a-phone.md)
 - [BR-F9-06 Location only at check-in](../../../02-functional/f09-hr-and-projects/business-rules/br-f09-06-location-only-at-check-in.md)
+- [UC-SC07-23 Run last-mile rounds](../../../08-sectors/sc07-transport/use-cases/07-passengers-removals-courier-and-freight/uc-sc07-23-run-last-mile-rounds.md)
 
 ## When the law changes
 

@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F15-07 Equity, contracts, meetings and disputes
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F15-07 Equity, contracts, meetings and disputes](../../../flows/fl-f15-07-equity-contracts-and-disputes.md) for this

@@ -12,7 +12,7 @@ The admin list pages of this technical capability (D494), and the record page ea
 | | ID | Page | Status |
 |---|---|---|---|
 | 🗂️ |  | [Views: Maps and geodata menu](00-lists/README.md) | 4 pages |
-| 🖥️ | S-T13-04 | [Geodata source](s-t13-04-geodata-source.md) | 🔄 |
+| 🖥️ | S-T13-04 | [Geodata source](s-t13-04-geodata-source.md) | ✅ |
 
 ---
 

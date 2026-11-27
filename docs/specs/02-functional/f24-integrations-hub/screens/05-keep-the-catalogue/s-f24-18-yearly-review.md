@@ -60,7 +60,8 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-F24-15 Connector catalogue review | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U47 | `u47-simpleerp-maintainer/s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-{desktop,phone}-{light,dark}.png` |
+| E-F24-15 Connector catalogue review | Active | Badge "Active"; a new record starts here; next: Published (UC-F24-18); fields editable within the role | U47 | `u47-simpleerp-maintainer/s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-{desktop,phone}-{light,dark}.png` |
+| E-F24-15 Connector catalogue review | Published | Badge "Published"; final: read-only, no next state; the history shows how it got here | U47 | `u47-simpleerp-maintainer/s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-{desktop,phone}-{light,dark}.png` |
 | E-F24-01 Connector | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U47 | `u47-simpleerp-maintainer/s-f24-18-yearly-review-e-f24-01-connector-active-{desktop,phone}-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces

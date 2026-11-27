@@ -5,7 +5,7 @@
 
 # 📝 UC-F13-37 Hand pay inputs to an outsourced payroll firm
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -171,8 +171,9 @@ The firm is a processor of the employees' personal data:
 [CR-FR-049](../../../../10-country-packs/france/data-protection/cr-fr-049-processors-and-transfers.md). The company
 stays responsible for the payslips and the monthly declaration:
 [CR-FR-182 The payslip](../../../../10-country-packs/france/payroll/cr-fr-182-payslip.md),
-[CR-FR-183](../../../../10-country-packs/france/payroll/cr-fr-183-dsn-monthly-declaration.md). (Proposed) The
-France-pack rule on the contract with an outside payroll firm is written later.
+[CR-FR-183](../../../../10-country-packs/france/payroll/cr-fr-183-dsn-monthly-declaration.md).
+(⚖️ lawyer review before launch, D574) The France-pack rule on the contract with an outside payroll firm is still to write: to read
+the GDPR processor clauses (art. 28) as they apply to a payroll firm.
 
 ## Related use cases
 

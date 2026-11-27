@@ -39,7 +39,11 @@ user may see: to find, filter, total and act on many meeting recording settings 
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] MEETING RECORDING SETTING   STATE                                                    |
+| state             | [ ] NAME   APPLIES TO   RECORDING MO   RETENTION   BOT JOINS CA   LOCKED   STATE         |
+| applies to        | [ ] ...                                                  Open >                          |
+| recording mode    | [ ] ...                                                  Open >                          |
+| bot joins calend  | [ ] ...                                                  Open >                          |
+| locked            | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -49,7 +53,12 @@ user may see: to find, filter, total and act on many meeting recording settings 
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Meeting recording setting | the record's title | text | yes |
+| Name | name | text | yes |
+| Applies to | applies to | label | yes |
+| Recording mode | recording mode | label | yes |
+| Retention | retention | number, right-aligned | yes |
+| Bot joins calendar meetings | bot joins calendar meetings | label | yes |
+| Locked | locked | yes or no | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -59,6 +68,10 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Applies to | company, team, user | the visible rows (D488) |
+| Recording mode | audio and video, audio only, transcript only | the visible rows (D488) |
+| Bot joins calendar meetings | on, off | the visible rows (D488) |
+| Locked | yes, no | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -103,7 +116,8 @@ Each action is offered within the role and checked again on the server (VR-10).
 
 ## Inline edit
 
-None: no field is editable in a cell.
+- retention: editable in its cell unless the record's state locks it.
+- recording mode: editable in its cell unless the record's state locks it.
 
 ## Hidden fields
 

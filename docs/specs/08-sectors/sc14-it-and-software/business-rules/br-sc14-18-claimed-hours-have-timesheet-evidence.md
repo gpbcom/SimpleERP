@@ -3,7 +3,7 @@
 
 # 📏 BR-SC14-18 Claimed hours have timesheet evidence
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,8 @@ project's description.
 ## Why
 
 A claim that the tax office can challenge needs the hours and the work behind it. The owner asked for the research tax
-credit ([D558](../../../06-decisions/sectors/d558-benchmark-gaps-sc14-it-and-software.md)). (Proposed) The France-pack
-rule is written later.
+credit ([D558](../../../06-decisions/sectors/d558-benchmark-gaps-sc14-it-and-software.md)). The France-pack
+rule is CR-FR-246: eligible expenses, from which public subsidies are deducted, are justified on form 2069-A-SD.
 
 ## Examples
 
@@ -32,7 +32,7 @@ rule is written later.
 - [UC-SC14-24](../use-cases/07-hardware-licences-and-tax-credits/uc-sc14-24-claim-research-tax-credits.md)
 - [E-SC14-19 R&D project](../data/e-sc14-19-r-d-project.md)
 - [E-F9-17](../../../02-functional/f09-hr-and-projects/data/e-f09-17-timesheet-line.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-246 Research and innovation tax credits](../../../10-country-packs/france/tax-and-vat/cr-fr-246-research-tax-credit.md)
 
 ## Exceptions

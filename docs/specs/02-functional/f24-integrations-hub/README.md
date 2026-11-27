@@ -4,7 +4,7 @@
 
 **Status:** ✅ specified
 
-Build step: 2. Platform (Proposed).
+Build step: 2. Platform.
 
 ## Summary
 
@@ -54,7 +54,7 @@ rest of the catalogue; every action usable from the AI assistant
 ## Build step
 
 Step 2, Platform, of the [roadmap](../../00-vision/roadmap/roadmap.md)
-([D483](../../06-decisions/vision/d483-roadmap-devops-agents-first.md)) (Proposed): in V1, like everything the
+([D483](../../06-decisions/vision/d483-roadmap-devops-agents-first.md)): in V1, like everything the
 specifications hold.
 
 ## Contents
@@ -62,9 +62,9 @@ specifications hold.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 |  | [Use cases](use-cases/README.md) | ✅ |
-| 🔀 |  | [Flows](flows/README.md) | 🔄 |
-| 📏 |  | [Business rules](business-rules/README.md) | 🔄 |
-| 🗃️ |  | [Data](data/README.md) | 🔄 |
+| 🔀 |  | [Flows](flows/README.md) | ✅ |
+| 📏 |  | [Business rules](business-rules/README.md) | ✅ |
+| 🗃️ |  | [Data](data/README.md) | ✅ |
 | 🖥️ |  | [Screens](screens/README.md) | ✅ |
 | 🔑 |  | [Permissions](permissions.md) | ✅ |
 | 🔔 |  | [Notifications](notifications.md) | ✅ |
@@ -73,7 +73,7 @@ specifications hold.
 | 🤖 |  | [AI](ai.md) | ✅ |
 | ⚖️ |  | [Regulatory](regulatory.md) | ✅ |
 | ❓ |  | [Open questions](open-questions.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
 ---
 

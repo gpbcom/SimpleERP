@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC13-06 Veterinary
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -11,8 +11,11 @@
 
 ## Purpose
 
-Used to record veterinary treatments
-([UC-SC13-06](../../use-cases/02-livestock/uc-sc13-06-record-veterinary-treatments.md)).
+Record each veterinary treatment of a food animal in the herd's health register with its withdrawal period, even when it
+is nil, kept at least 5 years after the year of the last entry, and block the animal's products until the period ends
+([UC-SC13-06](../../use-cases/02-livestock/uc-sc13-06-record-veterinary-treatments.md),
+[CR-FR-163](../../../../10-country-packs/france/agriculture/cr-fr-163-livestock-health-register.md)). The block is
+SimpleERP's way to keep food from being obtained before the period ends: the texts state no sales ban as such.
 
 ## Entry points
 
@@ -75,7 +78,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

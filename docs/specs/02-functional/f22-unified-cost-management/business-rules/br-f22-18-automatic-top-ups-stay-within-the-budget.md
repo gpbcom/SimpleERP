@@ -4,7 +4,7 @@
 
 # 📏 BR-F22-18 Automatic top-ups stay within the budget
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

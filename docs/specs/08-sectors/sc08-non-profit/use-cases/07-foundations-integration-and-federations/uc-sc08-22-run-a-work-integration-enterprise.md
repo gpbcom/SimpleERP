@@ -5,13 +5,13 @@
 
 # 📝 UC-SC08-22 Run a work-integration enterprise
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
 A work-integration enterprise (an IAE structure) employs people far from the labour market and supports them to a
-lasting job. HR enters each person's approval, their pathway (support, training, work), and the aid the State pays for
-each approved position. The employee follows their own steps on the phone.
+lasting job. HR enters each person's eligibility, their pathway (support, training, work), and the aid the State pays for
+each agreed position. The employee follows their own steps on the phone.
 
 ## Personas
 
@@ -20,12 +20,12 @@ each approved position. The employee follows their own steps on the phone.
 
 ## Goal
 
-Every person employed has a valid approval, a pathway with its steps, and the aid claimed is exactly the aid the
+Every person employed has a valid eligibility, a pathway with its steps, and the aid claimed is exactly the aid the
 approval and the hours worked allow.
 
 ## Trigger
 
-A person is approved and hired, a pathway step falls due, or the month's aid is claimed.
+A person is found eligible and hired, a pathway step falls due, or the month's aid is claimed.
 
 ## Frequency
 
@@ -33,26 +33,27 @@ Dozens of people at any time, with a few arrivals and exits each month.
 
 ## Preconditions
 
-- The structure's type and its number of approved positions are entered in the settings.
+- The structure's type and the number of positions in its agreement with the State are entered in the settings.
 - The person is an employee record
   ([E-F9-01](../../../../02-functional/f09-hr-and-projects/data/e-f09-01-employee-record.md)) with a contract
   ([E-F9-02 Contract](../../../../02-functional/f09-hr-and-projects/data/e-f09-02-contract.md)).
-- The approval given by the employment service is in the file.
+- The person's eligibility, found by a listed prescriber or by the structure through the Plateforme de
+  l'inclusion, is in the file.
 
 ## Postconditions
 
 - **Succeeded:** the pathway is saved ([E-SC08-17 Integration pathway](../../data/e-sc08-17-integration-pathway.md))
-  with the approval, the steps and the exit result, and the monthly aid claim matches the approved positions.
-- **Failed:** no aid is claimed for a person without a valid approval, and the gap is listed to HR.
+  with the eligibility, the steps and the exit result, and the monthly aid claim matches the agreed positions.
+- **Failed:** no aid is claimed for a person without a valid eligibility, and the gap is listed to HR.
 
 ## Main flow
 
 1. HR opens the work-integration screen
    ([S-SC08-22](../../screens/07-foundations-integration-and-federations/s-sc08-22-work-integration.md)) and creates the
-   pathway of a person with their approval dates and the contract.
+   pathway of a person with their eligibility dates and the contract.
 2. HR sets the steps of the pathway: social support, training, work experience and the job search.
 3. The person sees their steps and appointments on their phone and confirms each one.
-4. Each month SimpleERP counts the hours worked and computes the aid per approved position
+4. Each month SimpleERP counts the hours worked and computes the aid per agreed position
    ([BR-SC08-17](../../business-rules/br-sc08-17-aid-per-position-follows-the-approval.md)).
 5. HR checks the claim and sends it to the paying body
    [UC-F13-10](../../../../02-functional/f13-payroll/use-cases/03-declarations-and-payments/uc-f13-10-file-the-monthly-social-declaration-and-handle-returns.md).
@@ -61,14 +62,15 @@ Dozens of people at any time, with a few arrivals and exits each month.
 ## Alternative flows
 
 - 4a. A person works part-time: the aid is reduced in proportion to the hours.
-- 2a. The approval is renewed: the new dates replace the old ones and the contract is extended.
+- 2a. The eligibility is renewed: the new dates replace the old ones and the contract is extended.
 - 6a. The person leaves before the end: the exit is recorded as early with its reason and the aid stops at the exit
   date.
 
 ## Error flows
 
-- 4e. The aid would exceed the number of approved positions: the claim is capped and the extra positions are listed.
-- 1e. The approval is missing or expired: the pathway stays Draft and no aid is computed.
+- 4e. The aid would exceed the positions in the agreement with the State: the claim is capped and the extra positions
+  are listed.
+- 1e. The eligibility is missing or expired: the pathway stays Draft and no aid is computed.
 - 6e. The pathway ends with no exit result: the file cannot be closed.
 - Any step: a service does not answer; the call is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
@@ -96,12 +98,12 @@ structure's director reads the aid and the exits, never the social notes.
 
 ## Notifications
 
-The employee, on the phone: an appointment or a step is due. HR, in the app: an approval ends within sixty days or a
-claim exceeds the approved positions.
+The employee, on the phone: an appointment or a step is due. HR, in the app: an eligibility ends within sixty days or a
+claim exceeds the agreed positions.
 
 ## Audit events
 
-Each approval, step, exit and claim, each reading of the social notes, with who and when.
+Each eligibility, step, exit and claim, each reading of the social notes, with who and when.
 
 ## AI involvement
 
@@ -131,7 +133,7 @@ sequenceDiagram
   actor E as Employee
   participant I as Work integration
   participant B as Paying body
-  H->>I: Pathway for Ms Diallo, approval to 2027-05
+  H->>I: Pathway for Ms Diallo, eligible to 2027-05
   H->>I: Steps: support, training, work
   E->>I: Confirm the training appointment
   I->>I: Hours of the month, 104 h
@@ -142,9 +144,9 @@ sequenceDiagram
 
 ## Acceptance criteria
 
-1. **Given** a structure with 20 approved positions and 22 people approved and employed in a month **when** the claim is
+1. **Given** a structure with 20 agreed positions and 22 people eligible and employed in a month **when** the claim is
    computed **then** it is capped at 20 positions and the 2 extra are listed.
-2. **Given** a person whose approval ended last week **when** HR computes the month's aid **then** no aid is computed
+2. **Given** a person whose eligibility ended last week **when** HR computes the month's aid **then** no aid is computed
    for them and the gap is listed.
 3. **Given** a person working 104 hours in a month where a full position is 151.67 hours **when** the aid is computed
    **then** it is reduced in proportion to the hours.
@@ -157,15 +159,16 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A work-integration enterprise is approved by the State for its type of structure. Each person it employs is
-approved by the employment service for a limited time, and the State pays an aid for each approved position, in
-proportion to the time worked and by type of structure. The structure reports its exits and results. Personal and social
-notes about the person are sensitive data kept apart. The France-pack rule is listed below. Related:
+A work-integration structure signs an agreement with the State for its type of structure. Each person it employs is
+found eligible for an integration path by a listed prescriber or by the structure, through the Plateforme de
+l'inclusion, and the State pays an aid for each full-time position, made of a base and a modulated amount, reduced in
+proportion to the contract hours below 35 and to the post's occupation. The structure reports its exits and results.
+Personal and social notes about the person are sensitive data kept apart. The France-pack rule is listed below. Related:
 [CR-FR-041](../../../../10-country-packs/france/labour/cr-fr-041-fixed-term-contracts.md),
 [CR-FR-102](../../../../10-country-packs/france/home-care/cr-fr-102-personal-services-registration.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-237 Work-integration enterprises (IAE)](../../../../10-country-packs/france/non-profit/cr-fr-237-work-integration-iae.md)
 
 ## Related use cases

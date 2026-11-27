@@ -3,7 +3,7 @@
 
 # 📏 BR-F16-08 No duplicate action
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -33,7 +33,7 @@ A person may repeat an action with a reason, logged.
 
 ## Configurable
 
-The guard window per action, (Proposed) 30 days for refunds.
+The guard window per action, 30 days for refunds.
 
 ## Open questions
 

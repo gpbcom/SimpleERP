@@ -18,4 +18,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC06-05 Taxes and performance](05-taxes-and-performance/README.md) | 34 images |
 | 🖼️ |  | [Images: FL-SC06-06 Campsites, catering, groups, pricing and licences](06-campsites-catering-groups-and-pricing/README.md) | 40 images |
 | 🖼️ |  | [Screen states](states/README.md) | 120 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

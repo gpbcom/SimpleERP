@@ -4,7 +4,7 @@
 
 # 📝 UC-F14-25 Roll out a release in stages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -42,7 +42,7 @@ At each release of plugins with many installs.
 1. The publisher chooses the stages on Release channels (S-F14-23).
 2. SimpleERP offers the update to the first stage's share of companies, chosen at random.
 3. SimpleERP computes the failure rate from install reports.
-4. Under the limit, the next stage starts after (Proposed) 48 hours; above it, the rollout pauses (BR-F14-20).
+4. Under the limit, the next stage starts after 48 hours; above it, the rollout pauses (BR-F14-20).
 5. At 100 %, every company is offered the update.
 
 ## Alternative flows

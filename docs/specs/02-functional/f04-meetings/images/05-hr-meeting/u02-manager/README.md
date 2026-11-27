@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F4-05 HR meeting
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F4-05 HR meeting](../../../flows/fl-f04-05-hr-meeting.md) for this persona, in light and dark mode (D120,
 D121). Errors follow the [error message pattern](../../../../../04-ux/design-system/patterns/error-messages.md).

@@ -3,7 +3,7 @@
 
 # ⚖️ CR-FR-179 Music copyright at events
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -25,7 +25,7 @@ royalty-free music.
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12 (the page was verified on 12 August 2025).
+(⚖️ lawyer review before launch, D574) Start date not read (the Sacem and Spré terms are contractual); in force when read on 2026-11-12 (the page was verified on 12 August 2025).
 
 ## Enforced by
 

@@ -3,7 +3,7 @@
 
 # 🖼️ FL-SC04-06 Care homes, CESU, agent mode, childcare and nursing
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC04-06 Care homes, CESU, agent mode, childcare and nursing](../../../flows/fl-sc04-06-care-homes-cesu-and-nursing.md)

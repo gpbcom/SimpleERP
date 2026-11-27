@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U40-01 | [From plot to aid declaration](j-u40-01-from-plot-to-aid.md) | 🔄 |
+| 🧭 | J-U40-01 | [From plot to aid declaration](j-u40-01-from-plot-to-aid.md) | ✅ |
 
 ---
 

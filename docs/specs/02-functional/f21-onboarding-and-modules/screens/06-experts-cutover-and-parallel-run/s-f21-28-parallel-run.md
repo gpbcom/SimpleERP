@@ -4,7 +4,7 @@
 
 # 🖥️ S-F21-28 Parallel run
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

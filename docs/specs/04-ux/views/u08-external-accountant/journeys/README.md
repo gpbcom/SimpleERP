@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U08-01 | [Close the year with the client](j-u08-01-close-the-year-with-the-client.md) | 🔄 |
+| 🧭 | J-U08-01 | [Close the year with the client](j-u08-01-close-the-year-with-the-client.md) | ✅ |
 
 ---
 

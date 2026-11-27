@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC09-21 Pharmacy
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -23,7 +23,7 @@ no less intrusive means, and people's rights not prevailing, given what they can
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-12, the date of this specification.
+GDPR in application since 2018-05-25 ([CNIL, Règlement général sur la protection des données : ce qui change pour les professionnels](https://www.cnil.fr/fr/comprendre-le-rgpd/reglement-general-sur-la-protection-des-donnees-ce-qui-change-pour-les-professionnels), read 2026-11-27).
 
 ## Enforced by
 

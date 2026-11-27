@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F4-12 Rooms and client video
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F4-12 Rooms and client video](../../../flows/fl-f04-12-rooms-and-client-video.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

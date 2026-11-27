@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U54-01 | [Buy and pay for the commune](j-u54-01-buy-and-pay-for-the-commune.md) | 🔄 |
+| 🧭 | J-U54-01 | [Buy and pay for the commune](j-u54-01-buy-and-pay-for-the-commune.md) | ✅ |
 
 ---
 

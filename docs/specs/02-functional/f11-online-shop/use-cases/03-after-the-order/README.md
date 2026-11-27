@@ -11,5 +11,5 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F11-09 | [Withdraw, return and refund](uc-f11-09-withdraw-return-and-refund.md) | 🔄 |
-| 📝 | UC-F11-10 | [Use the customer account](uc-f11-10-use-the-customer-account.md) | 🔄 |
+| 📝 | UC-F11-09 | [Withdraw, return and refund](uc-f11-09-withdraw-return-and-refund.md) | ✅ |
+| 📝 | UC-F11-10 | [Use the customer account](uc-f11-10-use-the-customer-account.md) | ✅ |

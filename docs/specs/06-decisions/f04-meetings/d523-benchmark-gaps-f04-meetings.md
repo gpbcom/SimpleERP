@@ -9,7 +9,7 @@
 
 The 2026-11-14 benchmark-gaps interview compared the specifications with the recorder, event and analytics features of
 the benchmarked suites and offered each gap as an option
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F4 Meetings").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F4 Meetings").
 
 ## Options
 
@@ -32,7 +32,7 @@ The owner selected all four gaps; each becomes a use case of F4, drawn in
 ## Decided by
 
 The owner, on 2026-11-14, in the benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "Block by block").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "Block by block").
 
 ## Consequences
 
@@ -62,7 +62,7 @@ The owner, on 2026-11-14, in the benchmark-gaps interview
 
 - [FL-F4-14 Video messages, webinars and templates](../../02-functional/f04-meetings/flows/fl-f04-14-video-messages-and-webinars.md)
 - [D461 F4 Meetings: gaps and improvements](d461-f04-gaps-and-improvements.md)
-- [Interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)
+- Interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)
 
 ---
 

@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-01 Cabin
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

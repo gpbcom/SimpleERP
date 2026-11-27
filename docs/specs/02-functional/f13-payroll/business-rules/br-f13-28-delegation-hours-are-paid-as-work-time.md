@@ -3,7 +3,7 @@
 
 # 📏 BR-F13-28 Delegation hours are paid as work time
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,7 +14,8 @@ treated as absence, and appear on the payslip as hours worked.
 
 A representative must not lose pay or advancement for carrying out their mandate. The owner asked for staff
 representatives' hours ([D532](../../../06-decisions/f13-payroll/d532-benchmark-gaps-f13-payroll.md)). The
-France-pack rule on the credit and its limits is written later.
+France-pack rule on the credit and its limits is CR-FR-220: a monthly credit per titular member set by the headcount,
+from 10 hours (11 to 49 employees) to at least 18 hours (50 or more).
 
 ## Examples
 
@@ -31,7 +32,7 @@ France-pack rule on the credit and its limits is written later.
 - [UC-F13-38](../use-cases/10-special-contracts-and-outsourcing/uc-f13-38-follow-staff-representatives-hours.md)
 - [E-F13-31 Delegation hours](../data/e-f13-31-delegation-hours.md)
 - [E-F13-03 Pay input](../data/e-f13-03-pay-input.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-220 Staff representatives' delegation hours](../../../10-country-packs/france/labour/cr-fr-220-staff-representatives-hours.md)
 
 ## Exceptions

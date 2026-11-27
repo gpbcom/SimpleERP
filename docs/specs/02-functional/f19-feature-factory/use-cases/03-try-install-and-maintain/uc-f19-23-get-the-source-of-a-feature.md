@@ -4,7 +4,7 @@
 
 # 📝 UC-F19-23 Get the source of a feature
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -118,7 +118,7 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 [CR-FR-203](../../../../10-country-packs/france/digital/cr-fr-203-software-copyright-assignment.md),
 [CR-FR-204](../../../../10-country-packs/france/digital/cr-fr-204-ai-generated-works.md); ownership of AI-generated
-code: (Proposed) to read.
+code: (⚖️ lawyer review before launch, D574) to read: Code de la propriété intellectuelle L111-1 and L113-1 on who is an author.
 
 ## Related use cases
 

@@ -2,7 +2,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -20,16 +20,16 @@ One file per rule.
 | 📏 | BR-SC04-08 | [Incidents reach the coordinator](br-sc04-08-incidents-reach-the-coordinator.md) | ✅ |
 | 📏 | BR-SC04-09 | [A replacement for every absence](br-sc04-09-a-replacement-for-every-absence.md) | ✅ |
 | 📏 | BR-SC04-10 | [Family sees what is shared](br-sc04-10-family-sees-what-is-shared.md) | ✅ |
-| 📏 | BR-SC04-11 | [Billing splits between funders](br-sc04-11-billing-splits-between-funders.md) | 🔄 |
+| 📏 | BR-SC04-11 | [Billing splits between funders](br-sc04-11-billing-splits-between-funders.md) | ✅ |
 | 📏 | BR-SC04-12 | [Yearly certificate before 31 March](br-sc04-12-yearly-certificate-before-march.md) | ✅ |
 | 📏 | BR-SC04-13 | [Immediate advance on request](br-sc04-13-immediate-advance-on-request.md) | ✅ |
 | 📏 | BR-SC04-14 | [Complaints answered](br-sc04-14-complaints-answered.md) | ✅ |
 | 📏 | BR-SC04-15 | [Records kept no longer than needed](br-sc04-15-records-kept-no-longer-than-needed.md) | ✅ |
-| 📏 | BR-SC04-16 | [Residents' care records follow health-data rules](br-sc04-16-residents-care-records-follow-health-data-rules.md) | 🔄 |
-| 📏 | BR-SC04-17 | [CESU vouchers are reconciled with the issuer](br-sc04-17-cesu-vouchers-are-reconciled-with-the-issuer.md) | 🔄 |
-| 📏 | BR-SC04-18 | [In agent mode the family is the employer](br-sc04-18-in-agent-mode-the-family-is-the-employer.md) | 🔄 |
-| 📏 | BR-SC04-19 | [Family allowance aid follows the CAF rules](br-sc04-19-family-allowance-aid-follows-the-caf-rules.md) | 🔄 |
-| 📏 | BR-SC04-20 | [Care acts need a prescription](br-sc04-20-care-acts-need-a-prescription.md) | 🔄 |
+| 📏 | BR-SC04-16 | [Residents' care records follow health-data rules](br-sc04-16-residents-care-records-follow-health-data-rules.md) | ✅ |
+| 📏 | BR-SC04-17 | [CESU vouchers are reconciled with the issuer](br-sc04-17-cesu-vouchers-are-reconciled-with-the-issuer.md) | ✅ |
+| 📏 | BR-SC04-18 | [In agent mode the family is the employer](br-sc04-18-in-agent-mode-the-family-is-the-employer.md) | ✅ |
+| 📏 | BR-SC04-19 | [Family allowance aid follows the CAF rules](br-sc04-19-family-allowance-aid-follows-the-caf-rules.md) | ✅ |
+| 📏 | BR-SC04-20 | [Care acts need a prescription](br-sc04-20-care-acts-need-a-prescription.md) | ✅ |
 
 ---
 

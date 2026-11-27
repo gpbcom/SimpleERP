@@ -12,6 +12,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F5-11 | [Organise events and sell tickets](uc-f05-11-organise-events-and-sell-tickets.md) | 🔄 |
-| 📝 | UC-F5-17 | [Set up ticketing for an event](uc-f05-17-set-up-ticketing-for-an-event.md) | 🔄 |
-| 📝 | UC-F5-18 | [Sell at the box office and scan tickets](uc-f05-18-sell-at-the-box-office-and-scan-tickets.md) | 🔄 |
+| 📝 | UC-F5-11 | [Organise events and sell tickets](uc-f05-11-organise-events-and-sell-tickets.md) | ✅ |
+| 📝 | UC-F5-17 | [Set up ticketing for an event](uc-f05-17-set-up-ticketing-for-an-event.md) | ✅ |
+| 📝 | UC-F5-18 | [Sell at the box office and scan tickets](uc-f05-18-sell-at-the-box-office-and-scan-tickets.md) | ✅ |

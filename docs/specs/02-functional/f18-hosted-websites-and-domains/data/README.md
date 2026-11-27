@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -23,13 +23,13 @@ One file per entity.
 | 🗃️ | E-F18-10 | [Publication check report](e-f18-10-publication-check-report.md) | ✅ |
 | 🗃️ | E-F18-11 | [Audience figure](e-f18-11-audience-figure.md) | ✅ |
 | 🗃️ | E-F18-12 | [Uptime event](e-f18-12-uptime-event.md) | ✅ |
-| 🗃️ | E-F18-13 | [Blog article](e-f18-13-blog-article.md) | 🔄 |
+| 🗃️ | E-F18-13 | [Blog article](e-f18-13-blog-article.md) | ✅ |
 | 🗃️ | E-F18-14 | [Redirect](e-f18-14-redirect.md) | ✅ |
-| 🗃️ | E-F18-15 | [Mailbox](e-f18-15-mailbox.md) | 🔄 |
-| 🗃️ | E-F18-16 | [Spam hold](e-f18-16-spam-hold.md) | 🔄 |
+| 🗃️ | E-F18-15 | [Mailbox](e-f18-15-mailbox.md) | ✅ |
+| 🗃️ | E-F18-16 | [Spam hold](e-f18-16-spam-hold.md) | ✅ |
 | 🗃️ | E-F18-17 | [Sector template](e-f18-17-sector-template.md) | ✅ |
-| 🗃️ | E-F18-18 | [Search settings](e-f18-18-search-settings.md) | 🔄 |
-| 🗃️ | E-F18-19 | [Site backup](e-f18-19-site-backup.md) | 🔄 |
+| 🗃️ | E-F18-18 | [Search settings](e-f18-18-search-settings.md) | ✅ |
+| 🗃️ | E-F18-19 | [Site backup](e-f18-19-site-backup.md) | ✅ |
 | 🗃️ | E-F18-20 | [Page test](e-f18-20-page-test.md) | ✅ |
 | 🗃️ | E-F18-21 | [Visit](e-f18-21-visit.md) | ✅ |
 | 🗃️ | E-F18-22 | [Accessibility statement](e-f18-22-accessibility-statement.md) | ✅ |

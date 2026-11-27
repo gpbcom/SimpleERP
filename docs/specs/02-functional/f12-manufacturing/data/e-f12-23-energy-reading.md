@@ -3,7 +3,7 @@
 
 # 🗃️ E-F12-23 Energy reading
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -37,7 +37,7 @@ By centre and period.
 
 ## Retention
 
-5 years (Proposed).
+5 years.
 
 ## Audit
 

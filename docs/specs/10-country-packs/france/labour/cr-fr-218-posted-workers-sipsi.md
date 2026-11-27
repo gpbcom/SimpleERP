@@ -3,21 +3,26 @@
 
 # ⚖️ CR-FR-218 Posted workers and the SIPSI declaration
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A company that sends an employee to work in another EU country keeps them in the home social security scheme
+A company that sends an employee to work in another EU country keeps them in the home social security scheme
 with an A1 certificate; a foreign employer that posts a worker to France declares the posting on the national posting
 platform (SIPSI) before it starts and keeps the receipt; the host country's minimum pay and working conditions apply
 during the posting.
 
 ## Values
 
-- (Proposed) A1 certificate for an outgoing posting.
-- (Proposed) SIPSI declaration before an incoming posting starts.
-- (Proposed) Host-country minimum conditions.
-- (Proposed) SimpleERP enforces: a posting needs an A1 certificate or a SIPSI declaration.
+- A1 certificate for an outgoing posting: up to 24 months (Regulation (EC) 883/2004 art. 12), asked before the
+  departure from URSSAF (general scheme) or MSA (farm scheme), with the reasons, place and host company; longer
+  postings by an exceptional agreement (art. 16) ([CLEISS, employer in France posting to the EU](https://www.cleiss.fr/employeurs/empl_france_envoie_ue_ue.html), read 2026-11-27).
+- SIPSI declaration before an incoming posting starts, to the labour inspectorate of the place where the service
+  starts, and a representative in France named for the inspectors (L1262-2-1 I and II) ([Code du travail, art. L1262-2-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038156571), read 2026-11-27).
+- Host-country minimum conditions for a posting to France: the French rules on freedoms, discrimination, family
+  leave, temporary work, strike, working time, rest, leave, pay including overtime, health and safety, minimum
+  age, illegal work and travel costs (L1262-4 I) ([Code du travail, art. L1262-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038156575), read 2026-11-27).
+- SimpleERP enforces: a posting needs an A1 certificate or a SIPSI declaration.
 - Read on [Service-public R42380](https://entreprendre.service-public.gouv.fr/vosdroits/R42380) (verified 6 October
   2025); the content of the declaration, the representative in France, the documents to keep and the penalties are not
   on the page:
@@ -28,11 +33,14 @@ during the posting.
 
 ## Legal references
 
-- Law to read: posted workers and the SIPSI declaration (not read yet).
+- [Code du travail](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050/)
+  art. L1262-1 to L1262-3, L1264-1 to L1264-3.
+- L1262-4 ([Code du travail, art. L1262-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038156575), read 2026-11-27); Regulations (EC) 883/2004 art. 11 to 16 and 987/2009 art. 14 and 15, as
+  [CLEISS, employer in France posting to the EU](https://www.cleiss.fr/employeurs/empl_france_envoie_ue_ue.html) cites them.
 
 ## Effective dates
 
-(Proposed) To read.
+Since 2020-07-30: L1262-2-1 and L1264-1 to L1264-3 ([Code du travail, art. L1262-2-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038156571), [art. L1264-1 to L1264-3](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000019856874), read 2026-11-27).
 
 ## Enforced by
 
@@ -46,7 +54,9 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+An administrative fine up to 4 000 EUR per posted worker, 8 000 EUR on repeat within 2 years,
+500 000 EUR at most in total, for the employer that misses the declaration or the representative (L1264-1,
+L1264-3); the client and the user company are liable too (L1264-2) ([art. L1264-1 to L1264-3](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000019856874), read 2026-11-27).
 
 ## Exceptions
 

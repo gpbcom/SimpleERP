@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC11-08 | [Deadlines](s-sc11-08-deadlines.md) | 🔄 |
-| 🖥️ | S-SC11-11 | [Client portfolio](s-sc11-11-client-portfolio.md) | 🔄 |
-| 🖥️ | S-SC11-12 | [Filings](s-sc11-12-filings.md) | 🔄 |
+| 🖥️ | S-SC11-08 | [Deadlines](s-sc11-08-deadlines.md) | ✅ |
+| 🖥️ | S-SC11-11 | [Client portfolio](s-sc11-11-client-portfolio.md) | ✅ |
+| 🖥️ | S-SC11-12 | [Filings](s-sc11-12-filings.md) | ✅ |

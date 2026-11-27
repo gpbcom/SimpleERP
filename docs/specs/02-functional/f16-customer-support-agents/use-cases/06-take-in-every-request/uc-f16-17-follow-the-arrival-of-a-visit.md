@@ -4,7 +4,7 @@
 
 # 📝 UC-F16-17 Follow the arrival of a visit
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-20, VD-21 / D502, D503)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -82,7 +82,7 @@ employee's position, route or other visits; nothing of the arrival time is kept.
 ## Notifications
 
 - The customer: the day and the window once scheduled; the window started; a delay beyond the window; arrived and done
-  (Proposed: the arrived message only if the customer asked for it).
+  (the arrived message only if the customer asked for it).
 
 ## Audit events
 

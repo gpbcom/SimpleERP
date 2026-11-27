@@ -22,6 +22,9 @@ filter, total and act on many lunch orders at once
 [list view template](../../../../_templates/list-view.md) and the
 [aggregated list view pattern](../../../../04-ux/design-system/patterns/aggregated-list-view.md).
 
+Each row is one employee's order for one day, never a team's: the manager sends a vendor's orders of the day as one
+([UC-F9-13](../../use-cases/05-workplace-services/uc-f09-13-request-approvals-and-order-lunch.md)).
+
 ## Entry points
 
 - **Menu:** HR and projects › Lunch orders, in the capability's menu (D495).
@@ -34,10 +37,13 @@ filter, total and act on many lunch orders at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Lunch orders    HR and projects › Lunch orders   [+ New]                                                     |
-| [count]   [chart: count by state]                                                                            |
+| [count] [total price] [Not confirmed] [new this month]   [chart: count by state, price stacked]              |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] LUNCH ORDER   STATE                                                                  |
+| state             | [ ] LUNCH ORDER   EMPLOYEE   DATE   VENDOR   DISH   PRICE   STATE                        |
+| employee          | [ ] ...                                                  Open >                          |
+| vendor            | [ ] ...                                                  Open >                          |
+| team              | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,8 +53,13 @@ filter, total and act on many lunch orders at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Lunch order | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Lunch order | title | text | yes |
+| Employee | employee | person's name | yes |
+| Date | date | date | yes |
+| Vendor | vendor | link to the record | yes |
+| Dish | dish | text | yes |
+| Price | price | amount, right-aligned | yes |
+| State | state | badge: Active, Sent, Confirmed, Not confirmed, Delivered | yes |
 
 Secrets are never a column (VR-4).
 
@@ -56,28 +67,38 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, Sent, Confirmed, Not confirmed, Delivered | the visible rows (D488) |
+| Employee | each person, the user first | the visible rows (D488) |
+| Vendor | each linked vendor | the visible rows (D488) |
+| Team | each linked team | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: lunch orders link to no other record type in their fields.
+- Lunch orders of a chosen vendor, or of the vendors that match a filter.
+- From the other side: the vendors that have lunch orders, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Total of price.
+- Needs attention: count in the state Not confirmed.
+- New this month, by date.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
 ## Default chart
 
-Count by state (VR-8); the Chart button turns the filtered list into a chart the user can pin to their home screen
-(C-09).
+Count by state, price stacked (VR-8); the Chart button turns the filtered list into a chart the user can pin to their
+home screen (C-09).
 
 ## Saved views
 
 - All.
+- Mine: employee.
+- Open: Active, Sent, Confirmed.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -91,6 +112,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New lunch order | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -106,7 +128,11 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| title | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| employee | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| sent by, sent at | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

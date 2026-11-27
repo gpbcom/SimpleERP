@@ -3,7 +3,7 @@
 
 # 📝 UC-F5-26 Send push notifications
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -158,8 +158,9 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A push is electronic marketing and a read or write on the customer's device:
 [CR-FR-063](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md),
-[CR-FR-070](../../../../10-country-packs/france/data-protection/cr-fr-070-cookie-consent.md). (Proposed) Push is covered
-by the same consent duty as cookies and email marketing; the France-pack rule is written later.
+[CR-FR-070](../../../../10-country-packs/france/data-protection/cr-fr-070-cookie-consent.md). (⚖️ lawyer review before launch, D574) Push
+is covered by the same consent duty as cookies and email marketing: to read CPCE L34-5 and the CNIL guidance on push
+notifications, which no France-pack rule reads yet.
 
 ## Related use cases
 

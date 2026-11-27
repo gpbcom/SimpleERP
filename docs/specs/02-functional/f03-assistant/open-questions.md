@@ -6,8 +6,7 @@
 
 ## Questions
 
-None open for F3. Proposed details still waiting for the owner are listed on the home page under "Waiting for the
-owner".
+None open for F3. The legal values still to read are listed on the home page under "Waiting for the owner".
 
 ---
 

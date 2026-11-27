@@ -3,7 +3,7 @@
 
 # 🖼️ FL-SC01-06 Price revision, off-plan sales, BIM and grants
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC01-06 Price revision, off-plan sales, BIM and grants](../../../flows/fl-sc01-06-revision-developers-bim-and-grants.md)

@@ -12,7 +12,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-F19-26 | [Similar features](s-f19-26-similar-features.md) | 🔄 |
-| 🖥️ | S-F19-27 | [Fixed-price catalogue](s-f19-27-fixed-price-catalogue.md) | 🔄 |
-| 🖥️ | S-F19-28 | [Co-funding](s-f19-28-co-funding.md) | 🔄 |
-| 🖥️ | S-F19-29 | [Maintenance plan](s-f19-29-maintenance-plan.md) | 🔄 |
+| 🖥️ | S-F19-26 | [Similar features](s-f19-26-similar-features.md) | ✅ |
+| 🖥️ | S-F19-27 | [Fixed-price catalogue](s-f19-27-fixed-price-catalogue.md) | ✅ |
+| 🖥️ | S-F19-28 | [Co-funding](s-f19-28-co-funding.md) | ✅ |
+| 🖥️ | S-F19-29 | [Maintenance plan](s-f19-29-maintenance-plan.md) | ✅ |

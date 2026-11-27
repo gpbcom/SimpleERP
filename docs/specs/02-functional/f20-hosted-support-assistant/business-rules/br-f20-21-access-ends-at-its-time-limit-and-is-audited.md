@@ -4,7 +4,7 @@
 
 # 📏 BR-F20-21 Access ends at its time limit and is audited
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -17,7 +17,8 @@ data.
 Access that does not end, or that nobody sees, is a standing risk; a record is what lets the customer check what was
 done. The owner asked for consented screen sharing
 ([D539](../../../06-decisions/f20-hosted-support-assistant/d539-benchmark-gaps-f20-hosted-support-assistant.md)).
-(Proposed) The France-pack rule on remote access consent is written later.
+(⚖️ lawyer review before launch, D574) The France-pack rule on remote access consent is still to write: to read the GDPR
+(articles 6 and 32) and the CNIL's guidance on remote support of a workstation.
 
 ## Examples
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-SC04-17 Accept CESU vouchers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -158,7 +158,7 @@ voucher is shown apart in the yearly tax-credit certificate. The France-pack rul
 [CR-FR-103](../../../../10-country-packs/france/tax-and-vat/cr-fr-103-home-services-tax-credit.md),
 [CR-FR-104](../../../../10-country-packs/france/tax-and-vat/cr-fr-104-immediate-advance-of-tax-credit.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-230 CESU vouchers](../../../../10-country-packs/france/home-care/cr-fr-230-cesu-vouchers.md)
 
 ## Related use cases

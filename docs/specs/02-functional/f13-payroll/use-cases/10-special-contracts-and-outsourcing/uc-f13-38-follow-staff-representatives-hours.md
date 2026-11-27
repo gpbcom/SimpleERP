@@ -5,7 +5,7 @@
 
 # 📝 UC-F13-38 Follow staff representatives' hours
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -51,7 +51,7 @@ Each month for every representative; a yearly review of the credits.
    ([S-F13-31](../../screens/10-special-contracts-and-outsourcing/s-f13-31-staff-representatives.md)) and sees each
    mandate with its credit, hours used and hours left.
 2. A representative or their manager records delegation hours with the date, the duration and the mandate used.
-3. SimpleERP adds the hours and compares them with the credit; hours above it are flagged (Proposed: they need the
+3. SimpleERP adds the hours and compares them with the credit; hours above it are flagged (they need the
    employer's agreement or a reason).
 4. HR confirms the hours; they appear on the pay input of the month as paid work time
    ([BR-F13-28](../../business-rules/br-f13-28-delegation-hours-are-paid-as-work-time.md)).
@@ -159,7 +159,7 @@ credit depends on the headcount and the agreement; the France-pack rule is liste
 [CR-FR-046](../../../../10-country-packs/france/labour/cr-fr-046-headcount-thresholds.md),
 [CR-FR-206](../../../../10-country-packs/france/labour/cr-fr-206-cse-consulted-on-monitoring.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-220 Staff representatives' delegation hours](../../../../10-country-packs/france/labour/cr-fr-220-staff-representatives-hours.md)
 
 ## Related use cases

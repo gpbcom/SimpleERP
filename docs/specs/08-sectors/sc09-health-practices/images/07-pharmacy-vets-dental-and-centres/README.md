@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-SC09-07 Pharmacy, eyewear, vets, dental and health centres
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

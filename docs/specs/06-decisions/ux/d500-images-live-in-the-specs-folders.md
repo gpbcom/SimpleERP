@@ -3,7 +3,7 @@
 
 # 📜 D500 Images live in the specs folders
 
-**Status:** 🔄 draft (GH-2 step S8, from VD-17 / D500)
+**Status:** ✅ decided
 
 ## Context
 
@@ -24,13 +24,13 @@ The images go in the specs folders: every image sits next to its page in `docs/s
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 17 (follow-up)).
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 17 (follow-up)).
 
 ## Consequences
 
-- (Proposed) Whether Git LFS is used stays an implementation choice of GH-2, put to the owner in step S8 of the
-  [plan](../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md).
+- Whether Git LFS is used stays an implementation choice of GH-2, put to the owner in step S8 of the
+  plan (the owner's interview notes of 2026-11 for the specifications, not kept in the repository).
 - The free disk is checked before each rendering batch.
 
 ## Related
@@ -39,7 +39,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer
 - [D490 Example images for every persona that can open a
   view](d490-example-images-for-every-persona-that-can-open-a-view.md)
 - [D498 One screen with a variant per state](d498-one-screen-with-a-variant-per-state.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

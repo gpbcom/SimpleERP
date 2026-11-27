@@ -2,7 +2,7 @@
 
 # 🗂️ Assistant: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -11,7 +11,7 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a desktop. 
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Identity checks to finish; Deadlines to enter.
 - Widgets: Bills to prepare.
@@ -35,16 +35,16 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a desktop. 
 
 ## Navigation
 
-(Proposed) Home · Clients · Deadlines · Billing · Assistant.
+Home · Clients · Deadlines · Billing · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U37-01 | [Open a client file](journeys/j-u37-01-open-a-client-file.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U37-01 | [Open a client file](journeys/j-u37-01-open-a-client-file.md) | ✅ |
 
 ---
 

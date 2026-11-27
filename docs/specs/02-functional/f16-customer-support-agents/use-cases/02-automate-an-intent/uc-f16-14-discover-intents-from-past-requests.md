@@ -4,7 +4,7 @@
 
 # 📝 UC-F16-14 Discover intents from past requests
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -29,7 +29,7 @@ Monthly.
 
 ## Preconditions
 
-- At least (Proposed) 500 past requests.
+- At least 500 past requests.
 
 ## Postconditions
 

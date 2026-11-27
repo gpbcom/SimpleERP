@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-29 Loans
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

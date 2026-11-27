@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U50-01 | [Follow my shares and vote](j-u50-01-follow-my-shares-and-vote.md) | 🔄 |
+| 🧭 | J-U50-01 | [Follow my shares and vote](j-u50-01-follow-my-shares-and-vote.md) | ✅ |
 
 ---
 

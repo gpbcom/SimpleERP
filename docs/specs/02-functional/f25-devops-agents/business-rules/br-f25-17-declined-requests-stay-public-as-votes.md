@@ -4,12 +4,12 @@
 
 # 📏 BR-F25-17 Declined requests stay public as votes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 A request declined (not planned, or offered to the feature factory) stays in the public list of requests, without any
-company or person name, where hosted customers can vote for it; a request passing (Proposed) 25 votes is studied again.
+company or person name, where hosted customers can vote for it; a request passing 25 votes is studied again.
 
 ## Why
 

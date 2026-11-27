@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F3-12 Personal, cost-aware and learning
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F3-12 Personal, cost-aware and learning](../../../flows/fl-f03-12-personal-cost-aware-and-learning.md) for
 this persona, in light and dark mode (D120, D121). Errors follow the

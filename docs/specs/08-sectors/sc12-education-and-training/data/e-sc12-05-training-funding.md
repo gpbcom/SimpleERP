@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC12-05 Training funding
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -20,7 +20,7 @@ A learner's funding decision; the funder's agreement with its share and cap is t
 
 ## Relations
 
-(Proposed) As its use cases.
+As its use cases.
 
 ## Lifecycle
 
@@ -33,7 +33,7 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) By number, date, partner.
+By number, date, partner.
 
 ## Retention
 
@@ -46,7 +46,7 @@ Every change.
 
 ## Import and export
 
-(Proposed) CSV, FEC where relevant.
+CSV, FEC where relevant.
 
 ## Used by
 

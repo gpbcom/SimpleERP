@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-35 Auditor workspace
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

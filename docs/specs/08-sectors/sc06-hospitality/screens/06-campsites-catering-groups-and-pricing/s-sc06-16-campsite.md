@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC06-16 Campsite
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -62,7 +62,7 @@ Restaurant and hospitality › Pitches; the booking calendar; the guest's bookin
 | Book pitch | row | receptionist | a booking, a deposit and the confirmation |
 | Block pitch | row | receptionist | the pitch is Blocked for the dates, with a reason |
 | Change grid | header | owner | a new price for a season, applied to later bookings |
-| Check in | booking | receptionist | the guest and the vehicle are recorded on the pitch |
+| Check in | booking | receptionist | the guest and the vehicle are recorded on the pitch; a foreign guest fills in and signs the police form on arrival (names, birth date and place, nationality, home address, phone and email, arrival and planned departure; children under 15 on an adult's form), kept 6 months then deleted ([CR-FR-282](../../../../10-country-packs/france/hospitality/cr-fr-282-police-form-for-foreign-guests.md)) |
 
 ## States
 
@@ -70,7 +70,8 @@ Restaurant and hospitality › Pitches; the booking calendar; the guest's bookin
 - Empty: No pitch yet, with New pitch.
 - Loading: the headings and the table as placeholders; the values follow.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); a date with no
-  price in the grid, with the rate plan to complete.
+  price in the grid, with the rate plan to complete; a foreign guest's police form missing or unsigned at check-in,
+  which holds the check-in until it is complete (UC-SC06-16 5e).
 - Read-only: the record in a locked state: values shown, no action offered.
 - Offline: Not available offline: a back-office screen on live, shared data
   ([D38](../../../../06-decisions/ux/d38-offline-field-tasks.md): only today's schedule, time and intervention records

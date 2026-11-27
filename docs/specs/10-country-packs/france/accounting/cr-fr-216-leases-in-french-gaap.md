@@ -3,18 +3,23 @@
 
 # ⚖️ CR-FR-216 Leases in French GAAP
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) In the French GAAP book a lease is a rent expense with a commitment note, while the IFRS book records a
-right-of-use asset and a lease liability; each book follows its own standard.
+In the French GAAP book a lease is a rent expense with a commitment note ([ANC, PCG consolidated at 1 January 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf), read 2026-11-27),
+while the IFRS book records a right-of-use asset and a lease liability for every lease, short-term and low-value
+leases excepted (IFRS 16, adopted by Regulation (EU) 2017/1986) ([European Commission, DG FISMA, Endorsement of IFRS 16](https://finance.ec.europa.eu/system/files/2018-01/171031-study-ifrs-16_en.pdf), read 2026-11-27); each book follows its
+own standard.
 
 ## Values
 
-- (Proposed) Rent expense and commitment note in the French GAAP book.
-- (Proposed) No right-of-use asset in that book unless the entity elects another treatment, to read.
-- (Proposed) SimpleERP enforces: a lease follows the standard of each book.
+- Rent expense and commitment note in the French GAAP book: the lessee of a credit-bail books the rentals as
+  expenses and enters the asset only when the purchase option is taken up (212-5); the notes give the rentals
+  still to pay, the residual price and the theoretical depreciation (836-3, 836-4) ([ANC, PCG consolidated at 1 January 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf), read 2026-11-27).
+- No right-of-use asset in that book: the
+  consolidated PCG has no right-of-use asset and no election for one ([ANC, PCG consolidated at 1 January 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf), read 2026-11-27).
+- SimpleERP enforces: a lease follows the standard of each book.
 - Read on
   [the ANC consolidated chart of accounts](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf)
   (ANC regulation 2014-03, version at 1 January 2026), articles 212-5, 836-3 and 836-4 only; the election of another
@@ -35,11 +40,15 @@ right-of-use asset and a lease liability; each book follows its own standard.
 
 ## Legal references
 
-- Law to read: leases in the French chart of accounts (not read yet).
+- Plan comptable général (ANC regulation 2014-03) art. 212-5, 836-3, 836-4, consolidated version
+  of 1 January 2026 ([ANC, PCG consolidated at 1 January 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf)).
+- IFRS 16 Leases, adopted in the EU by Regulation (EU) 2017/1986 ([European Commission, DG FISMA, Endorsement of IFRS 16](https://finance.ec.europa.eu/system/files/2018-01/171031-study-ifrs-16_en.pdf)).
 
 ## Effective dates
 
-(Proposed) To read.
+ANC regulation 2014-03 has no first financial year of its own: it applies from 2014-10-16, the day after the
+homologating arrêté was published ([Arrêté of 8 September 2014](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029583307), [ANC regulation 2014-03, art. 1 and 2](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2014/Reglt2014-03/Reglt%202014-03_Plan%20comptable%20general.pdf), read 2026-11-27); the consolidated version of
+1 January 2026 gives no date per article ([ANC, PCG consolidated at 1 January 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf), read 2026-11-27). IFRS 16: for annual periods beginning on or after 2019-01-01 ([European Commission, DG FISMA, Endorsement of IFRS 16](https://finance.ec.europa.eu/system/files/2018-01/171031-study-ifrs-16_en.pdf), read 2026-11-27).
 
 ## Enforced by
 
@@ -57,7 +66,7 @@ Not read yet.
 
 ## Exceptions
 
-(Proposed) Books kept under IFRS.
+Books kept under IFRS.
 
 ## Open questions
 

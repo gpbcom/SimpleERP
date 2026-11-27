@@ -43,7 +43,7 @@ Monthly.
 
 1. Accounting opens Flux analysis ([S-F8-27](../../screens/09-pay-analyse-and-report/s-f08-27-flux-analysis.md)) for the
    month.
-2. Accounts whose variance passes the threshold (Proposed: 10 % and 5,000 EUR) are listed.
+2. Accounts whose variance passes the threshold (default: 10 % and 5,000 EUR) are listed.
 3. For each, the AI drafts a comment from the entries behind it ("rent up: new depot from October").
 4. The accountant edits or confirms; the comments go into the monthly report for the owner.
 

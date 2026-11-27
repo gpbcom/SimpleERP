@@ -2,7 +2,7 @@
 
 # 🍽️ Waiter: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ the kitchen. Default density: comfortable, large touch targets
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Tables waiting; Bookings tonight.
 - Widgets: Ready to serve.
@@ -37,7 +37,7 @@ the kitchen. Default density: comfortable, large touch targets
 
 ## Navigation
 
-(Proposed) Floor · Orders · Bookings · Session.
+Floor · Orders · Bookings · Session.
 
 Capabilities this persona uses, from its use cases, each reached from the menu or the AI assistant (BR-F3-34): F10 Point
 of sale (plugin), SC06 Restaurant and hospitality.
@@ -46,10 +46,10 @@ of sale (plugin), SC06 Restaurant and hospitality.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U18-01 | [Serve a table](journeys/j-u18-01-serve-a-table.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U18-01 | [Serve a table](journeys/j-u18-01-serve-a-table.md) | ✅ |
 
 ---
 

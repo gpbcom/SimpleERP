@@ -4,7 +4,7 @@
 
 # 📏 BR-F5-20 Referral rewards wait until the referred sale is paid
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

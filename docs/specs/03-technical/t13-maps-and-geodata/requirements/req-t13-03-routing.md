@@ -4,7 +4,7 @@
 
 # 📌 REQ-T13-03 Routing and travel times
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-32 / D501, D514)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -36,7 +36,7 @@ measured on a sample of rounds.
 
 ## Priority
 
-Must (Proposed)
+Must
 
 ## Capabilities served
 

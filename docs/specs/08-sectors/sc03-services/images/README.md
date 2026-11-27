@@ -17,4 +17,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC03-05 Client and people](05-client-and-people/README.md) | 30 images |
 | 🖼️ |  | [Images: FL-SC03-06 Staffing, agencies, certification and tender library](06-staffing-agencies-and-certification/README.md) | 28 images |
 | 🖼️ |  | [Screen states](states/README.md) | 120 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

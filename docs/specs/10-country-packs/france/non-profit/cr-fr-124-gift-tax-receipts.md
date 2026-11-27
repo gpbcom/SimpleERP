@@ -13,7 +13,11 @@ number, and declares each year the number of receipts and the total of gifts.
 ## Values
 
 - Declaration within 3 months of the year end; for a 31 December year end, by the second working day after 1 May.
-- (Proposed) The donors' reduction rates and ceilings, still to read.
+- The donors' reduction rates and ceilings: individuals 66 % within 20 % of taxable income, the excess carried over 5
+  years; 75 % for gifts to bodies giving free meals, housing help or care to people in difficulty, or helping victims
+  of domestic violence, within 2 000 EUR and outside the 20 % ([CGI, art. 200](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051200406), read 2026-11-27); companies 60 % up to 2
+  million EUR and 40 % above, within 20 000 EUR or 5 per thousand of turnover, the excess carried over 5 years
+  ([CGI, art. 238 bis](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041470858), read 2026-11-27).
 
 ## Legal references
 
@@ -23,11 +27,14 @@ number, and declares each year the number of receipts and the total of gifts.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CGI art. 200 in its current version since 2026-02-21 (loi n° 2026-103) ([CGI, art. 200](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051200406), read 2026-11-27); art. 238 bis since
+2026-07-10 (loi n° 2026-602) ([CGI, art. 238 bis](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041470858), read 2026-11-27).
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc08-non-profit/regulatory.md)
+- [UC-SC08-21 Give grants as a foundation](../../../08-sectors/sc08-non-profit/use-cases/07-foundations-integration-and-federations/uc-sc08-21-give-grants-as-a-foundation.md)
+- [UC-SC08-24 Let supporters fundraise for us](../../../08-sectors/sc08-non-profit/use-cases/07-foundations-integration-and-federations/uc-sc08-24-let-supporters-fundraise-for-us.md)
 
 ## When the law changes
 

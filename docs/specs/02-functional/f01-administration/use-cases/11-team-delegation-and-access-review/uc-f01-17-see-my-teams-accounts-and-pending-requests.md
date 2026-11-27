@@ -5,7 +5,7 @@
 
 # 📝 UC-F1-17 See my team's accounts and pending requests
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -50,7 +50,7 @@ Weekly per manager.
 ## Alternative flows
 
 - 1a. An invitation expired: the manager asks the administrator to resend it.
-- 3a. Many similar requests: the manager approves several at once (Proposed).
+- 3a. Many similar requests: the manager approves several at once.
 
 ## Error flows
 
@@ -124,7 +124,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Opens within 2 seconds for a team of 50 (Proposed); on a phone, the list becomes cards.
+Opens within 2 seconds for a team of 50; on a phone, the list becomes cards.
 
 ## Regulatory references
 

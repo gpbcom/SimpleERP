@@ -3,7 +3,7 @@
 
 # 📏 BR-F13-21 Profit-sharing once the threshold is reached
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,16 +14,16 @@ employee savings plan by each employee's choice.
 ## Why
 
 Participation is mandatory from 50 employees in France (D470); the headcount count follows CR-FR-046, the formula and
-ceilings are (Proposed) to read (Code du travail L3322-2, L3324-1).
+ceilings are (⚖️ lawyer review before launch, D574) to read: Code du travail L3322-2, L3324-1.
 
 ## Examples
 
 | Case | Result |
 |---|---|
-| Company of 52 employees over 5 consecutive years (Proposed) | passes: profit-sharing set up |
+| Company of 52 employees over 5 consecutive years (⚖️ lawyer review before launch, D574: Code du travail L3322-2) | passes: profit-sharing set up |
 | Reserve 40 000.00 EUR, half by salary, half by time worked | passes |
 | Employee's share above the individual ceiling | passes: capped, the surplus shared again |
-| No choice made by the employee within the delay | passes: invested by default (Proposed) to read |
+| No choice made by the employee within the delay | passes: invested by default (⚖️ lawyer review before launch, D574: Code du travail L3324-12) |
 
 ## Applies to
 

@@ -3,7 +3,7 @@
 
 # 🗃️ E-F5-17 Campaign budget
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -37,7 +37,8 @@ By campaign and period.
 
 ## Retention
 
-10 years with the accounts (Proposed).
+10 years with the accounts
+([CR-FR-002 Accounting records kept 10 years](../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md)).
 
 ## Audit
 

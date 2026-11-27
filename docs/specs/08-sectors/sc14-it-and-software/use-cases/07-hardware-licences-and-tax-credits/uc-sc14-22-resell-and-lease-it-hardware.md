@@ -167,7 +167,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 Electrical and electronic equipment returned at the end of a lease is covered by the producer's take-back
 duty, and what cannot be reused goes to a collection scheme, with the eco-contribution shown on the sale. Personal data
 left on a returned device must be erased before it is reused. An operating lease and a financial lease are not accounted
-for in the same way. The France-pack rule is written later. Related:
+for in the same way. The France-pack rules that apply are listed below. Related:
 [CR-FR-073](../../../../10-country-packs/france/products/cr-fr-073-epr-unique-identifier.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md),
 [CR-FR-079](../../../../10-country-packs/france/environment/cr-fr-079-waste-register.md),

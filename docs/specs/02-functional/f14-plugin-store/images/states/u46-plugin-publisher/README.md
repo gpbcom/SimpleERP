@@ -132,6 +132,24 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f14-10-security-review-e-f14-21-plugin-security-review-active-desktop, light](s-f14-10-security-review-e-f14-21-plugin-security-review-active-desktop-light.png) | ![s-f14-10-security-review-e-f14-21-plugin-security-review-active-desktop, dark](s-f14-10-security-review-e-f14-21-plugin-security-review-active-desktop-dark.png) |
 
+## s-f14-10-security-review-e-f14-21-plugin-security-review-approved-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f14-10-security-review-e-f14-21-plugin-security-review-approved-desktop, light](s-f14-10-security-review-e-f14-21-plugin-security-review-approved-desktop-light.png) | ![s-f14-10-security-review-e-f14-21-plugin-security-review-approved-desktop, dark](s-f14-10-security-review-e-f14-21-plugin-security-review-approved-desktop-dark.png) |
+
+## s-f14-10-security-review-e-f14-21-plugin-security-review-changes-asked-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f14-10-security-review-e-f14-21-plugin-security-review-changes-asked-desktop, light](s-f14-10-security-review-e-f14-21-plugin-security-review-changes-asked-desktop-light.png) | ![s-f14-10-security-review-e-f14-21-plugin-security-review-changes-asked-desktop, dark](s-f14-10-security-review-e-f14-21-plugin-security-review-changes-asked-desktop-dark.png) |
+
+## s-f14-10-security-review-e-f14-21-plugin-security-review-rejected-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f14-10-security-review-e-f14-21-plugin-security-review-rejected-desktop, light](s-f14-10-security-review-e-f14-21-plugin-security-review-rejected-desktop-light.png) | ![s-f14-10-security-review-e-f14-21-plugin-security-review-rejected-desktop, dark](s-f14-10-security-review-e-f14-21-plugin-security-review-rejected-desktop-dark.png) |
+
 ## s-f14-10-security-review-e-f14-03-plugin-version-new-desktop
 
 | Light | Dark |
@@ -341,6 +359,24 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 | Light | Dark |
 |---|---|
 | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-active-desktop, light](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-active-desktop-light.png) | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-active-desktop, dark](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-active-desktop-dark.png) |
+
+## s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop, light](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop-light.png) | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop, dark](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-approved-desktop-dark.png) |
+
+## s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop, light](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop-light.png) | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop, dark](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-changes-asked-desktop-dark.png) |
+
+## s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop, light](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop-light.png) | ![s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop, dark](s-f14-22-plugin-lifecycle-e-f14-21-plugin-security-review-rejected-desktop-dark.png) |
 
 ## s-f14-27-test-instances-e-f14-22-test-instance-requested-desktop
 

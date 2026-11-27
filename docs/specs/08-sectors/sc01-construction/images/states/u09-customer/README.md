@@ -47,6 +47,12 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone, light](s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone-light.png) | ![s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone, dark](s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone-dark.png) |
 
+## s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone, light](s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone-light.png) | ![s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone, dark](s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone-dark.png) |
+
 ## s-sc01-11-warranties-e-sc01-11-warranty-active-phone
 
 | Light | Dark |

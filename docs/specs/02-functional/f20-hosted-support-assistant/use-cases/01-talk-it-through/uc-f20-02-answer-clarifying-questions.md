@@ -4,7 +4,7 @@
 
 # 📝 UC-F20-02 Answer clarifying questions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -48,7 +48,7 @@ Most requests.
 
 ## Error flows
 
-- 2e. No answer for (Proposed) 3 days: request waits, reminder.
+- 2e. No answer for 3 days: request waits, reminder.
 - Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
   (D122) and what was typed stays on the screen.
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F22-27 Credit packs
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

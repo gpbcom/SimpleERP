@@ -13,7 +13,7 @@ requirements of the operation "sign in at a work centre"
 ([E-F12-17](../data/e-f12-17-qualification-requirement.md)), checked by
 [BR-F9-25](../../f09-hr-and-projects/business-rules/br-f09-25-required-attributes-exclude.md). A supervisor may allow a
 supervised trainee, logged with a reason
-([BR-F9-34](../../f09-hr-and-projects/business-rules/br-f09-34-overrides-logged-with-a-reason.md)); (Proposed) not where
+([BR-F9-34](../../f09-hr-and-projects/business-rules/br-f09-34-overrides-logged-with-a-reason.md)); not where
 the country pack marks the qualification as legal without a supervised exception
 ([BR-F9-26](../../f09-hr-and-projects/business-rules/br-f09-26-legal-requirements-never-relaxed.md)).
 

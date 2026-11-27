@@ -4,12 +4,12 @@
 
 # 📏 BR-F19-16 Nothing charged without an accepted feature
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 Billing starts only when the customer accepts the feature after its try-out; a feature refused after the change rounds
-closes the order without charge, and an accepted feature made unusable by a defect not fixed within (Proposed) 10
+closes the order without charge, and an accepted feature made unusable by a defect not fixed within 10
 business days is credited for that month by a credit note.
 
 ## Why
@@ -20,7 +20,7 @@ Customers pay for features that work (D476); billing starts at acceptance (BR-F1
 
 | Case | Result |
 |---|---|
-| Feature refused after 3 change rounds (Proposed) | passes: order closed, no invoice |
+| Feature refused after 3 change rounds | passes: order closed, no invoice |
 | Defect reported on 2027-02-03, fixed 2027-02-10 | passes: no credit |
 | Defect reported on 2027-02-03, not fixed by 2027-02-17 | passes: February credited, 300.00 EUR excluding VAT |
 

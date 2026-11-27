@@ -3,7 +3,7 @@
 
 # 🗃️ E-F22-16 Savings recommendation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -45,7 +45,7 @@ By feature and status.
 
 ## Retention
 
-(Proposed) 2 years.
+2 years.
 
 ## Audit
 

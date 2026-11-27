@@ -38,7 +38,7 @@ The decisions of this theme, in number order.
 | 📜 | D392 | [SimpleERP maintainer persona](d392-simpleerp-maintainer-persona.md) | ✅ |
 | 📜 | D452 | [Repository maintainers apart from hosting engineers](d452-repository-maintainer-and-hosting-engineer.md) | ✅ |
 | 📜 | D456 | [Mockup images per device, and the derived acceptance criteria](d456-audit-images-and-criteria.md) | ✅ |
-| 📜 | D484 | [Aggregated list view per record type and persona workspaces](d484-aggregated-list-view-per-record-type-and-persona-workspaces.md) | 🔄 |
-| 📜 | D485 | [Every entity has an aggregated view](d485-every-entity-has-an-aggregated-view.md) | 🔄 |
+| 📜 | D484 | [Aggregated list view per record type and persona workspaces](d484-aggregated-list-view-per-record-type-and-persona-workspaces.md) | ✅ |
+| 📜 | D485 | [Every entity has an aggregated view](d485-every-entity-has-an-aggregated-view.md) | ✅ |
 
 Pages: **1** · [2](page-2.md)

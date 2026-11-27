@@ -4,7 +4,7 @@
 
 # 📝 UC-F11-28 Fulfil online orders from a store
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -116,12 +116,12 @@ sequenceDiagram
    one coat is reserved.
 2. **Given** the coat sold at the counter before picking **when** the store reports it **then** the order goes to
    Annecy.
-3. **Given** a store at its capacity of 20 orders a day (Proposed) **when** the 21st arrives **then** it is not assigned
+3. **Given** a store at its capacity of 20 orders a day **when** the 21st arrives **then** it is not assigned
    there.
 
 ## Non-functional notes
 
-Assignment within a minute (Proposed).
+Assignment within a minute.
 
 ## Regulatory references
 

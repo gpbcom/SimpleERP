@@ -5,7 +5,7 @@
 
 # 📝 UC-F16-20 Answer phone calls with the voice agent
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -168,7 +168,9 @@ recording is announced:
 proportionate:
 [CR-FR-207](../../../../10-country-packs/france/data-protection/cr-fr-207-call-recording-proportionate.md). No voice
 print: [CR-FR-053](../../../../10-country-packs/france/data-protection/cr-fr-053-no-biometric-voice-prints.md).
-(Proposed) The France-pack rule on AI disclosure to callers and its wording is written later.
+AI disclosure to callers:
+[CR-FR-056](../../../../10-country-packs/france/ai-and-recording/cr-fr-056-people-know-they-deal-with-an-ai.md), AI calls say they are AI; the
+wording is SimpleERP's.
 
 ## Related use cases
 

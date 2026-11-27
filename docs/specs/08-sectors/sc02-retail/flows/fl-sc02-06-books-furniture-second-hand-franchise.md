@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC02-06 Books, furniture, second-hand and franchise
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

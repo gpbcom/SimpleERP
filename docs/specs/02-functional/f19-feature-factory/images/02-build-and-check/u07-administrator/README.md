@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F19-02 Build and check
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F19-02 Build and check](../../../flows/fl-f19-02-build-and-check.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

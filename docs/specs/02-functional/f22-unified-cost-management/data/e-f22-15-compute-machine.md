@@ -3,7 +3,7 @@
 
 # 🗃️ E-F22-15 Compute machine
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -40,7 +40,8 @@ By name.
 
 ## Retention
 
-For its life, then (Proposed) 10 years with the costs.
+For its life, then 10 years with the costs, as accounting supporting documents
+([CR-FR-002](../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md)).
 
 ## Audit
 

@@ -22,7 +22,7 @@ the CNDA is the single entry point under one approval contract.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Single approval contract since 2026-11-02 ([SESAM-Vitale: single entry point](https://www.sesam-vitale.fr/web/sesam-vitale/actualites/-/blogs/fusion-agrement-homologation-dispositif-integre-le-cnda-devient-le-guichet-unique), published 2026-11-03, read 2026-11-27).
 
 ## Enforced by
 

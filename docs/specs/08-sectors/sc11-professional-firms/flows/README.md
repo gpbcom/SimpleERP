@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -16,7 +16,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC11-04 | [Deadlines and filings](fl-sc11-04-deadlines-and-filings.md) | ✅ |
 | 🔀 | FL-SC11-05 | [Compliance and secrecy](fl-sc11-05-compliance-and-secrecy.md) | ✅ |
 | 🔀 | FL-SC11-06 | [Firm management](fl-sc11-06-firm-management.md) | ✅ |
-| 🔀 | FL-SC11-07 | [Notaries, brokers, judicial officers and audit firms](fl-sc11-07-notaries-brokers-officers-and-auditors.md) | 🔄 |
+| 🔀 | FL-SC11-07 | [Notaries, brokers, judicial officers and audit firms](fl-sc11-07-notaries-brokers-officers-and-auditors.md) | ✅ |
 
 ---
 

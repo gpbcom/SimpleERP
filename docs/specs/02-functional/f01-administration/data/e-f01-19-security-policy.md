@@ -3,7 +3,7 @@
 
 # 🗃️ E-F1-19 Security policy
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -13,8 +13,8 @@ The company's password, session, two-factor, IP and device rules, per role.
 
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
-| password | length, expiry | yes | length 12 or more (Proposed) | 12, no expiry | 14 | no | - |
-| session | length, idle timeout | yes | - | 12 h, 60 min (Proposed) | 8 h, 30 min | no | - |
+| password | length, expiry | yes | length 12 or more | 12, no expiry | 14 | no | - |
+| session | length, idle timeout | yes | - | 12 h, 60 min | 8 h, 30 min | no | - |
 | two-factor per role | list | yes | administrators always | administrators | administrators, accounting | no | - |
 | IP and devices per role | list | no | valid ranges | - | administrators: 192.0.2.0/24 | no | - |
 

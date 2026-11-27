@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-34 Recurring entries
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -8,14 +8,14 @@
 ## Context
 
 The drafts of GH-2 steps S4 and S4b (D484 to D516, the T13 pages, the scheduling, map and qualification pages and the
-change notes) left 18 points marked as proposed, listed in the [drafts' open
-points](../../../tickets/GH-2/resources/flowcharts-screens/drafts/OPEN-POINTS.md). Step S0 added three new shared names
+change notes) left 18 points marked as proposed, listed in the drafts' open
+points (the owner's interview notes of 2026-11 for the specifications, not kept in the repository). Step S0 added three new shared names
 (S0-1 to S0-3). The owner was asked all of them on 2026-11-13, each with its proposal.
 
 ## Options
 
-For each point: the proposal of the drafts, or another answer. The [interview
-record](../../../tickets/GH-2/interviews/2026-11-13-wording-and-views.md) keeps the owner's answers, not every option.
+For each point: the proposal of the drafts, or another answer. The interview
+record (the owner's interview of 2026-11-13 on wording and views, not kept in the repository) keeps the owner's answers, not every option.
 
 ## Choice
 
@@ -47,8 +47,8 @@ Every point as proposed. The owner's words are kept as given.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the GH-2 interview round on the wording, the aggregated views and scheduling ([interview
-record](../../../tickets/GH-2/interviews/2026-11-13-wording-and-views.md)): "Go, everything run the tests ONLY on the
+The owner, on 2026-11-13, in the GH-2 interview round on the wording, the aggregated views and scheduling (interview
+record (the owner's interview of 2026-11-13 on wording and views, not kept in the repository)): "Go, everything run the tests ONLY on the
 modified pages."
 
 ## Consequences
@@ -62,8 +62,8 @@ modified pages."
 
 ## Related
 
-- [The drafts' open points](../../../tickets/GH-2/resources/flowcharts-screens/drafts/OPEN-POINTS.md)
-- [Interview record](../../../tickets/GH-2/interviews/2026-11-13-wording-and-views.md)
+- The drafts' open points (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
+- Interview record (the owner's interview of 2026-11-13 on wording and views, not kept in the repository)
 - [D516 Naming rules and the seven classes of names](d516-naming-rules-and-the-seven-classes-of-names.md)
 - [D502 Records on a map for planners and managers only](../ux/d502-records-on-a-map-for-planners-and-managers-only.md)
 - [D515 The engine proposes; automatic mode enabled by hand, stops on a

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-08 The invoice follows the signed report
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,9 @@ reason and the office is told.
 ## Why
 
 An invoice before acceptance starts disputes, and a signature on the spot lets the customer pay at once
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The France-pack rule is
+[CR-FR-020 Proof of acceptance and e-signature](../../../10-country-packs/france/invoicing/cr-fr-020-electronic-acceptance-and-signature.md):
+the signed report keeps who signed, when and which version.
 
 ## Examples
 

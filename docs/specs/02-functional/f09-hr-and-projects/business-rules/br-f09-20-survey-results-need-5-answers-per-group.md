@@ -3,11 +3,11 @@
 
 # 📏 BR-F9-20 Survey results need 5 answers per group
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-Engagement survey results are shown for a group only with 5 answers or more (Proposed); open answers are summarised
+Engagement survey results are shown for a group only with 5 answers or more; open answers are summarised
 without quoting a person.
 
 ## Why

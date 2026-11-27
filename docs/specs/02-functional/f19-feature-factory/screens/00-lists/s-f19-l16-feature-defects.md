@@ -35,10 +35,13 @@ filter, total and act on many feature defects at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Feature defects    Feature factory (hosted edition) › Feature defects   [+ New]                              |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Active] [due in 7 days]   [chart: count by state]                                                   |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] FEATURE DEFECT   STATE                                                               |
+| state             | [ ] FEATURE DEFE   FEATURE   REPORTED BY   REPORTED ON   FIX LIMIT   FIX VERSION   STATE |
+| feature           | [ ] ...                                                  Open >                          |
+| reported by       | [ ] ...                                                  Open >                          |
+| fix version       | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,8 +51,13 @@ filter, total and act on many feature defects at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Feature defect | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Feature defect | title | text | yes |
+| Feature | feature | link to the record | yes |
+| Reported by | reported by | person's name | yes |
+| Reported on | reported on | date | yes |
+| Fix limit | fix limit | date | yes |
+| Fix version | fix version | link to the record | yes |
+| State | state | badge: Active, Fixed, Credited | yes |
 
 Secrets are never a column (VR-4).
 
@@ -57,17 +65,23 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, Fixed, Credited | the visible rows (D488) |
+| Feature | each linked feature | the visible rows (D488) |
+| Reported by | each person, the user first | the visible rows (D488) |
+| Fix version | each linked fix version | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: feature defects link to no other record type in their fields.
+- Feature defects of a chosen feature, or of the features that match a filter.
+- From the other side: the features that have feature defects, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Active.
+- Due in 7 days, by fix limit.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -79,6 +93,9 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: reported by.
+- Open: Active.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -92,6 +109,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New feature defect | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -107,7 +125,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| reported by | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

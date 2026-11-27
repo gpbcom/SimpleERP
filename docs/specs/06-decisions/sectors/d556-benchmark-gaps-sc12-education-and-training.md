@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four situations
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four situations
 that education suites handle and SC12 did not: apprentice training centres, driving schools, nurseries and canteens with
 activities. Three carry a legal or funding rule (the support level of the operator, the instructor's authorisation, the
 fund's scale); the canteen's cut-off is a school rule.
@@ -27,7 +27,8 @@ fund's scale); the canteen's cut-off is a school rule.
 ## Choice
 
 SC12 gets four use cases in one new flow, FL-SC12-06, each with its screen, its rule, its entity and its list. All at
-full depth now. Each legal duty is written in plain words and marked (Proposed) until the France-pack rule is written;
+full depth now. Each legal duty is written in plain words and marked as proposed until its France-pack rule was
+written (the rules now exist);
 no article is quoted.
 
 | Gap | Point | Decision | The owner's answer |
@@ -40,7 +41,7 @@ no article is quoted.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC12 Education and
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC12 Education and
 training").
 
 ## Consequences
@@ -77,6 +78,11 @@ training").
 - Drawn in
   [FL-SC12-06](../../08-sectors/sc12-education-and-training/flows/fl-sc12-06-apprentices-driving-nurseries-and-canteens.md)
   Apprentices, driving schools, nurseries, canteens.
+- The legal reading of 2026-11-27 replaced the month-by-month claim of G171: the OPCO's yearly amount is counted pro
+  rata of the days done and paid in instalments, and goes on for up to six months after a break
+  ([CR-FR-244](../../10-country-packs/france/education/cr-fr-244-apprenticeship-funding.md)); the nursery fund pays 66 % of the capped cost
+  price for the hours billed, minus the families' share, times the share of general-scheme families
+  ([CR-FR-245](../../10-country-packs/france/education/cr-fr-245-nursery-psu.md)). The pages above say so.
 
 ## Related
 

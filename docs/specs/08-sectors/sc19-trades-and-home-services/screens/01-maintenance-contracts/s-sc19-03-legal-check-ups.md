@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-03 Legal check-ups
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

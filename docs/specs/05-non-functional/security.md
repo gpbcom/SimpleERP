@@ -2,7 +2,7 @@
 
 # 🔒 Security
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Requirement
 
@@ -33,7 +33,7 @@
   security policy (SECURITY.md) with a private reporting path through GitHub's private vulnerability reporting and
   security advisories; a report that may be a vulnerability never becomes a public USER issue (BR-F25-12); fixes
   released with an advisory and a CVE; actively exploited vulnerabilities and severe incidents reported to the
-  authorities as the Cyber Resilience Act requires, its dates to read at build; (Proposed) an acknowledgement within 3
+  authorities as the Cyber Resilience Act requires, its dates to read at build; an acknowledgement within 3
   working days.
 - **Health data and the hosted agents** (review R27): namespaces holding health data (SC09) are excluded from the
   support assistant's and the DevOps agents' model access unless the hosting and the whole model path are HDS-certified
@@ -41,9 +41,9 @@
 
 ## Measures
 
-- (Proposed) A control matrix per framework, kept in the repository, each control linked to its evidence (configuration,
+- A control matrix per framework, kept in the repository, each control linked to its evidence (configuration,
   test, log, report).
-- (Proposed) Software bill of materials, vulnerability management, penetration tests before each major release,
+- Software bill of materials, vulnerability management, penetration tests before each major release,
   hardening guides per profile.
 - The technical design of these profiles is interviewed at step 19f (Security).
 

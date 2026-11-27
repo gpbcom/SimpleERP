@@ -4,7 +4,7 @@
 
 # 🗃️ E-F20-13 Maintenance notice
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -45,7 +45,7 @@ By date and status.
 
 ## Retention
 
-(Proposed) 2 years.
+2 years.
 
 ## Audit
 

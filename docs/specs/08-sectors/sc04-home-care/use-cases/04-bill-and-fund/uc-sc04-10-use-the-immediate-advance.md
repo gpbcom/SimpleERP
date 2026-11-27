@@ -9,7 +9,8 @@
 ## Summary
 
 A client who chose the immediate advance of the tax credit pays only their share: each invoice is sent as a request
-through URSSAF and the client validates it.
+through URSSAF, the client validates it within 48 hours or it is validated automatically, and URSSAF pays the whole
+service to the provider and debits the client for the remainder.
 
 ## Personas
 
@@ -37,16 +38,18 @@ Monthly per client.
 
 ## Postconditions
 
-- **Success:** the request is validated and the client pays their share.
-- **Failed:** the client is billed in full.
+- **Success:** the request is validated, by the client or automatically after 48 hours; URSSAF pays the whole service
+  to the provider and debits the client for their share.
+- **Failed:** URSSAF refuses the request and it cannot be corrected: the client is billed in full outside the advance.
 
 ## Main flow
 
 1. The client joins the immediate advance on
    [S-SC04-10 Immediate advance](../../screens/04-bill-and-fund/s-sc04-10-immediate-advance.md).
 2. Accounting sends each invoice as a request through the URSSAF connector (T12).
-3. The client validates the request.
-4. The client's share and URSSAF's payment are matched,
+3. The client validates the request within 48 hours.
+4. URSSAF pays the whole service to the provider and debits the client for the remainder two days after the
+   validation ([CR-FR-104 Immediate advance of the tax credit](../../../../10-country-packs/france/tax-and-vat/cr-fr-104-immediate-advance-of-tax-credit.md)); URSSAF's payment is matched,
    [UC-F8-06](../../../../02-functional/f08-accounting/use-cases/03-bank-and-collect/uc-f08-06-connect-banks-and-reconcile.md).
 
 ## Alternative flows
@@ -55,7 +58,8 @@ Monthly per client.
 
 ## Error flows
 
-- 3e. Not validated in time: the client is billed in full.
+- 3e. Not validated within 48 hours: URSSAF validates the request automatically and the flow goes on at step 4
+  ([CR-FR-104](../../../../10-country-packs/france/tax-and-vat/cr-fr-104-immediate-advance-of-tax-credit.md)); nothing is billed in full.
 - 2e. URSSAF refuses the request: the reason is shown and accounting corrects it.
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
@@ -117,11 +121,13 @@ sequenceDiagram
   A1->>P1: Join
   A2->>P2: Send the request
   P2-->>A2: Request received
-  A1->>P2: Validate
+  A1->>P2: Validate within 48 hours
   P2-->>A1: Validated
+  P2-->>A2: Pays the whole service
+  P2-->>A1: Debits the client's share
   A2->>P1: Record the payment
-  alt not validated in time
-    P2-->>A1: The client is billed in full
+  alt not validated within 48 hours
+    P2-->>A1: Validated automatically, the client's share debited
   end
   alt URSSAF refuses the request
     P2-->>A2: The reason is shown and accounting corrects it
@@ -131,9 +137,9 @@ sequenceDiagram
 ## Acceptance criteria
 
 1. **Given** the example home-care service's M. Petit's November invoice of 260 EUR with the advance **when** he
-   validates **then** he pays 130 EUR and the tax credit's 130 EUR comes from URSSAF.
-2. **Given** a request of 260 EUR not validated before the deadline **when** the deadline passes **then** the client is
-   billed in full.
+   validates **then** URSSAF pays the service 260 EUR and debits him 130 EUR, his share after the tax credit.
+2. **Given** a request of 260 EUR that M. Petit does not answer **when** 48 hours pass **then** URSSAF validates it
+   automatically, pays the service 260 EUR and debits him 130 EUR.
 
 ## Non-functional notes
 

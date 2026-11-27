@@ -44,7 +44,8 @@ Individuals up to 6 months' imprisonment and 30 000 EUR; companies 150 000 EUR (
 
 ## Exceptions
 
-(Proposed) Purchases from professionals, to read.
+Goods bought from their manufacturers or from traders in them: the register covers goods acquired from businesses or
+individuals who are not their manufacturers or traders ([Service-public F39552, verified 2026-04-24](https://entreprendre.service-public.gouv.fr/vosdroits/F39552), read 2026-11-27).
 
 ## Open questions
 

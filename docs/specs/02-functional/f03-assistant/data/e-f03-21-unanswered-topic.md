@@ -3,7 +3,7 @@
 
 # 🗃️ E-F3-21 Unanswered topic
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -39,7 +39,7 @@ By count and status.
 
 ## Retention
 
-12 months (Proposed).
+12 months.
 
 ## Audit
 

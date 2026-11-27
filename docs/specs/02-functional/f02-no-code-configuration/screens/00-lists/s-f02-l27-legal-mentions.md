@@ -38,7 +38,9 @@ filter, total and act on many legal mentions at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] LEGAL MENTION   STATE                                                                |
+| state             | [ ] NAME   DOCUMENT TYP   SOURCE   LANGUAGE   LOCKED   PLACE AND ST   STATE              |
+| language          | [ ] ...                                                  Open >                          |
+| locked            | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,7 +50,12 @@ filter, total and act on many legal mentions at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Legal mention | the record's title | text | yes |
+| Name | name | text | yes |
+| Document types | document types | text | yes |
+| Source | source | text | yes |
+| Language | language | label | yes |
+| Locked | locked | yes or no | yes |
+| Place and style | place and style | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -58,6 +65,8 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Language | each value | the visible rows (D488) |
+| Locked | yes, no | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -103,7 +112,7 @@ Each action is offered within the role and checked again on the server (VR-10).
 
 ## Inline edit
 
-None: no field is editable in a cell.
+- language: editable in its cell unless the record's state locks it.
 
 ## Hidden fields
 

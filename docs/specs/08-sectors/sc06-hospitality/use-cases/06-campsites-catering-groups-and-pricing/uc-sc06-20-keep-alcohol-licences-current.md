@@ -5,7 +5,7 @@
 
 # 📝 UC-SC06-20 Keep alcohol licences current
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -162,7 +162,8 @@ bars of associations have their own authorisation. Licences are data of the Fran
 below. Related: [CR-FR-109](../../../../10-country-packs/france/hospitality/cr-fr-109-alcohol-licences.md),
 [CR-FR-128](../../../../10-country-packs/france/hospitality/cr-fr-128-temporary-bars.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule, (⚖️ lawyer review before launch, D574) for the general hours of service, set locally by the prefect, until the
+  prefectoral orders are read:
   [CR-FR-235 Alcohol licences and opening hours](../../../../10-country-packs/france/hospitality/cr-fr-235-alcohol-licences.md)
 
 ## Related use cases

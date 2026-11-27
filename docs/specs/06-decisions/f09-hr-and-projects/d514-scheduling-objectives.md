@@ -3,7 +3,7 @@
 
 # 📜 D514 Scheduling objectives
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-32 / D514)
+**Status:** ✅ decided
 
 ## Context
 
@@ -21,8 +21,8 @@ Travel and lateness; customer preferences (continuity, preferred or refused peop
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-32).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-32).
 
 ## Consequences
 
@@ -43,7 +43,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
   required](d511-required-or-preferred-attributes-legal-ones-always-required.md)
 - [D515 The engine proposes; automatic mode enabled by hand, stops on a
   problem](d515-the-engine-proposes-automatic-mode-enabled-by-hand-stops-on-a-problem.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

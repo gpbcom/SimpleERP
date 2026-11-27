@@ -5,7 +5,7 @@
 
 # 📝 UC-F16-21 Warn customers before they ask
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -156,7 +156,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A message about an order or a service is a service message, not marketing; marketing messages need consent
 ([CR-FR-063](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md)). A message that
-also sells is marketing. (Proposed) The France-pack rule on service messages is written later.
+also sells is marketing. (⚖️ lawyer review before launch, D574) The France-pack rule on service messages is still to write: to read
+Code des postes et des communications électroniques L34-5 and the CNIL's guidance on messages that are not prospecting.
 
 ## Related use cases
 

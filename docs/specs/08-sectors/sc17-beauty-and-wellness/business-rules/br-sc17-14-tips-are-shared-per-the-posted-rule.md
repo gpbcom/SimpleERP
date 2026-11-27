@@ -7,14 +7,16 @@
 
 ## Statement
 
-Tips are shared only by the rule the salon has posted, applied the same way to everyone it covers, and each staff member
-can read the rule and their statement. A tip is never added to the salon's takings.
+Tips go in full to the staff in contact with customers, shared only by the rule the salon has posted, applied the same
+way to everyone it covers, and each staff member can read the rule and their statement. A tip is never added to the
+salon's takings.
 
 ## Why
 
 Tips are meant for the staff and a hidden or changing key is a source of conflict and a legal risk. The owner asked for
-tips ([D561](../../../06-decisions/sectors/d561-benchmark-gaps-sc17-beauty-and-wellness.md)). The tax
-treatment comes from the France pack ([CR-FR-113](../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md)).
+tips ([D561](../../../06-decisions/sectors/d561-benchmark-gaps-sc17-beauty-and-wellness.md)). The law gives tips in
+full to the staff in contact with customers and sets no sharing key; the tax and social treatment comes from the France
+pack ([CR-FR-113 Tips and their sharing](../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md)).
 
 ## Examples
 

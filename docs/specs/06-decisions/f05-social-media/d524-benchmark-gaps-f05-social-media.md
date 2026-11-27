@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found five features
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found five features
 other ERPs and marketing suites offer that F5 had no use case for: marketing cards, customer referral, push
 notifications, brand listening and postal mail campaigns.
 
@@ -38,7 +38,7 @@ F5 gets five use cases in one new flow, each with its screen, its rule, its enti
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F5 Social media and
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F5 Social media and
 marketing").
 
 ## Consequences

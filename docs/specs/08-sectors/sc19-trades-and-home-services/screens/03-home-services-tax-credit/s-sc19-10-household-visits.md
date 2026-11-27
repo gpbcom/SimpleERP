@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-10 Household visits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

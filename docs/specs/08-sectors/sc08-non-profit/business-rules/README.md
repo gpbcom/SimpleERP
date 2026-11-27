@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -26,10 +26,10 @@ One file per rule.
 | 📏 | BR-SC08-13 | [Communication with consent](br-sc08-13-communication-with-consent.md) | ✅ |
 | 📏 | BR-SC08-14 | [Members' rights honoured](br-sc08-14-members-rights-honoured.md) | ✅ |
 | 📏 | BR-SC08-15 | [Gifts in kind valued](br-sc08-15-gifts-in-kind-valued.md) | ✅ |
-| 📏 | BR-SC08-16 | [Members with a conflict do not vote](br-sc08-16-members-with-a-conflict-do-not-vote.md) | 🔄 |
-| 📏 | BR-SC08-17 | [Aid per position follows the approval](br-sc08-17-aid-per-position-follows-the-approval.md) | 🔄 |
-| 📏 | BR-SC08-18 | [Dues follow each club's headcount](br-sc08-18-dues-follow-each-clubs-headcount.md) | 🔄 |
-| 📏 | BR-SC08-19 | [Funds go to the association, never the page owner](br-sc08-19-funds-go-to-the-association-never-the-page-owner.md) | 🔄 |
+| 📏 | BR-SC08-16 | [Members with a conflict do not vote](br-sc08-16-members-with-a-conflict-do-not-vote.md) | ✅ |
+| 📏 | BR-SC08-17 | [Aid per position follows the approval](br-sc08-17-aid-per-position-follows-the-approval.md) | ✅ |
+| 📏 | BR-SC08-18 | [Dues follow each club's headcount](br-sc08-18-dues-follow-each-clubs-headcount.md) | ✅ |
+| 📏 | BR-SC08-19 | [Funds go to the association, never the page owner](br-sc08-19-funds-go-to-the-association-never-the-page-owner.md) | ✅ |
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F25-30 Approve the work contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -65,9 +65,9 @@ Once or twice per ticket the team works on.
 
 - 3a. The maintainer wants a change: they ask for a revision with a comment. The contract goes back to Draft and the
   Architect writes a new version ([UC-F25-29](uc-f25-29-write-the-work-contract-of-a-ticket.md)).
-- 3b. (Proposed) The maintainer accepts a flagged gap on purpose, such as a criterion checked by hand: they write why,
+- 3b. The maintainer accepts a flagged gap on purpose, such as a criterion checked by hand: they write why,
   and the gap is shown as accepted. An overlap can never be accepted.
-- 4a. (Proposed) The base branch moved since the starting commit: the maintainer approves as is, or asks the Architect
+- 4a. The base branch moved since the starting commit: the maintainer approves as is, or asks the Architect
   to record the new head and check the contract again.
 - 4b. A new version after a conflict ([UC-F25-33](uc-f25-33-integrate-the-workers-commits.md)): the changed parts are
   highlighted, and the earlier approval no longer counts.
@@ -101,11 +101,11 @@ Once or twice per ticket the team works on.
 ## Permissions
 
 Only maintainers approve, send back or refuse a contract. Agent roles, hosting engineers and the requester cannot.
-(Proposed) The maintainer who approved the ticket may also approve its contract, and no second maintainer is required.
+The maintainer who approved the ticket may also approve its contract, and no second maintainer is required.
 
 ## Notifications
 
-The maintainer who started the run: a contract waits for approval. The Architect: the comment of a revision. (Proposed)
+The maintainer who started the run: a contract waits for approval. The Architect: the comment of a revision.
 A reminder to the maintainers after 2 working days without a decision.
 
 ## Audit events
@@ -121,7 +121,7 @@ the contract and its flags for the maintainer, and it cannot approve.
 
 ## API, MCP and A2A exposure
 
-(Proposed) Approving is a maintainer's operation of the DevOps agents, refused to agent tokens and to the MCP tools. The
+Approving is a maintainer's operation of the DevOps agents, refused to agent tokens and to the MCP tools. The
 agents' GitHub App cannot approve
 ([D434](../../../../06-decisions/f25-devops-agents/d434-maintainer-approval-label.md)). No A2A skill.
 
@@ -164,11 +164,11 @@ sequenceDiagram
 
 ## Non-functional notes
 
-(Proposed) The screen answers within 2 seconds for 10,000 records; every change is audited.
+The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-(Proposed) The contract is the AI's plan, and the maintainer's approval is the person confirming it before it is carried
+The contract is the AI's plan, and the maintainer's approval is the person confirming it before it is carried
 out ([CR-FR-057](../../../../10-country-packs/france/ai-and-recording/cr-fr-057-human-oversight.md)).
 
 ## Related use cases

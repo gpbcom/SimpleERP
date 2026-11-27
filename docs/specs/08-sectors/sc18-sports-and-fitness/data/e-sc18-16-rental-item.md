@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-16 Rental item
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

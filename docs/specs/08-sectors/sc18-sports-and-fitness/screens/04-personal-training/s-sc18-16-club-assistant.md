@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC18-16 Club AI assistant
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

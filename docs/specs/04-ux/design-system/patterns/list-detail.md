@@ -3,7 +3,7 @@
 
 # 🧵 List detail
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -40,9 +40,9 @@ Desktop                                         Phone
 
 ## Behaviour
 
-- Opening a row opens the record's page; (Proposed) on wide screens, from 1,600 px ([Layout grid](../layout-grid.md)),
+- Opening a row opens the record's page; on wide screens, from 1,600 px ([Layout grid](../layout-grid.md)),
   the detail can open next to the list.
-- Back returns to the list with its view, filters, sort and scroll kept (Proposed).
+- Back returns to the list with its view, filters, sort and scroll kept.
 - On a phone, the list shows cards and the detail is its own screen, as on
   [S-F2-04 List view settings](../../../02-functional/f02-no-code-configuration/screens/01-configure-a-record-type/s-f02-04-list-view-settings.md).
 - Lists are paged on the server; the first page shows within 1 second

@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -16,7 +16,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F21-03 | [Team and data](fl-f21-03-team-and-data.md) | ✅ |
 | 🔀 | FL-F21-04 | [Learn and improve](fl-f21-04-learn-and-improve.md) | ✅ |
 | 🔀 | FL-F21-05 | [Migration from another tool](fl-f21-05-migration-from-another-tool.md) | ✅ |
-| 🔀 | FL-F21-06 | [Experts, cutover, parallel run and set-up from documents](fl-f21-06-experts-cutover-and-parallel-run.md) | 🔄 |
+| 🔀 | FL-F21-06 | [Experts, cutover, parallel run and set-up from documents](fl-f21-06-experts-cutover-and-parallel-run.md) | ✅ |
 
 ---
 

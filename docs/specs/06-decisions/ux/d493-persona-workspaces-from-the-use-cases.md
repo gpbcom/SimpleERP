@@ -3,7 +3,7 @@
 
 # 📜 D493 Persona workspaces from the use cases
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-10 / D493)
+**Status:** ✅ decided
 
 ## Context
 
@@ -21,8 +21,8 @@ A workspace embeds the views of the entities its persona works on in the use cas
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 10).
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 10).
 
 ## Consequences
 
@@ -39,7 +39,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer
 - [D484 Aggregated list view per record type and persona
   workspaces](d484-aggregated-list-view-per-record-type-and-persona-workspaces.md)
 - [D495 Views listed under each capability's menu](d495-views-listed-under-each-capabilitys-menu.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

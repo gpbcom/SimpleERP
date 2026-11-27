@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-08 Payments meet the legal payment term
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,8 +13,10 @@ shown from the receipt. A payment after the term shows the late-payment interest
 ## Why
 
 Late payment of suppliers by a public body is penalised automatically
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The France-pack rule is
+[CR-FR-091 Public contracts: payment period and Chorus Pro](../../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md):
+30 days for the State, public bodies and local authorities (50 days for health establishments), with late-payment
+interest at the ECB rate plus 8 points and a 40 EUR recovery indemnity.
 
 ## Examples
 

@@ -3,11 +3,11 @@
 
 # 📏 BR-F14-18 Abandoned plugins can be taken over
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-A plugin with no release and no answer from its publisher for (Proposed) 12 months, or whose end of life has passed, is
+A plugin with no release and no answer from its publisher for 12 months, or whose end of life has passed, is
 marked abandoned; another verified publisher may take it over after the security review, and each installing company
 consents before receiving its versions.
 
@@ -30,7 +30,7 @@ AGPL code may be continued by others (D377), but installers must trust who ships
 
 ## Exceptions
 
-The original publisher may object within (Proposed) 30 days and resume maintenance.
+The original publisher may object within 30 days and resume maintenance.
 
 ## Configurable
 

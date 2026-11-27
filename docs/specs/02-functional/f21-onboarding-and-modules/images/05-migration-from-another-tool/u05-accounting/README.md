@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F21-05 Migration from another tool
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F21-05 Migration from another tool](../../../flows/fl-f21-05-migration-from-another-tool.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

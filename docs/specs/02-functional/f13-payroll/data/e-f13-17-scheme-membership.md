@@ -3,7 +3,7 @@
 
 # 🗃️ E-F13-17 Scheme membership
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -18,7 +18,7 @@ An employee's membership of a health or provident scheme, or the exemption from 
 | kind | choice | yes | health, provident | - | health | no | no |
 | status | choice | yes | enrolled, exempted, ended | enrolled | exempted | no | no |
 | exemption reason | choice | if exempted | the country pack's list | - | covered by a spouse's scheme | yes | no |
-| proof | file | if exempted | PDF or image, 10 MB at most (Proposed) | - | attestation.pdf | yes | no |
+| proof | file | if exempted | PDF or image, 10 MB at most | - | attestation.pdf | yes | no |
 | from, to | dates | from yes | to after from | contract start | 2026-03-01 | no | no |
 | employee share, employer share | amounts | yes | sum is the scheme's price | from the scheme | 24.00, 36.00 EUR | no | no |
 

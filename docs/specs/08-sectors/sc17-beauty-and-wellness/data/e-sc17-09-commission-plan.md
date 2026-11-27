@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-09 Salon commission plan
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

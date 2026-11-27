@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F10-10 Clienteling, transfers and tax-free
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F10-10 Clienteling, transfers and tax-free](../../../flows/fl-f10-10-clienteling-transfers-and-tax-free.md) for this

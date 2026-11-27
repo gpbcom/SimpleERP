@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-23 See the impact of a change before publishing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -123,7 +123,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-The impact list answers within 3 seconds (Proposed).
+The impact list answers within 3 seconds.
 
 ## Regulatory references
 

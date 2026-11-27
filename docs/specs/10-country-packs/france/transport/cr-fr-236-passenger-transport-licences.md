@@ -3,20 +3,20 @@
 
 # ⚖️ CR-FR-236 Passenger transport registration and licences
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) A company carrying passengers for a fee is entered in the national register of road transport and holds the
+(⚖️ lawyer review before launch, D574) A company carrying passengers for a fee is entered in the national register of road transport and holds the
 licence for its activity: coaches, taxis or hired cars with a driver. Each driver holds the licence category for the
 vehicle (a bus category above eight passengers) and the professional card or training the activity requires.
 
 ## Values
 
-- (Proposed) Registration and licence by activity.
-- (Proposed) Driver's licence category and professional card.
-- (Proposed) Driving and rest times and the tachograph apply to coaches.
-- (Proposed) SimpleERP enforces: drivers hold the licence for the vehicle class.
+- (⚖️ lawyer review before launch, D574) Registration and licence by activity.
+- (⚖️ lawyer review before launch, D574) Driver's licence category and professional card.
+- (⚖️ lawyer review before launch, D574) Driving and rest times and the tachograph apply to coaches.
+- SimpleERP enforces: drivers hold the licence for the vehicle class.
 - Read on [Service-public F31027](https://entreprendre.service-public.gouv.fr/vosdroits/F31027) (verified 12 August
   2026), VTC only; coach, bus and taxi regimes, the transport licence and the capacity attestations are not on the page:
 - Read: a VTC operator registers online in the national register (REVTC) before operating; fee 170 EUR; renewal every 5
@@ -36,7 +36,7 @@ vehicle (a bus category above eight passengers) and the professional card or tra
 
 ## Effective dates
 
-(Proposed) To read.
+(⚖️ lawyer review before launch, D574) To read.
 
 ## Enforced by
 
@@ -50,7 +50,7 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read yet (coaches, buses, taxis; VTC above).
 
 ## Exceptions
 

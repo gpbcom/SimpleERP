@@ -41,10 +41,10 @@ My orders · Invoices · Account.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U10-01 | [Answer a tender and confirm an order](journeys/j-u10-01-answer-and-confirm-an-order.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U10-01 | [Answer a tender and confirm an order](journeys/j-u10-01-answer-and-confirm-an-order.md) | ✅ |
 
 ---
 

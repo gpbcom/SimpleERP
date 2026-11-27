@@ -4,7 +4,7 @@
 
 # 📝 UC-F25-29 Write the work contract of a ticket
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -25,7 +25,7 @@ Every worker knows what to build, which files are its own and how its work will 
 
 ## Trigger
 
-(Proposed) A maintainer starts the agent team on a ticket that is approved and in Ready
+A maintainer starts the agent team on a ticket that is approved and in Ready
 ([UC-F25-12](../04-approve-and-govern/uc-f25-12-approve-or-refuse-agents-tickets.md)).
 
 ## Frequency
@@ -77,9 +77,9 @@ A few tickets a week, as many as the maintainers start the team on.
 
 - 3a. The ticket is a spec change: the contract names the spec pages as files and the spec checks as required checks
   ([BR-F25-16](../../business-rules/br-f25-16-agents-spec-pull-requests-checked-first.md)).
-- 5a. (Proposed) The ticket touches only the back end: the contract names no Frontend Engineer, and a role without tasks
+- 5a. The ticket touches only the back end: the contract names no Frontend Engineer, and a role without tasks
   gets no worker.
-- 5b. (Proposed) A file must change for two roles, such as a shared route table: it is given to one role, and the other
+- 5b. A file must change for two roles, such as a shared route table: it is given to one role, and the other
   role's task depends on that change.
 - 6a. A gap the Architect cannot close, such as a criterion the study note does not support: it stays flagged and the
   maintainer decides at approval.
@@ -124,7 +124,7 @@ A few tickets a week, as many as the maintainers start the team on.
 Maintainers start the team and read every contract. The Architect role writes and revises the contract, and no other
 role may change it. Agents never change a ticket's approval label or status
 ([BR-F25-05](../../business-rules/br-f25-05-agents-never-merge-or-deploy.md),
-[BR-F25-07](../../business-rules/br-f25-07-approval-before-ready.md)). (Proposed) Hosting engineers read the contracts
+[BR-F25-07](../../business-rules/br-f25-07-approval-before-ready.md)). Hosting engineers read the contracts
 of the runs they watch.
 
 ## Notifications
@@ -149,7 +149,7 @@ the contract before any worker starts
 
 ## API, MCP and A2A exposure
 
-(Proposed) The contract is read through the operations of the DevOps agents with the maintainer's role, and kept with
+The contract is read through the operations of the DevOps agents with the maintainer's role, and kept with
 the run as a file and as a comment on the ticket. No A2A skill.
 
 ## Screens
@@ -192,12 +192,12 @@ sequenceDiagram
 
 ## Non-functional notes
 
-(Proposed) The screen answers within 2 seconds for 10,000 records; every change is audited.
+The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
 The agents follow the country pack ([BR-F25-01](../../business-rules/br-f25-01-agents-follow-the-country-pack.md)).
-(Proposed) The contract is the AI's plan, and a person confirms it before it is carried out
+The contract is the AI's plan, and a person confirms it before it is carried out
 ([CR-FR-057](../../../../10-country-packs/france/ai-and-recording/cr-fr-057-human-oversight.md)).
 
 ## Related use cases

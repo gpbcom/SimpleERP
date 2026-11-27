@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-37 Peppol
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

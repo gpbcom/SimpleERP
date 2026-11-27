@@ -3,7 +3,7 @@
 
 # 🗃️ E-F11-16 Fraud check
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -40,7 +40,7 @@ By level.
 
 ## Retention
 
-13 months (Proposed).
+13 months.
 
 ## Audit
 

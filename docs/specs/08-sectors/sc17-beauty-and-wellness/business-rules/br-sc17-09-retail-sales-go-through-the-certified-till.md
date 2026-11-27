@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-09 Retail sales go through the certified till
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

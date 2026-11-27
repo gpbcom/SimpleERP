@@ -3,7 +3,7 @@
 
 # 🖥️ S-F7-25 Consignment stock
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

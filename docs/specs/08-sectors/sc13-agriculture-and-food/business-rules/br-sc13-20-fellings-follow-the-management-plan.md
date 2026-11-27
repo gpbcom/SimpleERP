@@ -3,7 +3,7 @@
 
 # 📏 BR-SC13-20 Fellings follow the management plan
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -15,7 +15,8 @@ its parcel.
 
 Felling outside the plan harms the forest and exposes the owner to penalties, and untraced timber cannot be sold. The
 owner asked for forestry ([D557](../../../06-decisions/sectors/d557-benchmark-gaps-sc13-agriculture-and-food.md)).
-(Proposed) The France-pack rule is written later.
+(⚖️ lawyer review before launch, D574) The France-pack rule is still to write: to read the Code forestier on management plans
+(L312-1 and following) and the felling and timber traceability rules.
 
 ## Examples
 

@@ -8,7 +8,7 @@
 ## Context
 
 French till software needs a certificate from an accredited body or the publisher's individual attestation (CGI art. 286
-I 3° bis; the attestation route was removed in February 2025 and restored in February 2026). Answers Q2.
+I 3° bis until 2026-12-31, moved out of the CGI from 2027-01-01 by ordonnance n° 2025-1247; the attestation route was removed in February 2025 and restored in February 2026). Answers Q2.
 
 ## Options
 

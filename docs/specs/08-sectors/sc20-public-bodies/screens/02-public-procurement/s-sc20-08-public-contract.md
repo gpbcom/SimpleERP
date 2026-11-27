@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-08 Public contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

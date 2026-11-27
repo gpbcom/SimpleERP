@@ -2,7 +2,7 @@
 
 # 🛂 Privacy and GDPR
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Requirement
 
@@ -18,7 +18,7 @@ Specified on 2026-11-12 ([D446](../06-decisions/security-and-compliance/d446-pri
   subprocessors are listed below.
 - The publisher is the controller only of its own customer accounts, billing and support contacts.
 
-**The hosted edition's subprocessors**, (Proposed) until they are named at launch
+**The hosted edition's subprocessors**, named at launch
 ([D440](../06-decisions/vision/d440-local-by-default-outside-by-choice.md)):
 
 | Service | Provider | Region | Data |
@@ -58,9 +58,9 @@ default (D440), personal data masked before any outside model (D417), retention 
 
 ## Measures
 
-- (Proposed) A data processing agreement template for IT providers and for the hosted edition, reviewed by a lawyer
+- A data processing agreement template for IT providers and for the hosted edition, reviewed by a lawyer
   before launch.
-- (Proposed) The subprocessor list published on the hosted edition's site, a change announced 30 days before it applies.
+- The subprocessor list published on the hosted edition's site, a change announced 30 days before it applies.
 - Impact-assessment templates shipped with the features listed above.
 - The record of processing and the log of rights requests kept per company (F1).
 
@@ -72,8 +72,8 @@ The legal values this page relies on, from the France country pack (D293):
 
 ## Open questions
 
-- (Proposed) Whether the publisher appoints a data protection officer (GDPR article 37), decided before the hosted
-  edition opens.
+- (⚖️ lawyer review before launch, D574) Whether the publisher appoints a data protection officer (GDPR article 37), decided before
+  the hosted edition opens.
 
 ---
 

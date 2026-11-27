@@ -3,7 +3,7 @@
 
 # 🖥️ S-F25-37 Run resume
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

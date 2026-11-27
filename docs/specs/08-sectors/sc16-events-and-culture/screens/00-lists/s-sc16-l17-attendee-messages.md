@@ -33,10 +33,13 @@ find, filter, total and act on many attendee messages at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Attendee messages    Events and culture › Attendee messages   [+ New]                                        |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Draft] [new this month]   [chart: count by state]                                                   |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] ATTENDEE MESSAGE   STATE                                                             |
+| state             | [ ] ATTENDEE MES   EVENT   KIND   CHANNEL   SENT ON   BOUNCES   STATE                    |
+| event             | [ ] ...                                                  Open >                          |
+| kind              | [ ] ...                                                  Open >                          |
+| channel           | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,8 +49,13 @@ find, filter, total and act on many attendee messages at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Attendee message | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Attendee message | title | text | yes |
+| Event | event | link to the record | yes |
+| Kind | kind | label | yes |
+| Channel | channel | label | yes |
+| Sent on | sent on | date and time | yes |
+| Bounces | bounces | number, right-aligned | yes |
+| State | state | badge: Draft, Sent | yes |
 
 Secrets are never a column (VR-4).
 
@@ -55,17 +63,23 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Draft, Sent | the visible rows (D488) |
+| Event | each linked event | the visible rows (D488) |
+| Kind | practical information, news | the visible rows (D488) |
+| Channel | email, SMS | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: attendee messages link to no other record type in their fields.
+- Attendee messages of a chosen show, or of the shows that match a filter.
+- From the other side: the shows that have attendee messages, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Draft.
+- New this month, by sent on.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -77,6 +91,8 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Open: Draft.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -90,6 +106,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New attendee message | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -105,7 +122,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| recipients | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

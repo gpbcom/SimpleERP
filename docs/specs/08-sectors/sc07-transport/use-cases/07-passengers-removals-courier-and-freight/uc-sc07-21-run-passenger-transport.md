@@ -4,7 +4,7 @@
 
 # 📝 UC-SC07-21 Run passenger transport
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -172,7 +172,8 @@ rest times and the tachograph apply to coaches. The France-pack rule is listed b
 [CR-FR-117](../../../../10-country-packs/france/transport/cr-fr-117-driving-and-rest-times.md),
 [CR-FR-119](../../../../10-country-packs/france/transport/cr-fr-119-driver-training.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule, (⚖️ lawyer review before launch, D574) until the coach, bus and taxi regimes of the Code des transports and the
+  driving-licence categories of the Code de la route are read:
   [CR-FR-236 Passenger transport registration and licences](../../../../10-country-packs/france/transport/cr-fr-236-passenger-transport-licences.md)
 
 ## Related use cases

@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-16 Bill usage, commitments and milestones
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -114,7 +114,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A run of 2,500 customers within 10 minutes (Proposed).
+A run of 2,500 customers within 10 minutes.
 
 ## Regulatory references
 

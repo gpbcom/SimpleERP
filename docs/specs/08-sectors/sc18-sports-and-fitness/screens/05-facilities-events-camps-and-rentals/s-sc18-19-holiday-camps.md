@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-19 Holiday camps
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

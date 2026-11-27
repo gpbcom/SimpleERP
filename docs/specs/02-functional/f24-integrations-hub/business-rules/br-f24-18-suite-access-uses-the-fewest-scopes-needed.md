@@ -3,7 +3,7 @@
 
 # 📏 BR-F24-18 Suite access uses the fewest scopes needed
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

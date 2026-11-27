@@ -4,7 +4,7 @@
 
 # 📝 UC-F7-19 Follow supplier performance
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -56,7 +56,7 @@ Monthly.
 
 ## Error flows
 
-- 2e. Fewer than 5 receipts in the period (Proposed): no score, the counts only.
+- 2e. Fewer than 5 receipts in the period: no score, the counts only.
 
 ## Business rules
 

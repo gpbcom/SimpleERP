@@ -4,7 +4,7 @@
 
 # 🖥️ S-F9-35 Employee qualifications
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-24 to VD-27 / D506 to D509)
+**Status:** ✅ specified
 
 ## Personas
 

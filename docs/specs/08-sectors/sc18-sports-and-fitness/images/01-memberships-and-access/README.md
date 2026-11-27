@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-SC18-01 Memberships and access
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

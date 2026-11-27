@@ -3,7 +3,7 @@
 
 # 📏 BR-SC16-19 Images are sold only with the model's release
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,8 +14,8 @@ use, the duration and the territory. A gallery is published only when every pict
 
 Publishing or selling the image of a person without their agreement breaches their right to their image and exposes the
 photographer to claims. The owner asked for photographers
-([D560](../../../06-decisions/sectors/d560-benchmark-gaps-sc16-events-and-culture.md)). (Proposed) The France-pack rule
-is written later.
+([D560](../../../06-decisions/sectors/d560-benchmark-gaps-sc16-events-and-culture.md)). (⚖️ lawyer review before launch, D574) The France-pack
+rule is still to write: to read the Code civil art. 9 (right to one's image) and the rules on minors' consent.
 
 ## Examples
 

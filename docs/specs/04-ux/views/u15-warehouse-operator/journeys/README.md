@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U15-01 | [Receive and ship](j-u15-01-receive-and-ship.md) | 🔄 |
+| 🧭 | J-U15-01 | [Receive and ship](j-u15-01-receive-and-ship.md) | ✅ |
 
 ---
 

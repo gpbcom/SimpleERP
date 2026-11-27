@@ -43,10 +43,10 @@ Home · Customers · Quotes and orders · Meetings · Social media · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U03-01 | [From lead to order](journeys/j-u03-01-from-lead-to-order.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U03-01 | [From lead to order](journeys/j-u03-01-from-lead-to-order.md) | ✅ |
 
 ---
 

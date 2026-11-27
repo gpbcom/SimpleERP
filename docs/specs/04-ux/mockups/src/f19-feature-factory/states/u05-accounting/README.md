@@ -18,6 +18,8 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f19-22-refunds-e-f19-12-feature-refund-proposed-desktop.html`
 - `s-f19-22-refunds-e-f19-12-feature-refund-refused-desktop.html`
 - `s-f19-22-refunds-e-f19-16-feature-defect-active-desktop.html`
+- `s-f19-22-refunds-e-f19-16-feature-defect-fixed-desktop.html`
+- `s-f19-22-refunds-e-f19-16-feature-defect-credited-desktop.html`
 - `s-f19-25-factory-accounting-e-f19-09-hosted-invoice-active-desktop.html`
 - `s-f19-25-factory-accounting-e-f19-15-factory-posting-posted-desktop.html`
 - `s-f19-25-factory-accounting-e-f19-15-factory-posting-prepared-desktop.html`

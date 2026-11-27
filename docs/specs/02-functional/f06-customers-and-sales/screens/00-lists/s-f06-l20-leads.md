@@ -39,10 +39,13 @@ act on many leads at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Leads    Customers and sales › Leads   [+ New]                                                               |
-| [count]   [chart: count by state]                                                                            |
+| [count] [total budget] [Active]   [chart: count by state, budget stacked]                                    |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] LEAD   STATE                                                                         |
+| state             | [ ] LEAD   COMPANY   SOURCE   SCORE   BUDGET   ASSIGNED TO   STATE                       |
+| company           | [ ] ...                                                  Open >                          |
+| source            | [ ] ...                                                  Open >                          |
+| assigned to       | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -53,7 +56,12 @@ act on many leads at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | Lead | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Company | company | link to the record | yes |
+| Source | source | label | yes |
+| Score | score | number, right-aligned | yes |
+| Budget | budget | amount, right-aligned | yes |
+| Assigned to | assigned to | person's name | yes |
+| State | state | badge: Active, Qualified, Disqualified, Converted | yes |
 
 Secrets are never a column (VR-4).
 
@@ -61,28 +69,39 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, Qualified, Disqualified, Converted | the visible rows (D488) |
+| Company | each linked company | the visible rows (D488) |
+| Source | web form, email, call, social post, import, by hand | the visible rows (D488) |
+| Assigned to | each person, the user first | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: leads link to no other record type in their fields.
+- Leads of a chosen customer, or of the customers that match a filter.
+- From the other side: the customers that have leads, or none.
+- Leads of a chosen opportunity, or of the opportunities that match a filter.
+- From the other side: the opportunities that have leads, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Total of budget.
+- Needs attention: count in the state Active.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
 ## Default chart
 
-Count by state (VR-8); the Chart button turns the filtered list into a chart the user can pin to their home screen
-(C-09).
+Count by state, budget stacked (VR-8); the Chart button turns the filtered list into a chart the user can pin to their
+home screen (C-09).
 
 ## Saved views
 
 - All.
+- Mine: assigned to.
+- Open: Active, Qualified.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -96,6 +115,8 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New lead | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
+| Assign | bulk bar | the personas whose roles may assign | sets the assigned to; audited |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -111,7 +132,10 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| contact | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| assigned to | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

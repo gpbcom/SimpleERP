@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-01 Salon set-up
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

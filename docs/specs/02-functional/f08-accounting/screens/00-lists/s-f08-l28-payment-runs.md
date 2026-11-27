@@ -36,10 +36,12 @@ filter, total and act on many payment runs at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Payment runs    Accounting › Payment runs   [+ New]                                                          |
-| [count]   [chart: count by state]                                                                            |
+| [count] [total total] [Waiting for a check] [new this month]   [chart: count by state, total stacked]        |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] PAYMENT RUN   STATE                                                                  |
+| state             | [ ] PAYMENT RUN   RUN DATE   TOTAL   PAYMENT MEAN   APPROVED BY   STATE                  |
+| payment means     | [ ] ...                                                  Open >                          |
+| approved by       | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -50,7 +52,11 @@ filter, total and act on many payment runs at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | Payment run | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Run date | run date | date | yes |
+| Total | total | amount, right-aligned | yes |
+| Payment means | payment means | label | yes |
+| Approved by | approved by | person's name | yes |
+| State | state | badge: Active, Waiting for a check, Approved, Sent, Paid, Refused | yes |
 
 Secrets are never a column (VR-4).
 
@@ -58,28 +64,36 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, Waiting for a check, Approved, Sent, Paid, Refused | the visible rows (D488) |
+| Payment means | SEPA credit transfer, cheque, bank API | the visible rows (D488) |
+| Approved by | each person, the user first | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: payment runs link to no other record type in their fields.
+- Payment runs of a chosen supplier invoice, or of the supplier invoices that match a filter.
+- From the other side: the supplier invoices that have payment runs, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Total of total.
+- Needs attention: count in the state Waiting for a check.
+- New this month, by run date.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
 ## Default chart
 
-Count by state (VR-8); the Chart button turns the filtered list into a chart the user can pin to their home screen
-(C-09).
+Count by state, total stacked (VR-8); the Chart button turns the filtered list into a chart the user can pin to their
+home screen (C-09).
 
 ## Saved views
 
 - All.
+- Open: Active, Waiting for a check, Approved, Sent.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -93,6 +107,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New payment run | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -108,7 +123,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| approved by | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

@@ -7,12 +7,15 @@
 
 ## Statement
 
-(Proposed) Recoverable charges are settled once a year against the provisions, with the documents kept; in France:
+Recoverable charges are settled once a year against the provisions, with the documents kept; in France:
 [CR-FR-145 Recoverable service charges](../../../10-country-packs/france/real-estate/cr-fr-145-recoverable-charges.md).
 
 ## Why
 
-(Proposed) The list and deadline are still to read.
+Only the charges the decree lists are recovered (services linked to the use of the home, routine upkeep and small
+repairs of common parts, taxes for services the tenant uses); one month before the yearly settlement the landlord sends
+the breakdown, and the documents stay available for six months; a settlement not made before the end of the following
+calendar year may be paid by twelfths ([CR-FR-145](../../../10-country-packs/france/real-estate/cr-fr-145-recoverable-charges.md)).
 
 ## Examples
 

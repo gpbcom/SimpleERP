@@ -3,7 +3,7 @@
 
 # 📏 BR-F1-32 Records on a map only for roles with the map right
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-20 / D501, D502)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -61,7 +61,7 @@ Yes, within limits:
 - the ready-made planner and manager roles hold it (D517: U29 Dispatcher, U25 Care coordinator, U22 Site manager,
   U24 Engagement manager, U21 Production planner, U23 Store manager, U38 Training coordinator, U34 Property manager,
   U43 Event producer, U28 Hotel receptionist; the managers U02 and U13);
-- (Proposed) giving the map right to a role that is neither a planner nor a manager role shows a warning first.
+- giving the map right to a role that is neither a planner nor a manager role shows a warning first.
 
 The two customer-facing exceptions cannot be changed.
 

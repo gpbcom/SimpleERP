@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC18-03 Door access
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

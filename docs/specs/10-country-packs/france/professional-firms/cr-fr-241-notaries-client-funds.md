@@ -3,21 +3,30 @@
 
 # ⚖️ CR-FR-241 Notaries' client funds
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) A notary receives the funds of the parties and the taxes due to the state for a deed, holds them at the state
-deposit bank apart from the office's own money, and pays them out only as the deed requires, once it is signed. The
-office keeps an account per deed and the regulator may inspect it. Lawyers' funds
+(⚖️ lawyer review before launch, D574) A notary receives the funds of the parties and the taxes due to the state for a deed, holds
+them at the state deposit bank apart from the office's own money, and pays them out only as the deed requires, once it
+is signed. The office keeps an account per deed and the regulator may inspect it. Lawyers' funds
 ([CR-FR-151](cr-fr-151-carpa-client-funds.md)) follow a different regime.
 
 ## Values
 
-- (Proposed) Funds held at the state deposit bank.
-- (Proposed) An account per deed.
-- (Proposed) Payment only once the deed is signed.
-- (Proposed) SimpleERP enforces: client funds are held at the state deposit bank.
+- Funds held at the state deposit bank: sums held for third parties are deposited on current accounts at the Caisse
+  des dépôts, which hold only third-party funds and are debited only to settle the affairs they come from
+  ([décret n° 45-0117, art. 15](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000682446), in force since 2026-11-27, read 2026-11-27).
+- (⚖️ lawyer review before launch, D574) An account per deed. Read: movements on the deposit accounts are identified affair by affair
+  (art. 15), and an account in each client's name records securities in and out (art. 21) ([décret n°
+  45-0117](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000682446), read 2026-11-27); a cash account per deed is
+  not stated.
+- (⚖️ lawyer review before launch, D574) Payment only once the deed is signed: in no text read; article 15 only limits debits to
+  settling the affairs the deposits come from. Read: the accounts are kept day by day, with a daily check that client
+  funds are covered at all times (art. 20.1), and notaries' offices are inspected by notaries appointed by the
+  profession's bodies (art. 28) ([notaries' professional rules, arrêté du 29 janvier
+  2024](https://www.legifrance.gouv.fr/jorf/id/JORFSCTA000049060709), read 2026-11-27).
+- SimpleERP enforces: client funds are held at the state deposit bank.
 - Read on Legifrance, [decree 45-0117 of 19 December 1945](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000682446)
   (consolidated text; article 15 in force since 30 May 2014, articles 16 and 16 A since 30 November 2004; read 15
   November 2026); the cash-limit amount (set by an order), payment only once the deed is signed, inspection by the
@@ -42,11 +51,16 @@ office keeps an account per deed and the regulator may inspect it. Lawyers' fund
 
 ## Legal references
 
-- Law to read: notaries' client funds (not read yet).
+- Décret n° 45-0117 du 19 décembre 1945, art. 15 to 21, as rewritten by décret n° 2026-1083 du 25 novembre 2026.
 
 ## Effective dates
 
-(Proposed) To read.
+Until 2026-11-26: the accounting of articles 15 to 16 A as read on 2026-11-15 above (cash journal, deed-cost
+register, cash ledger, securities journal, quarterly balance, numbered receipt book). From 2026-11-27: articles 15 to
+21 in their new version, with day-by-day bookkeeping and daily closing (art. 17) and an account per client for
+securities (art. 21) ([décret n° 45-0117](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000682446), read 2026-11-27); article 16 A (receipt book) repealed on 2026-11-27 by
+décret n° 2026-1083 du 25 novembre 2026, art. 16 ([décret n° 45-0117](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000682446); [art. 16 A](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006922095), read 2026-11-27); the new annual
+accounts apply at the latest to years opened from 2028-01-01.
 
 ## Enforced by
 
@@ -60,7 +74,7 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read.
 
 ## Exceptions
 
@@ -68,7 +82,7 @@ None stated.
 
 ## Open questions
 
-The law on notaries' client funds is not read yet; the values are to read before launch.
+Payment after signing, the per-deed account and the penalty are not read: lawyer review.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

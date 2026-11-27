@@ -2,7 +2,7 @@
 
 # 🧑‍🌾 Farmer: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -11,7 +11,7 @@ at home. Default density: comfortable, large touch targets ([D42](../../../06-de
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Treatments to record; Animals to notify.
 - Widgets: Weather and the week's work.
@@ -36,16 +36,16 @@ at home. Default density: comfortable, large touch targets ([D42](../../../06-de
 
 ## Navigation
 
-(Proposed) Today · Plots · Herd · Sales · Assistant.
+Today · Plots · Herd · Sales · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U40-01 | [From plot to aid declaration](journeys/j-u40-01-from-plot-to-aid.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U40-01 | [From plot to aid declaration](journeys/j-u40-01-from-plot-to-aid.md) | ✅ |
 
 ---
 

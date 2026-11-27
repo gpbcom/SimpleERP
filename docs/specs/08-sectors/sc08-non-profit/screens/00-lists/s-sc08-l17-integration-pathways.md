@@ -40,7 +40,7 @@ see: to find, filter, total and act on many integration pathways at once
 | [count] [Draft] [new this month]   [chart: count by state]                                                   |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                              n of N results                      |
-| exit              | [ ] PERSON   APPROVAL TO   HOURS   AID   EXIT   STATE                                    |
+| exit              | [ ] PERSON   ELIGIBLE TO   HOURS   AID   EXIT   STATE                                    |
 | state             | [ ] ...                                              Open >                              |
 | Related records   | [ ] ...                                              Open >                              |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
@@ -52,7 +52,7 @@ see: to find, filter, total and act on many integration pathways at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | Person | person | text | yes |
-| Approval to | approval to | date | yes |
+| Eligible to | eligible to | date | yes |
 | Hours | hours | number | yes |
 | Aid | aid | text | yes |
 | Exit | exit | text | yes |
@@ -79,7 +79,7 @@ Eligible for: None: these records are neither people who can be scheduled nor wo
 
 - Count of the visible rows.
 - Needs attention: count in the state Draft.
-- New this month, by approval to.
+- New this month, by eligible to.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -181,8 +181,7 @@ Not drawn yet: step S8 draws them from this page, one row per persona and device
 
 ## Open questions
 
-This list waits for the owner's confirmation: its entity was created in the benchmark-gap interview of
-2026-11-14.
+None.
 
 ---
 

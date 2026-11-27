@@ -4,7 +4,7 @@
 
 # 🗃️ E-F18-18 Search settings
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -15,7 +15,7 @@ A site's sitemap, titles, descriptions and structured data settings.
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
 | site | link | yes | a site | - | restaurant site | no | no |
-| titles, descriptions | text per page | yes | 60 and 160 characters (Proposed) | generated | Winter menu, Bistro Lyon | no | no |
+| titles, descriptions | text per page | yes | 60 and 160 characters | generated | Winter menu, Bistro Lyon | no | no |
 | structured data | list | yes | organisation, products, hours, job postings | all | organisation, hours | no | no |
 | not indexed | list | no | pages | - | /thank-you | no | no |
 

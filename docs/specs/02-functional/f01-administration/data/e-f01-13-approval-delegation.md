@@ -3,7 +3,7 @@
 
 # 🗃️ E-F1-13 Approval delegation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -40,7 +40,7 @@ By delegator, deputy and dates; shown on My team.
 
 ## Retention
 
-Kept 2 years after it ends (Proposed).
+Kept 2 years after it ends.
 
 ## Audit
 

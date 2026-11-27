@@ -49,7 +49,7 @@ F2 set up for the company.
 
 ## Alternative flows
 
-- 5a. Reminders until the requested document arrives (Proposed: every 3 days).
+- 5a. Reminders until the requested document arrives (every 3 days).
 
 ## Error flows
 

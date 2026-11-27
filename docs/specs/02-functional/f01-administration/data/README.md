@@ -23,16 +23,16 @@ One file per entity.
 | 🗃️ | E-F1-10 | [Single sign-on setting](e-f01-10-single-sign-on-setting.md) | ✅ |
 | 🗃️ | E-F1-11 | [Company template](e-f01-11-company-template.md) | ✅ |
 | 🗃️ | E-F1-12 | [Provider session](e-f01-12-provider-session.md) | ✅ |
-| 🗃️ | E-F1-13 | [Approval delegation](e-f01-13-approval-delegation.md) | 🔄 |
+| 🗃️ | E-F1-13 | [Approval delegation](e-f01-13-approval-delegation.md) | ✅ |
 | 🗃️ | E-F1-14 | [Provisioning setting](e-f01-14-provisioning-setting.md) | ✅ |
-| 🗃️ | E-F1-15 | [Bulk invitation batch](e-f01-15-bulk-invitation-batch.md) | 🔄 |
-| 🗃️ | E-F1-16 | [Access review campaign](e-f01-16-access-review-campaign.md) | 🔄 |
-| 🗃️ | E-F1-17 | [Portal account](e-f01-17-portal-account.md) | 🔄 |
-| 🗃️ | E-F1-18 | [API token](e-f01-18-api-token.md) | 🔄 |
-| 🗃️ | E-F1-19 | [Security policy](e-f01-19-security-policy.md) | 🔄 |
+| 🗃️ | E-F1-15 | [Bulk invitation batch](e-f01-15-bulk-invitation-batch.md) | ✅ |
+| 🗃️ | E-F1-16 | [Access review campaign](e-f01-16-access-review-campaign.md) | ✅ |
+| 🗃️ | E-F1-17 | [Portal account](e-f01-17-portal-account.md) | ✅ |
+| 🗃️ | E-F1-18 | [API token](e-f01-18-api-token.md) | ✅ |
+| 🗃️ | E-F1-19 | [Security policy](e-f01-19-security-policy.md) | ✅ |
 | 🗃️ | E-F1-20 | [SIEM destination](e-f01-20-siem-destination.md) | ✅ |
-| 🗃️ | E-F1-21 | [Company closing](e-f01-21-company-closing.md) | 🔄 |
-| 🗃️ | E-F1-22 | [Record of processing activities](e-f01-22-record-of-processing-activities.md) | 🔄 |
+| 🗃️ | E-F1-21 | [Company closing](e-f01-21-company-closing.md) | ✅ |
+| 🗃️ | E-F1-22 | [Record of processing activities](e-f01-22-record-of-processing-activities.md) | ✅ |
 | 🗃️ | E-F1-23 | [User session](e-f01-23-user-session.md) | ✅ |
 | 🗃️ | E-F1-24 | [Retention policy](e-f01-24-retention-policy.md) | ✅ |
 | 🗃️ | E-F1-25 | [Sharing rule](e-f01-25-sharing-rule.md) | ✅ |

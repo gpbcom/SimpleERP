@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-14 Pay gaps are computed per category of equal work
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -19,7 +19,7 @@ The index and pay transparency compare equal work only (CR-FR-187).
 | Case | Result |
 |---|---|
 | Technicians: 6 % gap | Shown |
-| 2 women, 9 men | Left out (Proposed: under 3) |
+| 2 women, 9 men | Left out under 3 (⚖️ lawyer review before launch, D574: the index method of Code du travail D1142-2 and its annex) |
 
 ## Applies to
 

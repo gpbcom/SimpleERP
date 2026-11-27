@@ -192,11 +192,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-assessed-desktop, light](s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-assessed-desktop-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-assessed-desktop, dark](s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-assessed-desktop-dark.png) |
 
-## s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-desktop
+## s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-desktop, light](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-desktop-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-desktop, dark](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-desktop-dark.png) |
+| ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-desktop, light](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-desktop-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-desktop, dark](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-desktop-dark.png) |
+
+## s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-desktop, light](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-desktop-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-desktop, dark](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-desktop-dark.png) |
+
+## s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-desktop, light](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-desktop-light.png) | ![s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-desktop, dark](s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-desktop-dark.png) |
 
 ---
 

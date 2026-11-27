@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U24-01 | [Deliver an engagement](j-u24-01-deliver-an-engagement.md) | 🔄 |
+| 🧭 | J-U24-01 | [Deliver an engagement](j-u24-01-deliver-an-engagement.md) | ✅ |
 
 ---
 

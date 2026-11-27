@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC14-23 Licence reselling
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

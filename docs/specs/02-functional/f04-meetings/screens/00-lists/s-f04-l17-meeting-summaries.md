@@ -37,10 +37,14 @@ find, filter, total and act on many meeting summaries at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Meeting summaries    Meetings › Meeting summaries   [+ New]                                                  |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Draft]   [chart: count by state]                                                                    |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] MEETING SUMMARY   STATE                                                              |
+| state             | [ ] MEETING SUMM   MEETING   SUMMARY TEMP   LANGUAGE   SHARED WITH    STATE              |
+| meeting           | [ ] ...                                                  Open >                          |
+| summary template  | [ ] ...                                                  Open >                          |
+| language          | [ ] ...                                                  Open >                          |
+| shared with the   | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -50,8 +54,12 @@ find, filter, total and act on many meeting summaries at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Meeting summary | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Meeting summary | title | text | yes |
+| Meeting | meeting | link to the record | yes |
+| Summary template | summary template | link to the record | yes |
+| Language | language | label | yes |
+| Shared with the manager | shared with the manager | yes or no | yes |
+| State | state | badge: Draft, Published, Not checked | yes |
 
 Secrets are never a column (VR-4).
 
@@ -59,17 +67,23 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Draft, Published, Not checked | the visible rows (D488) |
+| Meeting | each linked meeting | the visible rows (D488) |
+| Summary template | each linked summary template | the visible rows (D488) |
+| Language | each value | the visible rows (D488) |
+| Shared with the manager | yes, no | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: meeting summaries link to no other record type in their fields.
+- Meeting summaries of a chosen meeting, or of the meetings that match a filter.
+- From the other side: the meetings that have meeting summaries, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Draft.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -81,6 +95,8 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Open: Draft.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -94,6 +110,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New meeting summary | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -109,7 +126,12 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| sections | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| note fields | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| typed notes | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| correction requests | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

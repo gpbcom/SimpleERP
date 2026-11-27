@@ -22,7 +22,7 @@ groups must use for their consolidated accounts.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2016-01-01: L123-12 in force since 2000-09-21, L233-24 since 2016-01-01 ([Code de commerce, art. L123-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006219304), [art. L233-24](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030927225), read 2026-11-27).
 
 ## Enforced by
 

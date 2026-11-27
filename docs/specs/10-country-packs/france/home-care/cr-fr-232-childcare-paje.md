@@ -3,18 +3,24 @@
 
 # ⚖️ CR-FR-232 Childcare at home and the PAJE aid
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) The family allowance fund pays an aid for childcare at home that depends on the child's age, the family's
-resources and the hours; the table of the aid is kept as data of the pack, never in a page.
+The family allowance fund pays an aid for childcare at home (CMG) made of the social contributions and a share of the
+net pay computed on a scale of the household's resources, the number of children, the care mode, the paid hours and the
+net pay; the child's age decides only who is eligible ([Code de la sécurité sociale, art.
+L531-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051288212), read 2026-11-27); the table of the aid is
+kept as data of the pack, never in a page.
 
 ## Values
 
-- (Proposed) Aid by age of the child, resources and hours.
-- (Proposed) Tables by date, kept as data.
-- (Proposed) SimpleERP enforces: the family allowance aid follows the fund's rules.
+- The contributions part covers all the social contributions for an approved childminder (a fraction set by decree for
+  home childcare), within a ceiling; the net pay part follows a scale of resources (floor and ceiling), number of
+  children, care mode, paid hours and net pay; the child's age sets eligibility only ([Code de la sécurité sociale, art.
+  L531-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051288212), read 2026-11-27).
+- Tables by date, kept as data.
+- SimpleERP enforces: the family allowance aid follows the fund's rules.
 - Read on [Service-public F39152](https://www.service-public.gouv.fr/particuliers/vosdroits/F39152) (verified 26 June
   2026); the exact hourly and monthly ceilings and the scale are not on the page:
 - Read: the CMG helps pay for an approved childminder or home childcare; the child is under 6, a single parent can
@@ -27,11 +33,11 @@ resources and the hours; the table of the aid is kept as data of the pack, never
 
 ## Legal references
 
-- Law to read: childcare at home and the family allowance aid (not read yet).
+- Code de la sécurité sociale L531-5 to L531-9, D531-1 to D531-24.
 
 ## Effective dates
 
-(Proposed) To read.
+L531-5 in its current version since 2025-12-31 (loi n° 2025-1403 du 30 décembre 2025, art. 100) ([Code de la sécurité sociale, art. L531-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051288212), read 2026-11-27).
 
 ## Enforced by
 
@@ -53,7 +59,7 @@ None stated.
 
 ## Open questions
 
-The law on childcare at home and the family allowance aid is not read yet; the values are to read before launch.
+None, read on 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

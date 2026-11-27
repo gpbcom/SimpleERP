@@ -3,7 +3,7 @@
 
 # 🚀 Customer success manager: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a laptop. D
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Renewals in 90 days; Accounts at risk; Onboardings.
 - Widgets: Net revenue retention.
@@ -38,16 +38,16 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a laptop. D
 
 ## Navigation
 
-(Proposed) Home · Accounts · Renewals · Health · Assistant.
+Home · Accounts · Renewals · Health · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U41-01 | [Keep a customer](journeys/j-u41-01-keep-a-customer.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U41-01 | [Keep a customer](journeys/j-u41-01-keep-a-customer.md) | ✅ |
 
 ---
 

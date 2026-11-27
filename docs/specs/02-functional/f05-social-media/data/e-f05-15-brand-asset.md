@@ -3,7 +3,7 @@
 
 # 🗃️ E-F5-15 Brand asset
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -38,7 +38,7 @@ By kind, tag and rights.
 
 ## Retention
 
-While usable; expired kept 1 year (Proposed).
+While usable; expired kept 1 year.
 
 ## Audit
 

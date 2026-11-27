@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC13-03 Field operation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -14,11 +14,11 @@ A treatment or fertilisation.
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
 | plot, date, product, dose | records | yes | BR-SC13-02 | - | Les Prés, 3 Apr, product X, 1 l/ha | no | no |
-| operator | person | yes | - | - | U40 | yes | no |
+| operator | person | no | not required by the register (CR-FR-161) | - | U40 | yes | no |
 
 ## Relations
 
-(Proposed) As its use cases.
+As its use cases.
 
 ## Lifecycle
 
@@ -29,7 +29,7 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) By number, date, partner.
+By number, date, partner.
 
 ## Retention
 
@@ -42,7 +42,7 @@ Every change.
 
 ## Import and export
 
-(Proposed) CSV, FEC where relevant.
+CSV, FEC where relevant.
 
 ## Used by
 

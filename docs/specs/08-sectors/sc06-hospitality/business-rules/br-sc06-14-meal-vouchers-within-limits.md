@@ -7,12 +7,14 @@
 
 ## Statement
 
-(Proposed) Meal vouchers are accepted within the daily limit and for eligible food; in France:
+Meal vouchers are accepted within the daily limit and for eligible food; in France:
 [CR-FR-112 Meal vouchers (titres-restaurant)](../../../10-country-packs/france/payments/cr-fr-112-meal-vouchers.md).
 
 ## Why
 
-(Proposed) The limits are still to read.
+A voucher is used up to 25 EUR a day, one per meal, and for any food product until 31 December 2026; the employer
+pays 50 % to 60 % of it, exempt within 7.32 EUR per voucher for 2026
+([CR-FR-112 Meal vouchers (titres-restaurant)](../../../10-country-packs/france/payments/cr-fr-112-meal-vouchers.md)).
 
 ## Examples
 

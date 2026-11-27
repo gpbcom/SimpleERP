@@ -4,7 +4,7 @@
 
 # 📏 BR-F22-20 Carbon figures carry their method and source
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -68,7 +68,9 @@ Entity states shown (VD-15):
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
 | E-F24-01 Connector | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U13 | `u13-owner/s-f24-19-requests-e-f24-01-connector-active-{desktop,phone}-{light,dark}.png` |
-| E-F24-16 Connector request | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U13 | `u13-owner/s-f24-19-requests-e-f24-16-connector-request-active-{desktop,phone}-{light,dark}.png` |
+| E-F24-16 Connector request | Active | Badge "Active"; a new record starts here; next: Ready or Refused (UC-F24-19); fields editable within the role | U13 | `u13-owner/s-f24-19-requests-e-f24-16-connector-request-active-{desktop,phone}-{light,dark}.png` |
+| E-F24-16 Connector request | Ready | Badge "Ready"; final: read-only, no next state; the history shows how it got here | U13 | `u13-owner/s-f24-19-requests-e-f24-16-connector-request-ready-{desktop,phone}-{light,dark}.png` |
+| E-F24-16 Connector request | Refused | Badge "Refused"; final: read-only, no next state; the history shows how it got here | U13 | `u13-owner/s-f24-19-requests-e-f24-16-connector-request-refused-{desktop,phone}-{light,dark}.png` |
 | E-F24-12 Integration icon | Proposed | Badge "Proposed"; a new record starts here; next: Approved (UC-F24-21); fields editable within the role | U13 | `u13-owner/s-f24-19-requests-e-f24-12-integration-icon-proposed-{desktop,phone}-{light,dark}.png` |
 | E-F24-12 Integration icon | Approved | Badge "Approved"; next: Replaced or Withdrawn (UC-F24-01, UC-F24-27); fields editable within the role | U13 | `u13-owner/s-f24-19-requests-e-f24-12-integration-icon-approved-{desktop,phone}-{light,dark}.png` |
 | E-F24-12 Integration icon | Replaced | Badge "Replaced"; final: read-only, no next state; the history shows how it got here | U13 | `u13-owner/s-f24-19-requests-e-f24-12-integration-icon-replaced-{desktop,phone}-{light,dark}.png` |

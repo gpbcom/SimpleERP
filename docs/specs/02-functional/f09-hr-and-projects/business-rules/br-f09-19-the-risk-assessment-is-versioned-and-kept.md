@@ -3,16 +3,17 @@
 
 # 📏 BR-F9-19 The risk assessment is versioned and kept
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-Each update of the risk assessment is a dated version kept 40 years (Proposed) to read; employers of 11 or more update
-it yearly and after an accident.
+The risk assessment is one single document (DUERP) per company that lists the risks of every work unit (Code du
+travail R4121-1); each update of it is a dated version kept 40 years from its making (R4121-4); employers of 11 or more
+update it at least yearly, and every employer updates it after an accident or a change of working conditions.
 
 ## Why
 
-CR-FR-076.
+The France-pack rule: [CR-FR-076 Occupational risk assessment](../../../10-country-packs/france/labour/cr-fr-076-occupational-risk-assessment.md).
 
 ## Examples
 
@@ -20,6 +21,7 @@ CR-FR-076.
 |---|---|
 | Accident linked | Update asked |
 | New version | Previous kept |
+| A second work unit added | A new section in the same document, not a second document |
 
 ## Applies to
 

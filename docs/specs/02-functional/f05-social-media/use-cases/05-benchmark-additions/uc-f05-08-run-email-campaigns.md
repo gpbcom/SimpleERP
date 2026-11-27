@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-08 Run email campaigns
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -120,7 +120,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-10,000 emails sent within an hour (Proposed).
+10,000 emails sent within an hour.
 
 ## Regulatory references
 

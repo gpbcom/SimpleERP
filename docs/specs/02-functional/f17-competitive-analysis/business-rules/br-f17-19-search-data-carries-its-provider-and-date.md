@@ -4,7 +4,7 @@
 
 # 📏 BR-F17-19 Search data carries its provider and date
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

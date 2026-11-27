@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC10-24 Coworking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

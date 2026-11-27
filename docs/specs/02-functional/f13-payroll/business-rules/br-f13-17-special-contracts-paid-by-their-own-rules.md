@@ -3,7 +3,7 @@
 
 # 📏 BR-F13-17 Special contracts paid by their own rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -12,9 +12,10 @@ kind in the country pack: their pay grid, their contribution set and the body th
 
 ## Why
 
-Their pay, contributions and declarations differ from an ordinary contract (D470); in France the values are (Proposed)
-to read: the apprentice grid by age and year, the intern allowance above the stay length the law sets, officers outside
-unemployment insurance, the performers' scheme and the MSA (with CR-FR-167 for seasonal farm workers).
+Their pay, contributions and declarations differ from an ordinary contract (D470); in France the values are
+(⚖️ lawyer review before launch, D574) to read: the apprentice grid by age and year, the intern allowance above the stay length the
+law sets, officers outside unemployment insurance, the performers' scheme and the MSA (with CR-FR-167 for seasonal farm
+workers).
 
 ## Examples
 

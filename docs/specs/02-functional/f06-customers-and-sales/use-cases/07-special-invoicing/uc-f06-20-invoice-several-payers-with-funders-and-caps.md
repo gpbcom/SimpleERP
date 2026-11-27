@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-20 Invoice several payers with funders and caps
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -79,7 +79,7 @@ Accounting; sales read their customers' invoices; the owner reads. Care and trai
 
 ## Notifications
 
-Accounting: an agreement ending within 30 days (Proposed).
+Accounting: an agreement ending within 30 days.
 
 ## Audit events
 

@@ -24,4 +24,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F8-11 Treasury and payment means](11-treasury-and-payment-means/README.md) | 30 images |
 | 🖼️ |  | [Images: FL-F8-12 Audit, leases and special books](12-audit-leases-and-special-books/README.md) | 22 images |
 | 🖼️ |  | [Screen states](states/README.md) | 224 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

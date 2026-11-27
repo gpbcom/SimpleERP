@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four
 product-side features that F25 did not cover: a public roadmap, a beta programme, credits for confirmed bug reports and
 a customer-facing changelog. F25 already takes reports and requests, prepares the work, lets maintainers approve and
 tells the requester; these show the customers where the product goes and reward their help.
@@ -39,7 +39,7 @@ full depth now.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F25 DevOps agents").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F25 DevOps agents").
 
 ## Consequences
 

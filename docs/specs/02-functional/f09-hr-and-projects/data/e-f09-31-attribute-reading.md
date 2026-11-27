@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-31 Attribute reading
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-25, VD-26 / D507, D508)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -73,7 +73,7 @@ stateDiagram-v2
 
 ## Retention
 
-(Proposed) A confirmed or corrected reading is kept as the HR records it fed
+A confirmed or corrected reading is kept as the HR records it fed
 ([CR-FR-047](../../../10-country-packs/france/labour/cr-fr-047-hr-records-retention.md)). A rejected or failed reading
 is deleted 3 months after its decision; the document follows its own retention.
 
@@ -83,7 +83,7 @@ Read (model and prompt version), each row confirmed, corrected or rejected with 
 
 ## Import and export
 
-Documents imported one by one or in bulk; (Proposed) no export of the readings themselves, only of the attributes they
+Documents imported one by one or in bulk; no export of the readings themselves, only of the attributes they
 fed.
 
 ## Used by

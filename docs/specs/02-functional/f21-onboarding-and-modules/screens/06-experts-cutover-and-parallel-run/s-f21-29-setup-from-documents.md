@@ -5,7 +5,7 @@
 
 # 🖥️ S-F21-29 Set up from documents
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

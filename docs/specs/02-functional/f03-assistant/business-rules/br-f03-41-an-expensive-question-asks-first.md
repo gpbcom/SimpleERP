@@ -31,7 +31,7 @@ None.
 
 ## Configurable
 
-Threshold and caps per role (Proposed: 1 EUR per question).
+Threshold and caps per role (default: 1 EUR per question).
 
 ## Open questions
 

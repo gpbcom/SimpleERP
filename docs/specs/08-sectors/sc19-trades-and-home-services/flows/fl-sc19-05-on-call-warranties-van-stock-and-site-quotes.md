@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC19-05 On-call, warranties, van stock and site quotes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

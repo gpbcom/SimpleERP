@@ -41,7 +41,10 @@ and act on many contacts at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] CONTACT   STATE                                                                      |
+| state             | [ ] CONTACT   CUSTOMER   EMAIL   CITY   ADDRESS STAT   TAGS   STATE                      |
+| customer          | [ ] ...                                                  Open >                          |
+| address status    | [ ] ...                                                  Open >                          |
+| tags              | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -52,6 +55,11 @@ and act on many contacts at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | Contact | the record's title | text | yes |
+| Customer | customer | link to the record | yes |
+| Email | email | text | yes |
+| City | postal address | text | yes |
+| Address status | address status | label | yes |
+| Tags | tags | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -61,12 +69,18 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Customer | each linked customer | the visible rows (D488) |
+| Address status | valid, invalid | the visible rows (D488) |
+| Tags | each value | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: contacts link to no other record type in their fields.
+- Contacts of a chosen customer, or of the customers that match a filter.
+- From the other side: the customers that have contacts, or none.
+- Contacts of a chosen lead, or of the leads that match a filter.
+- From the other side: the leads that have contacts, or none.
 
 ## KPI strip
 
@@ -88,7 +102,12 @@ Each persona's default saved view is set in its workspace (see Shown in).
 
 ## Map layout
 
-None: no place.
+- **Place:** postal address.
+- **Layout:** a map, [C-17](../../../../04-ux/design-system/components/c-17-map.md).
+- **Marker:** the contact and the state.
+- **Layers:** by state.
+- **Who sees the switch:** the roles with the map right, the planner roles and U02 and U13 (BR-F1-32, D502); the others
+  see the table with the place as a column.
 
 ## Actions
 
@@ -106,11 +125,17 @@ Each action is offered within the role and checked again on the server (VR-10).
 
 ## Inline edit
 
-None: no field is editable in a cell.
+- address status: editable in its cell unless the record's state locks it.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| first name | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| last name | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| email | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| mobile phone | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| postal address | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 
@@ -128,15 +153,18 @@ The records also show on: [S-F5-15 Consent register](../06-audiences-consent-and
 - **Selected:** the bulk bar with the actions allowed on every selected row.
 - **Error:** the query failed, with Retry.
 
+On the map layout, Listed also shows the count of rows without a place.
+
 ## Responsive behaviour
 
 On a phone the table keeps its columns and scrolls sideways, the facet panel becomes a drawer and the KPI strip stays
-(VR-14, D491).
+(VR-14, D491); the map takes the full width.
 
 ## Accessibility
 
 The KPI strip, the facet panel, the toolbar and the table are named landmarks; the result count is announced when the
-filters change; each chip has its remove button; the facet drawer returns the focus to its button.
+filters change; each chip has its remove button; the facet drawer returns the focus to its button. The table holds the
+same rows as the map.
 
 ## Example images
 
@@ -158,7 +186,8 @@ Drawn in step S8 (36k) from this page: one row per persona and device for each s
 [C-03 Data table](../../../../04-ux/design-system/components/c-03-data-table.md),
 [C-15 Facet panel](../../../../04-ux/design-system/components/c-15-facet-panel.md),
 [C-16 KPI strip](../../../../04-ux/design-system/components/c-16-kpi-strip.md),
-[C-09 Chart](../../../../04-ux/design-system/components/c-09-chart.md).
+[C-09 Chart](../../../../04-ux/design-system/components/c-09-chart.md),
+[C-17 Map](../../../../04-ux/design-system/components/c-17-map.md).
 
 ## Shown in
 

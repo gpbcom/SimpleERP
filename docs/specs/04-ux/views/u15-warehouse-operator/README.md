@@ -43,10 +43,10 @@ Home · Receipts · Picking · Counts.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U15-01 | [Receive and ship](journeys/j-u15-01-receive-and-ship.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U15-01 | [Receive and ship](journeys/j-u15-01-receive-and-ship.md) | ✅ |
 
 ---
 

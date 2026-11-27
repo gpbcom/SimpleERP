@@ -3,7 +3,7 @@
 
 # 🖥️ S-F5-27 Brand mentions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

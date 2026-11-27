@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found eleven features
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found eleven features
 that F8 had no use case for. Loans, French payment means, FX revaluation, the daily cash position, payments from the ERP
 and recurring entries are treasury and bookkeeping tools; the statutory auditor workspace, lease accounting, Peppol,
 business travel and cash-basis books complete the compliance and special-book side. The statutory auditor is the new
@@ -54,7 +54,7 @@ of its own. All at full depth now.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F8 Accounting").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F8 Accounting").
 
 ## Consequences
 

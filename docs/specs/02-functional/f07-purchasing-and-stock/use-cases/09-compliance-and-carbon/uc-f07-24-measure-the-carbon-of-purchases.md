@@ -4,7 +4,7 @@
 
 # 📝 UC-F7-24 Measure the carbon of purchases
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -125,7 +125,7 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: the VSME standard's emission disclosures.
+Design reference, not a law: the emission disclosures of the EFRAG VSME standard ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Related use cases
 

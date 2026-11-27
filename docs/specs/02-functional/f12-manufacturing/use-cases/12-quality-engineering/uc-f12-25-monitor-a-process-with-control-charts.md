@@ -4,7 +4,7 @@
 
 # 📝 UC-F12-25 Monitor a process with control charts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -56,7 +56,7 @@ Every shift.
 
 ## Error flows
 
-- 2e. Fewer than 25 measures (Proposed): limits not computed yet, said so.
+- 2e. Fewer than 25 measures: limits not computed yet, said so.
 
 ## Business rules
 
@@ -123,12 +123,12 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Tablet screens answer within 300 ms (Proposed), offline included,
+Tablet screens answer within 300 ms, offline included,
 [UC-F12-26](../11-finite-schedule-and-the-tablet/uc-f12-26-keep-working-on-the-tablet-without-the-network.md).
 
 ## Regulatory references
 
-(Proposed) to read: ISO 7870-2 (Shewhart control charts).
+Design reference, not a law: ISO 7870-2 (Shewhart control charts) ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Related use cases
 

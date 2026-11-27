@@ -20,4 +20,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F22-07 IT provider re-billing](07-it-provider-re-billing/README.md) | 12 images |
 | 🖼️ |  | [Images: FL-F22-08 Credits, SaaS subscriptions, carbon and routing](08-credits-saas-and-carbon/README.md) | 16 images |
 | 🖼️ |  | [Screen states](states/README.md) | 208 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-30 Set up a request type
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-27 to VD-29, VD-32, VD-33 / D509 to D511, D514, D515)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -59,14 +59,14 @@ At set-up, then a few times a year.
 
 ## Alternative flows
 
-- 1a. From a template of the sector pack (a home-care visit, a delivery, an electrical intervention) (Proposed).
-- 7a. (Proposed) Before publishing, a preview counts the people eligible today with the attributes chosen.
+- 1a. From a template of the sector pack (a home-care visit, a delivery, an electrical intervention).
+- 7a. Before publishing, a preview counts the people eligible today with the attributes chosen.
 
 ## Error flows
 
 - 3e. The configurator tries to make a legal requirement preferred, or to remove it: refused, with the text it comes
   from.
-- 5e. A required attribute that nobody has: a warning on publishing (Proposed); publishing stays possible.
+- 5e. A required attribute that nobody has: a warning on publishing; publishing stays possible.
 - 8e. Publishing fails a check of the configuration (BR-F2-22, BR-F2-23): the draft is kept with the reasons.
 
 ## Business rules

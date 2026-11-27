@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-04 Session package
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

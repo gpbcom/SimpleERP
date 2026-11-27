@@ -5,7 +5,7 @@
 
 # 📝 UC-F1-20 Create and revoke API tokens and service accounts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -53,7 +53,7 @@ A few a year per company.
 ## Alternative flows
 
 - 2a. The token is for a personal script of a user: it gets that user's rights, never more.
-- 4a. A token ending within 14 days (Proposed): its owner is told to renew it.
+- 4a. A token ending within 14 days: its owner is told to renew it.
 
 ## Error flows
 
@@ -130,7 +130,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A revocation takes effect within a minute (Proposed).
+A revocation takes effect within a minute.
 
 ## Regulatory references
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-03 Access needs a valid membership
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F9-34 My position
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-21 to VD-23 / D503 to D505)
+**Status:** ✅ specified
 
 ## Personas
 
@@ -22,7 +22,7 @@ The live indicator at the top of the phone app, during working hours; My HR › 
 ## Wireframe
 
 No map of others: the employee sees what is shared about them. The small map of their own last position follows
-[C-17 Map](../../../../04-ux/design-system/components/c-17-map.md) (Proposed).
+[C-17 Map](../../../../04-ux/design-system/components/c-17-map.md).
 
 ```text
 Phone, top of every screen:  [ (o) Position shared · Pause ]
@@ -34,7 +34,7 @@ Phone, top of every screen:  [ (o) Position shared · Pause ]
 | (16:00), never after                 |
 |                                      |
 | What is recorded: your position,     |
-| every few minutes (Proposed)         |
+| every few minutes         |
 | Why: planning the next visit         |
 | Who sees it: your coordinator,       |
 | your manager; the customer sees an   |
@@ -81,7 +81,7 @@ Paused: "( ) Paused since 12:00 · [Resume]"
 - Loading: the indicator shows at once; the details follow.
 - Error: the phone's location is off: "Not shared: location is off on this phone"; nobody is told it is a fault.
 - Read-only: outside working hours: "Not shared", the history only.
-- Offline: positions are kept on the phone and sent when the connection is back; the indicator says so (Proposed).
+- Offline: positions are kept on the phone and sent when the connection is back; the indicator says so.
 
 Shown entities (VD-15): [E-F9-32 Live position](../../data/e-f09-32-live-position.md).
 

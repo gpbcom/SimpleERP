@@ -44,7 +44,7 @@ changes and propose fixes as pull requests, while maintainers keep every approva
   while the label is on (harness ticket GH-23, pull request #24, pending until merged).
 - Agent runs on the durable workflow engine, metered and budgeted.
 
-- (Proposed) The agent team of
+- The agent team of
   [FL-F25-08](../../02-functional/f25-devops-agents/flows/fl-f25-08-team-builds-a-ticket.md): one active run per
   repository with the workers in parallel inside it, worktrees from one starting commit, verification on one candidate
   commit, two repair cycles at most, checkpoints kept on GitHub. Decided in

@@ -25,7 +25,8 @@ report.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Regulation (EU) 2024/2847 in force since 2024-12-10; reporting obligations apply from 2026-09-11 and the main
+obligations from 2027-12-11 ([European Commission, Cyber Resilience Act](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act), read 2026-11-27).
 
 ## Enforced by
 

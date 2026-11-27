@@ -4,7 +4,7 @@
 
 # 🖥️ S-F14-29 Partner directory
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC06-19 Dynamic pricing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC15-06 Beverages, van sales, catch weight and medical devices
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC15-06 Beverages, van sales, catch weight and medical devices](../../../flows/fl-sc15-06-beverages-vans-weights-and-devices.md)

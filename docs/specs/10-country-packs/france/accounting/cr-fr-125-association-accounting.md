@@ -22,11 +22,14 @@ Associations that keep accounts use the association chart of accounts, ANC regul
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+For the financial years opened from 2020-01-01, with early application allowed for the year running at its
+publication ([ANC regulation 2018-06, art. 2](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2018/Reglt_2018_06/Reglt_2018-06_Association.pdf), read 2026-11-27); homologated by the arrêté of 26 December 2018, published on 2018-12-30
+([Arrêté of 26 December 2018](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037883633), read 2026-11-27).
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc08-non-profit/regulatory.md)
+- [UC-SC08-23 Run a federation of member clubs](../../../08-sectors/sc08-non-profit/use-cases/07-foundations-integration-and-federations/uc-sc08-23-run-a-federation-of-member-clubs.md)
 
 ## When the law changes
 

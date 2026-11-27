@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC11-22 Brokerage
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

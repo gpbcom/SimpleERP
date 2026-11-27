@@ -3,7 +3,7 @@
 
 # 🔀 FL-F15-05 Duties and records
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -76,8 +76,8 @@ sequenceDiagram
 
 E1: a duty's due date passes undone: it turns overdue and the owner is told; the flow resumes at step 1 once done. E2:
 the last notice date of a contract passes: the contract renews by itself and the calendar shows the new term (step 2).
-E3: the accounts are not closed in F8 in time: the approval is flagged and the extension the law allows is suggested as
-(Proposed) to read (step 3).
+E3: the accounts are not closed in F8 in time: the approval is flagged and the extension the court may grant is suggested
+([CR-FR-221](../../../10-country-packs/france/company/cr-fr-221-general-meetings.md), step 3).
 
 ## Images
 

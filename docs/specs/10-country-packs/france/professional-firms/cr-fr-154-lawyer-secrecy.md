@@ -22,7 +22,8 @@ agenda and fund handling; the lawyer enforces it on staff and partners.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code of ethics article 4 (secrecy of public order, absolute, general and unlimited in time) since 2023-07-03
+([décret n° 2023-552 du 30 juin 2023, art. 4](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047774060), read 2026-11-27).
 
 ## Enforced by
 
@@ -35,7 +36,7 @@ in a pack update (D294).
 
 ## Penalty
 
-Disciplinary fault; criminal under Code pénal 226-13.
+Disciplinary fault; criminal under Code pénal 226-13: 1 year and 15 000 EUR ([Code pénal, art. 226-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417945), read 2026-11-27).
 
 ## Exceptions
 

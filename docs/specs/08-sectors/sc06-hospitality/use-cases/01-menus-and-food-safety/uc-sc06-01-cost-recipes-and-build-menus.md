@@ -4,7 +4,7 @@
 
 # 📝 UC-SC06-01 Cost recipes and build menus
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -59,7 +59,7 @@ Menus seasonally; costs follow every purchase.
 ## Error flows
 
 - 2e. An ingredient without a price: the cost is marked partial and the ingredient named.
-- 3e. A food-cost ratio over the target: the manager is warned ((Proposed) over 30 %).
+- 3e. A food-cost ratio over the target: the manager is warned (over 30 %).
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
   error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)) says what failed; what was
@@ -157,7 +157,7 @@ None specific to this use case; the sector's legal rules are listed in [SC06 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

@@ -3,12 +3,12 @@
 
 # 📏 BR-F9-27 Unverified or expired attributes do not count
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-26 / D508)
+**Status:** ✅ specified
 
 ## Statement
 
 An attribute counts for scheduling only when it is verified and current on the day of the work: one that is "to
-verify", rejected or past its expiry date counts as missing; reminders go out before an expiry (Proposed: 90 days, as in
+verify", rejected or past its expiry date counts as missing; reminders go out before an expiry (default: 90 days, as in
 BR-F9-17).
 
 ## Why
@@ -46,7 +46,7 @@ None.
 
 ## Configurable
 
-The reminder delay (Proposed: 90 days). Not whether an unverified or expired attribute counts.
+The reminder delay (default: 90 days). Not whether an unverified or expired attribute counts.
 
 ## Open questions
 

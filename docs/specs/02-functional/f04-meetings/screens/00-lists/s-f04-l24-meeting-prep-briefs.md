@@ -35,10 +35,12 @@ to find, filter, total and act on many meeting prep briefs at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Meeting prep briefs    Meetings › Meeting prep briefs   [+ New]                                              |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] MEETING PREP BRIEF   STATE                                                           |
+| state             | [ ] MEETING PREP   MEETING   LINKED RECOR   AGENDA   DRAFTED ON   STATE                  |
+| meeting           | [ ] ...                                                  Open >                          |
+| agenda            | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,7 +50,11 @@ to find, filter, total and act on many meeting prep briefs at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Meeting prep brief | the record's title | text | yes |
+| Meeting prep brief | title | text | yes |
+| Meeting | meeting | link to the record | yes |
+| Linked records | linked records | text | yes |
+| Agenda | agenda | link to the record | yes |
+| Drafted on | drafted on | date and time | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -58,16 +64,20 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Meeting | each linked meeting | the visible rows (D488) |
+| Agenda | each linked agenda | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: meeting prep briefs link to no other record type in their fields.
+- Meeting prep briefs of a chosen meeting, or of the meetings that match a filter.
+- From the other side: the meetings that have meeting prep briefs, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by drafted on.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -107,7 +117,11 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| participants | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| last exchanges | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| open actions | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

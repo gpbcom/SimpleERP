@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U14-01 | [Record the day on the phone](j-u14-01-record-the-day-on-the-phone.md) | 🔄 |
+| 🧭 | J-U14-01 | [Record the day on the phone](j-u14-01-record-the-day-on-the-phone.md) | ✅ |
 
 ---
 

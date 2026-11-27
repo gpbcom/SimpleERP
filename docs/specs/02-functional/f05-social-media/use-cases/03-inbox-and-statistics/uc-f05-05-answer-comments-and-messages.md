@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-05 Answer comments and messages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -115,7 +115,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-New messages appear within a minute (Proposed).
+New messages appear within a minute.
 
 ## Regulatory references
 

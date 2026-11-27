@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F18-07 A/B tests, visitors, accessibility and members
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F18-07 A/B tests, visitors, accessibility and members](../../../flows/fl-f18-07-tests-visitors-and-accessibility.md)

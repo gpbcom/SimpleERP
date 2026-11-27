@@ -4,7 +4,7 @@
 
 # 📝 UC-F16-11 Handle a request in the customer's language
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -51,7 +51,7 @@ Daily for companies selling abroad.
 
 ## Error flows
 
-- 1e. The language is not supported: the answer goes in English (Proposed) with a line saying so.
+- 1e. The language is not supported: the answer goes in English with a line saying so.
 - Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
   (D122) and what was typed stays on the screen.
 

@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U44-01 | [Run the box office and the door](j-u44-01-run-the-door.md) | 🔄 |
+| 🧭 | J-U44-01 | [Run the box office and the door](j-u44-01-run-the-door.md) | ✅ |
 
 ---
 

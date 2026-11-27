@@ -19,7 +19,7 @@ The vault's own encrypted backups, kept apart from the database's.
 
 ## Runbooks
 
-(Proposed) Revoke all credentials of a company; pause a connector; restore the vault.
+Revoke all credentials of a company; pause a connector; restore the vault.
 
 ---
 

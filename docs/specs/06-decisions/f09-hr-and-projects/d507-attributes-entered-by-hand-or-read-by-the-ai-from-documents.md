@@ -3,7 +3,7 @@
 
 # 📜 D507 Attributes entered by hand or read by the AI from documents
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-25 / D507)
+**Status:** ✅ decided
 
 ## Context
 
@@ -20,8 +20,8 @@ certificates, training records.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-25).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-25).
 
 ## Consequences
 
@@ -41,7 +41,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [F3 Assistant](../../02-functional/f03-assistant/README.md)
 - [D506 Employees' degrees, optional and structured](d506-employees-degrees-optional-and-structured.md)
 - [D508 HR confirms every AI reading before it counts](d508-hr-confirms-every-ai-reading-before-it-counts.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

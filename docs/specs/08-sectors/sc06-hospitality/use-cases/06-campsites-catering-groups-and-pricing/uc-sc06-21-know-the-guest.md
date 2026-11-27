@@ -159,7 +159,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Allergies and diets that reveal a health condition are sensitive personal data: they are kept only with the
 guest's consent or for the stay's needs, read only by the staff who need them, and erased on request or after the
-retention period. The venue must be able to give the allergens of every dish. The France-pack rule is written later.
+retention period. The venue must be able to give the allergens of every dish. The France-pack rule is [CR-FR-283 Health data outside care](../../../../10-country-packs/france/data-protection/cr-fr-283-health-data-outside-care.md); allergens are in [CR-FR-107 Allergen information in restaurants](../../../../10-country-packs/france/consumer/cr-fr-107-allergen-information.md).
 Related: [CR-FR-051](../../../../10-country-packs/france/data-protection/cr-fr-051-access-and-erasure.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md),
 [CR-FR-107](../../../../10-country-packs/france/consumer/cr-fr-107-allergen-information.md).

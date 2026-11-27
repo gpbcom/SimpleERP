@@ -4,7 +4,7 @@
 
 # 🖥️ S-F25-27 Report credits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F6-10 Partners, frame contracts and warranties
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F6-10 Partners, frame contracts and warranties](../../../flows/fl-f06-10-partners-contracts-and-warranties.md) for

@@ -160,7 +160,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A payment made in return for visibility, such as a logo or a mention, is a service with VAT, not a gift, and
 gives no tax receipt. A gift without a counterpart to a qualifying body gives a tax receipt under the rules of gifts.
-The sponsor's name and logo are shown only with its consent. The France-pack rule is written later. Related:
+The sponsor's name and logo are shown only with its consent. The France-pack rules that apply are listed below.
+Related:
 [CR-FR-124](../../../../10-country-packs/france/non-profit/cr-fr-124-gift-tax-receipts.md),
 [CR-FR-008 VAT rates](../../../../10-country-packs/france/tax-and-vat/cr-fr-008-vat-rates.md),
 [CR-FR-063](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md),

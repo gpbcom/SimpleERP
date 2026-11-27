@@ -5,7 +5,7 @@
 
 # 📝 UC-F5-21 Keep the brand kit and asset library
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -71,7 +71,7 @@ Marketing and communication; the owner reads; record rules on contacts apply.
 
 ## Notifications
 
-Marketing: assets whose rights expire within 30 days (Proposed).
+Marketing: assets whose rights expire within 30 days.
 
 ## Audit events
 
@@ -119,7 +119,8 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: image rights and the French intellectual property code.
+(⚖️ lawyer review before launch, D574) to read: image rights (Code civil article 9) and the Code de la propriété intellectuelle
+(L122-4, L131-3 on the scope of an assignment).
 
 ## Related use cases
 

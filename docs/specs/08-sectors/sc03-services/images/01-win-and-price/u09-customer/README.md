@@ -3,7 +3,7 @@
 
 # 🖼️ FL-SC03-01 Win and price
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC03-01 Win and price](../../../flows/fl-sc03-01-win-and-price.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

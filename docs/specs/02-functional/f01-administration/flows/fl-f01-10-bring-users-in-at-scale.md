@@ -14,7 +14,7 @@ administers their own site's staff.
 
 - [U07 Administrator](../../../01-users/personas/u07-administrator.md)
 - [U23 Store manager](../../../01-users/personas/u23-store-manager.md)
-- [U02 Manager](../../../01-users/personas/u02-manager.md), acting in the chart, step 36i (Proposed)
+- [U02 Manager](../../../01-users/personas/u02-manager.md), acting in the chart, step 36i
 
 ## Flowchart
 

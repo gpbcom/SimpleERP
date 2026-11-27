@@ -145,9 +145,10 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A household that pays for eligible services at home may claim a tax credit for a share of the amount paid,
-within a yearly ceiling, and only if the provider is declared or, for some services, approved. The services, the share
-and the ceilings are data of the France pack. Related:
+A household that pays for eligible services at home may claim a tax credit of 50 % of the amount paid, within a
+yearly ceiling (12 000 EUR, up to 20 000 EUR in some cases; gardening 5 000 EUR, small repairs 500 EUR), and only if the
+provider is declared or, for some services, approved. The services, the share and the ceilings are data of the France
+pack. Related:
 [CR-FR-102](../../../../10-country-packs/france/home-care/cr-fr-102-personal-services-registration.md),
 [CR-FR-103](../../../../10-country-packs/france/tax-and-vat/cr-fr-103-home-services-tax-credit.md).
 

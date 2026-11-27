@@ -52,13 +52,14 @@ S-F9-37 › Build the sequence; HR and projects › Recruitment › Outreach seq
 | Steps | E-F9-46 steps | day and kind | the days, within day 60 | yes |
 | Templates | E-F9-46 templates | text with fields | yes, before approval | yes |
 | Privacy notice link | E-F9-46 privacy notice link | web address | yes | yes |
+| Sending | E-F9-46 sending mode | "prepared, one click per message" or "automatic" (D570) | no, set by the administrator; fixed when the sequence starts, a later change applies only to new sequences | yes |
 | State | E-F9-46 state | badge | no | yes |
 
 ## Actions
 
 | Action | Where | Who may use it | Result |
 |---|---|---|---|
-| Approve and start | header | HR | the shortlist and the templates approved once (BR-F9-36) |
+| Approve and start | header | HR | the shortlist and the templates approved once (BR-F9-36); each message is then prepared for HR's click, or sent on its own with automatic sending on (D570) |
 | Draft with the AI assistant | template | HR | a draft to edit |
 | Pause, restart | header | HR | sending stops or goes on |
 | Review shortlist | header | HR | back to S-F9-37 |

@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U36-01 | [Work a matter](j-u36-01-work-a-matter.md) | 🔄 |
+| 🧭 | J-U36-01 | [Work a matter](j-u36-01-work-a-matter.md) | ✅ |
 
 ---
 

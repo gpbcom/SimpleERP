@@ -3,25 +3,27 @@
 
 # ⚖️ CR-FR-077 Substances of very high concern in articles
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A supplier of an article that contains a substance of very high concern above 0.1 % by weight informs its
-business customers, and a consumer on request.
+A supplier of an article that contains a substance of very high concern above 0.1 % by weight informs its business
+customers, and a consumer on request ([Avis aux opérateurs économiques, JORF of 2024-02-11](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049122408), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Threshold 0.1 % w/w per article.
-- (Proposed) A consumer's request answered within 45 days, free.
+- Threshold 0.1 % w/w per article ([Avis aux opérateurs économiques](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049122408), read 2026-11-27).
+- A consumer's request answered within 45 days ([Avis aux opérateurs économiques](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049122408), read 2026-11-27), free of charge (art. 33(2))
+  ([REACH, consolidated text, Publications Office](http://publications.europa.eu/resource/cellar/2a06ff7c-75a8-40f0-ad28-7e3ad4c0d900.0006.03/DOC_1), read 2026-11-27).
 
 ## Legal references
 
-- Regulation (EC) 1907/2006 (REACH) art. 33 (not read yet).
+- [Regulation (EC) 1907/2006 (REACH)](http://publications.europa.eu/resource/cellar/2a06ff7c-75a8-40f0-ad28-7e3ad4c0d900.0006.03/DOC_1) art. 33.
 
 ## Effective dates
 
-(Proposed) To read.
+Since 2007-06-01: art. 33 is in title IV, which applies from the regulation's entry into force (art. 141)
+([REACH, consolidated text](http://publications.europa.eu/resource/cellar/2a06ff7c-75a8-40f0-ad28-7e3ad4c0d900.0006.03/DOC_1), read 2026-11-27).
 
 ## Enforced by
 
@@ -34,7 +36,8 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Fine of a 5th-class contravention for a supplier who does not give the information of REACH art. 33(1)
+([Code de l'environnement, art. R521-2-14 18°](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048170043/2024-07-03), read 2026-11-27), up to 1 500 EUR ([Code pénal, art. 131-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417259/), read 2026-11-27).
 
 ## Exceptions
 
@@ -42,7 +45,7 @@ None.
 
 ## Open questions
 
-The article is not read yet.
+None: the article was read on 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

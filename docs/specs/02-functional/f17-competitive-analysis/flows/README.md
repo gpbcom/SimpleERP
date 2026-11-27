@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -18,7 +18,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F17-05 | [Tender watch](fl-f17-05-tender-watch.md) | ✅ |
 | 🔀 | FL-F17-06 | [Price intelligence](fl-f17-06-price-intelligence.md) | ✅ |
 | 🔀 | FL-F17-07 | [Sales enablement](fl-f17-07-sales-enablement.md) | ✅ |
-| 🔀 | FL-F17-08 | [Ads, pages, search and technologies](fl-f17-08-ads-pages-search-and-tech.md) | 🔄 |
+| 🔀 | FL-F17-08 | [Ads, pages, search and technologies](fl-f17-08-ads-pages-search-and-tech.md) | ✅ |
 
 ---
 

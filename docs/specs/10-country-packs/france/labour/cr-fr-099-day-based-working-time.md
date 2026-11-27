@@ -23,7 +23,7 @@ individual convention they agree to, with their workload checked regularly and a
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12 (the page was verified on 1 January 2026).
+Since 2017-12-22: L3121-58 in force since 2016-08-10, L3121-64 since 2017-12-22 ([Code du travail, art. L3121-58](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033003228), [art. L3121-64](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036262805), read 2026-11-27).
 
 ## Enforced by
 

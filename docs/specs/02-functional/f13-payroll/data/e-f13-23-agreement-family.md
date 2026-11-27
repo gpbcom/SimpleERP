@@ -3,7 +3,7 @@
 
 # 🗃️ E-F13-23 Agreement family
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -17,7 +17,7 @@ and funds, read from the country pack.
 | name | text | yes | unique | - | Hotels, cafés and restaurants | no | no |
 | code | text | yes | the agreement's official number | - | IDCC 1979 | no | no |
 | grid | table | yes | one row per classification | from the pack | level II echelon 1: 1 890.00 EUR | no | no |
-| rules | list | yes | dated | from the pack | meals, tips, overtime from 39 h (Proposed) to read | no | no |
+| rules | list | yes | dated | from the pack | meals (CR-FR-114), tips paid in full (CR-FR-113), overtime from 39 h (⚖️ lawyer review before launch, D574: IDCC 1979) | no | no |
 | funds | list | no | - | - | BTP paid-leave fund | no | no |
 | valid from | date | yes | one set per period | - | 2026-02-01 | no | no |
 

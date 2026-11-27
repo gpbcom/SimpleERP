@@ -4,7 +4,7 @@
 
 # 📏 BR-F19-17 Generated code is AGPL and stays usable
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,7 +13,8 @@ time and keeps the right to run it, with its data export, after cancelling.
 
 ## Why
 
-Customers must not be locked in (D476); the copyright of AI-generated code is (Proposed) to read with
+Customers must not be locked in (D476); the copyright of AI-generated code is (⚖️ lawyer review before launch, D574) to read
+with
 [CR-FR-203](../../../10-country-packs/france/digital/cr-fr-203-software-copyright-assignment.md) and
 [CR-FR-204](../../../10-country-packs/france/digital/cr-fr-204-ai-generated-works.md).
 

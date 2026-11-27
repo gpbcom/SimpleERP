@@ -4,7 +4,7 @@
 
 # 📝 UC-SC02-07 Count stock in store
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -54,7 +54,7 @@ Weekly cycle counts; one full inventory a year.
 
 ## Error flows
 
-- 3e. A big difference: a recount of that product is asked before validation ((Proposed) over 10 % or over 100 EUR).
+- 3e. A big difference: a recount of that product is asked before validation (over 10 % or over 100 EUR).
 - 2e. Sales during the count: they are counted from the time of each scan.
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
@@ -129,7 +129,7 @@ sequenceDiagram
 1. **Given** the example shop chain's area Women in Lyon 2 counted with 1 difference of 1 unit **when** the store
    manager validates **then** stock drops by 1 and the loss is posted.
 2. **Given** 6 Shirt S1 M expected and 2 counted **when** the store manager validates **then** a recount of that product
-   is asked before validation ((Proposed) over 10 % or over 100 EUR).
+   is asked before validation (over 10 % or over 100 EUR).
 
 ## Non-functional notes
 
@@ -148,7 +148,7 @@ None specific to this use case; the sector's legal rules are listed in [SC02 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

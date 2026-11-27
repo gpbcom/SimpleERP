@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F25-08 The agent team builds an approved ticket
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F25-08 The agent team builds an approved ticket](../../../flows/fl-f25-08-team-builds-a-ticket.md) for
 this persona, in light and dark mode (D120, D121). Errors follow the

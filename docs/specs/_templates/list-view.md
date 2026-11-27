@@ -2,12 +2,12 @@
 
 # 🖥️ List view template
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-01 to VD-12, VD-18 to VD-20 / D484 to D495, D501, D502)
+**Status:** ✅ specified
 
 Copy this file for a new page of this kind: the aggregated list view of one record type, named "S-<capability>-L<nn>
-<View>" (Proposed: in a `screens/00-lists/` folder of its capability). It follows the
+<View>" (in a `screens/00-lists/` folder of its capability). It follows the
 [aggregated list view pattern](../04-ux/design-system/patterns/aggregated-list-view.md); its content comes from the
-entity's view card, derived by the [view rules](../../tickets/GH-2/resources/flowcharts-screens/PLAN.md#view-rules) VR-1
+entity's view card, derived by the view rules (the owner's interview notes of 2026-11 for the specifications, not kept in the repository) VR-1
 to VR-15 and reviewed with the owner
 ([D492](../06-decisions/ux/d492-view-content-derived-by-rules-reviewed-per-capability.md)). Keep every section, in this
 order; write "None" or link a question in `07-questions/` rather than leave one blank.

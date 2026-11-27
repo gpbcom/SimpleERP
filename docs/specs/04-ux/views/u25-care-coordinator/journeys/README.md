@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U25-01 | [Plan a new recipient's visits](j-u25-01-plan-a-new-recipient.md) | 🔄 |
+| 🧭 | J-U25-01 | [Plan a new recipient's visits](j-u25-01-plan-a-new-recipient.md) | ✅ |
 
 ---
 

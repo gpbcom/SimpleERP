@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC14-22 | [Hardware leasing](s-sc14-22-hardware-leasing.md) | 🔄 |
-| 🖥️ | S-SC14-23 | [Licence reselling](s-sc14-23-licence-reselling.md) | 🔄 |
-| 🖥️ | S-SC14-24 | [Research tax credit](s-sc14-24-research-tax-credit.md) | 🔄 |
-| 🖥️ | S-SC14-25 | [Sponsorship](s-sc14-25-sponsorship.md) | 🔄 |
+| 🖥️ | S-SC14-22 | [Hardware leasing](s-sc14-22-hardware-leasing.md) | ✅ |
+| 🖥️ | S-SC14-23 | [Licence reselling](s-sc14-23-licence-reselling.md) | ✅ |
+| 🖥️ | S-SC14-24 | [Research tax credit](s-sc14-24-research-tax-credit.md) | ✅ |
+| 🖥️ | S-SC14-25 | [Sponsorship](s-sc14-25-sponsorship.md) | ✅ |

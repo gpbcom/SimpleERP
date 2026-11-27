@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-F8-12 Audit, leases and special books
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

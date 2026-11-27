@@ -17,4 +17,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC16-05 Declarations and reports](05-declarations-and-reports/README.md) | 36 images |
 | 🖼️ |  | [Images: FL-SC16-06 Cashless, cinemas, tours and photographers](06-cashless-cinemas-tours-and-photos/README.md) | 26 images |
 | 🖼️ |  | [Screen states](states/README.md) | 160 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

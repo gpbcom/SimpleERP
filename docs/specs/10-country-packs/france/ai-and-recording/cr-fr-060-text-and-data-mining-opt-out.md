@@ -3,7 +3,7 @@
 
 # ⚖️ CR-FR-060 Copyrighted standards and text mining
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -20,7 +20,8 @@ holds the right to use them with AI.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Transposed by CPI L122-5-3, in force since 2021-11-26 (ordonnance n° 2021-1518): mining for any purpose is allowed
+unless the author objected, by machine-readable means for content online ([Code de la propriété intellectuelle, art. L122-5-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044363192), read 2026-11-27).
 
 ## Enforced by
 
@@ -34,7 +35,8 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read yet: CPI L122-5-3 states none; whether infringement penalties apply to mining
+despite an opt-out.
 
 ## Exceptions
 

@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC16-01 | [Event plan](s-sc16-01-event-plan.md) | 🔄 |
-| 🖥️ | S-SC16-02 | [Venues](s-sc16-02-venues.md) | 🔄 |
-| 🖥️ | S-SC16-03 | [Artists](s-sc16-03-artists.md) | 🔄 |
-| 🖥️ | S-SC16-04 | [Performers](s-sc16-04-performers.md) | 🔄 |
+| 🖥️ | S-SC16-01 | [Event plan](s-sc16-01-event-plan.md) | ✅ |
+| 🖥️ | S-SC16-02 | [Venues](s-sc16-02-venues.md) | ✅ |
+| 🖥️ | S-SC16-03 | [Artists](s-sc16-03-artists.md) | ✅ |
+| 🖥️ | S-SC16-04 | [Performers](s-sc16-04-performers.md) | ✅ |

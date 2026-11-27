@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-19 Each van is counted at every reload
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

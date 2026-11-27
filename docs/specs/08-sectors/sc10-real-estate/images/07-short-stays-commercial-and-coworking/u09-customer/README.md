@@ -3,7 +3,7 @@
 
 # 🖼️ FL-SC10-07 Short stays, commercial leases, LMNP and coworking
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC10-07 Short stays, commercial leases, LMNP and coworking](../../../flows/fl-sc10-07-short-stays-commercial-and-coworking.md)

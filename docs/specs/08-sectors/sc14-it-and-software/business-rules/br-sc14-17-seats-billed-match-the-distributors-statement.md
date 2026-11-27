@@ -3,7 +3,7 @@
 
 # 📏 BR-SC14-17 Seats billed match the distributor's statement
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,8 @@ the difference is explained and recorded. An invoice is not released while a dif
 
 Billing more than the statement hides a dispute, billing less loses margin, and an invoice that differs without a reason
 cannot be defended. The owner asked for licence reselling
-([D558](../../../06-decisions/sectors/d558-benchmark-gaps-sc14-it-and-software.md)). (Proposed) The France-pack rule is
-written later.
+([D558](../../../06-decisions/sectors/d558-benchmark-gaps-sc14-it-and-software.md)). No France-pack rule sets
+this: it follows the reseller agreement, and the invoice follows the pack's mentions (CR-FR-015).
 
 ## Examples
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F13-30 Outsourced payroll
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

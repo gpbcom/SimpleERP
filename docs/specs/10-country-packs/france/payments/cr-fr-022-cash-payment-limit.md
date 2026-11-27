@@ -28,6 +28,7 @@ D112-3 in force since 2018-10-01; L112-6 version in force since 2025-06-15.
 
 - [UC-F8-05 Collect customer payments](../../../02-functional/f08-accounting/use-cases/03-bank-and-collect/uc-f08-05-collect-customer-payments.md)
 - [Regulatory](../../../02-functional/f10-point-of-sale/regulatory.md)
+- [UC-SC16-21 Run cashless payments at a festival](../../../08-sectors/sc16-events-and-culture/use-cases/06-cashless-cinemas-tours-and-photos/uc-sc16-21-run-cashless-payments-at-a-festival.md)
 
 ## When the law changes
 

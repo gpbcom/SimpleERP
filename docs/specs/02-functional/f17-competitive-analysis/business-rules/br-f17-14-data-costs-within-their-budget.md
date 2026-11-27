@@ -4,11 +4,11 @@
 
 # 📏 BR-F17-14 Data costs within their budget
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-Every paid data provider's spend is counted against its budget in F22; at (Proposed) 80 % of the budget the owner is
+Every paid data provider's spend is counted against its budget in F22; at 80 % of the budget the owner is
 warned, and at 100 % collection from that provider stops until the owner raises the budget.
 
 ## Why

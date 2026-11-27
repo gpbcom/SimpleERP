@@ -48,8 +48,8 @@ gantt
     P6 Accounting (36) :p6, 2026-12-30, 2027-03-01
     P7 HR, projects and legal (88) :p7, 2026-12-09, 2027-04-09
     P8 Plugins and the plugin store (72) :p8, 2027-01-01, 2027-04-09
-    P9 Growth and insight (Proposed) (36) :p9, 2027-03-19, 2027-05-03
-    P10 Sectors (Proposed) (70) :p10, 2027-04-09, 2027-06-01
+    P9 Growth and insight (36) :p9, 2027-03-19, 2027-05-03
+    P10 Sectors (70) :p10, 2027-04-09, 2027-06-01
     P11 Hosted edition services (48) :p11, 2027-03-31, 2027-06-08
 ```
 

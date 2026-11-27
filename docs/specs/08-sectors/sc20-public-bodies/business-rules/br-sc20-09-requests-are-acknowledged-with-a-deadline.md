@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-09 Requests are acknowledged with a deadline
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,8 +14,9 @@ deadline is flagged.
 ## Why
 
 A request without acknowledgement leaves the citizen without a deadline and may make silence mean refusal
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (⚖️ lawyer review before launch, D574) The
+France-pack rule is still to write: to read the acknowledgement, the incomplete request and the effect of silence (Code
+des relations entre le public et l'administration L112-3, L114-5, L231-1 and following).
 
 ## Examples
 

@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F2-11 Rights, translations and approvals
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F2-11 Rights, translations and approvals](../../../flows/fl-f02-11-rights-translations-and-approvals.md)
 for this persona, in light and dark mode (D120, D121). Errors follow the

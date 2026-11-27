@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC08-24 Peer-to-peer fundraising
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

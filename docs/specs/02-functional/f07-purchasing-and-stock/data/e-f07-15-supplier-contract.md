@@ -3,7 +3,7 @@
 
 # 🗃️ E-F7-15 Supplier contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -40,7 +40,8 @@ By supplier and validity.
 
 ## Retention
 
-10 years after its end (Proposed).
+10 years after its end, as a supporting document of the purchases
+([CR-FR-002 Accounting records kept 10 years](../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md)).
 
 ## Audit
 

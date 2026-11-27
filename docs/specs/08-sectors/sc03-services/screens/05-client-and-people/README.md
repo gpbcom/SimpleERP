@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC03-11 | [Client portal](s-sc03-11-client-portal.md) | 🔄 |
-| 🖥️ | S-SC03-12 | [Satisfaction](s-sc03-12-satisfaction.md) | 🔄 |
-| 🖥️ | S-SC03-13 | [Skills](s-sc03-13-skills.md) | 🔄 |
+| 🖥️ | S-SC03-11 | [Client portal](s-sc03-11-client-portal.md) | ✅ |
+| 🖥️ | S-SC03-12 | [Satisfaction](s-sc03-12-satisfaction.md) | ✅ |
+| 🖥️ | S-SC03-13 | [Skills](s-sc03-13-skills.md) | ✅ |

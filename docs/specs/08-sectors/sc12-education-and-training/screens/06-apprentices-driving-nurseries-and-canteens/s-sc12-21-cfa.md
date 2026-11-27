@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC12-21 Apprentice training centre
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -14,7 +14,8 @@
 
 ## Purpose
 
-Record the apprenticeship contracts, read the support level and claim the funding from the OPCO month by month.
+Record the apprenticeship contracts, read the support level and claim the funding from the OPCO in instalments,
+pro rata of the days done (Code du travail R6332-25).
 
 ## Entry points
 
@@ -24,12 +25,14 @@ Education and training › Apprenticeship contracts; the course session; the app
 
 ```text
 +--------------------------------------------------------------------------------------------------+
-| Contract AC-2026-0217: Lea Martin, sales diploma                      Registered   [Claim a mont |
+| Contract AC-2026-0217: Lea Martin, sales diploma          Registered   [Claim an instalment]     |
 | Employer Atelier Faure   OPCO Commerce   2026-09-01 to 2028-08-31   Level 7,500.00 a year        |
-| Month       Followed   Claimed    State                                                          |
-| 2026-09     1          625.00     Paid                                                           |
-| 2026-10     1          625.00     Claimed                                                        |
-| 2026-11     in progress                 Total claimed 1,250.00                                   |
+| Instalment   Due          Amount     State                                                       |
+| 1st, 40 %    2026-10-01   3,000.00   Paid                                                        |
+| 2nd, 30 %    2027-03      2,250.00   Planned                                                     |
+| 3rd, 20 %    2027-06      1,500.00   Planned                                                     |
+| Balance      2027-08        750.00   Planned                                                     |
+| Year 1: pro rata of the days done           Total claimed 3,000.00                               |
 | Break date -      Documents 5 of 6     [Send to the OPCO]                                        |
 +--------------------------------------------------------------------------------------------------+
 ```
@@ -53,24 +56,24 @@ Education and training › Apprenticeship contracts; the course session; the app
 | Dates | E-SC12-20 start, end | dates | yes while Draft | yes |
 | OPCO | E-SC12-20 OPCO | choice | yes while Draft | yes |
 | Support level | E-SC12-20 support level | amount a year | yes while Draft | yes |
-| Months claimed | E-SC12-20 months claimed | list | no | no |
+| Instalments claimed | E-SC12-20 months claimed, E-SC12-05 funding lines | 40 % within 30 days of the first invoice, 30 % in the seventh month, 20 % in the tenth month, then the balance, each pro rata of the days done | no | no |
 
 ## Actions
 
 | Action | Where | Who may use it | Result |
 |---|---|---|---|
 | Send to the OPCO | contract | training coordinator | the contract waits for the OPCO's answer |
-| Claim a month | contract | training coordinator | a funding line for the months followed |
-| Record a break | contract | training coordinator | the contract becomes Broken with its date |
+| Claim an instalment | contract | training coordinator | a funding line for the instalment due, pro rata of the days done |
+| Record a break | contract | training coordinator | the contract becomes Broken with its date; the funding goes on pro rata of the days for up to six months while the apprentice stays in the centre, or until a new contract |
 | End | contract | training coordinator | the contract becomes Ended |
 
 ## States
 
-- Normal: the contract, its level, its dates and the months claimed with their state.
+- Normal: the contract, its level, its dates and its instalments with their due dates, amounts and state.
 - Empty: No contract yet, with New contract.
 - Loading: the headings and the table as placeholders; the values follow.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); a missing level
-  or a month claimed after the break, with the field to correct.
+  or a claim for days after the funding's end (six months after the break, or the new contract), with the field to correct.
 - Read-only: the record in a locked state: values shown, no action offered.
 - Offline: Not available offline: a back-office screen on live, shared data
   ([D38](../../../../06-decisions/ux/d38-offline-field-tasks.md): only today's schedule, time and intervention records

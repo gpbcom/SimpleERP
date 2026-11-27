@@ -36,7 +36,9 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Civil fine up to 300 000 EUR, or up to 10 % of the average yearly turnover, for obstructing the guarantee in bad faith
+(L217-8 to L217-19, art. L241-5); administrative fine up to 15 000 EUR or 75 000 EUR for breaches of L217-11, L217-12,
+L217-16 and L217-17 (art. L241-9 to L241-11); a late refund is increased by 10 %, 20 % or 50 % (art. L241-7) ([Code de la consommation, art. L241-1 to L241-15](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221767/), read 2026-11-27).
 
 ## Exceptions
 

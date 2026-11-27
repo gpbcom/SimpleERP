@@ -39,6 +39,6 @@ The decisions of this theme, in number order.
 | 📜 | D27 | [RAG platform on Milvus](d27-rag-platform-on-milvus.md) | ✅ |
 | 📜 | D28 | [Legal assistant](d28-legal-assistant.md) | ✅ |
 | 📜 | D29 | [Social media module](d29-social-media-module.md) | ✅ |
-| 📜 | D496 | [One wording in charts and prose, reviewed first](d496-one-wording-in-charts-and-prose-reviewed-first.md) | 🔄 |
+| 📜 | D496 | [One wording in charts and prose, reviewed first](d496-one-wording-in-charts-and-prose-reviewed-first.md) | ✅ |
 
 Pages: **1** · [2](page-2.md)

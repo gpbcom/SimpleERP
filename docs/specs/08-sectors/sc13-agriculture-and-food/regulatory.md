@@ -19,7 +19,10 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-107 Allergen information in restaurants](../../10-country-packs/france/consumer/cr-fr-107-allergen-information.md),
 [CR-FR-110 Food hygiene and its records](../../10-country-packs/france/hospitality/cr-fr-110-food-hygiene-records.md),
 [CR-FR-095 Donation of unsold food](../../10-country-packs/france/environment/cr-fr-095-unsold-food-donation.md). The
-farm registers, identification and labelling are (Proposed): their official pages could not be read yet.
+farm registers, identification and labelling are read in CR-FR-161, CR-FR-162, CR-FR-163 and CR-FR-165; the
+identification of pigs, horses and poultry is read in CR-FR-162, and each appellation's yield limit waits for the
+lawyer's review (D574). The texts read state no ban on selling during a withdrawal period as such: each treatment is recorded with
+its withdrawal period, kept 5 years, and SimpleERP blocks the lots until the period ends (CR-FR-163).
 
 ## Country pack
 

@@ -20,7 +20,7 @@ When the headcount crosses a legal threshold, HR and the owner are warned of the
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2025-10-26: L2311-2 in force since 2018-01-01, L2312-18 since 2025-10-26 ([Code du travail, art. L2311-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035609353), [art. L2312-18](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052437125), read 2026-11-27).
 
 ## Enforced by
 
@@ -37,7 +37,8 @@ rule and warns the administrators; the corrected rule ships in a pack update (D2
 
 ## Penalty
 
-Not read yet.
+Obstructing the setting up of a CSE or the free choice of its members: 1 year's imprisonment
+and a 7 500 EUR fine; obstructing its regular functioning: a 7 500 EUR fine (L2317-1) ([Code du travail, art. L2317-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035634273), read 2026-11-27).
 
 ## Exceptions
 

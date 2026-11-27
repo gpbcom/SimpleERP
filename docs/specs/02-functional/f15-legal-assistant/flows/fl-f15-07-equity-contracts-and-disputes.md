@@ -3,7 +3,7 @@
 
 # 🔀 FL-F15-07 Equity, contracts, meetings and disputes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

@@ -3,7 +3,7 @@
 
 # 🖥️ S-F7-30 Slotting
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

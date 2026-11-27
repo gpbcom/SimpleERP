@@ -3,7 +3,7 @@
 
 # 📏 BR-SC01-16 Revisions use the index of the contract's month
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,8 +15,8 @@ with the last published index and corrected when the real one appears.
 
 A contract's clause fixes which month's index applies; using another month changes the price the customer owes and
 starts disputes. The owner asked for price revision indices
-([D545](../../../06-decisions/sectors/d545-benchmark-gaps-sc01-construction.md)). (Proposed) The France-pack rule is
-written later.
+([D545](../../../06-decisions/sectors/d545-benchmark-gaps-sc01-construction.md)). The France-pack rule is
+[CR-FR-224 Price revision with BT and TP indices](../../../10-country-packs/france/construction/cr-fr-224-price-revision-indices.md).
 
 ## Examples
 
@@ -33,7 +33,7 @@ written later.
 - [UC-SC01-16](../use-cases/06-revision-developers-bim-and-grants/uc-sc01-16-revise-prices-with-the-bt-and-tp-indices.md)
 - [E-SC01-15 Revision formula](../data/e-sc01-15-revision-formula.md)
 - [E-SC01-06 Progress bill](../data/e-sc01-06-progress-bill.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-224 Price revision with BT and TP indices](../../../10-country-packs/france/construction/cr-fr-224-price-revision-indices.md)
 
 ## Exceptions

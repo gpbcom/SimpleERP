@@ -3,7 +3,7 @@
 
 # 🧩 C-14 Timeline
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -34,12 +34,12 @@ A line with one mark per event; each event has its date and time, who, what, and
   [S-F1-11 Provider access log](../../../02-functional/f01-administration/screens/08-provider-and-client-companies/s-f01-11-provider-access-log.md).
 - **Live:** oldest first, new events added at the bottom while it runs, as on
   [S-F4-02 Live transcript](../../../02-functional/f04-meetings/screens/01-record-an-online-meeting/s-f04-02-live-transcript.md).
-- **Grouped:** (Proposed) events under day headings when there are many.
+- **Grouped:** events under day headings when there are many.
 
 ## States
 
-Loading (Proposed: skeleton events), empty ([C-10 Empty state](c-10-empty-state.md): "Your provider has not entered
-SimpleERP."), live (marked as live), more to load (Proposed: "Show earlier"), error
+Loading (skeleton events), empty ([C-10 Empty state](c-10-empty-state.md): "Your provider has not entered
+SimpleERP."), live (marked as live), more to load ("Show earlier"), error
 ([error message pattern](../patterns/error-messages.md)). The live mark is drawn on
 [S-F1-11 Provider access log](../../../02-functional/f01-administration/screens/08-provider-and-client-companies/s-f01-11-provider-access-log.md).
 
@@ -59,7 +59,7 @@ of those kinds with an icon; `font-caption` for times, `font-code` for IDs
 ## Do and don't
 
 - Do show who did what and when, with real names and values.
-- Do show times in the user's time zone (Proposed).
+- Do show times in the user's time zone.
 - Don't hide events the user may see; don't show those they may not
   ([D12](../../../06-decisions/foundations/d12-permissions-model.md)).
 

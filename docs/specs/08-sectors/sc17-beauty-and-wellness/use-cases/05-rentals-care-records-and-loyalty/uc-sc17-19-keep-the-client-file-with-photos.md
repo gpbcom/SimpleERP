@@ -159,7 +159,7 @@ client or erased on request
 ([CR-FR-051](../../../../10-country-packs/france/data-protection/cr-fr-051-access-and-erasure.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md),
 [CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)). A photo used in a
-post or an advert needs its own consent. The France-pack rule is written later.
+post or an advert needs its own consent. The France-pack rule is [CR-FR-283 Health data outside care](../../../../10-country-packs/france/data-protection/cr-fr-283-health-data-outside-care.md).
 
 ## Related use cases
 

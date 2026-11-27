@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-06 Publication follows the legal media
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,12 @@ shorter than the minimum of the procedure. Each answer to a bidder's question go
 ## Why
 
 A notice in too few media or a short deadline cancels the procedure
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The media of each procedure are read
+in
+[CR-FR-251 Public procurement thresholds](../../../10-country-packs/france/trade/cr-fr-251-public-procurement-thresholds.md):
+the BOAMP or an approved legal-notices outlet for an adapted procedure, the BOAMP and the JOUE for a formal one.
+(⚖️ lawyer review before launch, D574) The minimum deadlines of each procedure are still to read: Code de la commande publique
+R2143-1 and following, R2161-1 and following.
 
 ## Examples
 

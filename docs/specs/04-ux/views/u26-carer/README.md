@@ -2,7 +2,7 @@
 
 # 🤝 Carer: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -11,7 +11,7 @@ density: comfortable, large touch targets ([D42](../../../06-decisions/ux/d42-de
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Next visit; Log to finish.
 - Widgets: My week.
@@ -35,16 +35,16 @@ density: comfortable, large touch targets ([D42](../../../06-decisions/ux/d42-de
 
 ## Navigation
 
-(Proposed) Today · Rounds · Log · Me.
+Today · Rounds · Log · Me.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U26-01 | [Do the day's visits](journeys/j-u26-01-do-the-day-visits.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U26-01 | [Do the day's visits](journeys/j-u26-01-do-the-day-visits.md) | ✅ |
 
 ---
 

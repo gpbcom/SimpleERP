@@ -19,4 +19,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC08-06 Accounts and data](06-accounts-and-data/README.md) | 42 images |
 | 🖼️ |  | [Images: FL-SC08-07 Foundations, integration, federations, peer fundraising](07-foundations-integration-and-federations/README.md) | 26 images |
 | 🖼️ |  | [Screen states](states/README.md) | 160 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

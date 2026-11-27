@@ -12,6 +12,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F5-08 | [Run email campaigns](uc-f05-08-run-email-campaigns.md) | 🔄 |
+| 📝 | UC-F5-08 | [Run email campaigns](uc-f05-08-run-email-campaigns.md) | ✅ |
 | 📝 | UC-F5-09 | [Send SMS campaigns](uc-f05-09-send-sms-campaigns.md) | ✅ |
 | 📝 | UC-F5-13 | [Turn social interactions into leads](uc-f05-13-turn-social-interactions-into-leads.md) | ✅ |

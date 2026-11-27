@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F15-04 Set up the legal assistant
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F15-04 Set up the legal assistant](../../../flows/fl-f15-04-set-up-the-legal-assistant.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

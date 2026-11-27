@@ -22,5 +22,9 @@ GDPR duties: records, retention, rights, transfers.
 | ⚖️ | CR-FR-195 | [Candidates' personal data](cr-fr-195-candidate-data.md) | ✅ |
 | ⚖️ | CR-FR-196 | [Legitimate interest needs a documented balance](cr-fr-196-legitimate-interest-balancing.md) | ✅ |
 | ⚖️ | CR-FR-199 | [Notifying a personal data breach](cr-fr-199-personal-data-breach-notification.md) | ✅ |
-| ⚖️ | CR-FR-207 | [Call recording at work kept proportionate](cr-fr-207-call-recording-proportionate.md) | 🔄 |
-| ⚖️ | CR-FR-211 | [Live geolocation of employees](cr-fr-211-live-geolocation-of-employees.md) | 🔄 |
+| ⚖️ | CR-FR-207 | [Call recording at work kept proportionate](cr-fr-207-call-recording-proportionate.md) | ✅ |
+| ⚖️ | CR-FR-211 | [Live geolocation of employees](cr-fr-211-live-geolocation-of-employees.md) | ✅ |
+| ⚖️ | CR-FR-274 | [Transfers outside the EU to a cloud suite](cr-fr-274-transfers-to-cloud-suites.md) | ✅ |
+| ⚖️ | CR-FR-275 | [Copying personal data for analytics](cr-fr-275-copying-personal-data-for-analytics.md) | ✅ |
+| ⚖️ | CR-FR-280 | [Personal data shared inside a group](cr-fr-280-personal-data-shared-inside-a-group.md) | ✅ |
+| ⚖️ | CR-FR-283 | [Health data outside care](cr-fr-283-health-data-outside-care.md) | ✅ |

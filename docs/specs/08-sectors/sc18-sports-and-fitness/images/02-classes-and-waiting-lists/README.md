@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-SC18-02 Classes and waiting lists
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

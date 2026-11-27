@@ -3,7 +3,7 @@
 
 # 📜 D506 Employees' degrees, optional and structured
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-24 / D506)
+**Status:** ✅ decided
 
 ## Context
 
@@ -23,8 +23,8 @@ the national level, RNCP in France), field of study, institution, country, year,
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-24).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-24).
 
 ## Consequences
 
@@ -42,7 +42,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
   [S-F9-35](../../02-functional/f09-hr-and-projects/screens/13-keep-qualifications/s-f09-35-employee-qualifications.md)
 - [D507 Attributes entered by hand or read by the AI from documents](d507-attributes-entered-by-hand-or-read-by-the-ai-from-documents.md)
 - [D509 Four attribute families for scheduling](d509-four-attribute-families-for-scheduling.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

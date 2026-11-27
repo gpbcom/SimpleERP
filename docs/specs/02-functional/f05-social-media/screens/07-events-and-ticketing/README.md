@@ -14,4 +14,4 @@ The screens of this flow.
 |---|---|---|---|
 | 🖥️ | S-F5-11 | [Event](s-f05-11-event.md) | ✅ |
 | 🖥️ | S-F5-17 | [Ticketing setup](s-f05-17-ticketing-setup.md) | ✅ |
-| 🖥️ | S-F5-18 | [Ticket scan](s-f05-18-ticket-scan.md) | 🔄 |
+| 🖥️ | S-F5-18 | [Ticket scan](s-f05-18-ticket-scan.md) | ✅ |

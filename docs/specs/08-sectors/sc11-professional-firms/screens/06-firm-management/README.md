@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC11-14 | [Work in progress](s-sc11-14-work-in-progress.md) | 🔄 |
-| 🖥️ | S-SC11-17 | [Partners](s-sc11-17-partners.md) | 🔄 |
-| 🖥️ | S-SC11-18 | [Training](s-sc11-18-training.md) | 🔄 |
-| 🖥️ | S-SC11-19 | [Performance](s-sc11-19-performance.md) | 🔄 |
+| 🖥️ | S-SC11-14 | [Work in progress](s-sc11-14-work-in-progress.md) | ✅ |
+| 🖥️ | S-SC11-17 | [Partners](s-sc11-17-partners.md) | ✅ |
+| 🖥️ | S-SC11-18 | [Training](s-sc11-18-training.md) | ✅ |
+| 🖥️ | S-SC11-19 | [Performance](s-sc11-19-performance.md) | ✅ |

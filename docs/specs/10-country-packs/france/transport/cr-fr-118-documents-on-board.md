@@ -23,7 +23,7 @@ notes 2 years.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code des transports R3411-13 in force since 2023-12-22 (décret n° 2023-1218) ([Code des transports, art. R3411-13](https://www.legifrance.gouv.fr/codes/id/LEGIARTI000048629458), read 2026-11-27).
 
 ## Enforced by
 

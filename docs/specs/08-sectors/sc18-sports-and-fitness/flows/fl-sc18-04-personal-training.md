@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC18-04 Personal training
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

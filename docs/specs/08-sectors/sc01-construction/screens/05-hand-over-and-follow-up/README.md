@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC01-10 | [Acceptance](s-sc01-10-acceptance.md) | 🔄 |
-| 🖥️ | S-SC01-11 | [Warranties](s-sc01-11-warranties.md) | 🔄 |
+| 🖥️ | S-SC01-10 | [Acceptance](s-sc01-10-acceptance.md) | ✅ |
+| 🖥️ | S-SC01-11 | [Warranties](s-sc01-11-warranties.md) | ✅ |

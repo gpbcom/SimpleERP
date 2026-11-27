@@ -2,7 +2,7 @@
 
 # 🤖 AI governance
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Requirement
 
@@ -16,8 +16,11 @@
   keep the logs (BR-F4-21). The dates these obligations apply from must be checked at build time.
 - **High-risk use: ranking LinkedIn profiles (Annex III, point 4(a))**
   ([D518](../06-decisions/f09-hr-and-projects/d518-linkedin-sourcing-through-unipile.md)): the AI assistant scores the
-  profiles of a sourcing search with a reason per score (UC-F9-40); HR approves the shortlist before anyone is contacted
-  (BR-F9-36), which is the human oversight; the same provider and deployer duties as candidate scoring apply.
+  profiles of a sourcing search with a reason per score (UC-F9-40), and applies to them the criteria the HR user's
+  LinkedIn search lacks, the screen saying which
+  ([D571](../06-decisions/f09-hr-and-projects/d571-linkedin-sourcing-uses-the-users-search.md)); HR approves the
+  shortlist before anyone is contacted (BR-F9-36), which is the human oversight; the same provider and deployer duties as
+  candidate scoring apply.
 - **Not decided by AI alone:** no decision about a person is taken on a score alone (GDPR article 22).
 
 - **Autonomy tiers** ([D439](../06-decisions/f03-assistant/d439-ai-autonomy-tiers.md)): the AI assistant asks before
@@ -32,7 +35,7 @@
 
 ## Measures
 
-- (Proposed) 5 % of each automatic procedure's acts, at least 10 a week, sampled for a person's check (D439).
+- 5 % of each automatic procedure's acts, at least 10 a week, sampled for a person's check (D439).
 - A risk file per high-risk feature (candidate scoring, call scoring and worker evaluation), with its evaluation set
   (REQ-T07-05) and its logs kept.
 - Impact assessments as [Privacy and GDPR](privacy-gdpr.md) lists them.

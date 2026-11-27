@@ -3,7 +3,7 @@
 
 # 📏 BR-SC10-19 Rooms are booked within the membership's credits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

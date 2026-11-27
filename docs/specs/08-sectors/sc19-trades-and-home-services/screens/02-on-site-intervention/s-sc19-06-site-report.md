@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-06 Site report
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

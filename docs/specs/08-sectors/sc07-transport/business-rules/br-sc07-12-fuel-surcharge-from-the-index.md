@@ -7,12 +7,17 @@
 
 ## Statement
 
-(Proposed) The freight price is adjusted by the fuel index between order and transport; in France:
+The freight price is adjusted for the change in energy costs between the contract and the transport, and the invoice
+shows those costs; in France:
 [CR-FR-123 Fuel price indexation](../../../10-country-packs/france/transport/cr-fr-123-fuel-indexation.md).
 
 ## Why
 
-(Proposed) The formula is still to read.
+Without a clause, the energy costs are set at the contract date from the CNR prices and the share of energy in the CNR
+indices, then revised by the change in the CNR index of that energy, or else the diesel index, between the contract and
+the transport; the same for autonomous refrigeration units. Until 2022-12-31 the revision ran between the order and the
+transport; for contracts concluded from 2023-01-01 it runs between the contract and the transport
+([CR-FR-123](../../../10-country-packs/france/transport/cr-fr-123-fuel-indexation.md)).
 
 ## Examples
 

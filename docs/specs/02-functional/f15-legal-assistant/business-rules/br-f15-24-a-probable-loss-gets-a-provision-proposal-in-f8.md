@@ -16,7 +16,8 @@ The accounts must show a probable loss in the period it becomes probable, and on
 ([UC-F8-02](../../f08-accounting/use-cases/01-set-up-and-post/uc-f08-02-post-and-review-entries.md)). The owner asked
 for a litigation register
 ([D534](../../../06-decisions/f15-legal-assistant/d534-benchmark-gaps-f15-legal-assistant.md)). The
-France-pack rule is written later.
+France-pack rules are [CR-FR-267 Provisions for litigation](../../../10-country-packs/france/accounting/cr-fr-267-litigation-provisions.md) and
+[CR-FR-268 Tax deduction of provisions](../../../10-country-packs/france/tax-and-vat/cr-fr-268-tax-deduction-of-provisions.md).
 
 ## Examples
 

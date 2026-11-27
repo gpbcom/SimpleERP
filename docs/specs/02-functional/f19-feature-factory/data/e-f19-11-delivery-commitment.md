@@ -3,7 +3,7 @@
 
 # 🗃️ E-F19-11 Delivery commitment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -14,7 +14,7 @@ The date the factory commits to deliver a feature for try-out, and its delays.
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
 | feature request | link | yes | an approved specification | - | FR-12 gate booking | no | no |
-| committed | date | yes | after the approval | (Proposed) 15 business days | 2026-12-03 | no | no |
+| committed | date | yes | after the approval | 15 business days | 2026-12-03 | no | no |
 | delays | list | no | new date and reason each | - | 2026-12-10, tests failing | no | no |
 | delivered | date | when delivered | - | - | 2026-12-09 | no | no |
 | state | choice | yes | on time, delayed, late, delivered | on time | delivered | no | no |

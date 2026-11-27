@@ -25,7 +25,7 @@ certificate of the previous year's services and of what the client actually paid
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2026-06-14: art. 199 sexdecies ([CGI, art. 199 sexdecies](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054251333), read 2026-11-27).
 
 ## Enforced by
 

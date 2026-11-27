@@ -3,27 +3,32 @@
 
 # 📏 BR-F9-41 The LinkedIn account's limits are respected
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 Searches, invitations and messages stay within the limits Unipile reports for the HR user's LinkedIn account; when a
-limit is reached, the rest waits for the next day or week; (Proposed) the administrator sets daily and weekly caps per
-account, never above those limits.
+limit is reached, the rest waits for the next day or week; the administrator sets daily and weekly caps per
+account, never above those limits. The limits apply in both sending modes: a message prepared for HR's click and a
+message sent automatically count alike. In prepared mode HR's click stands: a message a limit holds after the click
+goes when the limit allows, without a new click, and never expires
+([D570](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)).
 
 ## Why
 
 A restricted account would stop the company's sourcing and harm the HR user's own account
-([D518](../../../06-decisions/f09-hr-and-projects/d518-linkedin-sourcing-through-unipile.md),
-[Q18](../../../07-questions/q18-linkedin-automation-and-its-user-agreement.md)).
+([D518](../../../06-decisions/f09-hr-and-projects/d518-linkedin-sourcing-through-unipile.md)); the limits lower the risk
+that LinkedIn's user agreement on automated activity brings, they do not remove it
+([D570](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)).
 
 ## Examples
 
 | Case | Result |
 |---|---|
 | A limit reached at 14:00 | the remaining messages wait for the next day; HR sees "paused until tomorrow" |
-| (Proposed) A cap of 20 invitations a day, 30 planned | 20 today, 10 tomorrow, each follow-up counted from its own invitation |
+| A cap of 20 invitations a day, 30 planned | 20 today, 10 tomorrow, each follow-up counted from its own invitation |
 | Unipile reports the account restricted | the sequence pauses; HR and the administrator are told |
+| Prepared mode, HR clicks Send once the daily cap is reached | the message waits for the next day and goes then without a new click, so it does not expire; HR sees why |
 
 ## Applies to
 
@@ -39,11 +44,13 @@ None.
 
 ## Configurable
 
-(Proposed) The caps per account, by the administrator.
+The caps per account, by the administrator.
 
 ## Open questions
 
-- [Q18 LinkedIn automation and its user agreement](../../../07-questions/q18-linkedin-automation-and-its-user-agreement.md)
+- [Q18 LinkedIn automation and its user agreement](../../../07-questions/q18-linkedin-automation-and-its-user-agreement.md),
+  answered by
+  [D570 LinkedIn sending prepared by default](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)
 
 ---
 

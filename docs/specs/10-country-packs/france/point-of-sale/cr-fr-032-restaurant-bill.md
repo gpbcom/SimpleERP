@@ -3,7 +3,7 @@
 
 # ⚖️ CR-FR-032 Restaurant and bar bills
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -22,7 +22,8 @@ A restaurant or bar always gives the customer a bill.
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12 (the page was verified on 18 February 2025).
+(⚖️ lawyer review before launch, D574) Start date of the arrêté n° 25-361 du 8 juin 1967 to read; in force when read on 2026-11-12 (the page was
+verified on 18 February 2025).
 
 ## Enforced by
 

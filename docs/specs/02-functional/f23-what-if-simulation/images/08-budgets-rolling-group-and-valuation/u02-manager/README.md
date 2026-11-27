@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F23-08 Budgets, rolling forecasts, group and valuation
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F23-08 Budgets, rolling forecasts, group and valuation](../../../flows/fl-f23-08-budgets-rolling-group-and-valuation.md)

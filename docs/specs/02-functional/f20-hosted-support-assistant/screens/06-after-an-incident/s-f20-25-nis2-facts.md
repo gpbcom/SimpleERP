@@ -22,10 +22,12 @@ Incident page, NIS2; the owner's notification.
 ## Wireframe
 
 ```text
-NIS2 facts, INC-12                Due 2026-11-21 09:00
+NIS2 facts, INC-12                Due 2026-11-21 09:00 (24 h, early warning)
 -------------------------------------------------------------------------------
-Start 09:00   Nature: outage   Services: invoicing   Data: none
+Start 2026-11-20 09:00   Nature: outage   Services: invoicing   Data: none
 Measures: node replaced, alert added
+Updates: by 2026-11-23 09:00 for the 72-hour notification, then the final report
+within one month
 Customers: 3 declared subject                 [Send] [Update]
 ```
 
@@ -45,7 +47,9 @@ Customers: 3 declared subject                 [Send] [Update]
 | Label | Data | Format | Editable | Required |
 |---|---|---|---|---|
 | Facts | E-F20-17 facts | text | yes | yes |
+| Due | computed from the incident start | 24 hours after it, the directive's early warning (BR-F20-19) | no | yes |
 | Sent | E-F20-17 sent | date and time | no | no |
+| Updates | E-F20-17 updates | the next one due for the 72-hour notification, then the final report within one month | no | no |
 
 ## Actions
 

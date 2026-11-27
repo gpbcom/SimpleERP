@@ -4,7 +4,7 @@
 
 # 🧭 J-U02-01 Approve requests and follow the team
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Persona
 
@@ -16,8 +16,8 @@ Approve requests quickly, from anywhere, and see how the team and site are doing
 
 ## Journey
 
-Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are a proposal (Proposed), drawn from the
-specs, for the owner to confirm.
+Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are drawn from the
+specs and confirmed by the owner (D572).
 
 ```mermaid
 journey

@@ -3,7 +3,7 @@
 
 # 🖥️ S-F7-29 Supplier EDI
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,7 +4,7 @@
 
 # 🖥️ Screens: FL-F2-12 Set up request types
 
-**Status:** 🔄 draft (GH-2 step S4b)
+**Status:** ✅ specified
 
 The screens of this flow.
 
@@ -12,4 +12,4 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-F2-29 | [Request type settings](s-f02-29-request-type-settings.md) | 🔄 |
+| 🖥️ | S-F2-29 | [Request type settings](s-f02-29-request-type-settings.md) | ✅ |

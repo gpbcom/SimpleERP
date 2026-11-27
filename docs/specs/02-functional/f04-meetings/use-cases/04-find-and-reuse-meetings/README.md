@@ -11,4 +11,4 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F4-06 | [Find and reuse past meetings](uc-f04-06-find-and-reuse-past-meetings.md) | 🔄 |
+| 📝 | UC-F4-06 | [Find and reuse past meetings](uc-f04-06-find-and-reuse-past-meetings.md) | ✅ |

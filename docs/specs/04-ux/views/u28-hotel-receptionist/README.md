@@ -3,7 +3,7 @@
 
 # 🛎️ Hotel receptionist: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ lobby. Default density: comfortable ([D42](../../../06-decisions/ux/d42-density-
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Arrivals today; Departures today; Rooms not ready.
 - Widgets: Occupancy tonight.
@@ -38,16 +38,16 @@ lobby. Default density: comfortable ([D42](../../../06-decisions/ux/d42-density-
 
 ## Navigation
 
-(Proposed) Front desk · Bookings · Rooms · Folios · Assistant.
+Front desk · Bookings · Rooms · Folios · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U28-01 | [Welcome a guest](journeys/j-u28-01-welcome-a-guest.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U28-01 | [Welcome a guest](journeys/j-u28-01-welcome-a-guest.md) | ✅ |
 
 ---
 

@@ -3,7 +3,7 @@
 
 # 🗃️ E-F6-19 Commission line
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -38,7 +38,8 @@ By rep and month.
 
 ## Retention
 
-5 years (Proposed).
+5 years with pay records, as the employer's payslip copies
+([CR-FR-047 HR records retention](../../../10-country-packs/france/labour/cr-fr-047-hr-records-retention.md)).
 
 ## Audit
 

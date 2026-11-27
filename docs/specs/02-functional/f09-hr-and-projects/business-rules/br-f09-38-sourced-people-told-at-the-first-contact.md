@@ -9,7 +9,10 @@
 
 A person whose data comes from their LinkedIn profile is told, in the first message at the latest, who processes their
 data and why, where it was found, that an AI assistant helped rank the profiles and HR chose, how long it is kept and
-their rights, with a link to the company's privacy notice for candidates.
+their rights, with a link to the company's privacy notice for candidates. A follow-up is never the first message a person
+gets: when the first message expires unsent in prepared mode, no follow-up falls due for that prospect
+([BR-F9-37](br-f09-37-outreach-stops-at-a-reply-a-refusal-or-day-60.md),
+[D570](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)).
 
 ## Why
 
@@ -26,6 +29,7 @@ from the person; when the data is used to communicate with them, they are told a
 | Invitation note with a sentence and the notice link | passes |
 | Invitation note without the notice link | fails: the sequence cannot be approved |
 | The notice says profiles are ranked with an AI assistant and HR chooses | passes |
+| Prepared mode, the invitation with the notice expired unsent | no follow-up is sent: the person never gets a message without the notice |
 
 ## Applies to
 

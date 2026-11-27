@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-13 Step changes follow the seniority rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,9 @@ in a grade of the staff category of their post. A change needs HR's approval and
 ## Why
 
 A wrong step changes the pay and the pension, and a step given early is an overpayment to recover
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (⚖️ lawyer review before launch, D574) The
+France-pack rule is still to write: to read the advancement in step of the Code général de la fonction publique and the
+statutory decree of each cadre d'emplois.
 
 ## Examples
 

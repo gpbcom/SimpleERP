@@ -158,7 +158,7 @@ A quarter for 500 people is computed in under 5 seconds.
 ## Regulatory references
 
 Measuring employees' time with a tool needs prior information of the staff and, in many countries, of their
-representatives: the France pack rule on workplace monitoring is written later; GDPR,
+representatives: the France-pack rule on workplace monitoring is [CR-FR-206 Staff committee consulted before monitoring tools](../../../../10-country-packs/france/labour/cr-fr-206-cse-consulted-on-monitoring.md); GDPR,
 [Regulation (EU) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj), article 5(1)(c) on minimisation.
 
 ## Related use cases

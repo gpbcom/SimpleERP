@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F23-06 Goals and financing
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F21-06 Experts, cutover, parallel run and set-up from documents
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F21-06 Experts, cutover, parallel run and set-up from documents](../../../flows/fl-f21-06-experts-cutover-and-parallel-run.md)

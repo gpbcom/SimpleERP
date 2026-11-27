@@ -3,16 +3,18 @@
 
 # 📏 BR-SC02-13 Gift cards honoured until they expire
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) A gift card shows its balance and validity and is accepted in every store and online until it expires; in
+A gift card shows its balance and validity and is accepted in every store and online until it expires; in
 France: [CR-FR-097 Gift cards](../../../10-country-packs/france/consumer/cr-fr-097-gift-card-validity.md).
 
 ## Why
 
-(Proposed) The legal minimum validity is still to read.
+(⚖️ lawyer review before launch, D574) The legal minimum validity and the mentions of a gift card are still to read: no official text
+was found on Légifrance, Service-public or the DGCCRF
+([CR-FR-097 Gift cards](../../../10-country-packs/france/consumer/cr-fr-097-gift-card-validity.md)).
 
 ## Examples
 

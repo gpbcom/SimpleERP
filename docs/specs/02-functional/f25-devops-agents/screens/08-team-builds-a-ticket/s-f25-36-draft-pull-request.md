@@ -3,7 +3,7 @@
 
 # 🖥️ S-F25-36 Draft pull request
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

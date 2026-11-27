@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC08-23 Federation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -2,7 +2,7 @@
 
 # 🗺️ T13 Maps and geodata
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18 to VD-23, VD-32, VD-33 / D501 to D505, D514, D515)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -35,18 +35,18 @@ and the sectors SC01, SC02, SC04, SC05, SC06, SC07, SC10, SC13, SC15, SC16 (VD-1
   [C-18 Plan](../../04-ux/design-system/components/c-18-plan.md).
 - The rights model: T2 (T13 asks it, REQ-T13-06).
 - Reading documents for employees' attributes: T7 and F3.
-- Vehicles' telematics feeds: (Proposed) connectors of T12.
+- Vehicles' telematics feeds: connectors of T12.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📌 |  | [Requirements](requirements/README.md) | 🔄 |
-| 🗃️ |  | [Data](data/README.md) | 🔄 |
+| 📌 |  | [Requirements](requirements/README.md) | ✅ |
+| 🗃️ |  | [Data](data/README.md) | ✅ |
 | 🖥️ |  | [Screens](screens/README.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
-(Proposed) Architecture, interfaces, security, operations, errors, tests and open questions are written when the owner
+Architecture, interfaces, security, operations, errors, tests and open questions are written when the owner
 has reviewed the requirements.
 
 ---

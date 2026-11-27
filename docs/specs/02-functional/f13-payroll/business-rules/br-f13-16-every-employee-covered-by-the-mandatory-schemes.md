@@ -3,7 +3,7 @@
 
 # 📏 BR-F13-16 Every employee covered by the mandatory schemes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,8 +14,8 @@ exempted blocks the pay run.
 ## Why
 
 The employer must offer a collective health scheme and fund part of it, and agreements add provident cover (death,
-disability); the law to cite is (Proposed) to read in the France pack (Code de la sécurité sociale L911-7 and the
-national agreement on executives' provident cover).
+disability); the law to cite is (⚖️ lawyer review before launch, D574) to read in the France pack: Code de la sécurité sociale
+L911-7 and the national agreement on executives' provident cover.
 
 ## Examples
 
@@ -24,7 +24,7 @@ national agreement on executives' provident cover).
 | New employee enrolled in health and provident on the first day | passes |
 | Employee with a spouse's scheme, exemption form and proof kept | passes, no deduction |
 | Employee with no enrolment and no exemption | fails: the pay run is blocked for that employee |
-| Exemption proof older than its validity | fails: flagged (Proposed) one month before it lapses |
+| Exemption proof older than its validity | fails: flagged one month before it lapses |
 
 ## Applies to
 

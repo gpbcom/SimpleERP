@@ -4,7 +4,7 @@
 
 # 📌 REQ-T13-04 Areas and outlines (plots, zones)
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-19 / D501)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -26,7 +26,7 @@ Decided by the owner on 2026-11-13 (VD-18, VD-19). The software and data named a
 1. An outline drawn or imported is checked (closed, not crossing itself) and its surface is computed.
 2. A list view filtered "within this area" returns only the records inside it.
 3. An area map on a dashboard shows totals per area, computed on visible records only (REQ-T13-06).
-4. (Proposed) A plot is created from a cadastre parcel by picking it on the map.
+4. A plot is created from a cadastre parcel by picking it on the map.
 
 ## Measure
 
@@ -34,7 +34,7 @@ Decided (D517): An "within area" filter on 100,000 records within 1 second. Surf
 
 ## Priority
 
-Should (Proposed)
+Should
 
 ## Capabilities served
 

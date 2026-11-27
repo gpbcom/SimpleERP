@@ -3,17 +3,22 @@
 
 # 🔀 FL-F9-14 Source candidates on LinkedIn
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
 HR finds people on LinkedIn for a job position through Unipile, an F24 connector whose API key stays in the secret
 store; each HR user links their own LinkedIn account on Unipile's hosted sign-in page, so SimpleERP never sees the
-password. The AI assistant ranks the profiles against the job position's criteria with a short reason per score; HR
-shortlists and approves the shortlist and the templates once. An invitation with a note goes on day 0 and follow-ups on
-days 7 and 21; replies are checked every few hours and classified by the AI assistant; everything stops at a reply, a
-refusal or day 60. A positive reply becomes an applicant who gets the booking link, and
-[FL-F9-02 Recruit](fl-f09-02-recruit.md) goes on
+password. The search runs on the search the HR user's own account offers; the criteria it lacks are applied by the AI
+assistant ([D571](../../../06-decisions/f09-hr-and-projects/d571-linkedin-sourcing-uses-the-users-search.md)). The AI
+assistant ranks the profiles against the job position's criteria with a short reason per score; HR shortlists and
+approves the shortlist and the templates once. An invitation with a note is prepared for day 0 and follow-ups for days
+7 and 21; each message waits as a task in HR's task list and HR sends it with one click, and one not sent within 7 days
+expires, the prospect going on as if they had not answered. Messages go out on their own only when the administrator
+turned automatic sending on before the sequence started: a sequence keeps the mode it started with
+([D570](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)). Replies
+are checked every few hours and classified by the AI assistant; everything stops at a reply, a refusal or day 60. A
+positive reply becomes an applicant who gets the booking link, and [FL-F9-02 Recruit](fl-f09-02-recruit.md) goes on
 ([D518](../../../06-decisions/f09-hr-and-projects/d518-linkedin-sourcing-through-unipile.md)).
 
 ## Personas
@@ -34,12 +39,18 @@ flowchart TD
   SC --> SL[HR shortlists]
   SL --> AP[HR approves the shortlist and the templates once]
   AP --> D0[Day 0 invitation with a note, or a message if connected]
-  D0 --> CHK{Replies checked every few hours}
-  CHK -- none on day 7 or 21 --> FU[Follow-up]
-  FU --> CHK
+  D0 --> MODE{Sending mode fixed when the sequence started}
+  MODE -- prepared --> TSK[A task with Send in HR's task list]
+  TSK -- HR clicks Send --> SND[Sent through Unipile within the limits]
+  TSK -- not sent within 7 days --> EXP[Expired, as if not answered]
+  MODE -- automatic --> SND
+  SND --> CHK{Replies checked every few hours}
+  EXP --> CHK
+  CHK -- none on day 7 or 21 --> FU[Follow-up due, if a first message went]
+  FU --> MODE
   CHK -- a reply --> CL{AI assistant classifies}
-  CL -- positive --> APP[Applicant, source sourcing, booking link sent]
-  CL -- negative --> DEC[Declined, erased at the end]
+  CL -- positive --> APP[Applicant, source sourcing, booking link prepared or sent]
+  CL -- negative --> DEC[Declined, thank-you prepared or sent, erased at the end]
   CL -- question or unclear --> HRQ[HR answers in the thread]
   HRQ --> MK{HR marks it}
   MK -- positive --> APP
@@ -64,6 +75,8 @@ sequenceDiagram
   S->>A: Score each profile
   A-->>S: Scores and reasons
   H->>S: Shortlist 12, approve the templates
+  S-->>H: Day 0 invitations prepared, one task each
+  H->>S: Send each prepared invitation from its task, one click each
   S->>U: Day 0 invitations with a note
   U-->>P: Invitation
   P-->>U: Yes, happy to talk next week
@@ -72,6 +85,7 @@ sequenceDiagram
   S->>A: Classify
   A-->>S: Positive
   S->>AP: Applicant Sonia M., source sourcing
+  H->>S: Send the prepared booking link
   S-->>P: Booking link
   P->>AP: Book Tuesday 10:00
 ```
@@ -80,12 +94,12 @@ sequenceDiagram
 
 | Step | Persona | Screen | Use case | What happens |
 |---|---|---|---|---|
-| 1 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F24-02](../../f24-integrations-hub/screens/01-find-and-connect/s-f24-02-connect.md) | [UC-F24-02](../../f24-integrations-hub/use-cases/01-find-and-connect/uc-f24-02-connect-a-tool-in-the-fewest-steps.md) | The administrator connects Unipile once: its API key goes to the secret store; the daily and weekly caps are set |
-| 2 | [U06](../../../01-users/personas/u06-hr.md) | [S-F9-37](../screens/02-recruit/s-f09-37-linkedin-sourcing-search.md) | [UC-F9-40](../use-cases/02-recruit/uc-f09-40-search-and-rank-linkedin-profiles.md) | HR links their LinkedIn account on Unipile's sign-in page once, sets the criteria and runs the search; the AI assistant scores each profile with a reason |
+| 1 | [U07](../../../01-users/personas/u07-administrator.md) | [S-F24-02](../../f24-integrations-hub/screens/01-find-and-connect/s-f24-02-connect.md) | [UC-F24-02](../../f24-integrations-hub/use-cases/01-find-and-connect/uc-f24-02-connect-a-tool-in-the-fewest-steps.md) | The administrator connects Unipile once: its API key goes to the secret store; the daily and weekly caps are set; LinkedIn sending stays prepared unless the administrator turns automatic sending on, a change applying only to the sequences started after it ([D570](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)) |
+| 2 | [U06](../../../01-users/personas/u06-hr.md) | [S-F9-37](../screens/02-recruit/s-f09-37-linkedin-sourcing-search.md) | [UC-F9-40](../use-cases/02-recruit/uc-f09-40-search-and-rank-linkedin-profiles.md) | HR links their LinkedIn account on Unipile's sign-in page once, sets the criteria and runs the search on the account's own search, the AI assistant applying the criteria it lacks ([D571](../../../06-decisions/f09-hr-and-projects/d571-linkedin-sourcing-uses-the-users-search.md)); the AI assistant scores each profile with a reason |
 | 3 | [U06](../../../01-users/personas/u06-hr.md) | [S-F9-37](../screens/02-recruit/s-f09-37-linkedin-sourcing-search.md) | [UC-F9-40](../use-cases/02-recruit/uc-f09-40-search-and-rank-linkedin-profiles.md) | HR reads the scores and shortlists |
 | 4 | [U06](../../../01-users/personas/u06-hr.md) | [S-F9-38](../screens/02-recruit/s-f09-38-outreach-sequence.md) | [UC-F9-41](../use-cases/02-recruit/uc-f09-41-run-a-linkedin-outreach-sequence.md) | HR approves the shortlist and the templates once |
-| 5 | [U06](../../../01-users/personas/u06-hr.md) | [S-F9-39](../screens/02-recruit/s-f09-39-prospect-conversations.md) | [UC-F9-41](../use-cases/02-recruit/uc-f09-41-run-a-linkedin-outreach-sequence.md) | Invitations and follow-ups go out; replies are checked and classified; a question or an unclear reply waits for HR |
-| 6 | [U06](../../../01-users/personas/u06-hr.md) | [S-F9-39](../screens/02-recruit/s-f09-39-prospect-conversations.md) | [UC-F9-42](../use-cases/02-recruit/uc-f09-42-turn-a-positive-reply-into-an-applicant.md) | A positive reply: the applicant is created, source sourcing, and gets the booking link |
+| 5 | [U06](../../../01-users/personas/u06-hr.md) | [S-F9-39](../screens/02-recruit/s-f09-39-prospect-conversations.md) | [UC-F9-41](../use-cases/02-recruit/uc-f09-41-run-a-linkedin-outreach-sequence.md) | Invitations and follow-ups are prepared, each waiting as a task with Send in HR's task list ([S-F9-17](../screens/06-plan-and-deliver-work/s-f09-17-projects.md)), and HR sends each with one click from the task or the thread; one not sent within 7 days expires and the prospect goes on as if they had not answered; with automatic sending on at the start, they go out on their own; replies are checked and classified; a question or an unclear reply waits for HR |
+| 6 | [U06](../../../01-users/personas/u06-hr.md) | [S-F9-39](../screens/02-recruit/s-f09-39-prospect-conversations.md) | [UC-F9-42](../use-cases/02-recruit/uc-f09-42-turn-a-positive-reply-into-an-applicant.md) | A positive reply: the applicant is created, source sourcing, and gets the booking link, prepared as a task for HR's click unless the sequence is automatic |
 | 7 | [U06](../../../01-users/personas/u06-hr.md) | [S-F9-06](../screens/02-recruit/s-f09-06-applicant-pipeline.md) | [UC-F9-06](../use-cases/02-recruit/uc-f09-06-run-the-applicant-pipeline.md) | The applicant books an interview; the pipeline goes on ([FL-F9-02](fl-f09-02-recruit.md)) |
 
 ### Entities and screens
@@ -96,7 +110,8 @@ sequenceDiagram
 | [E-F9-44 Sourcing search](../data/e-f09-44-sourcing-search.md) | Draft, Running, Ranked, Failed, Closed | 2, 3 [S-F9-37](../screens/02-recruit/s-f09-37-linkedin-sourcing-search.md) | Sourcing searches |
 | [E-F9-45 Prospect](../data/e-f09-45-prospect.md) | Found, Shortlisted, Discarded, Invited, Connected, Waiting for HR, Applicant, Declined, No answer, Erased | 2, 3 [S-F9-37](../screens/02-recruit/s-f09-37-linkedin-sourcing-search.md); 5, 6 [S-F9-39](../screens/02-recruit/s-f09-39-prospect-conversations.md) | Prospects |
 | [E-F9-46 Outreach sequence](../data/e-f09-46-outreach-sequence.md) | Draft, Running, Paused, Ended | 4 [S-F9-38](../screens/02-recruit/s-f09-38-outreach-sequence.md) | Outreach sequences |
-| [E-F9-47 Outreach message](../data/e-f09-47-outreach-message.md) | Planned, Sent, Failed, Cancelled, Received, Classified, Reviewed | 5, 6 [S-F9-39](../screens/02-recruit/s-f09-39-prospect-conversations.md) | Outreach messages |
+| [E-F9-47 Outreach message](../data/e-f09-47-outreach-message.md) | Planned, Prepared, Sent, Failed, Cancelled, Expired, Received, Classified, Reviewed | 5, 6 [S-F9-39](../screens/02-recruit/s-f09-39-prospect-conversations.md) | Outreach messages |
+| [E-F9-18 Project and task](../data/e-f09-18-project-and-task.md) | Active, Done (the task of a prepared message) | 5, 6 [S-F9-17](../screens/06-plan-and-deliver-work/s-f09-17-projects.md) | Project and tasks |
 | [E-F9-07 Applicant](../data/e-f09-07-applicant.md) | Active (created at the first stage) | 6 [S-F9-39](../screens/02-recruit/s-f09-39-prospect-conversations.md); 7 [S-F9-06](../screens/02-recruit/s-f09-06-applicant-pipeline.md) | Applicants |
 | [E-F9-06 Job position](../data/e-f09-06-job-position.md) | Active | 2, 3 [S-F9-37](../screens/02-recruit/s-f09-37-linkedin-sourcing-search.md); 5, 6 [S-F9-39](../screens/02-recruit/s-f09-39-prospect-conversations.md); 7 [S-F9-06](../screens/02-recruit/s-f09-06-applicant-pipeline.md) | Job positions |
 
@@ -132,8 +147,12 @@ table; E rows are the error cases.
 
 ## Open questions
 
-- [Q18 LinkedIn automation and its user agreement](../../../07-questions/q18-linkedin-automation-and-its-user-agreement.md)
-- [Q19 Which LinkedIn search sourcing uses](../../../07-questions/q19-which-linkedin-search-sourcing-uses.md)
+- [Q18 LinkedIn automation and its user agreement](../../../07-questions/q18-linkedin-automation-and-its-user-agreement.md),
+  answered by
+  [D570 LinkedIn sending prepared by default](../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)
+- [Q19 Which LinkedIn search sourcing uses](../../../07-questions/q19-which-linkedin-search-sourcing-uses.md),
+  answered by
+  [D571 LinkedIn sourcing uses the user's search](../../../06-decisions/f09-hr-and-projects/d571-linkedin-sourcing-uses-the-users-search.md)
 
 ---
 

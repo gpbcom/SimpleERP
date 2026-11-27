@@ -157,7 +157,8 @@ A trial offered to a consumer or a small business follows the same information d
 the trial, what happens to the data, how to stop. See
 [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md) for the consumer's withdrawal
 right and [CR-FR-065](../../../../10-country-packs/france/consumer/cr-fr-065-online-pre-contract-information.md) for the
-information before an online order; the France-pack rule on trials is written later.
+information before an online order; the France-pack rule on trials is
+[CR-FR-263 Free trials of paid services](../../../../10-country-packs/france/consumer/cr-fr-263-free-trials-of-paid-services.md).
 
 ## Related use cases
 

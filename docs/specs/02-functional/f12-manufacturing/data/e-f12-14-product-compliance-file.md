@@ -16,7 +16,7 @@ The compliance documents of a product.
 | product | product | yes | - | - | Press kit PK1 | no | no |
 | documents | declaration, technical file, manual | no | BR-F12-13 | - | declaration.pdf | no | no |
 | substances | list over 0.1 % | no | - | - | lead | no | no |
-| notifications | references | no | - | - | SCIP ref | no | no |
+| notifications | references | no | a SCIP reference may be shared by grouped articles (CR-FR-078) | - | SCIP ref | no | no |
 | state | incomplete, complete | yes | - | incomplete | complete | no | no |
 
 ## Relations
@@ -38,8 +38,8 @@ By number, date, partner.
 
 ## Retention
 
-While the product is sold and after, per
-[CR-FR-074 Conformity of machinery](../../../10-country-packs/france/products/cr-fr-074-machinery-conformity.md).
+While the product is sold and, for machinery, at least 10 years after the machine is placed on the market or put into
+service, per [CR-FR-074 Conformity of machinery](../../../10-country-packs/france/products/cr-fr-074-machinery-conformity.md).
 
 ## Audit
 

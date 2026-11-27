@@ -5,7 +5,7 @@
 
 # 📝 UC-F15-11 Keep the AI uses inventory and impact assessments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -132,7 +132,7 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 [CR-FR-057](../../../../10-country-packs/france/ai-and-recording/cr-fr-057-human-oversight.md),
 [CR-FR-058](../../../../10-country-packs/france/ai-and-recording/cr-fr-058-high-risk-ai-in-employment.md),
 [CR-FR-048 Record of processing](../../../../10-country-packs/france/data-protection/cr-fr-048-record-of-processing.md);
-impact assessment: (Proposed) to read.
+impact assessment: (⚖️ lawyer review before launch, D574) to read: GDPR article 35 and the CNIL's list of processing that needs one.
 
 ## Related use cases
 

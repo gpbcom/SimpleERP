@@ -3,7 +3,7 @@
 
 # 🗃️ E-F14-20 Rollback point
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -16,7 +16,7 @@ The previous version and the data snapshot of a plugin kept before an update, fo
 | installation | link | yes | an installation | - | Gate Booking at the restaurant example company | no | no |
 | version | text | yes | the version before the update | - | 2.3.1 | no | no |
 | snapshot | file | yes | the plugin's data | - | 128 MB | no | no |
-| taken, expires | dates | yes | expires (Proposed) 30 days after | - | 2026-11-02, 2026-12-02 | no | no |
+| taken, expires | dates | yes | expires 30 days after | - | 2026-11-02, 2026-12-02 | no | no |
 
 ## Relations
 

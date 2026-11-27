@@ -114,6 +114,12 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f09-18-field-service-e-f09-37-field-worksheet-active-phone, light](s-f09-18-field-service-e-f09-37-field-worksheet-active-phone-light.png) | ![s-f09-18-field-service-e-f09-37-field-worksheet-active-phone, dark](s-f09-18-field-service-e-f09-37-field-worksheet-active-phone-dark.png) |
 
+## s-f09-18-field-service-e-f09-37-field-worksheet-signed-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f09-18-field-service-e-f09-37-field-worksheet-signed-phone, light](s-f09-18-field-service-e-f09-37-field-worksheet-signed-phone-light.png) | ![s-f09-18-field-service-e-f09-37-field-worksheet-signed-phone, dark](s-f09-18-field-service-e-f09-37-field-worksheet-signed-phone-dark.png) |
+
 ## s-f09-18-field-service-e-f16-12-work-request-blocked-phone
 
 | Light | Dark |

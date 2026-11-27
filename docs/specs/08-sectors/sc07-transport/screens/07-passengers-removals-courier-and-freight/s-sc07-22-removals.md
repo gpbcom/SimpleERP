@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC07-22 Removals
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -30,7 +30,8 @@ Transport and logistics › Removals; the planning board; the customer's page on
 | Item               Room       Condition at loading        Photo   At unloading                   |
 | Wardrobe 3 doors   Bedroom    Good                        yes     Scratch on the side            |
 | Sofa 3 seats       Living     Small mark on the arm       yes     Same                           |
-| Quote 1,980.00  signed 2026-11-30 on the phone      Insurance value 12,000    [Invoice]          |
+| Quote 1,980.00  signed at home 2026-11-30   Deposit from 2026-12-08 (day 8)                      |
+| Withdrawal to 2026-12-14, early start asked by the customer   Insurance value 12,000  [Invoice]  |
 +--------------------------------------------------------------------------------------------------+
 ```
 
@@ -53,7 +54,8 @@ Transport and logistics › Removals; the planning board; the customer's page on
 | From and to | E-SC07-19 from, to | addresses with floor | yes while Quoted | yes |
 | Volume | E-SC07-19 volume | number in m3 | yes while Quoted | yes |
 | Crew and truck | E-SC07-19 crew, truck | links | yes | yes |
-| Quote | E-SC07-19 quote | link | no | yes |
+| Quote | E-SC07-19 quote | link, with the signature date and place | no | yes |
+| Payment ban and withdrawal | computed from a signature at home | no payment or deposit for 7 days from the signature, allowed from day 8 (Code de la consommation L221-10); withdrawal to day 14; a move within it only on the customer's express request, on paper or a durable medium (L221-25, CR-FR-276) | no | yes when signed at home |
 | Insured value | E-SC07-19 declared value | amount in EUR | yes while Quoted | yes |
 | Items | E-SC07-19 items | list with condition and photo | yes on the day | no |
 
@@ -72,7 +74,8 @@ Transport and logistics › Removals; the planning board; the customer's page on
 - Empty: No removal yet, with New removal.
 - Loading: the headings and the table as placeholders; the values follow.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); a quote changed
-  after signature or a truck not free, with the date to change.
+  after signature, a truck not free, or a deposit asked within 7 days of a signature at home, refused with the first
+  day it may be asked (UC-SC07-22 criterion 5).
 - Read-only: the record in a locked state: values shown, no action offered.
 - Offline: Not available offline: a back-office screen on live, shared data
   ([D38](../../../../06-decisions/ux/d38-offline-field-tasks.md): only today's schedule, time and intervention records

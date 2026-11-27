@@ -13,5 +13,6 @@ The images of this flow, one folder per persona, in light and dark mode (D120).
 |---|---|---|---|
 | 🖼️ |  | [FL-F9-06 Plan and deliver work: U02 Manager](u02-manager/README.md) | 16 images |
 | 🖼️ |  | [FL-F9-06 Plan and deliver work: U03 Sales](u03-sales/README.md) | 6 images |
+| 🖼️ |  | [FL-F9-06 Plan and deliver work: U06 Human resources](u06-hr/README.md) | 4 images |
 | 🖼️ |  | [FL-F9-06 Plan and deliver work: U09 Customer](u09-customer/README.md) | 2 images |
 | 🖼️ |  | [FL-F9-06 Plan and deliver work: U14 Field worker](u14-field-worker/README.md) | 4 images |

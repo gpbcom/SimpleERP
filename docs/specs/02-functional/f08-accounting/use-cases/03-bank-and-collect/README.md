@@ -12,4 +12,4 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-F8-05 | [Collect customer payments](uc-f08-05-collect-customer-payments.md) | ✅ |
-| 📝 | UC-F8-06 | [Connect banks and reconcile](uc-f08-06-connect-banks-and-reconcile.md) | 🔄 |
+| 📝 | UC-F8-06 | [Connect banks and reconcile](uc-f08-06-connect-banks-and-reconcile.md) | ✅ |

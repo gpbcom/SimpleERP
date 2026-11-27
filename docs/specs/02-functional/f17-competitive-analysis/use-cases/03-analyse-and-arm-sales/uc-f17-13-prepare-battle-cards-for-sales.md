@@ -4,7 +4,7 @@
 
 # 📝 UC-F17-13 Prepare battle cards for sales
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -45,7 +45,7 @@ Monthly per card.
 
 ## Alternative flows
 
-- 3a. A card older than (Proposed) 90 days is flagged out of date.
+- 3a. A card older than 90 days is flagged out of date.
 
 ## Error flows
 

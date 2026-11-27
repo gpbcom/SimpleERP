@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-14 Tournament
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

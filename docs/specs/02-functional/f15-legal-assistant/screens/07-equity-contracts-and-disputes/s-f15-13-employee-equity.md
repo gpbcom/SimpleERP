@@ -4,7 +4,7 @@
 
 # 🖥️ S-F15-13 Employee equity
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

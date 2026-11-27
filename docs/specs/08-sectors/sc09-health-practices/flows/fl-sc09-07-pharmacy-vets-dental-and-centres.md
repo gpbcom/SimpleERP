@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC09-07 Pharmacy, eyewear, vets, dental and health centres
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

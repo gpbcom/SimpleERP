@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U31-01 | [Thank donors and close the accounts](j-u31-01-thank-donors-and-close-the-accounts.md) | 🔄 |
+| 🧭 | J-U31-01 | [Thank donors and close the accounts](j-u31-01-thank-donors-and-close-the-accounts.md) | ✅ |
 
 ---
 

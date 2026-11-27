@@ -3,17 +3,19 @@
 
 # ⚖️ CR-FR-114 Staff meals as a benefit in kind
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) Meals a restaurant gives its staff are a benefit in kind, part of pay and subject to contributions, at the
-legal value per meal.
+Meals a restaurant gives its staff are a benefit in kind, part of pay and subject to
+contributions, at the legal value per meal ([URSSAF, Avantages en nature](https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/avantages-en-nature.html), read 2026-11-27).
 
 ## Values
 
 - Read: benefits in kind are part of pay and of the contribution base.
-- (Proposed) The value per meal.
+- Value per meal in 2026: hotels, cafés, restaurants and bars 4.25 EUR (8.50 EUR for two) from 1 January to
+  31 May 2026, 4.35 EUR (8.70 EUR for two) from 1 June 2026; other employers 5.50 EUR (11.00 EUR for two); a
+  collective agreement may set more; arrêté du 25 février 2025 ([URSSAF, Avantages en nature](https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/avantages-en-nature.html), read 2026-11-27).
 
 ## Legal references
 
@@ -22,7 +24,8 @@ legal value per meal.
 
 ## Effective dates
 
-(Proposed) To read.
+The 2026 values: from 2026-01-01, and 4.35 EUR in hotels, cafés, restaurants and bars from
+2026-06-01 ([URSSAF, Avantages en nature](https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/avantages-en-nature.html), read 2026-11-27).
 
 ## Enforced by
 
@@ -35,7 +38,8 @@ in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read: the sanction of a benefit in kind left out of the contribution base (the
+Code de la sécurité sociale reassessment and surcharges).
 
 ## Exceptions
 

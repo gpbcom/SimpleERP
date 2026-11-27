@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC04-18 Agent mode
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

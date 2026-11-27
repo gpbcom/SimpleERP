@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F3-11 Trust the answers
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F3-11 Trust the answers](../../../flows/fl-f03-11-trust-the-answers.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

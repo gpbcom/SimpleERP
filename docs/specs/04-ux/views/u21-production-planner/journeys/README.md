@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U21-01 | [Plan and follow production](j-u21-01-plan-and-follow-production.md) | 🔄 |
+| 🧭 | J-U21-01 | [Plan and follow production](j-u21-01-plan-and-follow-production.md) | ✅ |
 
 ---
 

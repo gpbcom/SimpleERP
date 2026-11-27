@@ -3,7 +3,7 @@
 
 # 🗃️ E-F13-21 Profit-sharing year
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -18,8 +18,8 @@ choice to be paid or to invest.
 | reserve | amount | yes | the legal formula | computed | 40 000.00 EUR | no | no |
 | keys | text | yes | salary, time worked, equal share | from the agreement | 50 % salary, 50 % time | no | no |
 | employee share | amount per employee | yes | within the individual ceiling | computed | 812.40 EUR | yes | no |
-| choice | choice per employee | yes | paid, invested | (Proposed) invested | paid | yes | no |
-| choice deadline | date | yes | after the shares are announced | (Proposed) 15 days after | 2027-05-15 | no | no |
+| choice | choice per employee | yes | paid, invested | invested | paid | yes | no |
+| choice deadline | date | yes | after the shares are announced | 15 days after (⚖️ lawyer review before launch, D574: Code du travail R3324-21-1) | 2027-05-15 | no | no |
 
 ## Relations
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-03 Issue payment orders and revenue titles
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -145,13 +145,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-The authorising officer orders the payment of expenses and the collection of revenue: it issues payment
-orders (mandates) and revenue titles, and does not handle the money, which only the public accountant does after its own
+The authorising officer orders the payment of expenses and the collection of revenue: it issues payment orders
+(mandates) and revenue titles, and does not handle the money, which only the public accountant does after its own
 checks. The two functions are kept apart by law. The accountant may suspend a payment that is irregular. The delegations
-and thresholds are data of the France pack. Related:
+and thresholds are data of the France pack. (⚖️ lawyer review before launch, D574) The France-pack rule is still to write: to read
+the separation of authorising officers and accountants and their controls (décret n° 2012-1246, GBCP). Related:
 [CR-FR-091](../../../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule on the budget:
   [CR-FR-250 Public accounting M57](../../../../10-country-packs/france/accounting/cr-fr-250-public-accounting-m57.md)
 
 ## Related use cases

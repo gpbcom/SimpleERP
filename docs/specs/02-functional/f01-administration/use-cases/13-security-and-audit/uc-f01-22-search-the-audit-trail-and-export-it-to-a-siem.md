@@ -4,7 +4,7 @@
 
 # 📝 UC-F1-22 Search the audit trail and export it to a SIEM
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -53,7 +53,7 @@ Weekly searches; the SIEM stream is set once.
 
 ## Error flows
 
-- 4e. The SIEM refuses or is unreachable: events are kept and retried; after an hour (Proposed) the administrator is
+- 4e. The SIEM refuses or is unreachable: events are kept and retried; after an hour the administrator is
   warned.
 - 3e. A broken checksum chain is found: the export says where, and the administrator is warned.
 
@@ -126,7 +126,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A search over one year of a 50-user company answers within 3 seconds (Proposed).
+A search over one year of a 50-user company answers within 3 seconds.
 
 ## Regulatory references
 

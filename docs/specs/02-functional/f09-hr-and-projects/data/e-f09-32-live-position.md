@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-32 Live position
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-21, VD-22, VD-23 / D503, D504, D505)
+**Status:** ✅ specified
 
 ## Purpose
 

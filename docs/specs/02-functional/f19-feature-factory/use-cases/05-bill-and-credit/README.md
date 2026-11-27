@@ -16,4 +16,4 @@ The use cases of this flow.
 | 📝 | UC-F19-16 | [Invoice features with the right VAT](uc-f19-16-invoice-features-with-the-right-vat.md) | ✅ |
 | 📝 | UC-F19-19 | [Follow features, costs and credits](uc-f19-19-follow-features-costs-and-credits.md) | ✅ |
 | 📝 | UC-F19-25 | [Post feature invoices, credits and refunds to accounting](uc-f19-25-post-feature-invoices-credits-and-refunds-to-accounting.md) | ✅ |
-| 📝 | UC-F19-26 | [Reconcile feature payments and follow up unpaid invoices](uc-f19-26-reconcile-feature-payments-and-follow-up-unpaid-invoices.md) | 🔄 |
+| 📝 | UC-F19-26 | [Reconcile feature payments and follow up unpaid invoices](uc-f19-26-reconcile-feature-payments-and-follow-up-unpaid-invoices.md) | ✅ |

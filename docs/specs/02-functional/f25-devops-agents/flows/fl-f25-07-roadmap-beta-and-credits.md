@@ -4,7 +4,7 @@
 
 # 🔀 FL-F25-07 Roadmap, beta, credits and changelog
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

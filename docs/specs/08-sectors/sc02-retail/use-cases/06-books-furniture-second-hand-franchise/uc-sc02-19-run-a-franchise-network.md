@@ -4,7 +4,7 @@
 
 # 📝 UC-SC02-19 Run a franchise network
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -170,7 +170,7 @@ information the law lists, a set number of days before the signature or any paym
 is kept as data of the country pack. The France-pack rule is listed below. Related:
 [CR-FR-175](../../../../10-country-packs/france/trade/cr-fr-175-unfair-b2b-practices.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-253 Franchise disclosure document](../../../../10-country-packs/france/trade/cr-fr-253-franchise-disclosure.md)
 
 ## Related use cases

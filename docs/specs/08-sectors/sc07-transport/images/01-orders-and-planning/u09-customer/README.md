@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC07-01 Orders and planning
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC07-01 Orders and planning](../../../flows/fl-sc07-01-orders-and-planning.md) for this persona, in light
 and dark mode (D120, D121). Errors follow the

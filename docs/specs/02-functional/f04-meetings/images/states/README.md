@@ -3,7 +3,7 @@
 
 # 🖼️ Screen states
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 The Empty, Loading, Read-only and Offline state of each screen, light and dark (D457, D120).
 

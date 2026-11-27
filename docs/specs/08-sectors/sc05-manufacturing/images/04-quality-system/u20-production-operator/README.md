@@ -3,7 +3,7 @@
 
 # 🖼️ FL-SC05-04 Quality system
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC05-04 Quality system](../../../flows/fl-sc05-04-quality-system.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

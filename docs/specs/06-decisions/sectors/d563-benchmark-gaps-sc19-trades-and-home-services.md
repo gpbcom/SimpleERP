@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found that the
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found that the
 industry packages of other suites cover trades and home services (maintenance contracts, interventions, home-services
 credit, installations with labels) and that SC19 did not exist. Home trades carry many duties: legal yearly check-ups,
 the home-services tax credit with its advance, labels and grants, insurance and warranties, refrigerant handling, price
@@ -83,7 +83,7 @@ France-pack rule is written.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC19 Trades and home
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC19 Trades and home
 services").
 
 ## Consequences

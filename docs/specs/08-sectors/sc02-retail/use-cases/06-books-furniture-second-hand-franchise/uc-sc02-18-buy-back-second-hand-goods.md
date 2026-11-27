@@ -4,7 +4,7 @@
 
 # 📝 UC-SC02-18 Buy back second-hand goods
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -161,7 +161,7 @@ for a legal period and shown to the authorities on request. The France-pack rule
 [CR-FR-022](../../../../10-country-packs/france/payments/cr-fr-022-cash-payment-limit.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-228 Second-hand purchase register](../../../../10-country-packs/france/trade/cr-fr-228-second-hand-register.md)
 
 ## Related use cases

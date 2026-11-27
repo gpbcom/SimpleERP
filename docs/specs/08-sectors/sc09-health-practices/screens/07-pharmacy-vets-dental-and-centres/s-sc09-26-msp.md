@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC09-26 Multi-professional practice
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 🎟️ Box-office agent: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ the door. Default density: comfortable ([D42](../../../06-decisions/ux/d42-densi
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Today's sales; Refunds to process.
 - Widgets: Tonight's admissions.
@@ -37,16 +37,16 @@ the door. Default density: comfortable ([D42](../../../06-decisions/ux/d42-densi
 
 ## Navigation
 
-(Proposed) Box office · Scan · Orders · Me.
+Box office · Scan · Orders · Me.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U44-01 | [Run the box office and the door](journeys/j-u44-01-run-the-door.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U44-01 | [Run the box office and the door](journeys/j-u44-01-run-the-door.md) | ✅ |
 
 ---
 

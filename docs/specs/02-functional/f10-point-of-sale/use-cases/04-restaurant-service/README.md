@@ -13,5 +13,5 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-F10-09 | [Run the restaurant floor and bookings](uc-f10-09-run-the-restaurant-floor-and-bookings.md) | ✅ |
-| 📝 | UC-F10-10 | [Prepare orders on kitchen screens](uc-f10-10-prepare-orders-on-kitchen-screens.md) | 🔄 |
+| 📝 | UC-F10-10 | [Prepare orders on kitchen screens](uc-f10-10-prepare-orders-on-kitchen-screens.md) | ✅ |
 | 📝 | UC-F10-11 | [Split the bill in a restaurant](uc-f10-11-split-the-bill-in-a-restaurant.md) | ✅ |

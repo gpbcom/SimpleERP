@@ -4,7 +4,7 @@
 
 # 📝 UC-F18-22 Redirect the old site's addresses
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -70,7 +70,7 @@ Marketing maps; the owner publishes.
 
 ## Notifications
 
-- Marketing (Proposed) weekly of old addresses still receiving visits after 6 months.
+- Marketing weekly of old addresses still receiving visits after 6 months.
 
 ## Audit events
 

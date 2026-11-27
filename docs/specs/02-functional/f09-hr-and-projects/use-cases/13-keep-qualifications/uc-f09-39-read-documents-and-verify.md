@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-39 Read documents with the AI and verify
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-25, VD-26 / D507, D508)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -60,12 +60,12 @@ At hiring; at each renewal; in batches when a company starts with SimpleERP.
 - 1a. A batch at hiring: several documents for one employee, or one per employee for many; the readings queue on
   S-F9-36.
 - 1b. The employee sends a document from their phone; it is read the same way and waits for HR (D517).
-- 5a. HR confirms several readings of high confidence together, each still shown beside its source (Proposed).
+- 5a. HR confirms several readings of high confidence together, each still shown beside its source.
 
 ## Error flows
 
 - 2e. The AI cannot read the document (blurred, unknown layout): nothing is drafted; HR is told and enters by hand.
-- 2f. The name read differs from the employee's name (Proposed): the reading is flagged and never merged until HR
+- 2f. The name read differs from the employee's name: the reading is flagged and never merged until HR
   decides.
 - 5e. HR rejects: the attribute is not created; the reading stays rejected with the reason; the employee is told.
 - Any step: the AI service does not answer; the call is retried first
@@ -92,7 +92,7 @@ about them.
 
 ## Notifications
 
-- HR: readings waiting to verify (a daily summary, Proposed).
+- HR: readings waiting to verify (a daily summary).
 - The employee: what was read and kept, or rejected.
 
 ## Audit events
@@ -110,7 +110,7 @@ The AI reads only the attributes of the four families; it never keeps other cont
 ## API, MCP and A2A exposure
 
 T5 operations of F9 for HR (add a document, list readings, confirm, correct, reject); the MCP tool of F9 may list
-readings but never confirm one (Proposed); no A2A skill.
+readings but never confirm one; no A2A skill.
 
 ## Screens
 
@@ -153,7 +153,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A one-page document read within 30 seconds (Proposed); a batch in the background with its progress.
+A one-page document read within 30 seconds; a batch in the background with its progress.
 
 ## Regulatory references
 

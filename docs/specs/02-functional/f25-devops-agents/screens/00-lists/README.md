@@ -53,11 +53,11 @@ capability's menu entry; admin lists under Administration
 | 🗂️ | S-F25-L16 | [Roadmap items](s-f25-l16-roadmap-items.md) | ✅ |
 | 🗂️ | S-F25-L17 | [Beta enrolments](s-f25-l17-beta-enrolments.md) | ✅ |
 | 🗂️ | S-F25-L18 | [Report credits](s-f25-l18-report-credits.md) | ✅ |
-| 🗂️ | S-F25-L19 | [Work contracts](s-f25-l19-work-contracts.md) | 🔄 |
-| 🗂️ | S-F25-L20 | [Agent roles](s-f25-l20-agent-roles.md) | 🔄 |
-| 🗂️ | S-F25-L21 | [Worker handoffs](s-f25-l21-worker-handoffs.md) | 🔄 |
-| 🗂️ | S-F25-L22 | [Verifications](s-f25-l22-verifications.md) | 🔄 |
-| 🗂️ | S-F25-L23 | [Run checkpoints](s-f25-l23-run-checkpoints.md) | 🔄 |
+| 🗂️ | S-F25-L19 | [Work contracts](s-f25-l19-work-contracts.md) | ✅ |
+| 🗂️ | S-F25-L20 | [Agent roles](s-f25-l20-agent-roles.md) | ✅ |
+| 🗂️ | S-F25-L21 | [Worker handoffs](s-f25-l21-worker-handoffs.md) | ✅ |
+| 🗂️ | S-F25-L22 | [Verifications](s-f25-l22-verifications.md) | ✅ |
+| 🗂️ | S-F25-L23 | [Run checkpoints](s-f25-l23-run-checkpoints.md) | ✅ |
 
 ---
 

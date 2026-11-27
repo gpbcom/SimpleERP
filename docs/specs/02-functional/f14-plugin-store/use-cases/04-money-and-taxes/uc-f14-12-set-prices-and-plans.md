@@ -4,7 +4,7 @@
 
 # 📝 UC-F14-12 Set prices and plans
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -49,7 +49,7 @@ Rare.
 
 ## Error flows
 
-- 4e. A price change: buyers are told in advance (Proposed) 30 days ahead.
+- 4e. A price change: buyers are told in advance 30 days ahead.
 - Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
   (D122) and what was typed stays on the screen.
 

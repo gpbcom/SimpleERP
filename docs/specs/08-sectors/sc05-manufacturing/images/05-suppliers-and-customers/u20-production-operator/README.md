@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC05-05 Suppliers and customers
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC05-05 Suppliers and customers](../../../flows/fl-sc05-05-suppliers-and-customers.md) for this persona,
 in light and dark mode (D120, D121). Errors follow the

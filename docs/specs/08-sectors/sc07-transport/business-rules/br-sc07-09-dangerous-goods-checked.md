@@ -3,11 +3,11 @@
 
 # 📏 BR-SC07-09 Dangerous goods checked
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) A load of dangerous goods needs its document, a trained driver and an equipped vehicle; the driver's
+A load of dangerous goods needs its document, a trained driver and an equipped vehicle; the driver's
 dangerous-goods training is a legal requirement of the dangerous-goods trip's request type
 [BR-F9-26](../../../02-functional/f09-hr-and-projects/business-rules/br-f09-26-legal-requirements-never-relaxed.md),
 checked by
@@ -16,7 +16,8 @@ in France: [CR-FR-121 Dangerous goods (ADR)](../../../10-country-packs/france/tr
 
 ## Why
 
-(Proposed) The documents and thresholds are still to read.
+(⚖️ lawyer review before launch, D574) The documents and the exemption thresholds are still to read: ADR 5.4, 8.2 and 1.1.3.6, in
+the edition in force (CR-FR-121).
 
 ## Examples
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC10-18 Depreciation never creates a rental loss
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,7 +15,7 @@ results.
 
 The tax rules allow depreciation only against the rental result; deducting more would be wrong in the return. The owner
 asked for furnished rentals ([D554](../../../06-decisions/sectors/d554-benchmark-gaps-sc10-real-estate.md)).
-The values of the year come from the France pack, written later.
+The values of the year come from the France pack ([CR-FR-240](../../../10-country-packs/france/tax-and-vat/cr-fr-240-furnished-rentals-lmnp.md)).
 
 ## Examples
 
@@ -32,7 +32,7 @@ The values of the year come from the France pack, written later.
 - [UC-SC10-23](../use-cases/07-short-stays-commercial-and-coworking/uc-sc10-23-keep-furnished-rental-figures.md)
 - [E-SC10-19 Furnished property](../data/e-sc10-19-furnished-property.md)
 - [E-SC10-09 Rent call](../data/e-sc10-09-rent-call.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-240 Furnished rentals (LMNP)](../../../10-country-packs/france/tax-and-vat/cr-fr-240-furnished-rentals-lmnp.md)
 
 ## Exceptions

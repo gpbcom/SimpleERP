@@ -146,7 +146,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 A salon that uses cosmetic products keeps the batch used so that a product withdrawn or recalled can be
-traced to the clients who received it. The France-pack rule is written later. Related:
+traced to the clients who received it. The France-pack rule is [CR-FR-290 Cosmetic products used and sold](../../../../10-country-packs/france/products/cr-fr-290-cosmetic-products.md). Related:
 [UC-SC17-12](uc-sc17-12-keep-cosmetics-safety-records.md).
 
 ## Related use cases

@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC12-12 | [Quality file](s-sc12-12-quality-file.md) | 🔄 |
-| 🖥️ | S-SC12-13 | [Yearly report](s-sc12-13-yearly-report.md) | 🔄 |
-| 🖥️ | S-SC12-14 | [Complaints](s-sc12-14-complaints.md) | 🔄 |
+| 🖥️ | S-SC12-12 | [Quality file](s-sc12-12-quality-file.md) | ✅ |
+| 🖥️ | S-SC12-13 | [Yearly report](s-sc12-13-yearly-report.md) | ✅ |
+| 🖥️ | S-SC12-14 | [Complaints](s-sc12-14-complaints.md) | ✅ |

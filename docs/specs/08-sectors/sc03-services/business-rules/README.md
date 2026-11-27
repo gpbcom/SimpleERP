@@ -2,7 +2,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -25,10 +25,10 @@ One file per rule.
 | 📏 | BR-SC03-13 | [Skills kept current](br-sc03-13-skills-kept-current.md) | ✅ |
 | 📏 | BR-SC03-14 | [Payment terms within the law](br-sc03-14-payment-terms-in-the-law.md) | ✅ |
 | 📏 | BR-SC03-15 | [Utilisation from approved time](br-sc03-15-utilisation-from-approved-time.md) | ✅ |
-| 📏 | BR-SC03-16 | [Assignment contracts are signed in two working days](br-sc03-16-assignment-contracts-are-signed-in-two-working-days.md) | 🔄 |
-| 📏 | BR-SC03-17 | [Media are rebilled at cost plus the agreed fee](br-sc03-17-media-are-rebilled-at-cost-plus-the-agreed-fee.md) | 🔄 |
-| 📏 | BR-SC03-18 | [Certificates lapse without their surveillance audit](br-sc03-18-certificates-lapse-without-their-surveillance-audit.md) | 🔄 |
-| 📏 | BR-SC03-19 | [Library answers carry their review date](br-sc03-19-library-answers-carry-their-review-date.md) | 🔄 |
+| 📏 | BR-SC03-16 | [Assignment contracts are signed in two working days](br-sc03-16-assignment-contracts-are-signed-in-two-working-days.md) | ✅ |
+| 📏 | BR-SC03-17 | [Media are rebilled at cost plus the agreed fee](br-sc03-17-media-are-rebilled-at-cost-plus-the-agreed-fee.md) | ✅ |
+| 📏 | BR-SC03-18 | [Certificates lapse without their surveillance audit](br-sc03-18-certificates-lapse-without-their-surveillance-audit.md) | ✅ |
+| 📏 | BR-SC03-19 | [Library answers carry their review date](br-sc03-19-library-answers-carry-their-review-date.md) | ✅ |
 
 ---
 

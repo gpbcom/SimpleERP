@@ -23,7 +23,8 @@ retroactively; homes rated F or G cannot be revised.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Loi n° 89-462 art. 17-1, with the F and G rule, in its current version since 2022-08-24 ([loi n° 89-462, chapter III](https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000509310/LEGISCTA000006118908/),
+read 2026-11-27).
 
 ## Enforced by
 

@@ -60,11 +60,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-desktop, light](s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-desktop-light.png) | ![s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-desktop, dark](s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-desktop-dark.png) |
 
+## s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-desktop, light](s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-desktop-light.png) | ![s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-desktop, dark](s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-desktop-dark.png) |
+
 ## s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-phone
 
 | Light | Dark |
 |---|---|
 | ![s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-phone, light](s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-phone-light.png) | ![s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-phone, dark](s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-active-phone-dark.png) |
+
+## s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-phone, light](s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-phone-light.png) | ![s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-phone, dark](s-f24-18-yearly-review-e-f24-15-connector-catalogue-review-published-phone-dark.png) |
 
 ## s-f24-18-yearly-review-e-f24-01-connector-active-desktop
 

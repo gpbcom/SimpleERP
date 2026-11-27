@@ -3,7 +3,7 @@
 
 # 🗃️ E-F19-13 Code handover
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -41,7 +41,7 @@ By feature and version.
 
 ## Retention
 
-(Proposed) 1 year after cancellation.
+1 year after cancellation.
 
 ## Audit
 

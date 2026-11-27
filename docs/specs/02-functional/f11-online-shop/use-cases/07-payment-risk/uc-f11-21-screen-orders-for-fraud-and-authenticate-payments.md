@@ -4,7 +4,7 @@
 
 # 📝 UC-F11-21 Screen orders for fraud and authenticate payments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -56,7 +56,7 @@ Every order.
 ## Error flows
 
 - 2e. Authentication fails: the payment is refused and another method offered.
-- 3e. Not reviewed within 24 hours (Proposed): reminded, not shipped.
+- 3e. Not reviewed within 24 hours: reminded, not shipped.
 
 ## Business rules
 
@@ -124,11 +124,11 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Scoring adds under 1 second to checkout (Proposed).
+Scoring adds under 1 second to checkout.
 
 ## Regulatory references
 
-(Proposed) to read: PSD2 strong customer authentication (Regulation (EU) 2018/389).
+(⚖️ lawyer review before launch, D574) to read: PSD2 strong customer authentication (Regulation (EU) 2018/389).
 
 ## Related use cases
 

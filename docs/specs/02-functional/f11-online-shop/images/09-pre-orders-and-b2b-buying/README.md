@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F11-09 Pre-orders and B2B buying
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

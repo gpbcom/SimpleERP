@@ -8,7 +8,8 @@
 
 ## Summary
 
-HR schedules each employee's professional interviews (every 2 years, the 6-year review) and occupational health visits,
+HR schedules each employee's career-path interviews (in the first year after hiring, then at most every 4 years, the
+8-year review) and occupational health visits,
 with reminders to managers and the record of each.
 
 ## Personas
@@ -41,7 +42,8 @@ Continuous; weekly reminders.
 ## Main flow
 
 1. HR opens HR duties ([S-F9-03](../../screens/01-people/s-f09-03-hr-duties.md)) on the Interviews and visits tab.
-2. SimpleERP lists who is due: professional interviews every 2 years, the 6-year review, health visits by the
+2. SimpleERP lists who is due: career-path interviews in the first year after hiring then at most every 4 years, the
+   8-year review, health visits by the
    employee's follow-up type,
    [CR-FR-039](../../../../10-country-packs/france/labour/cr-fr-039-professional-interviews.md),
    [CR-FR-045](../../../../10-country-packs/france/labour/cr-fr-045-occupational-health-visits.md).
@@ -112,8 +114,8 @@ sequenceDiagram
 
 ## Acceptance criteria
 
-1. **Given** Lea hired on 2024-12-01 **when** 2026-11-01 comes **then** her professional interview is due and her
-   manager asked to schedule it.
+1. **Given** Lea hired on 2025-12-01 **when** 2026-09-01 comes **then** her first career-path interview is due within
+   3 months (first year after hiring) and her manager asked to schedule it.
 2. **Given** an interview overdue **when** the week passes **then** HR and the manager are reminded.
 3. **Given** a night worker **when** health visits are listed **then** the reinforced follow-up dates show.
 

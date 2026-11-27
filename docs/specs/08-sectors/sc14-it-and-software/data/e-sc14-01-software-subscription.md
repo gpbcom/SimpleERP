@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC14-01 Software subscription
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -19,7 +19,7 @@ A customer's subscription.
 
 ## Relations
 
-(Proposed) As its use cases.
+As its use cases.
 
 ## Lifecycle
 
@@ -34,7 +34,7 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) By number, date, partner.
+By number, date, partner.
 
 ## Retention
 
@@ -47,7 +47,7 @@ Every change.
 
 ## Import and export
 
-(Proposed) CSV, FEC where relevant.
+CSV, FEC where relevant.
 
 ## Used by
 

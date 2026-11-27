@@ -11,6 +11,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F4-17 | [Chat with colleagues](uc-f04-17-chat-with-colleagues.md) | 🔄 |
-| 📝 | UC-F4-18 | [Let customers book appointments](uc-f04-18-let-customers-book-appointments.md) | 🔄 |
+| 📝 | UC-F4-17 | [Chat with colleagues](uc-f04-17-chat-with-colleagues.md) | ✅ |
+| 📝 | UC-F4-18 | [Let customers book appointments](uc-f04-18-let-customers-book-appointments.md) | ✅ |
 | 📝 | UC-F4-19 | [Route incoming calls](uc-f04-19-route-incoming-calls.md) | ✅ |

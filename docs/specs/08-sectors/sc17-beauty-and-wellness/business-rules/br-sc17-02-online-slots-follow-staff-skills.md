@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-02 Online slots follow staff skills
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

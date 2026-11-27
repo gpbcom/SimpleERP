@@ -3,7 +3,7 @@
 
 # 🗃️ E-F3-18 Evaluation run
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -39,7 +39,7 @@ By date and trigger.
 
 ## Retention
 
-2 years (Proposed).
+2 years.
 
 ## Audit
 

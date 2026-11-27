@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-F15-05 Duties and records
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

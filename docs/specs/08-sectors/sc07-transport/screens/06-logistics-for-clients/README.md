@@ -12,6 +12,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC07-14 | [Client warehouse](s-sc07-14-client-warehouse.md) | 🔄 |
-| 🖥️ | S-SC07-15 | [Storage billing](s-sc07-15-storage-billing.md) | 🔄 |
-| 🖥️ | S-SC07-16 | [Client portal](s-sc07-16-client-portal.md) | 🔄 |
+| 🖥️ | S-SC07-14 | [Client warehouse](s-sc07-14-client-warehouse.md) | ✅ |
+| 🖥️ | S-SC07-15 | [Storage billing](s-sc07-15-storage-billing.md) | ✅ |
+| 🖥️ | S-SC07-16 | [Client portal](s-sc07-16-client-portal.md) | ✅ |

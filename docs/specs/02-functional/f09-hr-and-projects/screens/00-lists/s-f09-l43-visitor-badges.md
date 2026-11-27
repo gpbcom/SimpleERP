@@ -33,10 +33,12 @@ filter, total and act on many visitor badges at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Visitor badges    HR and projects › Visitor badges   [+ New]                                                 |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] VISITOR BADGE   STATE                                                                |
+| state             | [ ] VISITOR BADG   NUMBER   VISITOR   PRINTED AT   PRINTED ON   STATE                    |
+| visitor           | [ ] ...                                                  Open >                          |
+| printed at        | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,7 +48,11 @@ filter, total and act on many visitor badges at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Visitor badge | the record's title | text | yes |
+| Visitor badge | title | text | yes |
+| Number | number | text | yes |
+| Visitor | visitor | person's name | yes |
+| Printed at | printed at | link to the record | yes |
+| Printed on | printed on | date and time | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -56,16 +62,20 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Visitor | each person, the user first | the visible rows (D488) |
+| Printed at | each linked printed at | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: visitor badges link to no other record type in their fields.
+- Visitor badges of a chosen reception kiosk, or of the reception kiosks that match a filter.
+- From the other side: the reception kiosks that have visitor badges, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by printed on.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -105,7 +115,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| visitor | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

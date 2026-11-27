@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC02-03 | [Replenishment](s-sc02-03-replenishment.md) | 🔄 |
-| 🖥️ | S-SC02-04 | [Transfers](s-sc02-04-transfers.md) | 🔄 |
-| 🖥️ | S-SC02-07 | [Store count](s-sc02-07-store-count.md) | 🔄 |
+| 🖥️ | S-SC02-03 | [Replenishment](s-sc02-03-replenishment.md) | ✅ |
+| 🖥️ | S-SC02-04 | [Transfers](s-sc02-04-transfers.md) | ✅ |
+| 🖥️ | S-SC02-07 | [Store count](s-sc02-07-store-count.md) | ✅ |

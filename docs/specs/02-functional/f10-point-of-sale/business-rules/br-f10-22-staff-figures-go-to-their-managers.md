@@ -4,11 +4,11 @@
 
 # 📏 BR-F10-22 Staff figures go to their managers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-Sales per staff member are shown to their store manager and the owner, never on shared screens (Proposed).
+Sales per staff member are shown to their store manager and the owner, never on shared screens.
 
 ## Why
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-15 Contributions follow the employee's scheme
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,11 @@ the pack, and a change of status moves the scheme from its date and corrects the
 ## Why
 
 Contributions to the wrong scheme give the employee wrong pension rights and bring a recovery
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The France-pack rule is
+[CR-FR-252 Public-sector contributions](../../../10-country-packs/france/payroll/cr-fr-252-public-sector-contributions.md):
+a tenured employee is affiliated to the CNRACL from 28 hours a week, other staff to the general scheme and the Ircantec,
+the CNRACL rates are 11.10 % for the employee and 37.65 % for the employer in 2026 (40.65 % in 2027). (⚖️ lawyer
+review before launch, D574) The Ircantec rates are still to read.
 
 ## Examples
 
@@ -31,7 +34,7 @@ written later.
 - [UC-SC20-15](../use-cases/04-public-hr-and-pay/uc-sc20-15-declare-public-sector-contributions.md)
 - [E-F13-17](../../../02-functional/f13-payroll/data/e-f13-17-scheme-membership.md)
 - [E-F13-09](../../../02-functional/f13-payroll/data/e-f13-09-social-declaration.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-252 Public-sector contributions](../../../10-country-packs/france/payroll/cr-fr-252-public-sector-contributions.md)
 
 ## Exceptions

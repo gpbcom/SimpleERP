@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four store
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four store
 features that F14 did not cover: test environments for publishers, free trials of paid plugins, a directory of
 implementation partners and website themes. Each touches trust: demo data only, a trial that cannot bill by itself, a
 ranking that can be explained, and themes everyone can read.
@@ -38,7 +38,7 @@ depth now. The partner is the new persona U51.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F14 Plugin store").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F14 Plugin store").
 
 ## Consequences
 

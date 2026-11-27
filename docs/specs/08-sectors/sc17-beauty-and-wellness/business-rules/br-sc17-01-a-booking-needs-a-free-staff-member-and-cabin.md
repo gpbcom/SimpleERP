@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-01 A booking needs a free staff member and cabin
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

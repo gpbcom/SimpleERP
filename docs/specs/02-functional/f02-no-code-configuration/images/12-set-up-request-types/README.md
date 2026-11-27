@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-F2-12 Set up request types
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

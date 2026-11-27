@@ -35,6 +35,7 @@ Usage, from the repository root:
     python3 .claude/scripts/github/board.py bootstrap [--dry-run]
     python3 .claude/scripts/github/board.py move --ticket T0.09 --status running
     python3 .claude/scripts/github/board.py sync
+    python3 .claude/scripts/github/board.py refresh [--dry-run]
     python3 .claude/scripts/github/board.py show [--all]
 
 ``bootstrap`` creates, once and in this order, what does not exist yet: the labels, one milestone per phase, the
@@ -44,7 +45,8 @@ of ``docs/specs/00-vision/roadmap/phases/gantt/ticket-graph.json``, every issue 
 merged tickets closed. The repository is the ``repo`` of ``.claude/harness.json``. Every step is recorded in
 ``.claude/github.json`` as soon as it is done, so a stop (GitHub throttles content creation) is resumed by running it
 again. ``move`` sets one ticket's column, ``sync`` recomputes Ready, the parents' columns and the closed issues from
-the tickets merged on ``develop``, and ``show`` prints the board from the local cache ``.git/erp/board.json``.
+the tickets merged on ``develop``, ``refresh`` brings GitHub in line after the roadmap or the specifications changed (new
+issues and links created, changed titles, bodies, roadmap labels and milestone dates updated), and ``show`` prints the board from the local cache ``.git/erp/board.json``.
 
 Columns: 📥 Backlog (prerequisites open), ✅ Ready (every prerequisite merged), 📝 Planned (PLAN.md awaits approval),
 🔄 Running (``/ticket-run``), 👀 In review (pull request open), 🏁 Done (merged into ``develop``).
@@ -541,31 +543,88 @@ class Board:
                     pending.remove(ticket)
         return [self.by_id[t] for t in placed]
 
-    def issues(self) -> None:
+    def expected_issues(self) -> Dict[str, Tuple[str, str, List[str]]]:
+        """Return the title, body and roadmap labels of every issue, phases first, tickets in prerequisite order."""
+        expected: Dict[str, Tuple[str, str, List[str]]] = {}
         for phase in self.phases:
-            self.create_issue(
-                phase["id"],
-                f"{phase['id']}: {phase['name']}",
-                self.phase_body(phase),
-                ["type:phase", f"phase:{phase['id']}"],
-                phase["id"],
-            )
+            labels = ["type:phase", f"phase:{phase['id']}"]
+            expected[phase["id"]] = (f"{phase['id']}: {phase['name']}", self.phase_body(phase), labels)
         for epic in self.epics:
-            self.create_issue(
-                epic["id"],
-                f"{epic['id']}: {epic['name']}",
-                self.epic_body(epic),
-                ["type:epic", f"phase:{epic['phase']}"],
-                epic["phase"],
-            )
+            labels = ["type:epic", f"phase:{epic['phase']}"]
+            expected[epic["id"]] = (f"{epic['id']}: {epic['name']}", self.epic_body(epic), labels)
         for ticket in self.ticket_order():
             info = self.graph["tickets"][ticket["id"]]
             labels = ["type:ticket", f"phase:{ticket['phase']}", f"size:{info['size']}"]
             labels += ["critical-path"] if ticket["id"] in self.critical else []
             labels += ["field"] if info["external"] or "field" in info else []
-            self.create_issue(
-                ticket["id"], f"{ticket['id']}: {ticket['title']}", self.ticket_body(ticket), labels, ticket["phase"]
-            )
+            expected[ticket["id"]] = (f"{ticket['id']}: {ticket['title']}", self.ticket_body(ticket), labels)
+        return expected
+
+    def issues(self) -> None:
+        phase_of = {e["id"]: e["phase"] for e in self.epics} | {t["id"]: t["phase"] for t in self.tickets}
+        for ident, (title, body, labels) in self.expected_issues().items():
+            self.create_issue(ident, title, body, labels, phase_of.get(ident, ident))
+
+    def github_issues(self) -> Dict[int, Dict[str, Json]]:
+        """Return every issue of the repository as GitHub holds it, by number (pull requests left out)."""
+        found: Dict[int, Dict[str, Json]] = {}
+        page = 1
+        while True:
+            batch = rest("GET", f"repos/{REPO}/issues?state=all&per_page=100&page={page}") or []
+            assert isinstance(batch, list)
+            for issue in batch:
+                if isinstance(issue, dict) and "pull_request" not in issue:
+                    found[int(issue["number"])] = issue  # type: ignore[arg-type]
+            if len(batch) < 100:
+                return found
+            page += 1
+
+    def refresh(self) -> None:
+        """Bring GitHub in line with the roadmap after the specifications changed (TKT-17).
+
+        New phases, epics, tickets, sub-issues and prerequisites are created as ``bootstrap`` does; then every issue
+        whose title, body or roadmap labels differ from the pages is updated (labels a person added are kept), and every
+        milestone takes its phase's end date. The columns are recomputed last.
+        """
+        self.labels()
+        self.milestones()
+        self.issues()
+        self.links()
+        current = {} if not self.state["issues"] else self.github_issues()
+        managed = {"type:phase", "type:epic", "type:ticket", "critical-path", "field"}
+        stale = 0
+        for ident, (title, body, labels) in self.expected_issues().items():
+            number = self.state["issues"].get(ident, {}).get("number")
+            issue = current.get(int(number)) if number else None
+            if issue is None:
+                continue
+            names = {str(label["name"]) for label in issue.get("labels", []) if isinstance(label, dict)}  # type: ignore[union-attr]
+            roadmap = {n for n in names if n in managed or n.startswith(("phase:", "size:"))}
+            same = issue.get("title") == title and str(issue.get("body") or "").strip() == body.strip()
+            if same and roadmap == set(labels):
+                continue
+            stale += 1
+            if self.dry_run:
+                print(f"✏️  would update #{number} {ident}")
+                continue
+            payload: Dict[str, Json] = {"title": title, "body": body, "labels": sorted((names - roadmap) | set(labels))}
+            rest("PATCH", f"repos/{REPO}/issues/{number}", payload)
+            self.step(f"✏️  #{number} {ident} updated")
+        print(f"{stale} issues to update" if self.dry_run else f"{stale} issues updated")
+        for phase in self.phases:
+            milestone = self.state["milestones"].get(phase["id"])
+            if milestone and phase["end"] and not self.dry_run:
+                rest(
+                    "PATCH",
+                    f"repos/{REPO}/milestones/{milestone}",
+                    {
+                        "title": f"{phase['id']}: {phase['name']}",
+                        "description": phase["note"][:500],
+                        "due_on": f"{phase['end']}T23:59:59Z",
+                    },
+                )
+        if not self.dry_run:
+            self.place()
 
     def links(self) -> None:
         pairs = [(e["phase"], e["id"]) for e in self.epics] + [(t["epic"], t["id"]) for t in self.tickets if t["epic"]]
@@ -716,6 +775,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     move.add_argument("--ticket", required=True)
     move.add_argument("--status", required=True, choices=[s[0] for s in STATUSES])
     sub.add_parser("sync")
+    fresh = sub.add_parser("refresh")
+    fresh.add_argument("--dry-run", action="store_true")
     view = sub.add_parser("show")
     view.add_argument("--all", action="store_true")
     args = parser.parse_args(argv)
@@ -725,6 +786,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     board = Board(dry_run=getattr(args, "dry_run", False))
     if args.command == "bootstrap":
         board.bootstrap()
+    elif args.command == "refresh":
+        board.refresh()
     elif args.command == "move":
         board.move(args.ticket, args.status)
     else:

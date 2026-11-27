@@ -168,7 +168,7 @@ A prepaid service must tell the customer the price, the validity, what happens t
 stop; for a consumer, the information before an online order and the withdrawal right apply:
 [CR-FR-065](../../../../10-country-packs/france/consumer/cr-fr-065-online-pre-contract-information.md),
 [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md). The France-pack rule on prepaid
-services is written later.
+services is [CR-FR-270 Prepaid service packs](../../../../10-country-packs/france/consumer/cr-fr-270-prepaid-services.md).
 
 ## Related use cases
 

@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U02-01 | [Approve requests and follow the team](j-u02-01-approve-and-follow-the-team.md) | 🔄 |
+| 🧭 | J-U02-01 | [Approve requests and follow the team](j-u02-01-approve-and-follow-the-team.md) | ✅ |
 
 ---
 

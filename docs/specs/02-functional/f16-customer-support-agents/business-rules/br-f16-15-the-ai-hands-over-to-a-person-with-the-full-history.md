@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-15 The AI hands over to a person with the full history
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

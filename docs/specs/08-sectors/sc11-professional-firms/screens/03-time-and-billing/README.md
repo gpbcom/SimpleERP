@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC11-05 | [Time](s-sc11-05-time.md) | 🔄 |
-| 🖥️ | S-SC11-06 | [Fees](s-sc11-06-fees.md) | 🔄 |
-| 🖥️ | S-SC11-07 | [Client funds](s-sc11-07-client-funds.md) | 🔄 |
+| 🖥️ | S-SC11-05 | [Time](s-sc11-05-time.md) | ✅ |
+| 🖥️ | S-SC11-06 | [Fees](s-sc11-06-fees.md) | ✅ |
+| 🖥️ | S-SC11-07 | [Client funds](s-sc11-07-client-funds.md) | ✅ |

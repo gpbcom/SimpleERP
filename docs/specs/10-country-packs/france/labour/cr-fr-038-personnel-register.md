@@ -19,7 +19,7 @@ Each establishment keeps a personnel register: an entry on the first day, update
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2017-01-29: L1221-13 in force since 2017-01-29, R1221-26 since 2015-10-29 ([Code du travail, art. L1221-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033971569), [art. R1221-26](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031392972), read 2026-11-27).
 
 ## Enforced by
 
@@ -34,7 +34,7 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+The fine of a 4th-class contravention, up to 750 EUR, applied once per person employed in breach (R1227-7) ([Code du travail, art. R1227-7](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030422217), [Code pénal, art. 131-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417259), read 2026-11-27).
 
 ## Exceptions
 

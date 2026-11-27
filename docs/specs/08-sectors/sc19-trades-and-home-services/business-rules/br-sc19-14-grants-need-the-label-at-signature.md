@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-14 Grants need the label at signature
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,8 +13,10 @@ document of the file is attached. A grant the label does not cover is dropped fr
 ## Why
 
 A request with a label that does not cover the work is refused and the customer loses the grant
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). The France-pack rule is
+[CR-FR-226 Renovation grants and the RGE label](../../../10-country-packs/france/construction/cr-fr-226-renovation-grants-and-rge.md):
+MaPrimeRénov' works are done by an RGE professional, who visits the site first and puts the visit date on the quote and
+the invoice.
 
 ## Examples
 

@@ -3,7 +3,7 @@
 
 # 🛤️ Option B: the platform, then parallel tracks
 
-**Status:** 🔄 waiting for the owner
+**Status:** 🚫 not adopted ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md))
 
 ## Principle
 
@@ -68,7 +68,7 @@ their sum.
 | [D16](../../../06-decisions/foundations/d16-platform-first.md) | ✅ kept |  |
 | [D380](../../../06-decisions/vision/d380-every-capability-first-confirmed.md) | ✅ kept |  |
 | [D451](../../../06-decisions/vision/d451-dated-pilot-before-the-release.md) | ✅ kept | F5 in track 3d, before the pilot |
-| [D483](../../../06-decisions/vision/d483-roadmap-devops-agents-first.md) | ✅ kept | F24 (Proposed placement) leaves step 2 |
+| [D483](../../../06-decisions/vision/d483-roadmap-devops-agents-first.md) | ✅ kept | F24 leaves step 2 |
 
 ## Strengths
 

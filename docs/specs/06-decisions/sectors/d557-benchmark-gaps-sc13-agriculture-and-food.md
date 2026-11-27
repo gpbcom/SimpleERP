@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found five situations
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found five situations
 that agricultural suites handle and SC13 did not: vineyards, agricultural contractors, cooperatives, basket
 subscriptions and forestry. Each carries a duty or an agreement (declarations on a date, billing on the agreed basis,
 rebates from deliveries, baskets from the season contract, fellings within the plan).
@@ -30,7 +30,8 @@ rebates from deliveries, baskets from the season contract, fellings within the p
 ## Choice
 
 SC13 gets five use cases in one new flow, FL-SC13-06, each with its screen, its rule, its entity and its list. All at
-full depth now. Each legal duty is written in plain words and marked (Proposed) until the France-pack rule is written.
+full depth now. Each legal duty is written in plain words and marked as proposed until its France-pack rule was
+written (the rules now exist).
 
 | Gap | Point | Decision | The owner's answer |
 |---|---|---|---|
@@ -43,7 +44,7 @@ full depth now. Each legal duty is written in plain words and marked (Proposed) 
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC13 Agriculture and
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC13 Agriculture and
 food").
 
 ## Consequences

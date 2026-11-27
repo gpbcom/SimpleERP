@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-26 A conflict goes back to the architect, never guessed
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -29,7 +29,7 @@ A conflict means two roles touched the same thing, which the contract should hav
 | A conflicted pick | aborted, the integration stopped, the Architect told |
 | The Architect gives the file to one role | contract version 3 in Draft, approval asked (BR-F25-23) |
 | The Release Engineer edits the file to make it apply | refused: it has no write tool on the workers' files |
-| Commits applied before the conflict | (Proposed) kept on the integration branch and reused at the next integration |
+| Commits applied before the conflict | kept on the integration branch and reused at the next integration |
 
 ## Applies to
 

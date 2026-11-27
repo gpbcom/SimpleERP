@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-06 Licence
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

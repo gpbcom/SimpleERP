@@ -146,7 +146,10 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 For many renovation grants the request must be filed before the works start, and the grant is paid only on
 proof of the works. The installer's label, the invoice and the commissioning report are part of that proof. The
 conditions are data of the France pack. Related:
-[CR-FR-084](../../../../10-country-packs/france/tax-and-vat/cr-fr-084-renovation-reduced-vat.md),
+[CR-FR-226 Renovation grants and the RGE label](../../../../10-country-packs/france/construction/cr-fr-226-renovation-grants-and-rge.md),
+[CR-FR-084](../../../../10-country-packs/france/tax-and-vat/cr-fr-084-renovation-reduced-vat.md) (10 % or 5.5 % VAT
+on a dwelling over two years old: CGI art. 279-0 bis and 278-0 bis until 2026-12-31, the CIBS articles that take them
+over from 2027-01-01),
 [CR-FR-090](../../../../10-country-packs/france/construction/cr-fr-090-builders-warranties.md).
 
 ## Related use cases

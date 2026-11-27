@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC15-06 Beverages, van sales, catch weight and medical devices
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

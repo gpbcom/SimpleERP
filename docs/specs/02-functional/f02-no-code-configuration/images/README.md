@@ -25,4 +25,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F2-12 Set up request types](12-set-up-request-types/README.md) | 16 images |
 | 🖼️ |  | [Images: FL-F2-13 Low code, bulk work and data cleaning](13-low-code-bulk-and-cleaning/README.md) | 22 images |
 | 🖼️ |  | [Screen states](states/README.md) | 240 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

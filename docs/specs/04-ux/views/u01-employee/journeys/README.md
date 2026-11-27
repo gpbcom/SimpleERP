@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U01-01 | [Handle my own HR tasks](j-u01-01-handle-my-own-hr-tasks.md) | 🔄 |
+| 🧭 | J-U01-01 | [Handle my own HR tasks](j-u01-01-handle-my-own-hr-tasks.md) | ✅ |
 
 ---
 

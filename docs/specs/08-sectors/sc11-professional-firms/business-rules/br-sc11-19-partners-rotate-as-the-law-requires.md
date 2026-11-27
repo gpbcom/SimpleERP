@@ -3,7 +3,7 @@
 
 # 📏 BR-SC11-19 Partners rotate as the law requires
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -16,7 +16,8 @@ each partner's years.
 Rotation protects the auditor's independence; an opinion signed by a partner past the limit can be challenged and the
 firm sanctioned. The owner asked for audit firms
 ([D555](../../../06-decisions/sectors/d555-benchmark-gaps-sc11-professional-firms.md)). The number of years
-comes from the France pack, to confirm, and the rule is written later.
+comes from the France pack (CR-FR-243): for a public-interest entity, a key audit partner leaves the audit at the latest
+seven years after their appointment and comes back only three years after.
 
 ## Examples
 
@@ -33,7 +34,7 @@ comes from the France pack, to confirm, and the rule is written later.
 - [UC-SC11-24](../use-cases/07-notaries-brokers-officers-and-auditors/uc-sc11-24-run-a-statutory-audit-firm.md)
 - [E-SC11-19 Audit engagement](../data/e-sc11-19-audit-engagement.md)
 - [E-SC11-04 Engagement letter](../data/e-sc11-04-engagement-letter.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-243 Statutory auditor rotation](../../../10-country-packs/france/professional-firms/cr-fr-243-statutory-audit-rotation.md)
 
 ## Exceptions

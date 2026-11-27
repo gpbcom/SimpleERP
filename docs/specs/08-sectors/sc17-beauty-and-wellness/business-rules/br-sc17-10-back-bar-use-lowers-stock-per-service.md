@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-10 Back-bar use lowers stock per service
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-04 Contract renewal
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

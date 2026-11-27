@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -26,12 +26,12 @@ One file per rule.
 | 📏 | BR-SC06-13 | [Rooms ready before arrival](br-sc06-13-rooms-ready-before-arrival.md) | ✅ |
 | 📏 | BR-SC06-14 | [Meal vouchers within limits](br-sc06-14-meal-vouchers-within-limits.md) | ✅ |
 | 📏 | BR-SC06-15 | [Guest data kept no longer than needed](br-sc06-15-guest-data-kept-no-longer-than-needed.md) | ✅ |
-| 📏 | BR-SC06-16 | [Pitch prices follow the season grid](br-sc06-16-pitch-prices-follow-the-season-grid.md) | 🔄 |
-| 📏 | BR-SC06-17 | [Catering quotes list allergens](br-sc06-17-catering-quotes-list-allergens.md) | 🔄 |
-| 📏 | BR-SC06-18 | [Room blocks are released at the cut-off date](br-sc06-18-room-blocks-are-released-at-the-cut-off-date.md) | 🔄 |
-| 📏 | BR-SC06-19 | [Dynamic prices stay within floor and ceiling](br-sc06-19-dynamic-prices-stay-within-floor-and-ceiling.md) | 🔄 |
-| 📏 | BR-SC06-20 | [Alcohol is served within the licence's category and hours](br-sc06-20-alcohol-is-served-within-the-licences-category-and-hours.md) | 🔄 |
-| 📏 | BR-SC06-21 | [Allergies are shown at every order](br-sc06-21-allergies-are-shown-at-every-order.md) | 🔄 |
+| 📏 | BR-SC06-16 | [Pitch prices follow the season grid](br-sc06-16-pitch-prices-follow-the-season-grid.md) | ✅ |
+| 📏 | BR-SC06-17 | [Catering quotes list allergens](br-sc06-17-catering-quotes-list-allergens.md) | ✅ |
+| 📏 | BR-SC06-18 | [Room blocks are released at the cut-off date](br-sc06-18-room-blocks-are-released-at-the-cut-off-date.md) | ✅ |
+| 📏 | BR-SC06-19 | [Dynamic prices stay within floor and ceiling](br-sc06-19-dynamic-prices-stay-within-floor-and-ceiling.md) | ✅ |
+| 📏 | BR-SC06-20 | [Alcohol is served within the licence's category and hours](br-sc06-20-alcohol-is-served-within-the-licences-category-and-hours.md) | ✅ |
+| 📏 | BR-SC06-21 | [Allergies are shown at every order](br-sc06-21-allergies-are-shown-at-every-order.md) | ✅ |
 
 ---
 

@@ -152,7 +152,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 The price shown to a consumer includes VAT and the tourist tax is shown apart. A price that changes with
 demand is the same for every guest at a given moment. A price personalised for one guest from automated processing of
-their data must be announced to them. The France-pack rule is written later. Related:
+their data must be announced to them. The France-pack rules are [CR-FR-065 Information before an online order](../../../../10-country-packs/france/consumer/cr-fr-065-online-pre-contract-information.md) (a personalised price is announced before the contract, L221-5 11°), [CR-FR-034 Consumers see prices including VAT](../../../../10-country-packs/france/consumer/cr-fr-034-prices-shown-including-vat.md) and [CR-FR-111 Tourist tax (taxe de séjour)](../../../../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md). Related:
 [CR-FR-034](../../../../10-country-packs/france/consumer/cr-fr-034-prices-shown-including-vat.md),
 [CR-FR-111](../../../../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md),
 [CR-FR-050](../../../../10-country-packs/france/data-protection/cr-fr-050-privacy-by-design.md).

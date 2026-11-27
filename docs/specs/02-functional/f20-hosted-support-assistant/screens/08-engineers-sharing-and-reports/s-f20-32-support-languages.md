@@ -4,7 +4,7 @@
 
 # 🖥️ S-F20-32 Support languages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -14,7 +14,7 @@
 ## Purpose
 
 The users overview of [D91](../../../../06-decisions/f01-administration/d91-administration-reports.md): active, invited
-and deactivated users per site and role, last sign-in. (Proposed) Until the owner places it, it also opens the GDPR
+and deactivated users per site and role, last sign-in. Until the owner places it, it also opens the GDPR
 register draft (D93) of FL-F1-09's first two steps.
 
 ## Entry points
@@ -73,7 +73,8 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-F1-22 Record of processing activities | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U07 | `u07-administrator/s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-active-desktop-{light,dark}.png` |
+| E-F1-22 Record of processing activities | Active | Badge "Active"; a new record starts here; next: To review (UC-F1-12); fields editable within the role | U07 | `u07-administrator/s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-active-desktop-{light,dark}.png` |
+| E-F1-22 Record of processing activities | To review | Badge "To review"; next: Active (UC-F1-12); fields editable within the role | U07 | `u07-administrator/s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-to-review-desktop-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

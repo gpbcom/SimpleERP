@@ -11,7 +11,7 @@ Work that needs a mandatory training or certification cannot be planned for a pe
 training is a required attribute of the work's request type or operation, checked by
 [BR-F9-25](br-f09-25-required-attributes-exclude.md), always required
 ([BR-F9-26](br-f09-26-legal-requirements-never-relaxed.md)), and an expired one does not count
-([BR-F9-27](br-f09-27-unverified-attributes-do-not-count.md)); reminders start before the expiry (Proposed: 90 days).
+([BR-F9-27](br-f09-27-unverified-attributes-do-not-count.md)); reminders start before the expiry (default: 90 days).
 
 ## Why
 

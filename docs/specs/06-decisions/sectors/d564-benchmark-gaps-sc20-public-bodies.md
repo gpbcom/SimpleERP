@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found a public
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found a public
 institution package in another suite (public accounting, procurement, citizen services, public-sector pay) and SC20 did
 not exist. French local bodies carry strict duties: the authorising officer and the public accountant are kept apart,
 expenditure is committed before it is ordered, acts become enforceable only once published and transmitted, the civil
@@ -56,7 +56,8 @@ interviews of 2026-11-14, answering "Public bodies" (G17), then, in the sector i
 registry, Planning permits, Public assets" (G197) and "Local bodies (Recommended)" (G198): communes, groups of communes
 and their public establishments such as social action centres and tourist offices, with the M57 accounting framework and
 the heritage of M14 for assets carried over. The owner chose "Block by block" for the SC20 pages and "Full depth now"
-(G26). Each legal duty is written in plain words and marked (Proposed) until the France-pack rule is written.
+(G26). Each legal duty is written in plain words and marked as proposed until its France-pack rule was written (the
+rules now exist).
 
 | Gap | Point | Decision | The owner's answer |
 |---|---|---|---|
@@ -84,7 +85,7 @@ the heritage of M14 for assets carried over. The owner chose "Block by block" fo
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC20 Public bodies").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC20 Public bodies").
 
 ## Consequences
 
@@ -216,6 +217,10 @@ The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
   [UC-SC20-20](../../08-sectors/sc20-public-bodies/use-cases/05-council-registry-permits-and-assets/uc-sc20-20-keep-the-public-assets-register.md),
   and the bodies in scope are the local bodies.
 - [D114](d114-sixteen-sectors.md) and the sector list are updated by the main session.
+- The legal reading of 2026-11-27 corrected two duties of the context: a civil record is rectified by order of the
+  tribunal president, or administratively for material errors, and binds once published on the registers, rather than
+  by a margin note only ([CR-FR-260](../../10-country-packs/france/company/cr-fr-260-civil-registry.md)); the list of deliberations is posted
+  within one week, not the minutes ([CR-FR-262](../../10-country-packs/france/company/cr-fr-262-deliberations-legality-check.md)).
 
 ## Related
 

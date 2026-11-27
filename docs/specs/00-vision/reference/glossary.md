@@ -49,32 +49,32 @@
 | 🏠 Self-hosted | Run on the operator's own servers, the AI included |
 | 🛠️ SimpleERP maintainer | A maintainer of the repository who reviews, approves and merges pull requests, the agents' included (U47, D452) |
 | 🧭 Use case (UC) | One thing a persona does, with its steps, errors and acceptance criteria |
-| 👥 Meeting participant | (Proposed) A role on a meeting: a person taking part, told of the recording (F4); named in the flow charts (D516) |
-| 💼 Job board | (Proposed) An outside site where job offers are published, such as Indeed or LinkedIn (F9, F18); named in the flow charts (D516) |
-| 🗣️ Outside participant | (Proposed) A person from outside the company who speaks in a recorded meeting (F4); named in the flow charts (D516) |
-| 🏦 Bank | (Proposed) The company's bank: it sends account statements and receives payment files (F8); named in the flow charts (D516) |
-| 🏛️ Chorus Pro | (Proposed) The French public portal that receives the invoices sent to public buyers (F6); named in the flow charts (D516) |
-| 🔁 Deputy | (Proposed) A role on an approval delegation: the user who approves for an absent manager, within the manager's limits (F1); named in the flow charts (D516) |
-| ✏️ Knowledge editor | (Proposed) A role on a knowledge item: the user who reviews proposed items and fixes (F3); named in the flow charts (D516) |
-| 📌 Knowledge owner | (Proposed) A role on a knowledge item: the user who answers for it and is reminded at its review date (F3); named in the flow charts (D516) |
-| 📅 Meeting organiser | (Proposed) A role on a meeting: the user who organises it and chooses its recording source (F4); named in the flow charts (D516) |
-| ⚖️ AI judge | (Proposed) The AI that scores each case an automated support intent handles, beside a human sample (F16); named in the flow charts (D516) |
-| 🚚 Carrier | (Proposed) A transport company that ships the company's parcels: rates, labels and tracking (F7); named in the flow charts (D516) |
-| 💬 Chat app | (Proposed) An outside messaging app in which users reach the AI assistant (F3); named in the flow charts (D516) |
-| 🏛️ Commercial court registry | (Proposed) The French registry where a company files its accounts and corporate decisions (F8); named in the flow charts (D516) |
-| 🏗️ Construction paid-leave fund | (Proposed) The French fund that pays construction workers' paid leave and bad-weather allowances (F13); named in the flow charts (D516) |
-| 🧑 Data subject | (Proposed) A person whose personal data the company processes, who may ask to see or erase it (F15); named in the flow charts (D516) |
-| 🛵 Delivery platform | (Proposed) An outside delivery platform that sends orders to the point of sale (F10); named in the flow charts (D516) |
-| ♻️ Eco-organisation | (Proposed) The body that receives the eco-contribution shown on invoices and declared to it (F7); named in the flow charts (D516) |
-| 👪 Family member | (Proposed) A relative of a person cared for at home (SC04); named in the flow charts (D516) |
-| 💶 Funder | (Proposed) A body that funds care and receives activity reports (SC04); named in the flow charts (D516) |
-| 🌾 MSA (farm social security fund) | (Proposed) The French social security fund of farm workers, which collects their contributions (F13); named in the flow charts (D516) |
-| 🏥 National health record | (Proposed) The French national shared health record of a patient (SC09); named in the flow charts (D516) |
-| 🛍️ Plugin store | (Proposed) SimpleERP's store, where plugins and configuration packs are published and installed (F14); named in the flow charts (D516) |
-| 🏛️ SIRENE register | (Proposed) The French register of companies, queried by SIREN to prefill the company's identity (F1); named in the flow charts (D516) |
-| 🤝 Shareholder | (Proposed) A member or shareholder of the company, who approves its accounts (F8); named in the flow charts (D516) |
-| 🏭 Third-party logistics provider | (Proposed) An outside warehouse that stores and ships the company's goods (F7); named in the flow charts (D516) |
-| 🏛️ URSSAF (social contributions collector) | (Proposed) The French collector of social contributions, which receives pre-hiring declarations (F9); named in the flow charts (D516) |
+| 👥 Meeting participant | A role on a meeting: a person taking part, told of the recording (F4); named in the flow charts (D516) |
+| 💼 Job board | An outside site where job offers are published, such as Indeed or LinkedIn (F9, F18); named in the flow charts (D516) |
+| 🗣️ Outside participant | A person from outside the company who speaks in a recorded meeting (F4); named in the flow charts (D516) |
+| 🏦 Bank | The company's bank: it sends account statements and receives payment files (F8); named in the flow charts (D516) |
+| 🏛️ Chorus Pro | The French public portal that receives the invoices sent to public buyers (F6); named in the flow charts (D516) |
+| 🔁 Deputy | A role on an approval delegation: the user who approves for an absent manager, within the manager's limits (F1); named in the flow charts (D516) |
+| ✏️ Knowledge editor | A role on a knowledge item: the user who reviews proposed items and fixes (F3); named in the flow charts (D516) |
+| 📌 Knowledge owner | A role on a knowledge item: the user who answers for it and is reminded at its review date (F3); named in the flow charts (D516) |
+| 📅 Meeting organiser | A role on a meeting: the user who organises it and chooses its recording source (F4); named in the flow charts (D516) |
+| ⚖️ AI judge | The AI that scores each case an automated support intent handles, beside a human sample (F16); named in the flow charts (D516) |
+| 🚚 Carrier | A transport company that ships the company's parcels: rates, labels and tracking (F7); named in the flow charts (D516) |
+| 💬 Chat app | An outside messaging app in which users reach the AI assistant (F3); named in the flow charts (D516) |
+| 🏛️ Commercial court registry | The French registry where a company files its accounts and corporate decisions (F8); named in the flow charts (D516) |
+| 🏗️ Construction paid-leave fund | The French fund that pays construction workers' paid leave and bad-weather allowances (F13); named in the flow charts (D516) |
+| 🧑 Data subject | A person whose personal data the company processes, who may ask to see or erase it (F15); named in the flow charts (D516) |
+| 🛵 Delivery platform | An outside delivery platform that sends orders to the point of sale (F10); named in the flow charts (D516) |
+| ♻️ Eco-organisation | The body that receives the eco-contribution shown on invoices and declared to it (F7); named in the flow charts (D516) |
+| 👪 Family member | A relative of a person cared for at home (SC04); named in the flow charts (D516) |
+| 💶 Funder | A body that funds care and receives activity reports (SC04); named in the flow charts (D516) |
+| 🌾 MSA (farm social security fund) | The French social security fund of farm workers, which collects their contributions (F13); named in the flow charts (D516) |
+| 🏥 National health record | The French national shared health record of a patient (SC09); named in the flow charts (D516) |
+| 🛍️ Plugin store | SimpleERP's store, where plugins and configuration packs are published and installed (F14); named in the flow charts (D516) |
+| 🏛️ SIRENE register | The French register of companies, queried by SIREN to prefill the company's identity (F1); named in the flow charts (D516) |
+| 🤝 Shareholder | A member or shareholder of the company, who approves its accounts (F8); named in the flow charts (D516) |
+| 🏭 Third-party logistics provider | An outside warehouse that stores and ships the company's goods (F7); named in the flow charts (D516) |
+| 🏛️ URSSAF (social contributions collector) | The French collector of social contributions, which receives pre-hiring declarations (F9); named in the flow charts (D516) |
 | 🛠️ Configurator | A ready-made role, not a persona: configures fields, statuses, forms, record types, templates and workflows (F2, D96) |
 
 ---

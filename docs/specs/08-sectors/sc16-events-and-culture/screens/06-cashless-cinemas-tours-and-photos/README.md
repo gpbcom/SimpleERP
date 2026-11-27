@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC16-21 | [Cashless payments](s-sc16-21-cashless.md) | 🔄 |
-| 🖥️ | S-SC16-22 | [Cinema](s-sc16-22-cinema.md) | 🔄 |
-| 🖥️ | S-SC16-23 | [Tour](s-sc16-23-touring.md) | 🔄 |
-| 🖥️ | S-SC16-24 | [Photography](s-sc16-24-photography.md) | 🔄 |
+| 🖥️ | S-SC16-21 | [Cashless payments](s-sc16-21-cashless.md) | ✅ |
+| 🖥️ | S-SC16-22 | [Cinema](s-sc16-22-cinema.md) | ✅ |
+| 🖥️ | S-SC16-23 | [Tour](s-sc16-23-touring.md) | ✅ |
+| 🖥️ | S-SC16-24 | [Photography](s-sc16-24-photography.md) | ✅ |

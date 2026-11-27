@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC18-07 Waiting list
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

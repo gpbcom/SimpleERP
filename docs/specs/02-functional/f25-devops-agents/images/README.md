@@ -20,4 +20,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F25-07 Roadmap, beta, credits and changelog](07-roadmap-beta-and-credits/README.md) | 16 images |
 | 🖼️ |  | [Images: FL-F25-08 The agent team builds an approved ticket](08-team-builds-a-ticket/README.md) | 44 images |
 | 🖼️ |  | [Screen states](states/README.md) | 224 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

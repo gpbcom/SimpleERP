@@ -3,7 +3,7 @@
 
 # 🗃️ E-F15-09 AI use
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -46,7 +46,7 @@ By feature, risk class and status.
 
 ## Retention
 
-As long as the feature exists, then (Proposed) 5 years.
+As long as the feature exists, then 5 years.
 
 ## Audit
 

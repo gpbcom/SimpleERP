@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F5-08 Pages, forms, surveys and WhatsApp
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

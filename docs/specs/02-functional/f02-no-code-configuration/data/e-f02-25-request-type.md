@@ -3,7 +3,7 @@
 
 # 🗃️ E-F2-25 Request type
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-28, VD-29, VD-30, VD-32 / D510, D511, D512, D514)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -76,7 +76,7 @@ stateDiagram-v2
   Retired --> Published : offered again, UC-F2-30
 ```
 
-Draft, preview and publish as every configuration (D97). (Proposed) A retired type takes no new work requests; the open
+Draft, preview and publish as every configuration (D97). A retired type takes no new work requests; the open
 ones keep it.
 
 ## Indexes and search
@@ -94,7 +94,7 @@ Every change, attribute by attribute and weight by weight; published, retired.
 
 ## Import and export
 
-Part of a configuration pack (E-F2-11); (Proposed) the sector packs ship ready-made types.
+Part of a configuration pack (E-F2-11); the sector packs ship ready-made types.
 
 ## Used by
 

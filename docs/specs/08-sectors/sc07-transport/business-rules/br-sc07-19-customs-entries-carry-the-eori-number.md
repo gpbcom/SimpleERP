@@ -3,7 +3,7 @@
 
 # 📏 BR-SC07-19 Customs entries carry the EORI number
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,7 +14,8 @@ the declaration names. A file with a missing number stays in Documents and the m
 
 A declaration without the right operator number is rejected or delays the goods at the border at the customer's cost.
 The owner asked for freight forwarding ([D551](../../../06-decisions/sectors/d551-benchmark-gaps-sc07-transport.md)).
-(Proposed) The France-pack rule is written later.
+The France-pack rule is
+[CR-FR-172 EORI number and import declarations](../../../10-country-packs/france/trade/cr-fr-172-eori-and-imports.md).
 
 ## Examples
 

@@ -150,8 +150,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 The salon tells clients the terms of its loyalty programme and the use of their data for it, and sends offers
 only to clients who agreed
-([CR-FR-063](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md)). The France-pack
-rule is written later.
+([CR-FR-063](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md)). The France-pack rule is [CR-FR-063 Consent for email and SMS marketing](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md).
 
 ## Related use cases
 

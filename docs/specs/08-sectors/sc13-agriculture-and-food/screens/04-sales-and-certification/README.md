@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC13-10 | [Direct sales](s-sc13-10-direct-sales.md) | 🔄 |
-| 🖥️ | S-SC13-11 | [Cooperative](s-sc13-11-cooperative.md) | 🔄 |
-| 🖥️ | S-SC13-12 | [Organic](s-sc13-12-organic.md) | 🔄 |
+| 🖥️ | S-SC13-10 | [Direct sales](s-sc13-10-direct-sales.md) | ✅ |
+| 🖥️ | S-SC13-11 | [Cooperative](s-sc13-11-cooperative.md) | ✅ |
+| 🖥️ | S-SC13-12 | [Organic](s-sc13-12-organic.md) | ✅ |

@@ -5,7 +5,7 @@
 
 # 📝 UC-F12-30 Build the digital product passport
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -125,7 +125,7 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: Regulation (EU) 2024/1781 (ESPR).
+(⚖️ lawyer review before launch, D574) to read: Regulation (EU) 2024/1781 (ESPR) and its delegated acts.
 
 ## Related use cases
 

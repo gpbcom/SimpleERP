@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-15 Camp registration
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -61,7 +61,12 @@ child's care.
 ## Retention
 
 Health sheets are erased a short time after the camp; the registration is kept with the sales records
-([CR-FR-052](../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md)).
+([CR-FR-052](../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md)). How long a health sheet
+is kept is (⚖️ lawyer review before launch, D574) to read: the arrêté on the health information of minors under CASF
+R227-7. It is the same item as the one of
+[UC-SC18-19](../use-cases/05-facilities-events-camps-and-rentals/uc-sc18-19-run-holiday-camps.md#regulatory-references),
+reviewed once for both pages
+([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Audit
 

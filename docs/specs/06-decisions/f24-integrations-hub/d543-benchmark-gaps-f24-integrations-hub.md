@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four
 integration features that F24 did not cover: connectors built by the AI assistant, the two large commercial office
 suites, a standing export to a data warehouse and a sync with the accountant's own software. F24 already has the
 catalogue, the European open suites, two-way sync with an owner per record and the run-and-control screens; these extend
@@ -41,7 +41,7 @@ exist. All at full depth now.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F24 Integrations hub").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F24 Integrations hub").
 
 ## Consequences
 

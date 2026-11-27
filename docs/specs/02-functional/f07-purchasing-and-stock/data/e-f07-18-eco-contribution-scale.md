@@ -3,7 +3,7 @@
 
 # 🗃️ E-F7-18 Eco-contribution scale
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -36,7 +36,7 @@ By sector and year.
 
 ## Retention
 
-10 years (Proposed).
+10 years.
 
 ## Audit
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-11 Organise events and sell tickets
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -43,7 +43,7 @@ F5 set up for the company.
    sessions and registration questions.
 2. Ticketing is set with the shared model ([UC-F5-17](uc-f05-17-set-up-ticketing-for-an-event.md)); free events use
    registrations only.
-3. Customers register and pay online; they get their ticket and a reminder the day before (Proposed).
+3. Customers register and pay online; they get their ticket and a reminder the day before.
 4. On the day, tickets are scanned
    ([UC-F5-18](uc-f05-18-sell-at-the-box-office-and-scan-tickets.md)); after, a satisfaction
    survey is sent ([UC-F5-12](../08-pages-forms-surveys-and-whatsapp/uc-f05-12-run-surveys-and-live-polls.md)).

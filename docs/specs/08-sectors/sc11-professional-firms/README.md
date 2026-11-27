@@ -75,14 +75,14 @@ Firms of 1 to 500 professionals and assistants, bound by professional secrecy an
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 |  | [Use cases](use-cases/README.md) | ✅ |
-| 🔀 |  | [Flows](flows/README.md) | 🔄 |
-| 📏 |  | [Business rules](business-rules/README.md) | 🔄 |
-| 🗃️ |  | [Data](data/README.md) | 🔄 |
+| 🔀 |  | [Flows](flows/README.md) | ✅ |
+| 📏 |  | [Business rules](business-rules/README.md) | ✅ |
+| 🗃️ |  | [Data](data/README.md) | ✅ |
 | 🖥️ |  | [Screens](screens/README.md) | ✅ |
 | 🎁 |  | [Sector pack](sector-pack.md) | ✅ |
 | ⚖️ |  | [Regulatory](regulatory.md) | ✅ |
 | ❓ |  | [Open questions](open-questions.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
 ---
 

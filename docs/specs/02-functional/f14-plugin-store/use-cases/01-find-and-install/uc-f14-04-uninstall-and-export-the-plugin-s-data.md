@@ -4,7 +4,7 @@
 
 # 📝 UC-F14-04 Uninstall and export the plugin's data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -40,7 +40,7 @@ A few a year.
 
 1. The administrator chooses "Uninstall" on the plugin (S-F14-04).
 2. SimpleERP lists the plugins and record types that depend on it.
-3. SimpleERP shows the export, in the (Proposed) format of one CSV per record type and a JSON with the settings, and
+3. SimpleERP shows the export, in the format of one CSV per record type and a JSON with the settings, and
    the period it is kept.
 4. The administrator confirms; SimpleERP exports, then removes the plugin and its menu entries.
 5. The export is downloadable from the company's exports during the period.

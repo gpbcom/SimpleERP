@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-19 Van stock
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

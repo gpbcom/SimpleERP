@@ -23,11 +23,13 @@ dish served on the premises contains.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CConso R412-12 in force since 2016-07-01 (décret n° 2016-884) ([Code de la consommation, art. R412-12](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032807850), read 2026-11-27).
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc06-hospitality/regulatory.md)
+- [UC-SC06-17 Quote and deliver catering](../../../08-sectors/sc06-hospitality/use-cases/06-campsites-catering-groups-and-pricing/uc-sc06-17-quote-and-deliver-catering.md)
+- [UC-SC06-21 Know the guest](../../../08-sectors/sc06-hospitality/use-cases/06-campsites-catering-groups-and-pricing/uc-sc06-21-know-the-guest.md)
 
 ## When the law changes
 

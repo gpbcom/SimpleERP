@@ -3,7 +3,7 @@
 
 # 🖼️ Screen states
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 The Empty, Loading, Read-only and Offline state of each screen, light and dark (D457, D120).
 
@@ -120,6 +120,12 @@ The Empty, Loading, Read-only and Offline state of each screen, light and dark (
 | Light | Dark |
 |---|---|
 | ![s-sc16-05-ticketing-read-only-desktop, light](s-sc16-05-ticketing-read-only-desktop-light.png) | ![s-sc16-05-ticketing-read-only-desktop, dark](s-sc16-05-ticketing-read-only-desktop-dark.png) |
+
+## s-sc16-05-ticketing-sales-closed-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc16-05-ticketing-sales-closed-phone, light](s-sc16-05-ticketing-sales-closed-phone-light.png) | ![s-sc16-05-ticketing-sales-closed-phone, dark](s-sc16-05-ticketing-sales-closed-phone-dark.png) |
 
 ## s-sc16-05-ticketing-offline-phone
 
@@ -538,6 +544,12 @@ The Empty, Loading, Read-only and Offline state of each screen, light and dark (
 | Light | Dark |
 |---|---|
 | ![s-sc16-22-cinema-read-only-desktop, light](s-sc16-22-cinema-read-only-desktop-light.png) | ![s-sc16-22-cinema-read-only-desktop, dark](s-sc16-22-cinema-read-only-desktop-dark.png) |
+
+## s-sc16-22-cinema-sales-off-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-sc16-22-cinema-sales-off-desktop, light](s-sc16-22-cinema-sales-off-desktop-light.png) | ![s-sc16-22-cinema-sales-off-desktop, dark](s-sc16-22-cinema-sales-off-desktop-dark.png) |
 
 ## s-sc16-22-cinema-offline-phone
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-17 Warning triggers by block
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -22,10 +22,10 @@ UC-F15-02 needs the list of what the ERP sees as a legal risk (D472).
 | F9: a schedule breaking daily rest (CR-FR-042) | warning |
 | F9: a fixed-term contract with a third renewal (CR-FR-041) | warning |
 | F9: headcount crossing 11 or 50 (CR-FR-046) | warning to HR and the owner |
-| F6: payment terms above 60 days (CR-FR-018) | (Proposed) warning |
-| F6: an invoice missing a mandatory mention (CR-FR-015) | (Proposed) warning |
-| F6 and F10: a cash payment above the limit (CR-FR-022) | (Proposed) warning |
-| F5: a marketing message without consent (CR-FR-063) | (Proposed) warning |
+| F6: payment terms above 60 days (CR-FR-018) | warning |
+| F6: an invoice missing a mandatory mention (CR-FR-015) | warning |
+| F6 and F10: a cash payment above the limit (CR-FR-022) | warning |
+| F5: a marketing message without consent (CR-FR-063) | warning |
 | F13: a pay below the minimum wage (CR-FR-185) | blocked by F13 itself (BR-F13-04), not a warning |
 
 ## Applies to

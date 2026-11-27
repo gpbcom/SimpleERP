@@ -7,12 +7,13 @@
 
 ## Statement
 
-(Proposed) Each accountant's assignment has its engagement letter; in France:
+Each accountant's assignment has its engagement letter; in France:
 [CR-FR-152 Chartered accountants' engagement letter](../../../10-country-packs/france/professional-firms/cr-fr-152-accountant-engagement-letter.md).
 
 ## Why
 
-(Proposed) The content is still to read.
+The letter is a written contract that defines the assignment and each party's rights and obligations, refers to the
+profession's rules, and states any mandate given and its length (CR-FR-152, décret n° 2012-432 art. 151).
 
 ## Examples
 

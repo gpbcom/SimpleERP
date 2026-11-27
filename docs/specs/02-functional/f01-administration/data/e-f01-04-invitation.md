@@ -33,7 +33,7 @@ From [E-F21-06 Invitation](../../f21-onboarding-and-modules/data/e-f21-06-invita
 
 From
 [E-SC12-19 Session invitation](../../../08-sectors/sc12-education-and-training/data/e-sc12-19-session-invitation.md),
-merged here (the owner's answer S2-9 of 2026-11-13). (Proposed) The session invitation the flow charts name with the
+merged here (the owner's answer S2-9 of 2026-11-13). The session invitation the flow charts name with the
 words "Invitations"
 ([FL-SC12-02](../../../08-sectors/sc12-education-and-training/flows/fl-sc12-02-enrol-and-fund.md)). The owner decided
 to create it ([D516](../../../06-decisions/foundations/d516-naming-rules-and-the-seven-classes-of-names.md)); what

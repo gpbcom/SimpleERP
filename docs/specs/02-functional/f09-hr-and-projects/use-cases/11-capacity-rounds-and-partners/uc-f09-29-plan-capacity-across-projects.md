@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-29 Plan capacity across projects
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -118,7 +118,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-10 people x 26 weeks within 2 seconds (Proposed).
+10 people x 26 weeks within 2 seconds.
 
 ## Regulatory references
 

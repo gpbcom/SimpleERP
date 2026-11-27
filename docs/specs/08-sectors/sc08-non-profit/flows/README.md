@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -16,7 +16,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC08-04 | [Volunteers](fl-sc08-04-volunteers.md) | ✅ |
 | 🔀 | FL-SC08-05 | [Events](fl-sc08-05-events.md) | ✅ |
 | 🔀 | FL-SC08-06 | [Accounts and data](fl-sc08-06-accounts-and-data.md) | ✅ |
-| 🔀 | FL-SC08-07 | [Foundations, integration, federations, peer fundraising](fl-sc08-07-foundations-integration-and-federations.md) | 🔄 |
+| 🔀 | FL-SC08-07 | [Foundations, integration, federations, peer fundraising](fl-sc08-07-foundations-integration-and-federations.md) | ✅ |
 
 ---
 

@@ -22,7 +22,7 @@ over 5 years old; no retention period is set by law for private practice.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+In force in its current version since 2021-11-01 ([Code de la santé publique, art. L1111-7](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042685313), read 2026-11-27); it sets the 8 days, 48 hours, 2 months and 5 years.
 
 ## Enforced by
 

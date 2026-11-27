@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC05-06 Excise, refurbishment, personalisation and cutting
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

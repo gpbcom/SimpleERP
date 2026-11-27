@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-17 Chair rental
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

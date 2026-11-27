@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-18 Let customers book appointments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -46,7 +46,7 @@ Daily in practices and service companies.
    ([BR-F4-23](../../business-rules/br-f04-23-bookings-never-overlap.md)); the shared booking engine checks it,
    [UC-F2-19](../../../f02-no-code-configuration/use-cases/08-views-and-bookings/uc-f02-19-book-a-resource.md).
 3. They give their details and pay up front if the type asks it.
-4. They get the confirmation and a reminder the day before (Proposed); the person sees it in their calendar.
+4. They get the confirmation and a reminder the day before; the person sees it in their calendar.
 5. They reschedule or cancel from the link within the rules.
 
 ## Alternative flows
@@ -59,7 +59,7 @@ Daily in practices and service companies.
 
 - 2e. The slot was taken meanwhile: refused, the next slots shown
   ([BR-F4-23](../../business-rules/br-f04-23-bookings-never-overlap.md)).
-- 3e. The payment fails: the slot is held 10 minutes (Proposed), then freed.
+- 3e. The payment fails: the slot is held 10 minutes, then freed.
 
 ## Business rules
 

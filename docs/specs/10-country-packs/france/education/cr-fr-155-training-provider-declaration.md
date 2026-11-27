@@ -22,7 +22,8 @@ on agreements, quotes and invoices, and reports changes within 30 days.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+L6351-1 in its current version since 2019-01-01; L6351-3 and L6351-4 (refusal and cancellation) since 2026-06-27
+([Code du travail, art. L6351-1 A to L6351-8](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006178213/), read 2026-11-27).
 
 ## Enforced by
 

@@ -36,7 +36,9 @@ see: to find, filter, total and act on many site safety documents at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] SITE SAFETY DOCUMENT   STATE                                                         |
+| state             | [ ] SITE SAFETY    SITE   KIND   VERSION   FILE   STATE                                  |
+| site              | [ ] ...                                                  Open >                          |
+| kind              | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,7 +48,11 @@ see: to find, filter, total and act on many site safety documents at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Site safety document | the record's title | text | yes |
+| Site safety document | title | text | yes |
+| Site | site | link to the record | yes |
+| Kind | kind | label | yes |
+| Version | version | text | yes |
+| File | file | file name | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -56,12 +62,15 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Site | each linked site | the visible rows (D488) |
+| Kind | safety plan, site register | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: site safety documents link to no other record type in their fields.
+- Site safety documents of a chosen construction site, or of the construction sites that match a filter.
+- From the other side: the construction sites that have site safety documents, or none.
 
 ## KPI strip
 

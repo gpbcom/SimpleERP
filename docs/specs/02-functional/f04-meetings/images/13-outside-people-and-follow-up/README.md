@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-F4-13 Outside people and follow-up
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

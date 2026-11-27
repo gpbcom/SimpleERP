@@ -160,8 +160,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A campsite collects the tourist tax for each adult and each night at the rate of the commune, which depends
 on the classification of the campsite, and pays it to the commune. Guests from outside the country fill in a
-registration form on arrival. Prices shown to consumers include VAT and the tourist tax is shown apart. The France-pack
-rule is written later. Related: [CR-FR-111](../../../../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md),
+registration form on arrival. Prices shown to consumers include VAT and the tourist tax is shown apart. The France-pack rules are [CR-FR-111 Tourist tax (taxe de séjour)](../../../../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md), [CR-FR-282 Police form for foreign guests](../../../../10-country-packs/france/hospitality/cr-fr-282-police-form-for-foreign-guests.md) and [CR-FR-034 Consumers see prices including VAT](../../../../10-country-packs/france/consumer/cr-fr-034-prices-shown-including-vat.md). Related: [CR-FR-111](../../../../10-country-packs/france/tax-and-vat/cr-fr-111-tourist-tax.md),
 [CR-FR-034](../../../../10-country-packs/france/consumer/cr-fr-034-prices-shown-including-vat.md),
 [CR-FR-008 VAT rates](../../../../10-country-packs/france/tax-and-vat/cr-fr-008-vat-rates.md).
 

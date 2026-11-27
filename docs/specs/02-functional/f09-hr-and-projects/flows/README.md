@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -22,9 +22,9 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F9-09 | [Train and protect](fl-f09-09-train-and-protect.md) | ✅ |
 | 🔀 | FL-F9-10 | [Listen to employees](fl-f09-10-listen-to-employees.md) | ✅ |
 | 🔀 | FL-F9-11 | [Capacity, rounds and partners](fl-f09-11-capacity-rounds-and-partners.md) | ✅ |
-| 🔀 | FL-F9-12 | [Schedule customer requests](fl-f09-12-schedule-customer-requests.md) | 🔄 |
-| 🔀 | FL-F9-13 | [Keep employees' qualifications](fl-f09-13-keep-qualifications.md) | 🔄 |
-| 🔀 | FL-F9-14 | [Source candidates on LinkedIn](fl-f09-14-source-candidates-on-linkedin.md) | 🔄 |
+| 🔀 | FL-F9-12 | [Schedule customer requests](fl-f09-12-schedule-customer-requests.md) | ✅ |
+| 🔀 | FL-F9-13 | [Keep employees' qualifications](fl-f09-13-keep-qualifications.md) | ✅ |
+| 🔀 | FL-F9-14 | [Source candidates on LinkedIn](fl-f09-14-source-candidates-on-linkedin.md) | ✅ |
 | 🔀 | FL-F9-15 | [Work location, headcount, careers and learning](fl-f09-15-work-location-headcount-and-learning.md) | ✅ |
 
 ---

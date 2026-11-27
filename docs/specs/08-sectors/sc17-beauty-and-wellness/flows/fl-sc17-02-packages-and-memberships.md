@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC17-02 Packages and memberships
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

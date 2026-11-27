@@ -4,55 +4,66 @@
 
 ## Waiting for the owner
 
-**SC02 Retail, regulatory:**
+### The lawyer's checklist: product pages (continued)
 
-- [Regulatory](../08-sectors/sc02-retail/regulatory.md)
+**F11 Online shop (plugin), use cases (continued):**
 
-**New persona U24:**
+- [UC-F11-25 Show product safety information](../02-functional/f11-online-shop/use-cases/08-product-content-and-listings/uc-f11-25-show-product-safety-information.md)
 
-- [Engagement manager: app shell and home](../04-ux/views/u24-engagement-manager/README.md)
+**F12 Manufacturing (plugin), entities:**
 
-**SC03 Services, use cases:**
+- [E-F12-19 FMEA line](../02-functional/f12-manufacturing/data/e-f12-19-fmea-line.md)
+- [E-F12-24 Product passport](../02-functional/f12-manufacturing/data/e-f12-24-product-passport.md)
 
-- [S-SC03-01 Statement of work](../08-sectors/sc03-services/screens/01-win-and-price/s-sc03-01-statement-of-work.md)
-- [S-SC03-02 Rate cards](../08-sectors/sc03-services/screens/01-win-and-price/s-sc03-02-rate-cards.md)
-- [S-SC03-03 Staffing](../08-sectors/sc03-services/screens/02-staff-and-plan/s-sc03-03-staffing.md)
-- [S-SC03-04 Resource plan](../08-sectors/sc03-services/screens/02-staff-and-plan/s-sc03-04-resource-plan.md)
-- [S-SC03-05 Timesheets](../08-sectors/sc03-services/screens/03-deliver-and-record/s-sc03-05-timesheets.md)
-- [S-SC03-06 T&M billing](../08-sectors/sc03-services/screens/04-bill-and-recognise/s-sc03-06-t-m-billing.md)
-- [S-SC03-07 Milestones](../08-sectors/sc03-services/screens/04-bill-and-recognise/s-sc03-07-milestones.md)
-- [S-SC03-08 Revenue](../08-sectors/sc03-services/screens/04-bill-and-recognise/s-sc03-08-revenue.md)
-- [S-SC03-09 Freelancers](../08-sectors/sc03-services/screens/03-deliver-and-record/s-sc03-09-freelancers.md)
-- [S-SC03-10 Engagement margin](../08-sectors/sc03-services/screens/04-bill-and-recognise/s-sc03-10-engagement-margin.md)
-- [S-SC03-11 Client portal](../08-sectors/sc03-services/screens/05-client-and-people/s-sc03-11-client-portal.md)
-- [S-SC03-12 Satisfaction](../08-sectors/sc03-services/screens/05-client-and-people/s-sc03-12-satisfaction.md)
-- [S-SC03-13 Skills](../08-sectors/sc03-services/screens/05-client-and-people/s-sc03-13-skills.md)
-- [S-SC03-14 Foreign billing](../08-sectors/sc03-services/screens/04-bill-and-recognise/s-sc03-14-foreign-billing.md)
-- [S-SC03-15 Engagement assistant](../08-sectors/sc03-services/screens/03-deliver-and-record/s-sc03-15-engagement-assistant.md)
-- [E-SC03-01 Engagement](../08-sectors/sc03-services/data/e-sc03-01-engagement.md)
-- [E-SC03-02 Statement of work](../08-sectors/sc03-services/data/e-sc03-02-statement-of-work.md)
-- [E-SC03-03 Rate card](../08-sectors/sc03-services/data/e-sc03-03-rate-card.md)
-- [E-SC03-04 Staffing assignment](../08-sectors/sc03-services/data/e-sc03-04-staffing-assignment.md)
-- [E-SC03-05 Timesheet](../08-sectors/sc03-services/data/e-sc03-05-timesheet.md)
-- [E-SC03-06 Rebillable cost](../08-sectors/sc03-services/data/e-sc03-06-rebillable-cost.md)
-- [E-SC03-07 Billing proposal](../08-sectors/sc03-services/data/e-sc03-07-billing-proposal.md)
-- [E-SC03-08 Milestone](../08-sectors/sc03-services/data/e-sc03-08-milestone.md)
-- [E-SC03-09 Revenue position](../08-sectors/sc03-services/data/e-sc03-09-revenue-position.md)
-- [E-SC03-10 Freelance contract](../08-sectors/sc03-services/data/e-sc03-10-freelance-contract.md)
-- [E-SC03-11 Skill](../08-sectors/sc03-services/data/e-sc03-11-skill.md)
-- [E-SC03-12 Shared item](../08-sectors/sc03-services/data/e-sc03-12-shared-item.md)
-- [E-SC03-13 Satisfaction survey](../08-sectors/sc03-services/data/e-sc03-13-satisfaction-survey.md)
+**F12 Manufacturing (plugin), use cases:**
 
-Pages: [1](README.md) · [2](page-2.md) · [3](page-3.md) · **4** · [5](page-5.md) · [6](page-6.md) · [7](page-7.md) ·
-[8](page-8.md) · [9](page-9.md) · [10](page-10.md) · [11](page-11.md) · [12](page-12.md) · [13](page-13.md) ·
-[14](page-14.md) · [15](page-15.md) · [16](page-16.md) · [17](page-17.md) · [18](page-18.md) · [19](page-19.md) ·
-[20](page-20.md) · [21](page-21.md) · [22](page-22.md) · [23](page-23.md) · [24](page-24.md) · [25](page-25.md) ·
-[26](page-26.md) · [27](page-27.md) · [28](page-28.md) · [29](page-29.md) · [30](page-30.md) · [31](page-31.md) ·
-[32](page-32.md) · [33](page-33.md) · [34](page-34.md) · [35](page-35.md) · [36](page-36.md) · [37](page-37.md) ·
-[38](page-38.md) · [39](page-39.md) · [40](page-40.md) · [41](page-41.md) · [42](page-42.md) · [43](page-43.md) ·
-[44](page-44.md) · [45](page-45.md) · [46](page-46.md) · [47](page-47.md) · [48](page-48.md) · [49](page-49.md) ·
-[50](page-50.md) · [51](page-51.md) · [52](page-52.md) · [53](page-53.md) · [54](page-54.md) · [55](page-55.md) ·
-[56](page-56.md) · [57](page-57.md) · [58](page-58.md)
+- [UC-F12-29 Measure energy per operation](../02-functional/f12-manufacturing/use-cases/13-energy-passport-and-work-in-progress/uc-f12-29-measure-energy-per-operation.md)
+- [UC-F12-30 Build the digital product passport](../02-functional/f12-manufacturing/use-cases/13-energy-passport-and-work-in-progress/uc-f12-30-build-the-digital-product-passport.md)
+
+**F13 Payroll (plugin), business rules:**
+
+- [BR-F13-16 Every employee covered by the mandatory schemes](../02-functional/f13-payroll/business-rules/br-f13-16-every-employee-covered-by-the-mandatory-schemes.md)
+- [BR-F13-17 Special contracts paid by their own rules](../02-functional/f13-payroll/business-rules/br-f13-17-special-contracts-paid-by-their-own-rules.md)
+- [BR-F13-18 Special regimes declared to their own bodies](../02-functional/f13-payroll/business-rules/br-f13-18-special-regimes-declared-to-their-own-bodies.md)
+- [BR-F13-19 Garnishment within the attachable portion](../02-functional/f13-payroll/business-rules/br-f13-19-garnishment-within-the-attachable-portion.md)
+- [BR-F13-21 Profit-sharing once the threshold is reached](../02-functional/f13-payroll/business-rules/br-f13-21-profit-sharing-once-the-threshold-is-reached.md)
+- [BR-F13-22 Leave pay is the higher of two methods](../02-functional/f13-payroll/business-rules/br-f13-22-leave-pay-is-the-higher-of-two-methods.md)
+
+**F13 Payroll (plugin), entities:**
+
+- [E-F13-21 Profit-sharing year](../02-functional/f13-payroll/data/e-f13-21-profit-sharing-year.md)
+- [E-F13-23 Agreement family](../02-functional/f13-payroll/data/e-f13-23-agreement-family.md)
+
+**F13 Payroll (plugin), use cases:**
+
+- [UC-F13-21 Enrol employees in health and provident schemes](../02-functional/f13-payroll/use-cases/07-schemes-and-special-contracts/uc-f13-21-enrol-employees-in-health-and-provident-schemes.md)
+- [UC-F13-22 Pay an apprentice or an intern](../02-functional/f13-payroll/use-cases/07-schemes-and-special-contracts/uc-f13-22-pay-an-apprentice-or-an-intern.md)
+- [UC-F13-23 Pay a company officer](../02-functional/f13-payroll/use-cases/07-schemes-and-special-contracts/uc-f13-23-pay-a-company-officer.md)
+- [UC-F13-24 Pay intermittent performers](../02-functional/f13-payroll/use-cases/07-schemes-and-special-contracts/uc-f13-24-pay-intermittent-performers.md)
+- [UC-F13-25 Pay farm workers under the MSA](../02-functional/f13-payroll/use-cases/07-schemes-and-special-contracts/uc-f13-25-pay-farm-workers-under-the-msa.md)
+- [UC-F13-26 Apply a wage garnishment](../02-functional/f13-payroll/use-cases/08-deductions-savings-and-leave-pay/uc-f13-26-apply-a-wage-garnishment.md)
+- [UC-F13-27 Grant a pay advance](../02-functional/f13-payroll/use-cases/08-deductions-savings-and-leave-pay/uc-f13-27-grant-a-pay-advance.md)
+- [UC-F13-28 Compute profit-sharing and employee savings](../02-functional/f13-payroll/use-cases/08-deductions-savings-and-leave-pay/uc-f13-28-compute-profit-sharing-and-employee-savings.md)
+- [UC-F13-29 Value paid-leave pay](../02-functional/f13-payroll/use-cases/08-deductions-savings-and-leave-pay/uc-f13-29-value-paid-leave-pay.md)
+- [UC-F13-30 Apply the hotels-and-restaurants agreement](../02-functional/f13-payroll/use-cases/09-collective-agreements-by-family/uc-f13-30-apply-the-hotels-and-restaurants-agreement.md)
+- [UC-F13-31 Apply the home-help agreement](../02-functional/f13-payroll/use-cases/09-collective-agreements-by-family/uc-f13-31-apply-the-home-help-agreement.md)
+- [UC-F13-32 Apply the Syntec agreement](../02-functional/f13-payroll/use-cases/09-collective-agreements-by-family/uc-f13-32-apply-the-syntec-agreement.md)
+- [UC-F13-33 Apply the construction agreements](../02-functional/f13-payroll/use-cases/09-collective-agreements-by-family/uc-f13-33-apply-the-construction-agreements.md)
+- [UC-F13-37 Hand pay inputs to an outsourced payroll firm](../02-functional/f13-payroll/use-cases/10-special-contracts-and-outsourcing/uc-f13-37-hand-pay-inputs-to-an-outsourced-payroll-firm.md)
+
+**F14 Plugin store, entities:**
+
+- [E-F14-14 Software bill of materials](../02-functional/f14-plugin-store/data/e-f14-14-software-bill-of-materials.md)
+
+**F14 Plugin store, use cases:**
+
+- [UC-F14-21 Check a plugin's bill of materials and licences](../02-functional/f14-plugin-store/use-cases/03-publish/uc-f14-21-check-a-plugins-bill-of-materials-and-licences.md)
+
+**F15 Legal assistant, business rules:**
+
+- [BR-F15-12 Notice dates computed before renewals](../02-functional/f15-legal-assistant/business-rules/br-f15-12-notice-dates-computed-before-renewals.md)
+
+Pages: [1](README.md) · [2](page-2.md) · [3](page-3.md) · **4** · [5](page-5.md) · [6](page-6.md) · [7](page-7.md)
 
 ---
 

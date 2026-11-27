@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-SC07-07 Passengers, removals, courier and freight
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

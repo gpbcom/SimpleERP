@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-10 Medical certificates
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -12,7 +12,10 @@
 
 ## Purpose
 
-Record the certificates, show who is covered and flag the ones that end soon.
+Record each certificate, or for a minor the health questionnaire, keeping only its date, validity and fitness and never
+the medical content; show who is covered and flag the ones that end soon
+([CR-FR-284](../../../../10-country-packs/france/non-profit/cr-fr-284-sports-licences-and-medical-certificates.md),
+[CR-FR-283](../../../../10-country-packs/france/data-protection/cr-fr-283-health-data-outside-care.md)).
 
 ## Entry points
 
@@ -23,11 +26,11 @@ Sports and fitness › Medical certificates; a team's page; the AI assistant.
 ```text
 +--------------------------------------------------------------------------------------------------+
 | Certificates: U15 football                                              2 not covered            |
-| Player       Covers          Valid to      State                                                 |
-| Lena T.      competition     2027-09-01    Valid                                                 |
-| Karim A.     training        2027-09-01    Valid (training only)                                 |
-| Eva P.       competition     2026-12-05    Valid, ends in 14 days                                |
-| Tom R.       -               -             Expired                                               |
+| Player       Proof                           Fit   Covers          Valid to      State           |
+| Lena T.      health questionnaire (minor)    yes   competition     2027-09-01    Valid           |
+| Karim A.     health questionnaire (minor)    yes   training        2027-09-01    Training only   |
+| Eva P.       certificate, after an answer    yes   competition     2026-12-05    Ends in 8 days  |
+| Tom R.       -                               -     -               -             Expired         |
 +--------------------------------------------------------------------------------------------------+
 ```
 
@@ -49,6 +52,8 @@ Sports and fitness › Medical certificates; a team's page; the AI assistant.
 | Date | E-SC18-07 issued on | date | yes while Received | yes |
 | Valid to | E-SC18-07 valid to | date | yes while Received | yes |
 | Covers | E-SC18-07 covers | training, competition | yes while Received | yes |
+| Proof | certificate or health questionnaire | the questionnaire for a minor, a certificate only if an answer leads to an examination (L231-2 III) | yes while Received | yes |
+| Fit | fit or not fit | yes or no; never the medical content | yes while Received | yes |
 | Document | E-F2-13 document | file with limited access | yes while Received | yes |
 
 ## Actions

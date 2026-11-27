@@ -20,7 +20,7 @@ A department with its manager.
 ### Merged in: E-F3-23 Team
 
 From [E-F3-23 Team](../../f03-assistant/data/e-f03-23-team.md), merged here (the owner's answer S2-9 of 2026-11-13).
-(Proposed) The team the flow charts name with the words "team"
+The team the flow charts name with the words "team"
 ([FL-F3-08](../../f03-assistant/flows/fl-f03-08-manage-and-share-conversations.md)). The owner decided to create it
 ([D516](../../../06-decisions/foundations/d516-naming-rules-and-the-seven-classes-of-names.md)); what it holds waits for
 the owner's confirmation.

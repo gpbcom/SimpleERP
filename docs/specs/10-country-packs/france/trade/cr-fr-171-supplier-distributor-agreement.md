@@ -24,7 +24,7 @@ the supplier's terms are sent by 1 December; it lists prices, reductions, servic
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code de commerce L441-3 in its current version in force since 2023-04-01 (loi n° 2023-221) ([Code de commerce, art. L441-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047381742), read 2026-11-27).
 
 ## Enforced by
 

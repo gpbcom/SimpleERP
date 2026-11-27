@@ -4,7 +4,7 @@
 
 # 📝 UC-F8-06 Connect banks and reconcile
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -39,7 +39,7 @@ F8 set up for the company.
 
 1. The accountant connects each bank on bank reconciliation
    ([S-F8-06](../../screens/03-bank-and-collect/s-f08-06-bank-reconciliation.md)) through the bank aggregator, which
-   covers the main French banks (Proposed: one named aggregator chosen at T12, with its list of French banks published),
+   covers the main French banks (one named aggregator chosen at T12, with its list of French banks published),
    or imports statement files.
 2. New lines arrive daily; models and the AI match them
    ([BR-F8-03](../../business-rules/br-f08-03-every-bank-line-is-reconciled.md)).
@@ -120,7 +120,8 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: PSD2 rules on account access.
+(⚖️ lawyer review before launch, D574) to read: PSD2 rules on account access (Directive (EU) 2015/2366, articles 66 and 67;
+Regulation (EU) 2018/389).
 
 ## Related use cases
 

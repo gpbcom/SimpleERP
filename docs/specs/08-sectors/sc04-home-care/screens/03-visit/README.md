@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC04-05 | [Care log](s-sc04-05-care-log.md) | 🔄 |
-| 🖥️ | S-SC04-07 | [Family access](s-sc04-07-family-access.md) | 🔄 |
-| 🖥️ | S-SC04-15 | [Rounds assistant](s-sc04-15-rounds-assistant.md) | 🔄 |
+| 🖥️ | S-SC04-05 | [Care log](s-sc04-05-care-log.md) | ✅ |
+| 🖥️ | S-SC04-07 | [Family access](s-sc04-07-family-access.md) | ✅ |
+| 🖥️ | S-SC04-15 | [Rounds assistant](s-sc04-15-rounds-assistant.md) | ✅ |

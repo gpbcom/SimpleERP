@@ -3,7 +3,7 @@
 
 # 👩‍🍳 Kitchen staff: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -13,7 +13,7 @@ the kitchen. Default density: comfortable, large touch targets
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Orders to prepare.
 - Widgets: Average preparation time.
@@ -36,16 +36,16 @@ the kitchen. Default density: comfortable, large touch targets
 
 ## Navigation
 
-(Proposed) Preparation · Ready · Items.
+Preparation · Ready · Items.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U19-01 | [Prepare the orders](journeys/j-u19-01-prepare-the-orders.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U19-01 | [Prepare the orders](journeys/j-u19-01-prepare-the-orders.md) | ✅ |
 
 ---
 

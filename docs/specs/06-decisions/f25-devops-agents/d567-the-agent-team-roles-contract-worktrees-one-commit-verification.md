@@ -4,7 +4,7 @@
 
 # 📜 D567 The agent team: roles, contract, worktrees, one-commit verification
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ decided
 
 ## Context
 
@@ -17,32 +17,33 @@ specifies is kept. The team starts from a ticket approved through
 [FL-F25-02](../../02-functional/f25-devops-agents/flows/fl-f25-02-feature-requests.md) or
 [FL-F25-03 Bugs](../../02-functional/f25-devops-agents/flows/fl-f25-03-bugs.md) and ends in
 [FL-F25-04](../../02-functional/f25-devops-agents/flows/fl-f25-04-approve-and-govern.md), where the maintainer still
-reviews, approves and merges. The design below is a proposal written for the owner and waits for the owner's answer.
+reviews, approves and merges. The design below was a proposal written for the owner; the owner confirmed it on
+2026-11-27 (D572).
 
 ## Options
 
-- Write the work contract of a ticket (UC-F25-29): (Proposed) a work contract per ticket that gives each role its own
+- Write the work contract of a ticket (UC-F25-29): a work contract per ticket that gives each role its own
   files, or workers that share every file.
-- Approve the work contract (UC-F25-30): (Proposed) no worker before the maintainer approves the contract, or workers
+- Approve the work contract (UC-F25-30): no worker before the maintainer approves the contract, or workers
   that start at once.
-- Build in isolated worktrees (UC-F25-31): (Proposed) one worktree per role from one recorded starting commit, or one
+- Build in isolated worktrees (UC-F25-31): one worktree per role from one recorded starting commit, or one
   shared checkout.
-- Hand over a worker's result (UC-F25-32): (Proposed) a structured handoff refused without its commits and checks, or a
+- Hand over a worker's result (UC-F25-32): a structured handoff refused without its commits and checks, or a
   free-text message.
-- Integrate the workers' commits (UC-F25-33): (Proposed) integration in dependency order with conflicts sent back to the
+- Integrate the workers' commits (UC-F25-33): integration in dependency order with conflicts sent back to the
   architect, or conflicts resolved by the agent that meets them.
-- Verify the candidate commit (UC-F25-34): (Proposed) checks and a read-only review bound to one commit, or a review of
+- Verify the candidate commit (UC-F25-34): checks and a read-only review bound to one commit, or a review of
   the branch as it moves.
-- Repair a rejected candidate (UC-F25-35): (Proposed) two repair cycles at most then the maintainer, or repairs until
+- Repair a rejected candidate (UC-F25-35): two repair cycles at most then the maintainer, or repairs until
   the budget stops them.
-- Open the draft pull request with its evidence (UC-F25-36): (Proposed) one draft pull request per branch with its
+- Open the draft pull request with its evidence (UC-F25-36): one draft pull request per branch with its
   evidence and the specification's screenshots, or a pull request with a short summary.
-- Resume an interrupted run (UC-F25-37): (Proposed) one active run per repository resumed from a checkpoint, or parallel
+- Resume an interrupted run (UC-F25-37): one active run per repository resumed from a checkpoint, or parallel
   runs restarted from scratch.
 
 ## Choice
 
-(Proposed) F25 gets nine use cases in one new flow, FL-F25-08, each with its screen and its rule, and five entities with
+F25 gets nine use cases in one new flow, FL-F25-08, each with its screen and its rule, and five entities with
 their lists. The flow only adds: every existing rule and decision of F25 applies to the team. The maintainer approves
 the ticket ([BR-F25-07](../../02-functional/f25-devops-agents/business-rules/br-f25-07-approval-before-ready.md)) and
 the contract, a fix starts with a failing test
@@ -58,20 +59,20 @@ Claude Code GitHub Action ([D437 DevOps agents live in the CI](d437-devops-agent
 
 | Point | Use case | Proposal |
 |---|---|---|
-| Write the work contract of a ticket | [UC-F25-29](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-29-write-the-work-contract-of-a-ticket.md) | UC-F25-29: (Proposed) a work contract gives each role its own files |
-| Approve the work contract | [UC-F25-30](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-30-approve-the-work-contract.md) | UC-F25-30: (Proposed) no worker starts before the contract is approved |
-| Build in isolated worktrees | [UC-F25-31](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-31-build-in-isolated-worktrees.md) | UC-F25-31: (Proposed) one role, one worktree, one starting commit |
-| Hand over a worker's result | [UC-F25-32](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-32-hand-over-a-workers-result.md) | UC-F25-32: (Proposed) a handoff without its commits and checks is refused |
-| Integrate the workers' commits | [UC-F25-33](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-33-integrate-the-workers-commits.md) | UC-F25-33: (Proposed) a conflict goes back to the architect, never guessed |
-| Verify the candidate commit | [UC-F25-34](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-34-verify-the-candidate-commit.md) | UC-F25-34: (Proposed) an approval belongs to one commit |
-| Repair a rejected candidate | [UC-F25-35](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-35-repair-a-rejected-candidate.md) | UC-F25-35: (Proposed) two repair cycles at most, then a maintainer decides |
-| Open the draft pull request with its evidence | [UC-F25-36](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-36-open-the-draft-pull-request-with-its-evidence.md) | UC-F25-36: (Proposed) a draft pull request carries its evidence and screenshots |
-| Resume an interrupted run | [UC-F25-37](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-37-resume-an-interrupted-run.md) | UC-F25-37: (Proposed) one active run per repository, resumed from its checkpoint |
+| Write the work contract of a ticket | [UC-F25-29](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-29-write-the-work-contract-of-a-ticket.md) | UC-F25-29: a work contract gives each role its own files |
+| Approve the work contract | [UC-F25-30](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-30-approve-the-work-contract.md) | UC-F25-30: no worker starts before the contract is approved |
+| Build in isolated worktrees | [UC-F25-31](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-31-build-in-isolated-worktrees.md) | UC-F25-31: one role, one worktree, one starting commit |
+| Hand over a worker's result | [UC-F25-32](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-32-hand-over-a-workers-result.md) | UC-F25-32: a handoff without its commits and checks is refused |
+| Integrate the workers' commits | [UC-F25-33](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-33-integrate-the-workers-commits.md) | UC-F25-33: a conflict goes back to the architect, never guessed |
+| Verify the candidate commit | [UC-F25-34](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-34-verify-the-candidate-commit.md) | UC-F25-34: an approval belongs to one commit |
+| Repair a rejected candidate | [UC-F25-35](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-35-repair-a-rejected-candidate.md) | UC-F25-35: two repair cycles at most, then a maintainer decides |
+| Open the draft pull request with its evidence | [UC-F25-36](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-36-open-the-draft-pull-request-with-its-evidence.md) | UC-F25-36: a draft pull request carries its evidence and screenshots |
+| Resume an interrupted run | [UC-F25-37](../../02-functional/f25-devops-agents/use-cases/08-team-builds-a-ticket/uc-f25-37-resume-an-interrupted-run.md) | UC-F25-37: one active run per repository, resumed from its checkpoint |
 
 ## Decided by
 
 Not decided yet: a proposal of 2026-11-16 written for the owner, after the owner's request of the same day to take
-inspiration from a course on multi-agent development teams. It waits for the owner.
+inspiration from a course on multi-agent development teams. The owner confirmed it on 2026-11-27 (D572).
 
 ## Consequences
 
@@ -123,7 +124,7 @@ inspiration from a course on multi-agent development teams. It waits for the own
   [S-F25-L23](../../02-functional/f25-devops-agents/screens/00-lists/s-f25-l23-run-checkpoints.md).
 - Drawn in [FL-F25-08](../../02-functional/f25-devops-agents/flows/fl-f25-08-team-builds-a-ticket.md) The agent team
   builds an approved ticket.
-- (Proposed) The quality and cost dashboards of F25 gain the metrics per ticket: elapsed time, AI cost, repair cycles
+- The quality and cost dashboards of F25 gain the metrics per ticket: elapsed time, AI cost, repair cycles
   and maintainer interventions, shown on the costs and quality screens
   ([S-F25-18](../../02-functional/f25-devops-agents/screens/04-approve-and-govern/s-f25-18-agent-costs.md),
   [S-F25-19](../../02-functional/f25-devops-agents/screens/04-approve-and-govern/s-f25-19-agent-quality.md)).

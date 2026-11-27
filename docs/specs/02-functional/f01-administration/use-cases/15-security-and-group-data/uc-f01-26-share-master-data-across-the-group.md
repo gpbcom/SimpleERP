@@ -157,8 +157,7 @@ A shared record opens as fast as a company's own; sharing adds no copy to keep i
 ## Regulatory references
 
 Sharing personal data between legal entities of a group needs a legal basis and an information of the people: GDPR,
-[Regulation (EU) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj), articles 6, 13 and 26; the France
-pack rule on data shared inside a group is written later.
+[Regulation (EU) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj), articles 6, 13 and 26; the France-pack rule on data shared inside a group is [CR-FR-280 Personal data shared inside a group](../../../../10-country-packs/france/data-protection/cr-fr-280-personal-data-shared-inside-a-group.md).
 
 ## Related use cases
 

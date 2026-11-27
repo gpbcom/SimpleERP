@@ -4,7 +4,7 @@
 
 # 📝 UC-F7-02 Order from a supplier
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -54,7 +54,7 @@ Warehouses and rules set (UC-F7-13).
 ## Error flows
 
 - 2e. The supplier changes a price: flagged before confirmation.
-- 3e. No confirmation in 2 days (Proposed): the buyer is told.
+- 3e. No confirmation in 2 days: the buyer is told.
 
 ## Business rules
 

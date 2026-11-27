@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-24 Test rules and workflows with test cases
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -119,7 +119,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Replaying 200 cases takes under 1 minute (Proposed).
+Replaying 200 cases takes under 1 minute.
 
 ## Regulatory references
 

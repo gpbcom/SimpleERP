@@ -41,10 +41,10 @@ Home · Online shop · Customers and sales · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U56-01 | [Get a service from the commune](journeys/j-u56-01-get-a-service-from-the-commune.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U56-01 | [Get a service from the commune](journeys/j-u56-01-get-a-service-from-the-commune.md) | ✅ |
 
 ---
 

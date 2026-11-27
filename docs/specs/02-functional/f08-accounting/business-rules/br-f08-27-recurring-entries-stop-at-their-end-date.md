@@ -3,7 +3,7 @@
 
 # 📏 BR-F8-27 Recurring entries stop at their end date
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

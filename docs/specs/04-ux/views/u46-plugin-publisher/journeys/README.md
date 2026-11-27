@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U46-01 | [Publish a plugin](j-u46-01-publish-a-plugin.md) | 🔄 |
+| 🧭 | J-U46-01 | [Publish a plugin](j-u46-01-publish-a-plugin.md) | ✅ |
 
 ---
 

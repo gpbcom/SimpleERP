@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-SC20-04 Public-sector HR and pay
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F25-08 The agent team builds an approved ticket
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

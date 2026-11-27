@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U22-01 | [Run a construction site](j-u22-01-run-a-site.md) | 🔄 |
+| 🧭 | J-U22-01 | [Run a construction site](j-u22-01-run-a-site.md) | ✅ |
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 🔀 FL-F19-07 Similar features, catalogue, co-funding and maintenance
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

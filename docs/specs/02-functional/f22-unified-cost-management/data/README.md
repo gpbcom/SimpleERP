@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -24,9 +24,9 @@ One file per entity.
 | 🗃️ | E-F22-11 | [Forecast](e-f22-11-forecast.md) | ✅ |
 | 🗃️ | E-F22-12 | [Invoice match](e-f22-12-invoice-match.md) | ✅ |
 | 🗃️ | E-F22-13 | [Usage invoice](e-f22-13-usage-invoice.md) | ✅ |
-| 🗃️ | E-F22-14 | [Exchange rate](e-f22-14-exchange-rate.md) | 🔄 |
-| 🗃️ | E-F22-15 | [Compute machine](e-f22-15-compute-machine.md) | 🔄 |
-| 🗃️ | E-F22-16 | [Savings recommendation](e-f22-16-savings-recommendation.md) | 🔄 |
+| 🗃️ | E-F22-14 | [Exchange rate](e-f22-14-exchange-rate.md) | ✅ |
+| 🗃️ | E-F22-15 | [Compute machine](e-f22-15-compute-machine.md) | ✅ |
+| 🗃️ | E-F22-16 | [Savings recommendation](e-f22-16-savings-recommendation.md) | ✅ |
 | 🗃️ | E-F22-17 | [Re-billing rule](e-f22-17-re-billing-rule.md) | ✅ |
 | 🗃️ | E-F22-18 | [Client usage statement](e-f22-18-client-usage-statement.md) | ✅ |
 | 🗃️ | E-F22-19 | [Credit pack](e-f22-19-credit-pack.md) | ✅ |

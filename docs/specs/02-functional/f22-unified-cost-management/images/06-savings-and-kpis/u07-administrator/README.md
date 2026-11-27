@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F22-06 Savings and KPIs
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F22-06 Savings and KPIs](../../../flows/fl-f22-06-savings-and-kpis.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

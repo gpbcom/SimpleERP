@@ -7,8 +7,9 @@
 
 ## Rules that apply
 
-- **Code du travail:** contracts, trial periods, CDD limits, working time and rest, time off, overtime, professional
-  interviews (L6315-1), personnel register (L1221-13), DPAE (L1221-10), occupational health visits, mandatory displays,
+- **Code du travail:** contracts, trial periods, CDD limits, working time and rest, time off, overtime, career-path
+  interviews at most every 4 years and a review every 8 years (L6315-1 since 2025-12-31), personnel register per
+  establishment (L1221-13), DPAE (L1221-10), occupational health visits, mandatory displays,
   BDESE (50+).
 - **GDPR and CNIL:** employee monitoring proportionate and announced (BR-F9-06, BR-F9-07), recruitment data kept 2 years
   (BR-F9-11).
@@ -19,7 +20,10 @@
   (EU AI Act, Annex III, point 4(a),
   [BR-F4-21](../f04-meetings/business-rules/br-f04-21-candidate-scoring-is-high-risk-ai.md)); no criterion the law
   forbids in hiring ([BR-F9-40](business-rules/br-f09-40-no-criterion-the-law-forbids-in-hiring.md)); prospects kept
-  only as long as needed ([BR-F9-39](business-rules/br-f09-39-prospects-kept-only-as-long-as-needed.md)).
+  only as long as needed ([BR-F9-39](business-rules/br-f09-39-prospects-kept-only-as-long-as-needed.md)). LinkedIn's
+  user agreement restricts automated activity: each message is prepared and sent by the HR user's click, and automatic
+  sending is an option the administrator turns on, accepting that risk
+  ([D570](../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)).
 
 ## Country pack
 

@@ -8,7 +8,8 @@
 ## Statement
 
 Each order's actual cost is its components, work centre time at its rate and subcontracting; variances to the standard
-go to accounting; stock is valued per
+go to accounting; stock is valued at its production cost, fixed overheads allocated on the normal capacity, losses and
+wastage and administrative costs (other than a dedicated structure's) left out, per
 [CR-FR-081 Production cost of manufactured stock](../../../10-country-packs/france/accounting/cr-fr-081-production-cost-of-inventories.md).
 
 ## Why

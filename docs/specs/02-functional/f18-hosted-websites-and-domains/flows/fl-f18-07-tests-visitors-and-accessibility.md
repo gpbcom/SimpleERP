@@ -4,7 +4,7 @@
 
 # 🔀 FL-F18-07 A/B tests, visitors, accessibility and members
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

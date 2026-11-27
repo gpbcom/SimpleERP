@@ -3,7 +3,7 @@
 
 # 📏 BR-SC02-17 Dates follow the supplier's confirmed lead time
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

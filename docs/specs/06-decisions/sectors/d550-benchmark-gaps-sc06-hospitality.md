@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found six situations
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found six situations
 that hospitality suites handle and SC06 did not: campsites and catering, groups and seminars, dynamic pricing, alcohol
 licences (a French legal duty) and guest profiles. Three carry a limit (the season grid, the cut-off date and the
 licence's category and hours), and one a safety duty (the allergies).
@@ -28,7 +28,8 @@ licence's category and hours), and one a safety duty (the allergies).
 ## Choice
 
 SC06 gets six use cases in one new flow, FL-SC06-06, each with its screen, its rule, its entity and its list. All at
-full depth now. Each legal duty is written in plain words and marked (Proposed) until the France-pack rule is written.
+full depth now. Each legal duty is written in plain words and marked as proposed until its France-pack rule was
+written (the rules now exist).
 
 | Gap | Point | Decision | The owner's answer |
 |---|---|---|---|
@@ -42,7 +43,7 @@ full depth now. Each legal duty is written in plain words and marked (Proposed) 
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC06 Hospitality").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC06 Hospitality").
 
 ## Consequences
 

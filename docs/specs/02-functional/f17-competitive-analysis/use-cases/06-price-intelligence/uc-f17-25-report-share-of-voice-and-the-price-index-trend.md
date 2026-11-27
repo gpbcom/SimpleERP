@@ -4,7 +4,7 @@
 
 # 📝 UC-F17-25 Report share of voice and the price-index trend
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -51,7 +51,7 @@ Monthly.
 
 ## Error flows
 
-- 2e. Fewer than (Proposed) 30 mentions in the period: the share is not computed.
+- 2e. Fewer than 30 mentions in the period: the share is not computed.
 - Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
   (D122) and what was typed stays on the screen.
 

@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC02-08 | [Cross-channel orders](s-sc02-08-cross-channel-orders.md) | 🔄 |
-| 🖥️ | S-SC02-09 | [Returns](s-sc02-09-returns.md) | 🔄 |
+| 🖥️ | S-SC02-08 | [Cross-channel orders](s-sc02-08-cross-channel-orders.md) | ✅ |
+| 🖥️ | S-SC02-09 | [Returns](s-sc02-09-returns.md) | ✅ |

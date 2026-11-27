@@ -7,13 +7,16 @@
 
 ## Statement
 
-(Proposed) Each training is sold under a signed agreement or contract; an individual paying themselves keeps a
+Each training is sold under a signed agreement or contract; an individual paying themselves keeps a
 withdrawal period; in France:
 [CR-FR-158 Training agreement or contract](../../../10-country-packs/france/education/cr-fr-158-training-agreement.md).
 
 ## Why
 
-(Proposed) The mentions and the period are still to read.
+A contract with an individual states the nature, duration, programme and objectives, the expected headcount, the prior
+level, the delivery and assessment conditions, the trainers' qualifications and the payment and early-end terms; the
+individual may withdraw within 10 days of signing by registered letter, pays nothing before, then at most 30 % of the
+price (CR-FR-158, Code du travail L6353-4 to L6353-6).
 
 ## Examples
 

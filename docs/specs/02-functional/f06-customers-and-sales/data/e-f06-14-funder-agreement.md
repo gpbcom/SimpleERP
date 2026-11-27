@@ -3,7 +3,7 @@
 
 # 🗃️ E-F6-14 Funder agreement
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -40,7 +40,8 @@ By beneficiary and funder.
 
 ## Retention
 
-10 years with the invoices (Proposed).
+10 years with the invoices
+([CR-FR-002 Accounting records kept 10 years](../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md)).
 
 ## Audit
 

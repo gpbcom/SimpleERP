@@ -3,20 +3,30 @@
 
 # ⚖️ CR-FR-231 Agent mode for family employers
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) In agent mode the family stays the legal employer: the contract, the payslip and the declarations name the
+In agent mode the family stays the legal employer: the contract, the payslip and the declarations name the
 family, and the provider acts under a written mandate and invoices only its fee. The provider's personal-services
-declaration or approval is needed.
+declaration or approval is needed ([servicesalapersonne.gouv.fr: using personal services](https://www.servicesalapersonne.gouv.fr/je-suis-un-particulier/particuliers-comment-recourir-aux-services-la-personne), updated 2026-04-10,
+read 2026-11-27; arrêté du 24 novembre 2023, annex).
 
 ## Values
 
-- (Proposed) Written mandate.
-- (Proposed) The family named as employer on every document.
-- (Proposed) The provider invoices its fee only.
-- (Proposed) SimpleERP enforces: in agent mode the family is the employer.
+- Written mandate: every mandate service gives rise to a written mandate contract with the individual employer, which
+  states the cost of the mandate and the VAT rate ([arrêté du 24 novembre 2023, annex, point 48](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048465776), in force since 2024-01-01, read 2026-11-27).
+- The family named as employer on every document: the client is the employer, signs the contract and pays the
+  salary; the provider draws up the payslips and the social declarations on the client's behalf ([servicesalapersonne.gouv.fr](https://www.servicesalapersonne.gouv.fr/je-suis-un-particulier/particuliers-comment-recourir-aux-services-la-personne),
+  read 2026-11-27). Read: the first page of the mandate contract states that
+  the consumer is the employer of the person who works at home, ending the mandate does not end the employment
+  contract, and the provider holds a model employment contract between the worker and the employer ([arrêté du 24 novembre 2023, annex, point 48](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048465776), points 46,
+  48 and 67, read 2026-11-27); payslips and declarations are not named there.
+- The provider invoices its fee only: the client pays the salary, and the provider works for a fee under the mandate
+  ([servicesalapersonne.gouv.fr](https://www.servicesalapersonne.gouv.fr/je-suis-un-particulier/particuliers-comment-recourir-aux-services-la-personne), read 2026-11-27). Read: the welcome booklet lists the price of mandate services, the
+  contract states the cost of the mandate, and the invoice model follows Code du travail D7233-1 ([arrêté du 24 novembre 2023, annex, point 48](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048465776), points 46, 48
+  and 67, read 2026-11-27); that the invoice holds the fee only is not stated.
+- SimpleERP enforces: in agent mode the family is the employer.
 - Read on Legifrance,
   [Code du travail L7232-6](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006189974/)
   and [L7232-1 to L7232-1-2](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006189973/)
@@ -37,11 +47,12 @@ declaration or approval is needed.
 
 ## Legal references
 
-- Law to read: agent mode of personal-services providers (not read yet).
+- Code du travail L7232-1 to L7232-1-2, L7232-6; arrêté du 24 novembre 2023 (approval specifications), annex.
 
 ## Effective dates
 
-(Proposed) To read.
+L7232-1 and L7232-6 since 2010-07-25, L7232-1-1 and L7232-1-2 since 2025-01-01 ([Code du travail](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006189973/));
+the approval specifications with the written mandate since 2024-01-01 ([arrêté du 24 novembre 2023, annex, point 48](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048465776), art. 5, read 2026-11-27).
 
 ## Enforced by
 
@@ -63,7 +74,7 @@ None stated.
 
 ## Open questions
 
-The law on agent mode of personal-services providers is not read yet; the values are to read before launch.
+None, read on 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

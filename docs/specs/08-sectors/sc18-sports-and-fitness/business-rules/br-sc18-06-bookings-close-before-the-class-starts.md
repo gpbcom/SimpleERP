@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-06 Bookings close before the class starts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

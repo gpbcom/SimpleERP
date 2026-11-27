@@ -12,7 +12,8 @@ partner, then the period is locked.
 
 ## Values
 
-- CA3 monthly or quarterly (normal regime), CA12 yearly (simplified regime).
+- CA3 monthly or quarterly (normal regime), CA12 yearly (simplified regime) until 2026-12-31; from 2027-01-01 the
+  simplified VAT regime is abolished and only the normal regime remains ([impots.gouv.fr, micro-entrepreneur and VAT](https://www.impots.gouv.fr/professionnel/questions/je-suis-micro-entrepreneur-ou-la-tete-dune-micro-entreprise-ai-je-des), read 2026-11-27).
 - DAS2, OSS, Intrastat (DEB) and the liasse fiscale.
 - Electronic filing: EDI-TVA, EDI-TDFC.
 
@@ -23,7 +24,14 @@ partner, then the period is locked.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2025-06-19: art. 287 in force since 2025-01-01, art. 1649 quater B quater since 2025-06-19, art. 240 since
+2016-02-01 ([CGI, art. 287](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048826856), [art. 1649 quater B quater](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051764508), [art. 240](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030751913), read 2026-11-27). For the VAT returns, until 2026-12-31, CGI art. 287 applies; from 2027-01-01, the Code des impositions sur les biens et services, Book II, the declarations (L216-24 to L216-32),
+in force on that date ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 49](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054587047) as amended by Ordonnance n° 2026-671, read 2026-11-27); on invoices,
+contracts and acts that produce effects until 2028-06-30 (art. 46 II as
+amended by Ordonnance n° 2026-671, [BOFiP, BOI-RES-TVA-000253 of 2026-10-07](https://bofip.impots.gouv.fr/bofip/14901-PGP.html/identifiant=BOI-RES-TVA-000253-20261007), read 2026-11-27), a reference to the CGI is read as one to the CIBS
+article that takes it over ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 46](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053091753), read 2026-11-27).
+From 2027-01-01 the CGI rules on the VAT returns (art. 287), the simplified regime itself ending on that date stay
+applicable until the regulatory part of the CIBS takes them over ([BOFiP, BOI-RES-TVA-000253 of 2026-10-07](https://bofip.impots.gouv.fr/bofip/14901-PGP.html/identifiant=BOI-RES-TVA-000253-20261007), 2.3 and 3.1, read 2026-11-27).
 
 ## Enforced by
 
@@ -39,7 +47,8 @@ administrators; the corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+A return filed late: a surcharge of 10 % of the tax, 40 % when it is not filed within 30 days of a
+formal notice, 80 % when a hidden activity is found (art. 1728), plus late-payment interest (art. 1727) ([CGI, art. 1728](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053546784), [art. 1727](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051213330), read 2026-11-27).
 
 ## Exceptions
 

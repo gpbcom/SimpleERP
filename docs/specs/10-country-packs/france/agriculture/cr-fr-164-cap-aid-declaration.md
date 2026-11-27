@@ -22,7 +22,8 @@ possible after the deadline until the date the campaign sets.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+The single application under the national strategic plan since 2023-01-01, deadline 15 May (CRPM D614-36)
+([décret n° 2022-1755 du 30 décembre 2022](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046847535), read 2026-11-27).
 
 ## Enforced by
 
@@ -35,7 +36,11 @@ pack update (D294).
 
 ## Penalty
 
-Not stated in the sources read.
+A late application loses 1 % of the aid per working day; more than 25 calendar days late, it is inadmissible (CRPM
+D614-41) ([décret n° 2022-1755](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046847535), read 2026-11-27); for the
+2026 campaign only, the 1 % reduction ran from 2026-05-19 and an application filed after 2026-06-09 was inadmissible
+([décret n° 2026-322 du 28 avril 2026, art. 1](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053975168), read
+2026-11-27).
 
 ## Exceptions
 

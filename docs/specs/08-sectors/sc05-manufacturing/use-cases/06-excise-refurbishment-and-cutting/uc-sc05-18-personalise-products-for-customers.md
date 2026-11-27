@@ -165,7 +165,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A consumer's right to withdraw from a distance sale does not apply to goods made to their specification, and
 the proof the customer approved says so. The approval is kept as a proof of acceptance with the customer's signature.
-The customer states that they hold the rights to the logo or text they send. The France-pack rule is written later.
+The customer states that they hold the rights to the logo or text they send. The France-pack rules are [CR-FR-036 Consumer withdrawal right](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md) (no withdrawal for goods made to the consumer's specification, L221-28 3°) and [CR-FR-020 Proof of acceptance and e-signature](../../../../10-country-packs/france/invoicing/cr-fr-020-electronic-acceptance-and-signature.md).
 Related: [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md),
 [CR-FR-020](../../../../10-country-packs/france/invoicing/cr-fr-020-electronic-acceptance-and-signature.md).
 

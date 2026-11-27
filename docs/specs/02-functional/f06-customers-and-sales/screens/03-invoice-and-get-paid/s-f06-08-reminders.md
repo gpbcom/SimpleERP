@@ -62,7 +62,9 @@ Entity states shown (VD-15):
 | E-F6-05 Invoice | Sent | Badge "Sent"; a new record starts here; next: Received or Refused (UC-F6-06); fields editable within the role | U05 | `u05-accounting/s-f06-08-reminders-e-f06-05-invoice-sent-desktop-{light,dark}.png` |
 | E-F6-05 Invoice | Received | Badge "Received"; next: Paid or Refused (UC-F6-06); fields editable within the role | U05 | `u05-accounting/s-f06-08-reminders-e-f06-05-invoice-received-desktop-{light,dark}.png` |
 | E-F6-05 Invoice | Paid | Badge "Paid"; next: Draft or Refused (BR-F6-07, UC-F6-06); fields editable within the role | U05 | `u05-accounting/s-f06-08-reminders-e-f06-05-invoice-paid-desktop-{light,dark}.png` |
-| E-F6-21 Payment reminder | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U05 | `u05-accounting/s-f06-08-reminders-e-f06-21-payment-reminder-active-desktop-{light,dark}.png` |
+| E-F6-21 Payment reminder | Active | Badge "Active"; a new record starts here; next: Paused or Stopped (UC-F6-24, UC-F6-23, BR-F6-05); fields editable within the role | U05 | `u05-accounting/s-f06-08-reminders-e-f06-21-payment-reminder-active-desktop-{light,dark}.png` |
+| E-F6-21 Payment reminder | Paused | Badge "Paused"; next: Active or Stopped (UC-F6-24); fields editable within the role | U05 | `u05-accounting/s-f06-08-reminders-e-f06-21-payment-reminder-paused-desktop-{light,dark}.png` |
+| E-F6-21 Payment reminder | Stopped | Badge "Stopped"; final: read-only, no next state; the history shows how it got here | U05 | `u05-accounting/s-f06-08-reminders-e-f06-21-payment-reminder-stopped-desktop-{light,dark}.png` |
 | E-F6-22 Formal notice | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U05 | `u05-accounting/s-f06-08-reminders-e-f06-22-formal-notice-active-desktop-{light,dark}.png` |
 | E-F6-05 Invoice | Draft | Badge "Draft"; next: Issued or Refused (UC-F6-06); fields editable within the role | U05 | `u05-accounting/s-f06-08-reminders-e-f06-05-invoice-draft-desktop-{light,dark}.png` |
 

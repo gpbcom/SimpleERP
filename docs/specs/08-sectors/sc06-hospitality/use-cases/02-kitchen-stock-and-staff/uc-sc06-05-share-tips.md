@@ -8,8 +8,8 @@
 
 ## Summary
 
-The manager collects card and cash tips, applies the agreed sharing key, and sends each person's share to payroll or
-pays it out.
+The manager collects card and cash tips, which go in full to the staff in contact with customers, applies the sharing
+key the company set among them, and sends each person's share to payroll or pays it out.
 
 ## Personas
 
@@ -18,7 +18,7 @@ pays it out.
 
 ## Goal
 
-Tips reach the staff by the agreed key.
+Tips reach, in full, the staff in contact with customers, by the company's key.
 
 ## Trigger
 
@@ -45,7 +45,8 @@ Weekly or monthly.
 1. Waiters' card tips come from the till and cash tips are recorded on
    [S-SC06-05 Tips](../../screens/02-kitchen-stock-and-staff/s-sc06-05-tips.md)
    ([BR-SC06-07](../../business-rules/br-sc06-07-tips-reach-the-staff.md)).
-2. The manager applies the agreed key by hours or role.
+2. The manager applies the company's key, by hours or role, among the staff in contact with customers
+   ([CR-FR-113](../../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md)).
 3. The manager checks each person's share.
 4. Shares go to payroll,
    [UC-F13-03](../../../../02-functional/f13-payroll/use-cases/02-monthly-pay-run/uc-f13-03-collect-pay-inputs-from-f9.md).

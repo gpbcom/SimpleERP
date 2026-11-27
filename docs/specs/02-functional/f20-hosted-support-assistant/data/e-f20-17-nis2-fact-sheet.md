@@ -3,7 +3,7 @@
 
 # 🗃️ E-F20-17 NIS2 fact sheet
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -42,7 +42,7 @@ By incident and company.
 
 ## Retention
 
-(Proposed) 5 years.
+5 years.
 
 ## Audit
 

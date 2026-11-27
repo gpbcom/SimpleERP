@@ -7,7 +7,7 @@
 
 ## Purpose
 
-The pathway of one person in a work-integration enterprise: approval, steps, hours, aid and exit
+The pathway of one person in a work-integration enterprise: eligibility, steps, hours, aid and exit
 ([D552](../../../06-decisions/sectors/d552-benchmark-gaps-sc08-non-profit.md)). It adds the integration side to the
 employee record ([E-F9-01](../../../02-functional/f09-hr-and-projects/data/e-f09-01-employee-record.md)) and contract
 ([E-F9-02 Contract](../../../02-functional/f09-hr-and-projects/data/e-f09-02-contract.md)), which stay the source of the
@@ -18,8 +18,8 @@ employment.
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
 | person | employee (E-F9-01) | yes | an employee of the structure | - | Ms Diallo | yes | no |
-| approval from | date | yes | not after the contract start | - | 2025-05-01 | no | no |
-| approval to | date | yes | after approval from | - | 2027-05-01 | no | no |
+| eligible from | date | yes | not after the contract start | - | 2025-05-01 | no | no |
+| eligible to | date | yes | after eligible from | - | 2027-05-01 | no | no |
 | steps | list with dates | no | steps of the pathway | none | support, training | no | no |
 | hours | number per month | no | 0 or more | 0 | 104 | no | no |
 | aid | share of a position | no | 0 to 1 | computed | 0.69 | no | no |
@@ -46,7 +46,7 @@ erDiagram
 ```mermaid
 stateDiagram-v2
   [*] --> Draft : HR creates the pathway, UC-SC08-22
-  Draft --> Active : the approval is valid and the contract starts, BR-SC08-17
+  Draft --> Active : the eligibility is valid and the contract starts, BR-SC08-17
   Active --> Completed : the contract ends with an exit result, UC-SC08-22
   Active --> Ended : the person leaves early, UC-SC08-22
   Completed --> [*] : UC-SC08-22
@@ -55,7 +55,7 @@ stateDiagram-v2
 
 ## Indexes and search
 
-By person, state, approval end date and exit result.
+By person, state, eligibility end date and exit result.
 
 ## Retention
 
@@ -63,7 +63,7 @@ Kept five years after the end for the paying body's checks, the social notes era
 
 ## Audit
 
-Every approval, step, claim and exit, and each reading of the notes, with who and when.
+Every eligibility, step, claim and exit, and each reading of the notes, with who and when.
 
 ## Import and export
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC05-17 Refurbishment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -28,9 +28,11 @@ Manufacturing › Graded units; the tablet's scan button; a returned unit's reco
 | Unit 358812  Phone, 128 GB                                     State: Tested    [Propose grade]  |
 | Step                 Result       Reading      By         Time                                   |
 | Data erasure         Passed       Certificate  Karim      09:12                                  |
+| All functions        Passed       24 of 24     Karim      09:16                                  |
 | Battery health       Passed       91 %         Karim      09:20                                  |
 | Screen               Replaced     Part P-884   Karim      09:41                                  |
-| Grade proposed: B   Warranty 12 months     [Confirm grade]  [Send to repair]                     |
+| Grade proposed: B (refurbished, never "as new")   Warranty 12 months                             |
+| [Confirm grade]  [Send to repair]                                                                |
 +--------------------------------------------------------------------------------------------------+
 ```
 
@@ -53,15 +55,15 @@ Manufacturing › Graded units; the tablet's scan button; a returned unit's reco
 | Battery health | E-SC05-16 battery health | percent | yes while Received or Tested | no |
 | Data erasure certificate | E-SC05-16 erasure certificate | file | yes while Received | yes |
 | Parts replaced | E-SC05-16 parts | list of items | yes while Tested | no |
-| Grade | E-SC05-16 grade | A, B or C | quality manager | yes to sell |
-| Warranty end | E-SC05-16 warranty end | date | no | no |
+| Grade | E-SC05-16 grade | A, B or C; the unit is sold as refurbished and never called "as new" ([CR-FR-278](../../../../10-country-packs/france/products/cr-fr-278-refurbished-products.md)) | quality manager | yes to sell |
+| Warranty end | E-SC05-16 warranty end | date; a defect within 12 months of delivery is presumed to exist at delivery (CR-FR-223) | no | no |
 
 ## Actions
 
 | Action | Where | Who may use it | Result |
 |---|---|---|---|
 | Scan a unit | tablet header | production operator | the unit's record opens or is created |
-| Propose grade | unit | production operator | a grade from the criteria and the readings |
+| Propose grade | unit | production operator | a grade from the criteria and the readings, once every function is tested, the unit repaired where needed and all the previous owner's data erased |
 | Confirm grade | unit | quality manager | the unit becomes Graded and enters stock |
 | Send to repair | unit | production operator | a repair order and the unit returns to tests |
 

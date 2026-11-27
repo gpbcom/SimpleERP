@@ -4,7 +4,7 @@
 
 # 📝 UC-F8-26 Provision doubtful debts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -41,7 +41,7 @@ Quarterly or yearly.
 
 1. Accounting opens Doubtful debts ([S-F8-26](../../screens/08-year-end-duties/s-f08-26-doubtful-debts.md)): receivables
    by age, disputes and procedures.
-2. SimpleERP proposes a provision per invoice by the company's rates by age (Proposed: 50 % beyond 180 days, 100 % for
+2. SimpleERP proposes a provision per invoice by the company's rates by age (default: 50 % beyond 180 days, 100 % for
    a customer in liquidation).
 3. The accountant confirms or changes each, with the reason
    ([BR-F8-18](../../business-rules/br-f08-18-provisions-are-justified-per-invoice.md)).
@@ -124,7 +124,7 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: PCG account 491 and CGI article 39-1-5°.
+(⚖️ lawyer review before launch, D574) to read: PCG account 491 and CGI article 39-1-5°.
 
 ## Related use cases
 

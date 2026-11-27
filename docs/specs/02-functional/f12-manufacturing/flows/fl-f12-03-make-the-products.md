@@ -45,7 +45,6 @@ See each use case.
 |---|---|---|---|
 | [E-F12-04 Manufacturing order](../data/e-f12-04-manufacturing-order.md) | Draft, Confirmed, In progress, Done | 1 [S-F12-04](../screens/03-make-the-products/s-f12-04-manufacturing-order.md); 2 [S-F12-05](../screens/03-make-the-products/s-f12-05-shop-floor-tablet.md); 3 [S-F12-06](../screens/03-make-the-products/s-f12-06-consumption.md); 4 [S-F12-11](../screens/03-make-the-products/s-f12-11-unbuild-and-repair.md) | Manufacturing orders |
 | [E-F12-28 Shop-floor terminal](../data/e-f12-28-shop-floor-terminal.md) | Active | 2 [S-F12-05](../screens/03-make-the-products/s-f12-05-shop-floor-tablet.md) | Shop-floor terminals |
-| [E-F12-29 Unbuild order](../data/e-f12-29-unbuild-order.md) | Active | 4 [S-F12-11](../screens/03-make-the-products/s-f12-11-unbuild-and-repair.md) | Unbuild orders |
 | [E-F7-14 Repair order](../../f07-purchasing-and-stock/data/e-f07-14-repair-order.md) | Done | Shown elsewhere: [S-F7-17 Repairs](../../f07-purchasing-and-stock/screens/06-benchmark-additions/s-f07-17-repairs.md) | Repair orders |
 
 ## Errors

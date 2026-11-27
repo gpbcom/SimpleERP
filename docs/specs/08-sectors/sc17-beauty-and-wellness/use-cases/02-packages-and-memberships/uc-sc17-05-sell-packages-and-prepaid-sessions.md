@@ -152,7 +152,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 A package is a prepaid service: the price and the validity are shown before the sale, and an unused session
-is not simply lost without that information. The France-pack rule is written later. Related:
+is not simply lost without that information. The France-pack rule is [CR-FR-270 Prepaid service packs](../../../../10-country-packs/france/consumer/cr-fr-270-prepaid-services.md). Related:
 [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md).
 
 ## Related use cases

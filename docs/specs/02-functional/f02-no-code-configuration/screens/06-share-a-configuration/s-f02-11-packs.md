@@ -75,7 +75,9 @@ Entity states shown (VD-15):
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
 | E-F2-11 Configuration pack | Published | Badge "Published"; a new record starts here; no other state; fields editable within the role | U07 | `u07-administrator/s-f02-11-packs-e-f02-11-configuration-pack-published-desktop-{light,dark}.png` |
-| E-F2-26 Configuration draft | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U07 | `u07-administrator/s-f02-11-packs-e-f02-26-configuration-draft-active-desktop-{light,dark}.png` |
+| E-F2-26 Configuration draft | Open | Badge "Open"; a new record starts here; next: Published or Discarded (UC-F2-09); fields editable within the role | U07 | `u07-administrator/s-f02-11-packs-e-f02-26-configuration-draft-open-desktop-{light,dark}.png` |
+| E-F2-26 Configuration draft | Published | Badge "Published"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f02-11-packs-e-f02-26-configuration-draft-published-desktop-{light,dark}.png` |
+| E-F2-26 Configuration draft | Discarded | Badge "Discarded"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f02-11-packs-e-f02-26-configuration-draft-discarded-desktop-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

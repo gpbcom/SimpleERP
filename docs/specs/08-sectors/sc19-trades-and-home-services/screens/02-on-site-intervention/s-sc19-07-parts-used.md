@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-07 Parts used
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

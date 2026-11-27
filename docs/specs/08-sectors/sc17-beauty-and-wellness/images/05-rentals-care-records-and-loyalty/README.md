@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-SC17-05 Rentals, care records, client files and loyalty
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

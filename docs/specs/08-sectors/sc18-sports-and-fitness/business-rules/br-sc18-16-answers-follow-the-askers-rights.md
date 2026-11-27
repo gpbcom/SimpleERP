@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-16 Answers follow the asker's rights
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

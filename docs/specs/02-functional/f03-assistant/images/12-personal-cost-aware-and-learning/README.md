@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-F3-12 Personal, cost-aware and learning
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

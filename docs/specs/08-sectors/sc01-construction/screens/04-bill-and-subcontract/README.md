@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC01-06 | [Progress bill](s-sc01-06-progress-bill.md) | 🔄 |
-| 🖥️ | S-SC01-07 | [Subcontracts](s-sc01-07-subcontracts.md) | 🔄 |
-| 🖥️ | S-SC01-14 | [Site margin](s-sc01-14-site-margin.md) | 🔄 |
+| 🖥️ | S-SC01-06 | [Progress bill](s-sc01-06-progress-bill.md) | ✅ |
+| 🖥️ | S-SC01-07 | [Subcontracts](s-sc01-07-subcontracts.md) | ✅ |
+| 🖥️ | S-SC01-14 | [Site margin](s-sc01-14-site-margin.md) | ✅ |

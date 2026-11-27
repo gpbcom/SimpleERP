@@ -45,10 +45,10 @@ Home · Meetings · Customers and sales · Purchasing and stock · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U52-01 | [Run the salon day](journeys/j-u52-01-run-the-salon-day.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U52-01 | [Run the salon day](journeys/j-u52-01-run-the-salon-day.md) | ✅ |
 
 ---
 

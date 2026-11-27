@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F1-10 Bring users in at scale
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F1-10 Bring users in at scale](../../../flows/fl-f01-10-bring-users-in-at-scale.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

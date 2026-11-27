@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC13-07 Aid declaration
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -70,7 +70,10 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-SC13-16 CAP aid declaration | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U05, U40 | `u05-accounting/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-desktop-{light,dark}.png`, `u40-farmer/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-active-{desktop,phone}-{light,dark}.png` |
+| E-SC13-16 CAP aid declaration | Draft | Badge "Draft"; a new record starts here; next: Held or Filed (UC-SC13-07); fields editable within the role | U05, U40 | `u05-accounting/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-desktop-{light,dark}.png`, `u40-farmer/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-draft-{desktop,phone}-{light,dark}.png` |
+| E-SC13-16 CAP aid declaration | Held | Badge "Held"; next: Draft (UC-SC13-07); fields editable within the role | U05, U40 | `u05-accounting/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-desktop-{light,dark}.png`, `u40-farmer/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-held-{desktop,phone}-{light,dark}.png` |
+| E-SC13-16 CAP aid declaration | Filed | Badge "Filed"; next: Corrected (UC-SC13-07); fields editable within the role | U05, U40 | `u05-accounting/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-desktop-{light,dark}.png`, `u40-farmer/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-filed-{desktop,phone}-{light,dark}.png` |
+| E-SC13-16 CAP aid declaration | Corrected | Badge "Corrected"; final: read-only, no next state; the history shows how it got here | U05, U40 | `u05-accounting/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-desktop-{light,dark}.png`, `u40-farmer/s-sc13-07-aid-declaration-e-sc13-16-cap-aid-declaration-corrected-{desktop,phone}-{light,dark}.png` |
 | E-SC13-01 Plot | New | Badge "New"; a new record starts here; next: Refused (UC-SC13-01); fields editable within the role | U05, U40 | `u05-accounting/s-sc13-07-aid-declaration-e-sc13-01-plot-new-desktop-{light,dark}.png`, `u40-farmer/s-sc13-07-aid-declaration-e-sc13-01-plot-new-{desktop,phone}-{light,dark}.png` |
 | E-SC13-01 Plot | Refused | Badge "Refused"; final: read-only, no next state; the history shows how it got here | U05, U40 | `u05-accounting/s-sc13-07-aid-declaration-e-sc13-01-plot-refused-desktop-{light,dark}.png`, `u40-farmer/s-sc13-07-aid-declaration-e-sc13-01-plot-refused-{desktop,phone}-{light,dark}.png` |
 | E-SC13-05 Animal | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U05, U40 | `u05-accounting/s-sc13-07-aid-declaration-e-sc13-05-animal-active-desktop-{light,dark}.png`, `u40-farmer/s-sc13-07-aid-declaration-e-sc13-05-animal-active-{desktop,phone}-{light,dark}.png` |
@@ -82,7 +85,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

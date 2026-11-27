@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-20 Equipment rental
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

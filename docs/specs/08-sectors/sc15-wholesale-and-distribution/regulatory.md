@@ -17,7 +17,8 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-015 Mandatory invoice mentions](../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md),
 [CR-FR-016 Electronic invoicing](../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md),
 [CR-FR-054 Location only when needed and announced](../../10-country-packs/france/data-protection/cr-fr-054-location-with-consent.md).
-Discounts on invoices and unfair practices are (Proposed): their official pages could not be read yet.
+Discounts on invoices and unfair practices are read in CR-FR-174 and CR-FR-175; Code de commerce L442-1 was amended by
+loi n° 2026-796 from 2026-08-20 (repeated tenders, a substantial cut in order volumes during negotiations).
 
 ## Country pack
 

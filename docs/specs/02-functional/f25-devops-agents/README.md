@@ -25,7 +25,7 @@ product ([D388](../../06-decisions/vision/d388-hosted-edition-open-core.md)).
 - **Tell:** status, shipping, feature-factory offers, the AI assistant.
 - **Triage, security and votes:** severity and priority with target times, vulnerability handling under the CRA, checks
   on agents' spec pull requests, a public list of declined requests with votes (D482).
-- **Agent team:** (Proposed) an approved ticket is built by six agent roles under a work contract the maintainer
+- **Agent team:** an approved ticket is built by six agent roles under a work contract the maintainer
   approves, each implementation role in its own worktree, integrated in dependency order, verified on one candidate
   commit by a test role and a read-only reviewer, and delivered as a draft pull request with its evidence; at most two
   repair cycles; one active run per repository, resumed from its checkpoint. The maintainer still reviews, approves and
@@ -65,9 +65,9 @@ Step 1, DevOps agents, of the [roadmap](../../00-vision/roadmap/roadmap.md)
 |---|---|---|---|
 | 🛠️ |  | [How to build the DevOps agents](build-study.md) | ✅ |
 | 📝 |  | [Use cases](use-cases/README.md) | ✅ |
-| 🔀 |  | [Flows](flows/README.md) | 🔄 |
-| 📏 |  | [Business rules](business-rules/README.md) | 🔄 |
-| 🗃️ |  | [Data](data/README.md) | 🔄 |
+| 🔀 |  | [Flows](flows/README.md) | ✅ |
+| 📏 |  | [Business rules](business-rules/README.md) | ✅ |
+| 🗃️ |  | [Data](data/README.md) | ✅ |
 | 🖥️ |  | [Screens](screens/README.md) | ✅ |
 | 🔑 |  | [Permissions](permissions.md) | ✅ |
 | 🔔 |  | [Notifications](notifications.md) | ✅ |
@@ -76,7 +76,7 @@ Step 1, DevOps agents, of the [roadmap](../../00-vision/roadmap/roadmap.md)
 | 🤖 |  | [AI](ai.md) | ✅ |
 | ⚖️ |  | [Regulatory](regulatory.md) | ✅ |
 | ❓ |  | [Open questions](open-questions.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
 ---
 

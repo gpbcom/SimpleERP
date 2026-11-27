@@ -3,7 +3,7 @@
 
 # 🔀 FL-F16-06 Take in every request
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-20, VD-21, VD-30, VD-31 / D502, D503, D512, D513)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -92,7 +92,7 @@ sequenceDiagram
   ([REQ-T13-02](../../../03-technical/t13-maps-and-geodata/requirements/req-t13-02-geocoding.md)): the work request
   stays "to confirm" with the candidates, and is shown in the list but not on the map (step 2).
 - **E3 The same request arrives twice.** An email and a phone call for the same visit: the AI links the second to the
-  first draft and asks the office worker to merge (Proposed), step 2.
+  first draft and asks the office worker to merge, step 2.
 - **E4 The arrival link has expired.** After the visit, or outside its window: the customer sees the visit's state only,
   never a time or a place (step 5).
 

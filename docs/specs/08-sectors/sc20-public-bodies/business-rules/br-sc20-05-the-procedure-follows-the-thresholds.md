@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-05 The procedure follows the thresholds
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,8 +14,10 @@ fixed before publication.
 ## Why
 
 A wrong procedure or a split purchase makes the contract void and exposes the elected official
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The France-pack rule is
+[CR-FR-251 Public procurement thresholds](../../../10-country-packs/france/trade/cr-fr-251-public-procurement-thresholds.md):
+a notice from 60 000 EUR for supplies and services and 100 000 EUR for works, and a formal procedure from the European
+thresholds (5 404 000 EUR for works, 140 000, 216 000 or 432 000 EUR for supplies and services).
 
 ## Examples
 
@@ -33,7 +35,7 @@ written later.
 - [E-SC20-05 Tender file](../data/e-sc20-05-tender-file.md)
 - [E-SC20-05 Tender file](../data/e-sc20-05-tender-file.md)
 - [E-F7-13](../../../02-functional/f07-purchasing-and-stock/data/e-f07-13-call-for-tenders.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-251 Public procurement thresholds](../../../10-country-packs/france/trade/cr-fr-251-public-procurement-thresholds.md)
 
 ## Exceptions

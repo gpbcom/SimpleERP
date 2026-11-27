@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-12 Immediate advance
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

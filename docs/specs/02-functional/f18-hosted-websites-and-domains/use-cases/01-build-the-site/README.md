@@ -19,4 +19,4 @@ The use cases of this flow.
 | 📝 | UC-F18-08 | [Generate legal notices, privacy and cookies](uc-f18-08-generate-legal-notices-privacy-and-cookies.md) | ✅ |
 | 📝 | UC-F18-17 | [Offer the site in several languages](uc-f18-17-offer-the-site-in-several-languages.md) | ✅ |
 | 📝 | UC-F18-19 | [Connect the online shop](uc-f18-19-connect-the-online-shop.md) | ✅ |
-| 📝 | UC-F18-24 | [Protect forms against spam](uc-f18-24-protect-forms-against-spam.md) | 🔄 |
+| 📝 | UC-F18-24 | [Protect forms against spam](uc-f18-24-protect-forms-against-spam.md) | ✅ |

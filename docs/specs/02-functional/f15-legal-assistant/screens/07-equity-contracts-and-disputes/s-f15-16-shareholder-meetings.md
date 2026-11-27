@@ -4,7 +4,7 @@
 
 # 🖥️ S-F15-16 Shareholder meetings
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

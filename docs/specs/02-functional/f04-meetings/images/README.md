@@ -26,4 +26,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F4-13 Outside people and follow-up](13-outside-people-and-follow-up/README.md) | 10 images |
 | 🖼️ |  | [Images: FL-F4-14 Video messages, webinars and templates](14-video-messages-and-webinars/README.md) | 38 images |
 | 🖼️ |  | [Screen states](states/README.md) | 192 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

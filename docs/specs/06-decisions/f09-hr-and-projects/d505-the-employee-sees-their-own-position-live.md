@@ -3,7 +3,7 @@
 
 # 📜 D505 The employee sees their own position live
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-23 / D505)
+**Status:** ✅ decided
 
 ## Context
 
@@ -22,8 +22,8 @@ and their history in their profile.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-23).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-23).
 
 ## Consequences
 
@@ -45,7 +45,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
 - [D503 Who sees people's positions](d503-who-sees-peoples-positions.md)
 - [D504 Positions at check-in by default, live as a team option for drivers and
   carers](d504-positions-at-check-in-by-default-live-as-a-team-option-for-drivers-and-carers.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

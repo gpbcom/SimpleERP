@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-14 Pay follows the index points of the grade
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,14 +14,17 @@ last month is explained before the run.
 ## Why
 
 A pay computed from a typed amount drifts from the statute and an error is recovered from the employee
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The index point is read in
+[CR-FR-252 Public-sector contributions](../../../10-country-packs/france/payroll/cr-fr-252-public-sector-contributions.md):
+the yearly pay of the majored index 100 is 5 907.34 EUR since 2023-07-01 (décret n° 85-1148, art. 3). (⚖️ lawyer
+review before launch, D574) The statutory pay supplements are still to read: décret n° 85-1148 (residence allowance, family supplement) and
+the bonus texts of each cadre.
 
 ## Examples
 
 | Case | Result |
 |---|---|
-| Index 410, point value 5.8731 | basic pay 2,408.07 |
+| Index 410, 5 907.34 EUR a year for index 100 | basic pay 2,018.34 a month |
 | No step for an employee | not computed, listed |
 | New point value from 1 July | used from that date |
 | Part-time | reduced by the statutory fraction |

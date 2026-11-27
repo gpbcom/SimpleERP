@@ -22,4 +22,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F13-09 Collective agreements by family](09-collective-agreements-by-family/README.md) | 12 images |
 | 🖼️ |  | [Images: FL-F13-10 Special contracts and outsourced payroll](10-special-contracts-and-outsourcing/README.md) | 16 images |
 | 🖼️ |  | [Screen states](states/README.md) | 216 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

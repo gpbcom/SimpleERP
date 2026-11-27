@@ -8,7 +8,7 @@
 ## Statement
 
 A commission is earned on the paid amount of invoices credited to a rep by the plan, at the plan's rate and tier; a
-later credit note reverses it on the next statement (Proposed: paid, not invoiced).
+later credit note reverses it on the next statement (paid, not invoiced).
 
 ## Why
 

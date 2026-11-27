@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-18 The roadmap shows accepted tickets only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -3,20 +3,21 @@
 
 # 📏 BR-SC05-16 Excise is due when goods leave the bonded warehouse
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-Excise is due on a lot when it leaves the bonded warehouse for consumption, and only then. The duty is the volume of
-pure alcohol multiplied by the rate of the lot's category on the day of release. A movement under suspension, an export
+Excise is due on a lot when it leaves the bonded warehouse for consumption, and only then. The duty is the rate of the
+lot's category on the day of release applied to that category's base: the volume in hectolitres for wines, ciders and
+intermediate products, the hectolitres times the degree for beers, the hectolitres of pure alcohol for spirits. A movement under suspension, an export
 or a destruction creates no duty but needs its document.
 
 ## Why
 
 Declaring on production instead of release would tax stock that is still held under suspension, and missing a release
 would leave duty unpaid. The owner asked for alcohol excise
-([D549](../../../06-decisions/sectors/d549-benchmark-gaps-sc05-manufacturing.md)). (Proposed) The France-pack rule is
-written later.
+([D549](../../../06-decisions/sectors/d549-benchmark-gaps-sc05-manufacturing.md)). The France-pack rule is
+[CR-FR-234 Alcohol excise and bonded warehouses](../../../10-country-packs/france/tax-and-vat/cr-fr-234-alcohol-excise.md).
 
 ## Examples
 
@@ -33,7 +34,7 @@ written later.
 - [UC-SC05-16](../use-cases/06-excise-refurbishment-and-cutting/uc-sc05-16-declare-alcohol-excise.md)
 - [E-SC05-15 Bonded stock](../data/e-sc05-15-bonded-stock.md)
 - [E-F8-06 Tax return](../../../02-functional/f08-accounting/data/e-f08-06-tax-return.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-234 Alcohol excise and bonded warehouses](../../../10-country-packs/france/tax-and-vat/cr-fr-234-alcohol-excise.md)
 
 ## Exceptions

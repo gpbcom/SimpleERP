@@ -3,7 +3,7 @@
 
 # 📜 D487 KPI strip, default chart and the Chart button
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-04 / D487)
+**Status:** ✅ decided
 
 ## Context
 
@@ -24,16 +24,16 @@ pin to their home screen.
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 4).
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 4).
 
 ## Consequences
 
 - New component [C-16 KPI strip](../../04-ux/design-system/components/c-16-kpi-strip.md).
 - C-09 Chart gains "chart from a list" and "pin to home" (change of step S4).
-- The rules VR-7 and VR-8 of the [plan](../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md#view-rules) derive
+- The rules VR-7 and VR-8 of the plan (the owner's interview notes of 2026-11 for the specifications, not kept in the repository) derive
   each view's totals and default chart.
-- (Proposed) The first page and the KPI strip show within 1 second on 100,000 records
+- The first page and the KPI strip show within 1 second on 100,000 records
   ([Performance](../../05-non-functional/performance.md)).
 
 ## Related
@@ -43,7 +43,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer
 - [C-09 Chart](../../04-ux/design-system/components/c-09-chart.md)
 - [D488 Totals, facets, charts, AI answers and exports on visible rows
   only](d488-totals-facets-charts-ai-answers-and-exports-on-visible-rows-only.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

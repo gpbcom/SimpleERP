@@ -5,7 +5,7 @@
 
 # 📝 UC-F15-14 Keep the cap table and share movements
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -166,11 +166,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A company keeps a register of share movements, written in order and dated, and a transfer of shares is only
 effective against the company once it is written in that register; the holder may ask for a statement of their holding.
-The France-pack rule on the register is written later. Related:
+The France-pack rule on the register is CR-FR-214. Related:
 [CR-FR-001](../../../../10-country-packs/france/company/cr-fr-001-company-identifiers.md),
 [CR-FR-203](../../../../10-country-packs/france/digital/cr-fr-203-software-copyright-assignment.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-214 The share-movement register](../../../../10-country-packs/france/company/cr-fr-214-share-movement-register.md)
 
 ## Related use cases

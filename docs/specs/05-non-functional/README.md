@@ -2,7 +2,7 @@
 
 # 📏 Non-functional requirements
 
-**Status:** ⬜ to specify
+**Status:** ✅ specified
 
 ## Contents
 
@@ -15,19 +15,19 @@
 | 🔄 |  | [Updates](updates.md) | ✅ |
 | 📦 |  | [Installation](installation.md) | ✅ |
 | 🧱 |  | [Data isolation](data-isolation.md) | ✅ |
-| 🔒 |  | [Security](security.md) | 🔄 |
+| 🔒 |  | [Security](security.md) | ✅ |
 | 🛂 |  | [Privacy and GDPR](privacy-gdpr.md) | ✅ |
 | 🗄️ |  | [Data retention](data-retention.md) | ✅ |
-| 🔭 |  | [Observability](observability.md) | ⬜ |
+| 🔭 |  | [Observability](observability.md) | ✅ |
 | 🌐 |  | [Localisation](localisation.md) | ✅ |
 | ♿ |  | [Accessibility](accessibility.md) | ✅ |
-| 🤖 |  | [AI governance](ai-governance.md) | 🔄 |
+| 🤖 |  | [AI governance](ai-governance.md) | ✅ |
 | 🎙️ |  | [Meeting recording](meeting-recording.md) | ✅ |
 | 🇫🇷 |  | [Legal rules in France](legal-france.md) | ✅ |
 | ⚖️ |  | [Legal advice limits](legal-advice-limits.md) | ✅ |
-| 🧾 |  | [E-invoicing platforms](e-invoicing-platforms.md) | 🔄 |
+| 🧾 |  | [E-invoicing platforms](e-invoicing-platforms.md) | ✅ |
 | 🎙️ |  | [Meeting assistant benchmark](meeting-assistant-benchmark.md) | ✅ |
-| 📐 |  | [Sector technical standards](sector-technical-standards.md) | 🔄 |
+| 📐 |  | [Sector technical standards](sector-technical-standards.md) | ✅ |
 
 ---
 

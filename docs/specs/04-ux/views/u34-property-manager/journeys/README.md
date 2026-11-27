@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U34-01 | [Collect rents and pay landlords](j-u34-01-collect-rents.md) | 🔄 |
+| 🧭 | J-U34-01 | [Collect rents and pay landlords](j-u34-01-collect-rents.md) | ✅ |
 
 ---
 

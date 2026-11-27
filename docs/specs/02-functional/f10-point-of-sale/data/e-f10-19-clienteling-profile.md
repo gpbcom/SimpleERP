@@ -3,7 +3,7 @@
 
 # 🗃️ E-F10-19 Clienteling profile
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -37,7 +37,8 @@ By customer.
 
 ## Retention
 
-3 years after the last purchase (Proposed).
+3 years after the last purchase, the last contact with the customer
+([CR-FR-052 Personal data kept no longer than needed](../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md)).
 
 ## Audit
 

@@ -3,22 +3,42 @@
 
 # 🗃️ E-F13-25 Analytic axis
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
-(Proposed) The analytic axis the flow charts name with the words "analytic axis"
+The analytic axis the flow charts name with the words "analytic axis"
 ([FL-F13-05](../flows/fl-f13-05-reports-and-rules.md)). The owner decided to create it
-([D516](../../../06-decisions/foundations/d516-naming-rules-and-the-seven-classes-of-names.md)); what it holds waits for
-the owner's confirmation.
+([D516](../../../06-decisions/foundations/d516-naming-rules-and-the-seven-classes-of-names.md)); its fields are derived
+from the specifications and confirmed by the owner (D572).
 
 ## Fields
 
-(Proposed) To define with the owner: the flow charts name the record, not its fields.
+| Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
+|---|---|---|---|---|---|---|---|
+| name | text | yes | - | - | Site | no | no |
+| analytic plan | link | yes | an analytic plan of F8 | - | Payroll plan | no | no |
+| values | list of text | no | - | - | Agency Nord, Agency Sud | no | no |
+| state | choice | yes | active | active | active | no | no |
+
+An axis of F8 along which each payroll cost is split, in the proportions of the time recorded in F9
+([UC-F13-34](../use-cases/05-reports-and-rules/uc-f13-34-analyse-payroll-cost-by-site-project-and-analytic-axis.md),
+[BR-F13-23](../business-rules/br-f13-23-payroll-cost-split-by-the-analytic-axes.md)); the site and the project are
+axes too. The name and the state are the columns of
+[S-F13-L25 Analytic axis](../screens/00-lists/s-f13-l25-analytic-axis.md); the axis and its values are what
+[S-F13-27 Payroll analytics](../screens/05-reports-and-rules/s-f13-27-payroll-analytics.md) lets the user choose and
+shows, one row per value, from [E-F13-24 Payroll cost allocation](e-f13-24-payroll-cost-allocation.md).
 
 ## Relations
 
-(Proposed) To define with the owner, from the use cases below.
+```mermaid
+erDiagram
+  ANALYTIC_PLAN ||--o{ ANALYTIC_AXIS : holds
+  ANALYTIC_AXIS ||--o{ PAYROLL_COST_ALLOCATION : splits
+```
+
+- [E-F8-30 Analytic plan](../../f08-accounting/data/e-f08-30-analytic-plan.md)
+- [E-F13-24 Payroll cost allocation](e-f13-24-payroll-cost-allocation.md)
 
 ## Lifecycle
 
@@ -29,19 +49,19 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) To define with the owner.
+By name, analytic plan and state.
 
 ## Retention
 
-(Proposed) As the other records of its capability, to confirm with the owner.
+As the other records of its capability.
 
 ## Audit
 
-(Proposed) Every change, as the other records of its capability.
+Every change, as the other records of its capability.
 
 ## Import and export
 
-(Proposed) To define with the owner.
+Excel and CSV export of the axes and their values; no bulk import.
 
 ## Used by
 
@@ -49,7 +69,7 @@ stateDiagram-v2
 
 ## Open questions
 
-(Proposed) Its fields, relations and states wait for the owner (waiting list, step 36e).
+None.
 
 ---
 

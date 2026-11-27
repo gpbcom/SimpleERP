@@ -3,7 +3,7 @@
 
 # 🖥️ S-F8-38 Business travel
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -36,7 +36,9 @@ filter, total and act on many table qr codes at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] TABLE QR CODE   STATE                                                                |
+| state             | [ ] TABLE QR COD   TABLE   POINT OF SAL   MODE   STATE                                   |
+| point of sale     | [ ] ...                                                  Open >                          |
+| mode              | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,7 +48,10 @@ filter, total and act on many table qr codes at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Table QR code | the record's title | text | yes |
+| Table QR code | title | text | yes |
+| Table | table | text | yes |
+| Point of sale | point of sale | link to the record | yes |
+| Mode | mode | label | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -56,12 +61,15 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Point of sale | each linked point of sale | the visible rows (D488) |
+| Mode | order and pay, menu only | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: table qr codes link to no other record type in their fields.
+- Table QR codes of a chosen point of sale, or of the points of sale that match a filter.
+- From the other side: the points of sale that have table qr codes, or none.
 
 ## KPI strip
 
@@ -101,7 +109,7 @@ Each action is offered within the role and checked again on the server (VR-10).
 
 ## Inline edit
 
-None: no field is editable in a cell.
+- mode: editable in its cell unless the record's state locks it.
 
 ## Hidden fields
 

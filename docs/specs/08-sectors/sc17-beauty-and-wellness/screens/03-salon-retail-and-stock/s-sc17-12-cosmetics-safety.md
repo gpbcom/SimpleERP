@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-12 Cosmetics safety
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC16-24 Photography
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

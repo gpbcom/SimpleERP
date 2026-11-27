@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U35-01 | [From mandate to sale](j-u35-01-from-mandate-to-sale.md) | 🔄 |
+| 🧭 | J-U35-01 | [From mandate to sale](j-u35-01-from-mandate-to-sale.md) | ✅ |
 
 ---
 

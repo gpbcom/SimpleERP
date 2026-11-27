@@ -3,7 +3,7 @@
 
 # 🖥️ S-F6-28 Warranty claims
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

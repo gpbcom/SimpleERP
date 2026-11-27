@@ -3,19 +3,21 @@
 
 # ⚖️ CR-FR-212 LCR and cheque remittances
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) A cheque or a bill of exchange (LCR) is a claim until the bank credits it; cheques are remitted to the bank
-on a deposit slip and an LCR is remitted and followed until the bank credits or rejects it.
+A cheque or a bill of exchange (LCR) is a claim until the bank credits it; a cheque is payable at
+sight (CMF L131-31), and a bill of exchange carries the mentions of CCom L511-1 ([Code monétaire et financier, art. L131-31](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006644876), [Code de commerce, art. L511-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006233040), read 2026-11-27);
+cheques are remitted to the bank on a deposit slip and an LCR is remitted and followed until the bank credits or
+rejects it.
 
 ## Values
 
-- (Proposed) Cheques grouped on a numbered deposit slip.
-- (Proposed) An LCR remitted to the bank with its due date.
-- (Proposed) A rejection puts the claim back to the customer's account.
-- (Proposed) SimpleERP enforces: a cheque or an LCR is posted to the bank only when the bank credits it.
+- Cheques grouped on a numbered deposit slip.
+- An LCR remitted to the bank with its due date.
+- A rejection puts the claim back to the customer's account.
+- SimpleERP enforces: a cheque or an LCR is posted to the bank only when the bank credits it.
 - Read on [Service-public F2402](https://www.service-public.gouv.fr/particuliers/vosdroits/F2402) (verified 16 June
   2026), cheques only; the LCR is not read:
 - Read: a cheque can be cashed within 1 year and 8 days of the date written on it; the payee endorses it (signs the
@@ -28,11 +30,12 @@ on a deposit slip and an LCR is remitted and followed until the bank credits or 
 
 ## Legal references
 
-- Law to read: cheque and LCR remittance (not read yet).
+- Code monétaire et financier L131-31 ([Code monétaire et financier, art. L131-31](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006644876), read 2026-11-27); Code de commerce L511-1 ([Code de commerce, art. L511-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006233040), read 2026-11-27).
+- [Service-public F2402](https://www.service-public.gouv.fr/particuliers/vosdroits/F2402) (cheques).
 
 ## Effective dates
 
-(Proposed) To read.
+CMF L131-31 in force since 2005-12-31, CCom L511-1 since 2000-09-21 ([Code monétaire et financier, art. L131-31](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006644876), [Code de commerce, art. L511-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006233040), read 2026-11-27).
 
 ## Enforced by
 
@@ -46,11 +49,12 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read: the sanctions on cheques and bills of exchange beyond the 6 % fine for a false
+date on F2402.
 
 ## Exceptions
 
-(Proposed) Companies that accept neither cheques nor LCR.
+Companies that accept neither cheques nor LCR.
 
 ## Open questions
 

@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC01-12 Renovation sale
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -53,14 +53,19 @@ examples.
 
 ## States
 
-- Normal: the renovation quote, the VAT certificate to sign, the withdrawal period and the earliest start.
+- Normal: the renovation quote, the VAT certificate to sign, the 14-day withdrawal period and, beside it, the 7-day
+  payment ban from the signature with the first day a deposit may be taken (day 8), and the earliest start
+  ([BR-SC01-13](../../business-rules/br-sc01-13-consumer-works-off-premises.md),
+  [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md)).
 - Empty: "No renovation quote yet", with New quote.
 - Loading: the frame and titles show at once with placeholder rows; within 1 second
   ([D408](../../../../06-decisions/technical/d408-performance-and-profiles.md)) the data replaces them, and a longer
   load shows a progress line saying what loads.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)) says what failed
   and what to do; what was typed is kept. For example, the customer does not sign the certificate: the lines go to the
-  normal VAT rate and the total is shown again before signing.
+  normal VAT rate and the total is shown again before signing. A deposit asked within 7 days of the signature is
+  refused with the first day it may be taken: a quote signed on 3 November, a deposit asked on 7 November, refused and
+  11 November offered (UC-SC01-12 3e).
 - Read-only: a signed quote is read-only.
 - Offline: the quote being built at the customer's home stays on the tablet and is sent when the network is back;
   signing needs the network.
@@ -80,7 +85,7 @@ read-only.
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

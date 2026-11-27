@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC08-12 | [Events](s-sc08-12-events.md) | 🔄 |
-| 🖥️ | S-SC08-13 | [Temporary bar](s-sc08-13-temporary-bar.md) | 🔄 |
+| 🖥️ | S-SC08-12 | [Events](s-sc08-12-events.md) | ✅ |
+| 🖥️ | S-SC08-13 | [Temporary bar](s-sc08-13-temporary-bar.md) | ✅ |

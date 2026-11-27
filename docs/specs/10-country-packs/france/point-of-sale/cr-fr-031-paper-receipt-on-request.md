@@ -24,7 +24,8 @@ request, or a digital receipt; the shop displays the legal notice.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code de l'environnement D541-370 to D541-372 in force since 2023-08-01 (décret n° 2022-1565, as amended by décret
+n° 2023-237) ([Code de l'environnement, art. D541-370 to D541-372](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074220/LEGISCTA000046739191/), read 2026-11-27).
 
 ## Enforced by
 

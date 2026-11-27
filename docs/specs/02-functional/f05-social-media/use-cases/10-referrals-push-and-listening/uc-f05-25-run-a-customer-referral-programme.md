@@ -4,7 +4,7 @@
 
 # 📝 UC-F5-25 Run a customer referral programme
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -165,7 +165,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 Referral rewards are marketing: the friend's address is contacted only with consent
-([CR-FR-063](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md)); (Proposed) a
+([CR-FR-063](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md)); a
 reward is a price reduction shown on the invoice
 ([CR-FR-202](../../../../10-country-packs/france/invoicing/cr-fr-202-price-reductions-on-invoices.md)).
 

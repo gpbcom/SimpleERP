@@ -8,7 +8,7 @@
 ## Statement
 
 A hire cannot start before the DPAE has been sent to URSSAF and acknowledged; the employee enters the personnel register
-on their first day; the register's entries are never deleted.
+of their establishment on their first day; the register's entries are never deleted.
 
 ## Why
 

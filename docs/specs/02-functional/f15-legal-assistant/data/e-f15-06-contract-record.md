@@ -3,7 +3,7 @@
 
 # 🗃️ E-F15-06 Contract record
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -47,7 +47,8 @@ By party, kind, term end and last notice day.
 
 ## Retention
 
-(Proposed) 5 years after the end.
+5 years after the end (⚖️ lawyer review before launch, D574: Code de commerce L110-4 and Code civil 2224, the limitation
+periods).
 
 ## Audit
 

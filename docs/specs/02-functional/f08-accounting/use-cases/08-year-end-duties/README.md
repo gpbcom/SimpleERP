@@ -11,6 +11,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F8-24 | [Compute and pay corporate tax and local business taxes](uc-f08-24-compute-and-pay-corporate-tax-and-local-business-taxes.md) | 🔄 |
-| 📝 | UC-F8-25 | [Approve and file the annual accounts](uc-f08-25-approve-and-file-the-annual-accounts.md) | 🔄 |
-| 📝 | UC-F8-26 | [Provision doubtful debts](uc-f08-26-provision-doubtful-debts.md) | 🔄 |
+| 📝 | UC-F8-24 | [Compute and pay corporate tax and local business taxes](uc-f08-24-compute-and-pay-corporate-tax-and-local-business-taxes.md) | ✅ |
+| 📝 | UC-F8-25 | [Approve and file the annual accounts](uc-f08-25-approve-and-file-the-annual-accounts.md) | ✅ |
+| 📝 | UC-F8-26 | [Provision doubtful debts](uc-f08-26-provision-doubtful-debts.md) | ✅ |

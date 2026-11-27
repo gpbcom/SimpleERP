@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-20 Assets follow the M57 depreciation rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,8 +14,11 @@ inventory or each difference is explained.
 ## Why
 
 Wrong depreciation changes the body's accounts, and a register that differs from the accountant's blocks the closing of
-the year ([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack
-rule is written later.
+the year ([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (⚖️ lawyer review before launch, D574)
+The France-pack rule
+[CR-FR-250 Public accounting M57](../../../10-country-packs/france/accounting/cr-fr-250-public-accounting-m57.md) does
+not hold the depreciation rules yet: to read the M57 instruction (durations by category, depreciation from
+commissioning) and its status after Ordonnance n° 2025-526.
 
 ## Examples
 

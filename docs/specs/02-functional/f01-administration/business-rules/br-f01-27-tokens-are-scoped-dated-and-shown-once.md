@@ -18,7 +18,7 @@ A leaked token must be limited in what it can do and for how long.
 
 | Case | Result |
 |---|---|
-| Token without end date | Refused: an end date is required (Proposed: 1 year at most) |
+| Token without end date | Refused: an end date is required (default: 1 year at most) |
 | Copy the token the next day | Not possible; issue a new one |
 
 ## Applies to

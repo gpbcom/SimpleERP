@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-14 Triage with severity, priority and target times
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -20,7 +20,7 @@ Requests must be handled in order and on time (D482).
 
 | Case | Result |
 |---|---|
-| Invoices cannot be sent by 40 companies | passes: critical, acknowledged within (Proposed) 4 hours, fixed within (Proposed) 2 days |
+| Invoices cannot be sent by 40 companies | passes: critical, acknowledged within 4 hours, fixed within 2 days |
 | Wrong label on one screen | passes: low, next release |
 | Ticket past its target | passes: flagged to the maintainers |
 
@@ -36,7 +36,7 @@ Vulnerabilities follow BR-F25-15.
 
 ## Configurable
 
-The targets per severity, (Proposed) critical 4 hours and 2 days, high 1 day and 10 days, normal 5 days and the next
+The targets per severity, critical 4 hours and 2 days, high 1 day and 10 days, normal 5 days and the next
 release.
 
 ## Open questions

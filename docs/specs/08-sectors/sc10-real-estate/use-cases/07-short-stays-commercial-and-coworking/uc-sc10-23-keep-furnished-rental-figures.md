@@ -4,7 +4,7 @@
 
 # 📝 UC-SC10-23 Keep furnished rental figures
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -155,11 +155,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 A landlord who lets a furnished home as a non-professional renter may deduct the depreciation of the
 building, the furniture and the works, but the depreciation may not create or increase a rental loss: the part above the
 result is carried forward without limit of time. The simplified regime has an allowance instead. The values of the year
-(ceilings, allowance) are data of the France pack, written later. Related:
+(ceilings, allowance) are data of the France pack ([CR-FR-240](../../../../10-country-packs/france/tax-and-vat/cr-fr-240-furnished-rentals-lmnp.md)). Related:
 [CR-FR-006](../../../../10-country-packs/france/accounting/cr-fr-006-chart-of-accounts.md),
 [CR-FR-064](../../../../10-country-packs/france/accounting/cr-fr-064-accounting-frameworks.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-240 Furnished rentals (LMNP)](../../../../10-country-packs/france/tax-and-vat/cr-fr-240-furnished-rentals-lmnp.md)
 
 ## Related use cases

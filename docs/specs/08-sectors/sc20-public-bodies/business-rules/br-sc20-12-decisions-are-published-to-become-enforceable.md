@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-12 Decisions are published to become enforceable
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -13,8 +13,10 @@ prefecture, and the date of each step is kept. A decision published but not tran
 ## Why
 
 An act applied before it is enforceable can be cancelled, and the dates are the proof
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). The France-pack rule is
+[CR-FR-262 Deliberations and the legality check](../../../10-country-packs/france/company/cr-fr-262-deliberations-legality-check.md):
+an act is enforceable once published or notified and, for those the law lists, sent to the State representative (CGCT
+L2131-1).
 
 ## Examples
 

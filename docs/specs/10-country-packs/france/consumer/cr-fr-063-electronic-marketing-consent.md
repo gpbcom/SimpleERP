@@ -25,12 +25,17 @@ their trade unless they object; every message lets the person opt out, free and 
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CPCE L34-5 in its current version in force since 2020-07-26 (loi n° 2020-901) ([Code des postes et des communications électroniques, art. L34-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032235707), read 2026-11-27).
+- Until 2027-10-30: L34-5 applies in full, the paragraphs declared unconstitutional by decision n° 2026-1210 QPC of
+  2026-06-25 included.
+- From 2027-10-31: the sixth, eighth and penultimate paragraphs of L34-5 are repealed by that decision
+  ([Code des postes et des communications électroniques, art. L34-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032235707), read 2026-11-27).
 
 ## Enforced by
 
 - [BR-F5-08 Marketing messages need consent](../../../02-functional/f05-social-media/business-rules/br-f05-08-marketing-needs-consent.md)
 - [Regulatory](../../../02-functional/f05-social-media/regulatory.md)
+- [UC-SC17-20 Run loyalty and referrals](../../../08-sectors/sc17-beauty-and-wellness/use-cases/05-rentals-care-records-and-loyalty/uc-sc17-20-run-loyalty-and-referrals.md)
 
 ## When the law changes
 
@@ -39,7 +44,7 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Administrative fine up to 75 000 EUR for a natural person and 375 000 EUR for a legal person ([Code des postes et des communications électroniques, art. L34-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032235707), read 2026-11-27).
 
 ## Exceptions
 

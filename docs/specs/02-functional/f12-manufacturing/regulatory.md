@@ -9,8 +9,11 @@
 
 Every legal value comes from the company's country pack (D293). In France: conformity of machinery, substances of very
 high concern and SCIP, periodic checks of work equipment, the risk assessment, the waste register, classified
-installations, the production cost of stock, traceability and recalls; see the list below. The first eight are
-(Proposed): their official pages could not be read yet.
+installations, the production cost of stock, traceability and recalls; see the list below. Their values are read in the
+official sources; the points still read by a lawyer are marked in the rules themselves (the French penalties of the EU
+regulations). Regulation (EU) 2023/1230 applies from 2027-01-20; Directive 2006/42/EC applies until then (CR-FR-074).
+One SCIP notification may cover quasi-identical articles, a simplified notification may refer to data already submitted,
+and retailers supplying only consumers do not notify (CR-FR-078).
 
 ## Country pack
 

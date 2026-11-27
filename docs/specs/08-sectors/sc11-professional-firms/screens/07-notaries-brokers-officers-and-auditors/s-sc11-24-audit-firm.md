@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC11-24 Audit firm
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 🧩 C-09 Chart
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -33,20 +33,20 @@ A title, the controls (period, filters, table switch), the plot, a legend, and t
 
 - **Line:** a trend over time.
 - **Bar:** a comparison between items; stacked bars for parts of a whole.
-- **Figure:** one figure with its change (Proposed), in Plus Jakarta Sans, the face of dashboard figures
+- **Figure:** one figure with its change, in Plus Jakarta Sans, the face of dashboard figures
   ([Typography](../../visual-identity/typography.md)).
 - **Threshold:** a line or a band marking a limit, such as a cap over 80 %, as on
   [S-F3-13 Assistant usage dashboard](../../../02-functional/f03-assistant/screens/01-ask-the-assistant/s-f03-13-assistant-usage-dashboard.md).
 
 ## States
 
-Loading (Proposed: the frame with a spinner), empty (a [C-10 Empty state](c-10-empty-state.md): "No questions yet this
+Loading (the frame with a spinner), empty (a [C-10 Empty state](c-10-empty-state.md): "No questions yet this
 period."), partial (the last figures shown with their date when a source is unavailable, as in F5's statistics), error
 (the [error message pattern](../patterns/error-messages.md)), threshold crossed (highlighted with an icon and a word).
 
 ## Tokens
 
-Series colours (Proposed order): `color-primary`, `color-accent` (its stated use includes charts,
+Series colours, in this order: `color-primary`, `color-accent` (its stated use includes charts,
 [Colours](../../visual-identity/colours.md)), `color-text-muted`, `color-success`; `color-error` and `color-warning`
 only for limits and alerts. Gridlines in `color-border`; axes and labels in `font-caption` with tabular figures
 ([Typography](../../visual-identity/typography.md)).
@@ -61,9 +61,9 @@ only for limits and alerts. Gridlines in `color-border`; axes and labels in `fon
 
 ## Do and don't
 
-- (Proposed) Do start bar charts at zero.
-- (Proposed) Do give the period and the source with its date.
-- Don't use pie charts for more than three parts (Proposed): use bars.
+- Do start bar charts at zero.
+- Do give the period and the source with its date.
+- Don't use pie charts for more than three parts: use bars.
 - Don't show a chart without its table.
 
 ## Used in

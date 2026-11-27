@@ -13,6 +13,7 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f21-10-connections-e-f24-02-tool-connection-proposed-desktop.html`
 - `s-f21-10-connections-e-f24-02-tool-connection-revoked-desktop.html`
 - `s-f21-11-module-guide-e-f21-18-module-guide-active-desktop.html`
+- `s-f21-11-module-guide-e-f21-18-module-guide-done-desktop.html`
 - `s-f21-21-migration-e-f21-07-import-job-active-desktop.html`
 - `s-f21-21-migration-e-f21-14-migration-source-errors-desktop.html`
 - `s-f21-21-migration-e-f21-14-migration-source-mapped-desktop.html`

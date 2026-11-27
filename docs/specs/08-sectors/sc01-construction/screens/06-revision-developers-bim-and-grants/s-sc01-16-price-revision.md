@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC01-16 Price revision
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -38,7 +38,7 @@ build study say so.
 - [F25 DevOps agents (hosted edition)](../../02-functional/f25-devops-agents/README.md)
 - [D437](d437-devops-agents-in-the-ci.md)
 - [D435](d435-agents-access-and-limits.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

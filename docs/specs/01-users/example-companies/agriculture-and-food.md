@@ -2,20 +2,20 @@
 
 # 🌾 Agriculture and food
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Company
 
-(Proposed) Ferme des Trois Chênes, a fictional family farm with a farm shop and a small cheese workshop.
+Ferme des Trois Chênes, a fictional family farm with a farm shop and a small cheese workshop.
 
 ## Activity
 
-(Proposed) Cereals and fodder crops, a dairy herd, cheese made from the farm's milk, and sales at the farm shop, on
+Cereals and fodder crops, a dairy herd, cheese made from the farm's milk, and sales at the farm shop, on
 markets and to a cooperative.
 
 ## Size
 
-(Proposed) 3 partners, 4 permanent workers and up to 12 seasonal workers at harvest; 180 hectares and 70 dairy cows; one
+3 partners, 4 permanent workers and up to 12 seasonal workers at harvest; 180 hectares and 70 dairy cows; one
 cheese workshop and one farm shop; often offline in the fields. The sector's profile covers farms of every size and
 small food processors. Several locations are possible ([D32](../../06-decisions/technical/d32-several-locations.md)).
 

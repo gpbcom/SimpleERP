@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -15,7 +15,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC13-03 | [Farm business](fl-sc13-03-farm-business.md) | ✅ |
 | 🔀 | FL-SC13-04 | [Sales and certification](fl-sc13-04-sales-and-certification.md) | ✅ |
 | 🔀 | FL-SC13-05 | [Food processing](fl-sc13-05-food-processing.md) | ✅ |
-| 🔀 | FL-SC13-06 | [Vineyards, contractors, cooperatives, baskets, forests](fl-sc13-06-vineyards-contractors-and-cooperatives.md) | 🔄 |
+| 🔀 | FL-SC13-06 | [Vineyards, contractors, cooperatives, baskets, forests](fl-sc13-06-vineyards-contractors-and-cooperatives.md) | ✅ |
 
 ---
 

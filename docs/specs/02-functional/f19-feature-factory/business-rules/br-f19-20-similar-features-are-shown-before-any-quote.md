@@ -4,7 +4,7 @@
 
 # 📏 BR-F19-20 Similar features are shown before any quote
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

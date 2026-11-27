@@ -24,7 +24,8 @@ warned, not blocked.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2016-08-10: L3121-18, L3121-20, L3121-22, L3121-27 and L3131-1 in force since
+2016-08-10, L3132-2 since 2008-05-01 ([Code du travail, art. L3121-18](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020428), [art. L3121-20](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020414), [art. L3121-22](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020402), [art. L3121-27](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020376), [art. L3131-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020918), [art. L3132-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902581), read 2026-11-27).
 
 ## Enforced by
 
@@ -40,7 +41,9 @@ administrators; the corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+The fine of a 4th-class contravention, up to 750 EUR, once per employee concerned, for the
+legal week or the daily maximum (R3124-3), the weekly maxima (R3124-11) and the daily rest (R3135-1); the fine
+of a 5th-class contravention, up to 1 500 EUR, once per employee concerned, for the weekly rest (R3135-2) ([Code du travail, art. R3124-3 and R3124-11](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018486532), [art. R3135-1 and R3135-2](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018486686), [Code pénal, art. 131-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417259), read 2026-11-27).
 
 ## Exceptions
 

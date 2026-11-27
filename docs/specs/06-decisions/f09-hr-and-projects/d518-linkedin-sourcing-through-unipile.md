@@ -22,7 +22,7 @@ questions were asked, each with a recommended answer.
 - LS-3, follow-ups and the reply check: an invitation then 2 follow-ups, or other rhythms; always within two months.
 - LS-4, the meeting on a positive answer: three slots proposed by the AI assistant in the thread, or the booking link of
   the applicant pipeline.
-- The [interview record](../../../tickets/GH-2/interviews/2026-11-13-wording-and-views.md) keeps the owner's answers,
+- The interview record (the owner's interview of 2026-11-13 on wording and views, not kept in the repository) keeps the owner's answers,
   not every option.
 
 ## Choice
@@ -41,7 +41,7 @@ booking link.
 ## Decided by
 
 The owner, on 2026-11-13 at 10:30, in the GH-2 interview round on the wording and the views
-([interview record](../../../tickets/GH-2/interviews/2026-11-13-wording-and-views.md), section "LinkedIn sourcing
+(interview record (the owner's interview of 2026-11-13 on wording and views, not kept in the repository), section "LinkedIn sourcing
 through Unipile").
 
 ## Consequences
@@ -83,9 +83,12 @@ through Unipile").
 - Ranking candidates is a high-risk AI use (EU AI Act, Annex III, point 4(a)):
   [BR-F4-21 Candidate scoring is high-risk AI](../../02-functional/f04-meetings/business-rules/br-f04-21-candidate-scoring-is-high-risk-ai.md)
   applies, and LS-2's approval is the human oversight.
-- Open:
+- Answered on 2026-11-27:
   [Q18 LinkedIn automation and its user agreement](../../07-questions/q18-linkedin-automation-and-its-user-agreement.md)
-  and [Q19 Which LinkedIn search sourcing uses](../../07-questions/q19-which-linkedin-search-sourcing-uses.md).
+  by [D570](d570-linkedin-sending-prepared-by-default.md) (messages prepared, sent with one click; automatic sending as
+  an administrator's option, which LS-2's "on their own" now needs), and
+  [Q19 Which LinkedIn search sourcing uses](../../07-questions/q19-which-linkedin-search-sourcing-uses.md) by
+  [D571](d571-linkedin-sourcing-uses-the-users-search.md).
 
 ## Related
 
@@ -98,7 +101,7 @@ through Unipile").
 - [BR-F24-12 The catalogue covers every business category](../../02-functional/f24-integrations-hub/business-rules/br-f24-12-the-catalogue-covers-every-business-category.md)
 - [BR-F24-08 Credentials in the vault](../../02-functional/f24-integrations-hub/business-rules/br-f24-08-credentials-in-the-vault.md)
 - [AI governance](../../05-non-functional/ai-governance.md)
-- [Interview record](../../../tickets/GH-2/interviews/2026-11-13-wording-and-views.md)
+- Interview record (the owner's interview of 2026-11-13 on wording and views, not kept in the repository)
 
 ---
 

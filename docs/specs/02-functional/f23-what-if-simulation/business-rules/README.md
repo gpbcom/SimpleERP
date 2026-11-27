@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -25,13 +25,13 @@ One file per rule.
 | 📏 | BR-F23-12 | [No automated decisions about people](br-f23-12-no-automated-decisions-on-people.md) | ✅ |
 | 📏 | BR-F23-13 | [Goal seeking moves only the chosen levers](br-f23-13-goal-seeking-moves-only-the-chosen-levers.md) | ✅ |
 | 📏 | BR-F23-14 | [Financing options with their terms and covenants](br-f23-14-financing-options-with-their-terms-and-covenants.md) | ✅ |
-| 📏 | BR-F23-15 | [Accuracy measured, recalibration decided](br-f23-15-accuracy-measured-recalibration-decided.md) | 🔄 |
+| 📏 | BR-F23-15 | [Accuracy measured, recalibration decided](br-f23-15-accuracy-measured-recalibration-decided.md) | ✅ |
 | 📏 | BR-F23-16 | [Budgets in F8, scenarios in F23](br-f23-16-budgets-in-f8-scenarios-in-f23.md) | ✅ |
 | 📏 | BR-F23-17 | [Sector drivers from the sector pack](br-f23-17-sector-drivers-from-the-sector-pack.md) | ✅ |
-| 📏 | BR-F23-18 | [A budget is frozen once approved](br-f23-18-a-budget-is-frozen-once-approved.md) | 🔄 |
-| 📏 | BR-F23-19 | [Each rolling forecast keeps its version](br-f23-19-each-rolling-forecast-keeps-its-version.md) | 🔄 |
-| 📏 | BR-F23-20 | [Group scenarios eliminate intercompany flows](br-f23-20-group-scenarios-eliminate-intercompany-flows.md) | 🔄 |
-| 📏 | BR-F23-21 | [Valuations show their method and assumptions](br-f23-21-valuations-show-their-method-and-assumptions.md) | 🔄 |
+| 📏 | BR-F23-18 | [A budget is frozen once approved](br-f23-18-a-budget-is-frozen-once-approved.md) | ✅ |
+| 📏 | BR-F23-19 | [Each rolling forecast keeps its version](br-f23-19-each-rolling-forecast-keeps-its-version.md) | ✅ |
+| 📏 | BR-F23-20 | [Group scenarios eliminate intercompany flows](br-f23-20-group-scenarios-eliminate-intercompany-flows.md) | ✅ |
+| 📏 | BR-F23-21 | [Valuations show their method and assumptions](br-f23-21-valuations-show-their-method-and-assumptions.md) | ✅ |
 
 ---
 

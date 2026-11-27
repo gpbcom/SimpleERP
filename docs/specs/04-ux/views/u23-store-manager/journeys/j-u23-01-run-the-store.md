@@ -3,7 +3,7 @@
 
 # 🧭 J-U23-01 Run the store
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Persona
 
@@ -15,8 +15,8 @@ Have the right product on the shelf at the right price and hit the store's targe
 
 ## Journey
 
-Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are a proposal (Proposed), drawn from the
-specs, for the owner to confirm.
+Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are drawn from the
+specs and confirmed by the owner (D572).
 
 ```mermaid
 journey

@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U48-01 | [Handle an incident](j-u48-01-handle-an-incident.md) | 🔄 |
+| 🧭 | J-U48-01 | [Handle an incident](j-u48-01-handle-an-incident.md) | ✅ |
 
 ---
 

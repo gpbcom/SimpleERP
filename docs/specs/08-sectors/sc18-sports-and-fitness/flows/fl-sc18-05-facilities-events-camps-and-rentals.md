@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC18-05 Facilities, events, camps and rentals
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -21,12 +21,12 @@ One file per entity.
 | 🗃️ | E-F24-08 | [Sync log entry](e-f24-08-sync-log-entry.md) | ✅ |
 | 🗃️ | E-F24-09 | [Connector action](e-f24-09-connector-action.md) | ✅ |
 | 🗃️ | E-F24-10 | [Connector incident](e-f24-10-connector-incident.md) | ✅ |
-| 🗃️ | E-F24-11 | [Connector category](e-f24-11-connector-category.md) | 🔄 |
-| 🗃️ | E-F24-12 | [Integration icon](e-f24-12-integration-icon.md) | 🔄 |
+| 🗃️ | E-F24-11 | [Connector category](e-f24-11-connector-category.md) | ✅ |
+| 🗃️ | E-F24-12 | [Integration icon](e-f24-12-integration-icon.md) | ✅ |
 | 🗃️ | E-F24-13 | [Webhook subscription](e-f24-13-webhook-subscription.md) | ✅ |
 | 🗃️ | E-F24-14 | [E-invoicing registration](e-f24-14-e-invoicing-registration.md) | ✅ |
-| 🗃️ | E-F24-15 | [Connector catalogue review](e-f24-15-connector-catalogue-review.md) | 🔄 |
-| 🗃️ | E-F24-16 | [Connector request](e-f24-16-connector-request.md) | 🔄 |
+| 🗃️ | E-F24-15 | [Connector catalogue review](e-f24-15-connector-catalogue-review.md) | ✅ |
+| 🗃️ | E-F24-16 | [Connector request](e-f24-16-connector-request.md) | ✅ |
 | 🗃️ | E-F24-17 | [Connector draft](e-f24-17-connector-draft.md) | ✅ |
 | 🗃️ | E-F24-18 | [Export pipeline](e-f24-18-export-pipeline.md) | ✅ |
 | 🗃️ | E-F24-19 | [Firm sync](e-f24-19-firm-sync.md) | ✅ |

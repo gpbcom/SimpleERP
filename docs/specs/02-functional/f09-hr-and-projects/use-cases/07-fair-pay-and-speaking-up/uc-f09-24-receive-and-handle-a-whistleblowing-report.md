@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-24 Receive and handle a whistleblowing report
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -116,11 +116,11 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Reports are encrypted at rest (Proposed).
+Reports are encrypted at rest.
 
 ## Regulatory references
 
-(Proposed) to read: law 2016-1691 (Sapin II) as amended by law 2022-401 (Waserman).
+(⚖️ lawyer review before launch, D574) to read: law 2016-1691 (Sapin II) as amended by law 2022-401 (Waserman).
 
 ## Related use cases
 

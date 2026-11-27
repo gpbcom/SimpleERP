@@ -3,7 +3,7 @@
 
 # 🔀 FL-F9-13 Keep employees' qualifications
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-24 to VD-27 / D506 to D509)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -86,7 +86,7 @@ The states are those of the entity drafts and of the change note on E-F9-12.
 
 - **E1 The AI cannot read the document.** A blurred photo or an unknown layout: nothing is drafted, HR is told and
   enters the attribute by hand (step 2, then 1).
-- **E2 The reading disagrees with the record** (Proposed). The AI reads a different name or birth date from the
+- **E2 The reading disagrees with the record**. The AI reads a different name or birth date from the
   employee record: the reading is flagged, never merged, and HR decides (step 3).
 - **E3 A qualification has expired.** It stops counting on its expiry date
   ([BR-F9-27](../business-rules/br-f09-27-unverified-attributes-do-not-count.md)); work already scheduled that needs

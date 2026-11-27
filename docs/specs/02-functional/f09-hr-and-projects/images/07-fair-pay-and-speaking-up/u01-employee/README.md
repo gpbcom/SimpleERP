@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F9-07 Fair pay and speaking up
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F9-07 Fair pay and speaking up](../../../flows/fl-f09-07-fair-pay-and-speaking-up.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

@@ -24,11 +24,15 @@ and keeps the records an inspector asks for.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+- Code rural L233-4 in force since 2010-07-29 ([Code rural et de la pêche maritime, art. L233-4](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022657498/), read 2026-11-27); the training duty
+  applies to commercial restaurants since 2012-10-01 (décret n° 2011-731).
+- Until 2024-02-21: the 14-hour programme of the arrêté du 5 octobre 2011.
+- From 2024-02-22: the 14-hour programme of the arrêté du 12 février 2024 ([Arrêté du 12 février 2024](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049171606), read 2026-11-27).
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc06-hospitality/regulatory.md)
+- [UC-SC06-17 Quote and deliver catering](../../../08-sectors/sc06-hospitality/use-cases/06-campsites-catering-groups-and-pricing/uc-sc06-17-quote-and-deliver-catering.md)
 
 ## When the law changes
 

@@ -2,7 +2,7 @@
 
 # 🗺️ Dispatcher: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -11,7 +11,7 @@ Default density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Orders to plan; Trips late; Documents expiring.
 - Widgets: Trips on the road now.
@@ -37,16 +37,16 @@ Default density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md
 
 ## Navigation
 
-(Proposed) Home · Orders · Trips · Fleet · Drivers · Assistant.
+Home · Orders · Trips · Fleet · Drivers · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U29-01 | [Plan the trips](journeys/j-u29-01-plan-the-trips.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U29-01 | [Plan the trips](journeys/j-u29-01-plan-the-trips.md) | ✅ |
 
 ---
 

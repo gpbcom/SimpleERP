@@ -23,7 +23,7 @@ machine-readable format, and contracts with the switching terms; switching charg
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Applies since 2025-09-12; reduced switching charges allowed until 2027-01-12, none after ([European Commission, Data Act explained](https://digital-strategy.ec.europa.eu/en/policies/data-act-explained), read 2026-11-27).
 
 ## Enforced by
 

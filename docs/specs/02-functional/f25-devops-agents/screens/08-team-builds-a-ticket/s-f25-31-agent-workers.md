@@ -3,7 +3,7 @@
 
 # 🖥️ S-F25-31 Agent workers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

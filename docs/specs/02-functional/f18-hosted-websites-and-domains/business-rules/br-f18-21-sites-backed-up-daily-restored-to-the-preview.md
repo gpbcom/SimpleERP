@@ -4,11 +4,11 @@
 
 # 📏 BR-F18-21 Sites backed up daily, restored to the preview
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-Each site, its content and its forms' settings are backed up daily and kept (Proposed) 30 days; a restore always goes to
+Each site, its content and its forms' settings are backed up daily and kept 30 days; a restore always goes to
 the private preview first, then through the checks and the owner's approval.
 
 ## Why
@@ -33,7 +33,7 @@ None.
 
 ## Configurable
 
-The owner may keep monthly backups longer (Proposed).
+The owner may keep monthly backups longer.
 
 ## Open questions
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC20-17 Council meetings
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC11-09 Deadline
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -18,7 +18,7 @@ A deadline or hearing.
 
 ## Relations
 
-(Proposed) As its use cases.
+As its use cases.
 
 ## Lifecycle
 
@@ -30,7 +30,7 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) By number, date, partner.
+By number, date, partner.
 
 ## Retention
 
@@ -43,7 +43,7 @@ Every change.
 
 ## Import and export
 
-(Proposed) CSV, FEC where relevant.
+CSV, FEC where relevant.
 
 ## Used by
 

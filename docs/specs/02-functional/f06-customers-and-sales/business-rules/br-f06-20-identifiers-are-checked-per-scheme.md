@@ -4,7 +4,7 @@
 
 # 📏 BR-F6-20 Identifiers are checked per scheme
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U51-01 | [Grow the partner business](j-u51-01-grow-the-partner-business.md) | 🔄 |
+| 🧭 | J-U51-01 | [Grow the partner business](j-u51-01-grow-the-partner-business.md) | ✅ |
 
 ---
 

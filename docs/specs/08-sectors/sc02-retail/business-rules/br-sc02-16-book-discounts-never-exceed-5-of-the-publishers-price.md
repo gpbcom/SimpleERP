@@ -3,7 +3,7 @@
 
 # 📏 BR-SC02-16 Book discounts never exceed 5 % of the publisher's price
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,7 +14,7 @@ together toward the cap, and the till refuses a line that would go below the low
 
 The fixed book price protects small bookshops from price wars; selling below it is unlawful for the shop. The owner
 asked for the book trade ([D546](../../../06-decisions/sectors/d546-benchmark-gaps-sc02-retail.md)). The
-France-pack rule is written later.
+France-pack rule is listed below.
 
 ## Examples
 
@@ -31,7 +31,7 @@ France-pack rule is written later.
 - [UC-SC02-16](../use-cases/06-books-furniture-second-hand-franchise/uc-sc02-16-sell-books-under-the-fixed-price-law.md)
 - [E-SC02-13 Book title](../data/e-sc02-13-book-title.md)
 - [E-F10-08](../../../02-functional/f10-point-of-sale/data/e-f10-08-price-promotion.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-227 Fixed book price (5 % cap)](../../../10-country-packs/france/trade/cr-fr-227-fixed-book-price.md)
 
 ## Exceptions

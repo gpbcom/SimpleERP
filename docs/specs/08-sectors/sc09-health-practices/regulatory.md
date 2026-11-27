@@ -19,7 +19,8 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-055 Health data hosting](../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md),
 [CR-FR-056 People know they deal with an AI](../../10-country-packs/france/ai-and-recording/cr-fr-056-people-know-they-deal-with-an-ai.md),
 [CR-FR-058 AI in recruitment and work is high-risk](../../10-country-packs/france/ai-and-recording/cr-fr-058-high-risk-ai-in-employment.md).
-E-prescription and Ségur labels are (Proposed): their official pages could not be read yet.
+All are read in their official sources (2026-11-27); Ségur is a State funding scheme for the publishers of referenced
+software, not an obligation of the practice (CR-FR-136).
 
 ## Country pack
 

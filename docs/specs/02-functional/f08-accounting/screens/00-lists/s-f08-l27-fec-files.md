@@ -40,7 +40,10 @@ total and act on many fec files at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] FEC FILE   STATE                                                                     |
+| state             | [ ] FEC FILE   FISCAL YEAR   ORIGIN   LINES   CHECK   STATE                              |
+| fiscal year       | [ ] ...                                                  Open >                          |
+| origin            | [ ] ...                                                  Open >                          |
+| check             | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -51,6 +54,10 @@ total and act on many fec files at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | FEC file | the record's title | text | yes |
+| Fiscal year | fiscal year | link to the record | yes |
+| Origin | origin | label | yes |
+| Lines | lines | number, right-aligned | yes |
+| Check | check | label | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -60,12 +67,16 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Fiscal year | each linked fiscal year | the visible rows (D488) |
+| Origin | produced, imported | the visible rows (D488) |
+| Check | passed, refused | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: fec files link to no other record type in their fields.
+- FEC files of a chosen fiscal period, or of the fiscal periods that match a filter.
+- From the other side: the fiscal periods that have fec files, or none.
 
 ## KPI strip
 

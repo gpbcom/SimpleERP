@@ -3,7 +3,7 @@
 
 # 📏 BR-SC04-11 Billing splits between funders
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -16,13 +16,17 @@ the shares and hours come from the signed care plan, and the département is bil
 
 ## Why
 
-(Proposed) The allowances' billing rules are still to read.
+The allowances' rules are those of [CR-FR-105 Billing the département for allowances](../../../10-country-packs/france/home-care/cr-fr-105-departmental-allowances-billing.md): the recipient is paid the
+allowance and pays the provider, unless the département pays its share directly to the service (APA, CASF L232-15; PCH
+when the recipient does not pay, L245-8); the recipient's share of an APA plan depends on their monthly resources (none
+up to 933.89 EUR a month, rising to 90 % at 3 439.31 EUR), not on the hours.
 
 ## Examples
 
 | Case | Result |
 |---|---|
 | 30 h, 20 h funded | Funder billed 20 h, recipient 10 h |
+| APA plan of 750 EUR, participation 20 % from the resources, département paying directly | Département billed 600 EUR, recipient 150 EUR |
 
 ## Applies to
 

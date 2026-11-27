@@ -4,7 +4,7 @@
 
 # 🗂️ S-F9-L47 Outreach messages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -64,12 +64,12 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Planned, Sent, Failed, Cancelled, Received, Classified, Reviewed | the visible rows (D488) |
+| State | Planned, Prepared, Sent, Failed, Cancelled, Expired, Received, Classified, Reviewed | the visible rows (D488) |
 | Sequence | each value | the visible rows (D488) |
 | Prospect | each value | the visible rows (D488) |
 | Kind | invitation note, direct message, follow-up, booking-link reply, thank-you, HR's reply, reply | the visible rows (D488) |
 | Class | positive, negative, question, unclear | the visible rows (D488) |
-| Status | Planned, Sent, Failed, Cancelled, Received, Classified, Reviewed | the visible rows (D488) |
+| Status | Planned, Prepared, Sent, Failed, Cancelled, Expired, Received, Classified, Reviewed | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -98,7 +98,7 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
-- Open: Planned, Sent, Failed.
+- Open: Planned, Prepared, Sent, Failed.
 - Needs attention.
 - Recently changed.
 
@@ -195,7 +195,7 @@ Drawn in step S8 (36k) from this page: one row per persona and device for each s
 
 ## Open questions
 
-(Proposed) This list waits for the owner's confirmation: its entity was created after the review of 2026-11-13.
+None.
 
 ---
 

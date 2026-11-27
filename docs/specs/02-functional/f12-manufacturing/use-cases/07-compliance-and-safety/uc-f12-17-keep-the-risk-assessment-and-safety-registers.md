@@ -8,7 +8,7 @@
 
 ## Summary
 
-The risk assessment per work unit of the plant and the safety register of equipment checks.
+The plant's work units in the company's single risk assessment document, and the safety register of equipment checks.
 
 ## Personas
 

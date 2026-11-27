@@ -38,7 +38,9 @@ find, filter, total and act on many entry annotations at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] ENTRY ANNOTATION   STATE                                                             |
+| state             | [ ] ENTRY ANNOTA   ENTRY   TEXT   AUTHOR   STATE                                         |
+| entry             | [ ] ...                                                  Open >                          |
+| author            | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -49,6 +51,9 @@ find, filter, total and act on many entry annotations at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | Entry annotation | the record's title | text | yes |
+| Entry | entry | link to the record | yes |
+| Text | text | text | yes |
+| Author | author | person's name | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -58,12 +63,15 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Entry | each linked entry | the visible rows (D488) |
+| Author | each person, the user first | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: entry annotations link to no other record type in their fields.
+- Entry annotations of a chosen journal entry, or of the journal entries that match a filter.
+- From the other side: the journal entries that have entry annotations, or none.
 
 ## KPI strip
 
@@ -79,6 +87,7 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: author.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -107,7 +116,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| author | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

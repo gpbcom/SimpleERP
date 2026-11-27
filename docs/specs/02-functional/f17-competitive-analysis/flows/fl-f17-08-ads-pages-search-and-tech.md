@@ -3,7 +3,7 @@
 
 # 🔀 FL-F17-08 Ads, pages, search and technologies
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

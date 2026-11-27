@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-04 Files follow the public treasury format
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,9 @@ signed orders. Each answer is applied to its order, and a rejection is shown wit
 ## Why
 
 A batch in the wrong format is not processed and payments are delayed
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (⚖️ lawyer review before launch, D574) The
+France-pack rule is still to write: to read the DGFiP's PES V2 exchange protocol and the list of supporting documents of
+local public expenditure (CGCT D1617-19 and its annex).
 
 ## Examples
 

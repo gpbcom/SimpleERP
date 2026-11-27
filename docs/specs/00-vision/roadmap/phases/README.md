@@ -2,14 +2,14 @@
 
 # 🪜 Phases
 
-**Status:** 🟡 Draft
+**Status:** ✅ specified (D569)
 
 The [roadmap](../roadmap.md) cut into phases, epics and tickets for the Claude Code harness (`.claude/rules/tickets.md`):
 every ticket `T<phase>.<nn>` is planned with `/ticket-plan`, built with `/ticket-run`, and mirrored on the GitHub
 project **SimpleERP roadmap** (`.claude/scripts/github/board.py`). The ten build steps of the roadmap become twelve
 phases: a foundations phase comes first, and the platform step is split into its technical core (T1 to T13) and its
-platform features, so that no phase holds more than 99 tickets. Placements marked (Proposed) wait for the owner, as in
-the roadmap ([Q20](../../../07-questions/q20-which-roadmap-option-orders-v1.md)).
+platform features, so that no phase holds more than 99 tickets. The owner adopted this cut
+with option A of the roadmap ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md), [Q20](../../../07-questions/q20-which-roadmap-option-orders-v1.md)).
 
 ## <a id="phases"></a>📋 Phases
 
@@ -24,9 +24,9 @@ the roadmap ([Q20](../../../07-questions/q20-which-roadmap-option-orders-v1.md))
 | P6 Accounting | F8 | S31 to S33 | 28 Feb to 7 Apr 2028 | [P6](07-p6-accounting.md) |
 | P7 HR, projects and legal | F9, F15 | S34 to S37 | 10 Apr to 2 Jun 2028 | [P7](08-p7-hr-projects-and-legal.md) |
 | P8 Plugins and the plugin store | F10, F11, F12, F13, F14 | S38 to S43 | 5 Jun to 25 Aug 2028 | [P8](09-p8-plugins-and-the-plugin-store.md) |
-| P9 Growth and insight (Proposed) | F5, F17, F23 | S44 to S46 | 28 Aug to 6 Oct 2028 | [P9](10-p9-growth-and-insight.md) |
-| P10 Sectors (Proposed) | SC01 to SC20 | S47 to S52 | 9 Oct 2028 to 19 Jan 2029 | [P10](11-p10-sectors.md) |
-| P11 Hosted edition services (Proposed) | F18, F19, F20 | S53 to S56 | 22 Jan to 16 Mar 2029 | [P11](12-p11-hosted-edition-services.md) |
+| P9 Growth and insight | F5, F17, F23 | S44 to S46 | 28 Aug to 6 Oct 2028 | [P9](10-p9-growth-and-insight.md) |
+| P10 Sectors | SC01 to SC20 | S47 to S52 | 9 Oct 2028 to 19 Jan 2029 | [P10](11-p10-sectors.md) |
+| P11 Hosted edition services | F18, F19, F20 | S53 to S56 | 22 Jan to 16 Mar 2029 | [P11](12-p11-hosted-edition-services.md) |
 
 Sprints last two weeks; the two weeks of Christmas are left out every year. The dates are an estimate from the ticket sizes, to be
 corrected as tickets are planned; the measured pace is in the [parallel plan](parallel-plan.md).

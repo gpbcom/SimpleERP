@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-08 Sign and invoice
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -23,7 +23,7 @@ One file per entity.
 | 🗃️ | E-F23-10 | [Scenario comment](e-f23-10-scenario-comment.md) | ✅ |
 | 🗃️ | E-F23-11 | [Goal](e-f23-11-goal.md) | ✅ |
 | 🗃️ | E-F23-12 | [Financing option](e-f23-12-financing-option.md) | ✅ |
-| 🗃️ | E-F23-13 | [Driver accuracy](e-f23-13-driver-accuracy.md) | 🔄 |
+| 🗃️ | E-F23-13 | [Driver accuracy](e-f23-13-driver-accuracy.md) | ✅ |
 | 🗃️ | E-F23-14 | [Sector driver](e-f23-14-sector-driver.md) | ✅ |
 | 🗃️ | E-F23-15 | [Budget contribution](e-f23-15-budget-contribution.md) | ✅ |
 | 🗃️ | E-F23-16 | [Forecast version](e-f23-16-forecast-version.md) | ✅ |

@@ -3,7 +3,7 @@
 
 # 🔀 FL-F14-08 Trials, test instances, partners and themes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

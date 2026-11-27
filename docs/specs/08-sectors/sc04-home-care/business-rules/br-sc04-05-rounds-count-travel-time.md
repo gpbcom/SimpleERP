@@ -21,6 +21,8 @@ See [D326](../../../06-decisions/sectors/d326-home-care-sector-coverage.md).
 | Case | Result |
 |---|---|
 | 25 min between two visits | 25 min paid |
+| A part-timer's day with 4 unpaid interruptions | flagged: at most 3 a day, 5 hours in all |
+| A nursing service's day of 13 hours | allowed; 12 hours at most in the other services |
 
 ## Applies to
 

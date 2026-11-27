@@ -11,8 +11,8 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-SC04-16 | [Run a care home](uc-sc04-16-run-a-care-home.md) | 🔄 |
-| 📝 | UC-SC04-17 | [Accept CESU vouchers](uc-sc04-17-accept-cesu-vouchers.md) | 🔄 |
-| 📝 | UC-SC04-18 | [Run the agent mode for family employers](uc-sc04-18-run-the-agent-mode-for-family-employers.md) | 🔄 |
-| 📝 | UC-SC04-19 | [Provide childcare at home](uc-sc04-19-provide-childcare-at-home.md) | 🔄 |
-| 📝 | UC-SC04-20 | [Run home nursing care](uc-sc04-20-run-home-nursing-care.md) | 🔄 |
+| 📝 | UC-SC04-16 | [Run a care home](uc-sc04-16-run-a-care-home.md) | ✅ |
+| 📝 | UC-SC04-17 | [Accept CESU vouchers](uc-sc04-17-accept-cesu-vouchers.md) | ✅ |
+| 📝 | UC-SC04-18 | [Run the agent mode for family employers](uc-sc04-18-run-the-agent-mode-for-family-employers.md) | ✅ |
+| 📝 | UC-SC04-19 | [Provide childcare at home](uc-sc04-19-provide-childcare-at-home.md) | ✅ |
+| 📝 | UC-SC04-20 | [Run home nursing care](uc-sc04-20-run-home-nursing-care.md) | ✅ |

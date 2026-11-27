@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-23 Declare disability employment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -52,7 +52,7 @@ Yearly.
 
 ## Error flows
 
-- 2e. A recognition expired: not counted; HR reminded 3 months before (Proposed).
+- 2e. A recognition expired: not counted; HR reminded 3 months before.
 
 ## Business rules
 
@@ -120,8 +120,8 @@ None.
 
 ## Regulatory references
 
-[CR-FR-183](../../../../10-country-packs/france/payroll/cr-fr-183-dsn-monthly-declaration.md); (Proposed) to read: Code
-du travail L5212-1 and following.
+[CR-FR-183](../../../../10-country-packs/france/payroll/cr-fr-183-dsn-monthly-declaration.md); (⚖️ lawyer review before launch, D574) to read:
+Code du travail L5212-1 and following (no France-pack rule reads them yet).
 
 ## Related use cases
 

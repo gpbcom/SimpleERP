@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-11 Public payments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -3,7 +3,7 @@
 
 # 🔀 FL-F9-12 Schedule customer requests
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18 to VD-23, VD-27 to VD-33 / D501 to D505, D509 to D515)
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -175,9 +175,9 @@ table; E rows are the error cases.
 
 ## Open questions
 
-- (Proposed) Whether the scheduling engine allocates tasks in the sense of
+- (⚖️ lawyer review before launch, D574) Whether the scheduling engine allocates tasks in the sense of
   [CR-FR-058](../../../10-country-packs/france/ai-and-recording/cr-fr-058-high-risk-ai-in-employment.md), which would
-  make its deployer duties apply; to read: the AI Act, Annex III.
+  make its deployer duties apply from 2027-12-02; to read: the AI Act, Annex III, point 4(b).
 
 ---
 

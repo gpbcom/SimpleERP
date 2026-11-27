@@ -7,8 +7,11 @@
 
 ## Statement
 
-Each employee gets a professional interview every 2 years and a review every 6 years (Code du travail L6315-1);
-reminders go to HR and the manager 3 months before; missing ones are flagged by the legal assistant (F15).
+Each employee gets a career-path interview (the former professional interview) in the first year after hiring, then
+at most every 4 years, and a review every 8 years that checks the interviews, the training and the progress (Code du
+travail L6315-1 since 2025-12-31,
+[CR-FR-039](../../../10-country-packs/france/labour/cr-fr-039-professional-interviews.md)); reminders go to HR and the
+manager 3 months before; missing ones are flagged by the legal assistant (F15).
 
 ## Why
 
@@ -21,8 +24,8 @@ Legal values from the France country pack:
 
 | Case | Result |
 |---|---|
-| Last interview 22 months ago | Reminder |
-| 6-year review without the required training | Flagged |
+| Last interview 45 months ago | Reminder |
+| 8-year review without the required training | Flagged |
 
 ## Applies to
 

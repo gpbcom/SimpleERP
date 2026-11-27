@@ -2,7 +2,7 @@
 
 # 🔑 Roles
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Ready-made roles
 
@@ -12,7 +12,7 @@
   capabilities the user's other roles can see. See
   [D96](../06-decisions/f02-no-code-configuration/d96-configurator-role.md).
 - **Cashier, Waiter, Kitchen:** the point-of-sale roles (F10): selling, refunds within limits and the till session;
-  tables, orders and bills; preparation screens. (Proposed) Refunds, discounts and price changes beyond a limit need a
+  tables, orders and bills; preparation screens. Refunds, discounts and price changes beyond a limit need a
   manager's PIN (BR-F10-05).
 - **Cashier, Waiter, Kitchen:** the point-of-sale roles (F10): selling, refunds within limits and the till session;
   tables, orders and bills; preparation screens. Refunds, discounts and price changes beyond a limit need a manager's

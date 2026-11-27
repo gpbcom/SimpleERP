@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-06 Gift voucher
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

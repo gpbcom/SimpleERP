@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC07-08 | [Tachograph](s-sc07-08-tachograph.md) | 🔄 |
-| 🖥️ | S-SC07-09 | [Dangerous goods](s-sc07-09-dangerous-goods.md) | 🔄 |
-| 🖥️ | S-SC07-19 | [International trips](s-sc07-19-international-trips.md) | 🔄 |
+| 🖥️ | S-SC07-08 | [Tachograph](s-sc07-08-tachograph.md) | ✅ |
+| 🖥️ | S-SC07-09 | [Dangerous goods](s-sc07-09-dangerous-goods.md) | ✅ |
+| 🖥️ | S-SC07-19 | [International trips](s-sc07-19-international-trips.md) | ✅ |

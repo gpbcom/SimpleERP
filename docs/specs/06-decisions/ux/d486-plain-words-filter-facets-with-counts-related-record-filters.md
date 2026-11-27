@@ -3,7 +3,7 @@
 
 # 📜 D486 Plain-words filter, facets with counts, related-record filters
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-03 / D486)
+**Status:** ✅ decided
 
 ## Context
 
@@ -28,8 +28,8 @@ layout to the roles that hold the map right.
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 3). Amended by the owner on 2026-11-13
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 3). Amended by the owner on 2026-11-13
 (VD-18, VD-20).
 
 ## Consequences
@@ -56,7 +56,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer
 - [D501 Maps: planning, list views, record pages, dashboards, in four
   domains](d501-maps-planning-list-views-record-pages-dashboards-in-four-domains.md)
 - [D502 Records on a map for planners and managers only](d502-records-on-a-map-for-planners-and-managers-only.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

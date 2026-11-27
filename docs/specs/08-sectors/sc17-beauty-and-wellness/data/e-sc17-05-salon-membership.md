@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-05 Salon membership
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

@@ -38,6 +38,8 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f13-15-end-of-contract-e-f13-14-end-of-contract-file-active-desktop.html`
 - `s-f13-16-simulations-e-f13-27-pay-simulation-active-desktop.html`
 - `s-f13-17-benefits-e-f13-26-employee-benefit-active-desktop.html`
+- `s-f13-17-benefits-e-f13-26-employee-benefit-blocked-desktop.html`
+- `s-f13-17-benefits-e-f13-26-employee-benefit-ended-desktop.html`
 - `s-f13-18-yearly-reports-e-f13-15-yearly-payroll-report-checked-desktop.html`
 - `s-f13-18-yearly-reports-e-f13-15-yearly-payroll-report-filed-desktop.html`
 - `s-f13-19-rate-updates-e-f13-16-rate-set-active-desktop.html`

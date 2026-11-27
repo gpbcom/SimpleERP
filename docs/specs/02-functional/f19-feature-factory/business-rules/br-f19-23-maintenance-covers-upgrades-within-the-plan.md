@@ -4,7 +4,7 @@
 
 # 📏 BR-F19-23 Maintenance covers upgrades within the plan
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

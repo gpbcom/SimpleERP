@@ -3,7 +3,7 @@
 
 # 📏 BR-SC06-19 Dynamic prices stay within floor and ceiling
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

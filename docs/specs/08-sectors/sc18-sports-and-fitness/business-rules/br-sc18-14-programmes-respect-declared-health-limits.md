@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-14 Programmes respect declared health limits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

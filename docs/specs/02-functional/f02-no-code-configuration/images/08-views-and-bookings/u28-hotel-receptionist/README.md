@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F2-08 Views and bookings
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F2-08 Views and bookings](../../../flows/fl-f02-08-views-and-bookings.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

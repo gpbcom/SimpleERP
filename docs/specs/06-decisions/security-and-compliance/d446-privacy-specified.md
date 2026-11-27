@@ -12,7 +12,7 @@ their kinds, no subprocessor list, no data processing agreement, no impact asses
 
 ## Options
 
-- Specify privacy now, defaults (Proposed).
+- Specify privacy now, defaults.
 - Leave it to the build.
 
 ## Choice
@@ -20,8 +20,8 @@ their kinds, no subprocessor list, no data processing agreement, no impact asses
 Privacy is specified now: the roles (the company is the controller; the publisher in the hosted edition and an IT
 provider for its client companies are processors under a data processing agreement; the project is neither for a
 self-hosted install), the hosted edition's subprocessors, transfers, impact assessments for meetings, call scoring,
-candidate and worker evaluation and health data, and a retention schedule per kind of entity. Defaults the owner has not
-set are (Proposed).
+candidate and worker evaluation and health data, and a retention schedule per kind of entity. Defaults the owner had not
+set were proposals; D572 confirmed them, except the retention periods the law sets.
 
 ## Decided by
 
@@ -38,7 +38,7 @@ entities whose kind has no rule in the pack.
 - [Privacy and GDPR](../../05-non-functional/privacy-gdpr.md)
 - [Data retention](../../05-non-functional/data-retention.md)
 - [D293](../country-packs/d293-capabilities-take-legal-rules-from-the-pack.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

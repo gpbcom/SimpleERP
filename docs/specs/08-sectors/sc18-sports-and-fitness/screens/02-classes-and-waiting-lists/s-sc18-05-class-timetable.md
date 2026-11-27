@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-05 Class timetable
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

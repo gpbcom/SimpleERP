@@ -4,7 +4,7 @@
 
 # 📏 BR-F18-23 Visits are tracked only with consent
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -17,7 +17,7 @@ a contact.
 Following a person across a site without their agreement is not allowed and, once recorded, cannot be undone. The owner
 asked for visitor tracking for sales
 [D537](../../../06-decisions/f18-hosted-websites-and-domains/d537-benchmark-gaps-f18-hosted-websites-and-domains.md).
-(Proposed) The France-pack rule on consent for trackers stays in
+The France-pack rule on consent for trackers is
 [CR-FR-070](../../../10-country-packs/france/data-protection/cr-fr-070-cookie-consent.md).
 
 ## Examples

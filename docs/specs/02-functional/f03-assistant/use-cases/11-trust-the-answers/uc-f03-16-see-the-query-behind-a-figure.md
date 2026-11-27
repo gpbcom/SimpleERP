@@ -4,7 +4,7 @@
 
 # 📝 UC-F3-16 See the query behind a figure
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -123,7 +123,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-The query view opens within 1 second (Proposed).
+The query view opens within 1 second.
 
 ## Regulatory references
 

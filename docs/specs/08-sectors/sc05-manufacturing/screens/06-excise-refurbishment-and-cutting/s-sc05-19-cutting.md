@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC05-19 Cutting
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

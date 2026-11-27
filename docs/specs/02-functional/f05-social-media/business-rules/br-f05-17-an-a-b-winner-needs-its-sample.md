@@ -8,7 +8,7 @@
 
 ## Statement
 
-A test runs only on an audience large enough (Proposed: 1,000 contacts or more), and the winner is chosen by the
+A test runs only on an audience large enough (default: 1,000 contacts or more), and the winner is chosen by the
 declared measure at the end time; without a clear difference, the first variant is sent.
 
 ## Why

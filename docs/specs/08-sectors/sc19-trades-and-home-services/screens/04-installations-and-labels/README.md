@@ -12,7 +12,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC19-13 | [Installation project](s-sc19-13-installation-project.md) | 🔄 |
-| 🖥️ | S-SC19-14 | [Installation grants](s-sc19-14-installation-grants.md) | 🔄 |
-| 🖥️ | S-SC19-15 | [RGE evidence](s-sc19-15-rge-evidence.md) | 🔄 |
-| 🖥️ | S-SC19-16 | [Regulated records](s-sc19-16-regulated-records.md) | 🔄 |
+| 🖥️ | S-SC19-13 | [Installation project](s-sc19-13-installation-project.md) | ✅ |
+| 🖥️ | S-SC19-14 | [Installation grants](s-sc19-14-installation-grants.md) | ✅ |
+| 🖥️ | S-SC19-15 | [RGE evidence](s-sc19-15-rge-evidence.md) | ✅ |
+| 🖥️ | S-SC19-16 | [Regulated records](s-sc19-16-regulated-records.md) | ✅ |

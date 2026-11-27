@@ -3,7 +3,7 @@
 
 # 🗃️ E-F16-05 Service-level policy
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -15,8 +15,8 @@ The targets of a priority: first response and resolution, counted in business ho
 |---|---|---|---|---|---|---|---|
 | name | text | yes | unique | - | Normal | no | no |
 | priority | choice | yes | low, normal, high, urgent | normal | normal | no | no |
-| first response | duration | yes | above 0 | (Proposed) 4 business hours | 4 h | no | no |
-| resolution | duration | yes | above first response | (Proposed) 2 business days | 16 h | no | no |
+| first response | duration | yes | above 0 | 4 business hours | 4 h | no | no |
+| resolution | duration | yes | above first response | 2 business days | 16 h | no | no |
 | business hours | text | yes | - | Monday to Friday 9 to 18 | Mon to Fri 9 to 18 | no | no |
 
 ## Relations

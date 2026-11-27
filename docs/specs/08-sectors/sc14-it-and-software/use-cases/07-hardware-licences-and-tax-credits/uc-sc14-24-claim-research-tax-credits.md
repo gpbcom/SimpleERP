@@ -5,7 +5,7 @@
 
 # 📝 UC-SC14-24 Claim research tax credits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -168,13 +168,14 @@ uncertainty, and the innovation tax credit to the design of new products by smal
 include the staff cost of researchers and technicians, the depreciation of research equipment, patent costs and approved
 subcontracting, from which grants are deducted. The company must justify the work and the hours if the tax office asks,
 and the credit is claimed with the year's tax return. A young innovative company status gives social and tax relief to
-small companies with a high share of research expenses. The rates and the lists are data of the France pack, written
-later. Related:
+small companies with a high share of research expenses. The rates and the lists are data of the France pack: the research credit is 30 % of the
+eligible expenses up to 100 million EUR and 5 % above in metropolitan France, the innovation credit 20 % within
+400 000 EUR of expenses until 2027-12-31 (CR-FR-246). Related:
 [CR-FR-002](../../../../10-country-packs/france/accounting/cr-fr-002-accounting-records-kept-ten-years.md),
 [CR-FR-047](../../../../10-country-packs/france/labour/cr-fr-047-hr-records-retention.md),
 [CR-FR-203](../../../../10-country-packs/france/digital/cr-fr-203-software-copyright-assignment.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-246 Research and innovation tax credits](../../../../10-country-packs/france/tax-and-vat/cr-fr-246-research-tax-credit.md)
 
 ## Related use cases

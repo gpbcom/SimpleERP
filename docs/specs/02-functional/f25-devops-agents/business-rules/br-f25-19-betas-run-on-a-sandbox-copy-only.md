@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-19 Betas run on a sandbox copy only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

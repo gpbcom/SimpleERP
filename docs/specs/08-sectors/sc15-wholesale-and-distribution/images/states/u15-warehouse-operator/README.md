@@ -60,11 +60,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc15-09-pallets-e-sc15-05-pick-wave-active-phone, light](s-sc15-09-pallets-e-sc15-05-pick-wave-active-phone-light.png) | ![s-sc15-09-pallets-e-sc15-05-pick-wave-active-phone, dark](s-sc15-09-pallets-e-sc15-05-pick-wave-active-phone-dark.png) |
 
-## s-sc15-09-pallets-e-sc15-14-pallet-active-phone
+## s-sc15-09-pallets-e-sc15-14-pallet-open-phone
 
 | Light | Dark |
 |---|---|
-| ![s-sc15-09-pallets-e-sc15-14-pallet-active-phone, light](s-sc15-09-pallets-e-sc15-14-pallet-active-phone-light.png) | ![s-sc15-09-pallets-e-sc15-14-pallet-active-phone, dark](s-sc15-09-pallets-e-sc15-14-pallet-active-phone-dark.png) |
+| ![s-sc15-09-pallets-e-sc15-14-pallet-open-phone, light](s-sc15-09-pallets-e-sc15-14-pallet-open-phone-light.png) | ![s-sc15-09-pallets-e-sc15-14-pallet-open-phone, dark](s-sc15-09-pallets-e-sc15-14-pallet-open-phone-dark.png) |
+
+## s-sc15-09-pallets-e-sc15-14-pallet-closed-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc15-09-pallets-e-sc15-14-pallet-closed-phone, light](s-sc15-09-pallets-e-sc15-14-pallet-closed-phone-light.png) | ![s-sc15-09-pallets-e-sc15-14-pallet-closed-phone, dark](s-sc15-09-pallets-e-sc15-14-pallet-closed-phone-dark.png) |
+
+## s-sc15-09-pallets-e-sc15-14-pallet-loaded-phone
+
+| Light | Dark |
+|---|---|
+| ![s-sc15-09-pallets-e-sc15-14-pallet-loaded-phone, light](s-sc15-09-pallets-e-sc15-14-pallet-loaded-phone-light.png) | ![s-sc15-09-pallets-e-sc15-14-pallet-loaded-phone, dark](s-sc15-09-pallets-e-sc15-14-pallet-loaded-phone-dark.png) |
 
 ## s-sc15-10-returns-e-sc15-07-return-authorisation-active-phone
 
@@ -126,11 +138,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-sc15-09-pallets-e-sc15-05-pick-wave-active-tablet, light](s-sc15-09-pallets-e-sc15-05-pick-wave-active-tablet-light.png) | ![s-sc15-09-pallets-e-sc15-05-pick-wave-active-tablet, dark](s-sc15-09-pallets-e-sc15-05-pick-wave-active-tablet-dark.png) |
 
-## s-sc15-09-pallets-e-sc15-14-pallet-active-tablet
+## s-sc15-09-pallets-e-sc15-14-pallet-open-tablet
 
 | Light | Dark |
 |---|---|
-| ![s-sc15-09-pallets-e-sc15-14-pallet-active-tablet, light](s-sc15-09-pallets-e-sc15-14-pallet-active-tablet-light.png) | ![s-sc15-09-pallets-e-sc15-14-pallet-active-tablet, dark](s-sc15-09-pallets-e-sc15-14-pallet-active-tablet-dark.png) |
+| ![s-sc15-09-pallets-e-sc15-14-pallet-open-tablet, light](s-sc15-09-pallets-e-sc15-14-pallet-open-tablet-light.png) | ![s-sc15-09-pallets-e-sc15-14-pallet-open-tablet, dark](s-sc15-09-pallets-e-sc15-14-pallet-open-tablet-dark.png) |
+
+## s-sc15-09-pallets-e-sc15-14-pallet-closed-tablet
+
+| Light | Dark |
+|---|---|
+| ![s-sc15-09-pallets-e-sc15-14-pallet-closed-tablet, light](s-sc15-09-pallets-e-sc15-14-pallet-closed-tablet-light.png) | ![s-sc15-09-pallets-e-sc15-14-pallet-closed-tablet, dark](s-sc15-09-pallets-e-sc15-14-pallet-closed-tablet-dark.png) |
+
+## s-sc15-09-pallets-e-sc15-14-pallet-loaded-tablet
+
+| Light | Dark |
+|---|---|
+| ![s-sc15-09-pallets-e-sc15-14-pallet-loaded-tablet, light](s-sc15-09-pallets-e-sc15-14-pallet-loaded-tablet-light.png) | ![s-sc15-09-pallets-e-sc15-14-pallet-loaded-tablet, dark](s-sc15-09-pallets-e-sc15-14-pallet-loaded-tablet-dark.png) |
 
 ## s-sc15-10-returns-e-sc15-07-return-authorisation-active-tablet
 

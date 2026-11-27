@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F5-09 Brand, tests and return on investment
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F5-09 Brand, tests and return on investment](../../../flows/fl-f05-09-brand-tests-and-return-on-investment.md) for

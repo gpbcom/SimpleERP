@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC14-05 | [Support levels](s-sc14-05-support-levels.md) | 🔄 |
-| 🖥️ | S-SC14-06 | [Managed services](s-sc14-06-managed-services.md) | 🔄 |
+| 🖥️ | S-SC14-05 | [Support levels](s-sc14-05-support-levels.md) | ✅ |
+| 🖥️ | S-SC14-06 | [Managed services](s-sc14-06-managed-services.md) | ✅ |

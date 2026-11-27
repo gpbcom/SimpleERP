@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -25,14 +25,14 @@ One file per entity.
 | 🗃️ | E-F7-12 | [Landed cost](e-f07-12-landed-cost.md) | ✅ |
 | 🗃️ | E-F7-13 | [Call for tenders](e-f07-13-call-for-tenders.md) | ✅ |
 | 🗃️ | E-F7-14 | [Repair order](e-f07-14-repair-order.md) | ✅ |
-| 🗃️ | E-F7-15 | [Supplier contract](e-f07-15-supplier-contract.md) | 🔄 |
-| 🗃️ | E-F7-16 | [Supplier score](e-f07-16-supplier-score.md) | 🔄 |
+| 🗃️ | E-F7-15 | [Supplier contract](e-f07-15-supplier-contract.md) | ✅ |
+| 🗃️ | E-F7-16 | [Supplier score](e-f07-16-supplier-score.md) | ✅ |
 | 🗃️ | E-F7-17 | [Approved catalogue](e-f07-17-approved-catalogue.md) | ✅ |
-| 🗃️ | E-F7-18 | [Eco-contribution scale](e-f07-18-eco-contribution-scale.md) | 🔄 |
-| 🗃️ | E-F7-19 | [Safety data sheet](e-f07-19-safety-data-sheet.md) | 🔄 |
-| 🗃️ | E-F7-20 | [Emission factor](e-f07-20-emission-factor.md) | 🔄 |
-| 🗃️ | E-F7-21 | [Demand forecast](e-f07-21-demand-forecast.md) | 🔄 |
-| 🗃️ | E-F7-22 | [Delivery note](e-f07-22-delivery-note.md) | 🔄 |
+| 🗃️ | E-F7-18 | [Eco-contribution scale](e-f07-18-eco-contribution-scale.md) | ✅ |
+| 🗃️ | E-F7-19 | [Safety data sheet](e-f07-19-safety-data-sheet.md) | ✅ |
+| 🗃️ | E-F7-20 | [Emission factor](e-f07-20-emission-factor.md) | ✅ |
+| 🗃️ | E-F7-21 | [Demand forecast](e-f07-21-demand-forecast.md) | ✅ |
+| 🗃️ | E-F7-22 | [Delivery note](e-f07-22-delivery-note.md) | ✅ |
 | 🗃️ | E-F7-23 | [Stock owner](e-f07-23-stock-owner.md) | ✅ |
 | 🗃️ | E-F7-24 | [Periodic count](e-f07-24-periodic-count.md) | ✅ |
 | 🗃️ | E-F7-25 | [Packaging deposit](e-f07-25-packaging-deposit.md) | ✅ |

@@ -19,4 +19,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F15-06 Privacy and AI duties](06-privacy-and-ai-duties/README.md) | 18 images |
 | 🖼️ |  | [Images: FL-F15-07 Equity, contracts, meetings and disputes](07-equity-contracts-and-disputes/README.md) | 44 images |
 | 🖼️ |  | [Screen states](states/README.md) | 88 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

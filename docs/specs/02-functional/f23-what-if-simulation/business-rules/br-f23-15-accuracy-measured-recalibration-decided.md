@@ -4,7 +4,7 @@
 
 # 📏 BR-F23-15 Accuracy measured, recalibration decided
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -19,7 +19,7 @@ A forecast is trusted when its accuracy is known (D480).
 
 | Case | Result |
 |---|---|
-| Sales volume forecast 100, actual 109, tolerance (Proposed) 5 % | passes: recalibration proposed |
+| Sales volume forecast 100, actual 109, tolerance 5 % | passes: recalibration proposed |
 | Accounting accepts | passes: baseline rebuilt with the new seasonality |
 | Recalibration applied by itself | fails: never |
 

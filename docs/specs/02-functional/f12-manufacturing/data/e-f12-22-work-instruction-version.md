@@ -3,7 +3,7 @@
 
 # 🗃️ E-F12-22 Work instruction version
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -39,7 +39,7 @@ By operation.
 
 ## Retention
 
-As the product (Proposed).
+As the product.
 
 ## Audit
 

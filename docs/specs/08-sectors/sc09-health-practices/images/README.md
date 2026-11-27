@@ -18,4 +18,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC09-06 Compliance and certification](06-compliance-and-certification/README.md) | 20 images |
 | 🖼️ |  | [Images: FL-SC09-07 Pharmacy, eyewear, vets, dental and health centres](07-pharmacy-vets-dental-and-centres/README.md) | 36 images |
 | 🖼️ |  | [Screen states](states/README.md) | 160 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

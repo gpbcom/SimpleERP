@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC03-06 Staffing, agencies, certification and tender library
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

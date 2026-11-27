@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -24,16 +24,16 @@ One file per rule.
 | 📏 | BR-F20-11 | [Response times per support plan](br-f20-11-response-times-per-plan.md) | ✅ |
 | 📏 | BR-F20-12 | [Conversations kept and exportable](br-f20-12-conversations-kept-and-exportable.md) | ✅ |
 | 📏 | BR-F20-13 | [Health data out of the models' reach](br-f20-13-health-data-out-of-reach.md) | ✅ |
-| 📏 | BR-F20-14 | [Maintenance announced ahead](br-f20-14-maintenance-announced-ahead.md) | 🔄 |
-| 📏 | BR-F20-15 | [Release notes before each upgrade](br-f20-15-release-notes-before-each-upgrade.md) | 🔄 |
-| 📏 | BR-F20-16 | [Written report after a major incident](br-f20-16-written-report-after-a-major-incident.md) | 🔄 |
-| 📏 | BR-F20-17 | [Service credits for missed targets](br-f20-17-service-credits-for-missed-targets.md) | 🔄 |
+| 📏 | BR-F20-14 | [Maintenance announced ahead](br-f20-14-maintenance-announced-ahead.md) | ✅ |
+| 📏 | BR-F20-15 | [Release notes before each upgrade](br-f20-15-release-notes-before-each-upgrade.md) | ✅ |
+| 📏 | BR-F20-16 | [Written report after a major incident](br-f20-16-written-report-after-a-major-incident.md) | ✅ |
+| 📏 | BR-F20-17 | [Service credits for missed targets](br-f20-17-service-credits-for-missed-targets.md) | ✅ |
 | 📏 | BR-F20-18 | [Support in French or English](br-f20-18-support-in-french-or-english.md) | ✅ |
-| 📏 | BR-F20-19 | [NIS2 facts on time](br-f20-19-nis2-facts-on-time.md) | 🔄 |
-| 📏 | BR-F20-20 | [Calls follow the plan's times](br-f20-20-calls-follow-the-plans-times.md) | 🔄 |
-| 📏 | BR-F20-21 | [Access ends at its time limit and is audited](br-f20-21-access-ends-at-its-time-limit-and-is-audited.md) | 🔄 |
-| 📏 | BR-F20-22 | [Reports contain no personal data](br-f20-22-reports-contain-no-personal-data.md) | 🔄 |
-| 📏 | BR-F20-23 | [Service times are the same in every supported language](br-f20-23-service-times-are-the-same-in-every-supported-language.md) | 🔄 |
+| 📏 | BR-F20-19 | [NIS2 facts on time](br-f20-19-nis2-facts-on-time.md) | ✅ |
+| 📏 | BR-F20-20 | [Calls follow the plan's times](br-f20-20-calls-follow-the-plans-times.md) | ✅ |
+| 📏 | BR-F20-21 | [Access ends at its time limit and is audited](br-f20-21-access-ends-at-its-time-limit-and-is-audited.md) | ✅ |
+| 📏 | BR-F20-22 | [Reports contain no personal data](br-f20-22-reports-contain-no-personal-data.md) | ✅ |
+| 📏 | BR-F20-23 | [Service times are the same in every supported language](br-f20-23-service-times-are-the-same-in-every-supported-language.md) | ✅ |
 
 ---
 

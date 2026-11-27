@@ -11,7 +11,10 @@ The stock of one lot held under duty suspension in a bonded warehouse, with its 
 movement that ends the suspension ([D549](../../../06-decisions/sectors/d549-benchmark-gaps-sc05-manufacturing.md)). It
 is not the stock item of the lot
 ([E-F7-10](../../../02-functional/f07-purchasing-and-stock/data/e-f07-10-lot-or-serial.md)): it adds the excise status
-and the duty the lot may owe.
+and the duty the lot may owe. The duty is computed on the base of the lot's category, as
+[BR-SC05-16](../business-rules/br-sc05-16-excise-is-due-when-goods-leave-the-bonded-warehouse.md) and
+[CR-FR-234](../../../10-country-packs/france/tax-and-vat/cr-fr-234-alcohol-excise.md) say; pure alcohol is the base of
+spirits only ([D573](../../../06-decisions/foundations/d573-precedence-between-spec-pages.md)).
 
 ## Fields
 
@@ -21,8 +24,9 @@ and the duty the lot may owe.
 | item | item (E-F7-06) | yes | an alcohol item | - | Pale ale | no | no |
 | volume | number in litres | yes | above 0 | from the lot | 1,000 | no | no |
 | strength | percent | yes | 0.5 to 100 | - | 5.0 | no | no |
-| category | beer, wine, spirits, other | yes | a category of the country pack | - | beer | no | no |
+| category | wine, cider, intermediate product, beer, spirits | yes | a category of the country pack | - | beer | no | no |
 | pure alcohol | number in hectolitres | yes | computed from volume and strength | - | 0.5 | no | no |
+| duty base | number, with its unit | yes | computed from the category: hectolitres for wines, ciders and intermediate products, hectolitres times the degree for beers, hectolitres of pure alcohol for spirits | - | 50 hectolitres-degree | no | no |
 | movement | release, suspension, export, loss, destruction | no | one of the five | - | release | no | no |
 | duty | amount in EUR | no | 0 or more, computed at release | - | 175.00 | no | no |
 | consignee approval | text | no | required for a suspension | - | FR012345E1234 | no | no |
@@ -65,7 +69,7 @@ Kept six years with the declarations, and ten years with the accounting records
 
 ## Audit
 
-Every movement and every change of volume, strength or category, with who, when and the old and new value.
+Every movement and every change of volume, strength, category or duty base, with who, when and the old and new value.
 
 ## Import and export
 

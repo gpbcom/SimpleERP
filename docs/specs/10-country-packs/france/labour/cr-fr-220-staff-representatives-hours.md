@@ -42,7 +42,7 @@ Not on the page read.
 
 ## Exceptions
 
-(Proposed) Companies without staff representatives.
+Companies without staff representatives.
 
 ## Open questions
 

@@ -17,4 +17,4 @@ The use cases of this flow.
 | 📝 | UC-F19-09 | [Ask for changes](uc-f19-09-ask-for-changes.md) | ✅ |
 | 📝 | UC-F19-10 | [Report a defect](uc-f19-10-report-a-defect.md) | ✅ |
 | 📝 | UC-F19-11 | [Cancel a feature and export its data](uc-f19-11-cancel-a-feature-and-export-its-data.md) | ✅ |
-| 📝 | UC-F19-23 | [Get the source of a feature](uc-f19-23-get-the-source-of-a-feature.md) | 🔄 |
+| 📝 | UC-F19-23 | [Get the source of a feature](uc-f19-23-get-the-source-of-a-feature.md) | ✅ |

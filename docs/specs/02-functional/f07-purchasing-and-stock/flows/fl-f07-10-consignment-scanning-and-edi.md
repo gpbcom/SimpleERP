@@ -3,7 +3,7 @@
 
 # 🔀 FL-F7-10 Consignment, scanning, packaging and EDI
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

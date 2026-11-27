@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-05 Dispatch
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

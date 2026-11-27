@@ -3,7 +3,7 @@
 
 # 🗃️ E-F1-18 API token
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -15,7 +15,7 @@ A token of a service account or a user, with scopes and an end date.
 |---|---|---|---|---|---|---|---|
 | service account | name, owner, role | yes | role exists | - | EDI Lemoine | no | - |
 | scopes | list of record type and read or write | yes | within the role | - | orders write | no | - |
-| end date | date | yes | within 1 year (Proposed) | - | 2027-06-30 | no | - |
+| end date | date | yes | within 1 year | - | 2027-06-30 | no | - |
 | allowed IPs | list | no | valid ranges | - | 203.0.113.0/24 | no | - |
 | last use | date and time | no | - | - | 2026-11-12 07:55 | no | - |
 
@@ -38,7 +38,7 @@ By service account, owner and status.
 
 ## Retention
 
-Revoked and expired tokens kept 1 year for the audit (Proposed).
+Revoked and expired tokens kept 1 year for the audit.
 
 ## Audit
 

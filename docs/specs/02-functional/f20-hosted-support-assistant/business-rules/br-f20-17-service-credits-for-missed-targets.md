@@ -4,12 +4,12 @@
 
 # 📏 BR-F20-17 Service credits for missed targets
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 When the hosted offer's published targets are missed in a month (availability, or human answer times of BR-F20-11), the
-customer receives a service credit on the next invoice as a credit note: (Proposed) 10 % of the month's hosted fee per
+customer receives a service credit on the next invoice as a credit note: 10 % of the month's hosted fee per
 missed target, up to 50 %.
 
 ## Why
@@ -20,7 +20,7 @@ Targets with no consequence mean nothing (D477).
 
 | Case | Result |
 |---|---|
-| Availability 99.4 % against a 99.5 % target (Proposed) | passes: 10 % credit |
+| Availability 99.4 % against a 99.5 % target | passes: 10 % credit |
 | Urgent request answered in 2 hours against 1 hour | passes: 10 % credit |
 | Three targets missed in March | passes: 30 % credit |
 | Six targets missed | passes: capped at 50 % |

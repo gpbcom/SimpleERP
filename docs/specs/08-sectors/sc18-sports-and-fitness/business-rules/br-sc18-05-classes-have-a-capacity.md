@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-05 Classes have a capacity
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

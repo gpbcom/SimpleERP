@@ -3,7 +3,7 @@
 
 # 🗃️ E-F12-16 Calibration
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -38,7 +38,7 @@ By due date.
 
 ## Retention
 
-10 years (Proposed).
+10 years.
 
 ## Audit
 

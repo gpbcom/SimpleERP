@@ -12,4 +12,4 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F12-31 | [Define a recipe and produce in batches](uc-f12-31-define-a-recipe-and-produce-in-batches.md) | 🔄 |
+| 📝 | UC-F12-31 | [Define a recipe and produce in batches](uc-f12-31-define-a-recipe-and-produce-in-batches.md) | ✅ |

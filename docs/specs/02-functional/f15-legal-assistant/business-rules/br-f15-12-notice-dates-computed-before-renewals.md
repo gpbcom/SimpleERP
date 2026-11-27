@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-12 Notice dates computed before renewals
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -12,8 +12,9 @@ before that day, and a contract left alone renews by its own terms.
 
 ## Why
 
-Tacit renewals of leases, insurance and supplier contracts surprise companies (D472); the law on notice and renewal is
-(Proposed) to read for the France pack.
+Tacit renewals of leases, insurance and supplier contracts surprise companies (D472); the law on notice and renewal of
+commercial leases is [CR-FR-239](../../../10-country-packs/france/real-estate/cr-fr-239-commercial-leases.md); (⚖️ lawyer review before launch, D574) the
+rest is to read for the France pack: Code de la consommation L215-1, Code des assurances L113-12 and L113-15-1.
 
 ## Examples
 
@@ -33,7 +34,7 @@ None.
 
 ## Configurable
 
-Reminder lead times per contract kind (Proposed) 60 and 15 days.
+Reminder lead times per contract kind 60 and 15 days.
 
 ## Open questions
 

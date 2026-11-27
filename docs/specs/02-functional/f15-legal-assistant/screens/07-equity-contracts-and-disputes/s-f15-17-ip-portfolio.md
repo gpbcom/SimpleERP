@@ -4,7 +4,7 @@
 
 # 🖥️ S-F15-17 IP portfolio
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

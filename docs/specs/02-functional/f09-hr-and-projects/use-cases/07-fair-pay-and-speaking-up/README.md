@@ -11,5 +11,5 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F9-20 | [Publish the equality index and pay-transparency information](uc-f09-20-publish-the-equality-index-and-pay-transparency-information.md) | 🔄 |
-| 📝 | UC-F9-24 | [Receive and handle a whistleblowing report](uc-f09-24-receive-and-handle-a-whistleblowing-report.md) | 🔄 |
+| 📝 | UC-F9-20 | [Publish the equality index and pay-transparency information](uc-f09-20-publish-the-equality-index-and-pay-transparency-information.md) | ✅ |
+| 📝 | UC-F9-24 | [Receive and handle a whistleblowing report](uc-f09-24-receive-and-handle-a-whistleblowing-report.md) | ✅ |

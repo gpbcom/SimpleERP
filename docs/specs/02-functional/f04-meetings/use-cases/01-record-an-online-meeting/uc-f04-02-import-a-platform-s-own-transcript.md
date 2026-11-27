@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-02 Import a platform's own transcript
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -124,7 +124,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Imported within 10 minutes of the platform publishing it (Proposed).
+Imported within 10 minutes of the platform publishing it.
 
 ## Regulatory references
 

@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-06 Tender publication
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

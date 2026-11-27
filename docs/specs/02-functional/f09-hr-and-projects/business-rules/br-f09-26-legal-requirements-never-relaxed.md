@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-26 Legal requirements are never relaxed
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-29 / D511)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -46,7 +46,7 @@ a planner cannot relax it, and the automatic mode stops when it cannot be met.
 
 ## Exceptions
 
-None. (Proposed) An exemption the law itself allows, such as a young worker's exemption on file, is part of the
+None. An exemption the law itself allows, such as a young worker's exemption on file, is part of the
 requirement written in the country pack (CR-FR-208), not an override.
 
 ## Configurable

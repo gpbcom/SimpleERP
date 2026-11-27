@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-24 Handle a disputed invoice
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -57,7 +57,7 @@ A few a month.
 ## Error flows
 
 - 2e. A dispute on a paid invoice: handled as a refund request.
-- 4e. Open more than 60 days (Proposed): escalated to the manager.
+- 4e. Open more than 60 days: escalated to the manager.
 
 ## Business rules
 

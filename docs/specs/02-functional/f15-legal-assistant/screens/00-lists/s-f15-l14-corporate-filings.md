@@ -36,10 +36,13 @@ find, filter, total and act on many corporate filings at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Corporate filings    Legal assistant › Corporate filings   [+ New]                                           |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] CORPORATE FILING   STATE                                                             |
+| state             | [ ] CORPORATE FI   DUTY   DECISION   FILED BY   FILED ON   RECEIPT   STATE               |
+| duty              | [ ] ...                                                  Open >                          |
+| decision          | [ ] ...                                                  Open >                          |
+| filed by          | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -49,7 +52,12 @@ find, filter, total and act on many corporate filings at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Corporate filing | the record's title | text | yes |
+| Corporate filing | title | text | yes |
+| Duty | duty | link to the record | yes |
+| Decision | decision | link to the record | yes |
+| Filed by | filed by | person's name | yes |
+| Filed on | filed on | date | yes |
+| Receipt | receipt | file name | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -59,16 +67,23 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Duty | each linked duty | the visible rows (D488) |
+| Decision | each linked decision | the visible rows (D488) |
+| Filed by | each person, the user first | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: corporate filings link to no other record type in their fields.
+- Corporate filings of a chosen compliance duty, or of the compliance duties that match a filter.
+- From the other side: the compliance duties that have corporate filings, or none.
+- Corporate filings of a chosen register entry, or of the register entries that match a filter.
+- From the other side: the register entries that have corporate filings, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by filed on.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -108,7 +123,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| filed by | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

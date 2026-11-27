@@ -40,7 +40,7 @@ F9 set up for the company.
 
 1. HR hires ([UC-F9-07](../02-recruit/uc-f09-07-make-an-offer-and-hire.md)); the DPAE goes to URSSAF before the first
    day ([BR-F9-03](../../business-rules/br-f09-03-dpae-before-the-first-day.md)).
-2. The personnel register updates on arrivals and departures
+2. The personnel register of each establishment updates on arrivals and departures
    ([CR-FR-038](../../../../10-country-packs/france/labour/cr-fr-038-personnel-register.md)) on HR duties
    ([S-F9-03](../../screens/01-people/s-f09-03-hr-duties.md)).
 3. Interviews and health visits are scheduled

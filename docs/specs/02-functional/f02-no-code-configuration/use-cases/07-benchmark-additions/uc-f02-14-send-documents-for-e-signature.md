@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-14 Send documents for e-signature
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -115,7 +115,7 @@ sequenceDiagram
    Durand gets the link and an SMS code.
 2. **Given** the customer signed **when** the manager signs **then** the signed copy and the proof are filed on the
    deal.
-3. **Given** a request expiring after 14 days (Proposed) **when** it expires unsigned **then** the sender can resend it.
+3. **Given** a request expiring after 14 days **when** it expires unsigned **then** the sender can resend it.
 4. **Given** the customer refuses with "price wrong" **when** she refuses **then** the request stops and the sender sees
    the reason.
 

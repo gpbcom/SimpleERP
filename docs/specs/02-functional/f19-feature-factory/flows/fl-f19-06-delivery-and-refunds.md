@@ -3,7 +3,7 @@
 
 # 🔀 FL-F19-06 Delivery and refunds
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -69,7 +69,7 @@ sequenceDiagram
 
 ## Errors
 
-E1: a second delay passes the (Proposed) limit of 20 business days late: the owner may cancel the order without charge
+E1: a second delay passes the limit of 20 business days late: the owner may cancel the order without charge
 (step 1). E2: a credit for an unfixed defect is disputed: accounting checks the dates of the report and the fix and
 decides (step 2).
 

@@ -21,7 +21,7 @@ Each sale records the data the tax administration needs, at the time of the sale
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2018-01-01, for every VAT-registered business recording payments from consumers in a till system ([impots.gouv.fr, champ d'application de l'obligation](https://www.impots.gouv.fr/professionnel/questions/quel-est-le-champ-dapplication-de-lobligation-de-detenir-un-logiciel-de), read 2026-11-27).
 
 ## Enforced by
 

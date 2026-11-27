@@ -5,7 +5,7 @@
 
 # 🖥️ S-F24-26 AI connector builder
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

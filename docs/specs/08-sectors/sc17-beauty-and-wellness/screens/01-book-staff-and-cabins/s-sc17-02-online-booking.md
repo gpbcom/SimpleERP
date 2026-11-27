@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-02 Online booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

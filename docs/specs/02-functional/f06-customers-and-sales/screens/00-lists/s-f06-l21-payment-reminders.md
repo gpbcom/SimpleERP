@@ -35,10 +35,13 @@ find, filter, total and act on many payment reminders at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Payment reminders    Customers and sales › Payment reminders   [+ New]                                       |
-| [count]   [chart: count by state]                                                                            |
+| [count] [total amount reminded] [Paused] [new this month]   [chart: count by state, amount reminded stacked] |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] PAYMENT REMINDER   STATE                                                             |
+| state             | [ ] PAYMENT REMI   CUSTOMER   STEP   DAYS LATE   AMOUNT REMIN   SENT AT   STATE          |
+| customer          | [ ] ...                                                  Open >                          |
+| step              | [ ] ...                                                  Open >                          |
+| channel           | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -49,7 +52,12 @@ find, filter, total and act on many payment reminders at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | Payment reminder | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Customer | customer | link to the record | yes |
+| Step | step | label | yes |
+| Days late | days late | number, right-aligned | yes |
+| Amount reminded | amount reminded | amount, right-aligned | yes |
+| Sent at | sent at | date and time | yes |
+| State | state | badge: Active, Paused, Stopped | yes |
 
 Secrets are never a column (VR-4).
 
@@ -57,28 +65,39 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, Paused, Stopped | the visible rows (D488) |
+| Customer | each linked customer | the visible rows (D488) |
+| Step | each value | the visible rows (D488) |
+| Channel | email, post | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: payment reminders link to no other record type in their fields.
+- Payment reminders of a chosen invoice, or of the invoices that match a filter.
+- From the other side: the invoices that have payment reminders, or none.
+- Payment reminders of a chosen customer, or of the customers that match a filter.
+- From the other side: the customers that have payment reminders, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Total of amount reminded.
+- Needs attention: count in the state Paused.
+- New this month, by sent at.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
 ## Default chart
 
-Count by state (VR-8); the Chart button turns the filtered list into a chart the user can pin to their home screen
-(C-09).
+Count by state, amount reminded stacked (VR-8); the Chart button turns the filtered list into a chart the user can pin
+to their home screen (C-09).
 
 ## Saved views
 
 - All.
+- Open: Active, Paused.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -92,6 +111,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New payment reminder | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |

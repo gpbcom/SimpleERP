@@ -4,7 +4,7 @@
 
 # 🔀 FL-F22-08 Credits, SaaS subscriptions, carbon and routing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

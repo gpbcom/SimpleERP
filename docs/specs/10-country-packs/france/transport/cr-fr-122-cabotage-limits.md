@@ -12,7 +12,10 @@ into France, with the evidence on board.
 
 ## Values
 
-- 3 operations within 7 days.
+- 3 operations within 7 days of the last unloading of the incoming international carriage; in another Member State,
+  one operation within 3 days of the unladen entry (art. 8(2)).
+- No cabotage with the same vehicle in the same Member State within 4 days after the end of its cabotage there
+  (art. 8(2a)) ([Regulation (EC) 1072/2009, consolidated text of 2022-02-21, EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02009R1072-20220221), read 2026-11-27).
 
 ## Legal references
 
@@ -21,7 +24,11 @@ into France, with the evidence on board.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+- Until 2022-02-20: the 3-in-7 rule of art. 8, applicable since 2010-05-14 (art. 19) ([Regulation (EC) 1072/2009](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32009R1072), read 2026-11-27).
+- From 2022-02-21: the same rule with the 4-day cooling-off of art. 8(2a) and the electronic evidence of art. 8(4a)
+  ([Regulation (EC) 1072/2009, consolidated text of 2022-02-21](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02009R1072-20220221), read 2026-11-27).
+
+Regulations of 2009-10-21; their national provisions are in the Code des transports since 2017-01-01 ([Ministère de la Transition écologique, cabotage, updated 2024-01-22](https://www.ecologie.gouv.fr/transport-international-marchandises-et-cabotage), read 2026-11-27).
 
 ## Enforced by
 

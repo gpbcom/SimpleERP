@@ -3,7 +3,7 @@
 
 # 📏 BR-F14-25 A trial ends with a purchase or a clean uninstall
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

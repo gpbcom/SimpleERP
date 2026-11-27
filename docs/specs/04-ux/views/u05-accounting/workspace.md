@@ -3,7 +3,7 @@
 
 # 🧰 U05 Accounting: workspace
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -14,7 +14,7 @@ The views [U05 Accounting](../../../01-users/personas/u05-accounting.md) works w
 [D495](../../../06-decisions/ux/d495-views-listed-under-each-capabilitys-menu.md)): the list of each record type their
 use cases and flow charts work on, with the owner's review of 2026-11-13
 ([D519](../../../06-decisions/ux/d519-view-cards-reviewed-list-pages-and-workspaces.md)). Each view opens on the
-persona's default saved view. (Proposed) The default is the view's "Mine" for a persona who works on their own records,
+persona's default saved view. The default is the view's "Mine" for a persona who works on their own records,
 "Needs attention" for one who oversees others' (managers, the owner, HR, the administrators and the planner roles), else
 "Open", else "All".
 

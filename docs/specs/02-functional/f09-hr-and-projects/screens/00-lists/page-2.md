@@ -21,10 +21,10 @@
 | 🗂️ | S-F9-L41 | [Pre-hiring declaration (DPAE)s](s-f09-l41-pre-hiring-declaration-dpae-s.md) | ✅ |
 | 🗂️ | S-F9-L42 | [Reception kiosks](s-f09-l42-reception-kiosks.md) | ✅ |
 | 🗂️ | S-F9-L43 | [Visitor badges](s-f09-l43-visitor-badges.md) | ✅ |
-| 🗂️ | S-F9-L44 | [Sourcing searches](s-f09-l44-sourcing-searches.md) | 🔄 |
-| 🗂️ | S-F9-L45 | [Prospects](s-f09-l45-prospects.md) | 🔄 |
-| 🗂️ | S-F9-L46 | [Outreach sequences](s-f09-l46-outreach-sequences.md) | 🔄 |
-| 🗂️ | S-F9-L47 | [Outreach messages](s-f09-l47-outreach-messages.md) | 🔄 |
+| 🗂️ | S-F9-L44 | [Sourcing searches](s-f09-l44-sourcing-searches.md) | ✅ |
+| 🗂️ | S-F9-L45 | [Prospects](s-f09-l45-prospects.md) | ✅ |
+| 🗂️ | S-F9-L46 | [Outreach sequences](s-f09-l46-outreach-sequences.md) | ✅ |
+| 🗂️ | S-F9-L47 | [Outreach messages](s-f09-l47-outreach-messages.md) | ✅ |
 | 🗂️ | S-F9-L48 | [Work location days](s-f09-l48-work-location-days.md) | ✅ |
 | 🗂️ | S-F9-L49 | [Positions](s-f09-l49-positions.md) | ✅ |
 | 🗂️ | S-F9-L50 | [Succession plans](s-f09-l50-succession-plans.md) | ✅ |

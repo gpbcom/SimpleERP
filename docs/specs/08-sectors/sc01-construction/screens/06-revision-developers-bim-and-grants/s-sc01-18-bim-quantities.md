@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC01-18 BIM quantities
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

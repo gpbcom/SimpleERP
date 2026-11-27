@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F9-10 Listen to employees
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F9-10 Listen to employees](../../../flows/fl-f09-10-listen-to-employees.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

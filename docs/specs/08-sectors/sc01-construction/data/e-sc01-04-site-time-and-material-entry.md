@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC01-04 Site time and material entry
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -20,7 +20,7 @@ Hours or materials charged to a site.
 
 ## Relations
 
-(Proposed) As its use cases.
+As its use cases.
 
 ## Lifecycle
 
@@ -31,7 +31,7 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) By number, date, partner.
+By number, date, partner.
 
 ## Retention
 
@@ -44,7 +44,7 @@ Every change.
 
 ## Import and export
 
-(Proposed) CSV, FEC where relevant.
+CSV, FEC where relevant.
 
 ## Used by
 

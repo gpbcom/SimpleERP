@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F13-09 Collective agreements by family
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F13-09 Collective agreements by family](../../../flows/fl-f13-09-collective-agreements-by-family.md) for
 this persona, in light and dark mode (D120, D121). Errors follow the

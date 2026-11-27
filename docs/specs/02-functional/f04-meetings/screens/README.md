@@ -3,7 +3,7 @@
 
 # 🖥️ Screens
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per screen, with its text wireframe.
 
@@ -25,7 +25,7 @@ One file per screen, with its text wireframe.
 | 🖥️ |  | [Screens: FL-F4-12 Rooms and client video](12-rooms-and-client-video/README.md) | 2 pages |
 | 🖥️ |  | [Screens: FL-F4-13 Outside people and follow-up](13-outside-people-and-follow-up/README.md) | 2 pages |
 | 🖥️ |  | [Screens: FL-F4-14 Video messages, webinars and templates](14-video-messages-and-webinars/README.md) | 4 pages |
-| 🖥️ | S-F4-24 | [Employee calendar](s-f04-24-employee-calendar.md) | 🔄 |
+| 🖥️ | S-F4-24 | [Employee calendar](s-f04-24-employee-calendar.md) | ✅ |
 
 ---
 

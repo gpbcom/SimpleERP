@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC17-02 Packages and memberships
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC17-02 Packages and memberships](../../../flows/fl-sc17-02-packages-and-memberships.md) for this persona,
 in light and dark mode (D120, D121). Errors follow the

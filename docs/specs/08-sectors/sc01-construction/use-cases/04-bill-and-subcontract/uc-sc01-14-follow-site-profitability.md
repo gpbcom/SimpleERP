@@ -4,7 +4,7 @@
 
 # 📝 UC-SC01-14 Follow site profitability
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -56,7 +56,7 @@ Weekly per site; monthly across sites for the owner.
 
 ## Error flows
 
-- 2e. The margin at completion below the threshold: the site manager and the owner are alerted ((Proposed) the threshold
+- 2e. The margin at completion below the threshold: the site manager and the owner are alerted (the threshold
   is 5 points under the quoted margin).
 - 1e. Costs not yet synced from phones: the screen says which days are missing.
 - Any step: a call to a service or an outside system fails: it is retried first
@@ -134,7 +134,7 @@ sequenceDiagram
 1. **Given** the example construction company's site S-14 with 182,000 EUR contract, 120,000 EUR spent and 40,000 EUR to
    complete **when** the margin is computed **then** the margin at completion is 22,000 EUR.
 2. **Given** S-14 quoted at 18 % and now at 11 % **when** the estimate is saved **then** the site manager and the owner
-   are alerted ((Proposed) the threshold is 5 points under the quoted margin).
+   are alerted (the threshold is 5 points under the quoted margin).
 
 ## Non-functional notes
 
@@ -154,7 +154,7 @@ None specific to this use case; the sector's legal rules are listed in [SC01 reg
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

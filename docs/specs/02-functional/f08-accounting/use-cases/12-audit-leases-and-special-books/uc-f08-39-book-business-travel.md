@@ -3,7 +3,7 @@
 
 # 📝 UC-F8-39 Book business travel
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -158,7 +158,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 Travel costs reimbursed to employees follow the expense and mileage rules:
-[CR-FR-012](../../../../10-country-packs/france/tax-and-vat/cr-fr-012-mileage-scale.md). (Proposed) The carbon estimate
+[CR-FR-012](../../../../10-country-packs/france/tax-and-vat/cr-fr-012-mileage-scale.md). The carbon estimate
 of a trip follows
 [UC-F7-24](../../../f07-purchasing-and-stock/use-cases/09-compliance-and-carbon/uc-f07-24-measure-the-carbon-of-purchases.md).
 

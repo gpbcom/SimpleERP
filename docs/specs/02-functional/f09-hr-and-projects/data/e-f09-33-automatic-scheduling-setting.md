@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-33 Automatic scheduling setting
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-33 / D515)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -26,7 +26,7 @@ notifies the planner at the first problem (decided by the owner on 2026-11-13, V
 | notice channel | in the app, email, phone | yes | - | in the app | in the app | no | - |
 
 Problems that stop it (from the scheduling flow chart): no eligible person, a legal conflict, the window missed, over
-the cost limit, an overlap. (Proposed) Each may be switched off except the legal conflict.
+the cost limit, an overlap. Each may be switched off except the legal conflict.
 
 ## Relations
 

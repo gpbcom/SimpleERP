@@ -3,7 +3,7 @@
 
 # 🗃️ E-F18-15 Mailbox
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -16,7 +16,7 @@ A mailbox or a shared address on the company's domain.
 | address | email | yes | on the domain, unique | - | marie@restaurant.example | yes | no |
 | owner | link | yes | a user or role members | - | Marie | yes | no |
 | kind | choice | yes | personal, shared, forward | personal | shared | no | no |
-| size | number | yes | per plan | (Proposed) 10 GB | 10 GB | no | no |
+| size | number | yes | per plan | 10 GB | 10 GB | no | no |
 | status | choice | yes | active, closed | active | active | no | no |
 
 ## Relations
@@ -44,7 +44,7 @@ By address, owner and status.
 
 ## Retention
 
-Mail exported at closing kept as the company decides; the mailbox deleted (Proposed) 30 days after closing.
+Mail exported at closing kept as the company decides; the mailbox deleted 30 days after closing.
 
 ## Audit
 

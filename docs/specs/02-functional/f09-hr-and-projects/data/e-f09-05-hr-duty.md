@@ -13,7 +13,7 @@ A legal HR duty and its due date.
 
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
-| kind | DPAE, register entry, professional interview, 6-year review, health visit, display, BDESE | yes | - | - | professional interview | no | no |
+| kind | DPAE, register entry, career-path interview, 8-year review, health visit, display, BDESE | yes | - | - | professional interview | no | no |
 | employee | employee | no | - | - | Paul Martin | no | no |
 | due | date | yes | - | - | 2027-03-01 | no | no |
 | state | due, done, late | yes | - | due | done | no | no |

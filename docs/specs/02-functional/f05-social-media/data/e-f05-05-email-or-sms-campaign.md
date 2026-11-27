@@ -7,7 +7,10 @@
 
 ## Purpose
 
-An email or SMS campaign.
+An email or SMS campaign. Its send date and time follow the SMS sending window of
+[UC-F5-09](../use-cases/05-benchmark-additions/uc-f05-09-send-sms-campaigns.md)
+([D575](../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md),
+[D573](../../../06-decisions/foundations/d573-precedence-between-spec-pages.md)).
 
 ## Fields
 
@@ -16,6 +19,7 @@ An email or SMS campaign.
 | channel | email, SMS | yes | - | - | email | no | no |
 | audience | segment | yes | BR-F5-08 | - | Customers Lyon | no | no |
 | variants | A, B | no | - | - | 2 subjects | no | no |
+| send at | date and time | no | required to be Scheduled; for SMS, inside the sending window ([UC-F5-09](../use-cases/05-benchmark-additions/uc-f05-09-send-sms-campaigns.md)): by default 8:00 to 20:00, never on Sundays or public holidays, as the company may narrow it | now | Saturday 10:00 | no | no |
 | state | draft, scheduled, sent | yes | - | draft | sent | no | no |
 
 ## Relations

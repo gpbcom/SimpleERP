@@ -157,7 +157,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 A probable loss from a dispute that can be estimated is recognised as a provision in the accounts of the
 period; a possible one is disclosed in the notes. The treatment follows the book's standard
 ([CR-FR-064](../../../../10-country-packs/france/accounting/cr-fr-064-accounting-frameworks.md)). The France-pack rule
-on litigation provisions is written later.
+on litigation provisions is [CR-FR-267 Provisions for litigation](../../../../10-country-packs/france/accounting/cr-fr-267-litigation-provisions.md).
 
 ## Related use cases
 

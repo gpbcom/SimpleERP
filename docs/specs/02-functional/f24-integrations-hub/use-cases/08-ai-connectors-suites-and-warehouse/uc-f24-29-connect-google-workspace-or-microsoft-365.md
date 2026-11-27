@@ -155,7 +155,7 @@ The suites are run by providers that may be outside the EU: the company records 
 the transfer rules before connecting
 ([CR-FR-049](../../../../10-country-packs/france/data-protection/cr-fr-049-processors-and-transfers.md),
 [CR-FR-048](../../../../10-country-packs/france/data-protection/cr-fr-048-record-of-processing.md)). The France-pack
-wording on transfers is written later.
+wording on transfers is [CR-FR-274 Transfers outside the EU to a cloud suite](../../../../10-country-packs/france/data-protection/cr-fr-274-transfers-to-cloud-suites.md).
 
 ## Related use cases
 

@@ -51,7 +51,7 @@ capability's menu entry; admin lists under Administration
 | 🗂️ | S-F4-L05 | [Calendar syncs](s-f04-l05-calendar-syncs.md) | ✅ |
 | 🗂️ | S-F4-L06 | [Scorecards](s-f04-l06-scorecards.md) | ✅ |
 | 🗂️ | S-F4-L07 | [Evaluation grids](s-f04-l07-evaluation-grids.md) | ✅ |
-| 🗂️ | S-F4-L08 | [Key moments](s-f04-l08-key-moments.md) | 🔄 |
+| 🗂️ | S-F4-L08 | [Key moments](s-f04-l08-key-moments.md) | ✅ |
 | 🗂️ | S-F4-L09 | [Scheduled digests](s-f04-l09-scheduled-digests.md) | ✅ |
 | 🗂️ | S-F4-L10 | [Chat channels](s-f04-l10-chat-channels.md) | ✅ |
 | 🗂️ | S-F4-L11 | [Appointment types](s-f04-l11-appointment-types.md) | ✅ |
@@ -68,7 +68,7 @@ capability's menu entry; admin lists under Administration
 | 🗂️ | S-F4-L22 | [Meeting agendas](s-f04-l22-meeting-agendas.md) | ✅ |
 | 🗂️ | S-F4-L24 | [Meeting prep briefs](s-f04-l24-meeting-prep-briefs.md) | ✅ |
 | 🗂️ | S-F4-L25 | [Meeting recording settings](s-f04-l25-meeting-recording-settings.md) | ✅ |
-| 🗂️ | S-F4-L26 | [Employee calendars](s-f04-l26-employee-calendars.md) | 🔄 |
+| 🗂️ | S-F4-L26 | [Employee calendars](s-f04-l26-employee-calendars.md) | ✅ |
 | 🗂️ | S-F4-L27 | [Video messages](s-f04-l27-video-messages.md) | ✅ |
 | 🗂️ | S-F4-L28 | [Webinars](s-f04-l28-webinars.md) | ✅ |
 | 🗂️ | S-F4-L29 | [Note templates](s-f04-l29-note-templates.md) | ✅ |

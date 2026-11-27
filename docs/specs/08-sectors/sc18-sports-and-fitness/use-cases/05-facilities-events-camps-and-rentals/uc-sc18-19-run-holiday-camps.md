@@ -4,7 +4,7 @@
 
 # 📝 UC-SC18-19 Run holiday camps
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -141,7 +141,7 @@ sequenceDiagram
 
 ## Acceptance criteria
 
-1. **Given** a group of 14 children aged 8 to 10 and a ratio of one animator for 8 **when** one animator is assigned
+1. **Given** a group of 14 children aged 8 to 10 and a ratio of one animator for 12 **when** one animator is assigned
    **then** the group is flagged and the camp cannot open.
 2. **Given** a camp not declared **when** the owner opens it **then** it is refused.
 3. **Given** a person not on the list **when** they come to collect a child **then** the child is not released.
@@ -153,14 +153,20 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A holiday camp for minors is declared to the authority before it opens, its animators hold the required
-qualifications, the number of children per animator follows the age of the children, and the children's health sheets
-are kept private and for a short time
-([CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)). The values (ratios
-by age band, the form of the declaration) are those of the France pack, written later. Related:
+A holiday camp for minors is declared to the State's representative before it opens (CASF R227-2; online to the
+DSDEN, the complementary form at the latest 8 days before a holiday stay), at least half of the animators hold the
+diploma and at most 20 % are unqualified (R227-12), and a holiday stay has 1 animator for 8 children under 6 and 1 for 12
+from 6 (R227-15); the ratios are kept as data in the France pack. The children's health information is kept
+confidential (R227-7,
+[CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)); how long it is
+kept is (⚖️ lawyer review before launch, D574) to read: the arrêté on the health information of minors under CASF
+R227-7; the same item holds for the health sheet of
+[E-SC18-15](../../data/e-sc18-15-camp-registration.md#retention), reviewed once for both
+([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)). Related:
 [CR-FR-208](../../../../10-country-packs/france/labour/cr-fr-208-young-workers-regulated-work.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule (the declaration, qualifications and ratios read; the retention of health sheets on its lawyer's
+  list):
   [CR-FR-258 Youth holiday camps declaration](../../../../10-country-packs/france/education/cr-fr-258-youth-holiday-camps.md)
 
 ## Related use cases

@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-15 Staff targets
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

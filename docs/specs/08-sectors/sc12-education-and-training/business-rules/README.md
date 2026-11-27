@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -26,10 +26,10 @@ One file per rule.
 | 📏 | BR-SC12-13 | [Grades locked after the council](br-sc12-13-grades-locked-after-the-council.md) | ✅ |
 | 📏 | BR-SC12-14 | [Learners' data kept no longer than needed](br-sc12-14-learners-data-kept-no-longer-than-needed.md) | ✅ |
 | 📏 | BR-SC12-15 | [E-learning tracked](br-sc12-15-e-learning-tracked.md) | ✅ |
-| 📏 | BR-SC12-16 | [Funding follows the contract's support level](br-sc12-16-funding-follows-the-contracts-support-level.md) | 🔄 |
+| 📏 | BR-SC12-16 | [Funding follows the contract's support level](br-sc12-16-funding-follows-the-contracts-support-level.md) | ✅ |
 | 📏 | BR-SC12-17 | [Lessons are taught by an authorised instructor](br-sc12-17-lessons-are-taught-by-an-authorised-instructor.md) | ✅ |
-| 📏 | BR-SC12-18 | [Hourly funding follows the CAF scale](br-sc12-18-hourly-funding-follows-the-caf-scale.md) | 🔄 |
-| 📏 | BR-SC12-19 | [Bookings close at the cut-off time](br-sc12-19-bookings-close-at-the-cut-off-time.md) | 🔄 |
+| 📏 | BR-SC12-18 | [Hourly funding follows the CAF scale](br-sc12-18-hourly-funding-follows-the-caf-scale.md) | ✅ |
+| 📏 | BR-SC12-19 | [Bookings close at the cut-off time](br-sc12-19-bookings-close-at-the-cut-off-time.md) | ✅ |
 
 ---
 

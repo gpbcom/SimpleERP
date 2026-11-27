@@ -156,7 +156,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 An independent who rents a chair works for their own account: their clients, prices, hours and invoices are
 their own. If the salon sets those, the relationship may be treated as employment with the consequences of undeclared
-work; the pack carries the checklist. The France-pack rule is written later. Related:
+work; the pack carries the checklist. The France-pack rule is [CR-FR-101 Undeclared work](../../../../10-country-packs/france/labour/cr-fr-101-undeclared-work.md). Related:
 [CR-FR-101](../../../../10-country-packs/france/labour/cr-fr-101-undeclared-work.md).
 
 ## Related use cases

@@ -12,9 +12,9 @@
 | 📏 |  | [Layout grid](layout-grid.md) | ✅ |
 | 📱 |  | [Responsive](responsive.md) | ✅ |
 | ♿ |  | [Accessibility](accessibility.md) | ✅ |
-| 🧩 |  | [Components](components/README.md) | 🔄 |
-| 🧵 |  | [Patterns](patterns/README.md) | 🔄 |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🧩 |  | [Components](components/README.md) | ✅ |
+| 🧵 |  | [Patterns](patterns/README.md) | ✅ |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
 ---
 

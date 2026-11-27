@@ -65,8 +65,8 @@ See each use case.
   the farmer is warned.
 - [UC-SC13-02](../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md) 2e. A product not allowed in organic:
   it is refused on organic plots.
-- [UC-SC13-02](../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md) 2f. The operator missing: it is
-  flagged.
+- [UC-SC13-02](../use-cases/01-crops/uc-sc13-02-record-treatments-and-inputs.md) 2f. The dose or the area treated
+  missing: it is flagged (a missing operator is accepted).
 - [UC-SC13-03](../use-cases/01-crops/uc-sc13-03-record-fertilisation-and-the-nitrogen-plan.md) 3e. Over the plan: the
   farmer is warned.
 - [UC-SC13-03](../use-cases/01-crops/uc-sc13-03-record-fertilisation-and-the-nitrogen-plan.md) 2e. A plot unknown: it is

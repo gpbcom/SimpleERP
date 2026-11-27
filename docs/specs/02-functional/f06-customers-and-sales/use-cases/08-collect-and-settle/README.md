@@ -12,4 +12,4 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-F6-23 | [Agree an instalment plan](uc-f06-23-agree-an-instalment-plan.md) | ✅ |
-| 📝 | UC-F6-24 | [Handle a disputed invoice](uc-f06-24-handle-a-disputed-invoice.md) | 🔄 |
+| 📝 | UC-F6-24 | [Handle a disputed invoice](uc-f06-24-handle-a-disputed-invoice.md) | ✅ |

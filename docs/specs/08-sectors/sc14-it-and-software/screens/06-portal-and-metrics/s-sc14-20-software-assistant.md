@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC14-20 Software assistant
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -60,7 +60,7 @@ Shown entities (VD-15): none; no flow's Entities and screens table names an enti
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

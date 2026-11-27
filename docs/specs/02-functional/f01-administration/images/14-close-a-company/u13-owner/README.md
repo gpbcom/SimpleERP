@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F1-14 Close a company
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F1-14 Close a company](../../../flows/fl-f01-14-close-a-company.md) for this persona, in light and dark
 mode (D120, D121). Errors follow the

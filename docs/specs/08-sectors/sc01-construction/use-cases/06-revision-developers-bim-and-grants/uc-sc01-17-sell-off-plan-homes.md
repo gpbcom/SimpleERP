@@ -4,7 +4,7 @@
 
 # 📝 UC-SC01-17 Sell off-plan homes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -169,7 +169,7 @@ and a financial completion guarantee protects the buyer. The ceilings are kept a
 page. The France-pack rule is listed below. Related:
 [CR-FR-090](../../../../10-country-packs/france/construction/cr-fr-090-builders-warranties.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-225 Off-plan sales (VEFA) calls for funds](../../../../10-country-packs/france/real-estate/cr-fr-225-off-plan-sales.md)
 
 ## Related use cases

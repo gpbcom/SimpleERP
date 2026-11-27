@@ -11,8 +11,8 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC12-15 | [School enrolment](s-sc12-15-school-enrolment.md) | 🔄 |
-| 🖥️ | S-SC12-16 | [Timetables](s-sc12-16-timetables.md) | 🔄 |
-| 🖥️ | S-SC12-17 | [Grades](s-sc12-17-grades.md) | 🔄 |
-| 🖥️ | S-SC12-18 | [Pupil attendance](s-sc12-18-pupil-attendance.md) | 🔄 |
-| 🖥️ | S-SC12-19 | [School fees](s-sc12-19-school-fees.md) | 🔄 |
+| 🖥️ | S-SC12-15 | [School enrolment](s-sc12-15-school-enrolment.md) | ✅ |
+| 🖥️ | S-SC12-16 | [Timetables](s-sc12-16-timetables.md) | ✅ |
+| 🖥️ | S-SC12-17 | [Grades](s-sc12-17-grades.md) | ✅ |
+| 🖥️ | S-SC12-18 | [Pupil attendance](s-sc12-18-pupil-attendance.md) | ✅ |
+| 🖥️ | S-SC12-19 | [School fees](s-sc12-19-school-fees.md) | ✅ |

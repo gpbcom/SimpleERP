@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found five features
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found five features
 that F6 had no use case for: a partner programme, several identifiers per company, frame contracts, solvency checks and
 warranty claims. The new persona U51 Reseller partner works in the partner portal.
 
@@ -38,7 +38,7 @@ F6 gets five use cases in one new flow, each with its screen, its rule, its enti
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F6 Customers and sales").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F6 Customers and sales").
 
 ## Consequences
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F13-28 Posted workers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

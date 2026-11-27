@@ -2,19 +2,19 @@
 
 # 🏘️ Real estate
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Company
 
-(Proposed) Rive Sud Immobilier, a fictional estate agency that sells, lets and manages homes and manages co-ownerships.
+Rive Sud Immobilier, a fictional estate agency that sells, lets and manages homes and manages co-ownerships.
 
 ## Activity
 
-(Proposed) Sales and lettings of homes, rental management for landlords, and co-ownership management.
+Sales and lettings of homes, rental management for landlords, and co-ownership management.
 
 ## Size
 
-(Proposed) 16 employees: the owner, 5 real-estate agents, 4 property managers, 2 co-ownership managers, 2 accountants
+16 employees: the owner, 5 real-estate agents, 4 property managers, 2 co-ownership managers, 2 accountants
 and 2 assistants; two agencies; about 600 managed leases and 30 co-ownerships. The sector's profile goes from one agent
 to networks. Several locations are possible ([D32](../../06-decisions/technical/d32-several-locations.md)).
 

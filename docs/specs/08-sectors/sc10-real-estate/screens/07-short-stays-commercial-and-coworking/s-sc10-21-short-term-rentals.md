@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC10-21 Short-term rentals
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -14,7 +14,9 @@
 
 ## Purpose
 
-Book stays on the properties, count the tourist tax per night and guest and prepare the declaration.
+Book stays on the properties, count the tourist tax per night and guest and prepare the declaration; show each
+property's declaration number and, for a main residence, the nights let this year against the commune's limit
+([CR-FR-288](../../../../10-country-packs/france/real-estate/cr-fr-288-furnished-tourist-rentals.md)).
 
 ## Entry points
 
@@ -24,7 +26,8 @@ Real estate › Stays; the calendar of a property; the guest's booking link.
 
 ```text
 +--------------------------------------------------------------------------------------------------+
-| Property: Studio Le Port, 2 guests max                       Registration number 13055 0123      |
+| Property: Studio Le Port, 2 guests max                       Declaration number 13055 0123       |
+| Main residence: 98 of 120 nights let in 2026 (the commune's limit, 120 or down to 90)            |
 | Stay S-2026-0412   2026-12-20 to 2026-12-24   4 nights   Booked   [Check in]                     |
 | Guests 2 adults + 1 child    Rent 480.00   Cleaning 60.00                                        |
 | Tourist tax 1.05 x 4 nights x 2 guests = 8.40   (child exempt)                                   |
@@ -54,13 +57,15 @@ Real estate › Stays; the calendar of a property; the guest's booking link.
 | Rent and cleaning | E-SC10-17 rent, cleaning | amounts | yes while Booked | yes |
 | Tourist tax | E-SC10-17 tourist tax | amount | no | no |
 | Collected by | E-SC10-17 tax collector | manager or platform | yes while Booked | no |
+| Declaration number | the property's furnished-tourist-rental declaration number | text, from the national teleservice | no | yes before letting |
+| Nights let this year | counted from the stays, for a main residence | number of the commune's limit (120 days, or as low as 90) | no | for a main residence |
 
 ## Actions
 
 | Action | Where | Who may use it | Result |
 |---|---|---|---|
 | Book | calendar | property manager, guest | a stay Booked with its price and tax |
-| Check in | stay | property manager | the stay becomes Staying |
+| Check in | stay | property manager | the stay becomes Staying; a foreign guest fills in and signs the police form on arrival, kept 6 months then deleted ([CR-FR-282](../../../../10-country-packs/france/hospitality/cr-fr-282-police-form-for-foreign-guests.md)) |
 | Complete | stay | property manager | the stay becomes Completed and invoiced |
 | Prepare the declaration | header | property manager | the tax of the period as a statement |
 
@@ -70,7 +75,7 @@ Real estate › Stays; the calendar of a property; the guest's booking link.
 - Empty: No stay yet, with New stay.
 - Loading: the headings and the table as placeholders; the values follow.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); overlapping
-  dates or a missing registration number, with the field to correct.
+  dates or a missing declaration number, with the field to correct.
 - Read-only: the record in a locked state: values shown, no action offered.
 - Offline: Not available offline: a back-office screen on live, shared data
   ([D38](../../../../06-decisions/ux/d38-offline-field-tasks.md): only today's schedule, time and intervention records

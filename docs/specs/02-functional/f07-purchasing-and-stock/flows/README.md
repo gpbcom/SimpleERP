@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -20,7 +20,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F7-07 | [Supplier agreements and performance](fl-f07-07-supplier-agreements-and-performance.md) | ✅ |
 | 🔀 | FL-F7-08 | [Catalogues and stock levels](fl-f07-08-catalogues-and-stock-levels.md) | ✅ |
 | 🔀 | FL-F7-09 | [Compliance and carbon](fl-f07-09-compliance-and-carbon.md) | ✅ |
-| 🔀 | FL-F7-10 | [Consignment, scanning, packaging and EDI](fl-f07-10-consignment-scanning-and-edi.md) | 🔄 |
+| 🔀 | FL-F7-10 | [Consignment, scanning, packaging and EDI](fl-f07-10-consignment-scanning-and-edi.md) | ✅ |
 
 ---
 

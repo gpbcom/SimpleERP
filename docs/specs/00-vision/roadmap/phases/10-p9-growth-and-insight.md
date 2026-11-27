@@ -1,9 +1,9 @@
-# 🛣️ P9: Growth and insight (Proposed)
+# 🛣️ P9: Growth and insight
 
-**Status:** 🟡 Draft · **Sprints:** S44 to S46 · **Dates:** 28 Aug to 6 Oct 2028 · **Tickets:** 36
+**Status:** ✅ specified (D569) · **Sprints:** S44 to S46 · **Dates:** 28 Aug to 6 Oct 2028 · **Tickets:** 36
 
 > [!NOTE]
-> P9 builds social media and marketing (F5), competitive analysis (F17) and what-if simulation (F23), the three capabilities that read the data of every business area built in P4 to P8. Its placement is Claude's proposal, waiting for the owner, as step 8 of the roadmap ([D483](../../../06-decisions/vision/d483-roadmap-devops-agents-first.md), [Q20](../../../07-questions/q20-which-roadmap-option-orders-v1.md)).
+> P9 builds social media and marketing (F5), competitive analysis (F17) and what-if simulation (F23), the three capabilities that read the data of every business area built in P4 to P8. Its placement, step 8 of the roadmap, is adopted with option A ([D569](../../../06-decisions/vision/d569-roadmap-option-a-in-twelve-phases.md)) ([D483](../../../06-decisions/vision/d483-roadmap-devops-agents-first.md), [Q20](../../../07-questions/q20-which-roadmap-option-orders-v1.md)).
 
 ## <a id="goal"></a>🎯 Goal
 
@@ -15,7 +15,7 @@ At the end of P8, SimpleERP runs the whole company: sales, purchasing and stock,
 
 ## <a id="scope"></a>🧺 Scope
 
-**Capabilities (Proposed placement)**
+**Capabilities**
 
 | Capability | Use cases | Business rules | Entities | Flows | Decisions |
 | --- | --- | --- | --- | --- | --- |

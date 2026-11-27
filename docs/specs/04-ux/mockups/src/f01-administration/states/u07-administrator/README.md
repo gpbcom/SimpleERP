@@ -41,6 +41,7 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f01-11-provider-access-log-e-f01-12-provider-session-closed-desktop.html`
 - `s-f01-11-provider-access-log-e-f01-12-provider-session-live-desktop.html`
 - `s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-active-desktop.html`
+- `s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-to-review-desktop.html`
 - `s-f01-13-automatic-provisioning-e-f01-03-user-active-desktop.html`
 - `s-f01-13-automatic-provisioning-e-f01-14-provisioning-setting-off-desktop.html`
 - `s-f01-13-automatic-provisioning-e-f01-14-provisioning-setting-on-desktop.html`

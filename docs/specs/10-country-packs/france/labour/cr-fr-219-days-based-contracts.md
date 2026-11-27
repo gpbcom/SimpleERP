@@ -47,7 +47,7 @@ Not on the page read (damages route only).
 
 ## Exceptions
 
-(Proposed) Employees not covered by an agreement.
+Employees not covered by an agreement.
 
 ## Open questions
 

@@ -126,8 +126,9 @@ A document renders in under 2 seconds; PDFs are PDF/A for archiving.
 
 ## Regulatory references
 
-- Invoice mentions: Code général des impôts, annex II, article 242 nonies A; Code de commerce, article L441-9 (to be
-  checked with sources in F6 and F8).
+- Invoice mentions: Code général des impôts, annex II, article 242 nonies A; Code de commerce, article L441-9, in its
+  version of Ordonnance n° 2026-671 from 2027-01-01 with the same mentions
+  ([CR-FR-015 Mandatory invoice mentions](../../../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md)).
 - E-invoicing: [Q13](../../../../07-questions/q13-e-invoicing-platforms.md),
   [Q8](../../../../07-questions/q08-e-invoicing-dates.md).
 

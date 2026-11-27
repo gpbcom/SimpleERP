@@ -34,10 +34,11 @@ see: to find, filter, total and act on many cap aid declarations at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | CAP aid declarations    Agriculture and food › CAP aid declarations   [+ New]                                |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Held] [due in 7 days]   [chart: count by state]                                                     |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] CAP AID DECLARATION   STATE                                                          |
+| state             | [ ] CAP AID DECL   CAMPAIGN   PLOTS   FILE BY   FILED ON   GRANT   STATE                 |
+| grant             | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,8 +48,13 @@ see: to find, filter, total and act on many cap aid declarations at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| CAP aid declaration | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| CAP aid declaration | title | text | yes |
+| Campaign | campaign | number, right-aligned | yes |
+| Plots | plots | text | yes |
+| File by | file by | date | yes |
+| Filed on | filed on | date | yes |
+| Grant | grant | link to the record | yes |
+| State | state | badge: Draft, Held, Filed, Corrected | yes |
 
 Secrets are never a column (VR-4).
 
@@ -56,17 +62,21 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Draft, Held, Filed, Corrected | the visible rows (D488) |
+| Grant | each linked grant | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: cap aid declarations link to no other record type in their fields.
+- CAP aid declarations of a chosen grant, or of the grants that match a filter.
+- From the other side: the grants that have cap aid declarations, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Held.
+- Due in 7 days, by file by.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -78,6 +88,8 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Open: Draft, Held, Filed.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -91,6 +103,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New cap aid declaration | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |

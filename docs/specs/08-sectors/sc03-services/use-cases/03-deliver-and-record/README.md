@@ -11,6 +11,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-SC03-05 | [Record and approve time and expenses](uc-sc03-05-record-and-approve-time-and-expenses.md) | 🔄 |
+| 📝 | UC-SC03-05 | [Record and approve time and expenses](uc-sc03-05-record-and-approve-time-and-expenses.md) | ✅ |
 | 📝 | UC-SC03-09 | [Engage freelancers and subcontractors](uc-sc03-09-engage-freelancers-and-subcontractors.md) | ✅ |
 | 📝 | UC-SC03-15 | [Ask the AI assistant about an engagement](uc-sc03-15-ask-the-assistant-about-an-engagement.md) | ✅ |

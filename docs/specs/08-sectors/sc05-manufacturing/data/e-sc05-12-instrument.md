@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC05-12 Instrument
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -18,7 +18,7 @@ A measuring instrument.
 
 ## Relations
 
-(Proposed) As its use cases.
+As its use cases.
 
 ## Lifecycle
 
@@ -33,11 +33,11 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) By number, date, partner.
+By number, date, partner.
 
 ## Retention
 
-(Proposed) As long as the quality system and certification need them, at least the product's life.
+As long as the quality system and certification need them, at least the product's life.
 
 ## Audit
 
@@ -45,7 +45,7 @@ Every change.
 
 ## Import and export
 
-(Proposed) CSV, FEC where relevant.
+CSV, FEC where relevant.
 
 ## Used by
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-33 Schedule a work request
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-27 to VD-29, VD-32, VD-33 / D509 to D511, D514, D515)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -196,8 +196,8 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A proposal within 5 seconds for one work request with 50 people (Proposed); the existing 300 visits within 1 minute of
-UC-F9-30 (Proposed). D408's targets apply to the screens ([Performance](../../../../05-non-functional/performance.md)).
+A proposal within 5 seconds for one work request with 50 people; the existing 300 visits within 1 minute of
+UC-F9-30. D408's targets apply to the screens ([Performance](../../../../05-non-functional/performance.md)).
 
 ## Regulatory references
 

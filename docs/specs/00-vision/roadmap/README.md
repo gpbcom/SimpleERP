@@ -10,10 +10,10 @@ The adopted build plan of V1, the inventory of everything V1 holds, and the opti
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🗺️ |  | [Roadmap](roadmap.md) | 🔄 |
-| 📦 |  | [What V1 holds](inventory.md) | 🔄 |
-| 🔀 |  | [Roadmap options](options/README.md) | 🔄 |
-| 🪜 |  | [Phases](phases/README.md) | 🟡 |
+| 🗺️ |  | [Roadmap](roadmap.md) | ✅ |
+| 📦 |  | [What V1 holds](inventory.md) | ✅ |
+| 🔀 |  | [Roadmap options](options/README.md) | ✅ |
+| 🪜 |  | [Phases](phases/README.md) | ✅ |
 
 ---
 

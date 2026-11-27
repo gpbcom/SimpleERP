@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC15-22 Van sales
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

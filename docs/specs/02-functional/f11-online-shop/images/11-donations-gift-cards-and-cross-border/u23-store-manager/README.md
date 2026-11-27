@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F11-11 Donations, wishlists, gift cards and cross-border
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F11-11 Donations, wishlists, gift cards and cross-border](../../../flows/fl-f11-11-donations-gift-cards-and-cross-border.md)

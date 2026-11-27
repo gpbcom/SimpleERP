@@ -38,7 +38,11 @@ user may see: to find, filter, total and act on many transport co2 statements at
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] TRANSPORT CO2 STATEMENT   STATE                                                      |
+| state             | [ ] TRANSPORT CO   CLIENT   PERIOD   TOTAL CO2   DEFAULT VALU   HELD   STATE             |
+| client            | [ ] ...                                                  Open >                          |
+| period            | [ ] ...                                                  Open >                          |
+| default values u  | [ ] ...                                                  Open >                          |
+| held              | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,7 +52,12 @@ user may see: to find, filter, total and act on many transport co2 statements at
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Transport CO2 statement | the record's title | text | yes |
+| Transport CO2 statement | title | text | yes |
+| Client | client | link to the record | yes |
+| Period | period | label | yes |
+| Total CO2 | total CO2 | number, right-aligned | yes |
+| Default values used | default values used | yes or no | yes |
+| Held | held | yes or no | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -58,12 +67,17 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Client | each linked client | the visible rows (D488) |
+| Period | month, year | the visible rows (D488) |
+| Default values used | yes, no | the visible rows (D488) |
+| Held | yes, no | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: transport co2 statements link to no other record type in their fields.
+- Transport CO2 statements of a chosen customer, or of the customers that match a filter.
+- From the other side: the customers that have transport co2 statements, or none.
 
 ## KPI strip
 

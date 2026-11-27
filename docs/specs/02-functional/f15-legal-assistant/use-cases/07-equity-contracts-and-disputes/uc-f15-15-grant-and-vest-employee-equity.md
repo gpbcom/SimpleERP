@@ -5,7 +5,7 @@
 
 # 📝 UC-F15-15 Grant and vest employee equity
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -159,10 +159,13 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Share warrants for founders and employees (BSPCE) and free shares are allowed only under a plan approved by
 the shareholders, within its ceiling and period, for the kinds of beneficiaries the plan names, and carry tax and
-social-contribution consequences. The France-pack rule on the conditions of each instrument is written later. Related:
+social-contribution consequences. The France-pack rule on the conditions of each instrument is
+[CR-FR-215 BSPCE and free shares](../../../../10-country-packs/france/company/cr-fr-215-bspce-and-free-shares.md): for BSPCE, at least 15 % of
+the capital held by individuals for warrants granted from 2026-01-01 (25 % until 2025-12-31); for free shares, a
+vesting of at least 1 year and an employer contribution of 30 % since 2025-03-01. Related:
 [CR-FR-114](../../../../10-country-packs/france/labour/cr-fr-114-staff-meals-benefit.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-215 BSPCE and free shares](../../../../10-country-packs/france/company/cr-fr-215-bspce-and-free-shares.md)
 
 ## Related use cases

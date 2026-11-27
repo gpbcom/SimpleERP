@@ -306,18 +306,6 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-phone, light](s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-phone-light.png) | ![s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-phone, dark](s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-phone-dark.png) |
 
-## s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-desktop
-
-| Light | Dark |
-|---|---|
-| ![s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-desktop, light](s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-desktop-light.png) | ![s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-desktop, dark](s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-desktop-dark.png) |
-
-## s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-phone
-
-| Light | Dark |
-|---|---|
-| ![s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-phone, light](s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-phone-light.png) | ![s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-phone, dark](s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-phone-dark.png) |
-
 ## s-f12-07-quality-checks-e-f12-07-quality-control-point-active-desktop
 
 | Light | Dark |

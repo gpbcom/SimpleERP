@@ -150,7 +150,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 The price of a booking is shown with taxes before the member pays, and a member's rate is given only to the
-people it was made for. The France-pack rule is written later.
+people it was made for. The France-pack rule is [CR-FR-034 Consumers see prices including VAT](../../../../10-country-packs/france/consumer/cr-fr-034-prices-shown-including-vat.md).
 
 ## Related use cases
 

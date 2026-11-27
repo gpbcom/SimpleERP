@@ -3,14 +3,14 @@
 
 # 📜 D516 Naming rules and the seven classes of names
 
-**Status:** 🔄 draft (GH-2 step S1, from the naming review page / D516)
+**Status:** ✅ decided
 
 ## Context
 
-Step S1 of the [plan](../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md) started early: the owner's naming
+Step S1 of the plan (the owner's interview notes of 2026-11 for the specifications, not kept in the repository) started early: the owner's naming
 review page (https://claude.ai/artifact/Agsh192gnVYmkBM4YKaH1o) holds the naming rules, the 92 items of the 42 shared
-names, the 130 proposed new items and the 907 chart words ([naming
-map](../../../tickets/GH-2/resources/flowcharts-screens/naming/README.md)).
+names, the 130 proposed new items and the 907 chart words (naming
+map (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)).
 
 ## Options
 
@@ -41,8 +41,8 @@ Five naming rules:
 
 ## Decided by
 
-The owner, on 2026-11-12, on the naming review page (rules agreed; answer 20 of the [interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)).
+The owner, on 2026-11-12, on the naming review page (rules agreed; answer 20 of the interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)).
 
 ## Consequences
 
@@ -55,12 +55,12 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)).
 
 ## Related
 
-- [Naming map of the flow charts](../../../tickets/GH-2/resources/flowcharts-screens/naming/README.md)
-- [Shared names](../../../tickets/GH-2/resources/flowcharts-screens/naming/CLASHES.md)
-- [Proposed new items](../../../tickets/GH-2/resources/flowcharts-screens/naming/NEW-ITEMS.md)
+- Naming map of the flow charts (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
+- Shared names (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
+- Proposed new items (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 - [Roles](../../01-users/roles.md)
 - [D496 One wording in charts and prose, reviewed first](d496-one-wording-in-charts-and-prose-reviewed-first.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

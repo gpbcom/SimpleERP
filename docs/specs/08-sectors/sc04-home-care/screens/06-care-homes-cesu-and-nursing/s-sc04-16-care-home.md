@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC04-16 Care home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -25,7 +25,9 @@ Home care › Residents; the room plan; the carer's day list on the phone.
 +--------------------------------------------------------------------------------------------------+
 | Resident: Odette L., room 12                                         Admitted   [Save] [Absent]  |
 | Born 1940-05-08   Admitted 2026-09-01   Dependency level 2   Representative: Paul L. (son)       |
-| Stay contract  signed 2026-09-01   Rates/day: accommodation 68.40, dependency 21.90, care 0.00   |
+| Stay contract  social-aid home: handed over 2026-09-05, signed 2026-09-20                        |
+|                withdrawal until 2026-10-05                                                       |
+| Rates/day: accommodation 68.40, dependency 21.90, care 0.00                                      |
 | Funding  Departmental allowance, health insurance      Care plan  v2, 2026-10-12                 |
 | Care today  Morning care done (Aisha T.)   Meals 3/3   Walk 1/1                                  |
 | Care record readable by: carers of room 12, coordinator       Access log [Open]                  |
@@ -51,7 +53,9 @@ Home care › Residents; the room plan; the carer's day list on the phone.
 | Room and dates | E-SC04-14 room, admitted on | text and date | yes while Waiting | yes |
 | Dependency level | E-SC04-14 dependency level | level 1 to 6 | yes | yes |
 | Representative | E-SC04-14 representative | person | yes | no |
-| Stay contract | E-SC04-14 contract signed on | date | no | yes |
+| Social-aid home | E-SC04-14 social-aid home, from the home's settings | yes or no | no | yes |
+| Contract handed over | E-SC04-14 contract handed over on | date; within 15 days of admission in a social-aid home | yes while Admitted | yes in a social-aid home |
+| Stay contract | E-SC04-14 contract signed on, and the withdrawal deadline | date: within 1 month of admission in a social-aid home, before admission in any other home; withdrawal in writing within 15 days of signing, or of admission if later ([CR-FR-256](../../../../10-country-packs/france/home-care/cr-fr-256-care-home-resident-contract.md)) | no | yes |
 | Daily rates | E-SC04-14 rates | amounts per day | yes while Waiting or Admitted | yes |
 | Care of the day | E-SC04-06 entries | list | yes for carers | no |
 
@@ -69,8 +73,10 @@ Home care › Residents; the room plan; the carer's day list on the phone.
 - Normal: the resident with their room, contract, rates, care plan and the care of the day.
 - Empty: No resident yet, with Add to the waiting list.
 - Loading: the headings and the table as placeholders; the values follow.
-- Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); an unsigned
-  contract or an access refused, with the person to ask.
+- Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); a stay contract
+  late (in a social-aid home, not handed over within 15 days of admission or not signed within 1 month: the resident
+  stays Admitted and the coordinator is alerted; in any other home, not signed before admission: the admission is
+  held), or an access refused, with the person to ask.
 - Read-only: the record in a locked state: values shown, no action offered.
 - Offline: Not available offline: a back-office screen on live, shared data
   ([D38](../../../../06-decisions/ux/d38-offline-field-tasks.md): only today's schedule, time and intervention records

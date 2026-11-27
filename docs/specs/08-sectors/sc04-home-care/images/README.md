@@ -17,4 +17,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC04-05 People and quality](05-people-and-quality/README.md) | 32 images |
 | 🖼️ |  | [Images: FL-SC04-06 Care homes, CESU, agent mode, childcare and nursing](06-care-homes-cesu-and-nursing/README.md) | 34 images |
 | 🖼️ |  | [Screen states](states/README.md) | 120 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

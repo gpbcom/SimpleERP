@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F5-07 Events and ticketing
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F5-07 Events and ticketing](../../../flows/fl-f05-07-events-and-ticketing.md) for this persona, in light
 and dark mode (D120, D121). Errors follow the

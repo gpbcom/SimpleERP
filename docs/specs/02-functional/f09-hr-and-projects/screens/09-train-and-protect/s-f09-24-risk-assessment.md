@@ -14,7 +14,8 @@
 
 ## Purpose
 
-Keep the risk assessment per work unit with its actions and versions.
+Keep the company's single risk assessment document: one line per work unit, with its site, risks and actions, and
+its versions (BR-F12-15).
 
 ## Entry points
 
@@ -58,7 +59,7 @@ HR › Risk assessment.
 
 ## States
 
-- Normal: keep the risk assessment per work unit with its actions and versions.
+- Normal: the single risk assessment document, one line per work unit with its actions, and its versions.
 - Empty: no work unit yet: Add a work unit.
 - Loading: skeleton rows in place of the list ([C-03](../../../../04-ux/design-system/components/c-03-data-table.md));
   actions disabled until it has loaded.

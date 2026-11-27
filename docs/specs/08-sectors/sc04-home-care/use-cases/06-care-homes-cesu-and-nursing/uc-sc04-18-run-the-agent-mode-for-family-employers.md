@@ -4,7 +4,7 @@
 
 # 📝 UC-SC04-18 Run the agent mode for family employers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -170,7 +170,7 @@ declaration or approval is needed. The France-pack rule is listed below. Related
 [CR-FR-102](../../../../10-country-packs/france/home-care/cr-fr-102-personal-services-registration.md),
 [CR-FR-103](../../../../10-country-packs/france/tax-and-vat/cr-fr-103-home-services-tax-credit.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-231 Agent mode for family employers](../../../../10-country-packs/france/home-care/cr-fr-231-agent-mode.md)
 
 ## Related use cases

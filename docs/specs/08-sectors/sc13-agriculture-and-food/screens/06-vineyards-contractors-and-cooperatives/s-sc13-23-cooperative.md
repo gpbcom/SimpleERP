@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC13-23 Cooperative
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

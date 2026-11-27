@@ -25,7 +25,8 @@ warranty, the two-year warranty on removable equipment and the ten-year warranty
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code civil 1792-6 (acceptance and the one-year completion warranty) since 1979-01-01 (loi n° 78-12)
+([Code civil, art. 1792-6](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006443552), read 2026-11-27).
 
 ## Enforced by
 

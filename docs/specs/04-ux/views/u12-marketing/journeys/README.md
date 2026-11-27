@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U12-01 | [Publish on every network](j-u12-01-publish-on-every-network.md) | 🔄 |
+| 🧭 | J-U12-01 | [Publish on every network](j-u12-01-publish-on-every-network.md) | ✅ |
 
 ---
 

@@ -3,7 +3,7 @@
 
 # 🧵 Wizard
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -12,7 +12,7 @@ How a task of several ordered steps is done once, without training: the guided s
 
 ## When to use
 
-A task of three to seven steps (Proposed) that must be done in order and is rarely repeated: the guided setup, the
+A task of three to seven steps that must be done in order and is rarely repeated: the guided setup, the
 first-run guide (F21), an import ([Import and export pattern](import-export.md)). Not for a form of a single page.
 
 ## Anatomy

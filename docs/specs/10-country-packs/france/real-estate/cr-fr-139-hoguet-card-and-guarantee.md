@@ -24,7 +24,8 @@ insurance.
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12 (the page was verified on 1 January 2026).
+Card rule (loi n° 70-9, art. 3) in its current version since 2025-07-17 ([loi n° 70-9, art. 3](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051898206), read 2026-11-27); penalties
+(art. 14) since 2018-11-25 ([loi n° 70-9, art. 14](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037670974), read 2026-11-27).
 
 ## Enforced by
 

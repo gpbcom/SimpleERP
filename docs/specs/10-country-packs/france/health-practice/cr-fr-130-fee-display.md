@@ -23,7 +23,7 @@ information before fees of 70 EUR or more above the insurance tariff.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+In force in its current version since 2023-12-31 ([Code de la santé publique, art. L1111-3-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046812436), read 2026-11-27); the display and the prior quote are set there.
 
 ## Enforced by
 

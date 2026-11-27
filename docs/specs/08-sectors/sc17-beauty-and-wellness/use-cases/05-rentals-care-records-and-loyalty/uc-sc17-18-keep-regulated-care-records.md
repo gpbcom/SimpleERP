@@ -4,7 +4,7 @@
 
 # 📝 UC-SC17-18 Keep regulated care records
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -150,14 +150,18 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-A studio that tattoos or pierces declares the activity to the authority before it starts, the person who
-performs it holds a hygiene and health-and-safety training, the client signs an informed consent (a minor needs the
-guardian's), aftercare advice is given, and the products and needles are traced by batch. Laser and similar techniques
-follow their own limits on who may perform them; the pack carries the list. Health data is hosted as the law requires
-([CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)). The France-pack
-rule is written later.
+A studio that tattoos or pierces declares the activity to the director general of the ARS before it starts (CSP
+R1311-2), the person who performs it holds a hygiene and safety training (R1311-3), the client is informed of the risks
+before the act and of the aftercare after it, in writing (R1311-12), and a minor needs the written consent of a parent
+or guardian, proof kept 3 years (R1311-11). Laser or pulsed-light hair removal is done only by doctors, nurses and
+qualified beauticians with their training (D1151-2, D1151-3); the pack carries the list. A tattoo ink carries on its
+label a reference that identifies its batch uniquely, and the client is given the information on its packaging before
+use (Regulation (EU) 2020/2081, REACH annex XVII entry 75): the ink's batch is recorded from that label. No batch rule
+applies to needles, which are single-use and sterile (R1311-4): their batches are recorded as a product choice. Health
+data is hosted as the law requires
+([CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-257 Tattoo, piercing and laser declarations](../../../../10-country-packs/france/health-practice/cr-fr-257-tattoo-and-piercing-declaration.md)
 
 ## Related use cases

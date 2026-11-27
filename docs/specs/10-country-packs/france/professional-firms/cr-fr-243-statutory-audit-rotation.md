@@ -3,20 +3,29 @@
 
 # ⚖️ CR-FR-243 Statutory auditor rotation
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A statutory auditor is appointed for a mandate of several financial years; the firm must check its
+A statutory auditor is appointed for a mandate of several financial years; the firm must check its
 independence before accepting, and for public-interest entities the signing partner must rotate after a set number of
-years, and the firm itself after a longer period.
+years, and the firm itself after a longer period ([Code de commerce, art. L821-44 to L821-46](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006161409/); [Regulation (EU)
+537/2014, art. 17](http://publications.europa.eu/resource/cellar/567809be-e656-11e3-8cd4-01aa75ed71a1.0009.03/DOC_1), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Mandate length.
-- (Proposed) Independence check before acceptance.
-- (Proposed) Rotation periods, kept as data and to confirm from the official texts.
-- (Proposed) SimpleERP enforces: partners rotate as the law requires.
+- Mandate length: six financial years (L821-44), three on the option of L821-46 ([Code de commerce](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006161409/), in force
+  since 2024-01-01, read 2026-11-27).
+- Independence check before acceptance: before accepting a certification assignment the auditor checks that it is
+  compatible with the legal and regulatory requirements and the code of ethics (art. 21), independence being art. 5
+  ([Code de commerce, annex 8-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041751254), in force since 2026-03-14, read 2026-11-27).
+- Rotation periods, kept as data: the key audit partners stop taking part in the audit of a public-interest entity at
+  the latest seven years after their appointment, and may come back only three years after (Regulation (EU) 537/2014,
+  art. 17(7), read in the Official Journal text on the Publications Office: [OJ L 158 of 27 May 2014](http://publications.europa.eu/resource/cellar/567809be-e656-11e3-8cd4-01aa75ed71a1.0009.03/DOC_1), read 2026-11-27);
+  the firm of a public-interest
+  entity, at most 10 years alone, up to 24 years with joint auditors, 2 more on the audit authority's leave, then 4
+  years apart (L821-45) ([Code de commerce](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006161409/), read 2026-11-27).
+- SimpleERP enforces: partners rotate as the law requires.
 - Read on Legifrance,
   [Code de commerce L821-40 to L821-52](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006161409/)
   (in force since 1 January 2024, read 15 November 2026); the rotation of the signing partner (Regulation 537/2014
@@ -38,11 +47,12 @@ years, and the firm itself after a longer period.
 
 ## Legal references
 
-- Law to read: statutory audit mandates and rotation (not read yet).
+- Code de commerce L821-40 to L821-52, annex 8-1 (code of ethics); Regulation (EU) 537/2014, art. 16 and 17.
 
 ## Effective dates
 
-(Proposed) To read.
+L821-40 to L821-52 since 2024-01-01 ([Code de commerce](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006161409/), read 2026-11-27); code of ethics (annex 8-1) in its current
+version since 2026-03-14 ([Code de commerce, annex 8-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041751254), read 2026-11-27).
 
 ## Enforced by
 
@@ -60,11 +70,12 @@ Not read yet.
 
 ## Exceptions
 
-(Proposed) Entities that are not of public interest.
+Entities that are not of public interest: the 10-year limit of L821-45 applies to public-interest entities only
+([Code de commerce, art. L821-45](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006161409/), read 2026-11-27).
 
 ## Open questions
 
-The law on statutory audit mandates and rotation is not read yet; the values are to read before launch.
+None, read on 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

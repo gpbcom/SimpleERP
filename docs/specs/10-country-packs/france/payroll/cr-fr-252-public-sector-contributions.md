@@ -3,21 +3,28 @@
 
 # ⚖️ CR-FR-252 Public-sector contributions
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) Tenured staff who work above a weekly-hours threshold are affiliated to the local civil servants' pension
-scheme, other staff to the general scheme and the supplementary scheme of public contract staff; each scheme has its own
+Tenured staff who work at or above a weekly-hours threshold are affiliated to the local civil servants' pension
+scheme ([Décret n° 2022-244, art. 1](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045243530), read 2026-11-27), other staff to the general scheme and the supplementary scheme of public contract staff; each scheme has its own
 rates and bases, and employer and employee both pay. They are declared through the monthly social declaration
 ([CR-FR-183](cr-fr-183-dsn-monthly-declaration.md)).
 
 ## Values
 
-- (Proposed) Scheme by status and weekly hours.
-- (Proposed) Rates, bases and thresholds kept as data.
-- (Proposed) Index points and supplements of statutory pay.
-- (Proposed) SimpleERP enforces: contributions follow the employee's scheme.
+- Scheme by status and weekly hours: a territorial civil servant in one or more permanent part-time posts is
+  affiliated to the CNRACL from 28 hours a week ([Décret n° 2022-244, art. 1](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045243530), read 2026-11-27); 28 hours too for hospital civil servants
+  ([Décret n° 2022-754](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045726533)).
+- Employer CNRACL rate: 34.65 % for 2025, 37.65 % for 2026, 40.65 % for 2027, 43.65 % for 2028, for the periods
+  from 1 January of each year (decree 91-613, art. 5, as amended) ([Décret n° 2025-86, art. 1](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051070354), read 2026-11-27).
+- Rates, bases and thresholds kept as data.
+- Index point: the yearly pay of the majored index 100 is 5 907.34 EUR since 2023-07-01 ([Décret n° 85-1148, art. 3](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047751772), read 2026-11-27).
+- Ircantec in 2026: tranche A up to 48 060 EUR a year, 7.11 % (2.84 % employee, 4.27 % employer); tranche B above,
+  19.81 % (7.06 % and 12.75 %) ([Service-public F12390](https://www.service-public.gouv.fr/particuliers/vosdroits/F12390), verified 6 January 2026, read 2026-11-27).
+- (⚖️ lawyer review before launch, D574) Supplements of statutory pay (residence allowance, family supplement, NBI): not read.
+- SimpleERP enforces: contributions follow the employee's scheme.
 - Read on the CNRACL employer pages,
   [calculation of contributions](https://www.cnracl.retraites.fr/employeur/cotisations-declarations/cotisations/calcul-des-cotisations)
   (updated 17 December 2025),
@@ -44,11 +51,15 @@ rates and bases, and employer and employee both pay. They are declared through t
 
 ## Legal references
 
-- Law to read: public-sector pay and contributions (not read yet).
+- [Décret n° 2022-244](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045243530) and
+  [Décret n° 2022-754](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045726533) (affiliation threshold).
+- [Décret n° 2025-86](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051070354), amending Décret n° 91-613 art. 5 (employer rate).
+- The Ircantec rates, the index points and the statutory pay supplements: not read yet.
 
 ## Effective dates
 
-(Proposed) To read.
+The 28-hour threshold since 2022-03-01 ([Décret n° 2022-244, art. 1](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045243530), read 2026-11-27); the employer rates for the
+periods from 2025-01-01, 2026-01-01, 2027-01-01 and 2028-01-01 ([Décret n° 2025-86, art. 1](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051070354), read 2026-11-27).
 
 ## Enforced by
 
@@ -64,7 +75,7 @@ the corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read: the sanctions of late or wrong public-sector contributions.
 
 ## Exceptions
 

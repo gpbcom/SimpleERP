@@ -13,6 +13,8 @@ notifications; in France:
 [CR-FR-074 Conformity of machinery](../../../10-country-packs/france/products/cr-fr-074-machinery-conformity.md),
 [CR-FR-077 Substances of very high concern in articles](../../../10-country-packs/france/products/cr-fr-077-reach-svhc-information.md),
 [CR-FR-078 SCIP notification of articles](../../../10-country-packs/france/products/cr-fr-078-scip-notification.md).
+The SCIP reference of the file may be shared by quasi-identical articles grouped in one notification, or point to data
+already submitted (a simplified notification); a retailer supplying only consumers has none.
 
 ## Why
 

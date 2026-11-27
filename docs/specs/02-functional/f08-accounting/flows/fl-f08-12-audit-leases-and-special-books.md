@@ -3,7 +3,7 @@
 
 # 🔀 FL-F8-12 Audit, leases and special books
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

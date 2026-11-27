@@ -17,4 +17,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-SC02-05 Unsold goods and performance](05-unsold-goods-and-performance/README.md) | 38 images |
 | 🖼️ |  | [Images: FL-SC02-06 Books, furniture, second-hand and franchise](06-books-furniture-second-hand-franchise/README.md) | 36 images |
 | 🖼️ |  | [Screen states](states/README.md) | 120 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found six situations
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found six situations
 that health suites handle and SC09 did not: pharmacies, opticians, veterinary practices, dental quotes, health centres
 and multi-professional practices. Each carries a legal duty (a valid prescription, a valid ophthalmic prescription, the
 veterinary register, the regulated quote, the report to the regional health agency, the funding indicators).
@@ -29,7 +29,8 @@ veterinary register, the regulated quote, the report to the regional health agen
 ## Choice
 
 SC09 gets six use cases in one new flow, FL-SC09-07, each with its screen, its rule, its entity and its list. All at
-full depth now. Each legal duty is written in plain words and marked (Proposed) until the France-pack rule is written;
+full depth now. Each legal duty is written in plain words and marked as proposed until its France-pack rule was
+written (the rules now exist);
 no article is quoted.
 
 | Gap | Point | Decision | The owner's answer |
@@ -44,7 +45,7 @@ no article is quoted.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC09 Health practices").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC09 Health practices").
 
 ## Consequences
 

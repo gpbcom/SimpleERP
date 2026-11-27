@@ -4,7 +4,7 @@
 
 # 📝 UC-SC01-19 Prepare renovation grant files
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -162,10 +162,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 The national renovation grant and the energy-saving certificate premiums are paid for works done by a company
 holding the RGE quality label for the domain of the work; the label's validity is checked on the day the quote is
-signed, and a grant request is filed before the works start. The France-pack rule is listed below. Related:
+signed, the professional visits the site first and puts the visit date on the quote and the invoice, and a grant request
+is filed before the works start. The France-pack rule is listed below. Related:
 [CR-FR-084](../../../../10-country-packs/france/tax-and-vat/cr-fr-084-renovation-reduced-vat.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-226 Renovation grants and the RGE label](../../../../10-country-packs/france/construction/cr-fr-226-renovation-grants-and-rge.md)
 
 ## Related use cases

@@ -3,7 +3,7 @@
 
 # 📝 UC-SC08-09 Report to funders on grants
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -51,7 +51,7 @@ Yearly per grant.
 
 ## Error flows
 
-- 4e. Late: the treasurer is reminded ((Proposed) 30 days before the date).
+- 4e. Late: the treasurer is reminded (30 days before the date).
 - 1e. Untagged spending: it is listed for tagging.
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
@@ -128,7 +128,7 @@ sequenceDiagram
 1. **Given** the example association's Town grant with 23,100 EUR spent in 2026 **when** the report is sent **then** it
    shows 23,100 EUR of 24,000 EUR.
 2. **Given** the Town report due 2027-06-30 not sent **when** it is 2027-06-01 **then** the treasurer is reminded
-   ((Proposed) 30 days before the date).
+   (30 days before the date).
 
 ## Non-functional notes
 
@@ -148,7 +148,7 @@ Legal values from the France country pack:
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

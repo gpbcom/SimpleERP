@@ -4,12 +4,12 @@
 
 # 📏 BR-F19-15 A delivery date is committed and kept
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 When the quote is accepted, the factory commits to a delivery date for the first try-out; a delay is announced before
-the date with the new date and the reason, and an order more than (Proposed) 20 business days late may be cancelled by
+the date with the new date and the reason, and an order more than 20 business days late may be cancelled by
 the customer without charge.
 
 ## Why
@@ -20,7 +20,7 @@ Customers plan around a feature's arrival (D476).
 
 | Case | Result |
 |---|---|
-| Specification approved on 2026-11-12, delivery committed for 2026-12-03 ((Proposed) 15 business days) | passes |
+| Specification approved on 2026-11-12, delivery committed for 2026-12-03 (15 business days) | passes |
 | Delay announced on 2026-12-01 with a new date of 2026-12-10 | passes |
 | Delay announced after the date has passed | fails: counted as missed and reported on the board |
 | Order 25 business days late | passes: owner may cancel, nothing charged |

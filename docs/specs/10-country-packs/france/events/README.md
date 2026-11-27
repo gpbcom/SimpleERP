@@ -15,4 +15,4 @@ Show organisers, ticket tax, performers, copyright and venue safety.
 | ⚖️ | CR-FR-178 | [Hiring performers as an occasional organiser (GUSO)](cr-fr-178-occasional-organiser-guso.md) | ✅ |
 | ⚖️ | CR-FR-179 | [Music copyright at events](cr-fr-179-music-copyright-authorisation.md) | ✅ |
 | ⚖️ | CR-FR-180 | [Safety register of venues open to the public](cr-fr-180-venue-safety-register.md) | ✅ |
-| ⚖️ | CR-FR-248 | [Cinema box-office reporting and tax](cr-fr-248-cinema-box-office.md) | 🔄 |
+| ⚖️ | CR-FR-248 | [Cinema box-office reporting and tax](cr-fr-248-cinema-box-office.md) | ✅ |

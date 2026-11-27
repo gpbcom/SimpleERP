@@ -3,18 +3,26 @@
 
 # ⚖️ CR-FR-209 Reinforced medical follow-up of posts
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-27, VD-29 / D509, D511)
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) An employee on a post with particular risks gets the reinforced medical follow-up the law sets, and is given
+An employee on a post with particular risks gets the reinforced medical follow-up the law sets, and is given
 the work of that post only while their medical fitness is current, within its restrictions; the company keeps the
 fitness status, its dates and its restrictions, never a diagnosis.
 
 ## Values
 
-- (Proposed) Fitness statuses: fit, fit with restrictions, unfit; with the date of the opinion and its next due date.
-- (Proposed) The list of posts with particular risks and the period of the reinforced follow-up: to read.
+- Fitness statuses: fit or unfit, the opinion given to the worker and the employer and kept in the medical file
+  (R4624-25), with the adjustments the doctor proposes in writing (L4624-3); the date of the opinion and its next due
+  date (R4624-28) ([Code du travail, art. R4624-25](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033769100), [art. L4624-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052437117), read 2026-11-27).
+- Posts with particular risks: exposure to asbestos, lead, carcinogenic, mutagenic or reprotoxic agents (R4412-60),
+  biological agents of groups 3 and 4, ionising radiation, hyperbaric conditions, falls from height when
+  assembling or dismantling scaffolding; any post that needs a specific aptitude exam; and the posts the employer
+  adds after the doctor's and the CSE's opinion, the list sent to the occupational health service and updated
+  every year (R4624-23) ([Code du travail, art. R4624-23](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053786012), read 2026-11-27).
+- Reinforced follow-up: the medical aptitude exam renewed at most every 4 years, with an intermediate visit by a
+  health professional at most 2 years after the doctor's visit (R4624-28) ([art. R4624-28](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033769094), read 2026-11-27).
 - Periodic visits at most every 5 years, more often for reinforced follow-up
   ([CR-FR-045](cr-fr-045-occupational-health-visits.md)).
 
@@ -28,7 +36,8 @@ fitness status, its dates and its restrictions, never a diagnosis.
 
 ## Effective dates
 
-(Proposed) To read.
+Since 2026-04-10: R4624-23 as amended by Décret n° 2026-253 of 8 April 2026, R4624-28 since
+2017-01-01 ([Code du travail, art. R4624-23](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053786012), [art. R4624-28](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033769094), read 2026-11-27).
 
 ## Enforced by
 
@@ -49,7 +58,8 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+A breach of L4621-1 to L4624-9 and their regulations repeated within 3 years: 4 months'
+imprisonment and a 3 750 EUR fine (L4745-1) ([Code du travail, art. L4745-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033024930), read 2026-11-27).
 
 ## Exceptions
 

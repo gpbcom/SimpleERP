@@ -3,7 +3,7 @@
 
 # 🗃️ E-F17-18 Price suggestion
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -45,7 +45,7 @@ By product, status and date.
 
 ## Retention
 
-(Proposed) 3 years.
+3 years.
 
 ## Audit
 

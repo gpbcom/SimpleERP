@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC03-16 Staffing assignments
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

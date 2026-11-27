@@ -27,4 +27,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F9-14 Source candidates on LinkedIn](14-source-candidates-on-linkedin/README.md) | 22 images |
 | 🖼️ |  | [Images: FL-F9-15 Work location, headcount, careers and learning](15-work-location-headcount-and-learning/README.md) | 38 images |
 | 🖼️ |  | [Screen states](states/README.md) | 312 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

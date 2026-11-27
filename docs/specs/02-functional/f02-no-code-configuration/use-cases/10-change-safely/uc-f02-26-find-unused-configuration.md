@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-26 Find unused configuration
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -24,7 +24,7 @@ A quarterly clean-up, or before a pack upgrade.
 
 ## Frequency
 
-Quarterly (Proposed).
+Quarterly.
 
 ## Preconditions
 

@@ -11,8 +11,8 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC09-12 | [Schedules](s-sc09-12-schedules.md) | 🔄 |
-| 🖥️ | S-SC09-13 | [Cost sharing](s-sc09-13-cost-sharing.md) | 🔄 |
-| 🖥️ | S-SC09-14 | [Sterilisation](s-sc09-14-sterilisation.md) | 🔄 |
-| 🖥️ | S-SC09-15 | [Practice accounts](s-sc09-15-practice-accounts.md) | 🔄 |
-| 🖥️ | S-SC09-16 | [Locums](s-sc09-16-locums.md) | 🔄 |
+| 🖥️ | S-SC09-12 | [Schedules](s-sc09-12-schedules.md) | ✅ |
+| 🖥️ | S-SC09-13 | [Cost sharing](s-sc09-13-cost-sharing.md) | ✅ |
+| 🖥️ | S-SC09-14 | [Sterilisation](s-sc09-14-sterilisation.md) | ✅ |
+| 🖥️ | S-SC09-15 | [Practice accounts](s-sc09-15-practice-accounts.md) | ✅ |
+| 🖥️ | S-SC09-16 | [Locums](s-sc09-16-locums.md) | ✅ |

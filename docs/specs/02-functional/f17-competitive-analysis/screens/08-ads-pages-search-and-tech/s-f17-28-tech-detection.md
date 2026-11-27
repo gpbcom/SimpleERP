@@ -4,7 +4,7 @@
 
 # 🖥️ S-F17-28 Technology detection
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

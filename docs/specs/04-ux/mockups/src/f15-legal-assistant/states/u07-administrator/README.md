@@ -22,7 +22,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-listed-desktop.html`
 - `s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-off-desktop.html`
 - `s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-on-desktop.html`
-- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-desktop.html`
+- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-desktop.html`
+- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-desktop.html`
+- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-desktop.html`
 
 ---
 

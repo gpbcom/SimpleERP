@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC18-03 Licences and competitions
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC18-03 Licences and competitions](../../../flows/fl-sc18-03-licences-and-competitions.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

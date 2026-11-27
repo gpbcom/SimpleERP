@@ -3,7 +3,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -22,18 +22,18 @@ One file per entity.
 | 🗃️ | E-F25-09 | [Request status](e-f25-09-request-status.md) | ✅ |
 | 🗃️ | E-F25-10 | [Agent run](e-f25-10-agent-run.md) | ✅ |
 | 🗃️ | E-F25-11 | [Triage](e-f25-11-triage.md) | ✅ |
-| 🗃️ | E-F25-12 | [Vulnerability case](e-f25-12-vulnerability-case.md) | 🔄 |
+| 🗃️ | E-F25-12 | [Vulnerability case](e-f25-12-vulnerability-case.md) | ✅ |
 | 🗃️ | E-F25-13 | [Spec check report](e-f25-13-spec-check-report.md) | ✅ |
 | 🗃️ | E-F25-14 | [Vote](e-f25-14-vote.md) | ✅ |
-| 🗃️ | E-F25-15 | [SPECS feature](e-f25-15-specs-feature.md) | 🔄 |
+| 🗃️ | E-F25-15 | [SPECS feature](e-f25-15-specs-feature.md) | ✅ |
 | 🗃️ | E-F25-16 | [Roadmap item](e-f25-16-roadmap-item.md) | ✅ |
 | 🗃️ | E-F25-17 | [Beta enrolment](e-f25-17-beta-enrolment.md) | ✅ |
 | 🗃️ | E-F25-18 | [Report credit](e-f25-18-report-credit.md) | ✅ |
-| 🗃️ | E-F25-19 | [Work contract](e-f25-19-work-contract.md) | 🔄 |
-| 🗃️ | E-F25-20 | [Agent role](e-f25-20-agent-role.md) | 🔄 |
-| 🗃️ | E-F25-21 | [Worker handoff](e-f25-21-worker-handoff.md) | 🔄 |
-| 🗃️ | E-F25-22 | [Verification](e-f25-22-verification.md) | 🔄 |
-| 🗃️ | E-F25-23 | [Run checkpoint](e-f25-23-run-checkpoint.md) | 🔄 |
+| 🗃️ | E-F25-19 | [Work contract](e-f25-19-work-contract.md) | ✅ |
+| 🗃️ | E-F25-20 | [Agent role](e-f25-20-agent-role.md) | ✅ |
+| 🗃️ | E-F25-21 | [Worker handoff](e-f25-21-worker-handoff.md) | ✅ |
+| 🗃️ | E-F25-22 | [Verification](e-f25-22-verification.md) | ✅ |
+| 🗃️ | E-F25-23 | [Run checkpoint](e-f25-23-run-checkpoint.md) | ✅ |
 
 ---
 

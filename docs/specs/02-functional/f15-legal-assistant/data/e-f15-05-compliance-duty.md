@@ -3,7 +3,7 @@
 
 # 🗃️ E-F15-05 Compliance duty
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -14,7 +14,7 @@ A dated legal duty of the company: what to do, by when, by whom, from which rule
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
 | title | text | yes | - | from the rule | Approve the 2026 accounts | no | no |
-| source | link | yes | a country-pack rule or an article | - | (Proposed) to read: Code de commerce | no | no |
+| source | link | yes | a country-pack rule or an article | - | CR-FR-221 Shareholders' general meetings | no | no |
 | due date | date | yes | - | computed | 2027-06-30 | no | no |
 | recurrence | choice | yes | once, monthly, yearly | from the rule | yearly | no | no |
 | owner | link | yes | a user | the owner of the company | the owner | yes | no |
@@ -47,7 +47,7 @@ By due date, owner, status and source; calendar and list views.
 
 ## Retention
 
-(Proposed) 10 years after done, with its proof.
+10 years after done, with its proof.
 
 ## Audit
 

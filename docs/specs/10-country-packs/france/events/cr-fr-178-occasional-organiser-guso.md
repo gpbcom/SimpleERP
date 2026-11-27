@@ -24,7 +24,7 @@ declaration before the show, simplified declaration and payment within 15 days a
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code du travail L7122-22 in force since 2008-05-01 ([Code du travail, art. L7122-22](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195968/2017-09-27/), read 2026-11-27).
 
 ## Enforced by
 

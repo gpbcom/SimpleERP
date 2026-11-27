@@ -21,6 +21,9 @@ to find, filter, total and act on many personnel registers at once
 [list view template](../../../../_templates/list-view.md) and the
 [aggregated list view pattern](../../../../04-ux/design-system/patterns/aggregated-list-view.md).
 
+Each row is the register of one establishment, kept over the years, never one per site and year
+([CR-FR-038](../../../../10-country-packs/france/labour/cr-fr-038-personnel-register.md)).
+
 ## Entry points
 
 - **Menu:** HR and projects › Personnel registers, in the capability's menu (D495).
@@ -34,10 +37,11 @@ to find, filter, total and act on many personnel registers at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Personnel registers    HR and projects › Personnel registers   [+ New]                                       |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] PERSONNEL REGISTER   STATE                                                           |
+| state             | [ ] PERSONNEL RE   ESTABLISHMEN   ENTRIES   LAST ENTRY   STATE                           |
+| establishment     | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,7 +51,10 @@ to find, filter, total and act on many personnel registers at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Personnel register | the record's title | text | yes |
+| Personnel register | title | text | yes |
+| Establishment | establishment | link to the record | yes |
+| Entries | entries (count) | number, right-aligned | yes |
+| Last entry | entries: entry date | date | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -57,16 +64,19 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Establishment | each linked establishment | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: personnel registers link to no other record type in their fields.
+- Personnel registers of a chosen company site, or of the company sites that match a filter.
+- From the other side: the company sites that have personnel registers, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by entries: entry date.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -106,7 +116,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| entries | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

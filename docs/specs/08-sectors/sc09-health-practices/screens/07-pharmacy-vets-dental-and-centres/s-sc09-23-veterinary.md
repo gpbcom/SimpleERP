@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC09-23 Veterinary practice
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

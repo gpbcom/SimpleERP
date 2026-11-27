@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -15,7 +15,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC01-03 | [Run the site](fl-sc01-03-run-the-site.md) | ✅ |
 | 🔀 | FL-SC01-04 | [Bill and subcontract](fl-sc01-04-bill-and-subcontract.md) | ✅ |
 | 🔀 | FL-SC01-05 | [Hand over and follow up](fl-sc01-05-hand-over-and-follow-up.md) | ✅ |
-| 🔀 | FL-SC01-06 | [Price revision, off-plan sales, BIM and grants](fl-sc01-06-revision-developers-bim-and-grants.md) | 🔄 |
+| 🔀 | FL-SC01-06 | [Price revision, off-plan sales, BIM and grants](fl-sc01-06-revision-developers-bim-and-grants.md) | ✅ |
 
 ---
 

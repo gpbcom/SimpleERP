@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC17-01 | [Salon set-up](s-sc17-01-salon-setup.md) | 🔄 |
-| 🖥️ | S-SC17-02 | [Online booking](s-sc17-02-online-booking.md) | 🔄 |
-| 🖥️ | S-SC17-03 | [Desk booking](s-sc17-03-desk-booking.md) | 🔄 |
-| 🖥️ | S-SC17-04 | [Deposits and no-shows](s-sc17-04-deposits-and-no-shows.md) | 🔄 |
+| 🖥️ | S-SC17-01 | [Salon set-up](s-sc17-01-salon-setup.md) | ✅ |
+| 🖥️ | S-SC17-02 | [Online booking](s-sc17-02-online-booking.md) | ✅ |
+| 🖥️ | S-SC17-03 | [Desk booking](s-sc17-03-desk-booking.md) | ✅ |
+| 🖥️ | S-SC17-04 | [Deposits and no-shows](s-sc17-04-deposits-and-no-shows.md) | ✅ |

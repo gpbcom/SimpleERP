@@ -151,8 +151,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A person who teaches a sport for pay holds the diploma and the professional card the law requires for that
 activity; the club checks it before assigning a class
-([CR-FR-210](../../../../10-country-packs/france/labour/cr-fr-210-qualifications-tied-to-tasks.md)). The France-pack
-rule is written later.
+([CR-FR-210](../../../../10-country-packs/france/labour/cr-fr-210-qualifications-tied-to-tasks.md)). The France-pack rule is [CR-FR-285 Paid sports instructors](../../../../10-country-packs/france/labour/cr-fr-285-paid-sports-instructors.md).
 
 ## Related use cases
 

@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC18-03 Licences and competitions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

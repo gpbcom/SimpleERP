@@ -156,12 +156,6 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-tablet, light](s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-tablet-light.png) | ![s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-tablet, dark](s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-done-tablet-dark.png) |
 
-## s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-tablet
-
-| Light | Dark |
-|---|---|
-| ![s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-tablet, light](s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-tablet-light.png) | ![s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-tablet, dark](s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-tablet-dark.png) |
-
 ## s-f12-07-quality-checks-e-f12-07-quality-control-point-active-tablet
 
 | Light | Dark |

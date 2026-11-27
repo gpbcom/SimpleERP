@@ -17,4 +17,4 @@ changes, the rule is flagged and fixed in a pack update
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🇫🇷 |  | [France](france/README.md) | 🔄 |
+| 🇫🇷 |  | [France](france/README.md) | ✅ |

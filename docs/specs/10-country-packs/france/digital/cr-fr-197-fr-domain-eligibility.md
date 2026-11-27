@@ -25,7 +25,8 @@ eligibility on report and may delete the domain.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-12, the date of this specification.
+CPCE L45-3 and L45-4 in force since 2014-03-15 (ordonnance n° 2014-329); L45-2 since 2020-12-05
+([Code des postes et des communications électroniques, art. L44 to L45-8](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070987/LEGISCTA000006150688/), read 2026-11-27).
 
 ## Enforced by
 

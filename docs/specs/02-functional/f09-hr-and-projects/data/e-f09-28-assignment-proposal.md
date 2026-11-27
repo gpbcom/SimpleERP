@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-28 Assignment proposal
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-29, VD-32, VD-33 / D511, D514, D515)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -85,7 +85,7 @@ The screens show the states as: Waiting, No candidate, Applied, Stopped, Confirm
 
 ## Retention
 
-(Proposed) As its work request. (Proposed) The candidates' scores and the exclusions of people not chosen are reduced to
+As its work request. The candidates' scores and the exclusions of people not chosen are reduced to
 counts after 1 year; the override reasons stay in the audit trail.
 
 ## Audit
@@ -95,7 +95,7 @@ stopped with its problem, superseded.
 
 ## Import and export
 
-None; (Proposed) the list view exports the decisions, without the exclusion reasons.
+None; the list view exports the decisions, without the exclusion reasons.
 
 ## Used by
 

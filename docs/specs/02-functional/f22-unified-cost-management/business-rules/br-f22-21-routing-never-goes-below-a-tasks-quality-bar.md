@@ -4,7 +4,7 @@
 
 # 📏 BR-F22-21 Routing never goes below a task's quality bar
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

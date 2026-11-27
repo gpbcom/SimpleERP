@@ -3,7 +3,7 @@
 
 # 🧑‍🔧 Hosting engineer: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ for on-call approvals. Default density: compact ([D42](../../../06-decisions/ux/
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Fixes waiting for a yes; Features to review.
 - Widgets: Open incidents this week.
@@ -37,16 +37,16 @@ for on-call approvals. Default density: compact ([D42](../../../06-decisions/ux/
 
 ## Navigation
 
-(Proposed) Fixes to approve · Incidents · Feature reviews · Domains · Costs · Assistant.
+Fixes to approve · Incidents · Feature reviews · Domains · Costs · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U48-01 | [Handle an incident](journeys/j-u48-01-handle-an-incident.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U48-01 | [Handle an incident](journeys/j-u48-01-handle-an-incident.md) | ✅ |
 
 ---
 

@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -27,15 +27,15 @@ One file per rule.
 | 📏 | BR-F18-14 | [Analytics only with consent](br-f18-14-analytics-only-with-consent.md) | ✅ |
 | 📏 | BR-F18-15 | [Blog articles come from F5 posts](br-f18-15-blog-articles-come-from-f5-posts.md) | ✅ |
 | 📏 | BR-F18-16 | [Every old address redirects](br-f18-16-every-old-address-redirects.md) | ✅ |
-| 📏 | BR-F18-17 | [Mailboxes for named users, closed at offboarding](br-f18-17-mailboxes-for-named-users-closed-at-offboarding.md) | 🔄 |
-| 📏 | BR-F18-18 | [Forms protected without tracking](br-f18-18-forms-protected-without-tracking.md) | 🔄 |
+| 📏 | BR-F18-17 | [Mailboxes for named users, closed at offboarding](br-f18-17-mailboxes-for-named-users-closed-at-offboarding.md) | ✅ |
+| 📏 | BR-F18-18 | [Forms protected without tracking](br-f18-18-forms-protected-without-tracking.md) | ✅ |
 | 📏 | BR-F18-19 | [Sector templates carry the sector's mandatory information](br-f18-19-sector-templates-carry-the-sectors-mandatory-information.md) | ✅ |
 | 📏 | BR-F18-20 | [Search basics from public data only](br-f18-20-search-basics-from-public-data-only.md) | ✅ |
-| 📏 | BR-F18-21 | [Sites backed up daily, restored to the preview](br-f18-21-sites-backed-up-daily-restored-to-the-preview.md) | 🔄 |
-| 📏 | BR-F18-22 | [Tests end at significance or their end date](br-f18-22-tests-end-at-significance-or-their-end-date.md) | 🔄 |
-| 📏 | BR-F18-23 | [Visits are tracked only with consent](br-f18-23-visits-are-tracked-only-with-consent.md) | 🔄 |
-| 📏 | BR-F18-24 | [An e-shop publishes its accessibility statement](br-f18-24-an-e-shop-publishes-its-accessibility-statement.md) | 🔄 |
-| 📏 | BR-F18-25 | [Members-only content is never indexed](br-f18-25-members-only-content-is-never-indexed.md) | 🔄 |
+| 📏 | BR-F18-21 | [Sites backed up daily, restored to the preview](br-f18-21-sites-backed-up-daily-restored-to-the-preview.md) | ✅ |
+| 📏 | BR-F18-22 | [Tests end at significance or their end date](br-f18-22-tests-end-at-significance-or-their-end-date.md) | ✅ |
+| 📏 | BR-F18-23 | [Visits are tracked only with consent](br-f18-23-visits-are-tracked-only-with-consent.md) | ✅ |
+| 📏 | BR-F18-24 | [An e-shop publishes its accessibility information](br-f18-24-an-e-shop-publishes-its-accessibility-statement.md) | ✅ |
+| 📏 | BR-F18-25 | [Members-only content is never indexed](br-f18-25-members-only-content-is-never-indexed.md) | ✅ |
 
 ---
 

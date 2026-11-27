@@ -23,7 +23,7 @@ baby-care products must be donated.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code de l'environnement L541-15-8 in its current version in force since 2021-08-25 (loi n° 2021-1104) ([Code de l'environnement, art. L541-15-8](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043975010), read 2026-11-27).
 
 ## Enforced by
 

@@ -3,22 +3,45 @@
 
 # ⚖️ CR-FR-257 Tattoo, piercing and laser declarations
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A studio that tattoos or pierces declares the activity to the authority before it starts, the person who
-performs it holds a hygiene and health-and-safety training, the client signs an informed consent (a minor needs the
-guardian's), aftercare advice is given, and the products and needles are traced by batch. Laser and similar techniques
-follow their own limits on who may perform them.
+A studio that tattoos or pierces declares the activity to the authority before it starts, the person who performs it
+holds a hygiene and health-and-safety training, the client signs an informed consent (a minor needs the guardian's), and
+aftercare advice is given. Tattoo inks carry a unique batch reference on their label, and before using an ink the
+tattooist gives the client the information on its packaging or instructions; no batch rule applies to needles, which
+must be single-use and sterile or sterilised ([Regulation (EU) 2020/2081, annex, REACH annex XVII entry 75, para.
+7](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32020R2081), from 2022-01-05, read 2026-11-27; CSP
+R1311-4). Laser and similar techniques follow their own limits on who may perform them.
 
 ## Values
 
-- (Proposed) Declaration before starting.
-- (Proposed) Training of the practitioner.
-- (Proposed) Informed consent and batch traceability.
-- (Proposed) List of who may use laser techniques, kept as data.
-- (Proposed) SimpleERP enforces: tattoo, piercing and laser need the declared activity and consent.
+- Declaration before starting: the declaration is sent before the activity starts
+  ([arrêté du 23 décembre 2008, art. 1](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000020041163), read 2026-11-27),
+  to the director general of the ARS of the place of activity, and so is the end of the activity
+  ([Code de la santé publique, art. R1311-2](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000018150106/),
+  in force since 2010-04-01, read 2026-11-27). Covers tattoo, permanent make-up and body piercing, except ear and
+  nose-wing piercing by gun (R1311-1).
+- Training of the practitioner in hygiene and safety conditions
+  ([Code de la santé publique, art. R1311-3](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000018150106/),
+  in force since 2010-04-01, read 2026-11-27).
+- Informed consent and batch traceability: a mixture for tattooing placed on the market after 2022-01-04 carries on its
+  label a reference number that identifies its batch uniquely, and before use the person who tattoos gives the client
+  the information on the packaging or the instructions ([Regulation (EU) 2020/2081, REACH annex XVII entry 75, para.
+  7](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32020R2081), read 2026-11-27). Read: the client is
+  informed of the risks before the act and of the aftercare after it, by display and in writing (R1311-12); a minor
+  needs the written consent of a parent or guardian, proof kept 3 years (R1311-11); a batch number is required only on
+  the sealed packs of ear-piercing studs (R1311-9) ([Code de la santé publique, art. R1311-1 to
+  R1311-13](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000018150106/), read
+  2026-11-27); no general batch traceability of needles and inks was found. Since 2024-01-01 the label of a tattoo
+  product follows annex XVII of the REACH regulation, and the French batch-number mention is repealed ([Code de la santé
+  publique, art. R513-10-5](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018213420), read 2026-11-27).
+- List of who may use laser techniques, kept as data: hair removal by laser or intense pulsed light, for a
+  non-therapeutic aim, only by doctors, state-registered nurses and qualified beauticians, the last two after a
+  training with refreshers ([Code de la santé publique, art. D1151-1 to D1151-11](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000049594286/), in force since 2024-05-27,
+  read 2026-11-27); laser tattoo removal is not covered there.
+- SimpleERP enforces: tattoo, piercing and laser need the declared activity and consent.
 - Read on [Service-public F22481](https://www.service-public.gouv.fr/particuliers/vosdroits/F22481) (verified 13
   November 2025), tattoo only; piercing and laser are not read, and the page does not say whether the declaration is
   before opening:
@@ -33,11 +56,12 @@ follow their own limits on who may perform them.
 
 ## Legal references
 
-- Law to read: tattoo, piercing and laser practice (not read yet).
+- Code de la santé publique R1311-1 to R1311-13, D1151-1 to D1151-11; arrêté du 23 décembre 2008.
 
 ## Effective dates
 
-(Proposed) To read.
+R1311-1, R1311-4 and R1311-11 since 2008-02-21; R1311-2 and R1311-3 since 2010-04-01; R1311-12 since
+2008-12-14 ([Code de la santé publique, art. R1311-1 to R1311-13](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000018150106/), read 2026-11-27).
 
 ## Enforced by
 
@@ -51,7 +75,7 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+None stated in CSP R1311-1 to R1311-13 (read 2026-11-27).
 
 ## Exceptions
 
@@ -59,7 +83,7 @@ None stated.
 
 ## Open questions
 
-The law on tattoo, piercing and laser practice is not read yet; the values are to read before launch.
+None, read on 2026-11-27.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

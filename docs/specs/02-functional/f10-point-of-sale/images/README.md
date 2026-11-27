@@ -24,4 +24,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F10-11 Store reports](11-store-reports/README.md) | 16 images |
 | 🖼️ |  | [Images: FL-F10-12 Takeaway, tap to pay, labels and layaway](12-takeaway-softpos-and-labels/README.md) | 34 images |
 | 🖼️ |  | [Screen states](states/README.md) | 216 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

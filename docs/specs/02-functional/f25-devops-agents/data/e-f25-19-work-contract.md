@@ -3,7 +3,7 @@
 
 # 🗃️ E-F25-19 Work contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -36,7 +36,7 @@ how the work is shared.
 | state | Draft, Proposed, Approved, Refused, Closed, Abandoned | yes | the lifecycle below | Draft | Proposed | no | no |
 | owner | user | yes | a user of the company | the creator | Claire P. | yes | no |
 
-(Proposed) A contract holds no customer data: the study note's sanitised summary is enough, and the details stay in
+A contract holds no customer data: the study note's sanitised summary is enough, and the details stay in
 SimpleERP ([BR-F25-04](../business-rules/br-f25-04-read-only-on-production.md)).
 
 ## Relations
@@ -72,7 +72,7 @@ stateDiagram-v2
   Abandoned --> [*] : kept with the run as evidence, BR-F25-11
 ```
 
-(Proposed) A revision after approval raises the version and puts the contract back to Draft. Workers already running
+A revision after approval raises the version and puts the contract back to Draft. Workers already running
 finish their current task and wait for the new approval.
 
 ## Indexes and search
@@ -81,7 +81,7 @@ By ticket, state, starting commit and role. Full-text search on the criteria.
 
 ## Retention
 
-(Proposed) Kept as long as the agent run it belongs to ([E-F25-10 Agent run](e-f25-10-agent-run.md)), with the pull
+Kept as long as the agent run it belongs to ([E-F25-10 Agent run](e-f25-10-agent-run.md)), with the pull
 request's history.
 
 ## Audit
@@ -90,7 +90,7 @@ Every version, the contract check's findings, the approval or refusal with the m
 
 ## Import and export
 
-No import. (Proposed) Exported as a file with the run's evidence, and summarised in the draft pull request's body
+No import. Exported as a file with the run's evidence, and summarised in the draft pull request's body
 ([UC-F25-36](../use-cases/08-team-builds-a-ticket/uc-f25-36-open-the-draft-pull-request-with-its-evidence.md)).
 
 ## Used by

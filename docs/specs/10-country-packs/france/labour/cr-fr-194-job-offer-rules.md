@@ -24,7 +24,7 @@ and mentions neither sex nor age, nor anything that may discriminate.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-12, the date of this specification.
+Since 2008-05-01: L5331-2 and L1142-1 ([Code du travail, art. L5331-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006903793), [art. L1142-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900801), read 2026-11-27).
 
 ## Enforced by
 

@@ -144,8 +144,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 Measures of the body and notes on health are health data: they are kept only as needed, shown only to the
 person and the coach, protected, and erased or exported on request
 ([CR-FR-051](../../../../10-country-packs/france/data-protection/cr-fr-051-access-and-erasure.md),
-[CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)). The France-pack rule
-is written later.
+[CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)). The France-pack rule is [CR-FR-283 Health data outside care](../../../../10-country-packs/france/data-protection/cr-fr-283-health-data-outside-care.md).
 
 ## Related use cases
 

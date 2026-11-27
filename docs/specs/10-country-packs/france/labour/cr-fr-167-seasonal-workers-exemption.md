@@ -22,7 +22,8 @@ permanent.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2026-01-01: L741-16 as amended by Loi n° 2025-1403 of 30 December 2025; the 1.25 and 1.6 times the minimum
+wage apply to pay periods from 2024-05-01, with no end date ([Code rural et de la pêche maritime, art. L741-16](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053280545), read 2026-11-27).
 
 ## Enforced by
 

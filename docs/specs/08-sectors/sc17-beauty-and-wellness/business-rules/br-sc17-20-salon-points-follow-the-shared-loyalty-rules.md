@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-20 Salon points follow the shared loyalty rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

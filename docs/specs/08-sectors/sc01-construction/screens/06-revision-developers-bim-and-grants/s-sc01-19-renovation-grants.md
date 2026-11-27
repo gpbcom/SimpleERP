@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC01-19 Renovation grants
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

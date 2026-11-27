@@ -3,20 +3,32 @@
 
 # ⚖️ CR-FR-215 BSPCE and free shares
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) Share warrants for founders and employees (BSPCE) and free shares are allowed only under a plan approved by
-the shareholders, within its ceiling and period, for the kinds of beneficiaries the plan names, and carry tax and
-social-contribution consequences.
+Share warrants for founders and employees (BSPCE) and free shares are allowed only under a plan
+approved by the shareholders' extraordinary general meeting, within its ceiling and period, for the kinds of
+beneficiaries the plan names, and carry tax and social-contribution consequences ([CGI, art. 163 bis G](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053543883), [Code de commerce, art. L225-197-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048489093), read 2026-11-27).
 
 ## Values
 
-- (Proposed) The plan's ceiling, period and beneficiaries.
-- (Proposed) Conditions of each instrument and its vesting.
-- (Proposed) Tax and social-contribution treatment.
-- (Proposed) SimpleERP enforces: grants follow the plan approved by shareholders.
+- The plan's ceiling, period and beneficiaries. Free shares: authorised by the extraordinary general meeting for at
+  most 38 months; at most 15 % of the capital (up to 20 % in the articles of an SME for some categories, 30 % or 40 %
+  when granted widely); employees and the listed officers, none holding over 10 % of the capital through them
+  (L225-197-1) ([Code de commerce, art. L225-197-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048489093), read 2026-11-27). BSPCE: issue authorised by the extraordinary general meeting, which may delegate
+  the list of beneficiaries; employees, some officers and board members, and subsidiaries held at least 75 %
+  (163 bis G) ([CGI, art. 163 bis G](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053543883), read 2026-11-27).
+- Conditions of each instrument and its vesting. Free shares: vesting at least 1 year, vesting and holding together
+  at least 2 years (L225-197-1) ([Code de commerce, art. L225-197-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048489093), read 2026-11-27). BSPCE: issuer under corporate income tax, at least 15 % held by
+  individuals, registered less than 15 years, not from a restructuring, listed ones under 150 million EUR, price
+  fixed on the grant date (163 bis G) ([CGI, art. 163 bis G](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053543883), read 2026-11-27).
+- Tax and social-contribution treatment. BSPCE: the gain at exercise taxed at the flat rate of CGI 200 A or, on
+  option, the wage scale, 30 % when the holder has worked or held office there less than 3 years at the sale; the
+  sale gain under 150-0 A ([CGI, art. 163 bis G](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053543883), read 2026-11-27). Free shares: the acquisition gain is wage income, taxed under 200 A 3
+  up to 300 000 EUR a year and as wages above, in the year the shares are sold or transferred (80 quaterdecies) ([CGI, art. 80 quaterdecies](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042340496), read 2026-11-27); the employer pays 30 % of their value at acquisition, the month after it, with an exemption for
+  SMEs and ETIs that never paid dividends, up to a cap (L137-13, since 2025-03-01) ([Code de la sécurité sociale, art. L137-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051284578), read 2026-11-27).
+- SimpleERP enforces: grants follow the plan approved by shareholders.
 - Read on
   [BOFiP BOI-RSA-ES-20-40-10](https://bofip.impots.gouv.fr/bofip/13155-PGP.html/identifiant=BOI-RSA-ES-20-40-10-20260528)
   (published 28 May 2026), BSPCE only; free shares, tax and social rates and the exercise delay are not read:
@@ -34,11 +46,16 @@ social-contribution consequences.
 
 ## Legal references
 
-- Law to read: BSPCE and free shares (not read yet).
+- CGI art. 163 bis G (BSPCE) ([CGI, art. 163 bis G](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053543883), read 2026-11-27).
+- Code de commerce art. L225-197-1 (free shares) ([Code de commerce, art. L225-197-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048489093), read 2026-11-27).
+- CGI art. 80 quaterdecies ([CGI, art. 80 quaterdecies](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042340496), read 2026-11-27); Code de la sécurité sociale art. L137-13 ([Code de la sécurité sociale, art. L137-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051284578), read 2026-11-27).
 
 ## Effective dates
 
-(Proposed) To read.
+BSPCE: 163 bis G in force since 2026-02-21, for warrants granted from 2026-01-01 ([CGI, art. 163 bis G](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053543883), read 2026-11-27). Free
+shares: L225-197-1 in force since 2023-12-01 ([Code de commerce, art. L225-197-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048489093), read 2026-11-27). BSPCE ownership condition: at least 25 % held by individuals for warrants
+granted until 2025-12-31, at least 15 % for those granted from 2026-01-01 ([CGI, art. 163 bis G](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053543883), read 2026-11-27). Employer
+contribution on free shares: 30 % since 2025-03-01 (Loi n° 2025-199) ([Code de la sécurité sociale, art. L137-13](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051284578), read 2026-11-27).
 
 ## Enforced by
 
@@ -52,11 +69,11 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read: the sanctions of a grant outside the plan or the legal conditions.
 
 ## Exceptions
 
-(Proposed) Companies that do not meet a condition of the instrument.
+Companies that do not meet a condition of the instrument ([CGI, art. 163 bis G](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053543883), [Code de commerce, art. L225-197-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048489093), read 2026-11-27).
 
 ## Open questions
 

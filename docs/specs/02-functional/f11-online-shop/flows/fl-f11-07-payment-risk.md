@@ -13,7 +13,7 @@ Orders screened for fraud, payments authenticated when the rules require it, and
 
 - [U05 Accounting](../../../01-users/personas/u05-accounting.md)
 - [U09 Customer](../../../01-users/personas/u09-customer.md)
-- [U16 Office worker](../../../01-users/personas/u16-office-worker.md), acting in the chart, step 36i (Proposed)
+- [U16 Office worker](../../../01-users/personas/u16-office-worker.md), acting in the chart, step 36i
 
 ## Flowchart
 

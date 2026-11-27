@@ -3,7 +3,7 @@
 
 # 📝 UC-F6-31 Handle a warranty claim
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -159,11 +159,12 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 The legal guarantee of conformity of the seller:
-[CR-FR-067](../../../../10-country-packs/france/consumer/cr-fr-067-legal-guarantee-of-conformity.md). (Proposed) The
-duties, periods and remedies of the legal conformity guarantee are written later as a France-pack rule; this page states
-them in plain words only.
+[CR-FR-067](../../../../10-country-packs/france/consumer/cr-fr-067-legal-guarantee-of-conformity.md). The
+duties, periods and remedies of the legal conformity guarantee are those of the France-pack rule below: 2 years from
+delivery, a defect within 24 months (12 for used goods) presumed to exist at delivery, repair or replacement within 30
+days, then a price reduction or a refund within 14 days.
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-223 Legal conformity guarantee](../../../../10-country-packs/france/consumer/cr-fr-223-legal-conformity-guarantee.md)
 
 ## Related use cases

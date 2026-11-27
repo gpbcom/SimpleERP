@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F8-07 Client money, grants and non-profits
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F8-07 Client money, grants and non-profits](../../../flows/fl-f08-07-client-money-grants-and-non-profits.md) for

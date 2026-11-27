@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-04 Exchange with the public treasury
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -139,12 +139,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Local bodies exchange their orders, titles and accounts with the public accountant in a national electronic
-format with a signature. The accountant pays after its checks and may reject an order that is irregular; rejected orders
-are corrected and sent again. The format and the signature are data of the France pack. Related:
+Local bodies exchange their orders, titles and accounts with the public accountant in a national electronic format with
+a signature. The accountant pays after its checks and may reject an order that is irregular; rejected orders are
+corrected and sent again. The format and the signature are data of the France pack. (⚖️ lawyer review before launch, D574) The
+France-pack rule is still to write: to read the DGFiP's PES V2 exchange protocol and the list of supporting documents
+(CGCT D1617-19 and its annex). Related:
 [CR-FR-016](../../../../10-country-packs/france/invoicing/cr-fr-016-electronic-invoicing.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule on the budget:
   [CR-FR-250 Public accounting M57](../../../../10-country-packs/france/accounting/cr-fr-250-public-accounting-m57.md)
 
 ## Related use cases

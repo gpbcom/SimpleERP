@@ -3,7 +3,7 @@
 
 # 🖥️ S-F25-32 Worker handoff
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

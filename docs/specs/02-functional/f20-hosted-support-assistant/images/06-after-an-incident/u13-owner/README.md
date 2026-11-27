@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F20-06 After an incident
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F20-06 After an incident](../../../flows/fl-f20-06-after-an-incident.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

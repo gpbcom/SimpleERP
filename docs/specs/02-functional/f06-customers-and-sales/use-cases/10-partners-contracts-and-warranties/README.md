@@ -16,7 +16,7 @@ The use cases of this flow.
 | 📝 | UC-F6-28 | [Keep several identifiers per company](uc-f06-28-keep-several-identifiers-per-company.md) | ✅ |
 | 📝 | UC-F6-29 | [Agree a frame contract and call off orders](uc-f06-29-agree-a-frame-contract-and-call-off-orders.md) | ✅ |
 | 📝 | UC-F6-30 | [Check a customer's solvency](uc-f06-30-check-a-customers-solvency.md) | ✅ |
-| 📝 | UC-F6-31 | [Handle a warranty claim](uc-f06-31-handle-a-warranty-claim.md) | 🔄 |
+| 📝 | UC-F6-31 | [Handle a warranty claim](uc-f06-31-handle-a-warranty-claim.md) | ✅ |
 
 ---
 

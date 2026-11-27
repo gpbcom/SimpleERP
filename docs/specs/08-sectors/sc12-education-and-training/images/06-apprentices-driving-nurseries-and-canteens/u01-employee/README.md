@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC12-06 Apprentices, driving schools, nurseries, canteens
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC12-06 Apprentices, driving schools, nurseries, canteens](../../../flows/fl-sc12-06-apprentices-driving-nurseries-and-canteens.md)

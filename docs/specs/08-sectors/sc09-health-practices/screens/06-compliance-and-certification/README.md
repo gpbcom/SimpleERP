@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC09-17 | [Patients' rights](s-sc09-17-patients-rights.md) | 🔄 |
-| 🖥️ | S-SC09-18 | [Quality indicator](s-sc09-18-quality-indicator.md) | 🔄 |
-| 🖥️ | S-SC09-19 | [Certifications](s-sc09-19-certifications.md) | 🔄 |
+| 🖥️ | S-SC09-17 | [Patients' rights](s-sc09-17-patients-rights.md) | ✅ |
+| 🖥️ | S-SC09-18 | [Quality indicator](s-sc09-18-quality-indicator.md) | ✅ |
+| 🖥️ | S-SC09-19 | [Certifications](s-sc09-19-certifications.md) | ✅ |

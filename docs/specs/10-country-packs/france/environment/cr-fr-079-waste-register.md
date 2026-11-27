@@ -24,11 +24,15 @@ instead.
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12.
+- Until 2026-06-04: R541-43 in its version of 2021-04-01, with the same 3-year retention, the same exemption once
+  the national register is fed, and e-tracking slips counting as that report ([Code de l'environnement, art. R541-43 on 2026-06-04](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074220/LEGISCTA000043307254/2026-06-04/), read 2026-11-27).
+- From 2026-06-05: R541-43 as amended by décret n° 2026-433; the register is kept at least 3 years, and a person who
+  has reported to the national register no longer keeps its own ([Code de l'environnement, art. R541-43](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043308132), read 2026-11-27).
 
 ## Enforced by
 
 - [Regulatory](../../../02-functional/f12-manufacturing/regulatory.md)
+- [UC-SC05-19 Optimise cutting and keep remnants](../../../08-sectors/sc05-manufacturing/use-cases/06-excise-refurbishment-and-cutting/uc-sc05-19-optimise-cutting-and-keep-remnants.md)
 
 ## When the law changes
 

@@ -24,11 +24,13 @@ under the Union Customs Code.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Union Customs Code applicable from 2016-05-01, registration (art. 9) included; a list of articles from 2013-10-30
+(art. 288, as corrected) ([Regulation (EU) 952/2013, consolidated text, EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02013R0952-20221212), read 2026-11-27).
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc15-wholesale-and-distribution/regulatory.md)
+- [UC-SC07-24 Forward freight and clear customs](../../../08-sectors/sc07-transport/use-cases/07-passengers-removals-courier-and-freight/uc-sc07-24-forward-freight-and-clear-customs.md)
 
 ## When the law changes
 

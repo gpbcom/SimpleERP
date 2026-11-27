@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U55-01 | [Decide with the figures](j-u55-01-decide-with-the-figures.md) | 🔄 |
+| 🧭 | J-U55-01 | [Decide with the figures](j-u55-01-decide-with-the-figures.md) | ✅ |
 
 ---
 

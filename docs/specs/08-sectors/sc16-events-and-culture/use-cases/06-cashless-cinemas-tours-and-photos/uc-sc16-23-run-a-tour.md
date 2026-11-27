@@ -160,8 +160,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 Performing artists and technicians engaged for a show are employed under fixed-term contracts of use or paid
 through the single window for occasional organisers, and each person is declared before the show. The fee paid to a
 performer who is not resident is subject to a withholding tax. The producer must hold the licence to produce shows and
-declares the show, the ticket tax and the music rights as for any performance. The France-pack rule is written later.
-Related: [CR-FR-176](../../../../10-country-packs/france/events/cr-fr-176-performing-arts-declaration.md),
+declares the show, the ticket tax and the music rights as for any performance. The France-pack rules that apply are
+listed below. Related: [CR-FR-176](../../../../10-country-packs/france/events/cr-fr-176-performing-arts-declaration.md),
 [CR-FR-177](../../../../10-country-packs/france/events/cr-fr-177-show-ticket-tax.md),
 [CR-FR-178](../../../../10-country-packs/france/events/cr-fr-178-occasional-organiser-guso.md),
 [CR-FR-179](../../../../10-country-packs/france/events/cr-fr-179-music-copyright-authorisation.md),

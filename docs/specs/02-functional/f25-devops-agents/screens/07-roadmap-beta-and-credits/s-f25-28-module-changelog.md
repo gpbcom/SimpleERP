@@ -4,7 +4,7 @@
 
 # 🖥️ S-F25-28 Module changelog
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

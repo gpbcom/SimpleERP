@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-03 Desk bookings send the same confirmation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

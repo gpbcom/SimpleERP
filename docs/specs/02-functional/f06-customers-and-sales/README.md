@@ -66,11 +66,11 @@ Step 3, Customers and sales, of the [roadmap](../../00-vision/roadmap/roadmap.md
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 |  | [Use cases](use-cases/README.md) | 🔄 |
-| 🔀 |  | [Flows](flows/README.md) | 🔄 |
-| 📏 |  | [Business rules](business-rules/README.md) | 🔄 |
-| 🗃️ |  | [Data](data/README.md) | 🔄 |
-| 🖥️ |  | [Screens](screens/README.md) | 🔄 |
+| 📝 |  | [Use cases](use-cases/README.md) | ✅ |
+| 🔀 |  | [Flows](flows/README.md) | ✅ |
+| 📏 |  | [Business rules](business-rules/README.md) | ✅ |
+| 🗃️ |  | [Data](data/README.md) | ✅ |
+| 🖥️ |  | [Screens](screens/README.md) | ✅ |
 | 🔑 |  | [Permissions](permissions.md) | ✅ |
 | 🔔 |  | [Notifications](notifications.md) | ✅ |
 | 📈 |  | [Reports](reports.md) | ✅ |
@@ -78,7 +78,7 @@ Step 3, Customers and sales, of the [roadmap](../../00-vision/roadmap/roadmap.md
 | 🤖 |  | [AI](ai.md) | ✅ |
 | ⚖️ |  | [Regulatory](regulatory.md) | ✅ |
 | ❓ |  | [Open questions](open-questions.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 
 ---
 

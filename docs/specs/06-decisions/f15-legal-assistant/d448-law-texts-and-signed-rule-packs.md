@@ -41,7 +41,7 @@ Revises D205, D206, D199 and D207. BR-F15-09, REQ-T11-01, REQ-T11-03, REQ-T07-05
 - [D205](d205-law-packs-fed-from-official-apis.md)
 - [D206](d206-unattended-pulls-without-test-gate.md)
 - [D207](d207-copyrighted-standards-register.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

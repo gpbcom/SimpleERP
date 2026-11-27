@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-26 Apply a wage garnishment
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -78,7 +78,7 @@ Payroll officer only; the employee sees the deduction on their payslip; no manag
 
 ## Notifications
 
-- The employee is told by the payroll officer's letter (Proposed) generated with the first deduction; the payroll
+- The employee is told by the payroll officer's letter generated with the first deduction; the payroll
   officer is told when an order is settled.
 
 ## Audit events
@@ -137,7 +137,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 ## Regulatory references
 
-Seizure of wages: (Proposed) to read for the France pack (Code du travail L3252-1 and R3252-2 and following).
+Seizure of wages: (⚖️ lawyer review before launch, D574) to read for the France pack: Code du travail L3252-1 and
+R3252-2 and following.
 
 ## Related use cases
 

@@ -7,13 +7,16 @@
 
 ## Statement
 
-(Proposed) Invoices to public buyers go through Chorus Pro with the buyer's references, and their payment period is
+Invoices to public buyers go through Chorus Pro with the buyer's references, and their payment period is
 followed; in France:
 [CR-FR-091 Public contracts: payment period and Chorus Pro](../../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md).
 
 ## Why
 
-(Proposed) The articles are still to read.
+Every invoice of a public contract goes through Chorus Pro, and the public buyer pays within 30 days (the State, public
+bodies, local authorities), 50 days (health establishments) or 60 days (other public companies), late interest and a
+40 EUR indemnity applying after that
+([CR-FR-091 Public contracts: payment period and Chorus Pro](../../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md)).
 
 ## Examples
 

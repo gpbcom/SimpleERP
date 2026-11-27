@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F5-06 Audiences, consent and journeys
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F5-06 Audiences, consent and journeys](../../../flows/fl-f05-06-audiences-consent-and-journeys.md) for
 this persona, in light and dark mode (D120, D121). Errors follow the

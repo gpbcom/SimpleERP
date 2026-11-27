@@ -3,7 +3,7 @@
 
 # 📏 BR-SC11-17 Brokers keep their ORIAS registration current
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,7 +15,8 @@ it ends.
 
 Placing policies without a valid registration is an offence and leaves clients unprotected. The owner asked for
 insurance brokers ([D555](../../../06-decisions/sectors/d555-benchmark-gaps-sc11-professional-firms.md)). The
-France-pack rule is written later.
+France-pack rule is CR-FR-242: a yearly renewal on the ORIAS register, effective on 1 March and asked at least one month
+before, with the insurance and guarantee certificates.
 
 ## Examples
 
@@ -32,7 +33,7 @@ France-pack rule is written later.
 - [UC-SC11-22](../use-cases/07-notaries-brokers-officers-and-auditors/uc-sc11-22-run-an-insurance-brokerage.md)
 - [E-SC11-17 Policy](../data/e-sc11-17-policy.md)
 - [E-SC11-01 Client identity](../data/e-sc11-01-client-identity.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-242 Insurance brokers and ORIAS](../../../10-country-packs/france/professional-firms/cr-fr-242-insurance-brokers-orias.md)
 
 ## Exceptions

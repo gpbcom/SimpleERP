@@ -147,7 +147,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Trademarks, designs and patents are protected only while their renewal fees are paid on time, with a short
 grace period in some offices; the dates differ by right and country, so each right keeps its own dates. The France-pack
-rule is written later. Related:
+rule is [CR-FR-266 Renewing trademarks, designs and patents](../../../../10-country-packs/france/digital/cr-fr-266-industrial-property-renewals.md). Related:
 [CR-FR-203](../../../../10-country-packs/france/digital/cr-fr-203-software-copyright-assignment.md),
 [CR-FR-204](../../../../10-country-packs/france/digital/cr-fr-204-ai-generated-works.md),
 [CR-FR-197](../../../../10-country-packs/france/digital/cr-fr-197-fr-domain-eligibility.md).

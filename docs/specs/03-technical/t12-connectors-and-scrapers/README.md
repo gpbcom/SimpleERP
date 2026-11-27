@@ -41,7 +41,7 @@ networks), F6, F7 and F8 (payment, carriers, banks, e-invoicing), F15 and T11 (o
 | 🔌 |  | [Interfaces](interfaces/README.md) | ✅ |
 | 🗃️ |  | [Data](data/README.md) | ✅ |
 | 🖥️ |  | [Screens](screens/README.md) | ✅ |
-| 🖼️ |  | [Images](images/README.md) | 🔄 |
+| 🖼️ |  | [Images](images/README.md) | ✅ |
 | 🛡️ |  | [Security](security.md) | ✅ |
 | ⚙️ |  | [Operations](operations.md) | ✅ |
 | 🚨 |  | [Errors](errors.md) | ✅ |

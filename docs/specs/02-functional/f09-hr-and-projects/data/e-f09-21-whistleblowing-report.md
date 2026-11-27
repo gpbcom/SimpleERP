@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-21 Whistleblowing report
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -37,7 +37,7 @@ By code, for handlers.
 
 ## Retention
 
-(Proposed) to read: as the law sets after closing.
+(⚖️ lawyer review before launch, D574) to read: as the law sets after closing (law 2016-1691 art. 9 and decree 2022-1284).
 
 ## Audit
 

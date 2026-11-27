@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC02-01 | [Stores](s-sc02-01-stores.md) | 🔄 |
-| 🖥️ | S-SC02-02 | [Collections](s-sc02-02-collections.md) | 🔄 |
-| 🖥️ | S-SC02-05 | [Labels](s-sc02-05-labels.md) | 🔄 |
-| 🖥️ | S-SC02-06 | [Sales periods](s-sc02-06-sales-periods.md) | 🔄 |
+| 🖥️ | S-SC02-01 | [Stores](s-sc02-01-stores.md) | ✅ |
+| 🖥️ | S-SC02-02 | [Collections](s-sc02-02-collections.md) | ✅ |
+| 🖥️ | S-SC02-05 | [Labels](s-sc02-05-labels.md) | ✅ |
+| 🖥️ | S-SC02-06 | [Sales periods](s-sc02-06-sales-periods.md) | ✅ |

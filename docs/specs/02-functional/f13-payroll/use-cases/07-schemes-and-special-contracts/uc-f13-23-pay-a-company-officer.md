@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-23 Pay a company officer
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -32,7 +32,7 @@ Once or twice a year per officer.
 
 - The officer exists as a person in F9 with the officer flag and no employment contract, or with both (a cumulated
   contract).
-- The decision and its date are recorded (Proposed) as a file on the regime.
+- The decision and its date are recorded as a file on the regime.
 
 ## Postconditions
 
@@ -56,7 +56,7 @@ Once or twice a year per officer.
 ## Error flows
 
 - 3e. An unemployment insurance line is added by hand to an officer's pay: refused (BR-F13-17).
-- 4e. The decision file is missing: the payroll officer is asked for it before confirming (Proposed).
+- 4e. The decision file is missing: the payroll officer is asked for it before confirming.
 - Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
   (D122) and what was typed stays on the screen.
 
@@ -135,7 +135,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 ## Regulatory references
 
-Officers' contributions: (Proposed) to read for the France pack. Payslip:
+Officers' contributions: (⚖️ lawyer review before launch, D574) to read for the France pack: Code de la
+sécurité sociale L311-3 (officers assimilated to employees). Payslip:
 [CR-FR-182 The payslip](../../../../10-country-packs/france/payroll/cr-fr-182-payslip.md).
 
 ## Related use cases

@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC04-12 | [Quality](s-sc04-12-quality.md) | 🔄 |
-| 🖥️ | S-SC04-13 | [Carer skills](s-sc04-13-carer-skills.md) | 🔄 |
-| 🖥️ | S-SC04-14 | [Activity reports](s-sc04-14-activity-reports.md) | 🔄 |
+| 🖥️ | S-SC04-12 | [Quality](s-sc04-12-quality.md) | ✅ |
+| 🖥️ | S-SC04-13 | [Carer skills](s-sc04-13-carer-skills.md) | ✅ |
+| 🖥️ | S-SC04-14 | [Activity reports](s-sc04-14-activity-reports.md) | ✅ |

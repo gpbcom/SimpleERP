@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F15-05 Duties and records
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F15-05 Duties and records](../../../flows/fl-f15-05-duties-and-records.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

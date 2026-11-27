@@ -3,7 +3,7 @@
 
 # 🗃️ E-F17-17 Price index
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -17,7 +17,7 @@ The level of competitors' like-for-like prices against the company's own, per pr
 | date | date | yes | - | - | 2026-11-12 | no | no |
 | index | number | yes | 100 means the same price | computed | 104 | no | no |
 | basket | list | yes | like-for-like pairs (BR-F17-08) | - | 6 pairs | no | no |
-| points | count | yes | at least (Proposed) 3 | - | 18 | no | no |
+| points | count | yes | at least 3 | - | 18 | no | no |
 
 ## Relations
 

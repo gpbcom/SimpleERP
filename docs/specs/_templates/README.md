@@ -2,7 +2,7 @@
 
 # 🧱 Templates
 
-**Status:** ⬜ to specify
+**Status:** ✅ specified
 
 One template per page kind. A page of that kind has the template's sections, in the same order, none blank (check K02).
 

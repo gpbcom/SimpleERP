@@ -3,7 +3,7 @@
 
 # 🔀 FL-F24-08 AI connectors, office suites, warehouse and firms
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

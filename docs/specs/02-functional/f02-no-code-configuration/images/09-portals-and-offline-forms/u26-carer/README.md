@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F2-09 Portals and offline forms
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F2-09 Portals and offline forms](../../../flows/fl-f02-09-portals-and-offline-forms.md) for this persona,
 in light and dark mode (D120, D121). Errors follow the

@@ -3,7 +3,7 @@
 
 # 📜 D491 On a phone the list keeps its table and scrolls sideways
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-08 / D491)
+**Status:** ✅ decided
 
 ## Context
 
@@ -22,14 +22,14 @@ strip stays.
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 8).
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 8).
 
 ## Consequences
 
 - C-03 Data table: in an aggregated list view the rows no longer become cards on a phone (change of step S4).
 - [C-15 Facet panel](../../04-ux/design-system/components/c-15-facet-panel.md) has a drawer variant opened by "Facets".
-- The rule VR-14 of the [plan](../../../tickets/GH-2/resources/flowcharts-screens/PLAN.md#view-rules);
+- The rule VR-14 of the plan (the owner's interview notes of 2026-11 for the specifications, not kept in the repository);
   [Responsive](../../04-ux/design-system/responsive.md).
 
 ## Related
@@ -38,7 +38,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer
 - [C-03 Data table](../../04-ux/design-system/components/c-03-data-table.md)
 - [C-15 Facet panel](../../04-ux/design-system/components/c-15-facet-panel.md)
 - [Responsive](../../04-ux/design-system/responsive.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

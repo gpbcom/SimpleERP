@@ -4,7 +4,7 @@
 
 # 🖥️ S-F9-36 Readings to verify
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-25, VD-26 / D507, D508)
+**Status:** ✅ specified
 
 ## Personas
 
@@ -16,8 +16,7 @@ Verify each AI reading beside its source document: confirm, correct or reject.
 
 ## Entry points
 
-HR and projects › Qualifications › Readings to verify; the banner on S-F9-35; the daily summary of readings waiting
-(Proposed).
+HR and projects › Qualifications › Readings to verify; the banner on S-F9-35; the daily summary of readings waiting.
 
 ## Wireframe
 

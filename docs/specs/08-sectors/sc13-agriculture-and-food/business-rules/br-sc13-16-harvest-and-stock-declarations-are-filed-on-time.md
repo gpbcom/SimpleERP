@@ -3,7 +3,7 @@
 
 # 📏 BR-SC13-16 Harvest and stock declarations are filed on time
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -15,7 +15,8 @@ and kept out of the appellation. A declaration is not filed while a plot lacks i
 
 A late or incomplete declaration brings penalties and an excess sold as the appellation breaks its rules. The owner
 asked for vineyards ([D557](../../../06-decisions/sectors/d557-benchmark-gaps-sc13-agriculture-and-food.md)).
-The France-pack rule is written later.
+The France-pack rule is CR-FR-249: harvest and production declarations by 10 December for growers and 10 January
+for co-operatives, the stock held on 31 July declared by 10 September, all online.
 
 ## Examples
 
@@ -33,7 +34,7 @@ The France-pack rule is written later.
 - [E-SC13-17 Vine plot](../data/e-sc13-17-vine-plot.md)
 - [E-SC13-04 Lot](../data/e-sc13-04-lot.md)
 - [E-F8-06 Tax return](../../../02-functional/f08-accounting/data/e-f08-06-tax-return.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule, (⚖️ lawyer review before launch, D574) for the yield limit of each appellation (its specifications, INAO):
   [CR-FR-249 Harvest and stock declarations](../../../10-country-packs/france/agriculture/cr-fr-249-vineyard-declarations.md)
 
 ## Exceptions

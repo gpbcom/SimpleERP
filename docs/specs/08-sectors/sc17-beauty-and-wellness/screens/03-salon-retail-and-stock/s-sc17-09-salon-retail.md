@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-09 Salon retail
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

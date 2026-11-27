@@ -22,4 +22,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F5-09 Brand, tests and return on investment](09-brand-tests-and-return-on-investment/README.md) | 16 images |
 | 🖼️ |  | [Images: FL-F5-10 Cards, referrals, push and listening](10-referrals-push-and-listening/README.md) | 30 images |
 | 🖼️ |  | [Screen states](states/README.md) | 184 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

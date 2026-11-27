@@ -3,7 +3,7 @@
 
 # 📏 BR-SC01-19 Grants need the RGE label at signature
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,7 +15,7 @@ for that work only if the customer is told.
 
 A grant refused for a missing label falls on the customer, who then disputes the quote. The owner asked for
 energy-renovation grants ([D545](../../../06-decisions/sectors/d545-benchmark-gaps-sc01-construction.md)).
-The France-pack rule is written later.
+The France-pack rule is listed below.
 
 ## Examples
 
@@ -31,7 +31,7 @@ The France-pack rule is written later.
 - [UC-SC01-19](../use-cases/06-revision-developers-bim-and-grants/uc-sc01-19-prepare-renovation-grant-files.md)
 - [E-SC01-18 Grant file](../data/e-sc01-18-grant-file.md)
 - [E-F6-03 Quote](../../../02-functional/f06-customers-and-sales/data/e-f06-03-quote.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-226 Renovation grants and the RGE label](../../../10-country-packs/france/construction/cr-fr-226-renovation-grants-and-rge.md)
 
 ## Exceptions

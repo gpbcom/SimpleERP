@@ -7,8 +7,9 @@
 
 ## Summary
 
-Customers leave tips by card or in cash. The salon posts a sharing rule (for example an equal share among the staff on
-duty that day, or a share by hours worked) and applies it: each tip is recorded, shared at the end of the period and
+Customers leave tips by card or in cash. Tips go in full to the staff in contact with customers; the salon posts a
+sharing rule among them (for example an equal share among the staff on duty that day, or a share by hours worked) and
+applies it: each tip is recorded, shared at the end of the period and
 paid to the staff members, with a statement each can read.
 
 ## Personas
@@ -147,9 +148,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Tips paid by customers belong to the staff and are shared by the agreed key, which is posted; their tax and
-social treatment is a value of the France pack. Related:
-[CR-FR-113](../../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md).
+Tips paid by customers, and service charges added to the bill, go in full to the staff in contact with customers
+(Code du travail L3244-1); the law sets no sharing key, so the salon posts its own. Until 2028-12-31 tips are exempt
+from social contributions when monthly pay is under 1.6 Smic, and from income tax; from 2029-01-01 there is no
+exemption unless the law extends it. Related:
+[CR-FR-113 Tips and their sharing](../../../../10-country-packs/france/labour/cr-fr-113-tips-sharing.md).
 
 ## Related use cases
 

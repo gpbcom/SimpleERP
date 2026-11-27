@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC09-22 Eyewear
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,17 +4,18 @@
 
 # 🖥️ S-F18-30 Accessibility
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
 - [U12 Marketing and communication](../../../../01-users/personas/u12-marketing.md): the checks, the draft and the
-  published statement.
+  published accessibility information.
 - [U07 Administrator](../../../../01-users/personas/u07-administrator.md): the findings to fix on pages and templates.
 
 ## Purpose
 
-Check the site's accessibility, fix the gaps and publish an honest accessibility statement.
+Check the site's accessibility, fix the gaps and publish honest accessibility information (the page of
+[E-F18-22 Accessibility statement](../../data/e-f18-22-accessibility-statement.md), as BR-F18-24 and CR-FR-222 call it).
 
 ## Entry points
 
@@ -23,15 +24,17 @@ Hosted websites and domains › Accessibility; the publication checks; the shop 
 ## Wireframe
 
 ```text
-+---------------------------------------------------------------------------------------------+
-| Accessibility: atelier-nord.example   Last check 2026-11-10   Level: partly accessible [Check]  |
-|---------------------------------------------------------------------------------------------|
-| Automatic: 17 findings on 6 pages    Manual checks: 9 of 12 done    Statement: Draft           |
-| PAGE         FINDING                          HOW TO FIX                         STATE          |
-| /shop        Image without a text alternative  Add a description                 Open           |
-| /contact     Form field without a label        Name the field                    Fixed          |
-| Statement: standard, level, gaps, contact, complaint route        [Edit] [Ask approval]        |
-+---------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------+
+| Accessibility: atelier-nord.example   Last check 2026-11-10   Level: partly accessible [Check]   |
+|--------------------------------------------------------------------------------------------------|
+| Automatic: 17 findings on 6 pages  Manual checks: 9 of 12 done  Accessibility information: Draft |
+| PAGE         FINDING                          HOW TO FIX                         STATE           |
+| /shop        Image without a text alternative  Add a description                 Open            |
+| /contact     Form field without a label        Name the field                    Fixed           |
+| Requirements that apply: 4, from the country pack   How the site meets them: 3 of 4 written      |
+| Accessibility information: how the requirements are met, standard, level, [Edit] [Ask approval]  |
+|            gaps, contact, complaint route                                                        |
++--------------------------------------------------------------------------------------------------+
 ```
 
 **Example images** (as drawn in its flow, light and dark, D120):
@@ -54,7 +57,13 @@ Hosted websites and domains › Accessibility; the publication checks; the shop 
 | Findings | E-F18-22 findings | page, finding, state | state by administrator | no |
 | Known gaps | E-F18-22 gaps and reasons | text | by marketing | yes |
 | Contact and complaint route | E-F18-22 contact | email and text | by marketing | yes |
-| Statement text and address | E-F18-22 text, address | text and link | by marketing while Draft | yes |
+| Requirements that apply | E-F18-22 requirements that apply | list from the country pack | no | yes |
+| How the site meets them | E-F18-22 how the site meets them | text for each requirement | by marketing while Draft | yes |
+| Accessibility information text and address | E-F18-22 text, address | text and link | by marketing while Draft | yes |
+
+How the site meets the accessibility requirements that apply is what the law asks
+([CR-FR-222](../../../../10-country-packs/france/digital/cr-fr-222-accessibility-statement.md)); the standard, the level,
+the gaps, the contact and the complaint route are what SimpleERP adds (BR-F18-24).
 
 ## Actions
 
@@ -62,12 +71,12 @@ Hosted websites and domains › Accessibility; the publication checks; the shop 
 |---|---|---|---|
 | Check | header | marketing, administrator | runs the automatic criteria on every page |
 | Record a manual check | list | marketing, administrator | the result is saved with the page |
-| Ask approval | statement | marketing | the owner approves or returns it |
-| Publish | statement | owner | the statement goes live at its fixed address |
+| Ask approval | accessibility information | marketing | the owner approves or returns it |
+| Publish | accessibility information | owner | the accessibility information goes live at its fixed address, linked from the footer of every page and from the general terms, and stays published as long as the shop is offered (BR-F18-24) |
 
 ## States
 
-- Normal: the findings, the manual checks and the draft or published statement.
+- Normal: the findings, the manual checks and the draft or published accessibility information.
 - Empty: No check yet, with Check the site.
 - Loading: the headings and the table as placeholders; the values follow.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); a page that

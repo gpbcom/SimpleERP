@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC02-16 Book trade
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

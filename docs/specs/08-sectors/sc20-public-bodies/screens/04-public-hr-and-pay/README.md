@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC20-13 | [Grades and steps](s-sc20-13-grades-and-steps.md) | 🔄 |
-| 🖥️ | S-SC20-14 | [Statutory pay](s-sc20-14-statutory-pay.md) | 🔄 |
-| 🖥️ | S-SC20-15 | [Public contributions](s-sc20-15-public-contributions.md) | 🔄 |
-| 🖥️ | S-SC20-16 | [Budget assistant](s-sc20-16-budget-assistant.md) | 🔄 |
+| 🖥️ | S-SC20-13 | [Grades and steps](s-sc20-13-grades-and-steps.md) | ✅ |
+| 🖥️ | S-SC20-14 | [Statutory pay](s-sc20-14-statutory-pay.md) | ✅ |
+| 🖥️ | S-SC20-15 | [Public contributions](s-sc20-15-public-contributions.md) | ✅ |
+| 🖥️ | S-SC20-16 | [Budget assistant](s-sc20-16-budget-assistant.md) | ✅ |

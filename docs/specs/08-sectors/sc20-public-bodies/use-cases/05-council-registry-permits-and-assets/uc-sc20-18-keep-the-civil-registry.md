@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-18 Keep the civil registry
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -33,7 +33,8 @@ A few acts a week for a commune, many extracts.
 ## Preconditions
 
 - The office worker is appointed or delegated to keep the registry.
-- The civil-status software is certified or approved where the law requires it.
+- A registry kept by automated processing meets the security and integrity characteristics set by decree (Code civil
+  40).
 - The citizen has a portal account for extracts
   [UC-F2-20](../../../../02-functional/f02-no-code-configuration/use-cases/09-portals-and-offline-forms/uc-f02-20-expose-a-record-type-on-a-portal.md).
 
@@ -145,15 +146,23 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Civil-status acts of birth, marriage and death are written by the civil-status officer, signed and kept in a
-register; an act is not changed after it is signed: a correction is made by a margin note or by a court's decision, and
-full copies are limited to those entitled. Software used to keep the registry usually has to be certified. Personal data
-of the registry are not erased on request. The register's kinds, delays and entitlements are data of the France pack.
-Related: [CR-FR-051](../../../../10-country-packs/france/data-protection/cr-fr-051-access-and-erasure.md),
+Civil-status acts of birth, marriage and death are drawn up by the civil-status officer, signed by the officer, the
+parties and the witnesses, and kept in registers in two copies; an act is not changed after it is signed: a later event
+is added as a margin note within 3 days, and a rectification is ordered by the president of the tribunal or, for a
+purely material error, made by the officer or on the prosecutor's order; it binds everyone once published on the
+registers, and a copy is issued only with it (Code civil 34 to 54, 99 to 101). A commune that keeps the registry by
+automated processing ensures its security and integrity under technical characteristics set by decree, and is then
+exempt from the second copy (art. 40); no certification of the software is required. Full copies of birth and
+marriage acts go only to the person, close family, the legal representative, a mandated person, the prosecutor, the
+officer, the notary and the authorised administrations; death acts to anyone; the others need the prosecutor's leave
+(décret n° 2017-890, art. 30); the registry's personal data are not erased on request, the processing being a legal
+obligation (GDPR art. 17(3)(b)). The register's kinds, delays
+and entitlements are data of the France pack. Related:
+[CR-FR-051](../../../../10-country-packs/france/data-protection/cr-fr-051-access-and-erasure.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md),
 [CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule (the acts, their rectification and the copies read):
   [CR-FR-260 Civil registry records](../../../../10-country-packs/france/company/cr-fr-260-civil-registry.md)
 
 ## Related use cases

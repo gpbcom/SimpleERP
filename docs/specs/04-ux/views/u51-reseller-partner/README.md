@@ -43,10 +43,10 @@ Home · Customers and sales · Online shop · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U51-01 | [Grow the partner business](journeys/j-u51-01-grow-the-partner-business.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U51-01 | [Grow the partner business](journeys/j-u51-01-grow-the-partner-business.md) | ✅ |
 
 ---
 

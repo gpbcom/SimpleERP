@@ -3,7 +3,7 @@
 
 # 📏 BR-SC08-16 Members with a conflict do not vote
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,8 +15,8 @@ them.
 
 A decision taken with a conflicted member can be challenged by an applicant or by the tax authority and puts the
 foundation's status at risk. The owner asked for grant-making foundations
-([D552](../../../06-decisions/sectors/d552-benchmark-gaps-sc08-non-profit.md)). (Proposed) The France-pack rule is
-written later.
+([D552](../../../06-decisions/sectors/d552-benchmark-gaps-sc08-non-profit.md)). The France-pack rule is
+[CR-FR-277 Conflicts of interest in associations and foundations](../../../10-country-packs/france/non-profit/cr-fr-277-conflicts-of-interest-in-foundations.md).
 
 ## Examples
 

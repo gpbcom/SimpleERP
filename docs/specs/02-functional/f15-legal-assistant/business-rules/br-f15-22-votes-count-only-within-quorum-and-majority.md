@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-22 Votes count only within quorum and majority
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,7 +15,9 @@ outside the quorum count for nothing.
 
 A decision taken by too few shareholders or by too small a majority is open to challenge. The owner asked for
 shareholder meetings ([D534](../../../06-decisions/f15-legal-assistant/d534-benchmark-gaps-f15-legal-assistant.md)).
-(Proposed) The France-pack rule is written later.
+The France-pack rule is
+[CR-FR-221 Shareholders' general meetings](../../../10-country-packs/france/company/cr-fr-221-general-meetings.md): notice delays,
+quorum and majority by company form, as the statutes say in an SAS.
 
 ## Examples
 
@@ -32,7 +34,7 @@ shareholder meetings ([D534](../../../06-decisions/f15-legal-assistant/d534-benc
 - [UC-F15-18](../use-cases/07-equity-contracts-and-disputes/uc-f15-18-run-a-shareholders-general-meeting.md)
 - [E-F15-19 General meeting](../data/e-f15-19-general-meeting.md)
 - [E-F15-15 Shareholding](../data/e-f15-15-shareholding.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-221 Shareholders' general meetings](../../../10-country-packs/france/company/cr-fr-221-general-meetings.md)
 
 ## Exceptions

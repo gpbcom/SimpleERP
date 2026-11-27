@@ -13,7 +13,7 @@ Covers UC-F7-01, UC-F7-02, UC-F7-04, UC-F7-12.
 
 See each use case.
 
-- [U10 Supplier](../../../01-users/personas/u10-supplier.md), acting in the chart, step 36i (Proposed)
+- [U10 Supplier](../../../01-users/personas/u10-supplier.md), acting in the chart, step 36i
 
 ## Flowchart
 

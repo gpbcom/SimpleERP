@@ -15,8 +15,8 @@ Spend the voted budget inside the rules of public accounting and public procurem
 
 ## Journey
 
-Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are a proposal, drawn from the
-specs, for the owner to confirm.
+Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are drawn from the
+specs and confirmed by the owner (D572).
 
 ```mermaid
 journey

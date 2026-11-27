@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC19-03 Home services tax credit
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -52,7 +52,7 @@ sequenceDiagram
   W->>S: Do the visits and record the hours
   A->>S: Issue the yearly certificate
   A->>S: Send the advance claim
-  H->>S: Confirm the claim
+  H->>S: Validate the claim within 48 hours
 ```
 
 ## Steps

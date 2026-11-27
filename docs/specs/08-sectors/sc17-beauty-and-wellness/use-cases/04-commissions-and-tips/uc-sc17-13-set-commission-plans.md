@@ -152,7 +152,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 A commission is part of an employee's pay and follows the contract and the collective rules; it is computed
-by the plan agreed in writing. The France-pack rule is written later.
+by the plan agreed in writing. The France-pack rule is [CR-FR-291 Commissions in pay](../../../../10-country-packs/france/payroll/cr-fr-291-commissions-in-pay.md).
 
 ## Related use cases
 

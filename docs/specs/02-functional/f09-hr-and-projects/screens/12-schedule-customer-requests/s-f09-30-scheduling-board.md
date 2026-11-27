@@ -4,7 +4,7 @@
 
 # 🖥️ S-F9-30 Scheduling board
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-30, VD-33 / D501, D512, D515)
+**Status:** ✅ specified
 
 ## Personas
 

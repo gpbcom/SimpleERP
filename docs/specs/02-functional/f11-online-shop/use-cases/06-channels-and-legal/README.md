@@ -13,4 +13,4 @@ The use cases of this flow.
 | | ID | Page | Status |
 |---|---|---|---|
 | 📝 | UC-F11-18 | [Connect marketplaces and other shops](uc-f11-18-connect-marketplaces-and-other-shops.md) | ✅ |
-| 📝 | UC-F11-19 | [Publish the legal pages](uc-f11-19-publish-the-legal-pages.md) | 🔄 |
+| 📝 | UC-F11-19 | [Publish the legal pages](uc-f11-19-publish-the-legal-pages.md) | ✅ |

@@ -50,7 +50,13 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f05-05-social-inbox-e-f05-04-social-message-turned-into-a-request-desktop.html`
 - `s-f05-05-social-inbox-e-f05-04-social-message-turned-into-a-request-phone.html`
 - `s-f05-05-social-inbox-e-f06-20-lead-active-desktop.html`
+- `s-f05-05-social-inbox-e-f06-20-lead-qualified-desktop.html`
+- `s-f05-05-social-inbox-e-f06-20-lead-disqualified-desktop.html`
+- `s-f05-05-social-inbox-e-f06-20-lead-converted-desktop.html`
 - `s-f05-05-social-inbox-e-f06-20-lead-active-phone.html`
+- `s-f05-05-social-inbox-e-f06-20-lead-qualified-phone.html`
+- `s-f05-05-social-inbox-e-f06-20-lead-disqualified-phone.html`
+- `s-f05-05-social-inbox-e-f06-20-lead-converted-phone.html`
 - `s-f05-07-social-accounts-e-f05-02-social-account-active-desktop.html`
 - `s-f05-07-social-accounts-e-f05-02-social-account-active-phone.html`
 - `s-f05-08-email-campaign-e-f05-05-email-or-sms-campaign-draft-desktop.html`
@@ -132,7 +138,13 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f05-19-landing-page-editor-e-f05-13-landing-page-and-form-published-desktop.html`
 - `s-f05-19-landing-page-editor-e-f05-13-landing-page-and-form-published-phone.html`
 - `s-f05-19-landing-page-editor-e-f06-20-lead-active-desktop.html`
+- `s-f05-19-landing-page-editor-e-f06-20-lead-qualified-desktop.html`
+- `s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-desktop.html`
+- `s-f05-19-landing-page-editor-e-f06-20-lead-converted-desktop.html`
 - `s-f05-19-landing-page-editor-e-f06-20-lead-active-phone.html`
+- `s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone.html`
+- `s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone.html`
+- `s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone.html`
 - `s-f05-20-whatsapp-business-e-f05-04-social-message-answered-desktop.html`
 - `s-f05-20-whatsapp-business-e-f05-04-social-message-answered-phone.html`
 - `s-f05-20-whatsapp-business-e-f05-04-social-message-hidden-desktop.html`

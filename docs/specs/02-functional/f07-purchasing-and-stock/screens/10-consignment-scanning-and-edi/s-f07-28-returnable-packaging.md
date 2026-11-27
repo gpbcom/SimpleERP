@@ -3,7 +3,7 @@
 
 # 🖥️ S-F7-28 Returnable packaging
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

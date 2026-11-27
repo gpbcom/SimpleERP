@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-16 Salon AI assistant
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

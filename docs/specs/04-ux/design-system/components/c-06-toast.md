@@ -3,7 +3,7 @@
 
 # 🧩 C-06 Toast
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -29,7 +29,7 @@ An icon, one sentence, an optional action and a close button.
 ## Variants
 
 - **Success:** a check icon.
-- **Information:** (Proposed) an information icon, for something done in the background, such as an export ready to
+- **Information:** an information icon, for something done in the background, such as an export ready to
   download. A lost network is a banner, not a toast ([error message pattern](../patterns/error-messages.md)).
 - **With an action:** such as Undo, when the action can be reverted
   ([D158](../../../06-decisions/f03-assistant/d158-assistant-undo.md)).
@@ -41,13 +41,13 @@ Notifications that must be kept go to the bell of the top bar
 ## States
 
 Entering (150 ms, [Motion](../../visual-identity/motion.md)), shown, paused while hovered or focused, leaving.
-(Proposed) A toast without an action closes after 6 seconds; a toast with an action stays until closed or until the user
-leaves the page. At most one toast at a time (Proposed): a new one replaces the old.
+A toast without an action closes after 6 seconds; a toast with an action stays until closed or until the user
+leaves the page. At most one toast at a time: a new one replaces the old.
 
 ## Tokens
 
-(Proposed, as drawn) `color-text` background with `color-surface` text, so it stands out in both modes; radius 8 px;
-`elevation-2`; `font-body`; icons at 20 px. Position (Proposed): bottom right on a desktop, above the bottom tab bar on
+`color-text` background with `color-surface` text, so it stands out in both modes; radius 8 px;
+`elevation-2`; `font-body`; icons at 20 px. Position: bottom right on a desktop, above the bottom tab bar on
 a phone.
 
 ## Accessibility

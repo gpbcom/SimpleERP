@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-08 Coach planning
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

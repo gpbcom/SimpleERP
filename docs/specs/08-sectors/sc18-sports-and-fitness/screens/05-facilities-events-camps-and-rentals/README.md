@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC18-17 | [Court booking](s-sc18-17-court-booking.md) | 🔄 |
-| 🖥️ | S-SC18-18 | [Tournaments](s-sc18-18-tournaments.md) | 🔄 |
-| 🖥️ | S-SC18-19 | [Holiday camps](s-sc18-19-holiday-camps.md) | 🔄 |
-| 🖥️ | S-SC18-20 | [Equipment rental](s-sc18-20-equipment-rental.md) | 🔄 |
+| 🖥️ | S-SC18-17 | [Court booking](s-sc18-17-court-booking.md) | ✅ |
+| 🖥️ | S-SC18-18 | [Tournaments](s-sc18-18-tournaments.md) | ✅ |
+| 🖥️ | S-SC18-19 | [Holiday camps](s-sc18-19-holiday-camps.md) | ✅ |
+| 🖥️ | S-SC18-20 | [Equipment rental](s-sc18-20-equipment-rental.md) | ✅ |

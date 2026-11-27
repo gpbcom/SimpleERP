@@ -4,7 +4,7 @@
 
 # 📝 UC-F8-24 Compute and pay corporate tax and local business taxes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -125,7 +125,7 @@ None.
 
 ## Regulatory references
 
-[CR-FR-011](../../../../10-country-packs/france/tax-and-vat/cr-fr-011-vat-returns-and-filings.md); (Proposed) to read:
+[CR-FR-011](../../../../10-country-packs/france/tax-and-vat/cr-fr-011-vat-returns-and-filings.md); (⚖️ lawyer review before launch, D574) to read:
 CGI articles 219 and 1668 on corporate tax.
 
 ## Related use cases

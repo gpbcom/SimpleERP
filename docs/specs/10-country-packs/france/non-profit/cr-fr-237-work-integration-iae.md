@@ -3,20 +3,36 @@
 
 # ⚖️ CR-FR-237 Work-integration enterprises (IAE)
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) A work-integration enterprise is approved by the State for its type of structure. Each person it employs is
-approved by the employment service for a limited time, and the State pays an aid for each approved position, in
-proportion to the time worked and by type of structure. The structure reports its exits and results.
+A work-integration structure signs an agreement with the State for its type of structure. Each person it employs is
+found eligible for an integration path by a listed prescriber or by the structure, through the Plateforme de
+l'inclusion, and the State pays an aid for each full-time position, made of a base amount and a modulated amount,
+reduced in proportion to the contract hours below 35 hours and to the occupation of the post. The structure sends the
+State each year its accounts and an activity report with the results of the people who left ([Code du travail, art.
+L5132-2 to L5132-4](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006178132/);
+[R5132-1-6, R5132-3, R5132-7 to
+R5132-10](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018494516/), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Approval of the structure and of each person.
-- (Proposed) Aid per position by type of structure.
-- (Proposed) Personal and social notes are sensitive data kept apart.
-- (Proposed) SimpleERP enforces: aid per position follows the approval.
+- The structure signs an agreement (convention) with the State, by type: integration enterprise, temporary-work
+  integration enterprise, intermediate association, integration workshop and site (L5132-2, L5132-4); the person's
+  eligibility for an integration path is assessed by a prescriber listed by ministerial order or by the structure
+  itself, which opens the State aid (L5132-3, since 2025-01-01); fixed-term contracts are renewable up to 24 months in
+  total ([Code du travail, art. L5132-1 to
+  L5132-17](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006178132/), read
+  2026-11-27).
+- Aid per position by type of structure: for an integration enterprise, a base amount and a modulated amount set each
+  year by the prefect, per full-time position, reduced in proportion to the post's occupation and to contract hours
+  below 35 (R5132-7, R5132-8, R5132-10, since 2022-06-23); the amounts are set by a joint arrêté and revised each year
+  with the minimum wage ([Code du travail, art. R5132-1 to R5132-47](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018494516/), read 2026-11-27); the other structure types have
+  their own sections, not re-read. Also read: a decree sets how the State aid is granted (L5132-3); the amounts and
+  the rule by hours are not in the law ([Code du travail](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006178132/), read 2026-11-27).
+- Personal and social notes are sensitive data kept apart.
+- SimpleERP enforces: aid per position follows the approval.
 - Read on [Service-public F2284](https://www.service-public.gouv.fr/particuliers/vosdroits/F2284) (verified 16 October
   2026); the pass IAE, the eligibility criteria, state aid and the structures' own obligations are not on the page:
 - Read: four structures hire people with social difficulties: entreprise d'insertion (CDDI), temporary-work integration
@@ -30,11 +46,11 @@ proportion to the time worked and by type of structure. The structure reports it
 
 ## Legal references
 
-- Law to read: work-integration enterprises (not read yet).
+- Code du travail L5132-1 to L5132-17, R5132-1 to R5132-47; arrêté du 4 décembre 2024 (amounts, not read).
 
 ## Effective dates
 
-(Proposed) To read.
+L5132-2 since 2021-06-15; L5132-3 since 2025-01-01 (loi n° 2023-1196) ([Code du travail](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006178132/), read 2026-11-27).
 
 ## Enforced by
 
@@ -56,7 +72,7 @@ None stated.
 
 ## Open questions
 
-The law on work-integration enterprises is not read yet; the values are to read before launch.
+The aid amounts of each year's arrêté are data of the pack; the 2026 arrêté is not read.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

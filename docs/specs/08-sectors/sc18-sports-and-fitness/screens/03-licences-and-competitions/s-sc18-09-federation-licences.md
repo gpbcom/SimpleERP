@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-09 Federation licences
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

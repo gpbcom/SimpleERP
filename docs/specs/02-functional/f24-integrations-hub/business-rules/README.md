@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -23,14 +23,14 @@ One file per rule.
 | 📏 | BR-F24-10 | [Disconnect cleanly](br-f24-10-disconnect-cleanly.md) | ✅ |
 | 📏 | BR-F24-11 | [Connector costs are metered](br-f24-11-connector-costs-metered.md) | ✅ |
 | 📏 | BR-F24-12 | [The catalogue covers every business category](br-f24-12-the-catalogue-covers-every-business-category.md) | ✅ |
-| 📏 | BR-F24-13 | [Automation tools through signed webhooks and the API](br-f24-13-automation-tools-through-signed-webhooks-and-the-api.md) | 🔄 |
+| 📏 | BR-F24-13 | [Automation tools through signed webhooks and the API](br-f24-13-automation-tools-through-signed-webhooks-and-the-api.md) | ✅ |
 | 📏 | BR-F24-14 | [HR and payroll software imports with their history](br-f24-14-hr-and-payroll-software-imports-with-their-history.md) | ✅ |
 | 📏 | BR-F24-15 | [The e-invoicing platform connected step by step](br-f24-15-the-e-invoicing-platform-connected-step-by-step.md) | ✅ |
-| 📏 | BR-F24-16 | [Every integration shows its icon](br-f24-16-every-integration-shows-its-icon.md) | 🔄 |
-| 📏 | BR-F24-17 | [An AI-built connector runs in the sandbox first](br-f24-17-an-ai-built-connector-runs-in-the-sandbox-first.md) | 🔄 |
-| 📏 | BR-F24-18 | [Suite access uses the fewest scopes needed](br-f24-18-suite-access-uses-the-fewest-scopes-needed.md) | 🔄 |
-| 📏 | BR-F24-19 | [Exports follow field rights and masking](br-f24-19-exports-follow-field-rights-and-masking.md) | 🔄 |
-| 📏 | BR-F24-20 | [One side is the master per period](br-f24-20-one-side-is-the-master-per-period.md) | 🔄 |
+| 📏 | BR-F24-16 | [Every integration shows its icon](br-f24-16-every-integration-shows-its-icon.md) | ✅ |
+| 📏 | BR-F24-17 | [An AI-built connector runs in the sandbox first](br-f24-17-an-ai-built-connector-runs-in-the-sandbox-first.md) | ✅ |
+| 📏 | BR-F24-18 | [Suite access uses the fewest scopes needed](br-f24-18-suite-access-uses-the-fewest-scopes-needed.md) | ✅ |
+| 📏 | BR-F24-19 | [Exports follow field rights and masking](br-f24-19-exports-follow-field-rights-and-masking.md) | ✅ |
+| 📏 | BR-F24-20 | [One side is the master per period](br-f24-20-one-side-is-the-master-per-period.md) | ✅ |
 
 ---
 

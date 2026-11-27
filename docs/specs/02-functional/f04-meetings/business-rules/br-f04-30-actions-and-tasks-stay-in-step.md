@@ -3,12 +3,12 @@
 
 # 📏 BR-F4-30 Actions and tasks stay in step
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 An action turned into a task shares its status, owner and due date with the task in both directions; on a simultaneous
-change, the task's wins (Proposed).
+change, the task's wins.
 
 ## Why
 

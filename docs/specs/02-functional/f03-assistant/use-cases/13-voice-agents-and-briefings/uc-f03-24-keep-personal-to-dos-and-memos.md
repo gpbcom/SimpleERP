@@ -4,7 +4,7 @@
 
 # 📝 UC-F3-24 Keep personal to-dos and memos
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -148,8 +148,9 @@ A to-do is saved in under 1 second and works offline on the phone, syncing later
 
 ## Regulatory references
 
-A private list of personal notes: not accessible to the employer by design (Proposed: the France pack rule on private
-notes is written later).
+A private list of personal notes: not accessible to the employer by design. (⚖️ lawyer review before launch, D574) The France-pack rule
+on private notes is still to write: to read Code du travail L1121-1 and the case law on files an employee marks as
+personal.
 
 ## Related use cases
 

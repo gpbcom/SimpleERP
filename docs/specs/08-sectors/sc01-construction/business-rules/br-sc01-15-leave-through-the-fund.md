@@ -7,13 +7,15 @@
 
 ## Statement
 
-(Proposed) Site workers' paid leave is paid by the construction paid-leave fund; payroll records the contributions; in
+Site workers' paid leave is paid by the construction paid-leave fund; payroll records the contributions; in
 France:
 [CR-FR-088 Construction paid-leave fund](../../../10-country-packs/france/labour/cr-fr-088-btp-paid-leave-fund.md).
 
 ## Why
 
-(Proposed) Which employers must join is still to read.
+The firms covered by the extended building and public works collective agreements, their attached quarries and
+workshops, and foreign firms posting workers to France join the fund
+([CR-FR-088 Construction paid-leave fund](../../../10-country-packs/france/labour/cr-fr-088-btp-paid-leave-fund.md)).
 
 ## Examples
 

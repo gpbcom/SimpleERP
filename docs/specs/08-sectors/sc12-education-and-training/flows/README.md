@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -15,7 +15,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC12-03 | [Deliver and assess](fl-sc12-03-deliver-and-assess.md) | ✅ |
 | 🔀 | FL-SC12-04 | [Quality and reports](fl-sc12-04-quality-and-reports.md) | ✅ |
 | 🔀 | FL-SC12-05 | [Private school](fl-sc12-05-private-school.md) | ✅ |
-| 🔀 | FL-SC12-06 | [Apprentices, driving schools, nurseries, canteens](fl-sc12-06-apprentices-driving-nurseries-and-canteens.md) | 🔄 |
+| 🔀 | FL-SC12-06 | [Apprentices, driving schools, nurseries, canteens](fl-sc12-06-apprentices-driving-nurseries-and-canteens.md) | ✅ |
 
 ---
 

@@ -152,13 +152,13 @@ flowchart LR
 
 In the fewest steps ([REQ-T12-14](../03-technical/t12-connectors-and-scrapers/requirements/req-t12-14-fewest-steps.md)):
 
-1. (Proposed) The administrator picks the platform in the connector catalogue.
-2. (Proposed) They sign in on the platform (OAuth) or paste its API key; the secret goes to the vault
+1. The administrator picks the platform in the connector catalogue.
+2. They sign in on the platform (OAuth) or paste its API key; the secret goes to the vault
    ([REQ-T12-08](../03-technical/t12-connectors-and-scrapers/requirements/req-t12-08-credential-vault.md)), never to the
    configuration or the logs.
-3. (Proposed) SimpleERP registers the company's SIREN and the SIRETs of its sites (D453) with the platform and checks
+3. SimpleERP registers the company's SIREN and the SIRETs of its sites (D453) with the platform and checks
    the directory entry.
-4. (Proposed) A test invoice goes through the platform's sandbox before the first real one.
+4. A test invoice goes through the platform's sandbox before the first real one.
 
 A company may use one platform to issue and another to receive, and change at any time (DGFiP FAQ, sections 2.1 and
 2.2): new flows go to the new platform, invoices in flight finish on the old one, and the history stays in SimpleERP.

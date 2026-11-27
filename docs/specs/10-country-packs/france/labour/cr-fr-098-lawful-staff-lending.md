@@ -24,7 +24,7 @@ first.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2024-04-17: L8241-1 in force since 2015-04-04, L8241-2 since 2018-01-01, L8241-3 since 2024-04-17 ([Code du travail, art. L8241-1 to L8241-3](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006178275), read 2026-11-27).
 
 ## Enforced by
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F14-06 Manage licences and seats
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -50,7 +50,7 @@ Monthly review.
 
 ## Error flows
 
-- 3e. Renewal payment fails: the owner is told and retried (Proposed) after 3 days.
+- 3e. Renewal payment fails: the owner is told and retried after 3 days.
 - Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
   (D122) and what was typed stays on the screen.
 

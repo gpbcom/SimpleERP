@@ -42,10 +42,10 @@ Home · Client companies · Updates · Backups · Support.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U11-01 | [Run many client companies](journeys/j-u11-01-run-client-companies.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U11-01 | [Run many client companies](journeys/j-u11-01-run-client-companies.md) | ✅ |
 
 ---
 

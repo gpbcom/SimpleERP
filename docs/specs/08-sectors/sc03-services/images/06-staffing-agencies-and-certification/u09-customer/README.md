@@ -3,7 +3,7 @@
 
 # 🖼️ FL-SC03-06 Staffing, agencies, certification and tender library
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC03-06 Staffing, agencies, certification and tender library](../../../flows/fl-sc03-06-staffing-agencies-and-certification.md)

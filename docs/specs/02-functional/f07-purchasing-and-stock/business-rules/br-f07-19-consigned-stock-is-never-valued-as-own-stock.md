@@ -4,7 +4,7 @@
 
 # 📏 BR-F7-19 Consigned stock is never valued as own stock
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

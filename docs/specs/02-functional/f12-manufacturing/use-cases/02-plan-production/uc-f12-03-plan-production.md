@@ -4,7 +4,7 @@
 
 # 📝 UC-F12-03 Plan production
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -118,7 +118,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-A plan of 1,000 items within a minute (Proposed).
+A plan of 1,000 items within a minute.
 
 ## Regulatory references
 

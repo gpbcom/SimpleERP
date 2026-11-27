@@ -47,7 +47,7 @@ See each use case.
 | [E-F4-18 Recording notice](../data/e-f04-18-recording-notice.md) | Active | 2 [S-F4-09](../screens/07-prepare-and-capture-anywhere/s-f04-09-desktop-recorder.md) | Recording notices |
 | [E-F4-10 Chat channel](../data/e-f04-10-chat-channel.md) | Active | Shown elsewhere: [S-F4-15 Chat](../screens/10-benchmark-additions/s-f04-15-chat.md) | Chat channels |
 | [E-F4-02 Transcript](../data/e-f04-02-transcript.md) | Live, Complete, Checked | 2 [S-F4-09](../screens/07-prepare-and-capture-anywhere/s-f04-09-desktop-recorder.md) | Transcripts |
-| [E-F4-26 Employee calendar](../data/e-f04-26-employee-calendar.md) | Active (Proposed) | Shown elsewhere: [S-F4-24 Employee calendar](../screens/s-f04-24-employee-calendar.md) | Employee calendars |
+| [E-F4-26 Employee calendar](../data/e-f04-26-employee-calendar.md) | Active | Shown elsewhere: [S-F4-24 Employee calendar](../screens/s-f04-24-employee-calendar.md) | Employee calendars |
 
 ## Errors
 

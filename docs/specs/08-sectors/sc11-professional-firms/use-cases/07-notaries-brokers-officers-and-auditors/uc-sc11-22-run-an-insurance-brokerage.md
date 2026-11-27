@@ -5,7 +5,7 @@
 
 # 📝 UC-SC11-22 Run an insurance brokerage
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -157,11 +157,11 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 An insurance broker must be registered with the national registry of insurance intermediaries, renewed each
-year with proof of professional-liability insurance and a financial guarantee, and may place policies only while
-registered. The broker gives the client advice and information before the policy. The France-pack rule is listed below.
+year with proof of professional-liability insurance and a financial guarantee (the renewal takes effect on 1 March and
+is asked at least one month before), and may place policies only while registered. The broker gives the client advice and information before the policy. The France-pack rule is listed below.
 Related: [CR-FR-149](../../../../10-country-packs/france/professional-firms/cr-fr-149-aml-vigilance.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-242 Insurance brokers and ORIAS](../../../../10-country-packs/france/professional-firms/cr-fr-242-insurance-brokers-orias.md)
 
 ## Related use cases

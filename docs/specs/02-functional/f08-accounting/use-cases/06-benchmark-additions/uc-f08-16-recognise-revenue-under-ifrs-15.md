@@ -4,7 +4,7 @@
 
 # 📝 UC-F8-16 Recognise revenue under IFRS 15
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -116,7 +116,7 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: IFRS 15.
+(⚖️ lawyer review before launch, D574) to read: IFRS 15, as adopted in the EU by Regulation (EU) 2016/1905.
 
 ## Related use cases
 

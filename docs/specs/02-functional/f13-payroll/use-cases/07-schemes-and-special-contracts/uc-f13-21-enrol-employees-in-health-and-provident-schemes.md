@@ -5,7 +5,7 @@
 
 # 📝 UC-F13-21 Enrol employees in health and provident schemes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -65,7 +65,7 @@ At each hire; for the home-care example company (SC04), about 6 a month.
 - 3e. The exemption reason is not in the country pack's list: refused, the reason list is shown.
 - 4e. The pay run starts with an employee neither enrolled nor exempted: the employee is listed as an anomaly and the
   run cannot be approved for them (BR-F13-16).
-- 5e. The exemption proof has lapsed: flagged (Proposed) one month before; the employee is enrolled from the lapse date
+- 5e. The exemption proof has lapsed: flagged one month before; the employee is enrolled from the lapse date
   if no new proof arrives.
 - Any step: a service does not answer; the call is retried first (BR-F3-32), then the message follows the error pattern
   (D122) and what was typed stays on the screen.
@@ -89,7 +89,7 @@ their space. Managers never see shares or amounts (permissions page).
 
 - The payroll officer is told of each new employee to enrol, the day the contract is signed.
 - The employee receives their enrolment confirmation by email.
-- The payroll officer and HR are told (Proposed) one month before an exemption proof lapses.
+- The payroll officer and HR are told one month before an exemption proof lapses.
 
 ## Audit events
 
@@ -160,8 +160,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 ## Regulatory references
 
-Health and provident schemes: (Proposed) to read for the France pack (Code de la sécurité sociale L911-7, national
-agreement on executives' provident cover). Retention:
+Health and provident schemes: (⚖️ lawyer review before launch, D574) to read for the France pack: Code de la sécurité
+sociale L911-7, national agreement on executives' provident cover. Retention:
 [CR-FR-047 HR records retention](../../../../10-country-packs/france/labour/cr-fr-047-hr-records-retention.md).
 
 ## Related use cases

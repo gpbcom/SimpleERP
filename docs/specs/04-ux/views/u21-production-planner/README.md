@@ -3,7 +3,7 @@
 
 # 🗓️ Production planner: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a desktop. 
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Late orders; Quality alerts; Components missing.
 - Widgets: Load per work centre.
@@ -38,16 +38,16 @@ The app shell of [D47](../../../06-decisions/ux/d47-app-shell.md) on a desktop. 
 
 ## Navigation
 
-(Proposed) Home · Planning · Manufacturing · Quality · Maintenance · Reports.
+Home · Planning · Manufacturing · Quality · Maintenance · Reports.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U21-01 | [Plan and follow production](journeys/j-u21-01-plan-and-follow-production.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U21-01 | [Plan and follow production](journeys/j-u21-01-plan-and-follow-production.md) | ✅ |
 
 ---
 

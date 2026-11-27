@@ -3,7 +3,7 @@
 
 # 🗃️ E-F3-17 Evaluation question
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -38,7 +38,7 @@ By topic and status.
 
 ## Retention
 
-While active, then 1 year (Proposed).
+While active, then 1 year.
 
 ## Audit
 

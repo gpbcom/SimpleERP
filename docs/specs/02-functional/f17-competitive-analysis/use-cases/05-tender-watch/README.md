@@ -11,4 +11,4 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F17-21 | [Watch tenders to answer](uc-f17-21-watch-tenders-to-answer.md) | 🔄 |
+| 📝 | UC-F17-21 | [Watch tenders to answer](uc-f17-21-watch-tenders-to-answer.md) | ✅ |

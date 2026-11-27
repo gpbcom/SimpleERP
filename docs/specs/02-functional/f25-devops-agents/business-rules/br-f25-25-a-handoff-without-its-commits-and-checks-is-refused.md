@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-25 A handoff without its commits and checks is refused
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -45,7 +45,7 @@ None.
 
 ## Configurable
 
-(Proposed) The contract may ask for more evidence than these items, such as screenshots for a screen change, never for
+The contract may ask for more evidence than these items, such as screenshots for a screen change, never for
 less.
 
 ## Open questions

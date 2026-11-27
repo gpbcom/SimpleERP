@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -15,7 +15,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC05-03 | [Packaging](fl-sc05-03-packaging.md) | ✅ |
 | 🔀 | FL-SC05-04 | [Quality system](fl-sc05-04-quality-system.md) | ✅ |
 | 🔀 | FL-SC05-05 | [Suppliers and customers](fl-sc05-05-suppliers-and-customers.md) | ✅ |
-| 🔀 | FL-SC05-06 | [Excise, refurbishment, personalisation and cutting](fl-sc05-06-excise-refurbishment-and-cutting.md) | 🔄 |
+| 🔀 | FL-SC05-06 | [Excise, refurbishment, personalisation and cutting](fl-sc05-06-excise-refurbishment-and-cutting.md) | ✅ |
 
 ---
 

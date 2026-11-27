@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U38-01 | [Fill and fund a session](j-u38-01-fill-and-fund-a-session.md) | 🔄 |
+| 🧭 | J-U38-01 | [Fill and fund a session](j-u38-01-fill-and-fund-a-session.md) | ✅ |
 
 ---
 

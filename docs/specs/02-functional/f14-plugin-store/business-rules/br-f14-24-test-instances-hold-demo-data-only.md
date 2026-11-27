@@ -3,7 +3,7 @@
 
 # 📏 BR-F14-24 Test instances hold demo data only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

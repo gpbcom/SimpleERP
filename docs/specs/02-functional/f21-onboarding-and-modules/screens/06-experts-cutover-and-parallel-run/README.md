@@ -12,7 +12,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-F21-26 | [Expert booking](s-f21-26-expert-booking.md) | 🔄 |
-| 🖥️ | S-F21-27 | [Cutover](s-f21-27-cutover.md) | 🔄 |
-| 🖥️ | S-F21-28 | [Parallel run](s-f21-28-parallel-run.md) | 🔄 |
-| 🖥️ | S-F21-29 | [Set up from documents](s-f21-29-setup-from-documents.md) | 🔄 |
+| 🖥️ | S-F21-26 | [Expert booking](s-f21-26-expert-booking.md) | ✅ |
+| 🖥️ | S-F21-27 | [Cutover](s-f21-27-cutover.md) | ✅ |
+| 🖥️ | S-F21-28 | [Parallel run](s-f21-28-parallel-run.md) | ✅ |
+| 🖥️ | S-F21-29 | [Set up from documents](s-f21-29-setup-from-documents.md) | ✅ |

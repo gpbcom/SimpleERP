@@ -150,7 +150,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A cosmetic product sold in the European Union has a company responsible for it, a label with the batch and
 expiry, and a safety file; a salon that uses or sells it checks the label, keeps the supplier and the batch, and stops
-using a product that is recalled. The France-pack rule is written later. Related:
+using a product that is recalled. The France-pack rules are [CR-FR-290 Cosmetic products used and sold](../../../../10-country-packs/france/products/cr-fr-290-cosmetic-products.md) and [CR-FR-062 Product recall](../../../../10-country-packs/france/products/cr-fr-062-product-recall.md). Related:
 [CR-FR-062](../../../../10-country-packs/france/products/cr-fr-062-product-recall.md).
 
 ## Related use cases

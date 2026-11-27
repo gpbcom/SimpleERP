@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC19-03 Home services tax credit
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC19-03 Home services tax credit](../../../flows/fl-sc19-03-home-services-tax-credit.md) for this persona,
 in light and dark mode (D120, D121). Errors follow the

@@ -3,7 +3,7 @@
 
 # 🧩 C-03 Data table
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -28,7 +28,7 @@ Shows many records in rows and columns, to scan, sort, filter, select and open t
    filters ([Search and filter pattern](../patterns/search-and-filter.md)), actions such as Export.
 2. **Header:** column names; a sortable column shows its order.
 3. **Rows:** a selection box when bulk actions exist ([Bulk actions pattern](../patterns/bulk-actions.md)); codes in
-   `font-code`; amounts right-aligned (Proposed) with tabular figures; states as badges with a word.
+   `font-code`; amounts right-aligned with tabular figures; states as badges with a word.
 4. **Pager:** the range shown and the total; lists are paged on the server
    ([Performance](../../../05-non-functional/performance.md)).
 
@@ -44,7 +44,7 @@ Shows many records in rows and columns, to scan, sort, filter, select and open t
   ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 - **Read-only table:** such as the changes of a confirmation card, as on
   [S-F3-02 Change confirmation card](../../../02-functional/f03-assistant/screens/03-act-through-the-assistant/s-f03-02-change-confirmation-card.md).
-- **Editable grid:** (Proposed) cells are form fields ([C-02 Form field](c-02-form-field.md)), for timesheets and
+- **Editable grid:** cells are form fields ([C-02 Form field](c-02-form-field.md)), for timesheets and
   journal lines.
 - **Phone:** rows become cards; the view chooses the fields shown on each card, as on
   [S-F2-04 List view settings](../../../02-functional/f02-no-code-configuration/screens/01-configure-a-record-type/s-f02-04-list-view-settings.md).
@@ -53,11 +53,11 @@ Shows many records in rows and columns, to scan, sort, filter, select and open t
 
 | State | Look |
 |---|---|
-| Loading | (Proposed) Skeleton rows; the first page within 1 second ([Performance](../../../05-non-functional/performance.md)) |
+| Loading | Skeleton rows; the first page within 1 second ([Performance](../../../05-non-functional/performance.md)) |
 | Empty | The [C-10 Empty state](c-10-empty-state.md) of the list |
-| No result | (Proposed) The empty state with "Clear filters" |
-| Row hover and focus | (Proposed) `color-surface-alt` background |
-| Selected | (Proposed) The box ticked and the row tinted with `color-primary` at 8 % |
+| No result | The empty state with "Clear filters" |
+| Row hover and focus | `color-surface-alt` background |
+| Selected | The box ticked and the row tinted with `color-primary` at 8 % |
 | Highlighted | A row that needs attention, with a word or icon, never colour alone (such as "TO REVIEW", [S-F3-07 Knowledge base](../../../02-functional/f03-assistant/screens/07-manage-knowledge/s-f03-07-knowledge-base.md)) |
 | Error | A banner with the [error message pattern](../patterns/error-messages.md) |
 
@@ -67,8 +67,7 @@ Shows many records in rows and columns, to scan, sort, filter, select and open t
 or `font-body-compact`, `font-code` for IDs, tabular figures for numbers
 ([Typography](../../visual-identity/typography.md)); `color-border` dividers, `color-surface-alt` stripes
 ([Colours](../../visual-identity/colours.md)); icons at 16 px in dense tables
-([Iconography](../../visual-identity/iconography.md)); header in `font-caption`, upper case, `color-text-muted`
-(Proposed: as drawn).
+([Iconography](../../visual-identity/iconography.md)); header in `font-caption`, upper case, `color-text-muted`.
 
 ## Accessibility
 

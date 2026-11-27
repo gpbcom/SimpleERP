@@ -4,7 +4,7 @@
 
 # 🖥️ S-F23-28 Valuation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

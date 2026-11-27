@@ -4,12 +4,12 @@
 
 # 📏 BR-F11-21 Pre-orders show their date and can be cancelled
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 A pre-order shows its expected shipping date; payment is taken as set (full, deposit or at shipping); if the date moves,
-the shopper may cancel at no cost (Proposed).
+the shopper may cancel at no cost.
 
 ## Why
 

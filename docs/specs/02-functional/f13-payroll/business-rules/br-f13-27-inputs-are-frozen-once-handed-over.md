@@ -3,7 +3,7 @@
 
 # 📏 BR-F13-27 Inputs are frozen once handed over
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

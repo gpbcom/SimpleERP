@@ -5,7 +5,7 @@
 
 # 📝 UC-F10-23 Manage the safe, bank deposits and cash collection
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -57,7 +57,7 @@ Daily.
 ## Error flows
 
 - 2e. Counted differs from expected: a reason is required and the owner told above the threshold.
-- 4e. No bank line after 3 days (Proposed): flagged.
+- 4e. No bank line after 3 days: flagged.
 
 ## Business rules
 

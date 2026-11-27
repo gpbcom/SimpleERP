@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC20-02 Public procurement
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

@@ -3,24 +3,30 @@
 
 # ⚖️ CR-FR-198 Comparative advertising
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) Advertising that names a competitor is lawful only when it is not misleading, compares goods or services
-meeting the same needs, and compares objectively verifiable features.
+Advertising that names a competitor is lawful only when it is not misleading, compares goods or services meeting the
+same needs, and compares objectively verifiable features ([Code de la consommation, art. L122-1](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221019/), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Conditions to read.
+- Lawful only if not misleading, on goods or services meeting the same needs, comparing objectively essential,
+  relevant, verifiable and representative features, price included (L122-1).
+- Never takes unfair advantage of a competitor's reputation, denigrates it, creates confusion with it or presents goods
+  as imitations (L122-2); protected origins are compared only with the same origin (L122-3).
+- Not placed on packaging, invoices, transport tickets, means of payment or tickets (L122-4).
+- The advertiser proves the accuracy of its statements at short notice (L122-5)
+  ([Code de la consommation, art. L122-1 to L122-7](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221019/), read 2026-11-27).
 
 ## Legal references
 
-- Code de la consommation L122-1 and following (not read yet).
+- [Code de la consommation](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221019/) art. L122-1 to L122-7, L132-25.
 
 ## Effective dates
 
-(Proposed) To read.
+L122-1 in force since 2016-07-01; L122-2 in its current version since 2019-12-15 ([Code de la consommation, art. L122-1 to L122-7](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221019/), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +39,8 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+The penalties of misleading practices apply to breaches of L122-1 to L122-5 (art. L132-25): two years' imprisonment
+and a 300 000 EUR fine (art. L132-2) ([Code de la consommation, title III Sanctions](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221077/), read 2026-11-27).
 
 ## Exceptions
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC18-11 Teams and competitions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

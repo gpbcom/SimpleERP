@@ -34,6 +34,7 @@ Since 2018-05-25.
 - [Data](../../../02-functional/f06-customers-and-sales/data/README.md)
 - [BR-F9-07 Activity drafts stay private](../../../02-functional/f09-hr-and-projects/business-rules/br-f09-07-activity-drafts-stay-private.md)
 - [Data retention](../../../05-non-functional/data-retention.md)
+- [UC-SC07-23 Run last-mile rounds](../../../08-sectors/sc07-transport/use-cases/07-passengers-removals-courier-and-freight/uc-sc07-23-run-last-mile-rounds.md)
 
 ## When the law changes
 
@@ -50,7 +51,7 @@ None.
 
 ## Open questions
 
-(Proposed) A company may choose "never" for conversations (BR-F3-27) and extend recordings with no cap (BR-F4-03): the
+A company may choose "never" for conversations (BR-F3-27) and extend recordings with no cap (BR-F4-03): the
 pack sets a maximum for each, to be confirmed by the owner.
 
 ---

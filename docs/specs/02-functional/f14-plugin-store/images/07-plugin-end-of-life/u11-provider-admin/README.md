@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F14-07 Plugin end of life
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F14-07 Plugin end of life](../../../flows/fl-f14-07-plugin-end-of-life.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

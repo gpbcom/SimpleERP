@@ -4,7 +4,7 @@
 
 # 📝 UC-F11-05 Check out
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -113,7 +113,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Pages load within 2 seconds on a phone (Proposed); accessible
+Pages load within 2 seconds on a phone; accessible
 ([CR-FR-072](../../../../10-country-packs/france/consumer/cr-fr-072-web-accessibility-eaa.md)).
 
 ## Regulatory references

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F22-30 Model routing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

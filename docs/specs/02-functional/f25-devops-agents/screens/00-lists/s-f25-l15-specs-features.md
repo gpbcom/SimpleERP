@@ -36,7 +36,9 @@ filter, total and act on many specs features at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] SPECS FEATURE   STATE                                                                |
+| state             | [ ] SPECS FEATUR   ISSUE   SPEC PULL RE   TICKETS   APPROVAL LAB   BOARD STATUS   STATE  |
+| approval label    | [ ] ...                                                  Open >                          |
+| board status      | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,7 +48,12 @@ filter, total and act on many specs features at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| SPECS feature | the record's title | text | yes |
+| SPECS feature | title | text | yes |
+| Issue | issue | text | yes |
+| Spec pull request | spec pull request | text | yes |
+| Tickets | tickets | text | yes |
+| Approval label | approval label | label | yes |
+| Board status | board status | label | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -56,6 +63,8 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Approval label | yes, no | the visible rows (D488) |
+| Board status | each value | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 

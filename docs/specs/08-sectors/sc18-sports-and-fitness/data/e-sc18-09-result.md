@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-09 Result
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

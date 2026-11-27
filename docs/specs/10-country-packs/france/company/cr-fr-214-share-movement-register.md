@@ -3,7 +3,7 @@
 
 # ⚖️ CR-FR-214 The share-movement register
 
-**Status:** ✅ specified
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -40,7 +40,7 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Not on the page read.
+(⚖️ lawyer review before launch, D574) Not read: a sanction for a share-movement register not kept (Code de commerce R228-8 and nearby).
 
 ## Exceptions
 

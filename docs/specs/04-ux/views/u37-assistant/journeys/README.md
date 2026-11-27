@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U37-01 | [Open a client file](j-u37-01-open-a-client-file.md) | 🔄 |
+| 🧭 | J-U37-01 | [Open a client file](j-u37-01-open-a-client-file.md) | ✅ |
 
 ---
 

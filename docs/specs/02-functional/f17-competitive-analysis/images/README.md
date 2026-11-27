@@ -20,4 +20,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F17-07 Sales enablement](07-sales-enablement/README.md) | 32 images |
 | 🖼️ |  | [Images: FL-F17-08 Ads, pages, search and technologies](08-ads-pages-search-and-tech/README.md) | 24 images |
 | 🖼️ |  | [Screen states](states/README.md) | 192 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

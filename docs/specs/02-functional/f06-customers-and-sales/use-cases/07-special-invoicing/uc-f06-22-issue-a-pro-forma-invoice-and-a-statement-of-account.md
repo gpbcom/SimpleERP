@@ -4,7 +4,7 @@
 
 # 📝 UC-F6-22 Issue a pro-forma invoice and a statement of account
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -51,7 +51,7 @@ Weekly pro-formas; monthly statements.
 
 ## Alternative flows
 
-- 3a. Statements sent automatically on the 1st of each month (Proposed).
+- 3a. Statements sent automatically on the 1st of each month.
 
 ## Error flows
 

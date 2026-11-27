@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-38 Record degrees and qualifications
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-24, VD-25, VD-27 / D506, D507, D509)
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -67,7 +67,7 @@ A few per employee per year; at hiring for everyone.
 
 ## Error flows
 
-- 3e. A qualification type not in the catalogue: HR may add a company type (Proposed); a legal type comes only from the
+- 3e. A qualification type not in the catalogue: HR may add a company type; a legal type comes only from the
   packs.
 - 3f. The expiry date is before the issue date: refused with the field marked.
 - 5e. An expiry within 90 days: a reminder to HR, the employee and the manager, as E-F9-12 already does.
@@ -154,8 +154,8 @@ retention ([CR-FR-047](../../../../10-country-packs/france/labour/cr-fr-047-hr-r
 [CR-FR-210](../../../../10-country-packs/france/labour/cr-fr-210-qualifications-tied-to-tasks.md);
 [CR-FR-208](../../../../10-country-packs/france/labour/cr-fr-208-young-workers-regulated-work.md);
 [CR-FR-209](../../../../10-country-packs/france/labour/cr-fr-209-reinforced-medical-follow-up.md);
-[CR-FR-047](../../../../10-country-packs/france/labour/cr-fr-047-hr-records-retention.md). (Proposed) to read: the
-European Qualifications Framework recommendation; the French national register of professional certifications (RNCP).
+[CR-FR-047](../../../../10-country-packs/france/labour/cr-fr-047-hr-records-retention.md). (⚖️ lawyer review before launch, D574) to read:
+the European Qualifications Framework recommendation; the French national register of professional certifications (RNCP).
 
 ## Related use cases
 

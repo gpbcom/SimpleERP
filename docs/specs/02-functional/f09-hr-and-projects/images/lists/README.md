@@ -340,6 +340,8 @@ Each aggregated list view, for every persona that can open it, on a desktop and 
 | ![s-f09-l18-project-and-tasks-u13-owner-phone, light](s-f09-l18-project-and-tasks-u13-owner-phone-light.png) | ![s-f09-l18-project-and-tasks-u13-owner-phone, dark](s-f09-l18-project-and-tasks-u13-owner-phone-dark.png) |
 | ![s-f09-l18-project-and-tasks-u10-supplier-desktop, light](s-f09-l18-project-and-tasks-u10-supplier-desktop-light.png) | ![s-f09-l18-project-and-tasks-u10-supplier-desktop, dark](s-f09-l18-project-and-tasks-u10-supplier-desktop-dark.png) |
 | ![s-f09-l18-project-and-tasks-u10-supplier-phone, light](s-f09-l18-project-and-tasks-u10-supplier-phone-light.png) | ![s-f09-l18-project-and-tasks-u10-supplier-phone, dark](s-f09-l18-project-and-tasks-u10-supplier-phone-dark.png) |
+| ![s-f09-l18-project-and-tasks-u06-hr-desktop, light](s-f09-l18-project-and-tasks-u06-hr-desktop-light.png) | ![s-f09-l18-project-and-tasks-u06-hr-desktop, dark](s-f09-l18-project-and-tasks-u06-hr-desktop-dark.png) |
+| ![s-f09-l18-project-and-tasks-u06-hr-phone, light](s-f09-l18-project-and-tasks-u06-hr-phone-light.png) | ![s-f09-l18-project-and-tasks-u06-hr-phone, dark](s-f09-l18-project-and-tasks-u06-hr-phone-dark.png) |
 
 ## S-F9-L19 Contract templates
 

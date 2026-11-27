@@ -3,24 +3,29 @@
 
 # ⚖️ CR-FR-153 Architects' insurance and contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) An architect holds professional liability insurance, attaches its certificate, and agrees each assignment in
-a written contract.
+An architect holds professional liability insurance, attaches its certificate, and agrees each assignment in
+a written contract ([loi n° 77-2, art. 16](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000522423); [code de déontologie des architectes, art. 11](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842423), read 2026-11-27).
 
 ## Values
 
-- (Proposed) To read.
+- Insurance for any architect whose liability may be engaged, also for the acts of staff; a certificate attached in
+  every case to the contract with the client; a yearly certificate to the regional council ([loi n° 77-2, art. 16](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000522423),
+  read 2026-11-27).
+- A prior written agreement with the client for every engagement, stating the nature and extent of the assignment and
+  the pay, and the basic rules of the relation ([code de déontologie des architectes, art. 11](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842423), read 2026-11-27).
 
 ## Legal references
 
-- Loi n° 77-2 on architecture
+- Loi n° 77-2 on architecture, art. 16, 20, 23; code de déontologie des architectes (décret n° 80-217), art. 11.
 
 ## Effective dates
 
-(Proposed) To read.
+Insurance (art. 16) since 2005-08-27 ([loi n° 77-2](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000522423)); written agreement (art. 11) in its current version since
+2026-07-01 (décret n° 2026-568) ([code de déontologie des architectes, art. 11](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842423), read 2026-11-27).
 
 ## Enforced by
 
@@ -33,7 +38,9 @@ a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+Without proof of insurance, suspension from the regional roll after an unanswered formal notice, then removal
+(art. 23); a breach of article 16 is fined 2 000 to 200 000 F as the text still reads, with a possible ban of up to 3
+years or for good (art. 20) ([loi n° 77-2](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000522423), read 2026-11-27).
 
 ## Exceptions
 
@@ -41,7 +48,7 @@ None.
 
 ## Open questions
 
-No page was read.
+None, read on 2026-11-27; the euro amount of the article 20 fine is not on the page.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

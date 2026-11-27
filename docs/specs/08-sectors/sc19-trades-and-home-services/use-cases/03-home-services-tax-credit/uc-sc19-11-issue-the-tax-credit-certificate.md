@@ -142,8 +142,9 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-The provider gives the household, by a date in spring, a yearly certificate listing the amounts paid for
-eligible services; it lists amounts paid, not billed. The date and the form are data of the France pack. Related:
+The provider gives the household, before 31 March, a yearly certificate of the previous year listing the amounts
+paid for eligible services, after the immediate advance, allowances or prepaid vouchers; it lists amounts paid, not
+billed. The date and the form are data of the France pack. Related:
 [CR-FR-103](../../../../10-country-packs/france/tax-and-vat/cr-fr-103-home-services-tax-credit.md).
 
 ## Related use cases

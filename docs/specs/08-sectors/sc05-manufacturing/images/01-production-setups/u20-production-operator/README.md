@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC05-01 Production setups
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC05-01 Production setups](../../../flows/fl-sc05-01-production-setups.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

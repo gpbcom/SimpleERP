@@ -3,7 +3,7 @@
 
 # 📏 BR-SC06-16 Pitch prices follow the season grid
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

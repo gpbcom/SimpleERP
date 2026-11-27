@@ -3,7 +3,7 @@
 
 # 🧩 Plugin publisher: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Checks failed; Reviews to answer.
 - Widgets: Installs and revenue this month.
@@ -36,16 +36,16 @@ compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Navigation
 
-(Proposed) Publisher home · Plugins · Releases · Revenue · Assistant.
+Publisher home · Plugins · Releases · Revenue · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U46-01 | [Publish a plugin](journeys/j-u46-01-publish-a-plugin.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U46-01 | [Publish a plugin](journeys/j-u46-01-publish-a-plugin.md) | ✅ |
 
 ---
 

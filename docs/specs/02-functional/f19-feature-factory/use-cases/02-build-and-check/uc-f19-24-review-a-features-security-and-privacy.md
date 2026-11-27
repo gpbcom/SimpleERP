@@ -4,7 +4,7 @@
 
 # 📝 UC-F19-24 Review a feature's security and privacy
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -124,7 +124,7 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 [CR-FR-050](../../../../10-country-packs/france/data-protection/cr-fr-050-privacy-by-design.md),
 [CR-FR-058](../../../../10-country-packs/france/ai-and-recording/cr-fr-058-high-risk-ai-in-employment.md); impact
-assessment: (Proposed) to read.
+assessment: (⚖️ lawyer review before launch, D574) to read: GDPR article 35 and the CNIL's list of processing that needs one.
 
 ## Related use cases
 

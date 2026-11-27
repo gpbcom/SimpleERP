@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC17-05 Rentals, care records, client files and loyalty
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC17-05 Rentals, care records, client files and loyalty](../../../flows/fl-sc17-05-rentals-care-records-and-loyalty.md)

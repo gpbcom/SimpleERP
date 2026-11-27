@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found five situations
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found five situations
 that home-care suites handle and SC04 did not: the care home (the community care gap G21), CESU vouchers, the agent mode
 for family employers, childcare at home and home nursing on prescription. Four carry a legal duty (the health-data
 rules, the family as employer, the family allowance aid, the prescription).
@@ -42,7 +42,7 @@ full depth now. Each legal duty is written in plain words and marked until its r
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC04 Home care").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC04 Home care").
 
 ## Consequences
 

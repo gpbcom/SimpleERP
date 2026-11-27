@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four situations
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four situations
 that payroll suites handle and F13 did not: employees posted to another country, days-based contracts, payroll made by
 an outside firm and the hours of staff representatives. Each changes how a month is paid or what is handed over, and
 each has a legal paper or limit that must be visible.
@@ -28,7 +28,8 @@ each has a legal paper or limit that must be visible.
 ## Choice
 
 F13 gets four use cases in one new flow, FL-F13-10, each with its screen, its rule, its entity and its list. All at full
-depth now. Each legal duty is written in plain words and marked (Proposed) until the France-pack rule is written.
+depth now. Each legal duty is written in plain words and marked as proposed until its France-pack rule was written
+(the rules now exist).
 
 | Gap | Point | Decision | The owner's answer |
 |---|---|---|---|
@@ -40,7 +41,7 @@ depth now. Each legal duty is written in plain words and marked (Proposed) until
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F13 Payroll").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F13 Payroll").
 
 ## Consequences
 

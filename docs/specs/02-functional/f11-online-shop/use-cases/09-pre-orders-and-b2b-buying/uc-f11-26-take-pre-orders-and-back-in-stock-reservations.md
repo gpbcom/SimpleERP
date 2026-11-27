@@ -5,7 +5,7 @@
 
 # 📝 UC-F11-26 Take pre-orders and back-in-stock reservations
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -44,8 +44,7 @@ Daily for new collections.
    ([S-F11-26](../../screens/09-pre-orders-and-b2b-buying/s-f11-26-pre-order.md)).
 2. For a pre-order, they pay as set: in full, a deposit, or at shipping
    ([BR-F11-21](../../business-rules/br-f11-21-pre-orders-show-their-date-and-can-be-cancelled.md)).
-3. For a reservation, they leave their email; when stock arrives, they are told and the item is held 48 hours
-   (Proposed).
+3. For a reservation, they leave their email; when stock arrives, they are told and the item is held 48 hours.
 4. Pre-orders ship first when stock arrives
    ([UC-F11-07](../02-shop-and-check-out/uc-f11-07-choose-delivery-or-click-collect.md)).
 
@@ -118,7 +117,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Pages load within 2 seconds on a phone (Proposed); accessible
+Pages load within 2 seconds on a phone; accessible
 ([CR-FR-072](../../../../10-country-packs/france/consumer/cr-fr-072-web-accessibility-eaa.md)).
 
 ## Regulatory references

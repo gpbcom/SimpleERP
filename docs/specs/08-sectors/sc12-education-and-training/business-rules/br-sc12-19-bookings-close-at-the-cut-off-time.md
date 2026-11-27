@@ -3,7 +3,7 @@
 
 # 📏 BR-SC12-19 Bookings close at the cut-off time
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

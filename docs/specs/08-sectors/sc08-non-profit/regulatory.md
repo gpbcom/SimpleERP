@@ -16,8 +16,9 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-063 Consent for email and SMS marketing](../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md),
 [CR-FR-051 Access and erasure requests](../../10-country-packs/france/data-protection/cr-fr-051-access-and-erasure.md),
 [CR-FR-052 Personal data kept no longer than needed](../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md),
-[CR-FR-023 SEPA payment formats](../../10-country-packs/france/payments/cr-fr-023-sepa-formats.md). The donors'
-tax-reduction rates are still to read in an official source.
+[CR-FR-023 SEPA payment formats](../../10-country-packs/france/payments/cr-fr-023-sepa-formats.md). All are read in
+their official sources (2026-11-27), the donors' tax-reduction rates included (CR-FR-124: individuals 66 % within 20 % of
+taxable income, 75 % within 2 000 EUR for listed bodies; companies 60 % up to 2 M EUR and 40 % above).
 
 ## Country pack
 

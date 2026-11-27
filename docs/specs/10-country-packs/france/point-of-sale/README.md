@@ -19,4 +19,4 @@ Till software rules: inalterability, security, conservation, archiving (art. 286
 | ⚖️ | CR-FR-030 | [Till archives](cr-fr-030-till-archives.md) | ✅ |
 | ⚖️ | CR-FR-031 | [Paper receipts on request only](cr-fr-031-paper-receipt-on-request.md) | ✅ |
 | ⚖️ | CR-FR-032 | [Restaurant and bar bills](cr-fr-032-restaurant-bill.md) | ✅ |
-| ⚖️ | CR-FR-033 | [Scales used for sales](cr-fr-033-legal-metrology-scales.md) | 🔄 |
+| ⚖️ | CR-FR-033 | [Scales used for sales](cr-fr-033-legal-metrology-scales.md) | ✅ |

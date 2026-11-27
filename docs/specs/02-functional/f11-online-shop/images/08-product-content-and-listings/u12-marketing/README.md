@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F11-08 Product content and listings
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F11-08 Product content and listings](../../../flows/fl-f11-08-product-content-and-listings.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

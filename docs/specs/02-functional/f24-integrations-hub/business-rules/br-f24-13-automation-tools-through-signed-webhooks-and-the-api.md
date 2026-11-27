@@ -3,7 +3,7 @@
 
 # 📏 BR-F24-13 Automation tools through signed webhooks and the API
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -21,7 +21,7 @@ Automation tools were absent (D481); every action keeps the rights model (BR-F24
 |---|---|
 | n8n receiving "invoice paid" with a valid signature | passes |
 | Zapier token with "sales" rights writing a payslip | fails: refused by rights |
-| Endpoint failing 10 times (Proposed) | passes: paused, administrator told |
+| Endpoint failing 10 times | passes: paused, administrator told |
 
 ## Applies to
 

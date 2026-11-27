@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-08 Follow the public contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -146,14 +146,15 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Public bodies pay their suppliers within a legal term from the receipt of the invoice; beyond it,
-late-payment interest and a fixed indemnity are due automatically. Invoices to public buyers go through the national
-platform. An amendment changes the contract within limits set by law. The term, the rates and the limits are data of the
-France pack. Related:
-[CR-FR-091](../../../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md),
+Public bodies pay their suppliers within a legal term from the receipt of the invoice: 30 days for the State, public
+bodies and local authorities, 50 days for health establishments; beyond it, late-payment interest at the ECB rate plus 8
+points and a 40 EUR recovery indemnity are due automatically. Invoices to public buyers go through Chorus Pro. An
+amendment changes the contract within limits set by law: (⚖️ lawyer review before launch, D574) to read Code de la commande publique
+R2194-1 to R2194-10. The term, the rates and the limits are data of the France pack. Related:
+[CR-FR-091 Public contracts: payment period and Chorus Pro](../../../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md),
 [CR-FR-019](../../../../10-country-packs/france/invoicing/cr-fr-019-late-payment-penalties.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule on the thresholds:
   [CR-FR-251 Public procurement thresholds](../../../../10-country-packs/france/trade/cr-fr-251-public-procurement-thresholds.md)
 
 ## Related use cases

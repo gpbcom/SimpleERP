@@ -3,7 +3,7 @@
 
 # 🧩 C-01 Button
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -31,31 +31,31 @@ Starts an action. Its label is a verb, in the user's business words: "Send quote
 
 - **Primary:** `color-primary` fill and white text (6.44:1, [Colours](../../visual-identity/colours.md)); the main
   action of a view or a dialog, such as the action that fixes an error in the
-  [error message pattern](../patterns/error-messages.md). (Proposed) One primary button per view or dialog.
+  [error message pattern](../patterns/error-messages.md). One primary button per view or dialog.
 - **Secondary:** `color-surface` with a `color-border-strong` edge; the other actions, such as "Cancel".
-- **Danger:** `color-error` text and edge on `color-surface`, for destructive actions; (Proposed) it always opens a
+- **Danger:** `color-error` text and edge on `color-surface`, for destructive actions; it always opens a
   confirmation ([C-05 Modal](c-05-modal.md)).
-- **Ghost:** (Proposed) `color-primary` text with no edge, as drawn, for minor actions in tables and cards.
+- **Ghost:** `color-primary` text with no edge, as drawn, for minor actions in tables and cards.
 - **Icon only:** for toolbars; it always has an accessible name ([Iconography](../../visual-identity/iconography.md)).
-- **Phone:** (Proposed) full width, as drawn; in a stack, the primary action comes first, on top.
+- **Phone:** full width, as drawn; in a stack, the primary action comes first, on top.
 
 ## States
 
 | State | Look |
 |---|---|
 | Default | As its variant |
-| Hover | (Proposed) The fill or edge 8 % darker in light mode and 8 % lighter in dark mode |
-| Focus | A 2 px focus ring in `color-primary` (the colour's stated use), offset 2 px (Proposed) |
-| Active | (Proposed) Pressed: the hover look, without elevation |
-| Disabled | (Proposed) `color-text-muted` on `color-surface-alt`; a tooltip says why when the reason is not visible |
+| Hover | The fill or edge 8 % darker in light mode and 8 % lighter in dark mode |
+| Focus | A 2 px focus ring in `color-primary` (the colour's stated use), offset 2 px |
+| Active | Pressed: the hover look, without elevation |
+| Disabled | `color-text-muted` on `color-surface-alt`; a tooltip says why when the reason is not visible |
 | Error | A button has no error state; the error shows on the field or in the message ([error message pattern](../patterns/error-messages.md)) |
-| Loading | (Proposed) A spinner replaces the icon, the label stays, and the button cannot be pressed twice |
+| Loading | A spinner replaces the icon, the label stays, and the button cannot be pressed twice |
 
 ## Tokens
 
 `color-primary`, `color-surface`, `color-border-strong`, `color-error`, `color-text`, `color-text-muted`; height
-`field-height` (44 px comfortable, 32 px compact, [Tokens](../tokens.md)) (Proposed: buttons as high as fields); radius
-8 px (Proposed: as fields); `font-label` (Inter 14 / 20 px, weight 500,
+`field-height` (44 px comfortable, 32 px compact, [Tokens](../tokens.md)) (buttons as high as fields); radius
+8 px (as fields); `font-label` (Inter 14 / 20 px, weight 500,
 [Typography](../../visual-identity/typography.md)); motion 150 ms ([Motion](../../visual-identity/motion.md)).
 
 ## Accessibility
@@ -74,7 +74,7 @@ Starts an action. Its label is a verb, in the user's business words: "Send quote
 
 - Do write the action on the button: "Hand over and deactivate", not "OK", as on
   [S-F1-05 Offboarding](../../../02-functional/f01-administration/screens/03-user-lifecycle/s-f01-05-offboarding.md).
-- Do put "Cancel" before the primary action, on the right of a dialog (Proposed: as drawn).
+- Do put "Cancel" before the primary action, on the right of a dialog.
 - Don't use the accent colour for a button's text: accent is never text on white
   ([Colours](../../visual-identity/colours.md)).
 - Don't show colour as the only difference between two buttons: their words differ.

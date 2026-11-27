@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-15 Targets are seen by the staff member and the manager
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

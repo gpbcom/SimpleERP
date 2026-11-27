@@ -3,7 +3,7 @@
 
 # 🗃️ E-F2-16 Visual view
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -15,7 +15,7 @@ A kanban, calendar, map, Gantt or timeline view of a record type.
 |---|---|---|---|---|---|---|---|
 | type | list | yes | kanban, calendar, map, Gantt, timeline | - | Gantt | no | - |
 | fields used | column, date, start and end, address, colour | yes | exist on the record type | - | start, end, colour by site | no | - |
-| card fields | list | no | up to 4 (Proposed) | name | name, customer | no | - |
+| card fields | list | no | up to 4 | name | name, customer | no | - |
 | shared with | roles | no | for the type map, only roles with the map right ([BR-F1-32](../../f01-administration/business-rules/br-f01-32-map-right-for-planners-and-managers.md)) | personal | Site manager | no | - |
 
 ## Relations

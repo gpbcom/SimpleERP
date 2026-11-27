@@ -3,7 +3,7 @@
 
 # 📏 BR-SC16-18 Each show is settled per its contract
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,8 +15,10 @@ while a figure is missing or a performer is not declared.
 
 A settlement that does not follow the contract starts a dispute with the venue, and an undeclared performer is a legal
 risk. The owner asked for touring productions
-([D560](../../../06-decisions/sectors/d560-benchmark-gaps-sc16-events-and-culture.md)). (Proposed) The France-pack rule
-is written later.
+([D560](../../../06-decisions/sectors/d560-benchmark-gaps-sc16-events-and-culture.md)). No France-pack rule sets the
+settlement, which follows the contract; the performers are declared before the show
+([CR-FR-037](../../../10-country-packs/france/labour/cr-fr-037-dpae-before-the-first-day.md), or
+[CR-FR-178](../../../10-country-packs/france/events/cr-fr-178-occasional-organiser-guso.md) for an occasional organiser).
 
 ## Examples
 

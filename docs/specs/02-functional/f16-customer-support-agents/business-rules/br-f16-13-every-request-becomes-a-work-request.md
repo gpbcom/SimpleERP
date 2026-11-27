@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-13 Every customer request becomes one work request
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-30, VD-31 / D512, D513)
+**Status:** ✅ specified
 
 ## Statement
 
@@ -32,7 +32,7 @@ of a field, and only work requests feed scheduling.
 | A care plan with a visit every Tuesday | One work request per visit, linked to the care plan's visit |
 | A training session booked through the portal | Work request of type "Training session", linked to the booking |
 | A customer asks the opening hours by chat | No work request: there is no work to schedule (D517) |
-| The same repair asked by email, then by phone | (Proposed) The call is linked to the first work request; no second one |
+| The same repair asked by email, then by phone | The call is linked to the first work request; no second one |
 
 ## Applies to
 
@@ -47,13 +47,13 @@ of a field, and only work requests feed scheduling.
 
 A request that needs no field work, such as a question answered at once, is not turned into a work request (D517).
 Requests that come from inside the company (an internal order, a maintenance request) are outside this rule: it
-covers customer requests (Proposed).
+covers customer requests.
 
 ## Configurable
 
 Partly:
 - the request types and their defaults (UC-F2-30), and the channels connected (F16, F24);
-- (Proposed) the confidence under which the AI asks a person to confirm a draft, per request type;
+- the confidence under which the AI asks a person to confirm a draft, per request type;
 - not whether a customer request that asks for work becomes a work request.
 
 ## Open questions

@@ -222,6 +222,12 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-active-desktop, light](s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-active-desktop-light.png) | ![s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-active-desktop, dark](s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-active-desktop-dark.png) |
 
+## s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-to-review-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-to-review-desktop, light](s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-to-review-desktop-light.png) | ![s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-to-review-desktop, dark](s-f01-12-users-overview-dashboard-e-f01-22-record-of-processing-activities-to-review-desktop-dark.png) |
+
 ## s-f01-13-automatic-provisioning-e-f01-14-provisioning-setting-off-desktop
 
 | Light | Dark |

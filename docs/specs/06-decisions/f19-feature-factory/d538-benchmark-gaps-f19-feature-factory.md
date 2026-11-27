@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four gaps in
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four gaps in
 the feature factory: no sight of similar features before ordering, no fixed-price small changes, no way to share the
 cost of a feature, and no plan to keep a feature paid once working across upgrades. F19 already quotes, generates, signs
 and promotes features at 300 EUR a month; these add choice before and care after.
@@ -41,7 +41,7 @@ request's audit trail. The monthly feature price of D390 is unchanged. All at fu
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "F19 Feature factory").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "F19 Feature factory").
 
 ## Consequences
 

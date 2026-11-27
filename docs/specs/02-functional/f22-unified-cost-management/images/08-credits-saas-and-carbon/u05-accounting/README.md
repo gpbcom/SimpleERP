@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F22-08 Credits, SaaS subscriptions, carbon and routing
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F22-08 Credits, SaaS subscriptions, carbon and routing](../../../flows/fl-f22-08-credits-saas-and-carbon.md) for

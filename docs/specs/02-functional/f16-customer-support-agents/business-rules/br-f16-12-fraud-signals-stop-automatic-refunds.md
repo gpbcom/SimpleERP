@@ -4,7 +4,7 @@
 
 # 📏 BR-F16-12 Fraud signals stop automatic refunds
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -20,7 +20,7 @@ Refund abuse grows when refunds are automatic (D473).
 
 | Case | Result |
 |---|---|
-| Customer with 4 refunds in 60 days ((Proposed) threshold 3) | to a person |
+| Customer with 4 refunds in 60 days (threshold 3) | to a person |
 | Lost-parcel claim with a signed delivery proof | to a person |
 | Ordinary first refund | automatic within its limit |
 

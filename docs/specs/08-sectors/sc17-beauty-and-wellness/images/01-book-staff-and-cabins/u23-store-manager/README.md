@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC17-01 Book staff and cabins
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC17-01 Book staff and cabins](../../../flows/fl-sc17-01-book-staff-and-cabins.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F15-18 Litigation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

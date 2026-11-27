@@ -24,11 +24,12 @@ drinks up to 18 degrees, up to 5 times a year.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CSP L3334-2 in force since 2016-01-01 ([Code de la santé publique, art. L3334-2](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006155036), read 2026-11-27).
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc08-non-profit/regulatory.md)
+- [UC-SC16-21 Run cashless payments at a festival](../../../08-sectors/sc16-events-and-culture/use-cases/06-cashless-cinemas-tours-and-photos/uc-sc16-21-run-cashless-payments-at-a-festival.md)
 
 ## When the law changes
 

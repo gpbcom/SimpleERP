@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-11 Payments go to the public treasury's channel
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,9 @@ and is matched to its title. A failed payment leaves the title open.
 ## Why
 
 Public money is collected by the public accountant and a payment elsewhere is irregular
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (⚖️ lawyer review before launch, D574) The
+France-pack rule is still to write: to read the public accountant's sole competence to collect public money (décret n°
+2012-1246, GBCP) and the DGFiP's online payment service (PayFiP).
 
 ## Examples
 

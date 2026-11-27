@@ -3,7 +3,7 @@
 
 # 📏 BR-F24-17 An AI-built connector runs in the sandbox first
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

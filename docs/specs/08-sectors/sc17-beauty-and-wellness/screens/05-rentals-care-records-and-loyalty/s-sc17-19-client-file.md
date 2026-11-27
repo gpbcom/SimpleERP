@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC17-19 Client file
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC05-18 Personalisation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

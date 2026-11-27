@@ -4,7 +4,7 @@
 
 # 📝 UC-F17-21 Watch tenders to answer
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -72,7 +72,7 @@ Sales and owner decide; marketing reads; the administrator manages sources.
 
 ## Notifications
 
-- Sales daily of new opportunities; sales and the owner (Proposed) 7 days and 2 days before a deadline.
+- Sales daily of new opportunities; sales and the owner 7 days and 2 days before a deadline.
 
 ## Audit events
 
@@ -126,7 +126,9 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 
 ## Regulatory references
 
-Public procurement notices: (Proposed) to read for the France pack;
+Public procurement notices:
+[CR-FR-251 Public procurement thresholds](../../../../10-country-packs/france/trade/cr-fr-251-public-procurement-thresholds.md), a notice from
+60 000 EUR for supplies and services and 100 000 EUR for works;
 [CR-FR-091 Public contracts payment and Chorus Pro](../../../../10-country-packs/france/invoicing/cr-fr-091-public-contracts-payment-and-chorus-pro.md)
 for invoicing once won.
 

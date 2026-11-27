@@ -12,7 +12,8 @@ The store collects sellers' tax data and reports their income yearly; in France:
 
 ## Why
 
-The thresholds and deadline are still to read.
+The thresholds and deadline are read in CR-FR-188: sellers with fewer than 30 sales of goods for 2 000 EUR or less
+are left out, and the report is filed by 31 January of the following year.
 
 ## Examples
 

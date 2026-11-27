@@ -3,14 +3,14 @@
 
 # 📏 BR-F4-32 Who sees a colleague's calendar
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 Every employee has a calendar ([E-F4-26](../data/e-f04-26-employee-calendar.md),
 [D519](../../../06-decisions/ux/d519-view-cards-reviewed-list-pages-and-workspaces.md)), and several employees'
 calendars can be compared side by side from the
-[S-F4-L26 Employee calendars](../screens/00-lists/s-f04-l26-employee-calendars.md) list. (Proposed) A user sees their
+[S-F4-L26 Employee calendars](../screens/00-lists/s-f04-l26-employee-calendars.md) list. A user sees their
 own calendar in full; a colleague's event shows as busy, without its title or details, unless the user takes part in it
 or holds a role that reads it (a manager their team's absences, HR every absence); an HR meeting shows as busy to
 everyone but its participants. Each column of the comparison follows this rule.
@@ -24,8 +24,8 @@ comparison must not reveal.
 
 | Case | Result |
 |---|---|
-| A seller compares their calendar with two colleagues' | (Proposed) Their own events in full, the colleagues' as busy slots |
-| A manager compares their team's calendars | (Proposed) Meetings they attend and absences in full, the rest as busy |
+| A seller compares their calendar with two colleagues' | Their own events in full, the colleagues' as busy slots |
+| A manager compares their team's calendars | Meetings they attend and absences in full, the rest as busy |
 | Anyone looks at an HR meeting of a colleague | Busy, no title |
 
 ## Applies to
@@ -39,7 +39,7 @@ None.
 
 ## Configurable
 
-(Proposed) An employee may show their event titles to their team.
+An employee may show their event titles to their team.
 
 ## Open questions
 

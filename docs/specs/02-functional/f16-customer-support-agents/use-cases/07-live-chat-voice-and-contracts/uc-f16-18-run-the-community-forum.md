@@ -157,7 +157,7 @@ A forum host must offer a way to report illegal content, act on it quickly and k
 identify the authors for the authorities; the posts of private people are personal data. AI answers show that they come
 from an AI:
 [CR-FR-056](../../../../10-country-packs/france/ai-and-recording/cr-fr-056-people-know-they-deal-with-an-ai.md). The
-France-pack rule is written later. Related:
+France-pack rule is [CR-FR-269 Hosting user posts (notice and action)](../../../../10-country-packs/france/digital/cr-fr-269-hosting-user-posts.md). Related:
 [CR-FR-050](../../../../10-country-packs/france/data-protection/cr-fr-050-privacy-by-design.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).
 

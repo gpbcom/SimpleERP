@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC07-05 | [Consignment notes](s-sc07-05-consignment-notes.md) | 🔄 |
-| 🖥️ | S-SC07-06 | [Driver app](s-sc07-06-driver-app.md) | 🔄 |
-| 🖥️ | S-SC07-07 | [Proof of delivery](s-sc07-07-proof-of-delivery.md) | 🔄 |
+| 🖥️ | S-SC07-05 | [Consignment notes](s-sc07-05-consignment-notes.md) | ✅ |
+| 🖥️ | S-SC07-06 | [Driver app](s-sc07-06-driver-app.md) | ✅ |
+| 🖥️ | S-SC07-07 | [Proof of delivery](s-sc07-07-proof-of-delivery.md) | ✅ |

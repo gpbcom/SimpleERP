@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC14-25 Sponsorship
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

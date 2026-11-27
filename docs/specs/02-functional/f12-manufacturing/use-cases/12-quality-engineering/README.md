@@ -12,5 +12,5 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F12-24 | [Run an FMEA](uc-f12-24-run-an-fmea.md) | 🔄 |
-| 📝 | UC-F12-25 | [Monitor a process with control charts](uc-f12-25-monitor-a-process-with-control-charts.md) | 🔄 |
+| 📝 | UC-F12-24 | [Run an FMEA](uc-f12-24-run-an-fmea.md) | ✅ |
+| 📝 | UC-F12-25 | [Monitor a process with control charts](uc-f12-25-monitor-a-process-with-control-charts.md) | ✅ |

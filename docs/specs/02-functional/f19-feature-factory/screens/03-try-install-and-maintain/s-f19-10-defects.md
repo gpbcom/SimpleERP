@@ -58,7 +58,9 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-F19-16 Feature defect | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U07 | `u07-administrator/s-f19-10-defects-e-f19-16-feature-defect-active-desktop-{light,dark}.png` |
+| E-F19-16 Feature defect | Active | Badge "Active"; a new record starts here; next: Fixed or Credited (UC-F19-10, UC-F19-22); fields editable within the role | U07 | `u07-administrator/s-f19-10-defects-e-f19-16-feature-defect-active-desktop-{light,dark}.png` |
+| E-F19-16 Feature defect | Fixed | Badge "Fixed"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f19-10-defects-e-f19-16-feature-defect-fixed-desktop-{light,dark}.png` |
+| E-F19-16 Feature defect | Credited | Badge "Credited"; final: read-only, no next state; the history shows how it got here | U07 | `u07-administrator/s-f19-10-defects-e-f19-16-feature-defect-credited-desktop-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

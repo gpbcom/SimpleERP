@@ -157,7 +157,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 Before the contract is signed the member is told the price, the length of commitment, whether it renews
 itself, and how and when to cancel; a contract made at a distance carries the withdrawal right
 ([CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md)). An association's membership
-follows its own statutes. The France-pack rule is written later.
+follows its own statutes. The France-pack rules are [CR-FR-065 Information before an online order](../../../../10-country-packs/france/consumer/cr-fr-065-online-pre-contract-information.md), [CR-FR-263 Free trials of paid services](../../../../10-country-packs/france/consumer/cr-fr-263-free-trials-of-paid-services.md) (tacit renewal and online termination) and [CR-FR-036 Consumer withdrawal right](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md).
 
 ## Related use cases
 

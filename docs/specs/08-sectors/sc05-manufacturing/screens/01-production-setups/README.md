@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC05-01 | [Production setup](s-sc05-01-production-setup.md) | 🔄 |
-| 🖥️ | S-SC05-02 | [Recipes](s-sc05-02-recipes.md) | 🔄 |
+| 🖥️ | S-SC05-01 | [Production setup](s-sc05-01-production-setup.md) | ✅ |
+| 🖥️ | S-SC05-02 | [Recipes](s-sc05-02-recipes.md) | ✅ |

@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-07 Analyse bids and award
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -138,11 +138,14 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Bids received after the deadline are not opened; the buyer ranks bids only on the criteria it published, with
-their weights, and tells unsuccessful bidders the reasons and the waiting period before signing, for procedures that
-require it. An abnormally low bid is justified by its bidder before it is ranked. Delays are data of the France pack.
+Bids received after the deadline are not opened; the buyer ranks bids only on the criteria it published, with their
+weights, and tells unsuccessful bidders the reasons and the waiting period before signing, for procedures that require
+it. An abnormally low bid is justified by its bidder before it is ranked. Delays are data of the France pack. (⚖️
+lawyer review before launch, D574) The France-pack rule on the award is still to write: to read Code de la commande publique L2152-7 and
+R2152-6 to R2152-12 (criteria), L2152-5, L2152-6 and R2152-3 to R2152-5 (abnormally low bids), R2181-1 to R2182-1
+(information of unsuccessful bidders and the waiting period).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule on the thresholds:
   [CR-FR-251 Public procurement thresholds](../../../../10-country-packs/france/trade/cr-fr-251-public-procurement-thresholds.md)
 
 ## Related use cases

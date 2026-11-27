@@ -17,9 +17,10 @@ Charts, books, closing, the FEC and their retention.
 | ⚖️ | CR-FR-006 | [French chart of accounts](cr-fr-006-chart-of-accounts.md) | ✅ |
 | ⚖️ | CR-FR-007 | [Annual stock count](cr-fr-007-annual-stock-count.md) | ✅ |
 | ⚖️ | CR-FR-064 | [Accounting frameworks of the books](cr-fr-064-accounting-frameworks.md) | ✅ |
-| ⚖️ | CR-FR-081 | [Production cost of manufactured stock](cr-fr-081-production-cost-of-inventories.md) | 🔄 |
+| ⚖️ | CR-FR-081 | [Production cost of manufactured stock](cr-fr-081-production-cost-of-inventories.md) | ✅ |
 | ⚖️ | CR-FR-125 | [Association accounting](cr-fr-125-association-accounting.md) | ✅ |
 | ⚖️ | CR-FR-213 | [When a statutory auditor is required](cr-fr-213-statutory-auditor-thresholds.md) | ✅ |
-| ⚖️ | CR-FR-216 | [Leases in French GAAP](cr-fr-216-leases-in-french-gaap.md) | 🔄 |
+| ⚖️ | CR-FR-216 | [Leases in French GAAP](cr-fr-216-leases-in-french-gaap.md) | ✅ |
 | ⚖️ | CR-FR-217 | [Cash-basis books for BNC professions](cr-fr-217-cash-basis-books-for-bnc.md) | ✅ |
-| ⚖️ | CR-FR-250 | [Public accounting M57](cr-fr-250-public-accounting-m57.md) | 🔄 |
+| ⚖️ | CR-FR-250 | [Public accounting M57](cr-fr-250-public-accounting-m57.md) | ✅ |
+| ⚖️ | CR-FR-267 | [Provisions for litigation](cr-fr-267-litigation-provisions.md) | ✅ |

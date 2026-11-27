@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F9-09 Train and protect
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F9-09 Train and protect](../../../flows/fl-f09-09-train-and-protect.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

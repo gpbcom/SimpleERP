@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC10-01 | [Mandates](s-sc10-01-mandates.md) | 🔄 |
-| 🖥️ | S-SC10-02 | [Listings](s-sc10-02-listings.md) | 🔄 |
+| 🖥️ | S-SC10-01 | [Mandates](s-sc10-01-mandates.md) | ✅ |
+| 🖥️ | S-SC10-02 | [Listings](s-sc10-02-listings.md) | ✅ |

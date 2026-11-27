@@ -3,7 +3,7 @@
 
 # 🗃️ E-T12-03 Generated connector
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -33,11 +33,11 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) By company and name.
+By company and name.
 
 ## Retention
 
-(Proposed) Runs 13 months; credentials until revoked, then destroyed.
+Runs 13 months; credentials until revoked, then destroyed.
 
 ## Audit
 

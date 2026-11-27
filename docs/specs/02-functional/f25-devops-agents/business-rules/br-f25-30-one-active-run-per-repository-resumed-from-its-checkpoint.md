@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-30 One active run per repository, resumed from its checkpoint
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -45,7 +45,7 @@ None.
 
 ## Configurable
 
-(Proposed) The turn limit and the budget per run, by the maintainers within the budgets of F22; the timeout of 30
+The turn limit and the budget per run, by the maintainers within the budgets of F22; the timeout of 30
 minutes and the single active run per repository are fixed.
 
 ## Open questions

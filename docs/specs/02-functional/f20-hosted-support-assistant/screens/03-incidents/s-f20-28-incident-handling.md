@@ -4,7 +4,7 @@
 
 # 🖥️ S-F20-28 Incident handling
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -21,7 +21,7 @@ Hosted support assistant in the menu; the AI assistant (BR-F3-34).
 
 ## Wireframe
 
-(Proposed) As drawn here, to confirm with the owner.
+As drawn here.
 
 ```text
 +------------------------------------------------------------------+
@@ -59,7 +59,7 @@ As its use case's main flow.
 - Loading: the frame and titles show at once with placeholder rows for the incidents; within 1 second (D408) the data
   replaces them, and a longer load shows a progress line saying what loads.
 - Error: the error message pattern (D122).
-- Read-only: (Proposed) a hosting engineer who is not on the incident follows it without changing it.
+- Read-only: a hosting engineer who is not on the incident follows it without changing it.
 - Offline: not available offline: incidents are run online. D38 keeps only today's schedule, time and intervention
   records offline. A banner says the connection is lost; what is on screen stays visible, every action is disabled and
   nothing is queued until the connection is back.

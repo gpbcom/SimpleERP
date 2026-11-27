@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-15 RGE evidence
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

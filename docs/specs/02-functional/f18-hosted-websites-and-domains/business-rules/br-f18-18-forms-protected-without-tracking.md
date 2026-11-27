@@ -4,7 +4,7 @@
 
 # 📏 BR-F18-18 Forms protected without tracking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -20,7 +20,7 @@ Spam fills the leads (D475); protection must not break cookie consent (CR-FR-070
 | Case | Result |
 |---|---|
 | Form filled in 2 seconds with the hidden field set | blocked, kept in spam |
-| 30 messages from one address in an hour (Proposed) limit 5 | blocked after 5 |
+| 30 messages from one address in an hour limit 5 | blocked after 5 |
 | Genuine message flagged as spam | released by marketing, lead created |
 
 ## Applies to
@@ -34,7 +34,7 @@ None.
 
 ## Configurable
 
-The limits per form; a stronger challenge (Proposed) only after repeated attacks.
+The limits per form; a stronger challenge only after repeated attacks.
 
 ## Open questions
 

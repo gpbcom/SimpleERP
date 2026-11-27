@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-10 Capture from the desktop, a file or dictation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -55,7 +55,7 @@ F4 set up (UC-F4-08).
 ## Error flows
 
 - 4e. A file in an unknown format: refused, with the formats accepted.
-- 4e. A file over 3 hours (Proposed): refused with the limit.
+- 4e. A file over 3 hours: refused with the limit.
 - 3e. Transcription fails: retried
   ([BR-F3-32](../../../f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the error message pattern
   (D122).
@@ -124,7 +124,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Transcript of a one-hour file within 15 minutes (Proposed).
+Transcript of a one-hour file within 15 minutes.
 
 ## Regulatory references
 

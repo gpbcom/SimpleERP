@@ -4,7 +4,7 @@
 
 # 📝 UC-F20-21 Announce planned maintenance
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -71,7 +71,7 @@ Hosting engineer plans; customers read.
 
 ## Notifications
 
-- Administrators and owners at once and (Proposed) the day before.
+- Administrators and owners at once and the day before.
 
 ## Audit events
 

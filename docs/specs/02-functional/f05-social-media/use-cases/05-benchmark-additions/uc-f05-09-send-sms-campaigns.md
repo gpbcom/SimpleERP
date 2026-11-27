@@ -42,7 +42,10 @@ Monthly.
 2. They choose a segment; only SMS consents are kept, duplicates removed
    ([BR-F5-08](../../business-rules/br-f05-08-marketing-needs-consent.md)).
 3. They send a test to their phone.
-4. They send or schedule within the hours allowed (Proposed: 8:00 to 20:00, not Sundays); links are tracked.
+4. They send or schedule within the sending window: by default 8:00 to 20:00, never on Sundays or public holidays, a
+   product default held in the country pack and taken from the SMS operators' code of conduct (AF2M), not from a law
+   ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)); the company
+   may narrow it. Links are tracked.
 
 ## Alternative flows
 
@@ -52,6 +55,7 @@ Monthly.
 ## Error flows
 
 - 4e. Credit exhausted or provider down: paused, marketing told.
+- 4f. A send or a schedule outside the sending window: refused, and the next time inside the window is offered.
 
 ## Business rules
 
@@ -108,6 +112,10 @@ sequenceDiagram
 1. **Given** 410 SMS consents in the segment **when** the SMS is sent **then** 410 SMS go out with the STOP mention.
 2. **Given** a reply STOP **when** it arrives **then** the contact's SMS consent is withdrawn.
 3. **Given** credit for 200 SMS **when** 410 are sent **then** sending pauses at 200 and marketing is told.
+4. **Given** the default sending window **when** marketing schedules the SMS for a Sunday at 10:00 **then** it is
+   refused and Monday at 8:00 is offered.
+5. **Given** a company that narrowed the window to 9:00 to 19:00 **when** marketing schedules the SMS at 19:30 **then**
+   it is refused.
 
 ## Non-functional notes
 
@@ -116,6 +124,9 @@ None.
 ## Regulatory references
 
 [CR-FR-063](../../../../10-country-packs/france/consumer/cr-fr-063-electronic-marketing-consent.md).
+
+Design reference: the SMS operators' code of conduct of the AF2M (Association française du multimédia mobile) for the
+default sending window ([D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md)).
 
 ## Related use cases
 

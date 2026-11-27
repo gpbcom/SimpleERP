@@ -5,7 +5,7 @@
 
 # 🖥️ S-SC08-21 Grant-making
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

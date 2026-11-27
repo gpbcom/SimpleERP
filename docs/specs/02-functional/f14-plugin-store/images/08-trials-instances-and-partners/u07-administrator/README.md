@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F14-08 Trials, test instances, partners and themes
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F14-08 Trials, test instances, partners and themes](../../../flows/fl-f14-08-trials-instances-and-partners.md) for

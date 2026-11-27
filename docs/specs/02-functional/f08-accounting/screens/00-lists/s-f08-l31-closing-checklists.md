@@ -40,7 +40,10 @@ find, filter, total and act on many closing checklists at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] CLOSING CHECKLIST   STATE                                                            |
+| state             | [ ] CLOSING CHEC   PERIOD   KIND   TASKS   BLOCKING ITE   RUN BY   STATE                 |
+| period            | [ ] ...                                                  Open >                          |
+| kind              | [ ] ...                                                  Open >                          |
+| run by            | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -51,6 +54,11 @@ find, filter, total and act on many closing checklists at once
 | Label | Field | Format | Sortable |
 |---|---|---|---|
 | Closing checklist | the record's title | text | yes |
+| Period | period | link to the record | yes |
+| Kind | kind | label | yes |
+| Tasks | tasks | text | yes |
+| Blocking items | blocking items | text | yes |
+| Run by | run by | person's name | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -60,12 +68,16 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Period | each linked period | the visible rows (D488) |
+| Kind | month-end, quarter-end, year-end | the visible rows (D488) |
+| Run by | each person, the user first | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: closing checklists link to no other record type in their fields.
+- Closing checklists of a chosen fiscal period, or of the fiscal periods that match a filter.
+- From the other side: the fiscal periods that have closing checklists, or none.
 
 ## KPI strip
 
@@ -81,6 +93,7 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: run by.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -109,7 +122,9 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| run by | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

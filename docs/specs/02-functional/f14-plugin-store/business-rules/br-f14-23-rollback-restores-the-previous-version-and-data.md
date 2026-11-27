@@ -3,12 +3,12 @@
 
 # 📏 BR-F14-23 Rollback restores the previous version and data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 Before every update the runtime keeps the previous version and a snapshot of the plugin's data; an administrator may
-roll back within (Proposed) 30 days, which restores both and logs it; data entered since the update is exported first.
+roll back within 30 days, which restores both and logs it; data entered since the update is exported first.
 
 ## Why
 
@@ -19,7 +19,7 @@ An update that breaks work must be undone without losing data (D471, BR-F14-03).
 | Case | Result |
 |---|---|
 | Update on 2026-11-02, rollback on 2026-11-05 | passes: 2.3.1 and its data restored, the 3 days' changes exported |
-| Rollback after 45 days | fails: snapshot gone (Proposed) limit 30 days |
+| Rollback after 45 days | fails: snapshot gone limit 30 days |
 | Rollback of a version withdrawn for security | fails: refused (BR-F14-12) |
 
 ## Applies to
@@ -33,7 +33,7 @@ Security withdrawals forbid going back to the vulnerable version.
 
 ## Configurable
 
-The administrator may keep snapshots longer within the storage plan (Proposed).
+The administrator may keep snapshots longer within the storage plan.
 
 ## Open questions
 

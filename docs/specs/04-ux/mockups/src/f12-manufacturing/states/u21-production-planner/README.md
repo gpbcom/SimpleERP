@@ -74,8 +74,6 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-draft-phone.html`
 - `s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-in-progress-desktop.html`
 - `s-f12-11-unbuild-and-repair-e-f12-04-manufacturing-order-in-progress-phone.html`
-- `s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-desktop.html`
-- `s-f12-11-unbuild-and-repair-e-f12-29-unbuild-order-active-phone.html`
 - `s-f12-13-oee-measure-e-f12-13-machine-signal-recorded-desktop.html`
 - `s-f12-13-oee-measure-e-f12-13-machine-signal-recorded-phone.html`
 - `s-f12-14-machine-connections-e-f12-13-machine-signal-recorded-desktop.html`

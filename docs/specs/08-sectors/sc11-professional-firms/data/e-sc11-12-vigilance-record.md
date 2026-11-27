@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC11-12 Vigilance record
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -18,7 +18,7 @@ A risk review or suspicion.
 
 ## Relations
 
-(Proposed) As its use cases.
+As its use cases.
 
 ## Lifecycle
 
@@ -29,11 +29,11 @@ stateDiagram-v2
 
 ## Indexes and search
 
-(Proposed) By number, date, partner.
+By number, date, partner.
 
 ## Retention
 
-(Proposed) For the anti-money-laundering period after the relationship ends;
+5 years from the end of the relationship (Code monétaire et financier L561-12);
 [CR-FR-149 Anti-money-laundering vigilance](../../../10-country-packs/france/professional-firms/cr-fr-149-aml-vigilance.md).
 
 ## Audit
@@ -42,7 +42,7 @@ Every change.
 
 ## Import and export
 
-(Proposed) CSV, FEC where relevant.
+CSV, FEC where relevant.
 
 ## Used by
 

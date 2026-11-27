@@ -4,7 +4,7 @@
 
 # 🖥️ S-F17-26 Watched pages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

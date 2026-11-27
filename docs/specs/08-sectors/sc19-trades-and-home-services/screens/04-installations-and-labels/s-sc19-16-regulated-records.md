@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-16 Regulated records
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

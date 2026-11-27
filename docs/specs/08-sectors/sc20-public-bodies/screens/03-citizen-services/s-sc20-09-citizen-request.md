@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC20-09 Citizen request
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

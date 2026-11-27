@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -29,7 +29,7 @@ One file per rule.
 | 📏 | BR-SC15-16 | [Excise and deposits show on each invoice](br-sc15-16-excise-and-deposits-show-on-each-invoice.md) | ✅ |
 | 📏 | BR-SC15-17 | [The van's stock is counted at each reload](br-sc15-17-the-vans-stock-is-counted-at-each-reload.md) | ✅ |
 | 📏 | BR-SC15-18 | [The invoice uses the weighed quantity](br-sc15-18-the-invoice-uses-the-weighed-quantity.md) | ✅ |
-| 📏 | BR-SC15-19 | [Every lot is traceable by its UDI](br-sc15-19-every-lot-is-traceable-by-its-udi.md) | 🔄 |
+| 📏 | BR-SC15-19 | [Every lot is traceable by its UDI](br-sc15-19-every-lot-is-traceable-by-its-udi.md) | ✅ |
 
 ---
 

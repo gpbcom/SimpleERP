@@ -11,5 +11,5 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F4-12 | [Score a sales call](uc-f04-12-score-a-sales-call.md) | 🔄 |
+| 📝 | UC-F4-12 | [Score a sales call](uc-f04-12-score-a-sales-call.md) | ✅ |
 | 📝 | UC-F4-13 | [Interview a candidate](uc-f04-13-interview-a-candidate.md) | ✅ |

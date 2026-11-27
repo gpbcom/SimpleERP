@@ -164,8 +164,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A federation is an association whose members are associations and follows the same rules for its assembly and
 accounts. Membership dues are not a gift and give no tax receipt. A sports federation that issues licences does so under
-the State's approval and delegation. The accounts are published above the thresholds of the country pack. The
-France-pack rule is written later. Related:
+the State's approval and delegation. The accounts are published above the thresholds of the country pack. The France-pack rules are [CR-FR-284 Sports licences and medical certificates](../../../../10-country-packs/france/non-profit/cr-fr-284-sports-licences-and-medical-certificates.md), [CR-FR-125 Association accounting](../../../../10-country-packs/france/accounting/cr-fr-125-association-accounting.md) and [CR-FR-126 Publication of accounts above the grant threshold](../../../../10-country-packs/france/non-profit/cr-fr-126-accounts-publication.md). Related:
 [CR-FR-125](../../../../10-country-packs/france/accounting/cr-fr-125-association-accounting.md),
 [CR-FR-126](../../../../10-country-packs/france/non-profit/cr-fr-126-accounts-publication.md),
 [CR-FR-124](../../../../10-country-packs/france/non-profit/cr-fr-124-gift-tax-receipts.md).

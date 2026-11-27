@@ -4,7 +4,7 @@
 
 # 🖥️ S-F22-29 Compute carbon
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

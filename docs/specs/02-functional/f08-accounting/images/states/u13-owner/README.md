@@ -12,11 +12,71 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop-dark.png) |
 
+## s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop, light](s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop-dark.png) |
+
 ## s-f08-04-supplier-payments-e-f08-28-payment-run-active-phone
 
 | Light | Dark |
 |---|---|
 | ![s-f08-04-supplier-payments-e-f08-28-payment-run-active-phone, light](s-f08-04-supplier-payments-e-f08-28-payment-run-active-phone-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-active-phone, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-active-phone-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-phone, light](s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-phone-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-phone, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-phone-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-approved-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-approved-phone, light](s-f08-04-supplier-payments-e-f08-28-payment-run-approved-phone-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-approved-phone, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-approved-phone-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-sent-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-sent-phone, light](s-f08-04-supplier-payments-e-f08-28-payment-run-sent-phone-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-sent-phone, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-sent-phone-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-paid-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-paid-phone, light](s-f08-04-supplier-payments-e-f08-28-payment-run-paid-phone-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-paid-phone, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-paid-phone-dark.png) |
+
+## s-f08-04-supplier-payments-e-f08-28-payment-run-refused-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f08-04-supplier-payments-e-f08-28-payment-run-refused-phone, light](s-f08-04-supplier-payments-e-f08-28-payment-run-refused-phone-light.png) | ![s-f08-04-supplier-payments-e-f08-28-payment-run-refused-phone, dark](s-f08-04-supplier-payments-e-f08-28-payment-run-refused-phone-dark.png) |
 
 ## s-f08-09-analytics-and-budgets-e-f08-08-accounting-budget-active-desktop
 

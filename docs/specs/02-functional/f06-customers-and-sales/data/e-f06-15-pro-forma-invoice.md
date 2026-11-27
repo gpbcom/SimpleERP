@@ -3,7 +3,7 @@
 
 # 🗃️ E-F6-15 Pro-forma invoice
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -39,7 +39,7 @@ By number and customer.
 
 ## Retention
 
-As commercial documents (Proposed).
+As commercial documents.
 
 ## Audit
 

@@ -2,7 +2,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -25,10 +25,10 @@ One file per rule.
 | 📏 | BR-SC02-13 | [Gift cards honoured until they expire](br-sc02-13-gift-cards-honoured.md) | ✅ |
 | 📏 | BR-SC02-14 | [Clienteling with consent](br-sc02-14-clienteling-with-consent.md) | ✅ |
 | 📏 | BR-SC02-15 | [Targets per store and staff](br-sc02-15-targets-per-store-and-staff.md) | ✅ |
-| 📏 | BR-SC02-16 | [Book discounts never exceed 5 % of the publisher's price](br-sc02-16-book-discounts-never-exceed-5-of-the-publishers-price.md) | 🔄 |
-| 📏 | BR-SC02-17 | [Dates follow the supplier's confirmed lead time](br-sc02-17-dates-follow-the-suppliers-confirmed-lead-time.md) | 🔄 |
-| 📏 | BR-SC02-18 | [Every purchase from a person enters the police register](br-sc02-18-every-purchase-from-a-person-enters-the-police-register.md) | 🔄 |
-| 📏 | BR-SC02-19 | [Royalties follow the franchise agreement](br-sc02-19-royalties-follow-the-franchise-agreement.md) | 🔄 |
+| 📏 | BR-SC02-16 | [Book discounts never exceed 5 % of the publisher's price](br-sc02-16-book-discounts-never-exceed-5-of-the-publishers-price.md) | ✅ |
+| 📏 | BR-SC02-17 | [Dates follow the supplier's confirmed lead time](br-sc02-17-dates-follow-the-suppliers-confirmed-lead-time.md) | ✅ |
+| 📏 | BR-SC02-18 | [Every purchase from a person enters the police register](br-sc02-18-every-purchase-from-a-person-enters-the-police-register.md) | ✅ |
+| 📏 | BR-SC02-19 | [Royalties follow the franchise agreement](br-sc02-19-royalties-follow-the-franchise-agreement.md) | ✅ |
 
 ---
 

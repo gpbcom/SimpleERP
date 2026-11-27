@@ -3,7 +3,7 @@
 
 # 🖥️ S-F7-26 Warehouse barcode app
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

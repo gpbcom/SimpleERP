@@ -3,7 +3,7 @@
 
 # 🔀 FL-F6-10 Partners, frame contracts and warranties
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

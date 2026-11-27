@@ -9,7 +9,11 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc04-08-billing-e-sc04-08-care-invoice-sent-desktop.html`
 - `s-sc04-09-tax-certificates-e-sc04-09-tax-credit-certificate-held-desktop.html`
 - `s-sc04-09-tax-certificates-e-sc04-09-tax-credit-certificate-sent-desktop.html`
-- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-active-desktop.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-sent-desktop.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-refused-desktop.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-validated-desktop.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-cancelled-desktop.html`
+- `s-sc04-10-immediate-advance-e-sc04-13-immediate-advance-claim-paid-desktop.html`
 
 ---
 

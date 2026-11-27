@@ -3,7 +3,7 @@
 
 # 📏 Business rules
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per rule.
 
@@ -13,7 +13,7 @@ One file per rule.
 |---|---|---|---|
 | 📏 | BR-SC07-01 | [Transport follows the country pack](br-sc07-01-transport-follows-the-country-pack.md) | ✅ |
 | 📏 | BR-SC07-02 | [Vehicles within the licence](br-sc07-02-vehicles-within-the-licence.md) | ✅ |
-| 📏 | BR-SC07-03 | [Trips within driving times](br-sc07-03-trips-within-driving-times.md) | 🔄 |
+| 📏 | BR-SC07-03 | [Trips within driving times](br-sc07-03-trips-within-driving-times.md) | ✅ |
 | 📏 | BR-SC07-04 | [Documents on board complete](br-sc07-04-documents-on-board-complete.md) | ✅ |
 | 📏 | BR-SC07-05 | [Drivers qualified and current](br-sc07-05-drivers-qualified-and-current.md) | ✅ |
 | 📏 | BR-SC07-06 | [Proof of delivery closes the stop](br-sc07-06-proof-of-delivery-closes-the-stop.md) | ✅ |
@@ -26,10 +26,10 @@ One file per rule.
 | 📏 | BR-SC07-13 | [Storage billed by the contract](br-sc07-13-storage-billed-by-the-contract.md) | ✅ |
 | 📏 | BR-SC07-14 | [CO2 shown per transport](br-sc07-14-co2-shown-per-transport.md) | ✅ |
 | 📏 | BR-SC07-15 | [Cabotage counted](br-sc07-15-cabotage-counted.md) | ✅ |
-| 📏 | BR-SC07-16 | [Drivers hold the licence for the vehicle class](br-sc07-16-drivers-hold-the-licence-for-the-vehicle-class.md) | 🔄 |
-| 📏 | BR-SC07-17 | [The removal quote binds once signed](br-sc07-17-the-removal-quote-binds-once-signed.md) | 🔄 |
-| 📏 | BR-SC07-18 | [A failed delivery gets a new slot or a relay point](br-sc07-18-a-failed-delivery-gets-a-new-slot-or-a-relay-point.md) | 🔄 |
-| 📏 | BR-SC07-19 | [Customs entries carry the EORI number](br-sc07-19-customs-entries-carry-the-eori-number.md) | 🔄 |
+| 📏 | BR-SC07-16 | [Drivers hold the licence for the vehicle class](br-sc07-16-drivers-hold-the-licence-for-the-vehicle-class.md) | ✅ |
+| 📏 | BR-SC07-17 | [The removal quote binds once signed](br-sc07-17-the-removal-quote-binds-once-signed.md) | ✅ |
+| 📏 | BR-SC07-18 | [A failed delivery gets a new slot or a relay point](br-sc07-18-a-failed-delivery-gets-a-new-slot-or-a-relay-point.md) | ✅ |
+| 📏 | BR-SC07-19 | [Customs entries carry the EORI number](br-sc07-19-customs-entries-carry-the-eori-number.md) | ✅ |
 
 ---
 

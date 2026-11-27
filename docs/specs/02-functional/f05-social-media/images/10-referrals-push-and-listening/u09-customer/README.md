@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F5-10 Cards, referrals, push and listening
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F5-10 Cards, referrals, push and listening](../../../flows/fl-f05-10-referrals-push-and-listening.md) for
 this persona, in light and dark mode (D120, D121). Errors follow the

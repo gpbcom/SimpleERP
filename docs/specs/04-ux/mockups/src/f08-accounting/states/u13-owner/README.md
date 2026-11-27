@@ -6,7 +6,17 @@
 HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 
 - `s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop.html`
 - `s-f08-04-supplier-payments-e-f08-28-payment-run-active-phone.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-phone.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-approved-phone.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-sent-phone.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-paid-phone.html`
+- `s-f08-04-supplier-payments-e-f08-28-payment-run-refused-phone.html`
 - `s-f08-09-analytics-and-budgets-e-f08-08-accounting-budget-active-desktop.html`
 - `s-f08-09-analytics-and-budgets-e-f08-08-accounting-budget-active-phone.html`
 - `s-f08-09-analytics-and-budgets-e-f08-30-analytic-plan-active-desktop.html`

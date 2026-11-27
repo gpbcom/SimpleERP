@@ -3,7 +3,7 @@
 
 # 🖥️ S-F5-28 Postal campaign
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

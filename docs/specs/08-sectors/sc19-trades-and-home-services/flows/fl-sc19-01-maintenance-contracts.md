@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC19-01 Maintenance contracts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-03 Orders are signed by the authorising officer
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,8 +14,9 @@ the threshold, and the body's staff never pay: the public accountant does.
 ## Why
 
 Keeping order and payment apart is the basis of public accounting, and an order signed without authority is void
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (⚖️ lawyer review before launch, D574) The
+France-pack rule is still to write: to read the separation of authorising officers and public accountants and their
+controls (décret n° 2012-1246 on public budget and accounting management, GBCP).
 
 ## Examples
 

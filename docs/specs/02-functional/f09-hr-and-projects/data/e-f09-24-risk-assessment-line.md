@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-24 Risk assessment line
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -21,7 +21,10 @@ A risk of a work unit with its rating and prevention actions.
 
 ## Relations
 
-Linked to Work accidents.
+One line of the company's single risk assessment document (DUERP), which lists every work unit in one document and is
+versioned as a whole (Code du travail R4121-1,
+[CR-FR-076](../../../10-country-packs/france/labour/cr-fr-076-occupational-risk-assessment.md)); linked to Work
+accidents.
 
 ## Lifecycle
 
@@ -38,7 +41,8 @@ By work unit.
 
 ## Retention
 
-40 years (Proposed) to read.
+40 years from the making of the version it belongs to (Code du travail R4121-4,
+[CR-FR-076 Occupational risk assessment](../../../10-country-packs/france/labour/cr-fr-076-occupational-risk-assessment.md)).
 
 ## Audit
 

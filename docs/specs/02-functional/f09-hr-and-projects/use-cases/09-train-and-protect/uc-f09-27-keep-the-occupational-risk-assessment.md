@@ -8,8 +8,9 @@
 
 ## Summary
 
-The owner and HR keep the single document of occupational risk assessment (DUERP) per work unit, with its prevention
-actions, updated each year and after an accident.
+The owner and HR keep the single document of occupational risk assessment (DUERP): one document per company that
+lists the risks of every work unit (Code du travail R4121-1), with its prevention actions, updated each year and after
+an accident.
 
 ## Personas
 
@@ -40,8 +41,9 @@ Yearly and at events.
 
 ## Main flow
 
-1. The owner opens the risk assessment ([S-F9-24](../../screens/09-train-and-protect/s-f09-24-risk-assessment.md)) per
-   work unit.
+1. The owner opens the company's risk assessment
+   ([S-F9-24](../../screens/09-train-and-protect/s-f09-24-risk-assessment.md)) and works through it work unit by work
+   unit, all in the same document.
 2. For each risk: hazard, exposure, severity and likelihood, existing measures.
 3. Prevention actions get owners and dates; accidents link to their risk
    ([UC-F9-26](uc-f09-26-declare-a-work-accident.md)).
@@ -114,6 +116,8 @@ sequenceDiagram
    accident.
 2. **Given** an assessment dated 2025-09-01 with 40 employees **when** 2026-09-02 comes **then** it is flagged.
 3. **Given** a new version **when** it is saved **then** the previous one stays kept.
+4. **Given** a company with the work units Site teams and Workshop **when** the assessment is printed **then** one
+   document lists the risks of both units.
 
 ## Non-functional notes
 

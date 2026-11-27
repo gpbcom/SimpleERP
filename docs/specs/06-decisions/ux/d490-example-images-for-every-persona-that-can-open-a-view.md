@@ -3,7 +3,7 @@
 
 # 📜 D490 Example images for every persona that can open a view
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-07 / D490)
+**Status:** ✅ decided
 
 ## Context
 
@@ -21,8 +21,8 @@ Every persona that can open the view gets its images: desktop and phone, light a
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 7).
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 7).
 
 ## Consequences
 
@@ -37,7 +37,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer
 - [D120 PNG mockups](d120-png-mockups.md)
 - [D121 Mockup sizes](d121-mockup-sizes.md)
 - [D500 Images live in the specs folders](d500-images-live-in-the-specs-folders.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

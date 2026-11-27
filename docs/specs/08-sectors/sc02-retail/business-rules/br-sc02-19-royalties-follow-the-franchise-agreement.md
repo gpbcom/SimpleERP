@@ -3,7 +3,7 @@
 
 # 📏 BR-SC02-19 Royalties follow the franchise agreement
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -16,7 +16,7 @@ minimum delay has passed.
 A royalty that drifts from the agreement is a dispute; a signature without the disclosure document can void the
 agreement. The owner asked for the franchise network
 ([D546](../../../06-decisions/sectors/d546-benchmark-gaps-sc02-retail.md)). The delay and the document are
-the France-pack rule, written later.
+the France-pack rule ([CR-FR-253](../../../10-country-packs/france/trade/cr-fr-253-franchise-disclosure.md)).
 
 ## Examples
 
@@ -32,7 +32,7 @@ the France-pack rule, written later.
 - [UC-SC02-19](../use-cases/06-books-furniture-second-hand-franchise/uc-sc02-19-run-a-franchise-network.md)
 - [E-SC02-16 Franchisee](../data/e-sc02-16-franchisee.md)
 - [E-F6-05 Invoice](../../../02-functional/f06-customers-and-sales/data/e-f06-05-invoice.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-253 Franchise disclosure document](../../../10-country-packs/france/trade/cr-fr-253-franchise-disclosure.md)
 
 ## Exceptions

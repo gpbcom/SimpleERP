@@ -3,7 +3,7 @@
 
 # 🖥️ S-F5-24 Marketing cards
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

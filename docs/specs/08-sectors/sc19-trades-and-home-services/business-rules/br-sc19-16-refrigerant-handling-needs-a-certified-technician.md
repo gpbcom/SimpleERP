@@ -3,7 +3,7 @@
 
 # 📏 BR-SC19-16 Refrigerant handling needs a certified technician
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -13,8 +13,9 @@ record is closed only with its quantities. A record is corrected by a new entry,
 ## Why
 
 Handling refrigerant without the certificate is an offence and an unrecorded quantity cannot be shown to an inspector
-([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (Proposed) The France-pack
-rule is written later.
+([D563](../../../06-decisions/sectors/d563-benchmark-gaps-sc19-trades-and-home-services.md)). (⚖️ lawyer review before launch, D574)
+The France-pack rule is still to write: to read the operator certificates and the handling records of fluorinated
+refrigerants (Code de l'environnement R543-75 to R543-123, Regulation (EU) 2024/573).
 
 ## Examples
 

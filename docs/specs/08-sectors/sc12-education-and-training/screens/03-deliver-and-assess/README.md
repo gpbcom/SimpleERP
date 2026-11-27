@@ -11,8 +11,8 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC12-06 | [Attendance](s-sc12-06-attendance.md) | 🔄 |
-| 🖥️ | S-SC12-07 | [E-learning](s-sc12-07-e-learning.md) | 🔄 |
-| 🖥️ | S-SC12-08 | [Certificates](s-sc12-08-certificates.md) | 🔄 |
-| 🖥️ | S-SC12-09 | [Satisfaction](s-sc12-09-satisfaction.md) | 🔄 |
-| 🖥️ | S-SC12-20 | [Training assistant](s-sc12-20-training-assistant.md) | 🔄 |
+| 🖥️ | S-SC12-06 | [Attendance](s-sc12-06-attendance.md) | ✅ |
+| 🖥️ | S-SC12-07 | [E-learning](s-sc12-07-e-learning.md) | ✅ |
+| 🖥️ | S-SC12-08 | [Certificates](s-sc12-08-certificates.md) | ✅ |
+| 🖥️ | S-SC12-09 | [Satisfaction](s-sc12-09-satisfaction.md) | ✅ |
+| 🖥️ | S-SC12-20 | [Training assistant](s-sc12-20-training-assistant.md) | ✅ |

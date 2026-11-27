@@ -29,3 +29,4 @@ The decisions of this theme, in number order.
 | 📜 | D451 | [A dated pilot before the release](d451-dated-pilot-before-the-release.md) | ✅ |
 | 📜 | D483 | [Roadmap: everything in V1, the DevOps agents first](d483-roadmap-devops-agents-first.md) | ✅ |
 | 📜 | D568 | [The product is named SimpleERP](d568-product-name-simpleerp.md) | ✅ |
+| 📜 | D569 | [Roadmap option A, cut into twelve phases](d569-roadmap-option-a-in-twelve-phases.md) | ✅ |

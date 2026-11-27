@@ -3,7 +3,7 @@
 
 # 🔀 FL-F13-10 Special contracts and outsourced payroll
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

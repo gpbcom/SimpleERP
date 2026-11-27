@@ -3,7 +3,7 @@
 
 # 📏 BR-SC04-17 CESU vouchers are reconciled with the issuer
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -14,7 +14,7 @@ vouchers it pays, and a difference is listed per voucher until every voucher is 
 
 The provider carries the vouchers as money owed until the issuer pays; an unreconciled difference is lost income. The
 owner asked for CESU payments ([D548](../../../06-decisions/sectors/d548-benchmark-gaps-sc04-home-care.md)).
-The France-pack rule is written later.
+The France-pack rule is listed below.
 
 ## Examples
 
@@ -30,7 +30,7 @@ The France-pack rule is written later.
 - [UC-SC04-17](../use-cases/06-care-homes-cesu-and-nursing/uc-sc04-17-accept-cesu-vouchers.md)
 - [E-SC04-15 CESU voucher](../data/e-sc04-15-cesu-voucher.md)
 - [E-SC04-08 Care invoice](../data/e-sc04-08-care-invoice.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-230 CESU vouchers](../../../10-country-packs/france/home-care/cr-fr-230-cesu-vouchers.md)
 
 ## Exceptions

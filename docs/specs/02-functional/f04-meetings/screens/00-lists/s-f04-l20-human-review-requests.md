@@ -35,10 +35,14 @@ see: to find, filter, total and act on many human review requests at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Human review requests    Meetings › Human review requests   [+ New]                                          |
-| [count]   [chart: count by state]                                                                            |
+| [count] [new this month]   [chart: count by state]                                                           |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] HUMAN REVIEW REQUEST   STATE                                                         |
+| state             | [ ] HUMAN REVIEW   SUBJECT   ASKED BY   ASKS   ASKED ON   REVIEWER   ANSWERED ON   STATE |
+| subject           | [ ] ...                                                  Open >                          |
+| asked by          | [ ] ...                                                  Open >                          |
+| asks              | [ ] ...                                                  Open >                          |
+| reviewer          | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -48,7 +52,13 @@ see: to find, filter, total and act on many human review requests at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Human review request | the record's title | text | yes |
+| Human review request | title | text | yes |
+| Subject | subject | label | yes |
+| Asked by | asked by | person's name | yes |
+| Asks | asks | label | yes |
+| Asked on | asked on | date | yes |
+| Reviewer | reviewer | person's name | yes |
+| Answered on | answered on | date | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -58,6 +68,10 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Subject | scorecard, evaluation grid | the visible rows (D488) |
+| Asked by | each person, the user first | the visible rows (D488) |
+| Asks | explanation, human review | the visible rows (D488) |
+| Reviewer | each person, the user first | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -68,6 +82,7 @@ None: human review requests link to no other record type in their fields.
 ## KPI strip
 
 - Count of the visible rows.
+- New this month, by asked on.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -79,6 +94,7 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: reviewer.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -92,6 +108,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New human review request | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Assign | bulk bar | the personas whose roles may assign | sets the reviewer; audited |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -107,7 +124,11 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| asked by | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| reviewer | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| answer | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

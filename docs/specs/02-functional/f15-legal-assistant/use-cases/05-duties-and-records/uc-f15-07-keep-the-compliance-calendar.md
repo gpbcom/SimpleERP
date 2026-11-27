@@ -4,7 +4,7 @@
 
 # 📝 UC-F15-07 Keep the compliance calendar
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -80,7 +80,7 @@ never see the calendar.
 
 ## Notifications
 
-- Each owner of a duty (Proposed) 30 and 7 days before the due date, and when overdue; the owner of the company of every
+- Each owner of a duty 30 and 7 days before the due date, and when overdue; the owner of the company of every
   overdue duty.
 
 ## Audit events
@@ -93,7 +93,7 @@ The AI assistant may explain a duty with its source and draft the document it ne
 
 ## API, MCP and A2A exposure
 
-Duties read through the API (T5) and as an iCalendar feed per owner (Proposed).
+Duties read through the API (T5) and as an iCalendar feed per owner.
 
 ## Screens
 
@@ -138,7 +138,9 @@ Thresholds:
 [CR-FR-046 Headcount thresholds](../../../../10-country-packs/france/labour/cr-fr-046-headcount-thresholds.md); risk
 assessment:
 [CR-FR-076 Occupational risk assessment](../../../../10-country-packs/france/labour/cr-fr-076-occupational-risk-assessment.md);
-the full list of dated duties: (Proposed) to read per law pack.
+the full list of dated duties comes from the rules of each law pack; (⚖️ lawyer review before launch, D574) the duties no rule
+reads yet (beneficial owners, filing of the accounts): to read Code monétaire et financier L561-46 and Code de
+commerce L232-21 to L232-23.
 
 ## Related use cases
 

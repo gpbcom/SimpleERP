@@ -58,7 +58,9 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-F13-26 Employee benefit | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U45 | `u45-payroll-officer/s-f13-17-benefits-e-f13-26-employee-benefit-active-desktop-{light,dark}.png` |
+| E-F13-26 Employee benefit | Active | Badge "Active"; a new record starts here; next: Ended (UC-F13-17); fields editable within the role | U45 | `u45-payroll-officer/s-f13-17-benefits-e-f13-26-employee-benefit-active-desktop-{light,dark}.png` |
+| E-F13-26 Employee benefit | Blocked | Badge "Blocked"; a new record starts here; next: Active (BR-F13-14); fields editable within the role | U45 | `u45-payroll-officer/s-f13-17-benefits-e-f13-26-employee-benefit-blocked-desktop-{light,dark}.png` |
+| E-F13-26 Employee benefit | Ended | Badge "Ended"; final: read-only, no next state; the history shows how it got here | U45 | `u45-payroll-officer/s-f13-17-benefits-e-f13-26-employee-benefit-ended-desktop-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

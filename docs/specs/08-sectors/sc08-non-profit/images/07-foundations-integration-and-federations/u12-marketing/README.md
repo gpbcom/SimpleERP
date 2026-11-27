@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC08-07 Foundations, integration, federations, peer fundraising
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC08-07 Foundations, integration, federations, peer fundraising](../../../flows/fl-sc08-07-foundations-integration-and-federations.md)

@@ -5,7 +5,7 @@
 
 # 🖥️ S-F21-26 Expert booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

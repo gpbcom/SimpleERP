@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC04-01 | [Recipient](s-sc04-01-recipient.md) | 🔄 |
-| 🖥️ | S-SC04-02 | [Care plan](s-sc04-02-care-plan.md) | 🔄 |
+| 🖥️ | S-SC04-01 | [Recipient](s-sc04-01-recipient.md) | ✅ |
+| 🖥️ | S-SC04-02 | [Care plan](s-sc04-02-care-plan.md) | ✅ |

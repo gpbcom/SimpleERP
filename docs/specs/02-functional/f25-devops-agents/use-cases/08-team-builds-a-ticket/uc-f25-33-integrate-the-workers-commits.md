@@ -4,7 +4,7 @@
 
 # 📝 UC-F25-33 Integrate the workers' commits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -59,12 +59,12 @@ Once per run, and again after a repair cycle or a revised contract.
 
 ## Alternative flows
 
-- 1a. (Proposed) The base branch moved since the starting commit: the integration still starts from the starting commit,
+- 1a. The base branch moved since the starting commit: the integration still starts from the starting commit,
   and bringing the branch up to date is left to the maintainer's review
   ([D434](../../../../06-decisions/f25-devops-agents/d434-maintainer-approval-label.md)).
-- 2a. (Proposed) Two handoffs do not depend on each other: their commits are applied in the order of the contract's task
+- 2a. Two handoffs do not depend on each other: their commits are applied in the order of the contract's task
   numbers.
-- 4a. (Proposed) A required check fails after a clean integration: the head is recorded as a rejected candidate and a
+- 4a. A required check fails after a clean integration: the head is recorded as a rejected candidate and a
   repair cycle starts ([UC-F25-35](uc-f25-35-repair-a-rejected-candidate.md)).
 
 ## Error flows
@@ -104,7 +104,7 @@ Once per run, and again after a repair cycle or a revised contract.
 
 The Release Engineer writes the integration branch only. It never merges into the base branch, never deploys and never
 resolves a conflict ([BR-F25-05](../../business-rules/br-f25-05-agents-never-merge-or-deploy.md)). Maintainers follow
-the integration and approve a revised contract. (Proposed) Hosting engineers read the integration of the runs they
+the integration and approve a revised contract. Hosting engineers read the integration of the runs they
 watch.
 
 ## Notifications
@@ -127,7 +127,7 @@ file to make a commit apply
 
 ## API, MCP and A2A exposure
 
-(Proposed) The integration is read through the operations of the DevOps agents with the maintainer's role. No A2A skill.
+The integration is read through the operations of the DevOps agents with the maintainer's role. No A2A skill.
 
 ## Screens
 
@@ -173,7 +173,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-(Proposed) The screen answers within 2 seconds for 10,000 records; every change is audited.
+The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 

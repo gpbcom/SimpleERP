@@ -33,7 +33,8 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+One year's imprisonment and a 75 000 EUR fine for the natural person, or the director of the legal person, who breaches
+art. 1-1 I and II; legal persons are criminally liable too ([Loi n° 2004-575, art. 1-2, in force since 2024-05-23](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049568616), read 2026-11-27).
 
 ## Exceptions
 

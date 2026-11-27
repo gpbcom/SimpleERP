@@ -51,7 +51,7 @@ flowchart TD
 | [E-F1-21 Company closing](../data/e-f01-21-company-closing.md) | Asked, Exported, Confirmed, Closed | 1, 2, 3, 4 [S-F1-23](../screens/14-close-a-company/s-f01-23-close-the-company.md) | Company closings |
 | [E-F2-13 Document](../../f02-no-code-configuration/data/e-f02-13-document.md) | To sort, To validate, Done | Shown elsewhere: [S-F2-13 Documents workspace](../../f02-no-code-configuration/screens/07-benchmark-additions/s-f02-13-documents-workspace.md) | Documents |
 | [E-F8-27 FEC file](../../f08-accounting/data/e-f08-27-fec-file.md) | Active | 1, 2, 3, 4 [S-F1-23](../screens/14-close-a-company/s-f01-23-close-the-company.md) | FEC files |
-| [E-T03-01 Audit entry](../../../03-technical/t03-audit-trail/data/e-t03-01-audit-entry.md) | Recorded (Proposed) | Shown elsewhere: [S-T03-01 Audit entry](../../../03-technical/t03-audit-trail/screens/s-t03-01-audit-entry.md) | Audit entries |
+| [E-T03-01 Audit entry](../../../03-technical/t03-audit-trail/data/e-t03-01-audit-entry.md) | Recorded | Shown elsewhere: [S-T03-01 Audit entry](../../../03-technical/t03-audit-trail/screens/s-t03-01-audit-entry.md) | Audit entries |
 
 ## Errors
 

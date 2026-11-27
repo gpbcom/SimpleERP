@@ -3,7 +3,7 @@
 
 # 🔑 Real-estate agent: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ agency. Default density: comfortable ([D42](../../../06-decisions/ux/d42-density
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Viewings today; Offers to answer.
 - Widgets: Mandates and sales this month.
@@ -38,16 +38,16 @@ agency. Default density: comfortable ([D42](../../../06-decisions/ux/d42-density
 
 ## Navigation
 
-(Proposed) Home · Mandates · Listings · Viewings · Assistant.
+Home · Mandates · Listings · Viewings · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U35-01 | [From mandate to sale](journeys/j-u35-01-from-mandate-to-sale.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U35-01 | [From mandate to sale](journeys/j-u35-01-from-mandate-to-sale.md) | ✅ |
 
 ---
 

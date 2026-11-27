@@ -3,7 +3,7 @@
 
 # 📏 BR-F15-15 Every AI use inventoried with its risk class
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -15,7 +15,7 @@ class; a high-risk use stays off until the company accepts its deployer duties a
 [CR-FR-056](../../../10-country-packs/france/ai-and-recording/cr-fr-056-people-know-they-deal-with-an-ai.md),
 [CR-FR-057](../../../10-country-packs/france/ai-and-recording/cr-fr-057-human-oversight.md),
 [CR-FR-058](../../../10-country-packs/france/ai-and-recording/cr-fr-058-high-risk-ai-in-employment.md); the impact
-assessment under the GDPR: (Proposed) to read.
+assessment under the GDPR: (⚖️ lawyer review before launch, D574) to read: GDPR article 35 and the CNIL's list.
 
 ## Examples
 

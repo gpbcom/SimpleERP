@@ -3,7 +3,7 @@
 
 # 📏 BR-F24-19 Exports follow field rights and masking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

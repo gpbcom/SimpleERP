@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-SC11-07 Notaries, brokers, judicial officers and audit firms
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

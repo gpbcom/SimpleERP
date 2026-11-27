@@ -11,7 +11,7 @@
 | ✨ |  | [Principles](principles.md) | ✅ |
 | 🎨 |  | [Visual identity](visual-identity/README.md) | ✅ |
 | 📐 |  | [Design system](design-system/README.md) | ✅ |
-| 🧪 |  | [Mockups](mockups/README.md) | 🔄 |
+| 🧪 |  | [Mockups](mockups/README.md) | ✅ |
 | 🪟 |  | [Views](views/README.md) | ✅ |
 
 ---

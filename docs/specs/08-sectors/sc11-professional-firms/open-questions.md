@@ -19,9 +19,8 @@
   [CR-FR-153](../../10-country-packs/france/professional-firms/cr-fr-153-architect-insurance-and-contract.md),
   [CR-FR-154](../../10-country-packs/france/professional-firms/cr-fr-154-lawyer-secrecy.md), which this sector applies,
   is still to read in the official source.
-- Proposals waiting for the owner ([waiting list](../../09-waiting/README.md), the SC11 groups): pages of business rules
-  (3), data (15), screens (20), summary pages (1) hold values marked as proposed, not confirmed in this round (the
-  sectors' proposals were not asked on 2026-11-12).
+- The proposals of this sector were confirmed by the owner on 2026-11-27 ([D572](../../06-decisions/foundations/d572-proposals-confirmed-in-bulk.md)); the legal
+  values still to read are listed in the [waiting list](../../09-waiting/README.md), the SC11 groups.
 
 ---
 

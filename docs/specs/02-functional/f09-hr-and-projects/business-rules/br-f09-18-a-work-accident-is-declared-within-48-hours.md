@@ -3,7 +3,7 @@
 
 # 📏 BR-F9-18 A work accident is declared within 48 hours
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -12,7 +12,8 @@ before the deadline.
 
 ## Why
 
-(Proposed) to read: the social security code's declaration time.
+(⚖️ lawyer review before launch, D574) to read: Code de la sécurité sociale L441-2 and R441-3 (the employer's declaration within 48
+hours); no France-pack rule reads them yet.
 
 ## Examples
 

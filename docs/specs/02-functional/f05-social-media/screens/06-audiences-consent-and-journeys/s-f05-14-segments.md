@@ -25,7 +25,7 @@ Marketing › Segments.
 +------------------------------------------------------------------+
 | Segment: Lyon buyers 2026          (o) Dynamic ( ) Static         |
 | [City = Lyon] AND [Bought in 2026]                 [+ Condition] |
-| 1,240 contacts   email 980   SMS 410   WhatsApp 120              |
+| 1,240 contacts  email 980  SMS 410  WhatsApp 120  postal 1,150   |
 | Preview: Lea Roux, Paul Morel, ...                    [Save]     |
 +------------------------------------------------------------------+
 ```

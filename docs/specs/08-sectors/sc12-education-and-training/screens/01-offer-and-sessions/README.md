@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC12-01 | [Catalogue](s-sc12-01-catalogue.md) | 🔄 |
-| 🖥️ | S-SC12-02 | [Sessions](s-sc12-02-sessions.md) | 🔄 |
-| 🖥️ | S-SC12-11 | [Trainers](s-sc12-11-trainers.md) | 🔄 |
+| 🖥️ | S-SC12-01 | [Catalogue](s-sc12-01-catalogue.md) | ✅ |
+| 🖥️ | S-SC12-02 | [Sessions](s-sc12-02-sessions.md) | ✅ |
+| 🖥️ | S-SC12-11 | [Trainers](s-sc12-11-trainers.md) | ✅ |

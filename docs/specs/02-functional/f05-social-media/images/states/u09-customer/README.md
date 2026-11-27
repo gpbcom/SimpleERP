@@ -90,6 +90,24 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f05-19-landing-page-editor-e-f06-20-lead-active-phone, light](s-f05-19-landing-page-editor-e-f06-20-lead-active-phone-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-active-phone, dark](s-f05-19-landing-page-editor-e-f06-20-lead-active-phone-dark.png) |
 
+## s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone, light](s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone, dark](s-f05-19-landing-page-editor-e-f06-20-lead-qualified-phone-dark.png) |
+
+## s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone, light](s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone, dark](s-f05-19-landing-page-editor-e-f06-20-lead-disqualified-phone-dark.png) |
+
+## s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone
+
+| Light | Dark |
+|---|---|
+| ![s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone, light](s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone-light.png) | ![s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone, dark](s-f05-19-landing-page-editor-e-f06-20-lead-converted-phone-dark.png) |
+
 ## s-f05-25-referral-programme-e-f05-22-referral-pending-phone
 
 | Light | Dark |

@@ -16,7 +16,7 @@ Every legal value comes from the company's country pack (D293). In France:
 [CR-FR-042 Working time and rest](../../10-country-packs/france/labour/cr-fr-042-working-time-and-rest.md),
 [CR-FR-054 Location only when needed and announced](../../10-country-packs/france/data-protection/cr-fr-054-location-with-consent.md),
 [CR-FR-052 Personal data kept no longer than needed](../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md).
-Three are (Proposed): their official pages could not be read yet.
+All are read in their official sources (2026-11-27).
 
 ## Country pack
 

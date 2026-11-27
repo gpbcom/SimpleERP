@@ -36,7 +36,7 @@ Revises D434 ("refuses" becomes "reported and reverted"); BR-F25-07, TC-24 and t
 - [F25 DevOps agents (hosted edition)](../../02-functional/f25-devops-agents/README.md)
 - [How to build the DevOps agents](../../02-functional/f25-devops-agents/build-study.md)
 - [D434](d434-maintainer-approval-label.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

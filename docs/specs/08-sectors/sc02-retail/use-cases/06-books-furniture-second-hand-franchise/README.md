@@ -11,7 +11,7 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-SC02-16 | [Sell books under the fixed price law](uc-sc02-16-sell-books-under-the-fixed-price-law.md) | 🔄 |
+| 📝 | UC-SC02-16 | [Sell books under the fixed price law](uc-sc02-16-sell-books-under-the-fixed-price-law.md) | ✅ |
 | 📝 | UC-SC02-17 | [Sell made-to-order furniture](uc-sc02-17-sell-made-to-order-furniture.md) | ✅ |
-| 📝 | UC-SC02-18 | [Buy back second-hand goods](uc-sc02-18-buy-back-second-hand-goods.md) | 🔄 |
-| 📝 | UC-SC02-19 | [Run a franchise network](uc-sc02-19-run-a-franchise-network.md) | 🔄 |
+| 📝 | UC-SC02-18 | [Buy back second-hand goods](uc-sc02-18-buy-back-second-hand-goods.md) | ✅ |
+| 📝 | UC-SC02-19 | [Run a franchise network](uc-sc02-19-run-a-franchise-network.md) | ✅ |

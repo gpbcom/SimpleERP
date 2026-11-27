@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC04-19 Childcare
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

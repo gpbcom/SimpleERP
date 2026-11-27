@@ -11,6 +11,6 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F4-23 | [Handle an outside speaker's objection or erasure](uc-f04-23-handle-an-outside-speakers-objection-or-erasure.md) | 🔄 |
-| 📝 | UC-F4-26 | [Receive and confirm the agreed actions](uc-f04-26-receive-and-confirm-the-agreed-actions.md) | 🔄 |
-| 📝 | UC-F4-27 | [Keep meeting actions in step with tasks](uc-f04-27-keep-meeting-actions-in-step-with-tasks.md) | 🔄 |
+| 📝 | UC-F4-23 | [Handle an outside speaker's objection or erasure](uc-f04-23-handle-an-outside-speakers-objection-or-erasure.md) | ✅ |
+| 📝 | UC-F4-26 | [Receive and confirm the agreed actions](uc-f04-26-receive-and-confirm-the-agreed-actions.md) | ✅ |
+| 📝 | UC-F4-27 | [Keep meeting actions in step with tasks](uc-f04-27-keep-meeting-actions-in-step-with-tasks.md) | ✅ |

@@ -3,7 +3,7 @@
 
 # 🗃️ E-T13-01 Geocoded place
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18, VD-19 / D501)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -77,7 +77,7 @@ Pin moved by hand (who and when); the automatic geocoding is logged without its 
 
 ## Import and export
 
-Geocoded in bulk on import (REQ-T13-02); (Proposed) outlines imported and exported as GeoJSON.
+Geocoded in bulk on import (REQ-T13-02); outlines imported and exported as GeoJSON.
 
 ## Used by
 

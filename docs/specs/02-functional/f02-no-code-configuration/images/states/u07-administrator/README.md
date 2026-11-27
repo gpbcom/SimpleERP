@@ -54,11 +54,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f02-02-status-designer-e-f02-02-status-and-transition-published-desktop, light](s-f02-02-status-designer-e-f02-02-status-and-transition-published-desktop-light.png) | ![s-f02-02-status-designer-e-f02-02-status-and-transition-published-desktop, dark](s-f02-02-status-designer-e-f02-02-status-and-transition-published-desktop-dark.png) |
 
-## s-f02-02-status-designer-e-f02-26-configuration-draft-active-desktop
+## s-f02-02-status-designer-e-f02-26-configuration-draft-open-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f02-02-status-designer-e-f02-26-configuration-draft-active-desktop, light](s-f02-02-status-designer-e-f02-26-configuration-draft-active-desktop-light.png) | ![s-f02-02-status-designer-e-f02-26-configuration-draft-active-desktop, dark](s-f02-02-status-designer-e-f02-26-configuration-draft-active-desktop-dark.png) |
+| ![s-f02-02-status-designer-e-f02-26-configuration-draft-open-desktop, light](s-f02-02-status-designer-e-f02-26-configuration-draft-open-desktop-light.png) | ![s-f02-02-status-designer-e-f02-26-configuration-draft-open-desktop, dark](s-f02-02-status-designer-e-f02-26-configuration-draft-open-desktop-dark.png) |
+
+## s-f02-02-status-designer-e-f02-26-configuration-draft-published-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-02-status-designer-e-f02-26-configuration-draft-published-desktop, light](s-f02-02-status-designer-e-f02-26-configuration-draft-published-desktop-light.png) | ![s-f02-02-status-designer-e-f02-26-configuration-draft-published-desktop, dark](s-f02-02-status-designer-e-f02-26-configuration-draft-published-desktop-dark.png) |
+
+## s-f02-02-status-designer-e-f02-26-configuration-draft-discarded-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-02-status-designer-e-f02-26-configuration-draft-discarded-desktop, light](s-f02-02-status-designer-e-f02-26-configuration-draft-discarded-desktop-light.png) | ![s-f02-02-status-designer-e-f02-26-configuration-draft-discarded-desktop, dark](s-f02-02-status-designer-e-f02-26-configuration-draft-discarded-desktop-dark.png) |
 
 ## s-f02-03-form-designer-e-f02-03-form-layout-draft-desktop
 
@@ -180,11 +192,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f02-10-publish-and-versions-e-f02-10-configuration-version-superseded-desktop, light](s-f02-10-publish-and-versions-e-f02-10-configuration-version-superseded-desktop-light.png) | ![s-f02-10-publish-and-versions-e-f02-10-configuration-version-superseded-desktop, dark](s-f02-10-publish-and-versions-e-f02-10-configuration-version-superseded-desktop-dark.png) |
 
-## s-f02-10-publish-and-versions-e-f02-26-configuration-draft-active-desktop
+## s-f02-10-publish-and-versions-e-f02-26-configuration-draft-open-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f02-10-publish-and-versions-e-f02-26-configuration-draft-active-desktop, light](s-f02-10-publish-and-versions-e-f02-26-configuration-draft-active-desktop-light.png) | ![s-f02-10-publish-and-versions-e-f02-26-configuration-draft-active-desktop, dark](s-f02-10-publish-and-versions-e-f02-26-configuration-draft-active-desktop-dark.png) |
+| ![s-f02-10-publish-and-versions-e-f02-26-configuration-draft-open-desktop, light](s-f02-10-publish-and-versions-e-f02-26-configuration-draft-open-desktop-light.png) | ![s-f02-10-publish-and-versions-e-f02-26-configuration-draft-open-desktop, dark](s-f02-10-publish-and-versions-e-f02-26-configuration-draft-open-desktop-dark.png) |
+
+## s-f02-10-publish-and-versions-e-f02-26-configuration-draft-published-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-10-publish-and-versions-e-f02-26-configuration-draft-published-desktop, light](s-f02-10-publish-and-versions-e-f02-26-configuration-draft-published-desktop-light.png) | ![s-f02-10-publish-and-versions-e-f02-26-configuration-draft-published-desktop, dark](s-f02-10-publish-and-versions-e-f02-26-configuration-draft-published-desktop-dark.png) |
+
+## s-f02-10-publish-and-versions-e-f02-26-configuration-draft-discarded-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-10-publish-and-versions-e-f02-26-configuration-draft-discarded-desktop, light](s-f02-10-publish-and-versions-e-f02-26-configuration-draft-discarded-desktop-light.png) | ![s-f02-10-publish-and-versions-e-f02-26-configuration-draft-discarded-desktop, dark](s-f02-10-publish-and-versions-e-f02-26-configuration-draft-discarded-desktop-dark.png) |
 
 ## s-f02-10-publish-and-versions-e-f02-25-request-type-draft-desktop
 
@@ -210,11 +234,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f02-11-packs-e-f02-11-configuration-pack-published-desktop, light](s-f02-11-packs-e-f02-11-configuration-pack-published-desktop-light.png) | ![s-f02-11-packs-e-f02-11-configuration-pack-published-desktop, dark](s-f02-11-packs-e-f02-11-configuration-pack-published-desktop-dark.png) |
 
-## s-f02-11-packs-e-f02-26-configuration-draft-active-desktop
+## s-f02-11-packs-e-f02-26-configuration-draft-open-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f02-11-packs-e-f02-26-configuration-draft-active-desktop, light](s-f02-11-packs-e-f02-26-configuration-draft-active-desktop-light.png) | ![s-f02-11-packs-e-f02-26-configuration-draft-active-desktop, dark](s-f02-11-packs-e-f02-26-configuration-draft-active-desktop-dark.png) |
+| ![s-f02-11-packs-e-f02-26-configuration-draft-open-desktop, light](s-f02-11-packs-e-f02-26-configuration-draft-open-desktop-light.png) | ![s-f02-11-packs-e-f02-26-configuration-draft-open-desktop, dark](s-f02-11-packs-e-f02-26-configuration-draft-open-desktop-dark.png) |
+
+## s-f02-11-packs-e-f02-26-configuration-draft-published-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-11-packs-e-f02-26-configuration-draft-published-desktop, light](s-f02-11-packs-e-f02-26-configuration-draft-published-desktop-light.png) | ![s-f02-11-packs-e-f02-26-configuration-draft-published-desktop, dark](s-f02-11-packs-e-f02-26-configuration-draft-published-desktop-dark.png) |
+
+## s-f02-11-packs-e-f02-26-configuration-draft-discarded-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-11-packs-e-f02-26-configuration-draft-discarded-desktop, light](s-f02-11-packs-e-f02-26-configuration-draft-discarded-desktop-light.png) | ![s-f02-11-packs-e-f02-26-configuration-draft-discarded-desktop, dark](s-f02-11-packs-e-f02-26-configuration-draft-discarded-desktop-dark.png) |
 
 ## s-f02-13-documents-workspace-e-f02-13-document-to-sort-desktop
 
@@ -372,11 +408,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f02-21-offline-form-e-f02-20-offline-form-setting-archived-desktop, light](s-f02-21-offline-form-e-f02-20-offline-form-setting-archived-desktop-light.png) | ![s-f02-21-offline-form-e-f02-20-offline-form-setting-archived-desktop, dark](s-f02-21-offline-form-e-f02-20-offline-form-setting-archived-desktop-dark.png) |
 
-## s-f02-22-impact-analysis-e-f02-26-configuration-draft-active-desktop
+## s-f02-22-impact-analysis-e-f02-26-configuration-draft-open-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f02-22-impact-analysis-e-f02-26-configuration-draft-active-desktop, light](s-f02-22-impact-analysis-e-f02-26-configuration-draft-active-desktop-light.png) | ![s-f02-22-impact-analysis-e-f02-26-configuration-draft-active-desktop, dark](s-f02-22-impact-analysis-e-f02-26-configuration-draft-active-desktop-dark.png) |
+| ![s-f02-22-impact-analysis-e-f02-26-configuration-draft-open-desktop, light](s-f02-22-impact-analysis-e-f02-26-configuration-draft-open-desktop-light.png) | ![s-f02-22-impact-analysis-e-f02-26-configuration-draft-open-desktop, dark](s-f02-22-impact-analysis-e-f02-26-configuration-draft-open-desktop-dark.png) |
+
+## s-f02-22-impact-analysis-e-f02-26-configuration-draft-published-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-22-impact-analysis-e-f02-26-configuration-draft-published-desktop, light](s-f02-22-impact-analysis-e-f02-26-configuration-draft-published-desktop-light.png) | ![s-f02-22-impact-analysis-e-f02-26-configuration-draft-published-desktop, dark](s-f02-22-impact-analysis-e-f02-26-configuration-draft-published-desktop-dark.png) |
+
+## s-f02-22-impact-analysis-e-f02-26-configuration-draft-discarded-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-22-impact-analysis-e-f02-26-configuration-draft-discarded-desktop, light](s-f02-22-impact-analysis-e-f02-26-configuration-draft-discarded-desktop-light.png) | ![s-f02-22-impact-analysis-e-f02-26-configuration-draft-discarded-desktop, dark](s-f02-22-impact-analysis-e-f02-26-configuration-draft-discarded-desktop-dark.png) |
 
 ## s-f02-22-impact-analysis-e-f02-10-configuration-version-published-desktop
 
@@ -432,11 +480,23 @@ The screens showing each entity state this persona sees, light and dark (VD-15, 
 |---|---|
 | ![s-f02-25-unused-configuration-report-e-f02-10-configuration-version-published-desktop, light](s-f02-25-unused-configuration-report-e-f02-10-configuration-version-published-desktop-light.png) | ![s-f02-25-unused-configuration-report-e-f02-10-configuration-version-published-desktop, dark](s-f02-25-unused-configuration-report-e-f02-10-configuration-version-published-desktop-dark.png) |
 
-## s-f02-30-custom-report-e-f02-26-configuration-draft-active-desktop
+## s-f02-30-custom-report-e-f02-26-configuration-draft-open-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f02-30-custom-report-e-f02-26-configuration-draft-active-desktop, light](s-f02-30-custom-report-e-f02-26-configuration-draft-active-desktop-light.png) | ![s-f02-30-custom-report-e-f02-26-configuration-draft-active-desktop, dark](s-f02-30-custom-report-e-f02-26-configuration-draft-active-desktop-dark.png) |
+| ![s-f02-30-custom-report-e-f02-26-configuration-draft-open-desktop, light](s-f02-30-custom-report-e-f02-26-configuration-draft-open-desktop-light.png) | ![s-f02-30-custom-report-e-f02-26-configuration-draft-open-desktop, dark](s-f02-30-custom-report-e-f02-26-configuration-draft-open-desktop-dark.png) |
+
+## s-f02-30-custom-report-e-f02-26-configuration-draft-published-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-30-custom-report-e-f02-26-configuration-draft-published-desktop, light](s-f02-30-custom-report-e-f02-26-configuration-draft-published-desktop-light.png) | ![s-f02-30-custom-report-e-f02-26-configuration-draft-published-desktop, dark](s-f02-30-custom-report-e-f02-26-configuration-draft-published-desktop-dark.png) |
+
+## s-f02-30-custom-report-e-f02-26-configuration-draft-discarded-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f02-30-custom-report-e-f02-26-configuration-draft-discarded-desktop, light](s-f02-30-custom-report-e-f02-26-configuration-draft-discarded-desktop-light.png) | ![s-f02-30-custom-report-e-f02-26-configuration-draft-discarded-desktop, dark](s-f02-30-custom-report-e-f02-26-configuration-draft-discarded-desktop-dark.png) |
 
 ## s-f02-30-custom-report-e-f02-10-configuration-version-published-desktop
 

@@ -26,4 +26,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F12-13 Energy, passport and work in progress](13-energy-passport-and-work-in-progress/README.md) | 14 images |
 | 🖼️ |  | [Images: FL-F12-14 CAD, kanban, MPS and tools](14-cad-kanban-mps-and-tools/README.md) | 28 images |
 | 🖼️ |  | [Screen states](states/README.md) | 240 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

@@ -4,7 +4,7 @@
 
 # 📝 UC-F11-33 Sell across borders
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -159,9 +159,9 @@ Prices and VAT of a country are applied in under 1 second at checkout.
 ## Regulatory references
 
 VAT on distance sales in the EU follows
-[CR-FR-071](../../../../10-country-packs/france/tax-and-vat/cr-fr-071-distance-sales-vat-oss.md). (Proposed) The
-one-stop-shop declaration and the threshold below which the home VAT applies are written in the France pack with the
-owner's confirmation, no article cited here; customs duties outside the EU depend on the destination and the carrier.
+[CR-FR-071](../../../../10-country-packs/france/tax-and-vat/cr-fr-071-distance-sales-vat-oss.md). Above 10 000 EUR a
+year of EU distance sales to consumers the buyer's country's VAT applies, declared through the one-stop shop (OSS),
+as that rule states; customs duties outside the EU depend on the destination and the carrier.
 
 ## Related use cases
 

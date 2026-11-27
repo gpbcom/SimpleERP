@@ -21,7 +21,7 @@ is due.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2017-01-01: R4624-10 and R4624-16 ([Code du travail, art. R4624-10](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033769085), [art. R4624-16](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033769063), read 2026-11-27).
 
 ## Enforced by
 
@@ -35,7 +35,8 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+A breach of L4621-1 to L4624-9 repeated within 3 years: 4 months' imprisonment and a 3 750 EUR
+fine, with the judgment displayed and published (L4745-1) ([Code du travail, art. L4745-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033024930), read 2026-11-27).
 
 ## Exceptions
 

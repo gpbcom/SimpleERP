@@ -12,6 +12,7 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-sc01-10-acceptance-e-sc01-11-warranty-active-phone.html`
 - `s-sc01-11-warranties-e-sc01-11-warranty-active-phone.html`
 - `s-sc01-11-warranties-e-sc01-13-as-built-file-active-phone.html`
+- `s-sc01-11-warranties-e-sc01-13-as-built-file-handed-over-phone.html`
 - `s-sc01-12-renovation-sale-e-sc01-02-quote-lot-active-phone.html`
 
 - `s-sc01-17-off-plan-sales-e-sc01-16-off-plan-lot-available-phone.html`

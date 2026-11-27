@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F12-12 Quality engineering
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F12-12 Quality engineering](../../../flows/fl-f12-12-quality-engineering.md) for this persona, in light
 and dark mode (D120, D121). Errors follow the

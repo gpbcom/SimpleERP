@@ -4,7 +4,7 @@
 
 # 📝 UC-F1-15 Administer the users of one's own site
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -83,7 +83,7 @@ A site administrator: a manager given that right on one or more sites; never on 
 ## Notifications
 
 - The invited person gets the invitation email.
-- The administrator gets a weekly digest of the site managers' changes (Proposed).
+- The administrator gets a weekly digest of the site managers' changes.
 
 ## Audit events
 

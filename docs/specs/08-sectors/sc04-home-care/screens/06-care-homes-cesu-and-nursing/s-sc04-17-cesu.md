@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC04-17 CESU
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

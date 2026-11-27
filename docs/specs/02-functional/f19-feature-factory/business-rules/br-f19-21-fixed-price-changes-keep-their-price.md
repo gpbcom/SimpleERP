@@ -16,7 +16,8 @@ is charged before the customer accepts the change.
 
 A fixed price is a promise: if it moves with the effort it is only an estimate. The owner asked for a fixed-price
 catalogue ([D538](../../../06-decisions/f19-feature-factory/d538-benchmark-gaps-f19-feature-factory.md)). The
-France-pack rule on price display to businesses is written later.
+France-pack rule on price display to businesses is
+[CR-FR-271 General terms and prices for business buyers](../../../10-country-packs/france/trade/cr-fr-271-terms-and-prices-for-businesses.md).
 
 ## Examples
 

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC04-18 In agent mode the family is the employer
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,8 +15,8 @@ name before the mandate is signed.
 
 If the provider acted as employer it would take on the duties and risks of an employer it does not wish to be, and the
 family could lose its rights as employer. The owner asked for agent mode
-([D548](../../../06-decisions/sectors/d548-benchmark-gaps-sc04-home-care.md)). (Proposed) The France-pack rule is
-written later.
+([D548](../../../06-decisions/sectors/d548-benchmark-gaps-sc04-home-care.md)). The France-pack rule is
+[CR-FR-231 Agent mode for family employers](../../../10-country-packs/france/home-care/cr-fr-231-agent-mode.md).
 
 ## Examples
 
@@ -32,7 +32,7 @@ written later.
 - [UC-SC04-18](../use-cases/06-care-homes-cesu-and-nursing/uc-sc04-18-run-the-agent-mode-for-family-employers.md)
 - [E-SC04-16 Mandate](../data/e-sc04-16-mandate.md)
 - [E-F9-02 Contract](../../../02-functional/f09-hr-and-projects/data/e-f09-02-contract.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-231 Agent mode for family employers](../../../10-country-packs/france/home-care/cr-fr-231-agent-mode.md)
 
 ## Exceptions

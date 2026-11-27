@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F13-05 Reports and rules
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F13-05 Reports and rules](../../../flows/fl-f13-05-reports-and-rules.md) for this persona, in light and
 dark mode (D120, D121). Errors follow the

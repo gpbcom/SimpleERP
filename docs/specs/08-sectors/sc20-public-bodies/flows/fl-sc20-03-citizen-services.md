@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC20-03 Citizen services
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

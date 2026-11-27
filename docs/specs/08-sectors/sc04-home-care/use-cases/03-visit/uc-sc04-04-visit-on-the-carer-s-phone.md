@@ -3,7 +3,7 @@
 
 # 📝 UC-SC04-04 Visit on the carer's phone
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -56,7 +56,7 @@ Several visits a day per carer.
 
 ## Error flows
 
-- 2e. A check-in far from the address: the carer is asked why and the coordinator sees it ((Proposed) over 300 metres).
+- 2e. A check-in far from the address: the carer is asked why and the coordinator sees it (over 300 metres).
 - 4e. No check-out: the visit stays open and the coordinator is told.
 - Any step: a call to a service or an outside system fails: it is retried first
   ([BR-F3-32](../../../../02-functional/f03-assistant/business-rules/br-f03-32-retry-before-an-error.md)), then the
@@ -135,7 +135,7 @@ sequenceDiagram
 2. **Given** a visit at M. Petit's with no signal **when** the carer checks out **then** times and tasks are kept on the
    phone and synced later.
 3. **Given** a check-in 1 km away **when** N. R. checks in **then** the carer is asked why and the coordinator sees it
-   ((Proposed) over 300 metres).
+   (over 300 metres).
 
 ## Non-functional notes
 
@@ -157,7 +157,7 @@ Legal values from the France country pack:
 
 ## Open questions
 
-None open; the items marked (Proposed) wait for the owner in the [waiting list](../../../../09-waiting/README.md).
+None open.
 
 ---
 

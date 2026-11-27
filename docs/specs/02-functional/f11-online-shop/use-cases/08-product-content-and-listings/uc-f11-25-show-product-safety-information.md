@@ -4,7 +4,7 @@
 
 # 📝 UC-F11-25 Show product safety information
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -117,12 +117,12 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Pages load within 2 seconds on a phone (Proposed); accessible
+Pages load within 2 seconds on a phone; accessible
 ([CR-FR-072](../../../../10-country-packs/france/consumer/cr-fr-072-web-accessibility-eaa.md)).
 
 ## Regulatory references
 
-(Proposed) to read: Regulation (EU) 2023/988 (GPSR), article 19;
+(⚖️ lawyer review before launch, D574) to read: Regulation (EU) 2023/988 (GPSR), article 19;
 [CR-FR-062](../../../../10-country-packs/france/products/cr-fr-062-product-recall.md).
 
 ## Related use cases

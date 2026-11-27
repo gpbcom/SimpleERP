@@ -16,7 +16,7 @@ delivered.
 Invoicing the nominal weight overcharges or undercharges the customer by the difference, and a delivery without weights
 cannot be defended. The owner asked for catch weight
 ([D559](../../../06-decisions/sectors/d559-benchmark-gaps-sc15-wholesale-and-distribution.md)). The
-France-pack rule is written later.
+France-pack rules on scales and unit prices are CR-FR-033 and CR-FR-092.
 
 ## Examples
 

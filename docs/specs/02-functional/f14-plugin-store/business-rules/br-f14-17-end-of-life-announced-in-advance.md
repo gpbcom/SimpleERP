@@ -3,11 +3,11 @@
 
 # 📏 BR-F14-17 End of life announced in advance
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-A publisher ending a plugin announces it at least (Proposed) 6 months ahead, keeps security fixes until the end date,
+A publisher ending a plugin announces it at least 6 months ahead, keeps security fixes until the end date,
 and points installers to an export or an alternative; installs keep running after the end date without updates.
 
 ## Why
@@ -32,7 +32,7 @@ A legal or security emergency follows BR-F14-12 instead.
 
 ## Configurable
 
-The store operator sets the minimum notice, (Proposed) 6 months at least.
+The store operator sets the minimum notice, 6 months at least.
 
 ## Open questions
 

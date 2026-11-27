@@ -3,7 +3,7 @@
 
 # 📏 BR-F8-22 Loan interest is accrued each period
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

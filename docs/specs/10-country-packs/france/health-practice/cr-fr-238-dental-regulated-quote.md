@@ -3,19 +3,33 @@
 
 # ⚖️ CR-FR-238 Regulated dental quote
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) Before prosthetic care the dentist gives the patient a written quote that states each act, its price, the
-amount the health insurance and the complementary cover cover, and the remaining cost, and the patient accepts it before
-the care. Some prosthetic acts belong to a package with no remaining cost, with price caps.
+Before prosthetic care the dentist gives the patient a written quote on the model of annex III of the dentists' national
+agreement 2023-2028: the treatment, each act and its code, the device and its materials, the fees, the reimbursement
+base and the amount the health insurance pays, the basket, the place of manufacture, the alternatives with no or a
+moderate remaining cost, the date and the validity; it is due for a fee overrun from 70 EUR and for every
+made-to-measure device ([Assurance Maladie: devis
+obligatoire](https://www.ameli.fr/chirurgien-dentiste/exercice-liberal/facturation-remuneration/tarifs-conventionnels/devis-obligatoire),
+updated 2026-06-15, read 2026-11-27). Some prosthetic acts belong to a package with no remaining cost, with price caps.
 
 ## Values
 
-- (Proposed) Quote content and acceptance before care.
-- (Proposed) Packages and price caps, kept as data.
-- (Proposed) SimpleERP enforces: prosthetics need the regulated quote before care.
+- The written quote is due for prosthetic and orthodontic treatment, for every insured person, and states the treatment
+  and materials, where the prosthesis is made (EU or not), the fees, the amount the health insurance reimburses, the
+  basket of each act, an alternative with no or a moderate remaining cost for each act concerned, and its end of
+  validity; the complementary cover computes its share from it ([Assurance Maladie: understanding the dentist's
+  quote](https://www.ameli.fr/assure/remboursements/rembourse/soins-protheses-dentaires-optique-audition/consultations-soins-protheses-dentaires/comprendre-devis-dentiste),
+  updated 2026-03-26, read 2026-11-27).
+- (⚖️ lawyer review before launch, D574) The patient accepts the quote before the care: stated neither on the Assurance Maladie pages
+  nor in the texts read; the agreement's article and annex III are not read.
+- Packages and price caps, kept as data: three baskets, no remaining cost (100 % Santé), moderate remaining cost
+  with capped prices, and free prices; the dentist must offer a no or moderate remaining-cost treatment when
+  technically possible ([Assurance Maladie: understanding the dentist's quote](https://www.ameli.fr/assure/remboursements/rembourse/soins-protheses-dentaires-optique-audition/consultations-soins-protheses-dentaires/comprendre-devis-dentiste),
+  read 2026-11-27); the cap amounts are not on the page.
+- SimpleERP enforces: prosthetics need the regulated quote before care.
 - Read on Legifrance,
   [Code de la sante publique L1111-3-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046812436) (in force
   since 31 December 2023, read 15 November 2026); the article is general to all liberal professionals and does not name
@@ -31,11 +45,12 @@ the care. Some prosthetic acts belong to a package with no remaining cost, with 
 
 ## Legal references
 
-- Law to read: the regulated dental quote (not read yet).
+- Code de la santé publique L1111-3-2; dentists' national agreement 2023-2028 (arrêté du 23 août 2023), annex III.
 
 ## Effective dates
 
-(Proposed) To read.
+The agreement 2023-2028, signed on 2023-07-21 and published on 2023-08-25, keeps the quote model of 2018
+([Assurance Maladie: devis obligatoire](https://www.ameli.fr/chirurgien-dentiste/exercice-liberal/facturation-remuneration/tarifs-conventionnels/devis-obligatoire), read 2026-11-27).
 
 ## Enforced by
 
@@ -49,7 +64,7 @@ in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read.
 
 ## Exceptions
 
@@ -57,7 +72,7 @@ None stated.
 
 ## Open questions
 
-The law on the regulated dental quote is not read yet; the values are to read before launch.
+Acceptance before care and the penalty are not read: lawyer review.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

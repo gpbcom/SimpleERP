@@ -24,7 +24,8 @@ restocking; sale goods carry the word "soldes", are set apart, and show the refe
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Start dates of the arrêté du 27 mai 2019 in force since 2019-05-30 ([arrêté du 27 mai 2019, art. 1](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000038524721), read 2026-11-27); Code de
+commerce L310-3 in its current version since 2019-11-01 ([Code de commerce, art. L310-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038586528/2019-11-01), read 2026-11-27).
 
 ## Enforced by
 

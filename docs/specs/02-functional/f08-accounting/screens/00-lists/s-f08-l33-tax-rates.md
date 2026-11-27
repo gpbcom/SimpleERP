@@ -41,7 +41,11 @@ total and act on many tax rates at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] TAX RATE   STATE                                                                     |
+| state             | [ ] NAME   COUNTRY   RATE   TREATMENT   ACCOUNT   ORIGIN   STATE                         |
+| country           | [ ] ...                                                  Open >                          |
+| treatment         | [ ] ...                                                  Open >                          |
+| account           | [ ] ...                                                  Open >                          |
+| origin            | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -51,7 +55,12 @@ total and act on many tax rates at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Tax rate | the record's title | text | yes |
+| Name | name | text | yes |
+| Country | country | label | yes |
+| Rate | rate | percent | yes |
+| Treatment | treatment | label | yes |
+| Account | account | link to the record | yes |
+| Origin | origin | label | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -61,12 +70,17 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Country | each value | the visible rows (D488) |
+| Treatment | VAT charged, reverse charge, intra-EU, exempt | the visible rows (D488) |
+| Account | each linked account | the visible rows (D488) |
+| Origin | country pack, company | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: tax rates link to no other record type in their fields.
+- Tax rates of a chosen account, or of the accounts that match a filter.
+- From the other side: the accounts that have tax rates, or none.
 
 ## KPI strip
 

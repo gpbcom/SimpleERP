@@ -3,7 +3,7 @@
 
 # 🗃️ E-F7-16 Supplier score
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -38,7 +38,7 @@ By supplier and score.
 
 ## Retention
 
-5 years (Proposed).
+5 years.
 
 ## Audit
 

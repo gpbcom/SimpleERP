@@ -3,7 +3,7 @@
 
 # 🗃️ E-F4-14 Speaker request
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -38,7 +38,7 @@ By person and status.
 
 ## Retention
 
-3 years as proof of the answer (Proposed).
+3 years as proof of the answer.
 
 ## Audit
 

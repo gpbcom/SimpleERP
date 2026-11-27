@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC07-24 Freight forwarding
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

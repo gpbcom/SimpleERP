@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F8-11 Treasury and payment means
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F8-11 Treasury and payment means](../../../flows/fl-f08-11-treasury-and-payment-means.md) for this
 persona, in light and dark mode (D120, D121). Errors follow the

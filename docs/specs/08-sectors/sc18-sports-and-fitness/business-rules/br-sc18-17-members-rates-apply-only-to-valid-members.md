@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-17 Members' rates apply only to valid members
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

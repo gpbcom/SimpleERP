@@ -25,4 +25,4 @@ The images of this capability's flows, by flow and persona (D120).
 | 🖼️ |  | [Images: FL-F3-12 Personal, cost-aware and learning](12-personal-cost-aware-and-learning/README.md) | 14 images |
 | 🖼️ |  | [Images: FL-F3-13 Voice, agents and briefings](13-voice-agents-and-briefings/README.md) | 34 images |
 | 🖼️ |  | [Screen states](states/README.md) | 184 images |
-| 🖼️ |  | [Lists](lists/README.md) | 🔄 |
+| 🖼️ |  | [Lists](lists/README.md) | ✅ |

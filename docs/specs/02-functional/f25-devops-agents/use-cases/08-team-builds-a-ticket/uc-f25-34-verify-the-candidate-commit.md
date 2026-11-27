@@ -4,7 +4,7 @@
 
 # 📝 UC-F25-34 Verify the candidate commit
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -116,7 +116,7 @@ Once per candidate commit: one to three times per ticket.
 
 The test engineer runs the required checks and writes the verification; it may not write to the branch. The code
 reviewer reads the repository and the evidence and writes only its verdict. Maintainers read every verification.
-(Proposed) The hosting engineer reads the Blocked verifications whose cause is the test stack.
+The hosting engineer reads the Blocked verifications whose cause is the test stack.
 
 ## Notifications
 
@@ -139,7 +139,7 @@ never an approval: the maintainer approves
 
 ## API, MCP and A2A exposure
 
-(Proposed) The verification is read through the API (T5) by the maintainers and written only by the test engineer and
+The verification is read through the API (T5) by the maintainers and written only by the test engineer and
 the code reviewer of the run. No MCP tool may write it. No A2A skill.
 
 ## Screens
@@ -182,7 +182,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-(Proposed) The screen answers within 2 seconds for 10,000 records; every change is audited.
+The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 

@@ -36,7 +36,9 @@ filter, total and act on many pricing models at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] PRICING MODEL   STATE                                                                |
+| state             | [ ] NAME   KIND   RETAINER PER   STATE                                                   |
+| kind              | [ ] ...                                                  Open >                          |
+| retainer period   | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -46,7 +48,9 @@ filter, total and act on many pricing models at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Pricing model | the record's title | text | yes |
+| Name | name | text | yes |
+| Kind | kind | label | yes |
+| Retainer period | retainer period | label | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -56,6 +60,8 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Kind | time and materials, fixed price, milestones, retainer | the visible rows (D488) |
+| Retainer period | each value | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 

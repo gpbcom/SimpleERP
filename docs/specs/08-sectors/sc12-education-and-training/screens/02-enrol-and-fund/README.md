@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC12-03 | [Enrolment](s-sc12-03-enrolment.md) | 🔄 |
-| 🖥️ | S-SC12-04 | [Funding](s-sc12-04-funding.md) | 🔄 |
-| 🖥️ | S-SC12-05 | [Invitations](s-sc12-05-invitations.md) | 🔄 |
-| 🖥️ | S-SC12-10 | [Billing](s-sc12-10-billing.md) | 🔄 |
+| 🖥️ | S-SC12-03 | [Enrolment](s-sc12-03-enrolment.md) | ✅ |
+| 🖥️ | S-SC12-04 | [Funding](s-sc12-04-funding.md) | ✅ |
+| 🖥️ | S-SC12-05 | [Invitations](s-sc12-05-invitations.md) | ✅ |
+| 🖥️ | S-SC12-10 | [Billing](s-sc12-10-billing.md) | ✅ |

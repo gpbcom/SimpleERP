@@ -4,7 +4,7 @@
 
 # 📝 UC-F12-29 Measure energy per operation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -123,7 +123,7 @@ None.
 
 ## Regulatory references
 
-(Proposed) to read: the energy audit duties of the Code de l'énergie.
+(⚖️ lawyer review before launch, D574) to read: the energy audit duties of the Code de l'énergie (L233-1 to L233-4).
 
 ## Related use cases
 

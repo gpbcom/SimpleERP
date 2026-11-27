@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-SC04-06 Care homes, CESU, agent mode, childcare and nursing
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

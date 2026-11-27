@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC07-13 Transport billing
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -13,8 +13,10 @@
 
 ## Purpose
 
-Used to bill transport with surcharges
-([UC-SC07-13](../../use-cases/05-billing-and-performance/uc-sc07-13-bill-transport-with-surcharges.md)).
+Bill a trip with its freight, its energy costs revised by the change in the CNR index between the contract and the
+transport, its waiting time and its extras
+([UC-SC07-13](../../use-cases/05-billing-and-performance/uc-sc07-13-bill-transport-with-surcharges.md),
+[BR-SC07-12](../../business-rules/br-sc07-12-fuel-surcharge-from-the-index.md)).
 
 ## Entry points
 
@@ -51,7 +53,8 @@ pages list them, with their examples.
 
 ## States
 
-- Normal: the trip's freight, surcharge, waiting time, extras and invoice.
+- Normal: the trip's freight, the energy costs line (the CNR index change since the contract, shown on the invoice),
+  waiting time, extras and invoice.
 - Empty: "Nothing to bill".
 - Loading: the frame and titles show at once with placeholder rows; within 1 second
   ([D408](../../../../06-decisions/technical/d408-performance-and-profiles.md)) the data replaces them, and a longer
@@ -69,7 +72,7 @@ Shown entities (VD-15): none; no flow's Entities and screens table names an enti
 
 ## Responsive behaviour
 
-(Proposed) Desktop; approvals and receipts also on the phone.
+Desktop; approvals and receipts also on the phone.
 
 ## Accessibility
 

@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-07 Product use
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

@@ -3,7 +3,7 @@
 
 # 🗃️ E-F15-07 Corporate decision
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Purpose
 
@@ -44,7 +44,7 @@ By date, body and register number.
 
 ## Retention
 
-For the company's life (Proposed) to read.
+For the company's life (⚖️ lawyer review before launch, D574: Code de commerce R223-24 and R225-106, the registers of minutes).
 
 ## Audit
 

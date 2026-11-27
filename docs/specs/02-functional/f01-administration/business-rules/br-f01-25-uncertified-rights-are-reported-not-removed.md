@@ -3,12 +3,12 @@
 
 # 📏 BR-F1-25 Uncertified rights are reported, not removed
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 At the end of an access review, a right nobody certified is reported to the administrator, who decides; nothing is
-removed automatically (Proposed).
+removed automatically.
 
 ## Why
 
@@ -32,7 +32,7 @@ None.
 
 ## Configurable
 
-Automatic removal at the deadline can be turned on per campaign (Proposed).
+Automatic removal at the deadline can be turned on per campaign.
 
 ## Open questions
 

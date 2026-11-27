@@ -4,7 +4,7 @@
 
 # 🖥️ S-F23-25 Collaborative budget
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

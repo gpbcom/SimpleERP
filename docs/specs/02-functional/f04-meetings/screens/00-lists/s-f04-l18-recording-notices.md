@@ -41,7 +41,9 @@ find, filter, total and act on many recording notices at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] RECORDING NOTICE   STATE                                                             |
+| state             | [ ] NAME   CHANNEL   LANGUAGE   WORDS   STATE                                            |
+| channel           | [ ] ...                                                  Open >                          |
+| language          | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -51,7 +53,10 @@ find, filter, total and act on many recording notices at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Recording notice | the record's title | text | yes |
+| Name | name | text | yes |
+| Channel | channel | label | yes |
+| Language | language | label | yes |
+| Words | words | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -61,6 +66,8 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Channel | bot chat, spoken message, call chat, in-person confirmation | the visible rows (D488) |
+| Language | each value | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
@@ -106,7 +113,7 @@ Each action is offered within the role and checked again on the server (VR-10).
 
 ## Inline edit
 
-None: no field is editable in a cell.
+- language: editable in its cell unless the record's state locks it.
 
 ## Hidden fields
 

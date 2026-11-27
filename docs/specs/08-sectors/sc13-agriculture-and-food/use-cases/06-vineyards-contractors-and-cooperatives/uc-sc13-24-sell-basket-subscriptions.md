@@ -162,7 +162,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 A season contract between a farmer and a consumer fixes the price of the season and the weeks of delivery,
 and the consumer pays in advance and shares the risk of the harvest. It is a sale of food and follows the information
 the consumer must receive before signing, the VAT rate of food and the right of withdrawal where it applies to the way
-the contract was signed. The France-pack rule is written later. Related:
+the contract was signed. The France-pack rules are [CR-FR-065 Information before an online order](../../../../10-country-packs/france/consumer/cr-fr-065-online-pre-contract-information.md), [CR-FR-036 Consumer withdrawal right](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md) (no withdrawal for goods that perish quickly, L221-28 4°), [CR-FR-008 VAT rates](../../../../10-country-packs/france/tax-and-vat/cr-fr-008-vat-rates.md) and [CR-FR-165 Labelling of prepacked food](../../../../10-country-packs/france/consumer/cr-fr-165-prepacked-food-labelling.md). Related:
 [CR-FR-065](../../../../10-country-packs/france/consumer/cr-fr-065-online-pre-contract-information.md),
 [CR-FR-036](../../../../10-country-packs/france/consumer/cr-fr-036-withdrawal-right.md),
 [CR-FR-008 VAT rates](../../../../10-country-packs/france/tax-and-vat/cr-fr-008-vat-rates.md),

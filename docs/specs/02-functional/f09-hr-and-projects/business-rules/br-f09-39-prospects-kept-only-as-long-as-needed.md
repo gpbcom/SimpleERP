@@ -3,13 +3,13 @@
 
 # 📏 BR-F9-39 Prospects are kept only as long as the sequence needs them
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 A prospect who becomes an applicant follows the 2-year term of [BR-F9-11](br-f09-11-candidate-data-has-a-term.md);
-(Proposed) a prospect who refuses or never answers is erased at the end of the sequence, and one never shortlisted when
-the search closes, 30 days after its last run at the latest; (Proposed) of a person who refused, only the LinkedIn
+a prospect who refuses or never answers is erased at the end of the sequence, and one never shortlisted when
+the search closes, 30 days after its last run at the latest; of a person who refused, only the LinkedIn
 profile ID stays, on a do-not-contact list, so that they are never contacted again.
 
 ## Why
@@ -43,7 +43,7 @@ None.
 
 ## Configurable
 
-(Proposed) The 30 days, shorter only.
+The 30 days, shorter only.
 
 ## Open questions
 

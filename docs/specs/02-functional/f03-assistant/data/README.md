@@ -2,7 +2,7 @@
 
 # 🗃️ Data
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per entity.
 
@@ -26,12 +26,12 @@ One file per entity.
 | 🗃️ | E-F3-14 | [Answer feedback](e-f03-14-answer-feedback.md) | ✅ |
 | 🗃️ | E-F3-15 | [Agent](e-f03-15-agent.md) | ✅ |
 | 🗃️ | E-F3-16 | [AI field](e-f03-16-ai-field.md) | ✅ |
-| 🗃️ | E-F3-17 | [Evaluation question](e-f03-17-evaluation-question.md) | 🔄 |
-| 🗃️ | E-F3-18 | [Evaluation run](e-f03-18-evaluation-run.md) | 🔄 |
-| 🗃️ | E-F3-19 | [Injection alert](e-f03-19-injection-alert.md) | 🔄 |
+| 🗃️ | E-F3-17 | [Evaluation question](e-f03-17-evaluation-question.md) | ✅ |
+| 🗃️ | E-F3-18 | [Evaluation run](e-f03-18-evaluation-run.md) | ✅ |
+| 🗃️ | E-F3-19 | [Injection alert](e-f03-19-injection-alert.md) | ✅ |
 | 🗃️ | E-F3-20 | [Memory item](e-f03-20-memory-item.md) | ✅ |
-| 🗃️ | E-F3-21 | [Unanswered topic](e-f03-21-unanswered-topic.md) | 🔄 |
-| 🗃️ | E-F3-22 | [AI assistant request](e-f03-22-ai-assistant-request.md) | 🔄 |
+| 🗃️ | E-F3-21 | [Unanswered topic](e-f03-21-unanswered-topic.md) | ✅ |
+| 🗃️ | E-F3-22 | [AI assistant request](e-f03-22-ai-assistant-request.md) | ✅ |
 | 🗃️ | E-F3-23 | [Team](e-f03-23-team.md) | ✅ |
 | 🗃️ | E-F3-24 | [Agent template](e-f03-24-agent-template.md) | ✅ |
 | 🗃️ | E-F3-25 | [Add-in connection](e-f03-25-add-in-connection.md) | ✅ |

@@ -21,10 +21,13 @@ VAT rates, VAT returns and other taxes the capabilities compute.
 | ⚖️ | CR-FR-084 | [Reduced VAT on housing renovation](cr-fr-084-renovation-reduced-vat.md) | ✅ |
 | ⚖️ | CR-FR-100 | [VAT on services to clients abroad](cr-fr-100-vat-on-services-abroad.md) | ✅ |
 | ⚖️ | CR-FR-103 | [Tax credit for home services and its yearly certificate](cr-fr-103-home-services-tax-credit.md) | ✅ |
-| ⚖️ | CR-FR-104 | [Immediate advance of the tax credit](cr-fr-104-immediate-advance-of-tax-credit.md) | 🔄 |
+| ⚖️ | CR-FR-104 | [Immediate advance of the tax credit](cr-fr-104-immediate-advance-of-tax-credit.md) | ✅ |
 | ⚖️ | CR-FR-111 | [Tourist tax (taxe de séjour)](cr-fr-111-tourist-tax.md) | ✅ |
 | ⚖️ | CR-FR-181 | [VAT on tickets](cr-fr-181-ticket-vat-rates.md) | ✅ |
-| ⚖️ | CR-FR-205 | [VAT on the promotion credit](cr-fr-205-promotion-credit-vat-treatment.md) | 🔄 |
-| ⚖️ | CR-FR-234 | [Alcohol excise and bonded warehouses](cr-fr-234-alcohol-excise.md) | 🔄 |
-| ⚖️ | CR-FR-240 | [Furnished rentals (LMNP)](cr-fr-240-furnished-rentals-lmnp.md) | 🔄 |
+| ⚖️ | CR-FR-205 | [VAT on the promotion credit](cr-fr-205-promotion-credit-vat-treatment.md) | ✅ |
+| ⚖️ | CR-FR-234 | [Alcohol excise and bonded warehouses](cr-fr-234-alcohol-excise.md) | ✅ |
+| ⚖️ | CR-FR-240 | [Furnished rentals (LMNP)](cr-fr-240-furnished-rentals-lmnp.md) | ✅ |
 | ⚖️ | CR-FR-246 | [Research and innovation tax credits](cr-fr-246-research-tax-credit.md) | ✅ |
+| ⚖️ | CR-FR-268 | [Tax deduction of provisions](cr-fr-268-tax-deduction-of-provisions.md) | ✅ |
+| ⚖️ | CR-FR-272 | [VAT on advance payments for services](cr-fr-272-vat-on-advance-payments-for-services.md) | ✅ |
+| ⚖️ | CR-FR-281 | [VAT on deposits for returnable packaging](cr-fr-281-vat-on-returnable-packaging-deposits.md) | ✅ |

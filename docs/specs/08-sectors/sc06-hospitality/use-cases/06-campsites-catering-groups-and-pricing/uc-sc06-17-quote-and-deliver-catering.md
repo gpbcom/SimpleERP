@@ -162,7 +162,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A caterer informs the customer in writing about the allergens of every dish before the order is confirmed,
 and keeps the hygiene records of the cold and hot chain during transport. The VAT rate differs between food and alcohol
-on the same quote. The France-pack rule is written later. Related:
+on the same quote. The France-pack rules are [CR-FR-107 Allergen information in restaurants](../../../../10-country-packs/france/consumer/cr-fr-107-allergen-information.md), [CR-FR-110 Food hygiene and its records](../../../../10-country-packs/france/hospitality/cr-fr-110-food-hygiene-records.md) and [CR-FR-008 VAT rates](../../../../10-country-packs/france/tax-and-vat/cr-fr-008-vat-rates.md). Related:
 [CR-FR-107](../../../../10-country-packs/france/consumer/cr-fr-107-allergen-information.md),
 [CR-FR-110](../../../../10-country-packs/france/hospitality/cr-fr-110-food-hygiene-records.md),
 [CR-FR-008 VAT rates](../../../../10-country-packs/france/tax-and-vat/cr-fr-008-vat-rates.md).

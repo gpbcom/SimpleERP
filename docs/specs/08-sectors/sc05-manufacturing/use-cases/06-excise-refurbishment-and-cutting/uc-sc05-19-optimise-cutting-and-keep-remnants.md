@@ -162,7 +162,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 Offcuts that are scrapped are production waste and enter the waste register, and a remnant put back into
 stock is valued at the cost of the material it came from, not at a higher price. The material certificate of the source
-piece follows the remnant. The France-pack rule is written later. Related:
+piece follows the remnant. The France-pack rules are [CR-FR-079 Waste register](../../../../10-country-packs/france/environment/cr-fr-079-waste-register.md) and [CR-FR-081 Production cost of manufactured stock](../../../../10-country-packs/france/accounting/cr-fr-081-production-cost-of-inventories.md). Related:
 [CR-FR-079](../../../../10-country-packs/france/environment/cr-fr-079-waste-register.md),
 [CR-FR-081](../../../../10-country-packs/france/accounting/cr-fr-081-production-cost-of-inventories.md).
 

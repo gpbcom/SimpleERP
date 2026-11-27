@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC18-04 Class
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

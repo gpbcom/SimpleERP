@@ -3,7 +3,7 @@
 
 # 🗃️ E-F25-23 Run checkpoint
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -30,7 +30,7 @@ paid; the checkpoint records where the work stands.
 | state | Queued, Active, Interrupted, Finished, Abandoned | yes | the lifecycle below | Queued | Active | no | no |
 | owner | user | yes | a user of the company | the creator | Claire P. | yes | no |
 
-(Proposed) The checkpoint is stored by the DevOps agents' service outside the repository's tracked files, never in a
+The checkpoint is stored by the DevOps agents' service outside the repository's tracked files, never in a
 commit of the branch it describes.
 
 ## Relations
@@ -62,7 +62,7 @@ stateDiagram-v2
   Abandoned --> [*] : UC-F25-37
 ```
 
-(Proposed) GitHub Actions keeps at most one waiting run per concurrency group and replaces it with a newer one; the
+GitHub Actions keeps at most one waiting run per concurrency group and replaces it with a newer one; the
 queue is therefore kept by the DevOps agents' service, which starts the next run when the repository is free. To check
 when building.
 
@@ -72,7 +72,7 @@ By repository, state, ticket and saved date.
 
 ## Retention
 
-(Proposed) Kept as long as the agent run it saves ([E-F25-10 Agent run](e-f25-10-agent-run.md)).
+Kept as long as the agent run it saves ([E-F25-10 Agent run](e-f25-10-agent-run.md)).
 
 ## Audit
 

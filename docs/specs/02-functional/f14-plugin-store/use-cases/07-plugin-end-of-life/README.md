@@ -11,5 +11,5 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-F14-22 | [Deprecate a plugin and announce its end of life](uc-f14-22-deprecate-a-plugin-and-announce-its-end-of-life.md) | 🔄 |
+| 📝 | UC-F14-22 | [Deprecate a plugin and announce its end of life](uc-f14-22-deprecate-a-plugin-and-announce-its-end-of-life.md) | ✅ |
 | 📝 | UC-F14-23 | [Take over an abandoned plugin](uc-f14-23-take-over-an-abandoned-plugin.md) | ✅ |

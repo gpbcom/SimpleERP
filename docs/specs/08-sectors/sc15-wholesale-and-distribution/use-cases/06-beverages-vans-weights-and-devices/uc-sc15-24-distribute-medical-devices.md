@@ -5,7 +5,7 @@
 
 # 📝 UC-SC15-24 Distribute medical devices
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -64,8 +64,8 @@ Dozens of lots a week, and a safety notice a few times a year.
 
 - 2a. A check fails: the lot is quarantined and the manufacturer is told.
 - 5a. A lot is partly shipped: the stock left is blocked and the customers who got it are listed.
-- 4a. A complaint relates to a serious incident: the manufacturer and the authority are informed within the delay of the
-  country pack.
+- 4a. A complaint relates to a suspected incident: the manufacturer is informed; when the device presents a serious risk
+  or is falsified, the competent authority is informed too (CR-FR-247).
 
 ## Error flows
 
@@ -161,14 +161,17 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 A distributor of medical devices checks that each device bears its conformity marking, its label with the
 unique device identifier and the instructions in the required language, keeps the devices under the manufacturer's
 storage conditions, and keeps records that allow it to identify the customer of each device. It passes complaints and
-incidents to the manufacturer and, for serious incidents, to the authority, and takes part in field safety corrective
-actions. The delays, the retention period and the register of devices are data of the France pack, written later.
+suspected incidents to the manufacturer, informs the authority when a device presents a serious risk or is falsified,
+and takes part in field safety corrective actions. Suppliers and customers stay identifiable for at least 10 years
+after the last device is placed on the market (15 for implantable devices), the UDI is stored for class III
+implantable and designated devices, and the distributor keeps a register of complaints, non-conforming devices, recalls
+and withdrawals (Regulation (EU) 2017/745 art. 14, 25 and 27).
 Related: [CR-FR-061](../../../../10-country-packs/france/products/cr-fr-061-food-traceability.md),
 [CR-FR-062](../../../../10-country-packs/france/products/cr-fr-062-product-recall.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md),
 [CR-FR-015](../../../../10-country-packs/france/invoicing/cr-fr-015-invoice-mandatory-mentions.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-247 Medical device UDI traceability](../../../../10-country-packs/france/products/cr-fr-247-medical-device-udi.md)
 
 ## Related use cases

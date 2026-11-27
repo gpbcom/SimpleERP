@@ -3,7 +3,7 @@
 
 # 🗃️ E-SC17-10 Tip
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 

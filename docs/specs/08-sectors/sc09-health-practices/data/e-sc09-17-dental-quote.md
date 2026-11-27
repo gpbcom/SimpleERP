@@ -17,12 +17,15 @@ quote before.
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
 | patient | patient (E-SC09-02) | yes | a patient of the practice | - | Mrs Lopez | yes | no |
-| acts | act, tooth, price | yes | each act with a price | - | crown, tooth 26, 120.00 | no | no |
+| acts | act, code, tooth, fees, device and materials | yes | each act with its code and fees | - | crown, its national code, tooth 26, 120.00, ceramic | no | no |
+| place of manufacture | EU, outside the EU | yes | per device | - | EU | no | no |
 | basis | amount | yes | from the national scale | - | 120.00 EUR | no | no |
 | insurance share | amount | yes | 0 or more | from the basis | 70.00 EUR | no | no |
-| cover share | amount | yes | 0 or more | from the cover | 50.00 EUR | no | no |
-| patient remaining cost | amount | yes | 0 or more | price minus shares | 0.00 EUR | no | no |
-| package with no remaining cost | yes or no per act | yes | within the pack's caps | no | yes | no | no |
+| cover share | amount | no | 0 or more; information, not on the regulated quote (CR-FR-238) | from the cover | 50.00 EUR | no | no |
+| patient remaining cost | amount | no | 0 or more; information, not on the regulated quote | price minus shares | 0.00 EUR | no | no |
+| basket | no remaining cost, moderate, free, per act | yes | within the pack's caps | - | no remaining cost | no | no |
+| alternatives | acts with no or a moderate remaining cost | no | required for each act concerned | - | crown, metal, no remaining cost | no | no |
+| valid until | date | yes | after the quote date | - | 2027-05-14 | no | no |
 | sent on | date | no | set when sent | - | 2026-11-14 | no | no |
 | signed on | date and time | no | needed before the care | - | 2026-11-15 18:20 | no | no |
 | state | Draft, Sent, Signed, Completed, Refused | yes | the lifecycle below | Draft | Sent | no | no |

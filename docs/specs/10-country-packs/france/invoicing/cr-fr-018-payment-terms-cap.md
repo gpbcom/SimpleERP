@@ -20,7 +20,9 @@ Payment terms between businesses do not exceed 60 days from the invoice date, or
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2019-04-26: L441-10 ([Code de commerce, art. L441-10](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414392), read 2026-11-27). Until 2026-12-31, the L441-10 version of 2019-04-26; from 2027-01-01, the version amended by Ordonnance n° 2026-671
+art. 2 keeps the 30-day default, the 60-day and 45-days-end-of-month caps, the penalty rate and the fixed indemnity,
+and caps periodic invoices of CIBS L216-34 at 45 days ([Code de commerce, art. L441-10, version of 2027-01-01](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038414392/2027-01-02), read 2026-11-27).
 
 ## Enforced by
 
@@ -35,7 +37,8 @@ rule ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet (CCom art. L441-16 sets administrative fines).
+An administrative fine up to 75 000 EUR (natural person) or 2 000 000 EUR (legal person), up to
+150 000 EUR and 4 000 000 EUR on a repeat within 2 years, for payment terms over the caps of L441-10 I (L441-16) ([Code de commerce, art. L441-16](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043750778), read 2026-11-27).
 
 ## Exceptions
 

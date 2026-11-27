@@ -3,7 +3,7 @@
 
 # 📜 D504 Positions at check-in by default, live as a team option for drivers and carers
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-22 / D504)
+**Status:** ✅ decided
 
 ## Context
 
@@ -14,8 +14,8 @@ How a person's position is recorded. Today: at check-in and check-out only, per 
 
 ## Options
 
-The first proposal of 2026-11-13 ([maps and
-eligibility](../../../tickets/GH-2/resources/flowcharts-screens/maps-and-eligibility.md)):
+The first proposal of 2026-11-13 (maps and
+eligibility (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)):
 - A. position at check-in and check-out only;
 - B. live position during working hours, for a stated purpose;
 - C. vehicles' positions, not people's.
@@ -30,8 +30,8 @@ used to control speed or measure performance.
 
 ## Decided by
 
-The owner, on 2026-11-13, in the interview on maps, degrees and scheduling ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md), VD-22).
+The owner, on 2026-11-13, in the interview on maps, degrees and scheduling (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), VD-22).
 
 ## Consequences
 
@@ -58,7 +58,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attri
   employees](../../10-country-packs/france/data-protection/cr-fr-211-live-geolocation-of-employees.md)
 - [D503 Who sees people's positions](d503-who-sees-peoples-positions.md)
 - [D505 The employee sees their own position live](d505-the-employee-sees-their-own-position-live.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/scheduling-maps-attributes.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

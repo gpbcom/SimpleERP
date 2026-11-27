@@ -4,7 +4,7 @@
 
 # 🗂️ S-F25-L22 Verifications
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -177,8 +177,7 @@ Not drawn yet: step S8 draws them from this page, one row per persona and device
 
 ## Open questions
 
-(Proposed) This list waits for the owner's confirmation: its entity was created in the benchmark-gap interview of
-2026-11-14.
+None.
 
 ---
 

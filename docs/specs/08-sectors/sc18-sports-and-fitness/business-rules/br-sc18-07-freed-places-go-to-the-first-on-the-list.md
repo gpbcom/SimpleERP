@@ -3,7 +3,7 @@
 
 # 📏 BR-SC18-07 Freed places go to the first on the list
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

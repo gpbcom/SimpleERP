@@ -2,7 +2,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -16,7 +16,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-SC07-04 | [Compliance](fl-sc07-04-compliance.md) | ✅ |
 | 🔀 | FL-SC07-05 | [Billing and performance](fl-sc07-05-billing-and-performance.md) | ✅ |
 | 🔀 | FL-SC07-06 | [Logistics for clients](fl-sc07-06-logistics-for-clients.md) | ✅ |
-| 🔀 | FL-SC07-07 | [Passengers, removals, courier and freight](fl-sc07-07-passengers-removals-courier-and-freight.md) | 🔄 |
+| 🔀 | FL-SC07-07 | [Passengers, removals, courier and freight](fl-sc07-07-passengers-removals-courier-and-freight.md) | ✅ |
 
 ---
 

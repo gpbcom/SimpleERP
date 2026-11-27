@@ -3,7 +3,7 @@
 
 # 🧭 Engagement manager: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Timesheets to approve; Milestones due; Engagements over budget.
 - Widgets: Utilisation and margin this month.
@@ -38,16 +38,16 @@ density: compact ([D42](../../../06-decisions/ux/d42-density-per-role.md)).
 
 ## Navigation
 
-(Proposed) Home · Engagements · Staffing · Time · Billing · Assistant.
+Home · Engagements · Staffing · Time · Billing · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U24-01 | [Deliver an engagement](journeys/j-u24-01-deliver-an-engagement.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U24-01 | [Deliver an engagement](journeys/j-u24-01-deliver-an-engagement.md) | ✅ |
 
 ---
 

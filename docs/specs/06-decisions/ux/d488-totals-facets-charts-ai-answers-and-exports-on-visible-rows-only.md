@@ -3,7 +3,7 @@
 
 # 📜 D488 Totals, facets, charts, AI answers and exports on visible rows only
 
-**Status:** 🔄 draft (GH-2 step S4, from VD-05 / D488)
+**Status:** ✅ decided
 
 ## Context
 
@@ -23,15 +23,15 @@ facet.
 
 ## Decided by
 
-The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens ([interview
-record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer 5).
+The owner, on 2026-11-12, in the interview on aggregated views, wording and state screens (interview
+record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository), answer 5).
 
 ## Consequences
 
 - The list shows one fixed sentence ("Counts, totals, facets and the chart use only the records you may see"), never a
   count of hidden records.
 - The plain-words filter refuses a hidden field: "You cannot filter on that field."
-- (Proposed) T2 applies the record and field rules to lists, aggregates, facets and exports; the server checks bulk
+- T2 applies the record and field rules to lists, aggregates, facets and exports; the server checks bulk
   actions and inline edits again ([T2](../../03-technical/t02-identity-and-access/README.md)).
 - It applies [D12](../foundations/d12-permissions-model.md) to every part of the list.
 
@@ -44,7 +44,7 @@ record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md), answer
   filters](d486-plain-words-filter-facets-with-counts-related-record-filters.md)
 - [D489 List actions: bulk, export, inline edit, ask about the list, open the
   record](d489-list-actions-bulk-export-inline-edit-ask-about-the-list-open-the-record.md)
-- [Interview record](../../../tickets/GH-2/resources/flowcharts-screens/INTERVIEW.md)
+- Interview record (the owner's interview notes of 2026-11 for the specifications, not kept in the repository)
 
 ---
 

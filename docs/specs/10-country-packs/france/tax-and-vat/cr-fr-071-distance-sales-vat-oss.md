@@ -26,7 +26,11 @@ there or the optional one-stop shop (OSS).
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12.
+Since 2021-07-01: art. 258 A in force since 2021-07-01, art. 259 B since 2011-01-01 ([CGI, art. 258 A](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042886596), [art. 259 B](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023412175), read 2026-11-27). Until 2026-12-31, CGI art. 258 A and 259 B apply; from 2027-01-01, the Code des impositions sur les biens et services, Book II, distance sales (L211-163 to L211-168) and the place of supply (L211-64 to L211-98),
+in force on that date ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 49](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054587047) as amended by Ordonnance n° 2026-671, read 2026-11-27); on invoices,
+contracts and acts that produce effects until 2028-06-30 (art. 46 II as
+amended by Ordonnance n° 2026-671, [BOFiP, BOI-RES-TVA-000253 of 2026-10-07](https://bofip.impots.gouv.fr/bofip/14901-PGP.html/identifiant=BOI-RES-TVA-000253-20261007), read 2026-11-27), a reference to the CGI is read as one to the CIBS
+article that takes it over ([Ordonnance n° 2025-1247](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053091516), [art. 46](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053091753), read 2026-11-27).
 
 ## Enforced by
 

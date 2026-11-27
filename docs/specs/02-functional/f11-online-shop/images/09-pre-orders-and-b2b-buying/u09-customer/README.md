@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F11-09 Pre-orders and B2B buying
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F11-09 Pre-orders and B2B buying](../../../flows/fl-f11-09-pre-orders-and-b2b-buying.md) for this persona,
 in light and dark mode (D120, D121). Errors follow the

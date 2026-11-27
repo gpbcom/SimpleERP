@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC19-04 Installations and labels
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 

@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC18-09 | [Federation licences](s-sc18-09-federation-licences.md) | 🔄 |
-| 🖥️ | S-SC18-10 | [Medical certificates](s-sc18-10-medical-certificates.md) | 🔄 |
-| 🖥️ | S-SC18-11 | [Teams and competitions](s-sc18-11-teams-and-competitions.md) | 🔄 |
-| 🖥️ | S-SC18-12 | [Results](s-sc18-12-results.md) | 🔄 |
+| 🖥️ | S-SC18-09 | [Federation licences](s-sc18-09-federation-licences.md) | ✅ |
+| 🖥️ | S-SC18-10 | [Medical certificates](s-sc18-10-medical-certificates.md) | ✅ |
+| 🖥️ | S-SC18-11 | [Teams and competitions](s-sc18-11-teams-and-competitions.md) | ✅ |
+| 🖥️ | S-SC18-12 | [Results](s-sc18-12-results.md) | ✅ |

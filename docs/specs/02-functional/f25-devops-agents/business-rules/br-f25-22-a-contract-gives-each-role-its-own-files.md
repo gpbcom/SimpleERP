@@ -4,7 +4,7 @@
 
 # 📏 BR-F25-22 A contract gives each role its own files
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -40,7 +40,7 @@ The contract is built from what the agents studied first ([BR-F25-06](br-f25-06-
 
 ## Exceptions
 
-(Proposed) A generated file, such as a lock file, belongs to the role whose task generates it, named in the contract.
+A generated file, such as a lock file, belongs to the role whose task generates it, named in the contract.
 
 ## Configurable
 

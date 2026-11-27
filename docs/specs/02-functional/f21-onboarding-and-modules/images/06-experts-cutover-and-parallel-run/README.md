@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F21-06 Experts, cutover, parallel run and set-up from documents
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

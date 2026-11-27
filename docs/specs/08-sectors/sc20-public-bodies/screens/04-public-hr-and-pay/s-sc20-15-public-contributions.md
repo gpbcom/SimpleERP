@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC20-15 Public contributions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

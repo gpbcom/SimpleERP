@@ -3,7 +3,7 @@
 
 # 🧭 J-U19-01 Prepare the orders
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Persona
 
@@ -15,8 +15,8 @@ See every order in the right order, with its notes, and know what is late.
 
 ## Journey
 
-Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are a proposal (Proposed), drawn from the
-specs, for the owner to confirm.
+Satisfaction at each step, from 1 (painful) to 5 (effortless): these scores are drawn from the
+specs and confirmed by the owner (D572).
 
 ```mermaid
 journey

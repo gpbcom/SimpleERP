@@ -5,7 +5,7 @@
 
 # 📝 UC-SC13-21 Run the vineyard and the cellar
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -168,13 +168,17 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 A grower declares the harvest after it, and declares the stock of wine on a fixed date each year, from
 registers kept up to date. Wine sold or removed for consumption is liable to excise, declared each month by the
 warehousekeeper, and the movement of wine under suspension travels with an accompanying document. Each appellation sets
-a maximum yield per hectare and the grower declares the plots by area, variety and appellation. The dates, rates and
-limits are data of the France pack, written later. Related:
+a maximum yield per hectare and the grower declares the plots by area, variety and appellation. The harvest and
+production declarations are due by 10 December for growers and 10 January for co-operatives and merchant-winemakers,
+the stock held on 31 July is declared by 10 September, all online, and plantings, uprootings and re-graftings are
+declared on PARCEL within one month of the works (CR-FR-249). The excise rate is per hectolitre of wine, not per volume
+of pure alcohol (CR-FR-234). (⚖️ lawyer review before launch, D574) The yield limit of each appellation is still to read in its
+specifications. Related:
 [CR-FR-061](../../../../10-country-packs/france/products/cr-fr-061-food-traceability.md),
 [CR-FR-165](../../../../10-country-packs/france/consumer/cr-fr-165-prepacked-food-labelling.md),
 [CR-FR-007](../../../../10-country-packs/france/accounting/cr-fr-007-annual-stock-count.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule, (⚖️ lawyer review before launch, D574) for the yield limit of each appellation:
   [CR-FR-249 Harvest and stock declarations](../../../../10-country-packs/france/agriculture/cr-fr-249-vineyard-declarations.md)
 
 ## Related use cases

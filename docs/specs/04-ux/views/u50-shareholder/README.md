@@ -42,10 +42,10 @@ Home · Legal assistant · Accounting · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U50-01 | [Follow my shares and vote](journeys/j-u50-01-follow-my-shares-and-vote.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U50-01 | [Follow my shares and vote](journeys/j-u50-01-follow-my-shares-and-vote.md) | ✅ |
 
 ---
 

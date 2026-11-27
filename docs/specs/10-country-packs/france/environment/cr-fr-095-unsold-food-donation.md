@@ -24,7 +24,7 @@ opening or of crossing the threshold, and never destroys edible unsold food.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code de l'environnement L541-15-6 in its current version in force since 2020-02-12 (loi n° 2020-105) ([Code de l'environnement, art. L541-15-6](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041598864), read 2026-11-27).
 
 ## Enforced by
 

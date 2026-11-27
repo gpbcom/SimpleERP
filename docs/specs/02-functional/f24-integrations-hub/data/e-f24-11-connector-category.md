@@ -3,7 +3,7 @@
 
 # 🗃️ E-F24-11 Connector category
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -14,7 +14,7 @@ A category of the catalogue with its fallback icon.
 | Name | Type | Required | Validation | Default | Example | Personal data | Custom fields |
 |---|---|---|---|---|---|---|---|
 | name | text | yes | unique | - | Banks | no | no |
-| fallback icon | text | yes | a Lucide icon name (D45) | - | landmark (Proposed) | no | no |
+| fallback icon | text | yes | a Lucide icon name (D45) | - | landmark | no | no |
 | order | number | yes | - | - | 4 | no | no |
 
 ## Relations

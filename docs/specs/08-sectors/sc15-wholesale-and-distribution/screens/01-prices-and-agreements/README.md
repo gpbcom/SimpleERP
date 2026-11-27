@@ -12,7 +12,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC15-01 | [Price agreements](s-sc15-01-price-agreements.md) | 🔄 |
-| 🖥️ | S-SC15-02 | [Rebates](s-sc15-02-rebates.md) | 🔄 |
-| 🖥️ | S-SC15-03 | [Yearly agreement](s-sc15-03-yearly-agreement.md) | 🔄 |
-| 🖥️ | S-SC15-11 | [Supplier funds](s-sc15-11-supplier-funds.md) | 🔄 |
+| 🖥️ | S-SC15-01 | [Price agreements](s-sc15-01-price-agreements.md) | ✅ |
+| 🖥️ | S-SC15-02 | [Rebates](s-sc15-02-rebates.md) | ✅ |
+| 🖥️ | S-SC15-03 | [Yearly agreement](s-sc15-03-yearly-agreement.md) | ✅ |
+| 🖥️ | S-SC15-11 | [Supplier funds](s-sc15-11-supplier-funds.md) | ✅ |

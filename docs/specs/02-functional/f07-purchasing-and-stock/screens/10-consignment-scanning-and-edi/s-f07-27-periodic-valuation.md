@@ -3,7 +3,7 @@
 
 # 🖥️ S-F7-27 Periodic valuation
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

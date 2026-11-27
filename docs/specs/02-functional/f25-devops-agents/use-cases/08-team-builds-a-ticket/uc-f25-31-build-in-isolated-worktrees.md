@@ -4,7 +4,7 @@
 
 # 📝 UC-F25-31 Build in isolated worktrees
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -74,7 +74,7 @@ Two to four workers per ticket the team builds.
   [UC-F25-08](../03-bugs/uc-f25-08-reproduce-a-bug-on-the-managed-simpleerp.md)).
 - 3a. A task depends on another role's task: the worker builds against the shared contract, and the dependency sets the
   order of integration ([UC-F25-33](uc-f25-33-integrate-the-workers-commits.md)).
-- 6a. (Proposed) The hosting engineer sees a worker stuck or a runner short of resources: they stop that worker, whose
+- 6a. The hosting engineer sees a worker stuck or a runner short of resources: they stop that worker, whose
   worktree and commits are kept for its handoff with a blocker.
 
 ## Error flows
@@ -137,7 +137,7 @@ code reaches the product only through the maintainer's review
 
 ## API, MCP and A2A exposure
 
-(Proposed) Workers are read and stopped through the operations of the DevOps agents with the maintainer's or the hosting
+Workers are read and stopped through the operations of the DevOps agents with the maintainer's or the hosting
 engineer's role. No A2A skill.
 
 ## Screens
@@ -182,7 +182,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-(Proposed) The screen answers within 2 seconds for 10,000 records; every change is audited.
+The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 

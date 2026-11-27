@@ -4,7 +4,7 @@
 
 # 🖥️ S-F16-20 Support contracts
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

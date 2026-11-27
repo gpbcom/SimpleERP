@@ -4,7 +4,7 @@
 
 # 📌 REQ-T13-06 Map queries respect permissions
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-05, VD-20, VD-21 / D488, D502, D503)
+**Status:** ✅ specified
 
 ## Statement
 

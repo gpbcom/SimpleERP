@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-04 Record a phone call
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -129,7 +129,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Transcribed within 5 minutes of hang-up (Proposed).
+Transcribed within 5 minutes of hang-up.
 
 ## Regulatory references
 

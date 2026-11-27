@@ -4,7 +4,7 @@
 
 # 📏 BR-F21-17 Paid sessions are quoted before booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

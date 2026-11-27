@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC17-03 Salon retail and stock
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-SC17-03 Salon retail and stock](../../../flows/fl-sc17-03-salon-retail-and-stock.md) for this persona, in
 light and dark mode (D120, D121). Errors follow the

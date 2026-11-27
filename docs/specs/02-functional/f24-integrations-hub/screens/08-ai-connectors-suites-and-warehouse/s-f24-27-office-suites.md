@@ -4,7 +4,7 @@
 
 # 🖥️ S-F24-27 Office suites
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

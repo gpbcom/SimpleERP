@@ -26,7 +26,9 @@ works (DICT) through the single window run by Ineris; no work starts before ever
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12.
+DT and its answer (R554-21, R554-22) and the DICT answer (R554-26) in their current version since 2025-01-01; DICT
+(R554-25) since 2020-01-01; the 9 and 15 days, 7 and 9 days confirmed ([Code de l'environnement, art. R554-1 ff.](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074220/LEGISCTA000023270507/),
+read 2026-11-27).
 
 ## Enforced by
 

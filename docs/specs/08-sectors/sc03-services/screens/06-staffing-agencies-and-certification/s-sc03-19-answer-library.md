@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC03-19 Answer library
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

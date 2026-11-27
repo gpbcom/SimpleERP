@@ -3,7 +3,7 @@
 
 # 🗃️ E-F3-19 Injection alert
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -39,7 +39,7 @@ By source, date and status.
 
 ## Retention
 
-1 year (Proposed).
+1 year.
 
 ## Audit
 

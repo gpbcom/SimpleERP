@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC20-19 Planning permits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

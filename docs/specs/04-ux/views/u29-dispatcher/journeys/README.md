@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U29-01 | [Plan the trips](j-u29-01-plan-the-trips.md) | 🔄 |
+| 🧭 | J-U29-01 | [Plan the trips](j-u29-01-plan-the-trips.md) | ✅ |
 
 ---
 

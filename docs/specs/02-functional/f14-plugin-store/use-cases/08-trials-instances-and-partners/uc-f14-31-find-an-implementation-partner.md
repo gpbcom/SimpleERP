@@ -5,7 +5,7 @@
 
 # 📝 UC-F14-31 Find an implementation partner
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -154,8 +154,8 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 ## Regulatory references
 
 The directory ranks businesses on a platform, so it must tell them the main ranking criteria:
-[CR-FR-189](../../../../10-country-packs/france/digital/cr-fr-189-p2b-platform-terms.md). (Proposed) A paid placement is
-always labelled as such; the France-pack rule is written later.
+[CR-FR-189](../../../../10-country-packs/france/digital/cr-fr-189-p2b-platform-terms.md). A paid placement is
+always labelled as such, a product choice; the terms set out the main ranking parameters (CR-FR-189, art. 5).
 
 ## Related use cases
 

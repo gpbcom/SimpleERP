@@ -3,7 +3,7 @@
 
 # 🗃️ E-F7-20 Emission factor
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -37,7 +37,7 @@ By category.
 
 ## Retention
 
-10 years (Proposed).
+10 years.
 
 ## Audit
 

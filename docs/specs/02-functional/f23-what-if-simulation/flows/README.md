@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -18,7 +18,7 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F23-05 | [Act and watch](fl-f23-05-act-and-watch.md) | ✅ |
 | 🔀 | FL-F23-06 | [Goals and financing](fl-f23-06-goals-and-financing.md) | ✅ |
 | 🔀 | FL-F23-07 | [Accuracy and drivers](fl-f23-07-accuracy-and-drivers.md) | ✅ |
-| 🔀 | FL-F23-08 | [Budgets, rolling forecasts, group and valuation](fl-f23-08-budgets-rolling-group-and-valuation.md) | 🔄 |
+| 🔀 | FL-F23-08 | [Budgets, rolling forecasts, group and valuation](fl-f23-08-budgets-rolling-group-and-valuation.md) | ✅ |
 
 ---
 

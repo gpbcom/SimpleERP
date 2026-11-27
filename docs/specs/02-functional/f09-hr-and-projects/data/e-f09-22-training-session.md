@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-22 Training session
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -41,7 +41,9 @@ By course and year.
 
 ## Retention
 
-6 years (Proposed).
+8 years, the period the career-path review looks back on (Code du travail L6315-1,
+[CR-FR-039](../../../10-country-packs/france/labour/cr-fr-039-professional-interviews.md)); it was 6 years under the
+former six-yearly review.
 
 ## Audit
 

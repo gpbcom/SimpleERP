@@ -71,7 +71,7 @@ Every scheduling, ticket count, closing, report and distributor payment, with wh
 
 ## Import and export
 
-Export of the period's screenings in the format of the national film centre; import of the programme as CSV.
+Export of the week's screenings in the format of the national film centre (Cinedi slips per film, version and screen); import of the programme as CSV.
 
 ## Used by
 

@@ -3,15 +3,18 @@
 
 # ⚖️ CR-FR-033 Scales used for sales
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) A scale used to price goods by weight is an approved, verified non-automatic weighing instrument.
+A scale used for sales carries a valid green verification sticker, visible to the customer; a scale with a red
+sticker or an expired green one may not be used ([DGCCRF, Contrôle des quantités vendues](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/controle-des-quantites-vendues-payer-seulement-ce-que-lon-achete), read 2026-11-27).
+(⚖️ lawyer review before launch, D574) It is an approved, non-automatic weighing instrument.
 
 ## Values
 
-- (Proposed) Approved model, CE metrology marking, periodic verification kept up to date.
+- Periodic verification kept up to date: a valid green sticker ([DGCCRF](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/controle-des-quantites-vendues-payer-seulement-ce-que-lon-achete), read 2026-11-27).
+- (⚖️ lawyer review before launch, D574) Approved model, CE metrology marking.
 
 ## Legal references
 
@@ -20,7 +23,7 @@
 
 ## Effective dates
 
-(Proposed) To read.
+(⚖️ lawyer review before launch, D574) To read (décret n° 2001-387 and its orders).
 
 ## Enforced by
 
@@ -33,7 +36,7 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+(⚖️ lawyer review before launch, D574) Not read yet.
 
 ## Exceptions
 

@@ -60,7 +60,12 @@ Entity states shown (VD-15):
 
 | Entity | State | What changes | Personas | Images |
 |---|---|---|---|---|
-| E-F8-28 Payment run | Active | Badge "Active"; a new record starts here; no other state; fields editable within the role | U05, U13 | `u05-accounting/s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop-{light,dark}.png`, `u13-owner/s-f08-04-supplier-payments-e-f08-28-payment-run-active-{desktop,phone}-{light,dark}.png` |
+| E-F8-28 Payment run | Active | Badge "Active"; a new record starts here; next: Waiting for a check or Approved (BR-F8-08, UC-F8-04); fields editable within the role | U05, U13 | `u05-accounting/s-f08-04-supplier-payments-e-f08-28-payment-run-active-desktop-{light,dark}.png`, `u13-owner/s-f08-04-supplier-payments-e-f08-28-payment-run-active-{desktop,phone}-{light,dark}.png` |
+| E-F8-28 Payment run | Waiting for a check | Badge "Waiting for a check"; next: Active (BR-F8-08); fields editable within the role | U05, U13 | `u05-accounting/s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-desktop-{light,dark}.png`, `u13-owner/s-f08-04-supplier-payments-e-f08-28-payment-run-waiting-for-a-check-{desktop,phone}-{light,dark}.png` |
+| E-F8-28 Payment run | Approved | Badge "Approved"; next: Sent (UC-F8-04); fields editable within the role | U05, U13 | `u05-accounting/s-f08-04-supplier-payments-e-f08-28-payment-run-approved-desktop-{light,dark}.png`, `u13-owner/s-f08-04-supplier-payments-e-f08-28-payment-run-approved-{desktop,phone}-{light,dark}.png` |
+| E-F8-28 Payment run | Sent | Badge "Sent"; next: Paid or Refused (UC-F8-06, UC-F8-04); fields editable within the role | U05, U13 | `u05-accounting/s-f08-04-supplier-payments-e-f08-28-payment-run-sent-desktop-{light,dark}.png`, `u13-owner/s-f08-04-supplier-payments-e-f08-28-payment-run-sent-{desktop,phone}-{light,dark}.png` |
+| E-F8-28 Payment run | Paid | Badge "Paid"; final: read-only, no next state; the history shows how it got here | U05, U13 | `u05-accounting/s-f08-04-supplier-payments-e-f08-28-payment-run-paid-desktop-{light,dark}.png`, `u13-owner/s-f08-04-supplier-payments-e-f08-28-payment-run-paid-{desktop,phone}-{light,dark}.png` |
+| E-F8-28 Payment run | Refused | Badge "Refused"; final: read-only, no next state; the history shows how it got here | U05, U13 | `u05-accounting/s-f08-04-supplier-payments-e-f08-28-payment-run-refused-desktop-{light,dark}.png`, `u13-owner/s-f08-04-supplier-payments-e-f08-28-payment-run-refused-{desktop,phone}-{light,dark}.png` |
 
 State images: each name is a file under the capability's `images/states/` folder, one per device and theme the braces
 list; step S8 (36k) draws them, and a system state has none. Rows without a hand-written text are derived from each

@@ -25,7 +25,8 @@ the certificate is attached to the quote and the invoice.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Code des assurances L241-1 and L243-2 (certificate with quotes and invoices) in their current version since 2015-08-08
+([Code des assurances, art. L241-1 to L243-9](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073984/LEGISCTA000006142820/), read 2026-11-27).
 
 ## Enforced by
 
@@ -38,7 +39,7 @@ corrected rule ships in a pack update (D294).
 
 ## Penalty
 
-Up to 6 months' imprisonment and a 75 000 EUR fine.
+Up to 6 months' imprisonment and a 75 000 EUR fine ([Code des assurances, art. L243-3](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073984/LEGISCTA000006142820/), since 2005-06-09, read 2026-11-27).
 
 ## Exceptions
 

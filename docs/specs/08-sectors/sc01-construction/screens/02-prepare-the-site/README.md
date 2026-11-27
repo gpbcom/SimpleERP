@@ -11,6 +11,6 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC01-03 | [Site planning](s-sc01-03-site-planning.md) | 🔄 |
-| 🖥️ | S-SC01-08 | [Equipment](s-sc01-08-equipment.md) | 🔄 |
-| 🖥️ | S-SC01-09 | [Works declarations](s-sc01-09-works-declarations.md) | 🔄 |
+| 🖥️ | S-SC01-03 | [Site planning](s-sc01-03-site-planning.md) | ✅ |
+| 🖥️ | S-SC01-08 | [Equipment](s-sc01-08-equipment.md) | ✅ |
+| 🖥️ | S-SC01-09 | [Works declarations](s-sc01-09-works-declarations.md) | ✅ |

@@ -3,7 +3,7 @@
 
 # 📏 BR-SC03-16 Assignment contracts are signed in two working days
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -15,8 +15,8 @@ the client is not invoiced for them until it is signed.
 
 A temporary worker without a signed contract in time exposes the agency and the client to the requalification of the
 assignment into an open-ended contract. The owner asked for staffing agencies
-([D547](../../../06-decisions/sectors/d547-benchmark-gaps-sc03-services.md)). (Proposed) The France-pack rule is written
-later.
+([D547](../../../06-decisions/sectors/d547-benchmark-gaps-sc03-services.md)). The France-pack rule is
+[CR-FR-229 Temporary-work assignment contracts](../../../10-country-packs/france/labour/cr-fr-229-temporary-work-contracts.md).
 
 ## Examples
 
@@ -33,7 +33,7 @@ later.
 - [UC-SC03-16](../use-cases/06-staffing-agencies-and-certification/uc-sc03-16-place-temporary-workers.md)
 - [E-SC03-17 Assignment contract](../data/e-sc03-17-assignment-contract.md)
 - [E-F9-02 Contract](../../../02-functional/f09-hr-and-projects/data/e-f09-02-contract.md)
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-229 Temporary-work assignment contracts](../../../10-country-packs/france/labour/cr-fr-229-temporary-work-contracts.md)
 
 ## Exceptions

@@ -37,7 +37,7 @@ persona list say so.
 - [U47 SimpleERP maintainer](../../01-users/personas/u47-simpleerp-maintainer.md)
 - [F25 DevOps agents (hosted edition)](../../02-functional/f25-devops-agents/README.md)
 - [D392](d392-simpleerp-maintainer-persona.md)
-- [Independent review of 2026-11-12](../../../tickets/GH-2/review/2026-11-12-review.md)
+- Independent review of 2026-11-12 (the independent review of 2026-11-12, not kept in the repository)
 
 ---
 

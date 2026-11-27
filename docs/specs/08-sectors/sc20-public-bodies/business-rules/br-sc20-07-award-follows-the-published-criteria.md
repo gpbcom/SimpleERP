@@ -3,7 +3,7 @@
 
 # 📏 BR-SC20-07 Award follows the published criteria
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
@@ -14,8 +14,9 @@ requires it.
 ## Why
 
 Using a criterion that was not published, or opening a late bid, is a ground to cancel the award
-([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (Proposed) The France-pack rule is
-written later.
+([D564](../../../06-decisions/sectors/d564-benchmark-gaps-sc20-public-bodies.md)). (⚖️ lawyer review before launch, D574) The
+France-pack rule is still to write: to read the award criteria and their weighting, and the rule on late bids (Code de
+la commande publique L2152-7, R2152-6 to R2152-12).
 
 ## Examples
 

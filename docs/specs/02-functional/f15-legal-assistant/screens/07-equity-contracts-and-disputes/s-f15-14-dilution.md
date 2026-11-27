@@ -4,7 +4,7 @@
 
 # 🖥️ S-F15-14 Dilution
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

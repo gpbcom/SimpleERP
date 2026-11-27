@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC18-14 Training programme
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

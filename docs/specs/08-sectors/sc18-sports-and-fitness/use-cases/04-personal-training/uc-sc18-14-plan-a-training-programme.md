@@ -148,8 +148,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A coach adapts the training to the person's health and does not give medical advice; health information is
 kept only as needed, with the member's agreement, and protected
-([CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)). The France-pack
-rule is written later.
+([CR-FR-055](../../../../10-country-packs/france/data-protection/cr-fr-055-health-data-hosting.md)). The France-pack rule is [CR-FR-283 Health data outside care](../../../../10-country-packs/france/data-protection/cr-fr-283-health-data-outside-care.md).
 
 ## Related use cases
 

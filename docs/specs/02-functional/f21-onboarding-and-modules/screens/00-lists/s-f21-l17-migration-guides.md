@@ -37,7 +37,8 @@ find, filter, total and act on many migration guides at once
 | [count]   [chart: count by state]                                                                            |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] MIGRATION GUIDE   STATE                                                              |
+| state             | [ ] MIGRATION GU   TOOL   SUPPORTED VE   FILES   DATA COVERED   STATE                    |
+| tool              | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -47,7 +48,11 @@ find, filter, total and act on many migration guides at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Migration guide | the record's title | text | yes |
+| Migration guide | title | text | yes |
+| Tool | tool | label | yes |
+| Supported versions | supported versions | text | yes |
+| Files | files | text | yes |
+| Data covered | data covered | text | yes |
 | State | state | badge: Active | yes |
 
 Secrets are never a column (VR-4).
@@ -57,6 +62,7 @@ Secrets are never a column (VR-4).
 | Facet | Values | Counted on |
 |---|---|---|
 | State | Active | the visible rows (D488) |
+| Tool | each value | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 

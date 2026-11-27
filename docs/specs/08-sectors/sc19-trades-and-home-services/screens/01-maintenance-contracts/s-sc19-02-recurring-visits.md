@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC19-02 Recurring visits
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

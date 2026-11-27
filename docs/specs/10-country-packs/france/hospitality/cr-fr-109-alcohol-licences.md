@@ -24,7 +24,7 @@ with the operating permit for on-site sales, and displays its licence.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+CSP L3331-1 and L3331-2 in force since 2016-01-01; L3332-3 since 2019-03-25; L3332-1-1 since 2020-01-30 ([Code de la santé publique, title III Débits de boissons](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006155036), read 2026-11-27).
 
 ## Enforced by
 

@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC03-01 | [Statement of work](s-sc03-01-statement-of-work.md) | 🔄 |
-| 🖥️ | S-SC03-02 | [Rate cards](s-sc03-02-rate-cards.md) | 🔄 |
+| 🖥️ | S-SC03-01 | [Statement of work](s-sc03-01-statement-of-work.md) | ✅ |
+| 🖥️ | S-SC03-02 | [Rate cards](s-sc03-02-rate-cards.md) | ✅ |

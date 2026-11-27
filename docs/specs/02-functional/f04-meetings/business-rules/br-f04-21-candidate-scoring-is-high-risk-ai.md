@@ -16,7 +16,9 @@ assessment it needs.
 
 ## Why
 
-The owner chose to score candidates (D234); the law then sets these duties. See
+The owner chose to score candidates (D234); the law then sets these duties. Until 2027-12-01 the AI Act's high-risk
+duties do not apply yet to Annex III uses; from 2027-12-02 they do (CR-FR-058, after the AI Omnibus); this rule holds
+on both dates. See
 [AI governance](../../../05-non-functional/ai-governance.md).
 
 Legal values from the France country pack:

@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-03 Desk booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

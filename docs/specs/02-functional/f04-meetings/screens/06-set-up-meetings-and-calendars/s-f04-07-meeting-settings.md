@@ -47,8 +47,9 @@ Administration › Meetings.
 
 Calendar connections with sync state; platforms (Teams, Meet, Zoom, Webex, Jitsi, BigBlueButton); phone system and
 softphone (D236); recording mode (audio and video, audio only, transcript only); custom vocabulary (company terms,
-product names, per team); the bot's display name ("<Company> recorder, SimpleERP") and an administrator lock
-on recording settings; retention; summary templates; scoring of candidates on or off (BR-F4-21).
+product names, per team); the bot's display name, fixed as "SimpleERP recorder" and shown
+read-only ([BR-F4-01](../../business-rules/br-f04-01-every-recording-is-announced.md)); an administrator lock on
+recording settings; retention; summary templates; scoring of candidates on or off (BR-F4-21).
 
 ## Actions
 

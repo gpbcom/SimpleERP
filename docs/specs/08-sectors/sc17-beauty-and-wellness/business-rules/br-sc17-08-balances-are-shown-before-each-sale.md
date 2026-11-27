@@ -3,7 +3,7 @@
 
 # 📏 BR-SC17-08 Balances are shown before each sale
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

@@ -11,5 +11,5 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC03-03 | [Staffing](s-sc03-03-staffing.md) | 🔄 |
-| 🖥️ | S-SC03-04 | [Resource plan](s-sc03-04-resource-plan.md) | 🔄 |
+| 🖥️ | S-SC03-03 | [Staffing](s-sc03-03-staffing.md) | ✅ |
+| 🖥️ | S-SC03-04 | [Resource plan](s-sc03-04-resource-plan.md) | ✅ |

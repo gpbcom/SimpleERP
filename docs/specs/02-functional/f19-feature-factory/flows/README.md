@@ -3,7 +3,7 @@
 
 # 🔀 Flows
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 One file per flow, its steps linked to screens and use cases.
 
@@ -16,8 +16,8 @@ One file per flow, its steps linked to screens and use cases.
 | 🔀 | FL-F19-03 | [Try, install and maintain](fl-f19-03-try-install-and-maintain.md) | ✅ |
 | 🔀 | FL-F19-04 | [Promote](fl-f19-04-promote.md) | ✅ |
 | 🔀 | FL-F19-05 | [Bill and credit](fl-f19-05-bill-and-credit.md) | ✅ |
-| 🔀 | FL-F19-06 | [Delivery and refunds](fl-f19-06-delivery-and-refunds.md) | 🔄 |
-| 🔀 | FL-F19-07 | [Similar features, catalogue, co-funding and maintenance](fl-f19-07-catalogue-and-co-funding.md) | 🔄 |
+| 🔀 | FL-F19-06 | [Delivery and refunds](fl-f19-06-delivery-and-refunds.md) | ✅ |
+| 🔀 | FL-F19-07 | [Similar features, catalogue, co-funding and maintenance](fl-f19-07-catalogue-and-co-funding.md) | ✅ |
 
 ---
 

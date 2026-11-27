@@ -7,13 +7,14 @@
 
 ## Statement
 
-(Proposed) A client and its beneficial owners are identified and their risk rated before any work, and the evidence is
+A client and its beneficial owners are identified and their risk rated before any work, and the evidence is
 kept; in France:
 [CR-FR-149 Anti-money-laundering vigilance](../../../10-country-packs/france/professional-firms/cr-fr-149-aml-vigilance.md).
 
 ## Why
 
-(Proposed) The retention period is still to read.
+The identification and vigilance documents are kept 5 years from the end of the relationship, and the records of each
+operation 5 years from that operation (CR-FR-149, Code monétaire et financier L561-12).
 
 ## Examples
 

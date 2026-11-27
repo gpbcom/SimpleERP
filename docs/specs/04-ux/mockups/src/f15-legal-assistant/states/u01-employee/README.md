@@ -41,8 +41,12 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-off-phone.html`
 - `s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-on-desktop.html`
 - `s-f15-10-privacy-and-ai-register-e-f15-09-ai-use-on-phone.html`
-- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-desktop.html`
-- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-active-phone.html`
+- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-desktop.html`
+- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-desktop.html`
+- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-desktop.html`
+- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-draft-phone.html`
+- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-approved-phone.html`
+- `s-f15-10-privacy-and-ai-register-e-f15-13-data-protection-impact-assessment-refused-phone.html`
 - `s-f15-11-lawyer-hand-off-e-f03-01-conversation-private-desktop.html`
 - `s-f15-11-lawyer-hand-off-e-f03-01-conversation-private-phone.html`
 - `s-f15-11-lawyer-hand-off-e-f03-01-conversation-shared-desktop.html`

@@ -2,7 +2,7 @@
 
 # ❓ Q19 Which LinkedIn search sourcing uses
 
-**Status:** ❓ open question
+**Status:** ✅ answered
 
 ## Question
 
@@ -19,7 +19,7 @@ needs to know which criteria LinkedIn applies and which the AI assistant applies
 
 ## Options
 
-- (Proposed) The search the HR user's account offers, as Unipile reports it; the criteria it lacks are applied by the AI
+- The search the HR user's account offers, as Unipile reports it; the criteria it lacks are applied by the AI
   assistant to the profiles returned, and the screen says which.
 - The classic search only, the same for every company.
 - Recruiter or Sales Navigator required for LinkedIn sourcing.
@@ -30,7 +30,10 @@ The owner of SimpleERP.
 
 ## Answer
 
-Open.
+The owner, 2026-11-27: by default the search the HR user's own account offers, as Unipile reports it, the criteria it
+lacks applied by the AI assistant to the profiles returned and the screen saying which; Recruiter or Sales Navigator as
+an option when the account has it
+([D571](../06-decisions/f09-hr-and-projects/d571-linkedin-sourcing-uses-the-users-search.md)).
 
 ---
 

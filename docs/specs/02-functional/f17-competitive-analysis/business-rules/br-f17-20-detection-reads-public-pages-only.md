@@ -4,7 +4,7 @@
 
 # 📏 BR-F17-20 Detection reads public pages only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

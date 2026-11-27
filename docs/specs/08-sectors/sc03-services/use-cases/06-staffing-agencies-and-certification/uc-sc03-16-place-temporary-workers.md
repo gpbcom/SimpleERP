@@ -5,7 +5,7 @@
 
 # 📝 UC-SC03-16 Place temporary workers
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -179,7 +179,7 @@ law; indemnities are due at the end. The France-pack rule is listed below. Relat
 [CR-FR-186](../../../../10-country-packs/france/payroll/cr-fr-186-end-of-contract-documents.md),
 [CR-FR-185](../../../../10-country-packs/france/payroll/cr-fr-185-minimum-wage.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule:
   [CR-FR-229 Temporary-work assignment contracts](../../../../10-country-packs/france/labour/cr-fr-229-temporary-work-contracts.md)
 
 ## Related use cases

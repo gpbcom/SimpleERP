@@ -11,7 +11,7 @@ The use cases of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 📝 | UC-SC11-21 | [Run a notary's office](uc-sc11-21-run-a-notarys-office.md) | 🔄 |
-| 📝 | UC-SC11-22 | [Run an insurance brokerage](uc-sc11-22-run-an-insurance-brokerage.md) | 🔄 |
+| 📝 | UC-SC11-21 | [Run a notary's office](uc-sc11-21-run-a-notarys-office.md) | ✅ |
+| 📝 | UC-SC11-22 | [Run an insurance brokerage](uc-sc11-22-run-an-insurance-brokerage.md) | ✅ |
 | 📝 | UC-SC11-23 | [Run a judicial officer's office](uc-sc11-23-run-a-judicial-officers-office.md) | ✅ |
-| 📝 | UC-SC11-24 | [Run a statutory audit firm](uc-sc11-24-run-a-statutory-audit-firm.md) | 🔄 |
+| 📝 | UC-SC11-24 | [Run a statutory audit firm](uc-sc11-24-run-a-statutory-audit-firm.md) | ✅ |

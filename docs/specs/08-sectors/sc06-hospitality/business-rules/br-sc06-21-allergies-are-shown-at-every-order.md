@@ -3,7 +3,7 @@
 
 # 📏 BR-SC06-21 Allergies are shown at every order
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

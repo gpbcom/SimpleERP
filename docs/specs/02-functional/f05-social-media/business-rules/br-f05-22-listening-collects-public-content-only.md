@@ -4,7 +4,7 @@
 
 # 📏 BR-F5-22 Listening collects public content only
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

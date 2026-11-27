@@ -20,7 +20,7 @@ be decided" row (F5, F14 to F17, F23, F24) and a separate hosted row.
 
 Confirmed by the owner on 2026-11-12: everything the specifications hold is in V1, and the first step is the DevOps
 agents (F25). The platform becomes step 2; the business areas and plugins keep their order (D3, D15, D16); the
-capabilities that had no step are placed in steps 3 to 10 (Proposed).
+capabilities that had no step are placed in steps 3 to 10.
 
 ## Decided by
 

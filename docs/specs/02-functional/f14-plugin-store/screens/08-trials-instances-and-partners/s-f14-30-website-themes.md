@@ -4,7 +4,7 @@
 
 # 🖥️ S-F14-30 Website themes
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

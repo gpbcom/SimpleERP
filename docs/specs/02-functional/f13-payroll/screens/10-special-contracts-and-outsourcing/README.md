@@ -12,7 +12,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-F13-28 | [Posted workers](s-f13-28-posted-workers.md) | 🔄 |
-| 🖥️ | S-F13-29 | [Days-based contracts](s-f13-29-days-based-contracts.md) | 🔄 |
-| 🖥️ | S-F13-30 | [Outsourced payroll](s-f13-30-outsourced-payroll.md) | 🔄 |
-| 🖥️ | S-F13-31 | [Staff representatives](s-f13-31-staff-representatives.md) | 🔄 |
+| 🖥️ | S-F13-28 | [Posted workers](s-f13-28-posted-workers.md) | ✅ |
+| 🖥️ | S-F13-29 | [Days-based contracts](s-f13-29-days-based-contracts.md) | ✅ |
+| 🖥️ | S-F13-30 | [Outsourced payroll](s-f13-30-outsourced-payroll.md) | ✅ |
+| 🖥️ | S-F13-31 | [Staff representatives](s-f13-31-staff-representatives.md) | ✅ |

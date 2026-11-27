@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC16-22 Cinema
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 
@@ -26,12 +26,14 @@ Events and culture › Cinema; the box office; the week's report.
 
 ```text
 +--------------------------------------------------------------------------------------------------+
-| Week 46                            Report due 2026-11-17        [Schedule] [Close] [Send report] |
-| Screening  Film             Screen  Time    Admissions  Receipts   Tax      State                |
-| SC-2210    The Long Shore   2       20:30   96          744.00     14.88    Shown                |
-| SC-2211    The Long Shore   2       22:45   54          418.50     8.37     Reported             |
-| SC-2212    Petit Pierre     1       18:00   -           -          -        On sale              |
-| Week: 18 screenings, 1,210 admissions, 9,372.50 EUR                     Distributors: 3          |
+| Cinema week 11 to 17 Nov        Report through Cinedi due 2026-11-22  [Schedule] [Close] [Send]  |
+| Screening  Film             Screen  Time    Admissions  Receipts   Tax, due on    State          |
+| SC-2210    The Long Shore   2       20:30   96          744.00     81.30, 13 Nov  Shown          |
+| SC-2211    The Long Shore   2       22:45   54          418.50     45.73, 13 Nov  Reported       |
+| SC-2212    Petit Pierre     1       18:00   -           -          -              On sale        |
+| Week: 18 screenings, 1,210 admissions, 9,372.50 EUR, one slip per film, version and screen       |
+| Distributors: 3                                                                                  |
+| Tax due at each collection: first part 1,004.73 EUR, due; second part 19.41 EUR, due             |
 +--------------------------------------------------------------------------------------------------+
 ```
 
@@ -44,6 +46,7 @@ Events and culture › Cinema; the box office; the week's report.
 | Empty | desktop | ![Empty, light](../../images/states/s-sc16-22-cinema-empty-desktop-light.png) | ![Empty, dark](../../images/states/s-sc16-22-cinema-empty-desktop-dark.png) |
 | Loading | desktop | ![Loading, light](../../images/states/s-sc16-22-cinema-loading-desktop-light.png) | ![Loading, dark](../../images/states/s-sc16-22-cinema-loading-desktop-dark.png) |
 | Read-only | desktop | ![Read-only, light](../../images/states/s-sc16-22-cinema-read-only-desktop-light.png) | ![Read-only, dark](../../images/states/s-sc16-22-cinema-read-only-desktop-dark.png) |
+| Sales off (no CNC approval) | desktop | ![Sales off, light](../../images/states/s-sc16-22-cinema-sales-off-desktop-light.png) | ![Sales off, dark](../../images/states/s-sc16-22-cinema-sales-off-desktop-dark.png) |
 | Offline | phone | ![Offline, light](../../images/states/s-sc16-22-cinema-offline-phone-light.png) | ![Offline, dark](../../images/states/s-sc16-22-cinema-offline-phone-dark.png) |
 
 ## Fields and columns
@@ -55,7 +58,7 @@ Events and culture › Cinema; the box office; the week's report.
 | Time | E-SC16-20 starts at | date and time | yes while Scheduled | yes |
 | Admissions | E-SC16-20 admissions | number | no | no |
 | Receipts | E-SC16-20 receipts | amount in EUR | no | no |
-| Tax | E-SC16-20 tax | amount in EUR | no | no |
+| Tax | E-SC16-20 tax | amount in EUR: 10.72 % of the price paid plus 0.232 % of the rest (CIBS L452-5, CR-FR-248), dated at each collection (L452-9); a part under its threshold shows "not due": the first part at 80 EUR or less over the decree's period or a single screening in the week, the second part at 30 EUR or less a year (L452-11, BR-SC16-17) | no | no |
 | Distributor share | E-SC16-20 distributor share | amount in EUR | no | no |
 
 ## Actions
@@ -65,7 +68,7 @@ Events and culture › Cinema; the box office; the week's report.
 | Schedule | header | programmer | a screening in state Scheduled |
 | Open sales | screening | programmer | the screening is On sale |
 | Close | screening | cashier | the admissions and receipts are fixed and the screening is Shown |
-| Send report | header | owner | the shown screenings of the period are Reported |
+| Send report | header | owner | the week's report, one slip per film, version and screen, goes to the national film centre through Cinedi within 5 days after the cinema week (Wednesday to Tuesday); the shown screenings are Reported |
 
 ## States
 
@@ -75,6 +78,10 @@ Events and culture › Cinema; the box office; the week's report.
 - Error: the error message pattern ([D122](../../../../06-decisions/ux/d122-error-message-standard.md)); a seat sold
   twice, a screening without its figures, a film without terms, with the screening.
 - Read-only: the record in a locked state: values shown, no action offered.
+- Sales off: while the cinema (E-SC16-03) has no CNC approval number of its ticketing system or no date of the
+  delivery and installation declaration, no ticket is sold at the box office or online; a banner names what is missing
+  and links to the cinema to record it (BR-SC16-17, UC-SC16-22 2e,
+  [D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md) point 13).
 - Offline: Not available offline: a back-office screen on live, shared data
   ([D38](../../../../06-decisions/ux/d38-offline-field-tasks.md): only today's schedule, time and intervention records
   work offline). The app shows that it is offline and reloads the screen when the network is back.

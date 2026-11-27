@@ -4,7 +4,7 @@
 
 # 🖥️ S-F20-29 Engineer booking
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

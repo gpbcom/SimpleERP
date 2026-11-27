@@ -15,7 +15,7 @@
 | 🧵 |  | [Bulk actions](bulk-actions.md) | ✅ |
 | 🧵 |  | [Import export](import-export.md) | ✅ |
 | 🧵 |  | [Error messages](error-messages.md) | ✅ |
-| 🧵 |  | [Aggregated list view](aggregated-list-view.md) | 🔄 |
+| 🧵 |  | [Aggregated list view](aggregated-list-view.md) | ✅ |
 
 ---
 

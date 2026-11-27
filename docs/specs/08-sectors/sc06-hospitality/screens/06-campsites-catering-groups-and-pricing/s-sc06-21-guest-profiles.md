@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC06-21 Guest profiles
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

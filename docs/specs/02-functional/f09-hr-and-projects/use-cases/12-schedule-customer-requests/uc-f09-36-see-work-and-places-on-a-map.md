@@ -4,7 +4,7 @@
 
 # 📝 UC-F9-36 See work and places on a map
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-18 to VD-22 / D501 to D504)
+**Status:** ✅ specified
 
 ## Summary
 
@@ -101,7 +101,7 @@ None.
 
 ## Audit events
 
-Opening a map that shows people's positions is logged: who, when, which team (Proposed).
+Opening a map that shows people's positions is logged: who, when, which team.
 
 ## AI involvement
 
@@ -110,7 +110,7 @@ The AI assistant may answer "who is nearest to Mme Roche?" from the positions th
 ## API, MCP and A2A exposure
 
 T5 map queries of F9 with the caller's rights; the MCP tool of F9 returns places as addresses unless the caller holds
-the map right (Proposed); no A2A skill.
+the map right; no A2A skill.
 
 ## Screens
 
@@ -149,7 +149,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-The first map within 2 seconds for 500 markers (Proposed); tiles served by the company's own servers
+The first map within 2 seconds for 500 markers; tiles served by the company's own servers
 [REQ-T13-01](../../../../03-technical/t13-maps-and-geodata/requirements/req-t13-01-self-hosted-tiles.md). Every
 marker is also a row of the list beside the map ([Accessibility](../../../../05-non-functional/accessibility.md)).
 

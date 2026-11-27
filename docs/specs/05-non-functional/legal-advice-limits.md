@@ -16,9 +16,9 @@ facts, never predicts a court's decision, and never decides for the company (war
 
 ## Measures
 
-- (Proposed) Automated tests of the legal assistant check that every answer carries the notice and that each referral
+- Automated tests of the legal assistant check that every answer carries the notice and that each referral
   topic gets its referral.
-- (Proposed) A yearly review of the referral topics with the law pack's maintainers.
+- A yearly review of the referral topics with the law pack's maintainers.
 
 ## Open questions
 

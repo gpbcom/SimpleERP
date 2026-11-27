@@ -4,7 +4,7 @@
 
 # 🖥️ S-F18-31 Members pages
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -11,7 +11,7 @@ The screens of this flow.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🖥️ | S-SC17-05 | [Packages](s-sc17-05-packages.md) | 🔄 |
-| 🖥️ | S-SC17-06 | [Salon memberships](s-sc17-06-salon-memberships.md) | 🔄 |
-| 🖥️ | S-SC17-07 | [Gift vouchers](s-sc17-07-gift-vouchers.md) | 🔄 |
-| 🖥️ | S-SC17-08 | [Customer balances](s-sc17-08-customer-balances.md) | 🔄 |
+| 🖥️ | S-SC17-05 | [Packages](s-sc17-05-packages.md) | ✅ |
+| 🖥️ | S-SC17-06 | [Salon memberships](s-sc17-06-salon-memberships.md) | ✅ |
+| 🖥️ | S-SC17-07 | [Gift vouchers](s-sc17-07-gift-vouchers.md) | ✅ |
+| 🖥️ | S-SC17-08 | [Customer balances](s-sc17-08-customer-balances.md) | ✅ |

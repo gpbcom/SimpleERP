@@ -4,7 +4,7 @@
 
 # 🖥️ S-SC09-25 Health centre
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

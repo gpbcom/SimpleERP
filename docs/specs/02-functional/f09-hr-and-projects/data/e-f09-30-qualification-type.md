@@ -3,7 +3,7 @@
 
 # 🗃️ E-F9-30 Qualification type
 
-**Status:** 🔄 draft (GH-2 step S4b, from VD-24, VD-27, VD-29 / D506, D509, D511)
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -73,7 +73,7 @@ stateDiagram-v2
 ```
 
 A pack update that changes a legal type flags the requirements that use it and warns the administrators (D294).
-(Proposed) A company may retire only the types it added; a legal type follows its pack.
+A company may retire only the types it added; a legal type follows its pack.
 
 ## Indexes and search
 
@@ -91,7 +91,7 @@ Added, changed, retired; pack updates with their version.
 
 ## Import and export
 
-YAML catalogues in the country and sector packs; (Proposed) a company exports and imports its own types as YAML.
+YAML catalogues in the country and sector packs; a company exports and imports its own types as YAML.
 
 ## Used by
 

@@ -4,7 +4,7 @@
 
 # 🖥️ S-F13-31 Staff representatives
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-SC20-15 Declare public-sector contributions
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -145,14 +145,16 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 ## Regulatory references
 
-Tenured staff who work above a weekly-hours threshold are affiliated to the local civil servants' pension
-scheme, other staff to the general scheme and the supplementary scheme of public contract staff; each scheme has its own
-rates and bases, and employer and employee both pay. They are declared through the monthly social declaration. The
-thresholds, rates and bases are data of the France pack. Related:
+A tenured employee who works at least 28 hours a week is affiliated to the local civil servants' pension scheme
+(CNRACL), other staff to the general scheme and the supplementary scheme of public contract staff (Ircantec); each
+scheme has its own rates and bases, and employer and employee both pay: for the CNRACL 11.10 % for the employee and
+37.65 % for the employer in 2026, 40.65 % in 2027, 43.65 % in 2028. They are declared through the monthly social
+declaration. The thresholds, rates and bases are data of the France pack. (⚖️ lawyer review before launch, D574) The Ircantec rates
+are still to read. Related:
 [CR-FR-183](../../../../10-country-packs/france/payroll/cr-fr-183-dsn-monthly-declaration.md),
 [CR-FR-182 The payslip](../../../../10-country-packs/france/payroll/cr-fr-182-payslip.md).
 
-- France-pack rule, (Proposed) until its law is read:
+- France-pack rule (the scheme, the threshold and the CNRACL rates read; the Ircantec rates on the lawyer's list):
   [CR-FR-252 Public-sector contributions](../../../../10-country-packs/france/payroll/cr-fr-252-public-sector-contributions.md)
 
 ## Related use cases

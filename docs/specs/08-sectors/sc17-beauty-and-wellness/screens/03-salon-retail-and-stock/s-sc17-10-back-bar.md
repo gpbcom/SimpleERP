@@ -3,7 +3,7 @@
 
 # 🖥️ S-SC17-10 Back bar
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

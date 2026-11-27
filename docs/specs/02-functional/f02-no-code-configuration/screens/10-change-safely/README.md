@@ -15,4 +15,4 @@ The screens of this flow.
 | 🖥️ | S-F2-23 | [Test cases](s-f02-23-test-cases.md) | ✅ |
 | 🖥️ | S-F2-24 | [Pack upgrade merge](s-f02-24-pack-upgrade-merge.md) | ✅ |
 | 🖥️ | S-F2-25 | [Unused configuration report](s-f02-25-unused-configuration-report.md) | ✅ |
-| 🖥️ | S-F2-30 | [Custom report](s-f02-30-custom-report.md) | 🔄 |
+| 🖥️ | S-F2-30 | [Custom report](s-f02-30-custom-report.md) | ✅ |

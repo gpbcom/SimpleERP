@@ -3,27 +3,29 @@
 
 # ⚖️ CR-FR-207 Call recording at work kept proportionate
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) Employees' phone calls are recorded only for a stated purpose (training, proof, quality), never permanently
-or systematically, with employees and callers told and able to object where the purpose allows, and recordings kept for
-a limited time.
+Employees' phone calls are recorded only for a stated purpose (training, proof, quality), never permanently or
+systematically, with employees and callers told and able to object where the purpose allows, and recordings kept for
+a limited time ([CNIL, L'écoute et l'enregistrement des appels sur le lieu de travail](https://www.cnil.fr/fr/lecoute-et-lenregistrement-des-appels-sur-le-lieu-de-travail), read 2026-11-27).
 
 ## Values
 
-- (Proposed) A stated purpose per switch-on.
-- (Proposed) Recordings kept 6 months at most, analysis reports 1 year at most (CNIL guidance, to read).
+- A stated purpose per switch-on: a recognised need such as training, evaluation or service quality; staff
+  representatives informed and consulted before installing it ([CNIL](https://www.cnil.fr/fr/lecoute-et-lenregistrement-des-appels-sur-le-lieu-de-travail), read 2026-11-27).
+- Recordings kept 6 months at most, analysis reports 1 year at most ([CNIL](https://www.cnil.fr/fr/lecoute-et-lenregistrement-des-appels-sur-le-lieu-de-travail), read 2026-11-27).
 
 ## Legal references
 
-- [CNIL guidance](https://www.cnil.fr/fr/professionnels) on recording calls at work (not read yet).
+- [CNIL guidance](https://www.cnil.fr/fr/lecoute-et-lenregistrement-des-appels-sur-le-lieu-de-travail) on recording calls at work, published 2009-05-05 and
+  marked by the CNIL as being updated.
 - [GDPR, Regulation (EU) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj) art. 5(1)(b) and (c).
 
 ## Effective dates
 
-(Proposed) To read.
+GDPR in application since 2018-05-25 ([CNIL, Règlement général sur la protection des données : ce qui change pour les professionnels](https://www.cnil.fr/fr/comprendre-le-rgpd/reglement-general-sur-la-protection-des-donnees-ce-qui-change-pour-les-professionnels), read 2026-11-27).
 
 ## Enforced by
 
@@ -48,7 +50,7 @@ None.
 
 ## Open questions
 
-The CNIL page was not read; values to read before launch.
+The CNIL page was read on 2026-11-27; the CNIL marks it as being updated, so it is watched for a new version.
 
 ---
 

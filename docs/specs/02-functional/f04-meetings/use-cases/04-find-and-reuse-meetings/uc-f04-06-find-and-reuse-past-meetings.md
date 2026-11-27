@@ -4,7 +4,7 @@
 
 # 📝 UC-F4-06 Find and reuse past meetings
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -78,7 +78,7 @@ None; a recurring meeting's agenda draft is shown in its prep brief.
 
 ## Audit events
 
-Searches are not logged; opening a transcript is (Proposed).
+Searches are not logged; opening a transcript is logged.
 
 ## AI involvement
 
@@ -122,7 +122,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Search answers within 2 seconds over 2 years of meetings (Proposed).
+Search answers within 2 seconds over 2 years of meetings.
 
 ## Regulatory references
 

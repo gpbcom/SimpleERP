@@ -2,7 +2,7 @@
 
 # 👷 Site manager: app shell and home
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## App shell
 
@@ -12,7 +12,7 @@ laptop at the office. Default density: comfortable on site, compact at the offic
 
 ## Home screen
 
-(Proposed) My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
+My tasks first, then the role's widgets ([D48](../../../06-decisions/ux/d48-home-screen.md)).
 
 - My tasks: Sites to visit today; Reservations open; Progress bills to prepare.
 - Widgets: Margin at completion per site.
@@ -39,16 +39,16 @@ laptop at the office. Default density: comfortable on site, compact at the offic
 
 ## Navigation
 
-(Proposed) Home · Sites · Planning · Purchasing · Billing · Assistant.
+Home · Sites · Planning · Purchasing · Billing · Assistant.
 
 ## Contents
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U22-01 | [Run a construction site](journeys/j-u22-01-run-a-site.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U22-01 | [Run a construction site](journeys/j-u22-01-run-a-site.md) | ✅ |
 
 ---
 

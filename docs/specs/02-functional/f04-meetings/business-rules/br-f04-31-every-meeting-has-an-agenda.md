@@ -3,7 +3,7 @@
 
 # 📏 BR-F4-31 Every meeting has an agenda
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
@@ -11,7 +11,7 @@ Every meeting has an agenda ([D519](../../../06-decisions/ux/d519-view-cards-rev
 VC-13: "All employes MUST have one. Provide the ability to compare one employee agenda to others", clarified "both"),
 and the agendas of different employees' meetings can be compared side by side from the
 [S-F4-L22 Meeting agendas](../screens/00-lists/s-f04-l22-meeting-agendas.md) list, each user seeing only the agendas of
-the meetings they may read. (Proposed) A meeting created without an agenda gets one drafted from its invitation and its
+the meetings they may read. A meeting created without an agenda gets one drafted from its invitation and its
 linked records, which the organiser edits; a recurring meeting's agenda follows
 [BR-F4-16](br-f04-16-recurring-meetings-get-their-next-agenda.md).
 
@@ -24,7 +24,7 @@ The owner's review of the view cards on 2026-11-13
 
 | Case | Result |
 |---|---|
-| A meeting is synced from a calendar with no agenda | (Proposed) An agenda drafted from the invitation, to edit |
+| A meeting is synced from a calendar with no agenda | An agenda drafted from the invitation, to edit |
 | A manager compares the agendas of two sellers' customer meetings | Both shown side by side |
 | An employee compares with an HR meeting they do not attend | Not offered: they may not read it |
 

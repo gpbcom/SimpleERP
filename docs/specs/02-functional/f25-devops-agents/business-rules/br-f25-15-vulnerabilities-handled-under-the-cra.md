@@ -4,14 +4,14 @@
 
 # 📏 BR-F25-15 Vulnerabilities handled under the CRA
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
 A confirmed vulnerability of SimpleERP is fixed by severity with a failing test first; an actively exploited one is
 reported through the EU single reporting platform with an early warning within 24 hours, a notification within 72 hours
 and a final report within 14 days after the fix; it is disclosed publicly in a coordinated way once fixed or after
-(Proposed) 90 days.
+90 days.
 
 ## Why
 
@@ -38,7 +38,7 @@ None.
 
 ## Configurable
 
-The disclosure delay (Proposed) 90 days.
+The disclosure delay 90 days.
 
 ## Open questions
 

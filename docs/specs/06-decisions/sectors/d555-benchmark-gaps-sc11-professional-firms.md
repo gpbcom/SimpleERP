@@ -9,7 +9,7 @@
 
 The owner asked on 2026-11-14 for a benchmark of the specifications against the other ERPs and the AI-native contenders,
 and was asked one question per block
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md)). The benchmark found four regulated
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository)). The benchmark found four regulated
 professions that SC11 did not cover: notaries, insurance brokers, judicial officers and statutory audit firms. Each
 carries a legal duty (the clients' funds at the state deposit bank, the registration, the regulated tariff, the rotation
 of the signing partner). The statutory auditor becomes a persona, U49.
@@ -27,7 +27,8 @@ of the signing partner). The statutory auditor becomes a persona, U49.
 ## Choice
 
 SC11 gets four use cases in one new flow, FL-SC11-07, each with its screen, its rule, its entity and its list. All at
-full depth now. Each legal duty is written in plain words and marked (Proposed) until the France-pack rule is written;
+full depth now. Each legal duty is written in plain words and marked as proposed until its France-pack rule was
+written (the rules now exist);
 no article is quoted.
 
 | Gap | Point | Decision | The owner's answer |
@@ -40,7 +41,7 @@ no article is quoted.
 ## Decided by
 
 The owner, on 2026-11-14, in the GH-2 benchmark-gaps interview
-([interview record](../../../tickets/GH-2/interviews/2026-11-14-benchmark-gaps.md), section "SC11 Professional firms").
+(interview record (the owner's interview of 2026-11-14 on the benchmark gaps, not kept in the repository), section "SC11 Professional firms").
 
 ## Consequences
 

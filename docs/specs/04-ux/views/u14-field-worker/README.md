@@ -41,10 +41,10 @@ Today · Time · Requests · Assistant.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧰 |  | [Workspace](workspace.md) | 🔄 |
-| 🖼️ |  | [Mockups](mockups/README.md) | 🔄 |
-| 🧭 |  | [Journeys](journeys/README.md) | 🔄 |
-| 🧭 | J-U14-01 | [Record the day on the phone](journeys/j-u14-01-record-the-day-on-the-phone.md) | 🔄 |
+| 🧰 |  | [Workspace](workspace.md) | ✅ |
+| 🖼️ |  | [Mockups](mockups/README.md) | ✅ |
+| 🧭 |  | [Journeys](journeys/README.md) | ✅ |
+| 🧭 | J-U14-01 | [Record the day on the phone](journeys/j-u14-01-record-the-day-on-the-phone.md) | ✅ |
 
 ---
 

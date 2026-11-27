@@ -3,20 +3,31 @@
 
 # ⚖️ CR-FR-260 Civil registry records
 
-**Status:** 🔄 (Proposed) values to read in the official source
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Statement
 
-(Proposed) Civil-status acts of birth, marriage and death are written by the civil-status officer, signed and kept in a
-register; an act is not changed after it is signed: a correction is made by a margin note or by a court's decision, and
-full copies are limited to those entitled. Software used to keep the registry usually has to be certified. Personal data
-of the registry are not erased on request.
+Civil-status acts of birth,
+marriage and death are drawn up by the civil-status officer (34-1), signed by the officer, the parties and the
+witnesses (39), and entered in registers kept in two copies (40); the officer inserts nothing but what is declared
+(35), and a later event is added as a margin note, within 3 days (49), a correction by the officer or the court
+(99, 99-1); a commune using automated processing ensures its security and integrity, under technical
+characteristics set by decree, and is then exempt from the second copy (40) ([Code civil, art. 34 to 54](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136100), [art. 99 to 101](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136108), read 2026-11-27).
+Full copies of birth and marriage acts go only to the person, close family, the legal representative, a
+mandated person, the prosecutor, the officer, the notary and the authorised administrations; death acts to
+anyone; the others need the prosecutor's leave ([Décret n° 2017-890, art. 30](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039343185/), in force since 2025-12-27, read 2026-11-27). The right to
+erasure does not apply where the processing is a legal obligation or a public task ([GDPR, art. 17](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)(3)(b), read 2026-11-27).
 
 ## Values
 
-- (Proposed) Kinds of acts, delays and entitlements, kept as data.
-- (Proposed) Correction by margin note only.
-- (Proposed) SimpleERP enforces: civil records are corrected only by a margin note.
+- Kinds of acts and delays, kept as data: birth, recognition, marriage and death acts (34); a birth declared
+  within 5 days of the delivery (55); margin notes within 3 days (49) ([Code civil, art. 34 to 54](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136100), [art. 55](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033460908), read 2026-11-27).
+- Entitlements to full copies as in the statement ([Décret n° 2017-890, art. 30](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039343185/), read 2026-11-27).
+- A rectification is ordered by the president of the tribunal (99);
+  purely material errors in margin notes are corrected by the civil-status officer, or on the prosecutor's order
+  (99-1); a rectification binds everyone once published on the registers (100); a copy is issued only with the
+  rectifications (101) ([Code civil, art. 99 to 101](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136108), read 2026-11-27).
+- SimpleERP enforces: civil records are corrected only by a margin note.
 - Read on [Service-public F1429](https://www.service-public.gouv.fr/particuliers/vosdroits/F1429) (verified 12 March
   2026) and [F1177](https://www.service-public.gouv.fr/particuliers/vosdroits/F1177) (verified 22 August 2025); the
   writing, signing and keeping of the registers and the delays for acts are not on these pages:
@@ -31,11 +42,26 @@ of the registry are not erased on request.
 
 ## Legal references
 
-- Law to read: civil-status registers (not read yet).
+- Code civil art. 34 to 54 (drawing up, signing, registers, margin notes, penalties)
+  ([Code civil, art. 34 to 54](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136100), read 2026-11-27).
+- Code civil art. 55 (birth declared within 5 days)
+  ([Code civil, art. 55](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033460908), read 2026-11-27).
+- Code civil art. 99 to 101 (rectification)
+  ([Code civil, art. 99 to 101](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136108), read 2026-11-27).
+- Décret n° 2017-890 du 6 mai 2017, art. 30 (who receives full copies)
+  ([Décret n° 2017-890, art. 30](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039343185/), read 2026-11-27).
+- GDPR art. 17(3)(b) (no erasure of a legal record)
+  ([GDPR, art. 17](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679), read 2026-11-27).
+- (⚖️ lawyer review before launch, D574) The technical characteristics an automated civil-status processing must meet to
+  be exempt from the second copy are set by a decree (Code civil, art. 40) that is not read.
 
 ## Effective dates
 
-(Proposed) To read.
+Art. 34 and 34-1 in force since 2013-05-19, art. 40, 48, 49 and 53 since 2016-11-20, art. 50 and 54 since 2020-01-01
+([Code civil, art. 34 to 54](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136100), read 2026-11-27); art. 99 since 2021-08-04, 99-1 and 100 since 2016-11-20, 101 since
+1981-05-14 ([Code civil, art. 99 to 101](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136108), read
+2026-11-27); décret n° 2017-890 art. 30 in force since 2025-12-27
+([Décret n° 2017-890, art. 30](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000039343185/), read 2026-11-27).
 
 ## Enforced by
 
@@ -49,7 +75,9 @@ ships in a pack update (D294).
 
 ## Penalty
 
-Not read yet.
+A civil-status officer's breach of art. 34 to 49: a fine of 3 to 30 EUR before the tribunal judiciaire
+(50); a copy issued without the rectifications: the same fine and damages (101); alterations and forgeries:
+damages and the Code pénal penalties (52) ([Code civil, art. 50](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039366837), [Code civil, art. 34 to 54](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136100), read 2026-11-27).
 
 ## Exceptions
 
@@ -57,7 +85,8 @@ None stated.
 
 ## Open questions
 
-The law on civil-status registers is not read yet; the values are to read before launch.
+None: the Code civil articles on civil-status acts were read on 2026-11-27; the decree on automated processing is a
+lawyer item above.
 [Q17 Country-rule penalties and start dates still to read](../../../07-questions/q17-unread-penalties-and-dates.md).
 
 ---

@@ -3,11 +3,11 @@
 
 # 📏 BR-SC10-03 Client funds kept apart
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 
-(Proposed) Money held for clients (deposits, rents to pass on, co-ownership funds) stays on separate accounts within the
+Money held for clients (deposits, rents to pass on, co-ownership funds) stays on separate accounts within the
 agent's guarantee, kept by the shared client money,
 [BR-F8-13 Client money is segregated and never negative per client](../../../02-functional/f08-accounting/business-rules/br-f08-13-client-money-is-segregated-and-never-negative-per-client.md),
 a ledger per client that never goes negative; in France:
@@ -15,7 +15,8 @@ a ledger per client that never goes negative; in France:
 
 ## Why
 
-(Proposed) The guarantee's rules are still to read.
+The agent's financial guarantee for client funds is at least 30 000 EUR in the first 2 years, then 110 000 EUR, with
+liability insurance besides ([CR-FR-139](../../../10-country-packs/france/real-estate/cr-fr-139-hoguet-card-and-guarantee.md)).
 
 ## Examples
 

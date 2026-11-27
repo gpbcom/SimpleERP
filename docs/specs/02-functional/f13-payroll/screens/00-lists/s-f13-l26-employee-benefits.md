@@ -36,10 +36,11 @@ find, filter, total and act on many employee benefits at once
 ```text
 +--------------------------------------------------------------------------------------------------------------+
 | Employee benefits    Payroll (plugin) › Employee benefits   [+ New]                                          |
-| [count]   [chart: count by state]                                                                            |
+| [count] [Blocked] [new this month]   [chart: count by state]                                                 |
 | [View: All v] [* Describe what you want to see...] [Filter] [Chart] [Export] [Ask about this list]           |
 | FACETS            | (chips)                                                  n of N results                  |
-| state             | [ ] EMPLOYEE BENEFIT   STATE                                                             |
+| state             | [ ] BENEFIT   EMPLOYEE   START   END   QUANTITY   STATE                                  |
+| employee          | [ ] ...                                                  Open >                          |
 | Related records   |                                                                                          |
 | Counts, totals, facets and the chart use only the records you may see.                                       |
 +--------------------------------------------------------------------------------------------------------------+
@@ -49,8 +50,12 @@ find, filter, total and act on many employee benefits at once
 
 | Label | Field | Format | Sortable |
 |---|---|---|---|
-| Employee benefit | the record's title | text | yes |
-| State | state | badge: Active | yes |
+| Benefit | benefit | text | yes |
+| Employee | employee | person's name | yes |
+| Start | start | date | yes |
+| End | end | date | yes |
+| Quantity | quantity | number, right-aligned | yes |
+| State | state | badge: Active, Blocked, Ended | yes |
 
 Secrets are never a column (VR-4).
 
@@ -58,17 +63,21 @@ Secrets are never a column (VR-4).
 
 | Facet | Values | Counted on |
 |---|---|---|
-| State | Active | the visible rows (D488) |
+| State | Active, Blocked, Ended | the visible rows (D488) |
+| Employee | each person, the user first | the visible rows (D488) |
 
 Eligible for: None: these records are neither people who can be scheduled nor work to schedule (D511).
 
 ## Related-record filters
 
-None: employee benefits link to no other record type in their fields.
+- Employee benefits of a chosen employee record, or of the employee records that match a filter.
+- From the other side: the employee records that have employee benefits, or none.
 
 ## KPI strip
 
 - Count of the visible rows.
+- Needs attention: count in the state Blocked.
+- New this month, by start.
 
 Recomputed on the filtered visible rows (D487, C-16).
 
@@ -80,6 +89,9 @@ Count by state (VR-8); the Chart button turns the filtered list into a chart the
 ## Saved views
 
 - All.
+- Mine: employee.
+- Open: Active, Blocked.
+- Needs attention.
 - Recently changed.
 
 Each persona's default saved view is set in its workspace (see Shown in).
@@ -93,6 +105,7 @@ None: no place.
 | Action | Where | Who | Result |
 |---|---|---|---|
 | New employee benefit | header | the personas whose roles may create it | the record's own page (Row opens) |
+| Change state | bulk bar | the personas whose roles may change it | allowed transitions only; audited (T3) |
 | Tag | bulk bar | every persona of the list | tags the selected rows; audited |
 | Delete | bulk bar | when the record's rules and the role allow | deleted; audited |
 | Export | toolbar, bulk bar | every persona of the list | CSV or XLSX of the visible rows and columns; audited (T3) |
@@ -108,7 +121,12 @@ None: no field is editable in a cell.
 
 ## Hidden fields
 
-None: no personal data and no secret among its fields.
+| Field | Why | Shown to | Hidden for |
+|---|---|---|---|
+| employee | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| value | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| employer share, employee share | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
+| taxable amount | personal data | the roles whose field rules may read it, and the person concerned | the other personas of this list: never a column, a facet, a filter, a chart axis or a plain-words filter target |
 
 ## Row opens
 

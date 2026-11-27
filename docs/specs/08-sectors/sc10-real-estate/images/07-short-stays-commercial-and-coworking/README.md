@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-SC10-07 Short stays, commercial leases, LMNP and coworking
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

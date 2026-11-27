@@ -40,6 +40,7 @@ As its entities.
 | Label | Data | Format | Editable | Required |
 |---|---|---|---|---|
 | Icon | E-F24-12, or the category's icon (BR-F24-16) | tile sized by BR-F24-16, name as accessible name | no | yes |
+| Review period and next review | the company's review period (UC-F24-20) | every quarter by default, or a shorter period the company sets; the next review date | no | yes |
 
 ## Actions
 
@@ -47,7 +48,9 @@ As its use case's main flow.
 
 ## States
 
-- Normal: connectors with their icons, scopes, roles and costs.
+- Normal: connectors with their icons, scopes, roles and costs, under the review period (every quarter by default,
+  shorter when the company sets it, [D575](../../../../06-decisions/foundations/d575-answers-of-2026-11-27-on-the-last-open-points.md))
+  and the next review date.
 - Empty: "No connector".
 - Loading: the frame and titles show at once with placeholder rows for the rights; within 1 second (D408) the data
   replaces them, and a longer load shows a progress line saying what loads.

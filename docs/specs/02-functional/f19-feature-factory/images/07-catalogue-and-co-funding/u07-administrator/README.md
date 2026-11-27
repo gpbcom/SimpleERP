@@ -4,7 +4,7 @@
 
 # 🖼️ FL-F19-07 Similar features, catalogue, co-funding and maintenance
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-F19-07 Similar features, catalogue, co-funding and maintenance](../../../flows/fl-f19-07-catalogue-and-co-funding.md)

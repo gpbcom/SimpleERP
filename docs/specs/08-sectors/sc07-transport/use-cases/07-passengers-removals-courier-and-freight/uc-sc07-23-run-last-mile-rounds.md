@@ -160,7 +160,7 @@ The screen answers within 2 seconds for 10,000 records; every change is audited.
 
 A parcel bought by a consumer online is delivered within the date the seller stated or at most thirty days
 after the order. The proof of delivery (signature, photo or code) is personal data kept for the time needed to settle a
-claim. Real-time location of the van is shown to the recipient only on the day. The France-pack rule is written later.
+claim. Real-time location of the van is shown to the recipient only on the day. The France-pack rules are [CR-FR-066 Delivery within 30 days](../../../../10-country-packs/france/consumer/cr-fr-066-delivery-within-30-days.md), [CR-FR-052 Personal data kept no longer than needed](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md) and [CR-FR-054 Location only when needed and announced](../../../../10-country-packs/france/data-protection/cr-fr-054-location-with-consent.md).
 Related: [CR-FR-066](../../../../10-country-packs/france/consumer/cr-fr-066-delivery-within-30-days.md),
 [CR-FR-052](../../../../10-country-packs/france/data-protection/cr-fr-052-storage-limitation.md),
 [CR-FR-054](../../../../10-country-packs/france/data-protection/cr-fr-054-location-with-consent.md).

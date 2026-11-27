@@ -3,7 +3,7 @@
 
 # 🔀 FL-SC12-06 Apprentices, driving schools, nurseries, canteens
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -33,7 +33,7 @@ flowchart LR
   UCSC1223 -.-> UCSC1224
   UCSC1221 --> LV{"Support level known?"}
   LV -- no --> DR["Contract stays draft"]
-  LV -- yes --> CL["Month claimed from the operator"]
+  LV -- yes --> CL["Instalment claimed from the operator"]
   UCSC1222 --> AU{"Instructor authorised?"}
   AU -- no --> RF["Lesson refused"]
   AU -- yes --> LS["Lesson booked and recorded"]
@@ -52,7 +52,7 @@ sequenceDiagram
   participant E as Education
   participant O as Operator or fund
   C->>E: Apprenticeship contract recorded
-  E->>O: Month claimed at the support level
+  E->>O: Instalment claimed at the support level
   P->>E: Lesson booked with an authorised instructor
   C->>E: Nursery place with the hourly rate
   E->>O: Hours reported

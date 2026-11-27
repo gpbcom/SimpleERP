@@ -22,11 +22,12 @@ registered; a client checks its contractors' vigilance certificates.
 
 ## Effective dates
 
-Start date to read in the official source; in force when read on 2026-11-11, the date of this specification.
+Since 2011-06-18: L8221-1 in force since 2008-05-01, L8222-1 since 2011-06-18 ([Code du travail, art. L8221-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006904815), [art. L8222-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024197683), read 2026-11-27).
 
 ## Enforced by
 
 - [Regulatory](../../../08-sectors/sc03-services/regulatory.md)
+- [UC-SC17-17 Rent chairs and cabins to independents](../../../08-sectors/sc17-beauty-and-wellness/use-cases/05-rentals-care-records-and-loyalty/uc-sc17-17-rent-chairs-and-cabins-to-independents.md)
 
 ## When the law changes
 

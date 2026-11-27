@@ -6,11 +6,29 @@
 
 The screens showing each entity state this persona sees, light and dark (VD-15, D120).
 
-## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop
+## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop
 
 | Light | Dark |
 |---|---|
-| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-active-desktop-dark.png) |
+| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-to-send-desktop-dark.png) |
+
+## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-sent-desktop-dark.png) |
+
+## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-acknowledged-desktop-dark.png) |
+
+## s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop
+
+| Light | Dark |
+|---|---|
+| ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop, light](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop-light.png) | ![s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop, dark](s-f09-03-hr-duties-e-f09-41-pre-hiring-declaration-dpae-refused-desktop-dark.png) |
 
 ## s-f09-03-hr-duties-e-f09-05-hr-duty-due-desktop
 

@@ -3,7 +3,7 @@
 
 # 🖼️ FL-F7-09 Compliance and carbon
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of [FL-F7-09 Compliance and carbon](../../../flows/fl-f07-09-compliance-and-carbon.md) for this persona, in light
 and dark mode (D120, D121). Errors follow the

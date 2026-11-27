@@ -3,7 +3,7 @@
 
 # 🖼️ Images: FL-F14-07 Plugin end of life
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

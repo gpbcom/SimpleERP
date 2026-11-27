@@ -24,7 +24,7 @@ Companies with at least 50 employees publish their equal-pay index each year by 
 
 ## Effective dates
 
-Start date not read; in force when read on 2026-11-12 (the page was verified on 10 July 2025).
+Since 2021-12-27: L1142-8 ([Code du travail, art. L1142-8](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044605453), read 2026-11-27).
 
 ## Enforced by
 

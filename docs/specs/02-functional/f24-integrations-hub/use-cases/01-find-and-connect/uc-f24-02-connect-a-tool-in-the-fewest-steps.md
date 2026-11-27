@@ -50,8 +50,13 @@ Occasional.
   [D518](../../../../06-decisions/f09-hr-and-projects/d518-linkedin-sourcing-through-unipile.md)): the administrator
   enters the provider's API key once, kept in the secret store
   ([BR-F24-08](../../business-rules/br-f24-08-credentials-in-the-vault.md)), and sets the daily and weekly caps per
-  account; each user then links their own account on the provider's hosted sign-in page; SimpleERP keeps the account
-  link ([E-F24-02](../../data/e-f24-02-tool-connection.md)) and never sees the password.
+  account; for Unipile, LinkedIn sending stays prepared, each message sent by the user's click, unless the administrator
+  turns automatic sending on and accepts the risk that LinkedIn's user agreement restricts automated activity; a later
+  change of the sending mode applies only to the outreach sequences started after it, running ones keeping the mode
+  they started with
+  ([D570](../../../../06-decisions/f09-hr-and-projects/d570-linkedin-sending-prepared-by-default.md)); each user then
+  links their own account on the provider's hosted sign-in page; SimpleERP keeps the account link
+  ([E-F24-02](../../data/e-f24-02-tool-connection.md)) and never sees the password.
 
 ## Error flows
 
@@ -113,6 +118,8 @@ sequenceDiagram
 1. **Given** OAuth **when** signed in **then** settings proposed.
 2. **Given** refused **when** signed in **then** nothing saved.
 3. **Given** saved **when** stored **then** token never shown.
+4. **Given** Unipile connected with LinkedIn sending prepared **when** the administrator turns automatic sending on
+   **then** only the outreach sequences started afterwards send on their own; running ones stay prepared (D570).
 
 ## Non-functional notes
 

@@ -11,7 +11,7 @@ One file per journey.
 
 | | ID | Page | Status |
 |---|---|---|---|
-| 🧭 | J-U23-01 | [Run the store](j-u23-01-run-the-store.md) | 🔄 |
+| 🧭 | J-U23-01 | [Run the store](j-u23-01-run-the-store.md) | ✅ |
 
 ---
 

@@ -4,7 +4,7 @@
 
 # 📝 UC-F13-33 Apply the construction agreements
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified, ⚖️ lawyer review before launch (D574)
 
 ## Summary
 
@@ -132,7 +132,8 @@ paged on the server, the first page within 1 second; reports within 5 seconds or
 ## Regulatory references
 
 [CR-FR-088 BTP paid-leave fund](../../../../10-country-packs/france/labour/cr-fr-088-btp-paid-leave-fund.md);
-construction grids and allowances: (Proposed) to read.
+construction grids and allowances: (⚖️ lawyer review before launch, D574) to read: the building and public
+works agreements' grids and travel allowances.
 
 ## Related use cases
 

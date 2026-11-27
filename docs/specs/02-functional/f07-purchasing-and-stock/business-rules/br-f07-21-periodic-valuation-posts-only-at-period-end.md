@@ -4,7 +4,7 @@
 
 # 📏 BR-F7-21 Periodic valuation posts only at period end
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Statement
 

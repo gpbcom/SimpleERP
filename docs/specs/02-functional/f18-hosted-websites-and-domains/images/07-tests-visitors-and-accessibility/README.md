@@ -4,7 +4,7 @@
 
 # 🖼️ Images: FL-F18-07 A/B tests, visitors, accessibility and members
 
-**Status:** 🔄 grows with the interview
+**Status:** ✅ specified
 
 The images of this flow, one folder per persona, in light and dark mode (D120).
 

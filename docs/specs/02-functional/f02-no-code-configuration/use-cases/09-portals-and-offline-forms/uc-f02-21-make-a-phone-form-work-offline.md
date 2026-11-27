@@ -4,7 +4,7 @@
 
 # 📝 UC-F2-21 Make a phone form work offline
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Summary
 
@@ -55,7 +55,7 @@ Once per record type.
 
 ## Error flows
 
-- 4e. The size per phone is too large (Proposed: over 200 MB): the configurator narrows the records.
+- 4e. The size per phone is too large (over 200 MB): the configurator narrows the records.
 - 2e. A record type holding health data: kept encrypted on the phone and removed after sync.
 
 ## Business rules
@@ -125,7 +125,7 @@ sequenceDiagram
 
 ## Non-functional notes
 
-Sync of a day's records within 30 seconds on 4G (Proposed).
+Sync of a day's records within 30 seconds on 4G.
 
 ## Regulatory references
 

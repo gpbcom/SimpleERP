@@ -4,7 +4,7 @@
 
 # 🖥️ S-F16-17 Live chat
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Personas
 

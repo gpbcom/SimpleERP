@@ -44,7 +44,15 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f09-13-approvals-and-lunch-e-f09-14-approval-request-to-approve-desktop.html`
 - `s-f09-13-approvals-and-lunch-e-f09-14-approval-request-to-approve-phone.html`
 - `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-active-desktop.html`
+- `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-sent-desktop.html`
+- `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-confirmed-desktop.html`
+- `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-not-confirmed-desktop.html`
+- `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-delivered-desktop.html`
 - `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-active-phone.html`
+- `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-sent-phone.html`
+- `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-confirmed-phone.html`
+- `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-not-confirmed-phone.html`
+- `s-f09-13-approvals-and-lunch-e-f09-39-lunch-order-delivered-phone.html`
 - `s-f09-15-planning-e-f09-16-shift-draft-desktop.html`
 - `s-f09-15-planning-e-f09-16-shift-draft-phone.html`
 - `s-f09-15-planning-e-f09-16-shift-published-desktop.html`
@@ -82,7 +90,9 @@ HTML sources of the mockups, rendered to PNG by the GH-2 tools (D120).
 - `s-f09-18-field-service-e-f09-18-project-and-task-planned-desktop.html`
 - `s-f09-18-field-service-e-f09-18-project-and-task-planned-phone.html`
 - `s-f09-18-field-service-e-f09-37-field-worksheet-active-desktop.html`
+- `s-f09-18-field-service-e-f09-37-field-worksheet-signed-desktop.html`
 - `s-f09-18-field-service-e-f09-37-field-worksheet-active-phone.html`
+- `s-f09-18-field-service-e-f09-37-field-worksheet-signed-phone.html`
 - `s-f09-23-work-accident-e-f09-23-work-accident-active-desktop.html`
 - `s-f09-23-work-accident-e-f09-23-work-accident-active-phone.html`
 - `s-f09-23-work-accident-e-f09-23-work-accident-closed-desktop.html`

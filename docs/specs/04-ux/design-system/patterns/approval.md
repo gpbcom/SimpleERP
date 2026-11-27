@@ -3,7 +3,7 @@
 
 # 🧵 Approval
 
-**Status:** 🔄 waiting for the owner
+**Status:** ✅ specified
 
 ## Purpose
 
@@ -49,15 +49,15 @@ for a change the user may make alone.
 - Approvers see the request in "My tasks" on their home screen ([D48](../../../06-decisions/ux/d48-home-screen.md)) and
   are told in the app and by email ([D92](../../../06-decisions/f01-administration/d92-notification-channels.md)); they
   can decide on a phone ([D34](../../../06-decisions/ux/d34-phone-experience.md)).
-- A refusal goes back to the requester with its reason; (Proposed) they can change and send it again.
+- A refusal goes back to the requester with its reason; they can change and send it again.
 - Until approved, the request has no effect (a post is not published, a quote not sent).
 - Every step is kept in the audit trail.
 
 ## Accessibility
 
 - The state is a word, never a colour alone.
-- (Proposed) Approve and Refuse are real buttons that name the request ("Approve Luc Bernard's time off").
-- (Proposed) The reason field of a refusal is labelled and required.
+- Approve and Refuse are real buttons that name the request ("Approve Luc Bernard's time off").
+- The reason field of a refusal is labelled and required.
 
 ## Used in
 

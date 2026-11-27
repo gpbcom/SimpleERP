@@ -4,7 +4,7 @@
 
 # 🖼️ FL-SC09-07 Pharmacy, eyewear, vets, dental and health centres
 
-**Status:** 🔄 drawn from the specification; refreshed when it changes
+**Status:** ✅ drawn from the specification; refreshed when it changes
 
 Images of
 [FL-SC09-07 Pharmacy, eyewear, vets, dental and health centres](../../../flows/fl-sc09-07-pharmacy-vets-dental-and-centres.md)
