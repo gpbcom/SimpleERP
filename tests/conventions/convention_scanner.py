@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import ast
+import json
 from collections import Counter
 from pathlib import Path
 from typing import Dict, Iterator, List, Optional, Set, Tuple
@@ -9,7 +10,9 @@ from tests.conventions.helpers import (
     ALLOWED_IMPORTS,
     FOLDER_LIMIT,
     FOLDER_LIMIT_IGNORES,
+    FRONTEND_FOLDER,
     METHOD_BANNERS,
+    NPM_SCOPE,
     RUNNABLE_BASES,
     SERVICE_SOURCE_GLOB,
     SHARED_MODELS_SOURCE,
@@ -278,6 +281,20 @@ class ConventionScanner:
                         where = f" in {section}" if section else ""
                         method = f"{owner.name}.{item.name}"
                         offenders.append(f"{self.where(path, item)} {method} after async {last_async[section]}{where}")
+        return offenders
+
+    def npm_scope_offenders(self) -> List[str]:
+        """Front-end ``package.json`` files whose package name is not in the ``@simpleerp`` scope.
+
+        Installed dependencies under ``node_modules`` are not SimpleERP's packages, so they are left out.
+        """
+        offenders: List[str] = []
+        for path in sorted(self.root.glob(f"{FRONTEND_FOLDER}/**/package.json")):
+            if "node_modules" in path.relative_to(self.root).parts:
+                continue
+            name = json.loads(path.read_text(encoding="utf-8")).get("name", "")
+            if not str(name).startswith(f"{NPM_SCOPE}/"):
+                offenders.append(f"{path.relative_to(self.root)} {name or '(no name)'}".rstrip())
         return offenders
 
     def models_outside_models(self) -> List[str]:

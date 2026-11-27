@@ -50,6 +50,7 @@ class TestConventionScanner:
         "node_offenders",
         "models_outside_models",
         "async_before_sync",
+        "npm_scope_offenders",
     )
 
     @pytest.mark.parametrize("rule", RULES)
@@ -93,6 +94,9 @@ class TestConventionScanner:
             ("async_before_sync", f"{SERVICE}/service/a.py", f"class A:\n{HELPERS}{ASYNC_HELPER}{SYNC_HELPER}"),
             ("async_before_sync", f"{SERVICE}/service/a.py", f"class A:\n{PUBLIC}{ASYNC_PUBLIC}{SYNC_PUBLIC}"),
             ("async_before_sync", "tests/test_a.py", f"class TestA:\n{ASYNC_PUBLIC}{SYNC_PUBLIC}"),
+            ("npm_scope_offenders", "frontend/packages/ui/package.json", '{"name": "@simple-erp/ui"}'),
+            ("npm_scope_offenders", "frontend/backoffice/package.json", '{"name": "backoffice"}'),
+            ("npm_scope_offenders", "frontend/portals/shop/package.json", '{"private": true}'),
         ],
     )
     def test_each_rule_catches_its_violation(self, tmp_path: Path, rule: str, name: str, text: str) -> None:
@@ -111,6 +115,19 @@ class TestConventionScanner:
         assert write(tmp_path, {f"{SERVICE}/service/a.py": text}).async_before_sync() == [
             f"{SERVICE}/service/a.py:16 A.c after async d in Publicly Exposed Methods"
         ]
+
+    def test_npm_packages_of_the_simpleerp_scope_pass(self, tmp_path: Path) -> None:
+        files = {
+            "frontend/packages/ui/package.json": '{"name": "@simpleerp/ui"}',
+            "frontend/backoffice/package.json": '{"name": "@simpleerp/backoffice"}',
+            "frontend/backoffice/node_modules/vue/package.json": '{"name": "vue"}',
+            "package.json": '{"name": "simpleerp", "private": true}',
+        }
+        assert write(tmp_path, files).npm_scope_offenders() == []
+
+    def test_the_offender_names_the_package_file_and_its_name(self, tmp_path: Path) -> None:
+        files = {"frontend/packages/ui/package.json": '{"name": "@simple-erp/ui"}'}
+        assert write(tmp_path, files).npm_scope_offenders() == ["frontend/packages/ui/package.json @simple-erp/ui"]
 
     def test_a_sixth_file_in_a_folder_is_caught(self, tmp_path: Path) -> None:
         files = {f"backend/services/sales/tests/service/test_{n}.py": "" for n in range(6)}

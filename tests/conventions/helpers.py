@@ -38,5 +38,8 @@ THIRD_PARTY_ATTRIBUTES: FrozenSet[str] = frozenset()
 RUNNABLE_BASES = {"Runnable", "AsyncRunnable", "Command"}
 # The two method banners of a class (AGENT.md, "File shape"); async methods follow the sync ones within each.
 METHOD_BANNERS: Tuple[str, ...] = ("Internal Helpers Methods", "Publicly Exposed Methods")
+# Every npm package of the front ends is named in this scope (AGENT.md, "Front ends").
+FRONTEND_FOLDER = "frontend"
+NPM_SCOPE = "@simpleerp"
 FOLDER_LIMIT = 5
 FOLDER_LIMIT_IGNORES = {"__init__.py", "conftest.py"}
