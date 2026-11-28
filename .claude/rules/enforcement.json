@@ -84,6 +84,11 @@
         "kind": "test",
         "path": "tests/harness/gitflow/test_guard_follows_cd.py",
         "what": "the guard judges the branch of the folder a git write runs in: a cd before it or git -C; an unresolved folder keeps the session's"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/gitflow/test_guard_variables.py",
+        "what": "the guard expands variables the command assigns, follows cd and git -C over new lines and continuations, ignores heredoc bodies, refuses a write into the tickets' checkout through a variable and keeps the session's folder for an unknown one"
       }
     ],
     "TKT-6": [
@@ -146,6 +151,26 @@
         "kind": "test",
         "path": "tests/ci/workflows/checks/test_python_workflow.py",
         "what": "CI installs every workspace member (uv sync --locked --all-packages) and package tests need no docstrings (ruff D off in **/tests/**)"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/checks/gaps/test_checks_trivy.py",
+        "what": "each changed image folder is built and scanned with CI's trivy command, the image is removed, failures go to the Dockerfile, missing tools are not applicable, a stopped daemon is an environment failure"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/checks/gaps/test_checks_image_failures.py",
+        "what": "a failed image test names the test and its package's Dockerfile"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/wiring/test_ticket_workflows.py",
+        "what": "a file without an extension, such as a Dockerfile, gets an owner (namesAFile run under node); a bare folder gets none"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/wiring/test_agent_definitions.py",
+        "what": "the verifier and ticket-run.js run checks.py in the foreground (600000 ms, kill -0 on the recorded pid) and never use pgrep -f"
       }
     ],
     "TKT-7": [
@@ -299,6 +324,11 @@
         "kind": "test",
         "path": "tests/harness/gitflow/test_guard_hook.py",
         "what": "the PreToolUse hook refuses --no-verify and asks before a push to develop or master"
+      },
+      {
+        "kind": "test",
+        "path": "tests/ci/release/test_automerge.py",
+        "what": "a check that failed then passed merges; a latest failed run or status holds; a latest queued run waits; same-name checks of two apps are judged apart; every run and page is read"
       }
     ],
     "TKT-16": [
@@ -341,6 +371,16 @@
         "kind": "test",
         "path": "tests/harness/ticket_tree/test_ticket_tree_follow_develop.py",
         "what": "follow-develop moves the shared branch to develop keeping the tickets' uncommitted work, merges a file both changed, changes nothing on a conflict or when the branch holds its own commits"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/tickets/file_lock/test_tickets_file_lock.py",
+        "what": "the start rule refuses a ticket whose plan shares a file with an open or committed-not-merged ticket and names both; plans sharing nothing or a merged ticket are allowed; --force starts anyway; next leaves such tickets out"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/checks/gaps/test_checks_structure_across_tickets.py",
+        "what": "two open tickets crowding one folder past the limit fail on this ticket's files; folders expanded, deletions and __init__/conftest not counted; not applicable alone"
       }
     ],
     "TKT-17": [
@@ -618,6 +658,11 @@
         "kind": "agent",
         "path": ".claude/agents/verifier.md",
         "what": "runs checks.py, which cleans up after itself, and leaves no file of its own outside tests-evidences/"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/checks/gaps/test_checks_folder.py",
+        "what": "clean trees and their sweep live beside the main checkout, also from a linked worktree, and nothing goes to TMPDIR"
       }
     ],
     "TKT-28": [

@@ -267,6 +267,11 @@ function docOwnerOf(item) {
   }
   return null
 }
+// L-34 b: a bare folder (no file extension, such as "tests") names no file to fix: no owner, never a FIX task. A file the
+// tools name without an extension is still a file: checks.py sends an image's failures to its Dockerfile (TKT-6).
+function namesAFile(f) {
+  return /\.[A-Za-z0-9]+$/.test(f) || /(^|\/)(Dockerfile|Containerfile|Makefile|Justfile)(\.[A-Za-z0-9._-]+)?$/.test(f)
+}
 function ownersOf(item) {
   const doc = docOwnerOf(item)
   if (doc) return [doc]
@@ -282,8 +287,7 @@ function ownersOf(item) {
   if (!owners.length) byId(String(item.detail || '').match(/\bK\d{2}\b/g) || []).forEach(add)
   if (owners.length) return owners
   const f = files[0] || normalise(item.file) || 'unknown'
-  // L-34 b: a bare folder (no file extension, such as "tests") names no file to fix: no owner, never a FIX task.
-  if (!/\.[A-Za-z0-9]+$/.test(f)) return []
+  if (!namesAFile(f)) return []
   return [{ id: `FIX-${f}`, title: `Fix ${f}`, agent: agentFor(f), files: files.length ? files : [f], brief: '', done_when: 'the verifier passes' }]
 }
 // L-34 e: one finding owned by several tasks is ONE fix task owning the union of their files (the first owner's agent),

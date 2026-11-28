@@ -144,7 +144,10 @@ the more of a ticket runs in parallel, the more tickets each sprint can close.
   stash`, `git reset` or `git push`: the PreToolUse hook `.claude/hooks/guard_git.py` refuses them on `feature/tickets`
   and in a worker's worktree. It judges the branch of the folder the git write runs in (its `git -C`, else the last
   `cd` before it), not only the session's: a `feature/harness-*` worktree commits while tickets run, and a `cd` into
-  the tickets' checkout is refused; a read-only command named like a write (`git merge-base`) passes. Every step goes
+  the tickets' checkout is refused; a read-only command named like a write (`git merge-base`) passes. It reads the
+  command as the shell does: split on new lines, `&&`, `||`, `;`, `|` and `&`, with heredoc bodies, comment lines and
+  `\` continuations removed, and with the variables the command itself assigns (`NAME=value`, `export NAME=value`)
+  expanded in a `git -C` or a `cd`; a variable it cannot expand keeps the session's folder. Every step goes
   through
   `ticket_tree.py`, which compares git *trees* (never commits) on a temporary index.
 - Every worker runs in its own git worktree and changes only its task's files:
@@ -205,7 +208,17 @@ stops and the person is told. A check that fails because of the environment (a m
 `environment` by `checks.py`) goes to no agent: the run stops at once and the person fixes the environment. A
 missing module of the project itself (`tests.…`, a service or a package of the repository) is a wrong import in the
 ticket's code, and goes to its owner like any failure. Each failure names the file the tool reports it in (not the first
-file the tool was given), so that it goes to the owner of that file.
+file the tool was given), so that it goes to the owner of that file. A failed test under `<package>/tests/image/` also
+goes to the owner of `<package>/Dockerfile`, since an image test fails as often from the image as from the test, and a
+file named without an extension (a `Dockerfile`, a `Makefile`) gets an owner like any other file
+(`namesAFile` of `.claude/workflows/ticket-run.js`).
+
+Each image folder the ticket changes is built from the clean tree and scanned with the `trivy image` command of
+`.github/workflows/images.yml` (checks `docker build <folder>` and `trivy <folder>`); the image is always removed
+(TKT-27), a failure goes to the folder's `Dockerfile`, and a missing `docker` or `trivy` makes the scan not
+applicable. The verifier runs `checks.py` in the foreground, in one Bash call with a timeout of 600000 ms; a round that
+needs longer runs in the background with its output to a file, and the verifier waits on the process id it recorded
+(`kill -0`), never with `pgrep -f` on a pattern, which matches its own wait loop.
 
 **Why:** "done" must mean merged code that works and that someone else can understand.
 
@@ -396,7 +409,10 @@ and the heading.
   `master`, tagged `v<version>`, then back to `develop` by its own pull request, all by itself (TKT-26); a hotfix the
   same way.
 - `ticket_tree.py finish` labels the ticket's pull request `automerge`: the workflow `.github/workflows/automerge.yml`
-  merges it once every check of CI and `gitflow` has passed on its head commit, which closes its issue, then
+  merges it once every check of CI and `gitflow` has passed on its head commit, each check judged by its latest run
+  only (check runs by app and name, commit statuses by context, the highest id deciding), so a failure that a later
+  run of the same check passed no longer holds the merge and a latest run still queued keeps it waiting; this closes
+  its issue, then
   deletes its head branch unless it moved since (TKT-25). A failing check leaves it open for the person.
 - `.github/workflows/gitflow.yml` checks every pull request: the branch is a GitFlow branch, it targets the right base,
   and a ticket's title starts with its ID.
@@ -433,11 +449,20 @@ the work in progress. A private repository of a free account has no branch prote
     `sdk`, `infra/<x>`, `packs/<x>`, `tests/<x>`, `.claude`, `.github`, `docs`), or the bare name of a service or front
     end the graph names (`customers` for `backend/services/customers`); an area the layout does not know locks
     everything (`*`);
+  - no open ticket, nor a ticket committed on `feature/tickets` and not merged yet, changes a file of this ticket's
+    plan (the `files` of the tasks in the json block of `PLAN.md`, or a file under a folder listed there), such as
+    `uv.lock`, `pnpm-lock.yaml` or a page of `docs/technical/` that no area covers: **file lock**, named with each
+    shared file and the other ticket. `tickets.py next` never returns a ticket held by a file lock, nor two tickets
+    whose plans share a file;
   - a ticket whose acceptance needs an external item (a partner, a real company, a certification), and whose work
     only exists once that item has happened (its `field` entry in the graph), waits for it.
 
   `/ticket-run <ID> --force` starts anyway, on the person's decision, and logs the problems in `PROGRESS.md`. The verdict is the
   exit code of `tickets.py check`, reported unchanged by the `runner` agent: no agent judges the start rule.
+- The checks of each ticket also count, in `structure with open tickets`, the Python files of every source and test
+  folder on `HEAD` plus every open ticket's recorded files, and fail, on this ticket's files, when a folder it shares
+  with another open ticket goes over the folder limit of `AGENT.md`: each ticket's clean tree holds only its own files,
+  so two tickets that each stay within the limit would otherwise break it together, unseen until CI.
 - **The shared branch follows `develop` while tickets run.** When `develop` already holds every commit of
   `feature/tickets` (the tickets committed on it are merged), `python3 .claude/scripts/tickets/ticket_tree.py
   follow-develop --ticket <ID>` moves the branch to `origin/develop`, so a harness fix merged on `develop` reaches the
@@ -739,6 +764,9 @@ under bash with a stand-in `gh`: the merge into `master`, the tag, the way back,
   (`erp-checks-<pid>-…`), removes every tree whose process is gone (or, named before this rule, untouched for an
   hour), and prunes git's list of worktrees. A tree still in use by a running process is kept.
 - A clean tree that cannot be made or filled leaves no folder and no worktree behind.
+- The clean trees, pytest's temporary files beside them and the sweep of stale trees live on disk, in
+  `<parent>/.<repository>-erp-checks/` beside the main checkout, never in `/tmp` (a memory file system with a quota for
+  each user) and never under `.git`, where git would take a test's folders for part of the repository.
 - Test tools keep their temporary files with the run that makes them: in a clean tree, pytest writes them beside the
   tree (`--basetemp`), and they are removed with it, never left in `/tmp/pytest-of-<user>`.
 - An agent that makes a scratch worktree, branch or file for its own work removes it when that work is done; the
