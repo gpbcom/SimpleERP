@@ -1,0 +1,18 @@
+[project]
+name = "erp-metering"
+version = "0.1.0"
+description = "The metering client every SimpleERP service shares: each paid call is reserved, made and settled."
+license = "AGPL-3.0-only"
+requires-python = ">=3.13,<3.14"
+dependencies = ["erp-models", "erp-outbox", "httpx", "pydantic"]
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "erp_metering"
+
+[tool.uv.sources]
+erp-models = { workspace = true }
+erp-outbox = { workspace = true }

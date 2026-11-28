@@ -1,0 +1,8 @@
+$ uv run --all-packages pytest backend/shared/lifecycle/tests -q -n 2 --basetemp /tmp/erp-checks-3402450-lxhmaxrz-pytest/backend-shared-lifecycle-tests
+(cwd ., on the ticket's own files only)
+
+bringing up nodes...
+bringing up nodes...
+
+............................                                             [100%]
+28 passed in 0.25s
