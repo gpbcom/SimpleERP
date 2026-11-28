@@ -1,0 +1,10 @@
+{
+  "extends": "@simpleerp/config/tsconfig",
+  "compilerOptions": {
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "include": ["src", "tests", "scripts", "*.config.ts", "*.config.js"],
+  "exclude": ["tests/fixtures"]
+}

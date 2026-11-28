@@ -1,0 +1,37 @@
+{
+  "name": "@simpleerp/api-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=22"
+  },
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "generate": "node scripts/generate.mjs --input ../../../backend/services/platform/openapi.json --output src/generated/platform.ts",
+    "check:generated": "node scripts/generate.mjs --input ../../../backend/services/platform/openapi.json --output src/generated/platform.ts --check"
+  },
+  "dependencies": {
+    "openapi-fetch": "0.17.0"
+  },
+  "devDependencies": {
+    "@simpleerp/config": "workspace:*",
+    "@types/node": "22.20.7",
+    "eslint": "10.16.0",
+    "globals": "17.14.0",
+    "openapi-typescript": "7.13.0",
+    "prettier": "3.10.1",
+    "typescript": "6.0.3",
+    "vitest": "5.1.2"
+  }
+}

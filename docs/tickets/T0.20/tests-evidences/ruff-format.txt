@@ -1,0 +1,4 @@
+$ uv run ruff format --check tests/ci/detect_changes/helpers.py tests/ci/detect_changes/test_detect_changes.py
+(cwd ., on the ticket's own files only)
+
+2 files already formatted
