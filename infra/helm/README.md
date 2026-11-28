@@ -16,6 +16,12 @@ The images are the ones Compose runs, built and published by `.github/workflows/
 `global.image.prefix` (`ghcr.io/gpbcom/simpleerp`), tagged with the commit SHA. Set `global.image.tag` to that SHA.
 An empty tag falls back to the chart's `appVersion`. The values hold no secret.
 
+## Platform address
+
+The back-office image proxies `/v1/` to `ERP_PLATFORM_URL`. Its chart sets it to the platform Service of the same
+release, `http://<release>-platform.<namespace>.svc.<clusterDomain>:<platformPort>`, fully qualified because nginx
+resolves it without the pod's search domains. Set `backoffice.platformUrl` to point it elsewhere.
+
 ## Check
 
 ```bash
