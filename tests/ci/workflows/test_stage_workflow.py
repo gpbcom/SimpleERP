@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 # Standard library imports
+import re
 from typing import ClassVar, Dict, List, cast
 
 # Third-party imports
@@ -48,7 +49,7 @@ class TestStageWorkflow:
         run = str(self.step("Record what runs")["run"])
         assert "if [ -f compose.e2e.yaml ]" in run
         assert "No images yet" in run
-        for name in ("Start the commit's images", "Smoke test", "Playwright (TEST-6)"):
+        for name in ("Start the commit's images", "Smoke test", "Bruno collection (TEST-1)", "Playwright (TEST-6)"):
             assert "steps.compose.outputs.present == 'true'" in str(self.step(name)["if"])
 
     def test_the_images_start_from_the_commit_and_are_checked_healthy(self) -> None:
@@ -62,6 +63,45 @@ class TestStageWorkflow:
         run = str(self.step("Playwright (TEST-6)")["run"])
         assert "playwright.sh --grep @smoke" in run
         assert 'if [ "$STAGE" = dev ]' in run
+
+    def test_the_bruno_collections_run_on_dev_and_on_qa_once_the_images_and_a_collection_exist(self) -> None:
+        condition = str(self.step("Bruno collection (TEST-1)")["if"])
+        assert "steps.compose.outputs.present == 'true'" in condition
+        assert "hashFiles('bruno/**') != ''" in condition
+        assert "STAGE" not in condition
+
+    def test_each_bruno_collection_runs_headless_with_a_pinned_cli_and_reports_without_secrets(self) -> None:
+        run = str(self.step("Bruno collection (TEST-1)")["run"])
+        assert "bruno/*/" in run
+        assert re.search(r"@usebruno/cli@\d+\.\d+\.\d+(?![\d.])", run)
+        for part in (
+            " run ",
+            "--env stage",
+            '--reporter-junit "$REPORTS/bruno-$name.xml"',
+            '--reporter-json "$REPORTS/bruno-$name.json"',
+            "--reporter-skip-all-headers",
+            "--reporter-skip-body",
+        ):
+            assert part in run
+
+    def test_a_failing_bruno_collection_fails_the_job_after_every_collection_ran(self) -> None:
+        run = str(self.step("Bruno collection (TEST-1)")["run"])
+        assert 'exit "$status"' in run
+        assert run.index("done") < run.index('exit "$status"')
+
+    def test_node_22_is_set_up_before_the_bruno_step_when_compose_and_a_collection_exist(self) -> None:
+        all_steps = steps(NAME, "stage")
+        bruno = next(i for i, step in enumerate(all_steps) if step.get("name") == "Bruno collection (TEST-1)")
+        setups = [
+            step
+            for step in all_steps[:bruno]
+            if str(step.get("uses", "")).startswith("actions/setup-node@")
+            and cast(Dict[str, JsonValue], step.get("with", {})).get("node-version") == "22"
+        ]
+        assert len(setups) == 1
+        condition = str(setups[0]["if"])
+        assert "steps.compose.outputs.present == 'true'" in condition
+        assert "hashFiles('bruno/**') != ''" in condition
 
     def test_qa_checks_that_the_lock_file_resolves(self) -> None:
         step = self.step("Dependency resolution (DEP-1)")

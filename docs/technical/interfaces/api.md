@@ -41,6 +41,25 @@ The script exits 0 when it writes the document, and 2 with one line on stderr wh
 the application cannot be built. The contract tests also compare the document with the one of a base commit, given in
 `ERP_CONTRACT_BASELINE`, as described in [CI/CD](../delivery/ci-cd-and-stages.md#workflows).
 
+**Bruno collection of the platform.** The collection `bruno/platform/` is generated from the committed OpenAPI document
+of `platform` ([D406](../../specs/06-decisions/technical/d406-back-end.md)), with one request per operation under
+`requests/<tag>/`. To regenerate it after a change of the API, run:
+
+```bash
+python3 .github/scripts/bruno_collection.py generate --service backend/services/platform
+```
+
+CI fails while the collection is stale ([REQ-T05-05](../../specs/03-technical/t05-api-and-webhooks/requirements/req-t05-05-contract-tests.md)).
+The hand-written requests with their tests live in `bruno/platform/tests/`: the health call, and one refused call whose
+body is an `application/problem+json` document with its code and no secret ([REQ-T05-03](../../specs/03-technical/t05-api-and-webhooks/requirements/req-t05-03-problem-json.md)).
+To run the collection locally against [`compose.e2e.yaml`](../../../compose.e2e.yaml), run:
+
+```bash
+cd bruno/platform && npx --yes @usebruno/cli@4.2.1 run --env stage
+```
+
+A local secret goes in an ignored `.env` file, and never in a committed file ([TEST-1](../../specs/06-decisions/technical/d426-testing-strategy.md), [D426](../../specs/06-decisions/technical/d426-testing-strategy.md)).
+
 **Company and user headers.** Every request carries the company (`X-Company-Id`) and the user (`X-User-Id`) headers. The
 `CompanyContextMiddleware` of [`erp_context`](../../../backend/shared/context/README.md) checks them on every path that is
 not public, and tags each request with its request id (`X-Request-Id`).
@@ -69,4 +88,4 @@ The MCP and A2A entry points are in [MCP](mcp.md) and [A2A](a2a.md).
 
 Decided in [D410](../../specs/06-decisions/technical/d410-api-style-and-auth.md).
 
-Last reviewed: 2026-11-27 (GH-2)
+Last reviewed: 2026-11-28 (GH-2)

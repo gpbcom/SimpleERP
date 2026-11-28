@@ -1,0 +1,152 @@
+[
+  {
+    "iterationIndex": 0,
+    "results": [
+      {
+        "test": {
+          "filename": "requests/default/get_health_v1_health_get.bru"
+        },
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8000/v1/health",
+          "headers": {}
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": {},
+          "url": "http://localhost/v1/health",
+          "responseTime": 11,
+          "duration": 11,
+          "size": 15
+        },
+        "error": null,
+        "status": "pass",
+        "assertionResults": [],
+        "testResults": [],
+        "preRequestTestResults": [],
+        "postResponseTestResults": [],
+        "shouldStopRunnerExecution": false,
+        "runDuration": 0.061343019,
+        "name": "Get Health",
+        "suitename": "/home/guillaume/Documents/Projects/Others/simple-erp/.claude/worktrees/wf_c22066f6-c08-24/bruno/platform/requests/default/get_health_v1_health_get",
+        "path": "requests/default/get_health_v1_health_get",
+        "iterationIndex": 0
+      },
+      {
+        "test": {
+          "filename": "tests/health.bru"
+        },
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8000/v1/health",
+          "headers": {}
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": {},
+          "url": "http://localhost/v1/health",
+          "responseTime": 3,
+          "duration": 3,
+          "size": 15
+        },
+        "error": null,
+        "status": "pass",
+        "assertionResults": [],
+        "testResults": [
+          {
+            "description": "the health call answers 200",
+            "status": "pass",
+            "uid": "1vRiVhwqWRt90Z7e4QRdv"
+          },
+          {
+            "description": "the health body says ok",
+            "status": "pass",
+            "uid": "r6TV5B4vD6ywd9lDk1dl1"
+          }
+        ],
+        "preRequestTestResults": [],
+        "postResponseTestResults": [],
+        "shouldStopRunnerExecution": false,
+        "runDuration": 0.123170819,
+        "name": "health",
+        "suitename": "/home/guillaume/Documents/Projects/Others/simple-erp/.claude/worktrees/wf_c22066f6-c08-24/bruno/platform/tests/health",
+        "path": "tests/health",
+        "iterationIndex": 0
+      },
+      {
+        "test": {
+          "filename": "tests/refused-call.bru"
+        },
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8000/v1/anything",
+          "headers": {}
+        },
+        "response": {
+          "status": 400,
+          "statusText": "Bad Request",
+          "headers": {},
+          "url": "http://localhost/v1/anything",
+          "responseTime": 3,
+          "duration": 3,
+          "size": 269
+        },
+        "error": null,
+        "status": "pass",
+        "assertionResults": [],
+        "testResults": [
+          {
+            "description": "a call without the company context is refused with a 400",
+            "status": "pass",
+            "uid": "7q6A1KukTdUjKmGOrvkGd"
+          },
+          {
+            "description": "the refusal is problem+json",
+            "status": "pass",
+            "uid": "g_gODy4AR906jHub78Okp"
+          },
+          {
+            "description": "the body has a status, a title and a code",
+            "status": "pass",
+            "uid": "kymu9oyAxkZkz6Ih1NXBq"
+          },
+          {
+            "description": "the body holds no secret and no stack trace",
+            "status": "pass",
+            "uid": "JinWoXQ3pgvyUA2QAcJDx"
+          }
+        ],
+        "preRequestTestResults": [],
+        "postResponseTestResults": [],
+        "shouldStopRunnerExecution": false,
+        "runDuration": 0.076359692,
+        "name": "refused call",
+        "suitename": "/home/guillaume/Documents/Projects/Others/simple-erp/.claude/worktrees/wf_c22066f6-c08-24/bruno/platform/tests/refused-call",
+        "path": "tests/refused-call",
+        "iterationIndex": 0
+      }
+    ],
+    "summary": {
+      "totalRequests": 3,
+      "passedRequests": 3,
+      "failedRequests": 0,
+      "errorRequests": 0,
+      "skippedRequests": 0,
+      "skippedByBail": 0,
+      "totalAssertions": 0,
+      "passedAssertions": 0,
+      "failedAssertions": 0,
+      "totalTests": 6,
+      "passedTests": 6,
+      "failedTests": 0,
+      "totalPreRequestTests": 0,
+      "passedPreRequestTests": 0,
+      "failedPreRequestTests": 0,
+      "totalPostResponseTests": 0,
+      "passedPostResponseTests": 0,
+      "failedPostResponseTests": 0
+    }
+  }
+]

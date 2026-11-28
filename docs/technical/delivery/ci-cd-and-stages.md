@@ -47,7 +47,7 @@ The pipeline below comes with the CI/CD change that follows the harness port. Un
 | Workflow | Runs on | Does |
 |---|---|---|
 | `ci.yml` | Every push to a GitFlow branch, every pull request to `develop` or `master` | Detects what changed, then calls `python.yml`, `typescript.yml`, `terraform.yml` and `images.yml` for the services, packages, front ends and Terraform folders concerned; one final job fails when any of them failed. Every run keeps its test reports as `test-report-*` artifacts, failed runs included |
-| `python.yml` | Called by CI | For each changed Python package: `uv sync --locked`, `ruff check`, `ruff format --check`, `mypy` and `pytest -n 2` with its JUnit report, then the contract check of every service with an `openapi.json` (`.github/scripts/check_contract.sh`, REQ-T05-05): the committed document must equal the generated one, and against the document of the pull request's base or of the push's previous commit, no path, operation, parameter, schema or property may be removed and no type may change. Additions pass, and with no base document only the stale check runs; and the repository-level tests of `tests/` |
+| `python.yml` | Called by CI | For each changed Python package: `uv sync --locked`, `ruff check`, `ruff format --check`, `mypy` and `pytest -n 2` with its JUnit report, then the contract check of every service with an `openapi.json` (`.github/scripts/check_contract.sh`, REQ-T05-05): the committed document must equal the generated one, and against the document of the pull request's base or of the push's previous commit, no path, operation, parameter, schema or property may be removed and no type may change. Additions pass, and with no base document only the stale check runs; and the repository-level tests of `tests/`. For each service with a `bruno/<service>/` collection, the job checks that the collection is up to date with the OpenAPI (REQ-T05-05) and fails otherwise |
 | `typescript.yml` | Called by CI | For each changed front end and TypeScript package: `pnpm install --frozen-lockfile`, lint, type check and tests |
 | `terraform.yml` | Called by CI | For each changed Terraform folder (a root or a module of `infra/terraform/`): `terraform fmt -check -recursive`, `init -backend=false`, `validate` and `terraform test` where the folder has a `tests/` folder, with its JUnit report kept as `test-report-terraform-*` |
 | `images.yml` | Called by CI | Builds one image per changed service and front end (repository root as context), runs Playwright against the real images of `compose.e2e.yaml`, then signs and pushes the images tagged with the commit SHA, from `develop` and `master` only |
@@ -57,7 +57,7 @@ The pipeline below comes with the CI/CD change that follows the harness port. Un
 | `stage.yml` | `develop` (dev), `release/**` and `hotfix/**` (QA), or by hand | The ephemeral stage, below |
 
 A change in `backend/models/`, `backend/shared/`, `frontend/packages/`, `uv.lock` or `pnpm-lock.yaml` selects every
-service and front end (`AGENT.md`, "CI/CD"). A change to a service's committed OpenAPI document, `backend/services/<service>/openapi.json`, selects its service and image, and also every front-end project and front-end image, so that the stale check of the generated client in `frontend/packages/api-client` runs on the regenerated document. A change under `infra/terraform/` selects every Terraform folder, because
+service and front end (`AGENT.md`, "CI/CD"). A change to a service's committed OpenAPI document, `backend/services/<service>/openapi.json`, selects its service and image, and also every front-end project and front-end image, so that the stale check of the generated client in `frontend/packages/api-client` runs on the regenerated document. A change under `bruno/<service>/` selects that service and the repository-level tests of `tests/`. A change under `infra/terraform/` selects every Terraform folder, because
 the modules are shared, and the repository-level tests of `tests/`. `ticket_tree.py finish`, run by `/ticket-run`, labels a ticket's pull request `automerge`,
 so a ticket reaches `develop` with no merge by hand; a failing check leaves the pull request open for the person.
 
@@ -66,6 +66,8 @@ so a ticket reaches `develop` with no merge by hand; a failing check leaves the 
 A stage is one run of `stage.yml`: it checks out the commit, starts its images with `compose.e2e.yaml` on the runner,
 runs the tests against them, uploads every report, and records a GitHub Deployment on the `dev` or `qa` environment.
 Nothing is hosted, so there is no stage to book and nothing to pay for besides Actions minutes.
+
+The Bruno step runs every collection of `bruno/` headless, with the pinned Bruno CLI on Node 22. It keeps `bruno-<name>.xml` (JUnit) and `bruno-<name>.json` in the stage reports artifact, without headers or bodies, so that no credential can reach the report.
 
 | | dev | QA |
 |---|---|---|
@@ -125,4 +127,4 @@ QA stages stay ephemeral runs on runners (`stage.yml`); a long-lived staging and
 
 Decided in [D419](../../specs/06-decisions/technical/d419-ci-cd-and-registry.md).
 
-Last reviewed: 2026-11-28
+Last reviewed: 2026-11-28 (T0.24)

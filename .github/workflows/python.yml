@@ -4,7 +4,7 @@ name: python
 # and shared package, and the repository tests (harness, conventions, CI scripts). Python comes from .python-version
 # and every dependency from uv.lock. Reusable only: ci.yml and release.yml call it. Every job keeps its JUnit reports
 # as a test-report-* artifact, failed runs included, for the release's test report (TKT-26). A service that commits an
-# openapi.json also gets its contract check against the base commit (REQ-T05-05).
+# openapi.json also gets its contract check against the base commit, and a Bruno collection is checked up to date (REQ-T05-05).
 
 on:
   workflow_call:
@@ -58,6 +58,8 @@ jobs:
         env:
           CONTRACT_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
         run: bash .github/scripts/check_contract.sh "$FOLDER" "$CONTRACT_BASE"
+      - name: Bruno collection up to date (REQ-T05-05)
+        run: uv run python .github/scripts/bruno_collection.py check --service "$FOLDER"
       - name: Keep the test reports (TKT-26)
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2

@@ -1,0 +1,21 @@
+meta {
+  name: health
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/v1/health
+  body: none
+  auth: none
+}
+
+tests {
+  test("the health call answers 200", function () {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  test("the health body says ok", function () {
+    expect(res.getBody()).to.eql({ status: "ok" });
+  });
+}

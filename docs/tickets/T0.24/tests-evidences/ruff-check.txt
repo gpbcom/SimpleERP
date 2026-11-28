@@ -1,0 +1,16 @@
+$ uv run ruff check tests/ci/bruno_collection/helpers.py tests/ci/bruno_collection/test_check.py tests/ci/bruno_collection/test_generate.py tests/ci/bruno_credentials/helpers.py tests/ci/bruno_credentials/test_bruno_credentials.py tests/ci/detect_changes/bruno/test_bruno_changes.py tests/ci/workflows/checks/test_python_workflow.py tests/ci/workflows/test_stage_workflow.py
+(cwd ., on the ticket's own files only)
+
+All checks passed!
+Using CPython 3.13.15
+Creating virtual environment at: .venv
+   Building erp-config @ file:///tmp/erp-checks-3719817-fc0anzyk/backend/shared/config
+   Building erp-lifecycle @ file:///tmp/erp-checks-3719817-fc0anzyk/backend/shared/lifecycle
+   Building erp-logging @ file:///tmp/erp-checks-3719817-fc0anzyk/backend/shared/logging
+      Built erp-config @ file:///tmp/erp-checks-3719817-fc0anzyk/backend/shared/config
+      Built erp-lifecycle @ file:///tmp/erp-checks-3719817-fc0anzyk/backend/shared/lifecycle
+      Built erp-logging @ file:///tmp/erp-checks-3719817-fc0anzyk/backend/shared/logging
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 26 packages in 302ms
