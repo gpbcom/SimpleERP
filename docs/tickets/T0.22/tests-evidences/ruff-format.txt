@@ -1,0 +1,4 @@
+$ uv run ruff format --check tests/ci/playwright/helpers.py tests/ci/playwright/test_playwright_script.py
+(cwd ., on the ticket's own files only)
+
+2 files already formatted

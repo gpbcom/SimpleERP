@@ -61,6 +61,13 @@ pnpm --filter ./frontend/backoffice run test
 - `build` type-checks the project and builds it for production.
 - `lint` runs ESLint, `typecheck` runs `vue-tsc`, and `test` runs the Vitest unit tests once.
 
+## End-to-end tests
+
+The Playwright tests of `e2e/` run against the real images started by `compose.e2e.yaml`, never a development server.
+Their projects (four themes and languages, plus the phone size), their `@smoke` tag, the accessibility check and the
+reports are described in the [Playwright section](../../docs/technical/delivery/tests-and-traceability.md#playwright)
+of the tests and traceability page.
+
 ## The image
 
 The image of the back office is one of the images of [D438](../../docs/specs/06-decisions/technical/d438-repository-layout.md),
