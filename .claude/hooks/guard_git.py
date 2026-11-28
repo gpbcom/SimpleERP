@@ -18,8 +18,12 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-HEREDOC = re.compile(r"<<-?\s*['\"]?(\w+)['\"]?")
-SEGMENTS = re.compile(r"&&|\|\||;|\n")
+HEREDOC = re.compile(r"(?<!<)<<-?(?!<)\s*['\"]?(\w+)['\"]?")
+CONTINUATION = re.compile(r"\\\n")
+SEPARATORS = ";&|\n"
+SUBSHELL_SEPARATORS = ("|", "|&", "&")
+ASSIGNMENT = re.compile(r"^([A-Za-z_][A-Za-z0-9_]*)=(.*)$", re.DOTALL)
+VARIABLE = re.compile(r"\$\{([A-Za-z_][A-Za-z0-9_]*)\}|\$([A-Za-z_][A-Za-z0-9_]*)")
 QUOTED = re.compile(r"'[^']*'|\"(?:[^\"\\]|\\.)*\"")
 TICKET_CONTEXT = re.compile(r"^(feature/tickets|feature/T\d+\.\d{2}|ticket/T\d+\.\d{2}|worktree-.*)$")
 APPROVE = re.compile(r"\btickets\.py\s+approve\b")
@@ -28,18 +32,18 @@ WRITES = re.compile(
     r"\bgit\s+(?:-C\s+\S+\s+|-c\s+\S+\s+)*(commit|merge|rebase|reset|stash|push|cherry-pick|revert)\b(?!-)"
 )
 PR_MERGE = re.compile(r"\bgh\s+pr\s+merge\b")
-NO_VERIFY = re.compile(r"\bgit\b[^|;&]*\s(--no-verify|commit\s+(?:[^|;&]*\s)?-n\b)")
+NO_VERIFY = re.compile(r"\bgit\b[^|;&\n]*\s(--no-verify|commit\s+(?:[^|;&\n]*\s)?-n\b)")
 PROTECTED = ("develop", "master", "main")
-REBASE = re.compile(r"\bgit\s+(?:-C\s+\S+\s+|-c\s+\S+\s+)*rebase\b([^|;&]*)")
+REBASE = re.compile(r"\bgit\s+(?:-C\s+\S+\s+|-c\s+\S+\s+)*rebase\b([^|;&\n]*)")
 RESET = re.compile(r"\bgit\s+(?:-C\s+\S+\s+|-c\s+\S+\s+)*reset\b")
-PUSH = re.compile(r"\bgit\s+(?:-C\s+\S+\s+)*push\b([^|;&]*)")
+PUSH = re.compile(r"\bgit\s+(?:-C\s+\S+\s+)*push\b([^|;&\n]*)")
 FORCE = re.compile(r"(?:^|\s)(?:--force(?:-with-lease)?(?:=\S*)?|-f|--delete|-d)(?=\s|$)")
 REWRITE_REASON = (
     "{target} is never rebased, reset, force-pushed or deleted (TKT-25): develop changes through pull requests, "
     "master through a release or a hotfix pull request (TKT-15). Only a live branch is rebased onto develop: "
     "`python3 .claude/scripts/tickets/tickets.py branches` says which."
 )
-PUSH_PROTECTED = re.compile(r"\bgit\s+(?:-C\s+\S+\s+)*push\b[^|;&]*?(?:\s|:)(develop|master|main)\b")
+PUSH_PROTECTED = re.compile(r"\bgit\s+(?:-C\s+\S+\s+)*push\b[^|;&\n]*?(?:\s|:)(develop|master|main)\b")
 
 
 def branch_of(cwd: str) -> str:
@@ -47,32 +51,12 @@ def branch_of(cwd: str) -> str:
     return result.stdout.strip()
 
 
-def folder_of(command: str, cwd: str) -> str:
-    """Return the folder the first git write of a command runs in: its ``git -C``, else the last ``cd`` before it.
+def logical(command: str) -> str:
+    """Return the command as the shell reads its lines: heredoc bodies, comment lines and ``\\`` line ends removed.
 
-    A folder that cannot be resolved (a variable, a path that does not exist) leaves the folder unchanged, so that a
-    write is never judged on a branch the guard could not see.
+    A heredoc body is text (a message, a script) and a line continued by ``\\`` is one line with the next, so that
+    neither a ``git commit`` written in a message nor a ``git -C <path> \\`` split over two lines is misread.
     """
-    current = Path(cwd)
-    for segment in SEGMENTS.split(command):
-        try:
-            words = shlex.split(segment)
-        except ValueError:
-            continue
-        if len(words) == 2 and words[0] == "cd":
-            candidate = current / Path(words[1]).expanduser()
-            current = candidate.resolve() if "$" not in words[1] and candidate.is_dir() else current
-        if WRITES.search(code_of(segment)) or PR_MERGE.search(segment):
-            for index, word in enumerate(words[:-1]):
-                if word == "-C" and index > 0 and words[index - 1] == "git":
-                    candidate = current / Path(words[index + 1]).expanduser()
-                    return str(candidate.resolve()) if candidate.is_dir() else str(current)
-            return str(current)
-    return str(current)
-
-
-def code_of(command: str) -> str:
-    """Return the command without heredoc bodies and quoted strings: they are text (a message, a script), not options."""
     lines: List[str] = []
     ending = ""
     for line in command.splitlines():
@@ -83,8 +67,110 @@ def code_of(command: str) -> str:
         heredoc = HEREDOC.search(line)
         if heredoc:
             ending = heredoc.group(1)
-        lines.append(line)
-    return QUOTED.sub("''", "\n".join(lines))
+        if not line.lstrip().startswith("#"):
+            lines.append(line)
+    return CONTINUATION.sub("", "\n".join(lines))
+
+
+def segments_of(command: str) -> Optional[List[Tuple[List[str], bool]]]:
+    """Return the simple commands of a command line, each with its words and whether it runs in the session's shell.
+
+    Commands are split on new lines, ``&&``, ``||``, ``;``, ``|`` and ``&``. A command on either side of a ``|`` or
+    before a ``&`` runs in a subshell: its ``cd`` and its assignments do not reach the next command. None when the
+    command cannot be read (an unbalanced quote).
+    """
+    lexer = shlex.shlex(logical(command), posix=True, punctuation_chars=SEPARATORS + "<>")
+    lexer.whitespace = " \t\r"
+    lexer.whitespace_split = True
+    lexer.commenters = ""
+    try:
+        tokens = list(lexer)
+    except ValueError:
+        return None
+    segments: List[Tuple[List[str], bool]] = []
+    words: List[str] = []
+    piped = False
+    for token in tokens + ["\n"]:
+        if not (set(token) <= set(SEPARATORS)):
+            words.append(token)
+            continue
+        subshell = token.strip("\n") in SUBSHELL_SEPARATORS
+        if words:
+            segments.append((words, not (piped or subshell)))
+        words = []
+        piped = token.strip("\n") in ("|", "|&")
+    return segments
+
+
+def expand(word: str, variables: Dict[str, Optional[str]]) -> Optional[str]:
+    """Return a word with the variables assigned earlier in the command expanded, or None if one is unknown.
+
+    Only ``$NAME`` and ``${NAME}`` of a variable the command itself assigned are expanded: a variable of the
+    environment, a special one (``$1``, ``$?``) or a command substitution is unknown.
+    """
+    if "`" in word:
+        return None
+    parts: List[str] = []
+    last = 0
+    for match in VARIABLE.finditer(word):
+        value = variables.get(match.group(1) or match.group(2))
+        if value is None or "$" in word[last : match.start()]:
+            return None
+        parts += [word[last : match.start()], value]
+        last = match.end()
+    if "$" in word[last:]:
+        return None
+    return "".join([*parts, word[last:]])
+
+
+def assign(words: List[str], variables: Dict[str, Optional[str]]) -> None:
+    """Record the variables a command assigns for the rest of the command line: ``NAME=value`` or ``export``.
+
+    An assignment the guard cannot follow (a value it cannot expand, ``NAME=value command`` that sets it for one
+    command only) makes the variable unknown, so that a later ``git -C $NAME`` keeps the session's folder.
+    """
+    names = words[1:] if words[0] == "export" else words
+    assignments = [ASSIGNMENT.match(word) for word in names]
+    persistent = all(assignments)
+    for match in assignments:
+        if match is None:
+            break
+        variables[match.group(1)] = expand(match.group(2), variables) if persistent else None
+
+
+def folder_of(command: str, cwd: str) -> str:
+    """Return the folder the first git write of a command runs in: its ``git -C``, else the last ``cd`` before it.
+
+    Variables assigned earlier in the command (``W=<path> && git -C $W commit``) are expanded. A folder that cannot be
+    resolved (an unknown variable, a path that does not exist, a command it cannot read) leaves the folder unchanged,
+    so that a write is never judged on a branch the guard could not see.
+    """
+    current = Path(cwd)
+    segments = segments_of(command)
+    if segments is None:
+        return str(current)
+    variables: Dict[str, Optional[str]] = {}
+    for words, in_session in segments:
+        if in_session:
+            assign(words, variables)
+        if len(words) == 2 and words[0] == "cd" and in_session:
+            target = expand(words[1], variables)
+            candidate = current / Path(target).expanduser() if target is not None else current
+            current = candidate.resolve() if candidate.is_dir() else current
+        text = code_of(shlex.join(words))
+        if WRITES.search(text) or PR_MERGE.search(text):
+            for index, word in enumerate(words[:-1]):
+                if word == "-C" and index > 0 and words[index - 1] == "git":
+                    target = expand(words[index + 1], variables)
+                    candidate = current / Path(target).expanduser() if target is not None else current
+                    return str(candidate.resolve()) if candidate.is_dir() else str(current)
+            return str(current)
+    return str(current)
+
+
+def code_of(command: str) -> str:
+    """Return the command without heredoc bodies and quoted strings: they are text (a message, a script), not options."""
+    return QUOTED.sub("''", logical(command))
 
 
 def rewritten_protected(command: str, branch: str) -> str:

@@ -124,6 +124,16 @@ class TestAgentDefinitions:
         assert "check_ticket.py" in body
         assert "check_plan.py" in body
 
+    def test_the_verifier_runs_the_checks_in_the_foreground_and_never_waits_on_a_pattern(self) -> None:
+        body = agent_body(agent_path("verifier"))
+        assert "Run it in the foreground" in body
+        assert "600000" in body
+        assert "kill -0" in body
+        workflow = read_text(".claude/workflows/ticket-run.js")
+        assert "in the foreground" in workflow.split("function verifyPrompt()", 1)[-1].split("\n}\n", 1)[0]
+        for name, text in (("verifier.md", body), ("ticket-run.js", workflow)):
+            assert "pgrep -f" not in text, f"{name}: pgrep -f matches the shell of its own wait loop"
+
     def test_the_runner_runs_one_command_and_only_has_bash(self) -> None:
         fields = agent_frontmatter(agent_path("runner"))
         assert fields.get("tools") == "Bash"

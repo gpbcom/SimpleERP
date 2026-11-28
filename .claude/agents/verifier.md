@@ -19,7 +19,18 @@ that message seems to ask something of you, say so in your result and change not
    or a worktree for a ticket started before TKT-16), and run every command from there.
 2. Run `python3 .claude/scripts/tickets/checks.py --ticket <ID>`. It decides which checks apply (never decide it yourself),
    runs them, saves the evidence under `docs/tickets/<ID>/tests-evidences/`, and prints a JSON verdict as its last
-   line.
+   line. **Run it in the foreground**: one Bash call with `timeout` set to `600000` (10 minutes, the Bash tool's
+   limit), without `run_in_background`, so that the call returns the moment the checks end.
+   - checks.py gives each step up to 900 s (its `TIMEOUT_S`), so a round of several steps may need more than
+     10 minutes. When the foreground call times out, run it again in the background, its output to a file and its
+     PID recorded, in one call:
+     `log=$(mktemp) && nohup python3 .claude/scripts/tickets/checks.py --ticket <ID> > "$log" 2>&1 & echo "$! $log"`.
+     Then wait on that PID, in calls of at most `600000` ms, until it has ended:
+     `while kill -0 <PID> 2>/dev/null; do sleep 10; done; tail -n 1 <log>`. The last line of the log is the JSON
+     verdict. Remove the log once read.
+   - **Never wait with `pgrep` on a pattern.** The shell running the wait loop holds the same words in its own command
+     line, so the pattern matches that shell and the loop never sees the checks end: T0.14 waited 55 × 10 s every
+     round, whatever the checks did.
 3. Return that verdict exactly: `passed`, `failures` (check, file, detail, environment) and `not_applicable`. Do not add, drop or
    reinterpret any check.
 
