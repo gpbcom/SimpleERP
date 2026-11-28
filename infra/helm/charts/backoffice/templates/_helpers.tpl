@@ -30,3 +30,29 @@ Image reference: the registry path, the image name and the tag.
 {{- define "backoffice.image" -}}
 {{- printf "%s-%s:%s" .Values.global.image.prefix .Values.image.name (.Values.global.image.tag | default .Chart.AppVersion) -}}
 {{- end -}}
+
+{{/*
+Address the nginx of the back office proxies /v1/ to: platformUrl when it is set, otherwise the platform Service of
+the same release, <release>-platform, named as the platform chart names it. The name is fully qualified
+(<service>.<namespace>.svc.<clusterDomain>) because nginx resolves it through its own resolver, which does not apply
+the search domains of the pod.
+*/}}
+{{- define "backoffice.platformUrl" -}}
+{{- if .Values.platformUrl -}}
+{{- .Values.platformUrl -}}
+{{- else -}}
+{{- $service := printf "%s-%s" .Release.Name "platform" | trunc 63 | trimSuffix "-" -}}
+{{- printf "http://%s.%s.svc.%s:%v" $service .Release.Namespace .Values.clusterDomain .Values.platformPort -}}
+{{- end -}}
+{{- end -}}
+
+{{/*
+Environment variables of the container: ERP_PLATFORM_URL, then the env map, which wins on the same name.
+*/}}
+{{- define "backoffice.env" -}}
+{{- $env := merge (dict) .Values.env (dict "ERP_PLATFORM_URL" (include "backoffice.platformUrl" .)) -}}
+{{- range $name, $value := $env }}
+- name: {{ $name }}
+  value: {{ $value | quote }}
+{{- end }}
+{{- end -}}
