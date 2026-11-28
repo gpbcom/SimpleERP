@@ -178,6 +178,13 @@ function inHome(text) {
       `and change only this ticket's files and docs/tickets/${ID}/, never another ticket's uncommitted work. ${text}`
     : text
 }
+// The verifier runs checks.py in the foreground: a wait loop on `pgrep` and a pattern matched its own shell and
+// waited 55 x 10 s at every check round of T0.14, whatever the checks did.
+function verifyPrompt() {
+  return inHome(`Verify ticket ${ID}: python3 .claude/scripts/tickets/checks.py --ticket ${ID} checks only its own files. ` +
+    'Run it in the foreground, in one Bash call with timeout 600000, as your definition says. When it needs longer, ' +
+    'wait on the PID of its background run with kill -0, never with pgrep on a pattern.')
+}
 // The tree of the integrated, uncommitted work after the last integration (TKT-5): the confirm-fixes review diffs from it.
 let currentTree = ''
 function note(event, by, result) { progress.push(`| ${event} | ${by} | ${result} |`) }
@@ -260,6 +267,11 @@ function docOwnerOf(item) {
   }
   return null
 }
+// L-34 b: a bare folder (no file extension, such as "tests") names no file to fix: no owner, never a FIX task. A file the
+// tools name without an extension is still a file: checks.py sends an image's failures to its Dockerfile (TKT-6).
+function namesAFile(f) {
+  return /\.[A-Za-z0-9]+$/.test(f) || /(^|\/)(Dockerfile|Containerfile|Makefile|Justfile)(\.[A-Za-z0-9._-]+)?$/.test(f)
+}
 function ownersOf(item) {
   const doc = docOwnerOf(item)
   if (doc) return [doc]
@@ -275,8 +287,7 @@ function ownersOf(item) {
   if (!owners.length) byId(String(item.detail || '').match(/\bK\d{2}\b/g) || []).forEach(add)
   if (owners.length) return owners
   const f = files[0] || normalise(item.file) || 'unknown'
-  // L-34 b: a bare folder (no file extension, such as "tests") names no file to fix: no owner, never a FIX task.
-  if (!/\.[A-Za-z0-9]+$/.test(f)) return []
+  if (!namesAFile(f)) return []
   return [{ id: `FIX-${f}`, title: `Fix ${f}`, agent: agentFor(f), files: files.length ? files : [f], brief: '', done_when: 'the verifier passes' }]
 }
 // L-34 e: one finding owned by several tasks is ONE fix task owning the union of their files (the first owner's agent),
@@ -458,7 +469,7 @@ for (let w = 1; w <= waveCount; w++) {
 phase('Verify')
 let verdict = null
 for (let round = 0; round <= MAX_FIX_ROUNDS; round++) {
-  verdict = await agent(inHome(`Verify ticket ${ID}: python3 .claude/scripts/tickets/checks.py --ticket ${ID} checks only its own files.`), { agentType: 'verifier', schema: VERDICT, phase: 'Verify', label: `verifier round ${round + 1}` })
+  verdict = await agent(verifyPrompt(), { agentType: 'verifier', schema: VERDICT, phase: 'Verify', label: `verifier round ${round + 1}` })
   note(`Verify ${round + 1}${verdict && verdict.not_applicable && verdict.not_applicable.length ? ` (${verdict.not_applicable.length} not applicable)` : ''}`, 'verifier', verdict && verdict.passed ? '✅ passed' : `❌ ${verdict ? verdict.failures.length : '?'} failures`)
   if (!verdict || verdict.passed || round === MAX_FIX_ROUNDS) break
   // TKT-6: a missing tool or module is the environment's fault; fixers cannot repair it, so stop at once.
@@ -514,7 +525,7 @@ if (verdict && verdict.passed && !pushOnly) {
     if (!blocking.length || round === MAX_FIX_ROUNDS) break
     reviewedTree = currentTree
     await fixRound(blocking.map(f => ({ file: f.file, check: f.rule, detail: f.change })), 'Review')
-    verdict = await agent(inHome(`Verify ticket ${ID}: python3 .claude/scripts/tickets/checks.py --ticket ${ID} checks only its own files.`), { agentType: 'verifier', schema: VERDICT, phase: 'Review', label: `verifier after review ${round + 1}` })
+    verdict = await agent(verifyPrompt(), { agentType: 'verifier', schema: VERDICT, phase: 'Review', label: `verifier after review ${round + 1}` })
     if (!verdict || !verdict.passed) break
   }
 }

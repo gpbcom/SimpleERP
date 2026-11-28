@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 # Standard library imports
+import json
 import re
+import subprocess
 
 # Third-party imports
 import pytest
@@ -192,7 +194,7 @@ class TestTicketWorkflows:
 
     def test_a_bare_folder_gets_no_owner_and_the_verify_loop_stops_without_one(self) -> None:
         text = read_text(self.RUN)
-        assert "if (!/\\.[A-Za-z0-9]+$/.test(f)) return []" in text
+        assert "if (!namesAFile(f)) return []" in text
         assert "const owned = fixable.filter(f => ownersOf(f).length > 0)" in text
         assert "no failure has an owner" in text
         assert "await fixRound(owned, 'Verify')" in text
@@ -229,3 +231,23 @@ class TestTicketWorkflows:
         assert 'a list "refused"' in text
         assert "Put every entry of it in blocked" in text
         assert "blocked or refused:" in text
+
+    @pytest.mark.parametrize(
+        ("path", "is_file"),
+        [
+            ("tests", False),
+            ("backend/models/tests", False),
+            ("backend/services/platform/tests/image/test_image.py", True),
+            ("backend/services/platform/Dockerfile", True),
+            ("frontend/backoffice/Dockerfile", True),
+            ("infra/compose/Containerfile.dev", True),
+            ("Makefile", True),
+        ],
+    )
+    def test_a_file_without_an_extension_such_as_a_dockerfile_gets_an_owner(self, path: str, is_file: bool) -> None:
+        text = read_text(self.RUN)
+        source = re.search(r"^function namesAFile\(f\) \{\n.*?^\}", text, re.MULTILINE | re.DOTALL)
+        assert source is not None
+        script = f"{source.group(0)}\nprocess.stdout.write(String(namesAFile({json.dumps(path)})))"
+        result = subprocess.run(["node", "-e", script], capture_output=True, text=True, check=True)
+        assert result.stdout == str(is_file).lower()

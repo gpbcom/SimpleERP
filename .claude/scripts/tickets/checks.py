@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import importlib.util
 import json
 import os
 import re
@@ -10,6 +11,7 @@ import sys
 import tempfile
 import time
 from pathlib import Path
+from types import ModuleType
 from typing import Dict, List, Optional, Tuple, Union
 
 USAGE = """Run every applicable check of a ticket deterministically, save the evidence, and print the verdict as JSON.
@@ -30,7 +32,10 @@ A failure with ``environment: true`` comes from a missing tool or module, not fr
 Several tickets share the main checkout (TKT-16), and the AGENT.md tools read a whole workspace (``uv`` every
 member of the workspace, ``pnpm -r`` every package), so another ticket's half-built work would fail this one. When
 the ticket has recorded its own files, every check runs in a clean temporary worktree of ``HEAD`` holding only the
-ticket's own changes (TKT-6), removed afterwards; the evidence is still written to the ticket's folder.
+ticket's own changes (TKT-6), made on disk beside the main checkout (``.<repository>-erp-checks/``, never ``/tmp``)
+and removed afterwards; the evidence is still written to the ticket's folder. Because that tree leaves the other
+tickets out, ``structure with open tickets`` counts the Python files of each folder with every open ticket's files.
+Each changed image is built and scanned with Trivy as CI's images job does (``trivy <folder>``), then removed.
 """
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -44,15 +49,28 @@ PACKAGE_GLOBS = ("backend/models", "backend/shared/*", "backend/services/*", "pl
 SHARED_PREFIXES = ("backend/models/", "backend/shared/")
 SHARED_FILES = ("pyproject.toml", "uv.lock")
 TIMEOUT_S = 900
-# git with its LFS filter turned off: files stored in Git LFS are checked out as their pointers.
 TREE_PREFIX = "erp-checks-"
+# The clean trees are made on disk, in one folder beside the main checkout (``.<repository>-erp-checks``), never in
+# ``/tmp``: ``/tmp`` is a tmpfs with a quota per user, which a few trees and their pytest files filled (2026-11-28).
+CHECKS_FOLDER_SUFFIX = "-erp-checks"
+# Where each open ticket records its own files (TKT-16): ``<git common dir>/erp/<ID>/state.json``.
+STATE_FOLDER = "erp"
+STATE_FILE = "state.json"
+TICKET_ID = re.compile(r"T\d{1,2}\.\d{2}")
+# The folder limit of AGENT.md and the folders it covers, as tests/conventions/ enforces them.
+CONVENTION_RULES = "tests/conventions/helpers.py"
 # A clean tree whose name carries no process id (made before TKT-27) is stale once untouched for this long.
 UNNAMED_TREE_STALE_S = 3600
 PYTEST_SUFFIX = "-pytest"
+# git with its LFS filter turned off: files stored in Git LFS are checked out as their pointers.
 GIT_WITHOUT_LFS = ["git", "-c", "filter.lfs.smudge=", "-c", "filter.lfs.process=", "-c", "filter.lfs.required=false"]
 # A failure whose output holds one of these is caused by the environment (a missing tool or module), not by the
 # ticket's code: fixer agents cannot repair it, so the run stops and the person fixes the environment (TKT-6).
-ENVIRONMENT_MARKERS = ("command not found",)
+ENVIRONMENT_MARKERS = (
+    "command not found",
+    "Cannot connect to the Docker daemon",
+    "failed to download vulnerability DB",
+)
 # A missing module is the environment's fault only when it is not the project's own code: ``No module named
 # 'tests.api'`` or ``'erp_sales'`` is a wrong import or a wrong path in the ticket, which its owner fixes (L-28).
 MISSING_MODULE = re.compile(r"No module named '([^']+)'")
@@ -98,10 +116,43 @@ def own_paths(ticket: str, root: Path = ROOT) -> Optional[List[str]]:
     """Return the files and folders the ticket recorded as its own (TKT-16), or None when it recorded none."""
     if not ticket:
         return None
-    _, common = run(["git", "rev-parse", "--path-format=absolute", "--git-common-dir"], cwd=root)
-    state = Path(common.strip()) / "erp" / ticket / "state.json"
+    common = common_dir(root)
+    return recorded_paths(common / STATE_FOLDER / ticket / STATE_FILE) if common is not None else None
+
+
+def recorded_paths(state: Path) -> Optional[List[str]]:
+    """Return the ``paths`` a ticket's ``state.json`` records, or None when the file or the list is missing."""
     paths = json.loads(state.read_text(encoding="utf-8")).get("paths") if state.is_file() else None
     return [str(path) for path in paths] if isinstance(paths, list) else None
+
+
+def common_dir(root: Path = ROOT) -> Optional[Path]:
+    """Return git's common directory of ``root`` (the main checkout's ``.git``), or None outside a repository."""
+    code, out = run(["git", "rev-parse", "--path-format=absolute", "--git-common-dir"], cwd=root)
+    return Path(out.strip()) if code == 0 and out.strip() else None
+
+
+def main_checkout(root: Path = ROOT) -> Path:
+    """Return the main checkout of the repository ``root`` belongs to, ``root`` itself when it is no linked worktree."""
+    common = common_dir(root)
+    return common.parent if common is not None and common.name == ".git" else root
+
+
+def checks_folder(root: Path = ROOT) -> Path:
+    """Return the folder on disk where the checks make their clean trees, beside the main checkout, made if needed.
+
+    The folder is ``<parent>/.<repository>-erp-checks/``: one per repository, shared by its linked worktrees, and
+    never in ``/tmp``, a tmpfs whose quota per user the trees and their pytest files filled (TKT-27).
+
+    Notes:
+        A folder inside git's common directory (``.git/erp/checks/``) takes a worktree, but every folder under
+        ``.git`` is inside a git directory for git: pytest's temporary folders, which sit beside the tree, would
+        resolve every git command a test runs outside a repository of its own to the main repository's ``.git``.
+    """
+    main = main_checkout(root)
+    folder = main.parent / f".{main.name}{CHECKS_FOLDER_SUFFIX}"
+    folder.mkdir(parents=True, exist_ok=True)
+    return folder
 
 
 def isolated_tree(changed: List[str], root: Path = ROOT, temp: Optional[Path] = None) -> Path:
@@ -112,9 +163,11 @@ def isolated_tree(changed: List[str], root: Path = ROOT, temp: Optional[Path] = 
     is turned off for the checkout, so the tree holds the LFS pointers, not the images: no check reads an image, and
     downloading the tens of thousands of mock-up images of ``docs/specs/`` took minutes for every check round (TKT-6).
     The tree is named after this process (``erp-checks-<pid>-``), so that ``sweep_stale_trees`` can tell a tree still
-    in use from one a killed run left behind, and a tree that cannot be made or filled leaves nothing (TKT-27).
+    in use from one a killed run left behind, and a tree that cannot be made or filled leaves nothing (TKT-27). It is
+    made in ``temp`` when given, else in ``checks_folder``, on disk.
     """
-    tree = Path(tempfile.mkdtemp(prefix=f"{TREE_PREFIX}{os.getpid()}-", dir=temp))
+    folder = temp if temp is not None else checks_folder(root)
+    tree = Path(tempfile.mkdtemp(prefix=f"{TREE_PREFIX}{os.getpid()}-", dir=folder))
     code, out = run([*GIT_WITHOUT_LFS, "worktree", "add", "--detach", "--force", str(tree), "HEAD"], cwd=root)
     if code != 0:
         remove_tree(tree, root)
@@ -172,9 +225,10 @@ def sweep_stale_trees(root: Path = ROOT, temp: Optional[Path] = None) -> List[Pa
 
     A run removes its own tree when it ends, but a run killed before that (a command timeout) cannot; the next run
     removes it, and prunes git's list of worktrees, before it makes its own. A tree still in use by a running process
-    is kept.
+    is kept. The trees are looked for in ``temp`` when given, else in ``checks_folder``, where ``isolated_tree`` makes
+    them.
     """
-    folder = temp if temp is not None else Path(tempfile.gettempdir())
+    folder = temp if temp is not None else checks_folder(root)
     trees = [
         tree
         for tree in sorted(folder.glob(f"{TREE_PREFIX}*"))
@@ -257,8 +311,30 @@ def failing_files(out: str, changed: List[str]) -> List[Tuple[str, str]]:
     return sorted(found, key=lambda pair: order.get(pair[0], 0))[:FAILING_FILES_MAX]
 
 
+IMAGE_TESTS = "/tests/image/"
+
+
+def image_test_dockerfiles(out: str, files: List[str], root: Path) -> List[str]:
+    """Return the Dockerfile of each package whose image tests (``<package>/tests/image/``) a failed check names.
+
+    An image test builds the package's image and starts it: when it fails, the cause is as often the ``Dockerfile``
+    as the test (T0.14: the service crashed in its container, and the fix rounds went to the test only). The failure
+    goes to the owners of both. The paths are those of the failure and those the output prints, absolute ones
+    included (a traceback in the clean tree).
+    """
+    printed = ["/" + path for path in [*files, *PRINTED_PATH.findall(out)] if IMAGE_TESTS in "/" + path]
+    found = []
+    for pattern in PACKAGE_GLOBS:
+        for folder in sorted(root.glob(pattern)):
+            package = str(folder.relative_to(root))
+            if (folder / "Dockerfile").is_file() and any(f"/{package}{IMAGE_TESTS}" in path for path in printed):
+                found.append(f"{package}/Dockerfile")
+    return found
+
+
 class Checks:
     def __init__(self, ticket: str, root: Path = ROOT, changed: Optional[List[str]] = None) -> None:
+        self.ticket = ticket
         self.root = root
         self.changed = changed or []
         self.evidence = ROOT / "docs" / "tickets" / ticket / "tests-evidences"
@@ -267,30 +343,57 @@ class Checks:
         self.not_applicable: List[str] = []
         self.passed: List[str] = []
 
-    def check(
-        self, name: str, command: List[str], file: str, cwd: Optional[Path] = None, env: Optional[Dict[str, str]] = None
-    ) -> bool:
-        folder = cwd if cwd else self.root
-        code, out = run(command, folder, env)
+    def save(self, name: str, command: str, context: str, out: str) -> None:
+        """Write a check's output to its evidence file, ``tests-evidences/<check>.txt``."""
         slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
         where = "the ticket's own files only" if self.root != ROOT else "the main checkout"
-        (self.evidence / f"{slug}.txt").write_text(
-            f"$ {' '.join(command)}\n(cwd {folder.relative_to(self.root) or '.'}, on {where})\n\n{out}\n",
-            encoding="utf-8",
-        )
+        (self.evidence / f"{slug}.txt").write_text(f"{command}\n({context}, on {where})\n\n{out}\n", encoding="utf-8")
+
+    def check(
+        self,
+        name: str,
+        command: List[str],
+        file: str,
+        cwd: Optional[Path] = None,
+        env: Optional[Dict[str, str]] = None,
+        route: bool = True,
+    ) -> bool:
+        """Run one check and record its result.
+
+        A failure goes to the ticket's files its output names (``failing_files``), else to ``file``; with ``route``
+        off, always to ``file``. A failed image test also goes to its package's ``Dockerfile``.
+        """
+        folder = cwd if cwd else self.root
+        code, out = run(command, folder, env)
+        self.save(name, f"$ {' '.join(command)}", f"cwd {folder.relative_to(self.root) or '.'}", out)
         if code == 0:
             self.passed.append(name)
             return True
         detail = "\n".join(out.splitlines()[-12:])
         environment = environment_failure(code, out, self.root)
-        named = [] if environment else failing_files(out, self.changed)
-        if not named:
-            self.failures.append({"check": name, "file": file, "detail": detail[:1500], "environment": environment})
+        if environment:
+            self.failures.append({"check": name, "file": file, "detail": detail[:1500], "environment": True})
             return False
-        for path, lines in named:
-            self.failures.append(
-                {"check": name, "file": path, "detail": f"{lines}\n...\n{detail}"[:1500], "environment": False}
-            )
+        named = failing_files(out, self.changed) if route else []
+        found = [(path, f"{lines}\n...\n{detail}") for path, lines in named] or [(file, detail)]
+        for dockerfile in image_test_dockerfiles(out, [path for path, _ in found], self.root):
+            if dockerfile not in (path for path, _ in found):
+                found.append((dockerfile, f"An image test built from this Dockerfile failed.\n{detail}"))
+        for path, text in found:
+            self.failures.append({"check": name, "file": path, "detail": text[:1500], "environment": False})
+        return False
+
+    def record(self, name: str, out: str, problems: List[Tuple[str, str]]) -> bool:
+        """Record a check made in this process, with its evidence: it passes when it found no problem.
+
+        Each problem is the file it goes to, with its detail.
+        """
+        self.save(name, f"# {name}", "checked by checks.py itself", out)
+        if not problems:
+            self.passed.append(name)
+            return True
+        for path, text in problems:
+            self.failures.append({"check": name, "file": path, "detail": text[:1500], "environment": False})
         return False
 
     def skip(self, name: str, reason: str) -> None:
@@ -401,6 +504,158 @@ def helm_checks(checks: Checks, changed: List[str]) -> None:
         checks.check(f"helm lint {chart}", ["helm", "lint", chart], chart)
 
 
+IMAGE_TAG = "scan"
+# The scan of CI's images job (.github/workflows/images.yml), word for word: a fixed HIGH or CRITICAL vulnerability
+# fails it.
+TRIVY_SCAN = ["trivy", "image", "--severity", "HIGH,CRITICAL", "--ignore-unfixed", "--exit-code", "1"]
+
+
+def image_folders(changed: List[str], root: Path) -> List[str]:
+    """Return the image folders the changed files belong to: the nearest folder above each one with a ``Dockerfile``."""
+    folders = set()
+    for name in changed:
+        folder = Path(name).parent
+        while folder != Path("."):
+            if (root / folder / "Dockerfile").is_file():
+                folders.add(str(folder))
+                break
+            folder = folder.parent
+    return sorted(folders)
+
+
+def trivy_checks(checks: Checks, changed: List[str]) -> None:
+    """Build the image of each changed image folder from the clean tree, scan it as CI does, then remove it.
+
+    CI's images job scans every image it builds with Trivy, and the local checks did not: a vulnerable image was found
+    only in CI (#894). Each image is tagged after this process (``erp-checks-<pid>-<folder>:scan``) and removed
+    whatever the build and the scan gave (TKT-27). A failure of either goes to the folder's ``Dockerfile``. Without
+    ``docker`` or ``trivy`` on the PATH, the scan is not applicable: a missing tool is never a failure.
+    """
+    folders = image_folders(changed, checks.root)
+    if not folders:
+        checks.skip("trivy", "no image folder changed (a folder with a Dockerfile)")
+        return
+    missing = [tool for tool in ("docker", "trivy") if shutil.which(tool) is None]
+    if missing:
+        checks.skip("trivy", f"{' and '.join(missing)} not installed on the PATH")
+        return
+    for folder in folders:
+        dockerfile = f"{folder}/Dockerfile"
+        image = f"{TREE_PREFIX}{os.getpid()}-{re.sub(r'[^a-z0-9]+', '-', folder.lower()).strip('-')}:{IMAGE_TAG}"
+        try:
+            build = ["docker", "build", "-f", dockerfile, "-t", image, "."]
+            if checks.check(f"docker build {folder}", build, dockerfile, route=False):
+                checks.check(f"trivy {folder}", [*TRIVY_SCAN, image], dockerfile, route=False)
+        finally:
+            run(["docker", "image", "rm", "--force", image], cwd=checks.root)
+
+
+def python_file_counts(paths: List[str], root: Path) -> Dict[str, List[str]]:
+    """Return the Python files of each folder the folder limit covers, as ``tests/conventions/`` counts them.
+
+    The rule is read from ``tests/conventions/helpers.py`` of ``root``, so that it is the one the ticket's tree tests:
+    the files under a package's source folder or under a test folder, ``__init__.py`` and ``conftest.py`` left out.
+    """
+    rules = load_convention_rules(root)
+    globs = [*rules.SOURCE_GLOBS, *rules.TEST_GLOBS]
+    folders: Dict[str, List[str]] = {}
+    for path in paths:
+        parts = Path(path).parts
+        if not path.endswith(".py") or parts[-1] in rules.FOLDER_LIMIT_IGNORES:
+            continue
+        covered = any(
+            len(parts) > pattern.count("/") + 1 and Path(*parts[: pattern.count("/") + 1]).match(pattern)
+            for pattern in globs
+        )
+        if covered:
+            folders.setdefault(str(Path(path).parent), []).append(path)
+    return folders
+
+
+def load_convention_rules(root: Path) -> ModuleType:
+    """Load ``tests/conventions/helpers.py`` of ``root``, where the folder limit and the folders it covers are set."""
+    spec = importlib.util.spec_from_file_location("convention_rules", root / CONVENTION_RULES)
+    if spec is None or spec.loader is None:
+        raise FileNotFoundError(root / CONVENTION_RULES)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def open_ticket_files(main: Path) -> Dict[str, List[str]]:
+    """Return the files of every open ticket (TKT-16), its recorded folders expanded from the main checkout.
+
+    A recorded path that the main checkout no longer has is listed too: the ticket deleted it.
+    """
+    common = common_dir(main)
+    states = common / STATE_FOLDER if common is not None else None
+    found: Dict[str, List[str]] = {}
+    for folder in sorted(states.iterdir()) if states is not None and states.is_dir() else []:
+        paths = recorded_paths(folder / STATE_FILE) if TICKET_ID.fullmatch(folder.name) else None
+        if paths is None:
+            continue
+        files = []
+        for path in paths:
+            if path.endswith("/") or (main / path).is_dir():
+                top = main / path.rstrip("/")
+                files += sorted(str(f.relative_to(main)) for f in top.rglob("*.py") if "__pycache__" not in f.parts)
+            else:
+                files.append(path)
+        found[folder.name] = files
+    return found
+
+
+def structure_checks(checks: Checks) -> None:
+    """Check the folder limit on the code as it will be once every open ticket is merged.
+
+    Each ticket's checks run in a clean tree with its own files only (TKT-6), so two tickets that each keep a folder
+    at five Python files break the limit together, seen only by CI on the shared pull request (T0.18 and T0.19). This
+    check takes the files of ``HEAD``, adds every open ticket's own files from the main checkout and counts the Python
+    files of each folder as ``tests/conventions/`` does. A folder over the limit fails when this ticket and another
+    open ticket both have files in it; the failure goes to this ticket's files there.
+    """
+    name = "structure with open tickets"
+    main = main_checkout(checks.root)
+    tickets = open_ticket_files(main)
+    others = sorted(ticket for ticket in tickets if ticket != checks.ticket)
+    if not others:
+        checks.skip(name, "no other ticket is open")
+        return
+    if not (checks.root / CONVENTION_RULES).is_file():
+        checks.skip(name, f"no {CONVENTION_RULES} in the tree")
+        return
+    _, listed = run(["git", "ls-tree", "-r", "--name-only", "HEAD"], cwd=main)
+    files = set(listed.splitlines())
+    owners: Dict[str, List[str]] = {}
+    for ticket, paths in tickets.items():
+        for path in paths:
+            owners.setdefault(path, []).append(ticket)
+            if (main / path).is_file():
+                files.add(path)
+            else:
+                files.discard(path)
+    rules = load_convention_rules(checks.root)
+    report: List[str] = []
+    problems: List[Tuple[str, str]] = []
+    for folder, paths in sorted(python_file_counts(sorted(files), checks.root).items()):
+        holders = sorted({ticket for path in paths for ticket in owners.get(path, [])})
+        if len(paths) <= rules.FOLDER_LIMIT or checks.ticket not in holders or len(holders) < 2:
+            continue
+        shares = "; ".join(
+            f"{ticket} has {', '.join(Path(p).name for p in paths if ticket in owners.get(p, []))}"
+            for ticket in holders
+        )
+        committed = [Path(p).name for p in paths if p not in owners]
+        text = (
+            f"{folder} would hold {len(paths)} Python files once the open tickets {', '.join(holders)} are merged. "
+            f"The limit is {rules.FOLDER_LIMIT} (AGENT.md, File shape): {shares}"
+            + (f"; already committed: {', '.join(committed)}." if committed else ".")
+        )
+        report.append(text)
+        problems += [(path, text) for path in paths if checks.ticket in owners.get(path, [])]
+    checks.record(name, "\n".join(report) or f"No folder goes over the limit with {', '.join(others)}.", problems)
+
+
 def terraform_checks(checks: Checks, changed: List[str]) -> None:
     tf = [f for f in changed if f.startswith("infra/terraform/") and f.endswith((".tf", ".tftest.hcl"))]
     if not tf:
@@ -425,7 +680,7 @@ def main() -> int:
     args = sys.argv[1:]
     ticket = args[args.index("--ticket") + 1] if "--ticket" in args else ""
     base = args[args.index("--base") + 1] if "--base" in args else "develop"
-    if not re.fullmatch(r"T\d{1,2}\.\d{2}", ticket):
+    if not TICKET_ID.fullmatch(ticket):
         print(USAGE, file=sys.stderr)
         return 2
     changed = changed_files(base, ticket)
@@ -452,6 +707,8 @@ def run_checks(
     typescript_checks(checks, changed)
     terraform_checks(checks, changed)
     helm_checks(checks, changed)
+    trivy_checks(checks, changed)
+    structure_checks(checks)
     folder = f"docs/tickets/{ticket}"
     checks.check(
         "ticket refs", ["python3", ".claude/scripts/tickets/ticket_refs.py", "check", "--ticket", ticket], folder

@@ -49,8 +49,17 @@ jobs:
             exit 0
           fi
           read -r pr base <<< "$found"
-          states=$(gh api "repos/$REPO/commits/$HEAD_SHA/check-runs?per_page=100" \
-            --jq '[.check_runs[] | select(.name != "merge") | (.conclusion // .status)] | unique | join(" ")')
+          # TKT-15: each check is judged by its latest run only. A commit run again (a re-run, or a pull request closed
+          # and reopened) keeps the runs of its earlier attempts: a failure that a later run of the same check passed
+          # no longer counts, and a check whose latest run is still going keeps the pull request waiting. The latest
+          # run is the one with the highest id, per app and name (per context for a commit status): ids are never
+          # empty and grow with each new run, while started_at is empty while queued and completed_at while running.
+          runs=$(gh api "repos/$REPO/commits/$HEAD_SHA/check-runs?filter=all&per_page=100" --paginate \
+            --jq '.check_runs[] | select(.name != "merge") | {key: "run \(.app.id // "") \(.name)", id, state: (.conclusion // .status)}')
+          statuses=$(gh api "repos/$REPO/commits/$HEAD_SHA/statuses?per_page=100" --paginate \
+            --jq '.[] | {key: "status \(.context)", id, state}')
+          states=$(printf '%s\n%s\n' "$runs" "$statuses" \
+            | jq -rs 'group_by(.key) | map(max_by(.id).state) | unique | join(" ")')
           echo "Checks of #$pr: $states"
           for state in $states; do
             case "$state" in

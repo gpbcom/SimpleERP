@@ -5,7 +5,7 @@ import json
 import os
 import subprocess
 from pathlib import Path
-from typing import Dict, List, cast
+from typing import Dict, List, Optional, cast
 
 # Third-party imports
 from pydantic import JsonValue
@@ -42,7 +42,13 @@ def answer(value):
 if args[:2] == ["pr", "list"]:
     answer(scenario["open_after"] if "--json number" in text and "baseRefName" not in text else scenario["prs"])
 elif "check-runs" in text:
-    answer({"check_runs": [{"name": n, "conclusion": c} for n, c in scenario["checks"].items()]})
+    runs = scenario.get("check_runs") or [
+        {"id": i, "name": n, "app": {"id": 15368}, "status": "completed", "conclusion": c}
+        for i, (n, c) in enumerate(scenario["checks"].items(), start=1)
+    ]
+    answer({"check_runs": runs})
+elif "/statuses" in text:
+    answer(scenario.get("statuses", []))
 elif "/files" in text:
     answer([{"filename": f} for f in scenario["files"]])
 elif text.startswith("api repos/") and "/labels" in text and "-X" not in args:
@@ -83,6 +89,18 @@ def scenario(
         "title": title,
         "open_after": [],
     }
+
+
+def check_run(
+    run_id: int, name: str, conclusion: Optional[str], status: str = "completed", app_id: int = 15368
+) -> Dict[str, JsonValue]:
+    """Return one check run as the REST API lists it: ``conclusion`` is ``None`` until the run completes."""
+    return {"id": run_id, "name": name, "app": {"id": app_id}, "status": status, "conclusion": conclusion}
+
+
+def commit_status(status_id: int, context: str, state: str) -> Dict[str, JsonValue]:
+    """Return one commit status as the REST API lists it."""
+    return {"id": status_id, "context": context, "state": state}
 
 
 def run_automerge(

@@ -2,9 +2,13 @@ from __future__ import annotations
 
 # Standard library imports
 from pathlib import Path
-from typing import ClassVar, Dict
+from typing import ClassVar, Dict, List
 
 # Third-party imports
+import pytest
+from pydantic import JsonValue
+
+# First-party imports
 from tests.ci.release.helpers import (
     GITHUB_TOKEN,
     HEAD_SHA,
@@ -12,16 +16,22 @@ from tests.ci.release.helpers import (
     RELEASE_TOKEN,
     argv,
     calls_to,
+    check_run,
+    commit_status,
     run_automerge,
     scenario,
 )
-
-# First-party imports
 from tests.ci.workflows.helpers import jobs
 
 
 class TestAutomerge:
     GREEN: ClassVar[Dict[str, str]] = {"result": "success", "rules": "success", "typescript": "skipped"}
+    SCAN: ClassVar[str] = "images / scan-dependencies"
+
+    def ticket_with_runs(self, runs: List[Dict[str, JsonValue]]) -> Dict[str, JsonValue]:
+        case = scenario("feature/tickets", "develop", ["backend/services/sales/x.py"], self.GREEN)
+        case["check_runs"] = [check_run(1, "result", "success"), *runs]
+        return case
 
     def test_a_release_is_merged_into_master_tagged_released_and_brought_back_to_develop(self, tmp_path: Path) -> None:
         calls = run_automerge(tmp_path, scenario("release/0.1.0", "master", [".github/workflows/ci.yml"], self.GREEN))
@@ -126,3 +136,52 @@ class TestAutomerge:
         calls = run_automerge(tmp_path, scenario("hotfix/rounding", "master", [], self.GREEN))
         assert not calls_to(calls, "pr", "merge")
         assert any("no version x.y.z" in argv(call) for call in calls)
+
+    def test_a_check_that_failed_then_passed_on_a_new_run_of_the_commit_merges(self, tmp_path: Path) -> None:
+        runs = [check_run(9, self.SCAN, "success"), check_run(2, self.SCAN, "failure")]
+        calls = run_automerge(tmp_path, self.ticket_with_runs(runs))
+        assert calls_to(calls, "pr", "merge")
+
+    def test_a_check_whose_latest_run_failed_after_a_pass_holds_the_merge(self, tmp_path: Path) -> None:
+        runs = [check_run(2, self.SCAN, "success"), check_run(9, self.SCAN, "failure")]
+        calls = run_automerge(tmp_path, self.ticket_with_runs(runs))
+        assert not calls_to(calls, "pr", "merge")
+
+    @pytest.mark.parametrize("status", ["queued", "in_progress"])
+    def test_a_check_whose_latest_run_is_still_going_keeps_the_pull_request_waiting(
+        self, tmp_path: Path, status: str
+    ) -> None:
+        runs = [check_run(2, self.SCAN, "success"), check_run(9, self.SCAN, None, status=status)]
+        calls = run_automerge(tmp_path, self.ticket_with_runs(runs))
+        assert not calls_to(calls, "pr", "merge")
+
+    def test_checks_of_the_same_name_from_two_apps_are_judged_apart(self, tmp_path: Path) -> None:
+        runs = [check_run(9, self.SCAN, "failure", app_id=7), check_run(10, self.SCAN, "success", app_id=8)]
+        calls = run_automerge(tmp_path, self.ticket_with_runs(runs))
+        assert not calls_to(calls, "pr", "merge")
+
+    @pytest.mark.parametrize(
+        ("states", "merged"),
+        [
+            (["failure", "success"], True),
+            (["error", "success"], True),
+            (["success", "failure"], False),
+            (["success", "error"], False),
+            (["failure", "pending"], False),
+        ],
+    )
+    def test_a_commit_status_is_judged_by_its_latest_state(
+        self, tmp_path: Path, states: List[str], merged: bool
+    ) -> None:
+        case = self.ticket_with_runs([])
+        case["statuses"] = [commit_status(i, "scan", state) for i, state in reversed(list(enumerate(states, 1)))]
+        calls = run_automerge(tmp_path, case)
+        assert bool(calls_to(calls, "pr", "merge")) is merged
+
+    def test_every_run_of_the_head_commit_is_read_on_every_page(self, tmp_path: Path) -> None:
+        calls = run_automerge(tmp_path, self.ticket_with_runs([]))
+        [check_runs] = [call for call in calls if "/check-runs" in argv(call)]
+        assert "filter=all" in argv(check_runs)
+        assert "--paginate" in argv(check_runs)
+        [statuses] = [call for call in calls if f"commits/{HEAD_SHA}/statuses" in argv(call)]
+        assert "--paginate" in argv(statuses)
