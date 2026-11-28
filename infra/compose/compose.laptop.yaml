@@ -1,0 +1,12 @@
+# One company on a laptop, on the same images as the one-server profile:
+#   ERP_IMAGE_TAG=<commit sha> docker compose -f infra/compose/compose.yaml -f infra/compose/compose.laptop.yaml up -d --wait
+# It only binds the published ports to the loopback address, so that the laptop serves its own user alone.
+# It sets no image, no build and no memory or CPU limit: the budget of D408 is measured by T0.25.
+services:
+  platform:
+    ports: !override
+      - "127.0.0.1:${ERP_PLATFORM_PORT:-8000}:8000"
+
+  backoffice:
+    ports: !override
+      - "127.0.0.1:${ERP_BACKOFFICE_PORT:-8080}:8080"

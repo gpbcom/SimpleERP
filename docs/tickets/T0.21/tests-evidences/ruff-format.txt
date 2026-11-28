@@ -1,0 +1,4 @@
+$ uv run ruff format --check tests/infra/compose/e2e/helpers.py tests/infra/compose/e2e/test_compose_e2e.py tests/infra/compose/images/helpers.py tests/infra/compose/images/test_same_images.py tests/infra/compose/profiles/helpers.py tests/infra/compose/profiles/test_laptop_profile.py tests/infra/compose/profiles/test_one_server_profile.py
+(cwd ., on the ticket's own files only)
+
+7 files already formatted

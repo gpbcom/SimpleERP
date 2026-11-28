@@ -1,8 +1,16 @@
 # Deployment
 
-Targets OVHcloud, Scaleway and self-hosted; Terraform by default; Compose and Helm (D18). Nothing of it is built yet.
+Targets OVHcloud, Scaleway and self-hosted; Terraform by default; Compose and Helm (D18). Compose and Helm are built;
+Terraform and the cloud targets are not yet.
 
 ## Today
+
+**Compose.** The Compose profiles are in [`infra/compose/`](../../../infra/compose/README.md): the one-server profile
+[`compose.yaml`](../../../infra/compose/compose.yaml) (PostgreSQL, the platform service and the back office) and the
+laptop overlay [`compose.laptop.yaml`](../../../infra/compose/compose.laptop.yaml), which binds the ports to the loopback
+address. Both run the images tagged with a commit SHA, and the end-to-end stack of
+[`compose.e2e.yaml`](../../../compose.e2e.yaml) runs the same images for the tests. The password of PostgreSQL is read
+from a file the operator creates, which git ignores.
 
 The Helm deployment of T0.19 is in `infra/helm/` ([README](../../../infra/helm/README.md)). It is the first step of the
 [Helm delivery](../../specs/03-technical/t09-install-backups-and-updates/requirements/req-t09-02-compose-and-helm.md)
@@ -46,4 +54,4 @@ the same images. Terraform describes the infrastructure; the details are in
 
 Decided in [D419](../../specs/06-decisions/technical/d419-ci-cd-and-registry.md).
 
-Last reviewed: 2026-11-27 (T0.19)
+Last reviewed: 2026-11-28 (T0.21)

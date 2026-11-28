@@ -9,6 +9,7 @@ members = [
     "erp-country-rules",
     "erp-lifecycle",
     "erp-logging",
+    "erp-metering",
     "erp-models",
     "erp-outbox",
     "erp-sdk",
@@ -222,6 +223,25 @@ dependencies = [
 requires-dist = [
     { name = "colorlog", specifier = ">=6.12.0" },
     { name = "pyyaml", specifier = ">=6.0" },
+]
+
+[[package]]
+name = "erp-metering"
+version = "0.1.0"
+source = { editable = "backend/shared/metering" }
+dependencies = [
+    { name = "erp-models" },
+    { name = "erp-outbox" },
+    { name = "httpx" },
+    { name = "pydantic" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "erp-models", editable = "backend/models" },
+    { name = "erp-outbox", editable = "backend/shared/outbox" },
+    { name = "httpx" },
+    { name = "pydantic" },
 ]
 
 [[package]]
