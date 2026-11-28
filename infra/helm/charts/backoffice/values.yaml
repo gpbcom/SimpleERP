@@ -30,7 +30,17 @@ probe:
   # Path that answers once the app is served.
   path: /
 
-# Environment variables of the container, as a name to value map.
+# Address the nginx of the image proxies /v1/ to (ERP_PLATFORM_URL). Empty means the platform Service of the same
+# release: http://<release>-platform.<namespace>.svc.<clusterDomain>:<platformPort>.
+platformUrl: ""
+
+# Port of the platform Service (service.port in charts/platform/values.yaml).
+platformPort: 8000
+
+# DNS domain of the cluster, which ends the fully qualified name of the platform Service.
+clusterDomain: cluster.local
+
+# Environment variables of the container, as a name to value map. An ERP_PLATFORM_URL here wins over platformUrl.
 env: {}
 
 # CPU and memory requests and limits of the container.

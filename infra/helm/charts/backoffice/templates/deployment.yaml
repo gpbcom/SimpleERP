@@ -35,13 +35,8 @@ spec:
             httpGet:
               path: {{ .Values.probe.path }}
               port: http
-          {{- with .Values.env }}
           env:
-            {{- range $name, $value := . }}
-            - name: {{ $name }}
-              value: {{ $value | quote }}
-            {{- end }}
-          {{- end }}
+            {{- include "backoffice.env" . | trim | nindent 12 }}
           {{- with .Values.resources }}
           resources:
             {{- toYaml . | nindent 12 }}
