@@ -4,7 +4,22 @@ Sizing per company size and capacity planning for IT providers (D25). Nothing of
 
 ## Today
 
-Nothing built yet.
+### Memory at rest of the laptop profile (measured)
+
+The P0 stack of the laptop profile with the AI off, 60 s after every service is healthy with no request, the memory of
+each container from `docker stats`, measured with `infra/compose/measure-memory.sh` (the outputs are in
+[`memory-at-rest.txt`](../../tickets/T0.25/tests-evidences/memory-at-rest.txt)). The images were built from the commit
+`61ef36896` with `docker build`, as local images, and the measure ran on that commit.
+
+| Date | Machine | Container | Memory at rest (MiB) |
+|---|---|---|---|
+| 2026-11-28 | 30768 MiB of memory, 22 cores | simpleerp-backoffice-1 | 24.3 |
+| 2026-11-28 | 30768 MiB of memory, 22 cores | simpleerp-platform-1 | 53.3 |
+| 2026-11-28 | 30768 MiB of memory, 22 cores | simpleerp-postgres-1 | 34.2 |
+| 2026-11-28 | 30768 MiB of memory, 22 cores | Total | 111.8 |
+
+This is the P0 stack only, so the 8 GB promise waits for the whole stack in P2 (P0 risks,
+[P0 foundations](../../specs/00-vision/roadmap/phases/01-p0-foundations.md#risks)).
 
 ## Target design (specified in GH-2, not built yet)
 
@@ -33,4 +48,4 @@ every key prefixed by the company, invalidated by events; never personal data wi
 
 Decided in [D408](../../specs/06-decisions/technical/d408-performance-and-profiles.md).
 
-Last reviewed: 2026-11-12 (GH-2)
+Last reviewed: 2026-11-28 (GH-2)

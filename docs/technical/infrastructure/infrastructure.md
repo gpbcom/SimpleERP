@@ -11,6 +11,9 @@ OVHcloud and Scaleway, and one root per cloud that calls them, each checked by `
 `test` in CI (`terraform.yml`). The modules hold no resource yet: applying a root creates nothing. The working
 deployment comes in phase P2 (T9), under REQ-T09-08. The targets of D18 are in [Deployment](deployment.md).
 
+The laptop profile's installer, `infra/compose/install.sh` (T0.25), checks the machine against the 8 GB budget before it
+starts the stack, and leaves Milvus out unless the AI is on; see [`infra/compose/README.md`](../../../infra/compose/README.md).
+
 ## Target design (specified in GH-2, not built yet)
 
 **Principle (D421).** Fully CNCF compatible: only portable components and Kubernetes-native operators, so that nothing

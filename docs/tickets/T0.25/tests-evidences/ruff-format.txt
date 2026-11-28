@@ -1,0 +1,4 @@
+$ uv run ruff format --check tests/infra/compose/check_machine/test_check_machine.py tests/infra/compose/helpers.py tests/infra/compose/install/test_install.py tests/infra/compose/measure_memory/test_measure_memory.py tests/infra/compose/milvus/test_milvus_profile.py
+(cwd ., on the ticket's own files only)
+
+5 files already formatted
