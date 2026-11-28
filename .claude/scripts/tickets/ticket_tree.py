@@ -37,7 +37,9 @@ the script uses git *trees* (``git write-tree`` on a temporary index), which nev
 - ``home`` prints the home's path.
 - ``start`` copies the home's uncommitted work into a fresh worker worktree, and records the tree it starts from in
   the worktree's git directory (``erp-base-tree``, also read by ``.claude/hooks/check_touched.py``). A worker created
-  from another commit (``develop`` moved since the ticket started) is first moved to the home's commit.
+  from another commit (``develop`` moved since the ticket started) is first moved to the home's commit. It first turns
+  the Git LFS filter off in the worker's own config, when its LFS files are pointers: no git command of the worker
+  runs ``git-lfs`` or downloads an image after that (``"lfs": "off"``, or ``"kept"``).
 - ``handoff`` saves the worker's own changes, from that tree to its current files, as a patch in
   ``<git common dir>/erp/<ID>/pending/``. Run it again after any later change.
 - ``integrate`` applies the hand-offs to the home in the order given, stops at the first conflict (with ``.rej``
@@ -95,6 +97,20 @@ APPLIED = "applied"
 BASE_TREE_FILE = "erp-base-tree"
 TICKET_FILE = "erp-ticket"
 WORKTREE_BRANCH_PREFIX = "worktree-"
+# A worker worktree runs no Git LFS filter. Claude Code checks it out with the LFS files as pointers but leaves the
+# repository's filter on, so every ``git status`` or ``git add`` that met a racily clean pointer ran ``git-lfs`` again,
+# and ``start``'s reset to a newer commit downloaded the images it changed. No task reads an image, and a pointer
+# hashes to its own blob without the filter. Written in the worktree's own config (``extensions.worktreeConfig``), it
+# never reaches the main checkout, and it goes with the worktree.
+WORKER_LFS_OFF = (
+    ("filter.lfs.smudge", ""),
+    ("filter.lfs.clean", ""),
+    ("filter.lfs.process", ""),
+    ("filter.lfs.required", "false"),
+)
+WORKTREE_CONFIG = "extensions.worktreeConfig"
+LFS_FILES = ":(attr:filter=lfs)"
+LFS_POINTER = b"version https://git-lfs.github.com/spec/"
 CHANGES_START = "<!-- changes -->"
 CHANGES_END = "<!-- /changes -->"
 REPO_FROM_TICKET_FOLDER = "../../../"
@@ -354,6 +370,35 @@ def is_worker(top: Path) -> bool:
     return is_linked_worktree(top) and current_branch(top).startswith(WORKTREE_BRANCH_PREFIX)
 
 
+def holds_only_lfs_pointers(top: Path) -> bool:
+    """Tell whether every file of the worktree stored in Git LFS is checked out as its pointer, not its content."""
+    names = [name for name in git(top, "ls-files", "-z", "--", LFS_FILES)[1].split("\0") if name]
+    for name in names:
+        path = top / name
+        if not path.is_file():
+            continue
+        with path.open("rb") as file:
+            if file.read(len(LFS_POINTER)) != LFS_POINTER:
+                return False
+    return True
+
+
+def skip_lfs(top: Path) -> str:
+    """Turn the Git LFS filter off in this worker worktree only, and return ``off``, or ``kept`` when it holds images.
+
+    A worktree whose LFS files were checked out as their content keeps the filter: without it, git would see every
+    image as changed. Its index is refreshed without the filter, so that no later ``git status`` hashes a pointer again.
+    """
+    if not holds_only_lfs_pointers(top):
+        return "kept"
+    if git(top, "config", "--type=bool", "--get", WORKTREE_CONFIG, check=False)[1] != "true":
+        git(top, "config", WORKTREE_CONFIG, "true")
+    for key, value in WORKER_LFS_OFF:
+        git(top, "config", "--worktree", key, value)
+    git(top, "update-index", "-q", "--refresh", check=False)
+    return "off"
+
+
 def remove_worktree(main: Path, meta: Dict[str, JsonData]) -> None:
     """Remove a worker worktree and its harness branch once its hand-off is integrated or obsolete."""
     path = Path(str(meta.get("worktree") or ""))
@@ -452,10 +497,16 @@ def start(top: Path, ticket: str) -> Dict[str, JsonData]:
     """Copy the home's uncommitted work into this worker worktree and record the tree it starts from."""
     if not is_linked_worktree(top) or find_home(top, ticket) == top:
         raise TicketTreeError("Run start in a worker worktree, not in the main checkout or the ticket's worktree.")
+    lfs = skip_lfs(top)
     folder = git_dir(top)
     marker = folder / BASE_TREE_FILE
     if marker.is_file() and (folder / TICKET_FILE).read_text(encoding="utf-8").strip() == ticket:
-        return {"started": False, "base_tree": marker.read_text(encoding="utf-8").strip(), "note": "already started"}
+        return {
+            "started": False,
+            "base_tree": marker.read_text(encoding="utf-8").strip(),
+            "note": "already started",
+            "lfs": lfs,
+        }
     home = home_of(top, ticket)
     if snapshot(top) != git(top, "rev-parse", "HEAD^{tree}")[1]:
         raise TicketTreeError("This worktree already has changes: run start before changing anything.")
@@ -474,7 +525,7 @@ def start(top: Path, ticket: str) -> Dict[str, JsonData]:
         raise TicketTreeError("The copy of the ticket's work differs from it: check .gitignore and file modes.")
     marker.write_text(base_tree + "\n", encoding="utf-8")
     (folder / TICKET_FILE).write_text(ticket + "\n", encoding="utf-8")
-    result: Dict[str, JsonData] = {"started": True, "base_tree": base_tree, "home": str(home)}
+    result: Dict[str, JsonData] = {"started": True, "base_tree": base_tree, "home": str(home), "lfs": lfs}
     result["files"] = len(changed_names(top, "HEAD", base_tree))
     if moved_from:
         result["moved_from"] = moved_from
