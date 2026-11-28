@@ -48,5 +48,8 @@ infra/helm/*/charts/
 playwright-report/
 test-results/
 
+# Test reports written at the repository root (pytest --junitxml), anchored: .claude/scripts/reports/ is code
+/reports/
+
 # Personal Claude Code settings stay local
 .claude/settings.local.json
