@@ -1,0 +1,82 @@
+{
+  "errors": {
+    "common": {
+      "cancel": "Cancel",
+      "reference": "ref."
+    },
+    "fallback": {
+      "title": "Something went wrong",
+      "why": "We could not complete what you asked for.",
+      "action": "Try again in a moment, and contact support if it keeps happening."
+    },
+    "unexpected_error_01": {
+      "title": "Something unexpected happened",
+      "why": "The application met a problem it did not expect, and nothing was lost.",
+      "action": "Try again, and contact support if it keeps happening."
+    },
+    "service_failure_01": {
+      "title": "This part of the application is not answering",
+      "why": "The service that holds this information did not reply in time.",
+      "action": "Wait a moment and try again."
+    },
+    "invalid_input_01": {
+      "title": "Some information needs a second look",
+      "why": "One or more of the values you entered cannot be accepted as they are.",
+      "action": "Check the highlighted fields and correct them."
+    },
+    "site_close_01": {
+      "title": "This site still has stock",
+      "why": "A site can only be closed once all its stock has been moved or used.",
+      "action": "See what is left"
+    },
+    "context": {
+      "no_company": {
+        "title": "No company selected",
+        "why": "This request did not say which company it is for.",
+        "action": "Choose a company and try again."
+      },
+      "no_user": {
+        "title": "You are not signed in",
+        "why": "This request does not come from a known user.",
+        "action": "Sign in and try again."
+      }
+    },
+    "rights": {
+      "no_policy": {
+        "title": "Access is not set up",
+        "why": "No rule gives you rights on this item yet.",
+        "action": "Ask an administrator to give you access."
+      },
+      "policy_denied": {
+        "title": "You do not have access",
+        "why": "Your rights do not allow this action.",
+        "action": "Ask an administrator if you need it."
+      },
+      "other_company": {
+        "title": "This belongs to another company",
+        "why": "You asked for something that is held by a company you are not working in.",
+        "action": "Switch to the right company and try again."
+      }
+    },
+    "platform_route_01": {
+      "title": "This page does not exist",
+      "why": "The address you asked for is not known to the platform.",
+      "action": "Go back and choose another page."
+    },
+    "platform_method_01": {
+      "title": "This action is not allowed here",
+      "why": "The platform does not accept this kind of request at this address.",
+      "action": "Go back and try another action."
+    },
+    "platform_request_01": {
+      "title": "The request could not be read",
+      "why": "The platform could not understand what was sent.",
+      "action": "Check the information and try again."
+    },
+    "platform_internal_01": {
+      "title": "The platform met a problem",
+      "why": "Something failed inside the platform, and nothing was lost.",
+      "action": "Try again in a moment, and contact support if it keeps happening."
+    }
+  }
+}

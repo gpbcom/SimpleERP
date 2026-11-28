@@ -1,0 +1,67 @@
+# Proof of K24 on real containers, run verbatim by the coordinator on 2026-11-28 at 02:36, images built from the main checkout (T0.23's work on feature/tickets)
+# It replaces K24's hand-trimmed copy of the same checks (K24 said so in its result: the shell guard refused its redirections).
+
+$ docker build -f frontend/backoffice/Dockerfile -t simpleerp-p0check-backoffice:t023 . && docker build -f backend/services/platform/Dockerfile -t simpleerp-p0check-platform:t023 .
+sha256:3a700e3fa8395a76d8f6db3ca7eb6f785d84f6cbafd014803ecbab3c458cd113
+sha256:9100d6c6d52a7d8b6db0278bd7941463da06a33675ae9be019fceda044abceff
+
+# The back-office image alone, with no platform host
+$ docker run -d --name p0check-alone -p 8081:8080 simpleerp-p0check-backoffice:t023; sleep 8; docker ps --filter name=p0check-alone; curl -s -o /dev/null -w "%{http_code}\n" localhost:8081/
+p0check-alone Up 8 seconds (healthy)
+200
+
+# Under compose.e2e.yaml
+$ ERP_IMAGE_PREFIX=simpleerp-p0check ERP_IMAGE_TAG=t023 docker compose -p p0check -f compose.e2e.yaml up -d --wait
+ Network p0check_default Creating 
+ Network p0check_default Creating 
+ Network p0check_default Created 
+ Network p0check_default Created 
+ Container p0check-postgres-1 Creating 
+ Container p0check-postgres-1 Created 
+ Container p0check-platform-1 Creating 
+ Container p0check-platform-1 Created 
+ Container p0check-backoffice-1 Creating 
+ Container p0check-backoffice-1 Created 
+ Container p0check-postgres-1 Starting 
+ Container p0check-postgres-1 Started 
+ Container p0check-postgres-1 Waiting 
+ Container p0check-postgres-1 Healthy 
+ Container p0check-platform-1 Starting 
+ Container p0check-platform-1 Started 
+ Container p0check-platform-1 Waiting 
+ Container p0check-platform-1 Healthy 
+ Container p0check-backoffice-1 Starting 
+ Container p0check-backoffice-1 Started 
+ Container p0check-platform-1 Waiting 
+ Container p0check-backoffice-1 Waiting 
+ Container p0check-postgres-1 Waiting 
+ Container p0check-platform-1 Healthy 
+ Container p0check-postgres-1 Healthy 
+ Container p0check-backoffice-1 Healthy 
+$ curl -s -i localhost:8080/v1/anything
+HTTP/1.1 400 Bad Request
+Content-Type: application/problem+json
+{"type":"about:blank","title":"errors.context.no_company.title","status":400,"detail":"errors.context.no_company.why","code":"CONTEXT-COMPANY-01","action":"errors.context.no_company.action","reference":"CONTEXT-COMPANY-01","instance":"afbe131214304a46b1c202393c4db6cb"}
+$ cd frontend/backoffice && ERP_E2E_BASE_URL=http://localhost:8080 npx playwright test -c e2e/playwright.config.ts errors/refused-call --reporter=list
+
+Running 16 tests using 4 workers
+
+  ✓   1 [dark-en] › e2e/errors/refused-call.e2e.ts:47:3 › a refused call of platform › the banner shows the title, the why, the action and the reference (745ms)
+  ✓   2 [light-en] › e2e/errors/refused-call.e2e.ts:47:3 › a refused call of platform › the banner shows the title, the why, the action and the reference (787ms)
+  ✓   4 [light-fr] › e2e/errors/refused-call.e2e.ts:47:3 › a refused call of platform › the banner shows the title, the why, the action and the reference (790ms)
+  ✓   3 [dark-fr] › e2e/errors/refused-call.e2e.ts:47:3 › a refused call of platform › the banner shows the title, the why, the action and the reference (848ms)
+  ✓   5 [dark-en] › e2e/errors/refused-call.e2e.ts:61:3 › a refused call of platform › the banner is announced and drawn with the error colour and an icon (759ms)
+  ✓   6 [light-en] › e2e/errors/refused-call.e2e.ts:61:3 › a refused call of platform › the banner is announced and drawn with the error colour and an icon (727ms)
+  ✓   7 [light-fr] › e2e/errors/refused-call.e2e.ts:61:3 › a refused call of platform › the banner is announced and drawn with the error colour and an icon (763ms)
+  ✓   8 [dark-fr] › e2e/errors/refused-call.e2e.ts:61:3 › a refused call of platform › the banner is announced and drawn with the error colour and an icon (782ms)
+  ✓  11 [light-fr] › e2e/errors/refused-call.e2e.ts:80:3 › a refused call of platform › the page with the banner has no accessibility violation (946ms)
+  ✓  10 [light-en] › e2e/errors/refused-call.e2e.ts:80:3 › a refused call of platform › the page with the banner has no accessibility violation (1.1s)
+  ✓   9 [dark-en] › e2e/errors/refused-call.e2e.ts:80:3 › a refused call of platform › the page with the banner has no accessibility violation (1.1s)
+  ✓  12 [dark-fr] › e2e/errors/refused-call.e2e.ts:80:3 › a refused call of platform › the page with the banner has no accessibility violation (1.1s)
+  ✓  14 [light-en] › e2e/errors/refused-call.e2e.ts:87:3 › a refused call of platform › the action retries the health call without the reroute and the banner goes away (653ms)
+  ✓  13 [light-fr] › e2e/errors/refused-call.e2e.ts:87:3 › a refused call of platform › the action retries the health call without the reroute and the banner goes away (758ms)
+  ✓  15 [dark-en] › e2e/errors/refused-call.e2e.ts:87:3 › a refused call of platform › the action retries the health call without the reroute and the banner goes away (703ms)
+  ✓  16 [dark-fr] › e2e/errors/refused-call.e2e.ts:87:3 › a refused call of platform › the action retries the health call without the reroute and the banner goes away (707ms)
+
+  16 passed (4.2s)
+exit 0
