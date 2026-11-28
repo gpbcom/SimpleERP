@@ -1,0 +1,98 @@
+$ bash infra/compose/check-machine.sh
+The machine fits the laptop profile: 30768 MiB of memory, 22 cores, 684 GiB of free disk.
+exit 0
+
+$ ERP_IMAGE_PREFIX=simpleerp-local ERP_IMAGE_TAG=p0 bash infra/compose/measure-memory.sh
+ Image postgres:18-alpine@sha256:0115267ab5a509022df9319c77be365cef335adb71556c75f60f5360ee247e71 Pulling
+ 45e02dc2fee3 Pulling fs layer 0B
+ 3f4dea45886b Pulling fs layer 0B
+ e69a9c2fdea7 Pulling fs layer 0B
+ 1645cfdb7f22 Pulling fs layer 0B
+ bbd27b019c4a Pulling fs layer 0B
+ 4721f81aac5e Pulling fs layer 0B
+ f2d7cafd5afd Pulling fs layer 0B
+ f2d7cafd5afd Download complete 0B
+ 45e02dc2fee3 Download complete 0B
+ e69a9c2fdea7 Download complete 0B
+ e69a9c2fdea7 Extracting 1B
+ 3f4dea45886b Download complete 0B
+ e69a9c2fdea7 Extracting 1B
+ 1645cfdb7f22 Downloading 4.194MB
+ bbd27b019c4a Download complete 0B
+ e69a9c2fdea7 Extracting 1B
+ 1645cfdb7f22 Downloading 9.437MB
+ 4721f81aac5e Download complete 0B
+ e69a9c2fdea7 Pull complete 0B
+ 4721f81aac5e Pull complete 0B
+ 1645cfdb7f22 Downloading 15.73MB
+ 3f4dea45886b Pull complete 0B
+ 59826502041d Download complete 0B
+ 1645cfdb7f22 Downloading 22.02MB
+ 1645cfdb7f22 Downloading 28.31MB
+ 1645cfdb7f22 Downloading 33.55MB
+ 1645cfdb7f22 Downloading 39.85MB
+ a89ecea4e9c1 Download complete 0B
+ 1645cfdb7f22 Downloading 46.14MB
+ 1645cfdb7f22 Downloading 52.43MB
+ 1645cfdb7f22 Downloading 58.72MB
+ 1645cfdb7f22 Downloading 65.01MB
+ 1645cfdb7f22 Downloading 71.3MB
+ 1645cfdb7f22 Downloading 77.59MB
+ 1645cfdb7f22 Downloading 83.89MB
+ 1645cfdb7f22 Downloading 90.18MB
+ 1645cfdb7f22 Downloading 96.47MB
+ 1645cfdb7f22 Downloading 102.8MB
+ 1645cfdb7f22 Downloading 109.1MB
+ 1645cfdb7f22 Downloading 115.5MB
+ 1645cfdb7f22 Download complete 0B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Extracting 1B
+ 1645cfdb7f22 Pull complete 0B
+ f2d7cafd5afd Pull complete 0B
+ 45e02dc2fee3 Pull complete 0B
+ bbd27b019c4a Pull complete 0B
+ Image postgres:18-alpine@sha256:0115267ab5a509022df9319c77be365cef335adb71556c75f60f5360ee247e71 Pulled
+ Network simpleerp_default Creating
+ Volume simpleerp_postgres-data Creating
+ Volume simpleerp_postgres-data Creating
+ Network simpleerp_default Creating
+ Volume simpleerp_postgres-data Created
+ Volume simpleerp_postgres-data Created
+ Network simpleerp_default Created
+ Network simpleerp_default Created
+ Container simpleerp-postgres-1 Creating
+ Container simpleerp-postgres-1 Created
+ Container simpleerp-platform-1 Creating
+ Container simpleerp-platform-1 Created
+ Container simpleerp-backoffice-1 Creating
+ Container simpleerp-backoffice-1 Created
+ Container simpleerp-postgres-1 Starting
+ Container simpleerp-postgres-1 Started
+ Container simpleerp-postgres-1 Waiting
+ Container simpleerp-postgres-1 Healthy
+ Container simpleerp-platform-1 Starting
+ Container simpleerp-platform-1 Started
+ Container simpleerp-platform-1 Waiting
+ Container simpleerp-platform-1 Healthy
+ Container simpleerp-backoffice-1 Starting
+ Container simpleerp-backoffice-1 Started
+ Container simpleerp-platform-1 Waiting
+ Container simpleerp-backoffice-1 Waiting
+ Container simpleerp-postgres-1 Waiting
+ Container simpleerp-platform-1 Healthy
+ Container simpleerp-postgres-1 Healthy
+ Container simpleerp-backoffice-1 Healthy
+Memory at rest of the laptop profile on 2026-11-28, 60 s after start, AI off:
+simpleerp-backoffice-1: 24.3 MiB
+simpleerp-platform-1: 53.3 MiB
+simpleerp-postgres-1: 34.2 MiB
+Total: 111.8 MiB
+exit 0

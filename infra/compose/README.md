@@ -54,3 +54,52 @@ by ticket T0.25.
 
 Both profiles pull the images that CI publishes, the same ones as `compose.e2e.yaml` and the Helm charts. Nothing is
 built from these files.
+
+## Installing the laptop profile
+
+The installer checks the machine, then starts the laptop profile:
+
+```bash
+infra/compose/install.sh [--ai on|off]
+```
+
+- The AI is off by default. `--ai on` passes the Compose profile `ai` to `docker compose`, which is how Milvus is meant
+  to start, as [REQ-T08-01](../../docs/specs/03-technical/t08-rag-platform/requirements/req-t08-01-milvus-collections.md)
+  and [D22](../../docs/specs/06-decisions/foundations/d22-no-graphics-card-needed.md) require the AI to be optional. For
+  now no service of `compose.yaml` or `compose.laptop.yaml` carries the `ai` profile, so `--ai on` starts the same stack
+  as `--ai off` until the Milvus service is added.
+- Before it starts anything, `install.sh` runs `infra/compose/check-machine.sh`. You can run that check on its own, with
+  no argument, to see whether the machine fits without installing.
+- The check reads the memory, the cores and the Docker data folder from `docker info`, and the free disk from `df`,
+  then compares them with the minimums of [`laptop-profile.env`](laptop-profile.env):
+  - **8192 MiB of memory**: the 8 GB budget of the laptop profile in
+    [D408](../../docs/specs/06-decisions/technical/d408-performance-and-profiles.md).
+  - **4 cores**: the normal load of the
+    [performance and capacity page](../../docs/technical/infrastructure/performance-and-capacity.md).
+  - **20 GiB of free disk**: an assumption of T0.25, because the specifications give no disk size.
+
+Exit codes of `install.sh`:
+
+| Code | Meaning |
+| --- | --- |
+| 0 | The machine fits and the profile is installed |
+| 1 | The machine is too small (`check-machine.sh`, one line per shortfall on stderr), or the profile did not start |
+| 2 | Docker is not installed or not running, so the machine cannot be checked |
+| 64 | Bad argument, reported before any Docker call |
+
+`check-machine.sh` exits 0 when the machine fits, 1 when it is too small and 2 when Docker is not running.
+An exit code other than these comes from `docker compose`, when the profile does not start.
+
+## Measuring the memory at rest
+
+```bash
+infra/compose/measure-memory.sh [--rest-s N]
+```
+
+The script starts the laptop profile with the AI off, so without Milvus, waits `N` seconds (60 by default, set by
+`REST_S` in [`laptop-profile.env`](laptop-profile.env)), then reads the memory of every container with `docker stats`.
+It prints a dated header, one line per container in MiB, the total in MiB, and then stops the stack. Exit codes: 0
+when measured, 64 for a bad argument, and the code of `docker compose up` when the stack did not start.
+
+The 8 GB promise of D408 is not proved by this script alone: it waits for the whole stack, which is only complete in
+phase P2.

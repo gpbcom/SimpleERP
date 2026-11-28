@@ -10,8 +10,9 @@ and the navigation of [C-08](../../specs/04-ux/design-system/components/c-08-nav
 vue-router ([D407](../../specs/06-decisions/technical/d407-front-end.md)): a collapsible sidebar, a top bar, a bottom
 tab bar under 768 px, the theme that follows the device with a manual switch, and French and English. Its own image
 follows the layout of [D438](../../specs/06-decisions/technical/d438-repository-layout.md), and it is not built yet.
-The business screens, the assistant panel and the Playwright tests come later: [T0.22](../../specs/00-vision/roadmap/phases/01-p0-foundations.md)
-(the Playwright tests) and the screens of the feature phases.
+The back office has Playwright tests in `frontend/backoffice/e2e/`, run against the real images, not a development
+server ([Playwright](../delivery/tests-and-traceability.md#playwright)). The business screens and the assistant panel come
+later, with the screens of the feature phases.
 
 [`frontend/packages/config`](../../../frontend/packages/config/)
 (`@simpleerp/config`) holds the shared settings that every front end extends: the ESLint flat config
@@ -42,4 +43,4 @@ every screen.
 
 Decided in [D407](../../specs/06-decisions/technical/d407-front-end.md).
 
-Last reviewed: 2026-11-27 (T0.17, with GH-2)
+Last reviewed: 2026-11-28 (T0.22)

@@ -1,0 +1,16 @@
+$ uv run ruff check tests/infra/compose/check_machine/test_check_machine.py tests/infra/compose/helpers.py tests/infra/compose/install/test_install.py tests/infra/compose/measure_memory/test_measure_memory.py tests/infra/compose/milvus/test_milvus_profile.py
+(cwd ., on the ticket's own files only)
+
+All checks passed!
+Using CPython 3.13.15
+Creating virtual environment at: .venv
+   Building erp-config @ file:///tmp/erp-checks-3528951-yprtcurx/backend/shared/config
+   Building erp-lifecycle @ file:///tmp/erp-checks-3528951-yprtcurx/backend/shared/lifecycle
+   Building erp-logging @ file:///tmp/erp-checks-3528951-yprtcurx/backend/shared/logging
+      Built erp-lifecycle @ file:///tmp/erp-checks-3528951-yprtcurx/backend/shared/lifecycle
+      Built erp-config @ file:///tmp/erp-checks-3528951-yprtcurx/backend/shared/config
+      Built erp-logging @ file:///tmp/erp-checks-3528951-yprtcurx/backend/shared/logging
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 26 packages in 70ms

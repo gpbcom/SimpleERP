@@ -11,8 +11,8 @@
     "dev": "vite",
     "build": "vue-tsc --build && vite build",
     "preview": "vite preview",
-    "lint": "eslint .",
-    "typecheck": "vue-tsc --build",
+    "lint": "eslint . --ignore-pattern '!e2e/**'",
+    "typecheck": "vue-tsc --build && tsc -p e2e/tsconfig.json --noEmit",
     "test": "vitest run"
   },
   "dependencies": {
@@ -25,6 +25,8 @@
     "vue-router": "5.5.3"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.1",
+    "@playwright/test": "1.65.1",
     "@simpleerp/config": "workspace:*",
     "@types/jsdom": "30.0.0",
     "@types/node": "22.20.7",

@@ -17,6 +17,37 @@ How SimpleERP is tested, and how every test result stays provable.
 Each service's tests live in `backend/services/<service>/tests/` and mirror its `src/`; they use real stand-ins
 rather than mocks (a local server, a git sandbox, a fake executable), and are named as sentences (`AGENT.md`, "Tests").
 
+## Playwright
+
+The back office's end-to-end tests live in `frontend/backoffice/e2e/`. They test the screens and flows against the real
+images started by `compose.e2e.yaml`, never against a development server, so that they test what ships
+([TKT-21](../../../.claude/rules/tickets.md), [AGENT.md](../../../AGENT.md)).
+
+- **Configuration.** `frontend/backoffice/e2e/playwright.config.ts`. Tests are named `*.e2e.ts` and sit under
+  `e2e/shell/`, `e2e/preferences/`, `e2e/accessibility/` and `e2e/scaffold/`; shared fixtures are in `e2e/fixtures/`.
+- **Projects.** Four projects, `light-en`, `dark-en`, `light-fr` and `dark-fr`, one per theme of
+  [D43](../../specs/06-decisions/ux/d43-light-and-dark.md) and language of [D21](../../specs/06-decisions/foundations/d21-languages.md),
+  each at 1440 x 900. The tests that check the phone layout also run at 390 x 844 (D121).
+- **Tags.** Every test of the scaffold is tagged `@smoke`. The dev stage runs `--grep @smoke`; QA runs the full suite
+  ([D426](../../specs/06-decisions/technical/d426-testing-strategy.md), [CI/CD and stages](ci-cd-and-stages.md)).
+- **Accessibility.** axe-core runs after every test with the WCAG 2.2 AA tags of
+  [D46](../../specs/06-decisions/ux/d46-accessibility-standard.md). A violation fails the test.
+- **Base URL.** The tests read `ERP_E2E_BASE_URL`. It defaults to the back-office port that `compose.e2e.yaml`
+  publishes.
+- **Reports.** On failure, the trace, the video and the screenshot are kept in `frontend/backoffice/test-results/`, and
+  the HTML report in `frontend/backoffice/playwright-report/`. `images.yml` uploads both when a test fails, and
+  `stage.yml` always keeps them.
+- **Runner.** `.github/scripts/playwright.sh` passes `--config e2e/playwright.config.ts` to each front end that has
+  one, and forwards its other arguments to `playwright test`.
+
+Run them locally, from the root of the repository:
+
+```bash
+docker compose -f compose.e2e.yaml up --detach --wait
+bash .github/scripts/playwright.sh --grep @smoke
+pnpm --filter ./frontend/backoffice exec playwright show-report playwright-report
+```
+
 ## Test helpers
 
 The shared test library `backend/shared/testing` (package `erp_testing`, uv package `erp-testing`) holds the helpers
@@ -105,4 +136,4 @@ tests; anonymised copies only for the hosted support assistant's reproductions, 
 
 Decided in [D426](../../specs/06-decisions/technical/d426-testing-strategy.md).
 
-Last reviewed: 2026-11-27 (T0.13)
+Last reviewed: 2026-11-28 (T0.22)

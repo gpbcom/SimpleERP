@@ -1,0 +1,9 @@
+{
+  "extends": "@simpleerp/config/tsconfig",
+  "compilerOptions": {
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "include": ["./**/*.ts", "../src/locales/*.json"]
+}
