@@ -1,0 +1,82 @@
+{
+  "errors": {
+    "common": {
+      "cancel": "Annuler",
+      "reference": "réf."
+    },
+    "fallback": {
+      "title": "Un problème est survenu",
+      "why": "Nous n'avons pas pu terminer ce que vous avez demandé.",
+      "action": "Réessayez dans un instant et contactez le support si cela continue."
+    },
+    "unexpected_error_01": {
+      "title": "Un imprévu est survenu",
+      "why": "L'application a rencontré un problème inattendu, et rien n'a été perdu.",
+      "action": "Réessayez et contactez le support si cela continue."
+    },
+    "service_failure_01": {
+      "title": "Cette partie de l'application ne répond pas",
+      "why": "Le service qui détient cette information n'a pas répondu à temps.",
+      "action": "Patientez un instant puis réessayez."
+    },
+    "invalid_input_01": {
+      "title": "Certaines informations sont à revoir",
+      "why": "Une ou plusieurs valeurs saisies ne peuvent pas être acceptées telles quelles.",
+      "action": "Vérifiez les champs signalés et corrigez-les."
+    },
+    "site_close_01": {
+      "title": "Ce site a encore du stock",
+      "why": "Un site ne peut être fermé que lorsque tout son stock a été déplacé ou utilisé.",
+      "action": "Voir ce qui reste"
+    },
+    "context": {
+      "no_company": {
+        "title": "Aucune société sélectionnée",
+        "why": "Cette demande n'indiquait pas pour quelle société elle était faite.",
+        "action": "Choisissez une société et réessayez."
+      },
+      "no_user": {
+        "title": "Vous n'êtes pas connecté",
+        "why": "Cette demande ne vient pas d'un utilisateur connu.",
+        "action": "Connectez-vous et réessayez."
+      }
+    },
+    "rights": {
+      "no_policy": {
+        "title": "L'accès n'est pas configuré",
+        "why": "Aucune règle ne vous donne encore de droits sur cet élément.",
+        "action": "Demandez un accès à un administrateur."
+      },
+      "policy_denied": {
+        "title": "Vous n'avez pas accès",
+        "why": "Vos droits ne permettent pas cette action.",
+        "action": "Demandez à un administrateur si vous en avez besoin."
+      },
+      "other_company": {
+        "title": "Cela appartient à une autre société",
+        "why": "Vous avez demandé un élément détenu par une société dans laquelle vous ne travaillez pas.",
+        "action": "Changez de société et réessayez."
+      }
+    },
+    "platform_route_01": {
+      "title": "Cette page n'existe pas",
+      "why": "L'adresse demandée n'est pas connue de la plateforme.",
+      "action": "Revenez en arrière et choisissez une autre page."
+    },
+    "platform_method_01": {
+      "title": "Cette action n'est pas permise ici",
+      "why": "La plateforme n'accepte pas ce type de demande à cette adresse.",
+      "action": "Revenez en arrière et essayez une autre action."
+    },
+    "platform_request_01": {
+      "title": "La demande n'a pas pu être lue",
+      "why": "La plateforme n'a pas compris ce qui a été envoyé.",
+      "action": "Vérifiez les informations et réessayez."
+    },
+    "platform_internal_01": {
+      "title": "La plateforme a rencontré un problème",
+      "why": "Une défaillance est survenue dans la plateforme, et rien n'a été perdu.",
+      "action": "Réessayez dans un instant et contactez le support si cela continue."
+    }
+  }
+}

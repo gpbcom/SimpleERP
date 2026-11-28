@@ -16,6 +16,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@simpleerp/api-client": "workspace:*",
     "@simpleerp/i18n": "workspace:*",
     "@simpleerp/tokens": "workspace:*",
     "@simpleerp/ui": "workspace:*",

@@ -1,0 +1,65 @@
+$ pnpm -r --if-present test
+(cwd ., on the ticket's own files only)
+
+Scope: 7 of 8 workspace projects
+frontend/packages/config test$ vitest run
+frontend/packages/tokens test$ vitest run
+frontend/packages/config test:  RUN  v5.1.2 /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/config
+frontend/packages/tokens test:  RUN  v5.1.2 /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens
+frontend/packages/config test:  Test Files  2 passed (2)
+frontend/packages/config test:       Tests  7 passed (7)
+frontend/packages/config test:    Start at  02:37:14
+frontend/packages/config test:    Duration  872ms (import 45%, tests 44%, transform 11%, worker 1%)
+frontend/packages/config test: Done
+frontend/packages/tokens test:  Test Files  8 passed (8)
+frontend/packages/tokens test:       Tests  255 passed (255)
+frontend/packages/tokens test:    Start at  02:37:14
+frontend/packages/tokens test:    Duration  1.19s (transform 39%, import 30%, tests 30%, worker 1%)
+frontend/packages/tokens test: Done
+frontend/packages/api-client test$ vitest run
+frontend/packages/ui test$ pnpm --filter @simpleerp/tokens run build && vitest run
+frontend/packages/i18n test$ vitest run
+frontend/packages/ui test: > @simpleerp/tokens@0.0.0 build /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens
+frontend/packages/ui test: > tsx src/build/main.ts
+frontend/packages/i18n test:  RUN  v5.1.2 /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/i18n
+frontend/packages/api-client test:  RUN  v5.1.2 /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/api-client
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/tokens.css
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/tokens.ts
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/inter-latin-400-normal.woff2
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/LICENSE-inter
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/inter-latin-500-normal.woff2
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/inter-latin-600-normal.woff2
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/plus-jakarta-sans-latin-600-normal.woff2
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/LICENSE-plus-jakarta-sans
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/plus-jakarta-sans-latin-700-normal.woff2
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/plus-jakarta-sans-latin-800-normal.woff2
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/jetbrains-mono-latin-400-normal.woff2
+frontend/packages/ui test: /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/tokens/dist/fonts/LICENSE-jetbrains-mono
+frontend/packages/ui test:  RUN  v5.1.2 /tmp/erp-checks-3868859-h29mzmdg/frontend/packages/ui
+frontend/packages/i18n test:  Test Files  11 passed (11)
+frontend/packages/i18n test:       Tests  106 passed (106)
+frontend/packages/i18n test:    Start at  02:37:16
+frontend/packages/i18n test:    Duration  1.01s (environment 86%, import 7%, transform 4%, tests 2%, worker 1%)
+frontend/packages/i18n test: Done
+frontend/packages/ui test:  Test Files  14 passed (14)
+frontend/packages/ui test:       Tests  273 passed (273)
+frontend/packages/ui test:    Start at  02:37:17
+frontend/packages/ui test:    Duration  2.41s (environment 36%, tests 17%, import 17%, setup 16%, transform 15%)
+frontend/packages/ui test: Done
+frontend/packages/api-client test:  Test Files  5 passed (5)
+frontend/packages/api-client test:       Tests  54 passed (54)
+frontend/packages/api-client test:    Start at  02:37:16
+frontend/packages/api-client test:    Duration  5.52s (tests 94%, transform 4%, import 2%)
+frontend/packages/api-client test: Done
+frontend/backoffice test$ vitest run
+frontend/backoffice test:  RUN  v5.1.2 /tmp/erp-checks-3868859-h29mzmdg/frontend/backoffice
+frontend/backoffice test: Not implemented: HTMLCanvasElement's getContext() method: without installing the @napi-rs/canvas npm package
+frontend/backoffice test: Not implemented: HTMLCanvasElement's getContext() method: without installing the @napi-rs/canvas npm package
+frontend/backoffice test: Not implemented: HTMLCanvasElement's getContext() method: without installing the @napi-rs/canvas npm package
+frontend/backoffice test: Not implemented: HTMLCanvasElement's getContext() method: without installing the @napi-rs/canvas npm package
+frontend/backoffice test: Not implemented: HTMLCanvasElement's getContext() method: without installing the @napi-rs/canvas npm package
+frontend/backoffice test:  Test Files  11 passed (11)
+frontend/backoffice test:       Tests  128 passed (128)
+frontend/backoffice test:    Start at  02:37:22
+frontend/backoffice test:    Duration  1.57s (environment 48%, transform 27%, import 13%, tests 10%, setup 1%)
+frontend/backoffice test: Done

@@ -15,8 +15,9 @@ FROM nginxinc/nginx-unprivileged:alpine AS runtime
 USER root
 RUN apk upgrade --no-cache
 USER 101
-COPY frontend/backoffice/nginx.conf /etc/nginx/conf.d/default.conf
+COPY frontend/backoffice/nginx.conf /etc/nginx/templates/default.conf.template
 COPY --from=build /repo/frontend/backoffice/dist /usr/share/nginx/html
+ENV ERP_PLATFORM_URL=http://platform:8000 NGINX_ENTRYPOINT_LOCAL_RESOLVERS=1
 EXPOSE 8080
 HEALTHCHECK --interval=10s --timeout=3s --start-period=5s --retries=3 \
     CMD wget -q -O /dev/null http://127.0.0.1:8080/ || exit 1
