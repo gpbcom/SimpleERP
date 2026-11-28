@@ -178,6 +178,13 @@ function inHome(text) {
       `and change only this ticket's files and docs/tickets/${ID}/, never another ticket's uncommitted work. ${text}`
     : text
 }
+// The verifier runs checks.py in the foreground: a wait loop on `pgrep` and a pattern matched its own shell and
+// waited 55 x 10 s at every check round of T0.14, whatever the checks did.
+function verifyPrompt() {
+  return inHome(`Verify ticket ${ID}: python3 .claude/scripts/tickets/checks.py --ticket ${ID} checks only its own files. ` +
+    'Run it in the foreground, in one Bash call with timeout 600000, as your definition says. When it needs longer, ' +
+    'wait on the PID of its background run with kill -0, never with pgrep on a pattern.')
+}
 // The tree of the integrated, uncommitted work after the last integration (TKT-5): the confirm-fixes review diffs from it.
 let currentTree = ''
 function note(event, by, result) { progress.push(`| ${event} | ${by} | ${result} |`) }
@@ -458,7 +465,7 @@ for (let w = 1; w <= waveCount; w++) {
 phase('Verify')
 let verdict = null
 for (let round = 0; round <= MAX_FIX_ROUNDS; round++) {
-  verdict = await agent(inHome(`Verify ticket ${ID}: python3 .claude/scripts/tickets/checks.py --ticket ${ID} checks only its own files.`), { agentType: 'verifier', schema: VERDICT, phase: 'Verify', label: `verifier round ${round + 1}` })
+  verdict = await agent(verifyPrompt(), { agentType: 'verifier', schema: VERDICT, phase: 'Verify', label: `verifier round ${round + 1}` })
   note(`Verify ${round + 1}${verdict && verdict.not_applicable && verdict.not_applicable.length ? ` (${verdict.not_applicable.length} not applicable)` : ''}`, 'verifier', verdict && verdict.passed ? '✅ passed' : `❌ ${verdict ? verdict.failures.length : '?'} failures`)
   if (!verdict || verdict.passed || round === MAX_FIX_ROUNDS) break
   // TKT-6: a missing tool or module is the environment's fault; fixers cannot repair it, so stop at once.
@@ -514,7 +521,7 @@ if (verdict && verdict.passed && !pushOnly) {
     if (!blocking.length || round === MAX_FIX_ROUNDS) break
     reviewedTree = currentTree
     await fixRound(blocking.map(f => ({ file: f.file, check: f.rule, detail: f.change })), 'Review')
-    verdict = await agent(inHome(`Verify ticket ${ID}: python3 .claude/scripts/tickets/checks.py --ticket ${ID} checks only its own files.`), { agentType: 'verifier', schema: VERDICT, phase: 'Review', label: `verifier after review ${round + 1}` })
+    verdict = await agent(verifyPrompt(), { agentType: 'verifier', schema: VERDICT, phase: 'Review', label: `verifier after review ${round + 1}` })
     if (!verdict || !verdict.passed) break
   }
 }
