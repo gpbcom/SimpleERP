@@ -16,6 +16,7 @@ from typing import Dict, List, Optional, Set, Tuple
 sys.path[:0] = [str(Path(__file__).resolve().parents[1] / group) for group in ("tickets", "github", "reports")]
 
 import branches  # noqa: E402
+from plan import JSON_BLOCK  # noqa: E402
 from roadmap_gantt import areas, key, known_folders, roadmap_rows  # noqa: E402
 from ticket_tree import (  # noqa: E402
     BRANCH_PREFIX,
@@ -29,6 +30,7 @@ from ticket_tree import (  # noqa: E402
     load_state,
     main_checkout,
     open_states,
+    ticket_folder,
     ticket_paths,
     worktrees,
 )
@@ -53,7 +55,9 @@ its own worktree on ``feature/<ID>`` until ``prune`` removes it once merged.
 - ``check`` applies the start rule (TKT-16) and prints one problem per line: a prerequisite of
   ``docs/specs/00-vision/roadmap/phases/gantt/ticket-graph.json`` that is not done (merged on ``origin/develop``, or
   committed on ``feature/tickets`` with its pull request open), an open ticket that changes one of the same areas (a
-  service, a front end, a shared package, an infrastructure folder: see ``roadmap_gantt.areas``), or a ticket that
+  service, a front end, a shared package, an infrastructure folder: see ``roadmap_gantt.areas``), a ticket open or
+  committed and not merged yet whose plan changes one of the files of this ticket's plan (file lock: the ``files`` of
+  the tasks of the json block of ``PLAN.md``, such as ``uv.lock``, which areas do not cover), or a ticket that
   follows an external item (its ``field`` entry: a partner, a real company, a certification) before that item has
   happened. It exits 1 when it prints anything, unless ``--force``.
 - ``list`` prints the open tickets, the files each owns and its areas.
@@ -64,7 +68,8 @@ its own worktree on ``feature/<ID>`` until ``prune`` removes it once merged.
   - ``approve`` approves, for the person, every plan of the group that awaits approval and passes ``check_plan.py``:
     ``**Plan:** 🟢 Approved``, an event in ``PROGRESS.md``, the card moved. The PreToolUse hook asks the person before
     Claude runs it.
-  - ``next`` prints the approved tickets of the group that may start now.
+  - ``next`` prints the approved tickets of the group that may start now, never two that change the same area or
+    the same file of their plans.
   - ``watch`` prints an exhaustive report of the group every ``--every`` seconds, with a ``▶️ CAN START <ID>`` line
     for each ticket that may start, and ends when the group is merged or waits for the person.
 - ``branches`` gives every branch, local and on GitHub, its verdict against ``origin/develop`` (TKT-25): 🔒
@@ -185,6 +190,38 @@ def title_of(main: Path, ticket: str) -> str:
     return ROADMAP_TITLES.get(ticket, "")
 
 
+def plan_files(main: Path, ticket: str) -> Set[str]:
+    """Return the files the tasks of a ticket's plan change: the ``files`` of the json block of its ``PLAN.md``.
+
+    The plan is read from the ticket's home, or from ``feature/tickets`` once the ticket is committed there; a ticket
+    with no plan, or a plan that does not parse, changes no file known yet. The ticket's own folder is left out.
+    """
+    plan = folder_of(main, ticket) / "PLAN.md"
+    if plan.is_file():
+        text = plan.read_text(encoding="utf-8")
+    else:
+        code, text = git(main, "show", f"{SHARED_BRANCH}:{ticket_folder(ticket)}PLAN.md", check=False)
+        if code != 0:
+            return set()
+    blocks = JSON_BLOCK.findall(text)
+    try:
+        tasks = json.loads(blocks[-1]) if blocks else []
+    except json.JSONDecodeError:
+        return set()
+    found: Set[str] = set()
+    for task in tasks if isinstance(tasks, list) else []:
+        files = task.get("files") if isinstance(task, dict) else None
+        found |= {str(name).strip().removeprefix("./") for name in files or [] if str(name).strip()}
+    return {name for name in found if not name.startswith(ticket_folder(ticket))}
+
+
+def held_files(main: Path, ticket: str) -> Set[str]:
+    """Return the files an open ticket holds: those of its plan, and those its tasks changed (``state.json``)."""
+    recorded = load_state(main, ticket).get("paths")
+    changed = {str(path) for path in recorded} if isinstance(recorded, list) else set()
+    return plan_files(main, ticket) | {path for path in changed if path not in (".", ticket_folder(ticket))}
+
+
 def plan_state(main: Path, ticket: str) -> str:
     plan = folder_of(main, ticket) / "PLAN.md"
     if not plan.is_file():
@@ -205,15 +242,42 @@ def shared_areas(mine: Set[str], theirs: Set[str]) -> List[str]:
     return sorted((mine & theirs) or (mine | theirs if "*" in mine or "*" in theirs else set()))
 
 
-def problems(main: Path, ticket: str, done: Optional[Set[str]] = None) -> List[str]:
-    """Return why a ticket may not start yet (TKT-16), one sentence each."""
+def covers(path: str, name: str) -> bool:
+    """Tell whether ``path`` is the file ``name``, or a folder that holds it."""
+    folder = path.rstrip("/")
+    return name.rstrip("/") == folder or name.startswith(folder + "/")
+
+
+def shared_files(mine: Set[str], theirs: Set[str]) -> List[str]:
+    """Return the files two tickets both change (a folder overlaps the files under it), the narrower name, sorted."""
+    return sorted({b if covers(a, b) else a for a in mine for b in theirs if covers(a, b) or covers(b, a)})
+
+
+def file_problems(main: Path, ticket: str, holders: Dict[str, str]) -> List[str]:
+    """Return, for each ticket of ``holders`` (with where it is), the files of ``ticket``'s plan it changes too."""
+    mine = plan_files(main, ticket)
+    found: List[str] = []
+    for other, where in holders.items():
+        shared = shared_files(mine, held_files(main, other)) if mine and other != ticket else []
+        if shared:
+            found.append(f"{other} is {where} and changes {', '.join(shared)} too: wait for it (file lock).")
+    return found
+
+
+def problems(main: Path, ticket: str, done: Optional[Set[str]] = None, merged: Optional[Set[str]] = None) -> List[str]:
+    """Return why a ticket may not start yet (TKT-16), one sentence each.
+
+    ``done`` holds the tickets merged or committed on ``feature/tickets``, ``merged`` those merged only: a ticket
+    committed and not merged yet no longer locks its areas, but still locks the files of its plan.
+    """
     tickets = graph(main)
     if ticket not in tickets:
         return [f"{ticket} is not in the ticket graph: add it to {GRAPH} first."]
     info = tickets[ticket]
-    if done is None:
-        ref = develop_ref(main, fetch=True)
-        done = merged_tickets(main, ref) | finished_tickets(main, ref)
+    if done is None or merged is None:
+        ref = develop_ref(main, fetch=done is None)
+        merged = merged_tickets(main, ref) if merged is None else merged
+        done = merged | finished_tickets(main, ref) if done is None else done
     found: List[str] = []
     waiting = [dep for dep in info.get("deps", []) if dep not in done]  # type: ignore[union-attr]
     if waiting:
@@ -234,6 +298,10 @@ def problems(main: Path, ticket: str, done: Optional[Set[str]] = None) -> List[s
         shared = shared_areas(mine, area_of(tickets, other))
         if shared:
             found.append(f"{other} is open in {home} and changes {', '.join(shared)}: wait for it (area lock).")
+    holders = {other: f"open in {home}" for other, home in running.items() if other not in merged}
+    for other in sorted(done - merged - set(holders), key=key):
+        holders[other] = f"committed on {SHARED_BRANCH}, not merged yet,"
+    found.extend(file_problems(main, ticket, holders))
     return found
 
 
@@ -352,14 +420,23 @@ def resolve(main: Path, refs: List[str]) -> List[str]:
 
 
 def without_overlaps(main: Path, startable: List[str]) -> List[str]:
-    """Keep, in order, the tickets whose areas overlap no earlier kept one: the others wait for the next call."""
+    """Keep, in order, the tickets whose areas and plan files overlap no earlier kept one: the others wait for the
+    next call."""
     tickets = graph(main)
+    files = {ticket: plan_files(main, ticket) for ticket in startable}
     kept: List[str] = []
     for ticket in startable:
         mine = area_of(tickets, ticket)
         clash = [o for o in kept if shared_areas(mine, area_of(tickets, o))]
         if clash:
             print(f"note: {ticket} waits for {clash[0]}, which starts now and changes the same area.", file=sys.stderr)
+            continue
+        same = [(o, shared_files(files[ticket], files[o])) for o in kept if shared_files(files[ticket], files[o])]
+        if same:
+            print(
+                f"note: {ticket} waits for {same[0][0]}, which starts now and changes {', '.join(same[0][1])} too.",
+                file=sys.stderr,
+            )
             continue
         kept.append(ticket)
     return kept
@@ -383,7 +460,7 @@ def rows(main: Path, group: List[str]) -> List[Dict[str, object]]:
             state = "code_review" if plan_state(main, ticket) == "code_review" else "running"
         else:
             state = plan_state(main, ticket)
-        blockers = problems(main, ticket, done) if state == "approved" else []
+        blockers = problems(main, ticket, done, merged) if state == "approved" else []
         deps = [d for d in tickets.get(ticket, {}).get("deps", []) if d not in done]  # type: ignore[union-attr]
         found.append(
             {
