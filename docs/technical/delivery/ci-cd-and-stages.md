@@ -57,7 +57,7 @@ The pipeline below comes with the CI/CD change that follows the harness port. Un
 | `stage.yml` | `develop` (dev), `release/**` and `hotfix/**` (QA), or by hand | The ephemeral stage, below |
 
 A change in `backend/models/`, `backend/shared/`, `frontend/packages/`, `uv.lock` or `pnpm-lock.yaml` selects every
-service and front end (`AGENT.md`, "CI/CD"). A change under `infra/terraform/` selects every Terraform folder, because
+service and front end (`AGENT.md`, "CI/CD"). A change to a service's committed OpenAPI document, `backend/services/<service>/openapi.json`, selects its service and image, and also every front-end project and front-end image, so that the stale check of the generated client in `frontend/packages/api-client` runs on the regenerated document. A change under `infra/terraform/` selects every Terraform folder, because
 the modules are shared, and the repository-level tests of `tests/`. `ticket_tree.py finish`, run by `/ticket-run`, labels a ticket's pull request `automerge`,
 so a ticket reaches `develop` with no merge by hand; a failing check leaves the pull request open for the person.
 

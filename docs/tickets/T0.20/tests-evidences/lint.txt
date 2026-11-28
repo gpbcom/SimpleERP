@@ -1,0 +1,96 @@
+$ pnpm -r --if-present lint
+(cwd ., on the ticket's own files only)
+
+Scope: 7 of 8 workspace projects
+frontend/packages/config lint$ eslint .
+frontend/packages/config lint: Done
+frontend/packages/ui lint$ eslint .
+frontend/packages/i18n lint$ eslint .
+frontend/packages/api-client lint$ eslint .
+frontend/packages/api-client lint: Done
+frontend/packages/i18n lint: Done
+frontend/packages/ui lint: /tmp/erp-checks-3589879-58t_3hsi/frontend/packages/ui/src/components/UiCard.vue
+frontend/packages/ui lint:   73:5   warning  Disallow self-closing on HTML void elements (<input/>)                              vue/html-self-closing
+frontend/packages/ui lint:   74:30  warning  ':id' should be on a new line                                                       vue/max-attributes-per-line
+frontend/packages/ui lint:   74:44  warning  'class' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   75:22  warning  'class' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   75:44  warning  ':href' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   76:37  warning  'class' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   76:59  warning  ':for' should be on a new line                                                      vue/max-attributes-per-line
+frontend/packages/ui lint:   77:24  warning  Expected 1 line break after opening tag (`<template>`), but no line breaks found    vue/singleline-html-element-content-newline
+frontend/packages/ui lint:   77:35  warning  Expected 1 line break before closing tag (`</template>`), but no line breaks found  vue/singleline-html-element-content-newline
+frontend/packages/ui lint:   79:43  warning  'class' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   79:66  warning  ':icon' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   79:80  warning  ':size' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   80:25  warning  'class' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   81:38  warning  Require self-closing on HTML elements (<div>)                                       vue/html-self-closing
+frontend/packages/ui lint:   82:63  warning  Require self-closing on HTML elements (<div>)                                       vue/html-self-closing
+frontend/packages/ui lint:   84:17  warning  'class' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   85:24  warning  'class' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   85:48  warning  Expected 1 line break after opening tag (`<p>`), but no line breaks found           vue/singleline-html-element-content-newline
+frontend/packages/ui lint:   85:60  warning  Expected 1 line break before closing tag (`</p>`), but no line breaks found         vue/singleline-html-element-content-newline
+frontend/packages/ui lint:   86:24  warning  'class' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint:   86:48  warning  Expected 1 line break after opening tag (`<p>`), but no line breaks found           vue/singleline-html-element-content-newline
+frontend/packages/ui lint:   86:60  warning  Expected 1 line break before closing tag (`</p>`), but no line breaks found         vue/singleline-html-element-content-newline
+frontend/packages/ui lint:   89:32  warning  'class' should be on a new line                                                     vue/max-attributes-per-line
+frontend/packages/ui lint: /tmp/erp-checks-3589879-58t_3hsi/frontend/packages/ui/src/components/UiFormField.vue
+frontend/packages/ui lint:    70:41  warning  ':for' should be on a new line                          vue/max-attributes-per-line
+frontend/packages/ui lint:    72:29  warning  'class' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint:    72:57  warning  'aria-hidden' should be on a new line                   vue/max-attributes-per-line
+frontend/packages/ui lint:    82:27  warning  ':icon' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint:    82:40  warning  ':size' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint:    97:7   warning  Disallow self-closing on HTML void elements (<input/>)  vue/html-self-closing
+frontend/packages/ui lint:    98:25  warning  'class' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint:    99:33  warning  ':size' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint:   100:29  warning  ':icon' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint:   100:42  warning  ':size' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint:   102:23  warning  ':id' should be on a new line                           vue/max-attributes-per-line
+frontend/packages/ui lint:   102:39  warning  'class' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint:   102:70  warning  ':class' should be on a new line                        vue/max-attributes-per-line
+frontend/packages/ui lint:   103:28  warning  ':icon' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint:   103:48  warning  ':size' should be on a new line                         vue/max-attributes-per-line
+frontend/packages/ui lint: /tmp/erp-checks-3589879-58t_3hsi/frontend/packages/ui/src/components/UiIcon.vue
+frontend/packages/ui lint:   23:25  warning  ':size' should be on a new line          vue/max-attributes-per-line
+frontend/packages/ui lint:   23:38  warning  ':stroke-width' should be on a new line  vue/max-attributes-per-line
+frontend/packages/ui lint:   23:56  warning  'color' should be on a new line          vue/max-attributes-per-line
+frontend/packages/ui lint:   23:77  warning  'v-bind' should be on a new line         vue/max-attributes-per-line
+frontend/packages/ui lint: /tmp/erp-checks-3589879-58t_3hsi/frontend/packages/ui/src/components/UiSpinner.vue
+frontend/packages/ui lint:   18:30  warning  ':icon' should be on a new line   vue/max-attributes-per-line
+frontend/packages/ui lint:   18:51  warning  ':size' should be on a new line   vue/max-attributes-per-line
+frontend/packages/ui lint:   18:64  warning  ':label' should be on a new line  vue/max-attributes-per-line
+frontend/packages/ui lint: /tmp/erp-checks-3589879-58t_3hsi/frontend/packages/ui/src/components/UiToast.vue
+frontend/packages/ui lint:   65:36  warning  ':icon' should be on a new line                                              vue/max-attributes-per-line
+frontend/packages/ui lint:   65:49  warning  ':size' should be on a new line                                              vue/max-attributes-per-line
+frontend/packages/ui lint:   66:34  warning  Expected 1 line break after opening tag (`<p>`), but no line breaks found    vue/singleline-html-element-content-newline
+frontend/packages/ui lint:   66:47  warning  Expected 1 line break before closing tag (`</p>`), but no line breaks found  vue/singleline-html-element-content-newline
+frontend/packages/ui lint:   67:46  warning  'type' should be on a new line                                               vue/max-attributes-per-line
+frontend/packages/ui lint:   67:60  warning  'class' should be on a new line                                              vue/max-attributes-per-line
+frontend/packages/ui lint:   67:85  warning  '@click' should be on a new line                                             vue/max-attributes-per-line
+frontend/packages/ui lint:   70:27  warning  'class' should be on a new line                                              vue/max-attributes-per-line
+frontend/packages/ui lint:   70:68  warning  ':aria-label' should be on a new line                                        vue/max-attributes-per-line
+frontend/packages/ui lint:   70:93  warning  '@click' should be on a new line                                             vue/max-attributes-per-line
+frontend/packages/ui lint:   71:25  warning  ':size' should be on a new line                                              vue/max-attributes-per-line
+frontend/packages/ui lint: /tmp/erp-checks-3589879-58t_3hsi/frontend/packages/ui/tests/components/ui-nav-item.spec.ts
+frontend/packages/ui lint:   12:34  warning  There is more than one component in this file  vue/one-component-per-file
+frontend/packages/ui lint:   28:26  warning  There is more than one component in this file  vue/one-component-per-file
+frontend/packages/ui lint: ✖ 58 problems (0 errors, 58 warnings)
+frontend/packages/ui lint:   0 errors and 35 warnings potentially fixable with the `--fix` option.
+frontend/packages/ui lint: Done
+frontend/backoffice lint$ eslint . --ignore-pattern '!e2e/**'
+frontend/backoffice lint: /tmp/erp-checks-3589879-58t_3hsi/frontend/backoffice/src/shell/BottomTabBar.vue
+frontend/backoffice lint:   11:31  warning  'data-shell' should be on a new line      vue/max-attributes-per-line
+frontend/backoffice lint:   11:51  warning  ':aria-label' should be on a new line     vue/max-attributes-per-line
+frontend/backoffice lint:   12:36  warning  ':key' should be on a new line            vue/max-attributes-per-line
+frontend/backoffice lint:   19:36  warning  'class' should be on a new line           vue/max-attributes-per-line
+frontend/backoffice lint:   19:65  warning  'aria-hidden' should be on a new line     vue/max-attributes-per-line
+frontend/backoffice lint:   19:84  warning  ':size' should be on a new line           vue/max-attributes-per-line
+frontend/backoffice lint:   22:22  warning  'class' should be on a new line           vue/max-attributes-per-line
+frontend/backoffice lint:   22:51  warning  'type' should be on a new line            vue/max-attributes-per-line
+frontend/backoffice lint:   22:65  warning  'aria-disabled' should be on a new line   vue/max-attributes-per-line
+frontend/backoffice lint:   22:86  warning  ':data-nav-item' should be on a new line  vue/max-attributes-per-line
+frontend/backoffice lint:   23:36  warning  'class' should be on a new line           vue/max-attributes-per-line
+frontend/backoffice lint:   23:65  warning  'aria-hidden' should be on a new line     vue/max-attributes-per-line
+frontend/backoffice lint:   23:84  warning  ':size' should be on a new line           vue/max-attributes-per-line
+frontend/backoffice lint: ✖ 13 problems (0 errors, 13 warnings)
+frontend/backoffice lint:   0 errors and 5 warnings potentially fixable with the `--fix` option.
+frontend/backoffice lint: Done

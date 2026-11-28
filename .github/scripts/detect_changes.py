@@ -21,6 +21,10 @@ It prints seven ``key=value`` lines for ``$GITHUB_OUTPUT``, in this order:
   selected. A change under ``infra/helm/`` also sets ``repository``, because the chart tests live in
   ``tests/infra/helm/``, but only once the umbrella chart exists.
 
+A changed committed OpenAPI document of a service (``backend/services/<service>/openapi.json``) selects, besides the
+service and its image, what a change under ``frontend/packages/`` selects: every front-end project with a
+``package.json`` and every front-end image, so that the api-client's stale check runs on a regenerated document.
+
 A shared path (the root lock files and manifests, ``backend/models/``, ``backend/shared/``, ``compose.e2e.yaml``,
 ``.dockerignore``, ``.github/scripts/`` and the reusable workflows, ``terraform.yml`` and ``helm.yml`` included)
 selects everything that exists. ``--all`` does the same without reading stdin. A folder that does not exist yet is
@@ -44,6 +48,7 @@ PORTALS = "frontend/portals"
 FRONTEND_PACKAGES = "frontend/packages"
 PACKAGE_GROUPS = ("backend/shared", "plugins")
 PACKAGE_FOLDERS = ("backend/models", "sdk")
+SERVICE_OPENAPI = "openapi.json"
 FRONTEND_GROUPS = frozenset({"portals", "packages"})
 SHARED_PREFIXES = ("backend/models/", "backend/shared/", ".github/scripts/")
 SHARED_FILES = frozenset(
@@ -137,6 +142,12 @@ def is_shared(path: str) -> bool:
     return path in SHARED_FILES or path.startswith(SHARED_PREFIXES)
 
 
+def is_service_openapi(path: str) -> bool:
+    """Tell whether a changed path is the committed OpenAPI document of a service."""
+    parts = path.split("/")
+    return len(parts) == 4 and f"{parts[0]}/{parts[1]}" == SERVICES and parts[3] == SERVICE_OPENAPI
+
+
 def read_paths(text: str) -> List[str]:
     """Split stdin into paths, ignoring blank lines and surrounding spaces."""
     return [line.strip() for line in text.splitlines() if line.strip()]
@@ -190,7 +201,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         if helm_exists and path.startswith(f"{HELM}/"):
             helm = True
             repository = True
-        if path.startswith(f"{FRONTEND_PACKAGES}/"):
+        if path.startswith(f"{FRONTEND_PACKAGES}/") or is_service_openapi(path):
             typescript |= set(all_typescript)
             images |= set(frontend_images)
         for selected, folders in (

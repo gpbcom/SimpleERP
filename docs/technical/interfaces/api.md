@@ -45,6 +45,12 @@ the application cannot be built. The contract tests also compare the document wi
 `CompanyContextMiddleware` of [`erp_context`](../../../backend/shared/context/README.md) checks them on every path that is
 not public, and tags each request with its request id (`X-Request-Id`).
 
+**Typed front-end client.** The typed client of the platform API lives in
+[`frontend/packages/api-client`](../../../frontend/packages/api-client/README.md). It is generated from each service's
+committed OpenAPI document, and it maps every `application/problem+json` error to a typed `ApiProblemError` that carries
+the D122 code of the refusal ([D122](../../specs/06-decisions/ux/d122-error-message-standard.md)); any other error answer
+becomes an `ApiUnexpectedResponseError` with its status.
+
 **Refusals.** A refusal is an `application/problem+json` response ([D410](../../specs/06-decisions/technical/d410-api-style-and-auth.md)).
 It carries the refusal code of the catalogue (for example `RIGHTS-DENIED-02`), and its `instance` is the request id, so
 that a support request names the exact occurrence.

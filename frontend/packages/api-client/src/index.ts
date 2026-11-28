@@ -1,0 +1,6 @@
+export { createApiClient } from './client/create-api-client'
+export type { ApiClientOptions, PlatformClient } from './client/create-api-client'
+export type { paths as PlatformPaths } from './generated/platform'
+export { ApiProblemError } from './problem/api-problem-error'
+export { ApiUnexpectedResponseError } from './problem/api-unexpected-response-error'
+export { PROBLEM_CODE_MEMBER, toApiError } from './problem/to-api-error'

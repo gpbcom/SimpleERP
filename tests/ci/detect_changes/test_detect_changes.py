@@ -14,6 +14,7 @@ from tests.ci.detect_changes.helpers import (
     HELM_KEY,
     IMAGES_KEY,
     KEYS,
+    OPENAPI_DOCUMENT,
     PACKAGES_KEY,
     REPOSITORY_KEY,
     SALES,
@@ -26,6 +27,7 @@ from tests.ci.detect_changes.helpers import (
     outputs,
     run_detector,
     write_repo,
+    write_repo_without_front_ends,
 )
 
 
@@ -127,3 +129,48 @@ class TestDetectChanges:
         result = run_detector(tmp_path, [], "--bogus")
         assert result.returncode == 2
         assert "usage" in result.stderr.lower()
+
+    def test_a_changed_openapi_document_selects_its_service_and_every_front_end(self, tmp_path: Path) -> None:
+        values = detect(tmp_path, [f"{SALES}/{OPENAPI_DOCUMENT}"])
+        assert values == {
+            **nothing(),
+            SERVICES_KEY: compact([SALES]),
+            TYPESCRIPT_KEY: compact(sorted([BACKOFFICE, CUSTOMER_PORTAL, "frontend/packages/ui"])),
+            IMAGES_KEY: compact(
+                [
+                    {"folder": SALES, "name": "sales"},
+                    {"folder": BACKOFFICE, "name": "backoffice"},
+                    {"folder": CUSTOMER_PORTAL, "name": "portal-customer"},
+                ]
+            ),
+        }
+
+    @pytest.mark.parametrize(
+        "path",
+        [
+            f"{SALES}/tests/{OPENAPI_DOCUMENT}",
+            f"{SALES}/src/sales/{OPENAPI_DOCUMENT}",
+            f"{SALES}/docs/{OPENAPI_DOCUMENT}",
+        ],
+    )
+    def test_an_openapi_document_name_elsewhere_in_a_service_selects_no_front_end(
+        self, tmp_path: Path, path: str
+    ) -> None:
+        values = detect(tmp_path, [path])
+        assert values[TYPESCRIPT_KEY] == "[]"
+        assert values[SERVICES_KEY] == compact([SALES])
+        assert values[IMAGES_KEY] == compact([{"folder": SALES, "name": "sales"}])
+
+    def test_another_file_of_a_service_selects_no_front_end(self, tmp_path: Path) -> None:
+        values = detect(tmp_path, [f"{SALES}/conf/app.yaml"])
+        assert values[TYPESCRIPT_KEY] == "[]"
+        assert values[IMAGES_KEY] == compact([{"folder": SALES, "name": "sales"}])
+
+    def test_a_changed_openapi_document_selects_nothing_extra_without_a_front_end_project(self, tmp_path: Path) -> None:
+        write_repo_without_front_ends(tmp_path)
+        result = run_detector(tmp_path, [f"{STOCK}/{OPENAPI_DOCUMENT}"])
+        assert result.returncode == 0, result.stderr
+        assert outputs(result) == {
+            **nothing(),
+            SERVICES_KEY: compact([STOCK]),
+        }

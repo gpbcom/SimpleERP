@@ -2,6 +2,7 @@ from __future__ import annotations
 
 # Standard library imports
 import json
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -28,6 +29,7 @@ STOCK = "backend/services/stock"
 BACKOFFICE = "frontend/backoffice"
 CUSTOMER_PORTAL = "frontend/portals/customer"
 UI = "frontend/packages/ui"
+OPENAPI_DOCUMENT = "openapi.json"
 ALL_SERVICES = [SALES, STOCK]
 ALL_PACKAGES = ["backend/models", "backend/shared/logging", "plugins/hello", "sdk"]
 ALL_TYPESCRIPT = [BACKOFFICE, UI, CUSTOMER_PORTAL]
@@ -80,6 +82,11 @@ def write_repo(root: Path) -> None:
         path = root / relative
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(content, encoding="utf-8")
+
+
+def write_repo_without_front_ends(root: Path) -> None:
+    write_repo(root)
+    shutil.rmtree(root / "frontend")
 
 
 def run_detector(root: Path, changed: List[str], *args: str) -> subprocess.CompletedProcess[str]:
