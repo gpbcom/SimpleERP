@@ -89,6 +89,11 @@
         "kind": "test",
         "path": "tests/harness/gitflow/test_guard_variables.py",
         "what": "the guard expands variables the command assigns, follows cd and git -C over new lines and continuations, ignores heredoc bodies, refuses a write into the tickets' checkout through a variable and keeps the session's folder for an unknown one"
+      },
+      {
+        "kind": "test",
+        "path": "tests/harness/ticket_tree/test_ticket_tree_worker_lfs.py",
+        "what": "start turns the LFS filter off in a worker holding pointers only, no later git command of the worker runs it, the main checkout keeps it, a worker holding the images keeps it"
       }
     ],
     "TKT-6": [
@@ -171,6 +176,11 @@
         "kind": "test",
         "path": "tests/harness/wiring/test_agent_definitions.py",
         "what": "the verifier and ticket-run.js run checks.py in the foreground (600000 ms, kill -0 on the recorded pid) and never use pgrep -f"
+      },
+      {
+        "kind": "test",
+        "path": "tests/ci/detect_changes/repository_layout/test_layout_follows_the_files.py",
+        "what": "the layout test still passes on a fixture repository where a folder gains a marker file"
       }
     ],
     "TKT-7": [
@@ -663,6 +673,11 @@
         "kind": "test",
         "path": "tests/harness/checks/gaps/test_checks_folder.py",
         "what": "clean trees and their sweep live beside the main checkout, also from a linked worktree, and nothing goes to TMPDIR"
+      },
+      {
+        "kind": "test",
+        "path": "tests/ci/gitignore/test_test_reports.py",
+        "what": "test reports at the repository root are ignored and the harness's reports scripts stay tracked"
       }
     ],
     "TKT-28": [

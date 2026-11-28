@@ -153,6 +153,9 @@ the more of a ticket runs in parallel, the more tickets each sprint can close.
 - Every worker runs in its own git worktree and changes only its task's files:
   - its first step, `ticket_tree.py start`, moves the worktree to the home's commit if `develop` moved since, copies
     the ticket's uncommitted work (earlier waves, `TICKET.md`, `PLAN.md`) into it and records the tree it starts from;
+    before anything else, it turns the Git LFS filter off in the worker's own config (`extensions.worktreeConfig`)
+    when its LFS files are pointers, so that no git command of the worker runs `git-lfs` or downloads an image,
+    and the main checkout keeps its filter;
   - its last step, `ticket_tree.py handoff --task <task id>`, saves its own changes since that tree as a patch in the
     shared git directory (`.git/erp/<ID>/pending/`).
 - After each wave, the **integrator** runs `ticket_tree.py integrate` with the wave's task ids in task order: it applies
@@ -212,6 +215,11 @@ file the tool was given), so that it goes to the owner of that file. A failed te
 goes to the owner of `<package>/Dockerfile`, since an image test fails as often from the image as from the test, and a
 file named without an extension (a `Dockerfile`, a `Makefile`) gets an owner like any other file
 (`namesAFile` of `.claude/workflows/ticket-run.js`).
+
+The repository's own tests judge the layout from its files, never from a list written by hand: what a change to a
+folder's `README.md` selects in CI follows the marker files present in that folder (`pyproject.toml`,
+`package.json`, `Dockerfile`, `Chart.yaml`), so a ticket that fills a folder of the layout does not break a test of
+another ticket.
 
 Each image folder the ticket changes is built from the clean tree and scanned with the `trivy image` command of
 `.github/workflows/images.yml` (checks `docker build <folder>` and `trivy <folder>`); the image is always removed
@@ -764,6 +772,8 @@ under bash with a stand-in `gh`: the merge into `master`, the tag, the way back,
   (`erp-checks-<pid>-…`), removes every tree whose process is gone (or, named before this rule, untouched for an
   hour), and prunes git's list of worktrees. A tree still in use by a running process is kept.
 - A clean tree that cannot be made or filled leaves no folder and no worktree behind.
+- Test reports written at the repository root (`reports/`, pytest's `--junitxml`) are ignored by git (`/reports/`,
+  anchored so that `.claude/scripts/reports/` stays tracked), so that no run's leftovers can be committed.
 - The clean trees, pytest's temporary files beside them and the sweep of stale trees live on disk, in
   `<parent>/.<repository>-erp-checks/` beside the main checkout, never in `/tmp` (a memory file system with a quota for
   each user) and never under `.git`, where git would take a test's folders for part of the repository.
