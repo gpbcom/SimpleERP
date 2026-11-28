@@ -25,6 +25,10 @@ A changed committed OpenAPI document of a service (``backend/services/<service>/
 service and its image, what a change under ``frontend/packages/`` selects: every front-end project with a
 ``package.json`` and every front-end image, so that the api-client's stale check runs on a regenerated document.
 
+A changed path under ``bruno/<name>/`` (the Bruno collections) selects ``backend/services/<name>`` when that service
+exists, and sets ``repository``, because the credential scan and the collections' freshness check run with the
+repository tests. ``bruno/`` alone, or a collection with no service, sets only ``repository``. No image is selected.
+
 A shared path (the root lock files and manifests, ``backend/models/``, ``backend/shared/``, ``compose.e2e.yaml``,
 ``.dockerignore``, ``.github/scripts/`` and the reusable workflows, ``terraform.yml`` and ``helm.yml`` included)
 selects everything that exists. ``--all`` does the same without reading stdin. A folder that does not exist yet is
@@ -43,6 +47,7 @@ SERVICES = "backend/services"
 FRONTEND = "frontend"
 TERRAFORM = "infra/terraform"
 HELM = "infra/helm"
+BRUNO = "bruno"
 TERRAFORM_SKIPPED = frozenset({"tests"})
 PORTALS = "frontend/portals"
 FRONTEND_PACKAGES = "frontend/packages"
@@ -204,6 +209,11 @@ def main(argv: Optional[List[str]] = None) -> int:
         if path.startswith(f"{FRONTEND_PACKAGES}/") or is_service_openapi(path):
             typescript |= set(all_typescript)
             images |= set(frontend_images)
+        if path.startswith(f"{BRUNO}/"):
+            repository = True
+            collection = f"{SERVICES}/{path.split('/')[1]}" if path.count("/") >= 2 else None
+            if collection in all_services:
+                services.add(collection)
         for selected, folders in (
             (services, all_services),
             (packages, all_packages),

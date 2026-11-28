@@ -9,7 +9,7 @@ import pytest
 from pydantic import JsonValue
 
 # First-party imports
-from tests.ci.workflows.helpers import ROOT, SCRIPTS, jobs, runs, step_using, triggers, with_of
+from tests.ci.workflows.helpers import ROOT, SCRIPTS, jobs, runs, step_using, steps, triggers, with_of
 
 NAME = "python.yml"
 
@@ -17,6 +17,12 @@ NAME = "python.yml"
 class TestPythonWorkflow:
     INPUTS: ClassVar[List[str]] = ["services", "packages", "repository"]
     PROJECT_JOBS: ClassVar[List[str]] = ["services", "packages"]
+    BRUNO_STEP: ClassVar[str] = "Bruno collection up to date (REQ-T05-05)"
+
+    def bruno_step(self) -> Dict[str, JsonValue]:
+        found = [step for step in steps(NAME, "services") if step.get("name") == self.BRUNO_STEP]
+        assert len(found) == 1, f"The services job has no step named {self.BRUNO_STEP!r}."
+        return found[0]
 
     def test_it_is_a_reusable_workflow_with_the_services_the_packages_and_the_repository_flag(self) -> None:
         call = triggers(NAME)["workflow_call"]
@@ -75,3 +81,21 @@ class TestPythonWorkflow:
         upload = step_using(NAME, job, "actions/upload-artifact")
         assert upload["if"] == "always()"
         assert str(with_of(upload)["name"]).startswith("test-report-python-")
+
+    def test_the_services_job_checks_that_the_bruno_collection_is_up_to_date(self) -> None:
+        run = str(self.bruno_step()["run"])
+        assert 'uv run python .github/scripts/bruno_collection.py check --service "$FOLDER"' in run
+
+    def test_the_bruno_check_comes_after_the_workspace_is_installed(self) -> None:
+        names = [step.get("name") for step in steps(NAME, "services")]
+        assert "Install the workspace" in names
+        assert self.BRUNO_STEP in names
+        assert names.index(self.BRUNO_STEP) > names.index("Install the workspace")
+
+    def test_the_bruno_check_is_never_skipped_nor_allowed_to_fail(self) -> None:
+        step = self.bruno_step()
+        assert "if" not in step
+        assert "continue-on-error" not in step
+
+    def test_the_bruno_check_reads_no_input_directly(self) -> None:
+        assert "${{ inputs" not in str(self.bruno_step().get("run", ""))

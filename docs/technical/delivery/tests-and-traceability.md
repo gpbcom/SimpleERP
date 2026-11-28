@@ -11,7 +11,7 @@ How SimpleERP is tested, and how every test result stays provable.
 | Harness and CI | `tests/harness/`, `tests/ci/` | local, CI | The ticket harness and the workflows do what their rules say |
 | Static | ruff, mypy, eslint, tsc | local, CI | Style and types |
 | GUI | Playwright in `frontend/<app>/e2e/` | local, CI, dev, QA | Screens and flows, against the real images of `compose.e2e.yaml` |
-| API | Bruno collection in `bruno/` (to come) | dev, QA | The HTTP APIs, headless |
+| API | Bruno collection in `bruno/` | dev, QA | The HTTP APIs, headless |
 | Upgrade | an upgrade test (to come) | QA | The previous release's data under the new images |
 
 Each service's tests live in `backend/services/<service>/tests/` and mirror its `src/`; they use real stand-ins
@@ -47,6 +47,24 @@ docker compose -f compose.e2e.yaml up --detach --wait
 bash .github/scripts/playwright.sh --grep @smoke
 pnpm --filter ./frontend/backoffice exec playwright show-report playwright-report
 ```
+
+## Bruno collections
+
+The API level is one Bruno collection per service, `bruno/<service>/`, run headless on dev and QA
+([D426](../../specs/06-decisions/technical/d426-testing-strategy.md)).
+
+- **Generated, not written.** The collection's `bruno.json`, `collection.bru` and `requests/` are generated from the
+  service's committed OpenAPI by `python3 .github/scripts/bruno_collection.py generate --service backend/services/<service>`.
+  They must not be edited by hand: a change to the API changes the OpenAPI, then the collection is generated again.
+- **Hand-written tests.** The tests written by hand live in the collection's `tests/` folder. For `platform`, they are
+  the health call and one refused call, which must answer problem+json with its code
+  ([REQ-T05-03](../../specs/03-technical/t05-api-and-webhooks/requirements/req-t05-03-problem-json.md)).
+- **Stage environment.** `environments/stage.bru` holds only `baseUrl`.
+- **No credential.** No credential is committed (TEST-1). The test `tests/ci/bruno_credentials/` scans `bruno/`, and
+  each collection's `.gitignore` keeps a local `.env` out of Git.
+- **Freshness.** CI fails when a collection is not up to date with its OpenAPI
+  ([REQ-T05-05](../../specs/03-technical/t05-api-and-webhooks/requirements/req-t05-05-contract-tests.md),
+  [CI/CD and stages](ci-cd-and-stages.md#workflows)).
 
 ## Test helpers
 
@@ -136,4 +154,4 @@ tests; anonymised copies only for the hosted support assistant's reproductions, 
 
 Decided in [D426](../../specs/06-decisions/technical/d426-testing-strategy.md).
 
-Last reviewed: 2026-11-28 (T0.22)
+Last reviewed: 2026-11-28 (T0.24)

@@ -1,0 +1,4 @@
+$ uv run ruff format --check tests/ci/bruno_collection/helpers.py tests/ci/bruno_collection/test_check.py tests/ci/bruno_collection/test_generate.py tests/ci/bruno_credentials/helpers.py tests/ci/bruno_credentials/test_bruno_credentials.py tests/ci/detect_changes/bruno/test_bruno_changes.py tests/ci/workflows/checks/test_python_workflow.py tests/ci/workflows/test_stage_workflow.py
+(cwd ., on the ticket's own files only)
+
+8 files already formatted

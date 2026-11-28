@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Get Health" file="requests/default/get_health_v1_health_get.bru" errors="0" failures="0" skipped="0" tests="0" timestamp="2026-11-28T00:44:04.775" hostname="guillaume-Precision-5690" time="0.061"/>
+  <testsuite name="health" file="tests/health.bru" errors="0" failures="0" skipped="0" tests="2" timestamp="2026-11-28T00:44:04.775" hostname="guillaume-Precision-5690" time="0.123">
+    <testcase name="the health call answers 200" status="pass" classname="tests/health" time="0.062"/>
+    <testcase name="the health body says ok" status="pass" classname="tests/health" time="0.062"/>
+  </testsuite>
+  <testsuite name="refused call" file="tests/refused-call.bru" errors="0" failures="0" skipped="0" tests="4" timestamp="2026-11-28T00:44:04.775" hostname="guillaume-Precision-5690" time="0.076">
+    <testcase name="a call without the company context is refused with a 400" status="pass" classname="tests/refused-call" time="0.019"/>
+    <testcase name="the refusal is problem+json" status="pass" classname="tests/refused-call" time="0.019"/>
+    <testcase name="the body has a status, a title and a code" status="pass" classname="tests/refused-call" time="0.019"/>
+    <testcase name="the body holds no secret and no stack trace" status="pass" classname="tests/refused-call" time="0.019"/>
+  </testsuite>
+</testsuites>
